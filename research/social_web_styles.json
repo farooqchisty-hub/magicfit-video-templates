@@ -1,0 +1,1520 @@
+[
+ {
+  "style": "Podcast-style clip ad (real or AI fake podcast)",
+  "definition": "Two people at mics in a studio set; the product comes up mid-conversation so it reads as a clipped podcast moment, not an ad.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 20,
+  "notable_examples": [
+   "AG1 podcast UGC playbook (Influee swipe file)",
+   "Danger Coffee founder podcast ads (Dave Asprey)",
+   "grounding product podcast VSL (FedotOff90)",
+   "Veo 3 / Gemini Omni AI podcast ads (maxxmalist, NahFlo2n, Mho_23)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Influee saw 9x as many podcast UGC briefs since 2022",
+    "url": "https://www.linkedin.com/posts/sebastian-novin_ag1-scaled-from-160m-to-600m-in-3-years-activity-7509159961608769536-ZaZe"
+   },
+   {
+    "claim": "Ranked S tier AI UGC format ('best format for anything that needs explaining')",
+    "url": "https://x.com/CEO_Vlad/status/2096569603761827953"
+   },
+   {
+    "claim": "Ranked A tier ecom format",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   },
+   {
+    "claim": "'podcast style VEO3 ads are crushing for us right now' (327 likes, 65k views)",
+    "url": "https://x.com/maxxmalist/status/1970196560718794918"
+   },
+   {
+    "claim": "One of 5 formats scaling clients past $300k/mo",
+    "url": "https://x.com/lorenzo_pravata/status/1998842454238199877"
+   },
+   {
+    "claim": "AI fake podcast $12 to 15 per 30s clip",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Best for products that need explaining (supplements, gadgets, wellness); weak for pure impulse or visual products.",
+  "notes": "Backlash signal: Reddit threads complain about ads posing as fake podcast clips (r/AskMarketing) and full podcast episodes as YouTube ads (r/mildlyinfuriating, 452 upvotes).",
+  "evidence_score": 38,
+  "rank": 1
+ },
+ {
+  "style": "Pixar-style 3D animated story",
+  "definition": "Stylized 3D animated mini-story, often with the product or a body part as an expressive character; pain point, quick narrative, product as hero.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 16,
+  "notable_examples": [
+   "Ryze Superfoods (17% of active ads are AI-animated 3D/Pixar storytelling)",
+   "Jeep AI-generated anthropomorphic spot premiered at Cannes Lions 2026",
+   "'Pixar doctor' AI VSLs (Lachezar Voynov)",
+   "Flowmix (construction) Pixar-style ad"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Client spent $80K on one Pixar-style AI ad, still profitable, outperforming UGC",
+    "url": "https://www.linkedin.com/posts/aazarshad_everyones-calling-ai-generated-content-activity-7439294828200411137-HHfH"
+   },
+   {
+    "claim": "Client ad: 12% CTR, 5% CVR",
+    "url": "https://www.reddit.com/r/AI_UGC_Marketing/comments/1sy17ny/ai_pixar_ads_are_printing_nano_banana_pro_kling/"
+   },
+   {
+    "claim": "Commenter across 4 DTC clients: 3.8% hook rate vs 2.9% human UGC baseline",
+    "url": "https://www.reddit.com/r/AI_UGC_Marketing/comments/1sy17ny/ai_pixar_ads_are_printing_nano_banana_pro_kling/"
+   },
+   {
+    "claim": "'Winning on Meta ($45k)', $6 to 7 per video",
+    "url": "https://www.reddit.com/r/FacebookAds/comments/1ro2hyi/those_pixar_cartoonish_ads_are_absolutely_winning/"
+   },
+   {
+    "claim": "Ryze format mix: 17% AI-animated 3D/Pixar",
+    "url": "https://x.com/FedotOff90/status/2092303494250135860"
+   },
+   {
+    "claim": "'Pixar ads are crushing for my clients' (412 likes), good for boring products",
+    "url": "https://www.linkedin.com/posts/ferdinandterme_pixar-ads-are-crushing-for-my-clients-right-activity-7439660205677809664-_LRn"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Works for boring or invisible-benefit products (bandages, vacuums, supplements); the animation carries the story.",
+  "notes": "Fatigue warning in r/FacebookAds comments: novelty dies once the feed saturates with the Pixar look.",
+  "evidence_score": 34,
+  "rank": 2
+ },
+ {
+  "style": "Street interview (real or AI)",
+  "definition": "Interviewer stops passersby with a question; reactions and answers deliver social proof and the product reveal.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 15,
+  "notable_examples": [
+   "StreetTalk (Josh Suggs) for Ridge, Dr. Squatch, Magic Spoon and 100+ brands",
+   "NAKED perfume street interview (r/streetinterviewads)",
+   "Conzuri, IceMob, Cupid Fragrances (bradenbt)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "StreetTalk: 8 figures ARR, over $100M attributable revenue",
+    "url": "https://www.linkedin.com/posts/josh-suggs-street-interview-ads-9912a3251_streettalk-has-reached-8-figures-in-arr-and-activity-7503485643948298240-buSU"
+   },
+   {
+    "claim": "AI street interviews as paid ads: 4.5x ROAS",
+    "url": "https://x.com/recap_david/status/2024150545884418432"
+   },
+   {
+    "claim": "A tier: 'the question does the hooking, converts on social proof'",
+    "url": "https://x.com/CEO_Vlad/status/2096569603761827953"
+   },
+   {
+    "claim": "Contrarian: ranked F tier",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   },
+   {
+    "claim": "AI street interview cloned in 15 minutes (40 upvotes)",
+    "url": "https://www.reddit.com/r/AI_UGC_Marketing/comments/1tmb3ks/100_ai_street_interview_the_fact_that_im_able_to/"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any mass-market product with a relatable question hook.",
+  "notes": "",
+  "evidence_score": 33,
+  "rank": 3
+ },
+ {
+  "style": "AI UGC avatar ad (synthetic creator)",
+  "definition": "An AI-generated person films a selfie-style testimonial, unboxing or demo with the real product composited or generated in.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 18,
+  "notable_examples": [
+   "Arcads gaming laptop and protein smoothie ads (SparkifyAI)",
+   "Higgsfield Marketing Studio UGC style",
+   "Kling 3.0 one-prompt UGC (mikefutia)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "'huge Ecom brands spend upwards of 90% of their budgets on AI creatives' (practitioner claim)",
+    "url": "https://www.reddit.com/r/AI_UGC_Marketing/comments/1ud6rrl/my_process_for_creating_ai_ugc_that_actually/"
+   },
+   {
+    "claim": "Real customer video beat AI UGC 'by a landslide' on every PDP test (Videowise brands)",
+    "url": "https://www.linkedin.com/posts/claudiucioba_18-months-ago-i-thought-ai-generated-ugc-activity-7455901492676460545-GUUZ"
+   },
+   {
+    "claim": "16B-impression study: AI ads match human CTR unless they look AI; perceived artificiality lowers CTR",
+    "url": "https://www.linkedin.com/posts/ericseufert_ai-generated-ads-perform-roughly-as-well-activity-7461053580997853184-s9Nk"
+   },
+   {
+    "claim": "Ranked F tier ecom format",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   },
+   {
+    "claim": "Higgsfield Marketing Studio launch post 3.79M views",
+    "url": "https://x.com/higgsfield/status/2043752265472004424"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "contested",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Product-agnostic, but trust-heavy categories (skincare claims, health) carry FTC/EU AI Act exposure for synthetic testimonials.",
+  "notes": "Proven format, contested AI execution: cost wins are clear, conversion wins are disputed.",
+  "evidence_score": 32,
+  "rank": 4
+ },
+ {
+  "style": "Cinematic AI product commercial (hyper motion / TV spot)",
+  "definition": "Premium macro product film: splashes, levitation, ingredient bursts, drone dives, fast camera moves, generated end to end with Seedance/Veo/Kling.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 18,
+  "notable_examples": [
+   "Sapporo and Vitamin-C spec ads (D_studioproject, 147k and 322k views)",
+   "Therabody spec ad (Seedance 2.5)",
+   "Pepsi, Pringles, Cadbury prompt-share ads",
+   "Loop agency full-AI ATL ads on YouTube and Prime (r/VEO3)",
+   "Higgsfield 'Hyper Motion' and 'TV Spot' presets"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Higgsfield URL-to-Ad with Hyper Motion / TV Spot styles, 150k views",
+    "url": "https://x.com/higgsfield/status/2044163123268177929"
+   },
+   {
+    "claim": "Counter: 'Cinematic ads, big-budget shoots, slow-mo product shots... performed the worst, every single time' across 25 Meta formats",
+    "url": "https://www.linkedin.com/posts/joe-hides_i-just-put-together-a-ranking-of-the-top-activity-7508123370182590464-BxCR"
+   },
+   {
+    "claim": "Counter: cinematic skincare ad tanked while a grainy mirror review drove 4x CTR",
+    "url": "https://www.linkedin.com/posts/zahramaharana_digitalmarketing-marketingstrategy-consumerbehavior-activity-7501157256848154624-Riei"
+   },
+   {
+    "claim": "First full-AI ATL Veo 3 ad (536 upvotes)",
+    "url": "https://www.reddit.com/r/VEO3/comments/1o2gtdm/we_just_launched_this_veo_3_ad_currently_running/"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "contested",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product with a hero shot; strongest for food, beverage, beauty, gadgets.",
+  "notes": "Most-posted AI style on X (showcase content), weakest performance evidence for direct response.",
+  "evidence_score": 32,
+  "rank": 5
+ },
+ {
+  "style": "UGC testimonial / talking head (human creator)",
+  "definition": "A real customer or creator speaks to camera about their result, shot on a phone in a natural setting.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 12,
+  "notable_examples": [
+   "Ryze Superfoods (24% of 5,324 active ads are UGC talking head)",
+   "Angry Orange ('This saved my marriage' review-led creative, $40M in 18 months)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "#1 Instagram ad format 2026, avg CTR 2.5 to 4%",
+    "url": "https://www.balistro.com/instagram-ad-creative-ideas-convert-2026/"
+   },
+   {
+    "claim": "Ryze format mix: UGC talking-head 24%",
+    "url": "https://x.com/FedotOff90/status/2092303494250135860"
+   },
+   {
+    "claim": "Roughly 1 in 10 to 12 creator pieces become winners",
+    "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1vr8fcy/running_hundreds_of_ugc_ads_taught_me_the_hit/"
+   },
+   {
+    "claim": "Testimonials one of 5 ads used across $100M Meta spend",
+    "url": "https://www.linkedin.com/posts/curtishowland_ive-spent-100m-on-meta-ads-in-the-dtc-space-activity-7417573805969276928-75Mk"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Works for any physical product with a customer outcome to describe.",
+  "notes": "",
+  "evidence_score": 30,
+  "rank": 6
+ },
+ {
+  "style": "AI claymation / clay stop-motion",
+  "definition": "Tactile clay characters and sets animated in stop-motion style, usually with an absurd premise and a clay villain/hero arc.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 15,
+  "notable_examples": [
+   "Bioma Health claymation ad (Shiv Sakhuja)",
+   "Vidrip app claymation spot (r/SideProject)",
+   "founder turned into claymation ad (kobyjconrad, 200+ creatives/month)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "'2 to 3x the feed average CTR' (repeated by two creators)",
+    "url": "https://x.com/spect3ral/status/2060415839422001561"
+   },
+   {
+    "claim": "CTRs 2 to 3x feed average",
+    "url": "https://www.linkedin.com/posts/aashams1992_claymotion-ads-are-crushing-it-on-meta-right-activity-7448391881367142400-6n5d"
+   },
+   {
+    "claim": "S tier: 'highest usable rate of any animation style'",
+    "url": "https://x.com/CEO_Vlad/status/2096569603761827953"
+   },
+   {
+    "claim": "Winning in multiple client accounts, made in 30 minutes",
+    "url": "https://www.linkedin.com/posts/fraser-cottrell_how-we-made-an-ai-claymation-ad-in-30-minutes-activity-7467541809678893057-T2Lr"
+   },
+   {
+    "claim": "'These AI claymation ads are crushing it on Meta' 46k views, 408 bookmarks",
+    "url": "https://x.com/mikefutia/status/2040101348621095173"
+   },
+   {
+    "claim": "Caveat: absurdity pulls views not buyers; test as hook grafted onto a selling body",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; strongest for consumables and household goods; lean into absurd premise.",
+  "notes": "Backlash in r/aislop and r/mildlyinfuriating ('disrespectful to animators').",
+  "evidence_score": 30,
+  "rank": 7
+ },
+ {
+  "style": "Founder story / founder-led ad",
+  "definition": "The founder on camera explains why they built the product, from sit-down story to lo-fi phone rant to warehouse walk-and-talk.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 12,
+  "notable_examples": [
+   "Henson Shaving",
+   "BePresent",
+   "Danger Coffee (Dave Asprey)",
+   "Carpe warehouse challenge ad",
+   "Blume, HigherDose, Tushy (founder intro hooks)",
+   "Blogilates"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Founder-story videos run 6 to 12 months, longest lifespan of formats",
+    "url": "https://adlibrary.com/posts/best-dtc-meta-ads-examples-2026"
+   },
+   {
+    "claim": "'Problem-first founder video' single highest-converting content format for a DTC social agency",
+    "url": "https://www.reddit.com/r/socialmedia/comments/1sbyoqy/dtc_brand_owners_whats_the_one_piece_of_content/"
+   },
+   {
+    "claim": "7 founder ad types with 100+ swipe file",
+    "url": "https://www.linkedin.com/posts/alexgoughcooper_founder-ads-you-need-to-run-activity-7462857254866870273-PrlE"
+   },
+   {
+    "claim": "Ranked B tier",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Needs a real founder willing to be on camera; AI founder clones exist but invented founders are a trust risk.",
+  "notes": "",
+  "evidence_score": 30,
+  "rank": 8
+ },
+ {
+  "style": "Singing / song ad (AI music)",
+  "definition": "The whole script is a catchy AI-generated song (Suno/Udio), often over a cartoon or stylized character, sometimes a long drama-style musical VSL.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 11,
+  "notable_examples": [
+   "Ryze mushroom coffee singing ads",
+   "Resilia drama-style singing VSLs",
+   "LEGO/crochet/cartoon singing ads (Diego_exits, DevidKeule)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Resilia 'rakes in 14M annually running drama style VSL singing ads'",
+    "url": "https://x.com/OriSilver/status/2103501563956269161"
+   },
+   {
+    "claim": "8.2 ROAS with singing cartoon ads",
+    "url": "https://x.com/Diego_exits/status/2088560005716836605"
+   },
+   {
+    "claim": "9.2 ROAS with cartoon ads",
+    "url": "https://x.com/DevidKeule/status/2089352262665552294"
+   },
+   {
+    "claim": "First singing ad test: 19 cents spend for 2 sales",
+    "url": "https://x.com/moderndayscaler/status/2103859077612782001"
+   },
+   {
+    "claim": "Suno song per script doubles variants (15 to 30 ads)",
+    "url": "https://x.com/alexgoughcooper/status/2046294017927704607"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; the song carries benefits and brand recall.",
+  "notes": "Strong backlash: r/hatethissmug 'these horrible singing ai ads' (Ryze named), r/aislop 'singing AI slop ads' (121 upvotes).",
+  "evidence_score": 26,
+  "rank": 9
+ },
+ {
+  "style": "Us vs Them / David and Goliath comparison",
+  "definition": "Split-screen or alternating head-to-head of the product against the category default or big incumbent.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 8,
+  "notable_examples": [
+   "HiSmile, Ancestral Cosmetics, Tallow Truth (Ours vs Theirs)",
+   "'We're Not Cheap' videos (Dara Denney)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "#1 of 5 formats always used across $100M DTC Meta spend",
+    "url": "https://www.linkedin.com/posts/curtishowland_ive-spent-100m-on-meta-ads-in-the-dtc-space-activity-7417573805969276928-75Mk"
+   },
+   {
+    "claim": "'David & Goliath' videos top performing format across 20,000 ads",
+    "url": "https://www.linkedin.com/posts/daradenney_ive-created-20000-ads-heres-whats-converting-activity-7453082218517917696-MNVD"
+   },
+   {
+    "claim": "Ours vs Theirs among 8 formats in 1,200+ winning ads",
+    "url": "https://www.reddit.com/r/FacebookAds/comments/1s9hlea/these_ad_formats_keep_showing_up_in_winning_ads/"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product with a clear differentiator vs the old way.",
+  "notes": "",
+  "evidence_score": 26,
+  "rank": 10
+ },
+ {
+  "style": "Ugly ad / lo-fi native",
+  "definition": "Deliberately rough phone footage or low-effort text so it reads as organic content, not an ad.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 8,
+  "notable_examples": [
+   "Shroom IQ, Norse Organics, 40 Plus & Fabulous (ugly ads)",
+   "Blogilates ugly founder videos"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "42% of top-spending ads are lo-fi; 53% of advertisers plan more lo-fi",
+    "url": "https://motionapp.com/creative-trends"
+   },
+   {
+    "claim": "'The less an ad feels like an ad, the better it performs' (25-format ranking)",
+    "url": "https://www.linkedin.com/posts/joe-hides_i-just-put-together-a-ranking-of-the-top-activity-7508123370182590464-BxCR"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product.",
+  "notes": "",
+  "evidence_score": 26,
+  "rank": 11
+ },
+ {
+  "style": "Unboxing",
+  "definition": "Hands or a creator open the package and reveal the product with close-ups, often with crisp packaging sound.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 10,
+  "notable_examples": [
+   "Arcads gaming laptop unboxing ad",
+   "Flova Apple-style unboxing",
+   "AI agent sweater unboxing (r/AI_UGC_Marketing)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "UGC unboxings among dominant TikTok ecommerce formats",
+    "url": "https://influee.co/blog/tiktok-ad-formats"
+   },
+   {
+    "claim": "AI unboxing $1.40 to 3 per 10 seconds",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   },
+   {
+    "claim": "Listed in 11 AI video formats crushing across 200+ winning DTC ads",
+    "url": "https://www.linkedin.com/posts/yousifa_ive-tore-apart-200-winning-dtc-ads-these-activity-7510039496156020736-fzqr"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any boxed physical product; best with premium packaging.",
+  "notes": "",
+  "evidence_score": 25,
+  "rank": 12
+ },
+ {
+  "style": "Before / after transformation",
+  "definition": "Two matched scenes (same framing and light) showing the problem state and the result state.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 7,
+  "notable_examples": [
+   "Transformation ads ('what happens to X if you take Y for N days')"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "A tier (statics)",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   },
+   {
+    "claim": "Transformation UGC converts best for brands selling outcomes",
+    "url": "https://adlibrary.com/posts/best-dtc-meta-ads-examples-2026"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Needs a visible change (skin, cleaning, fitness, home); policy risk in skincare and weight loss.",
+  "notes": "",
+  "evidence_score": 25,
+  "rank": 13
+ },
+ {
+  "style": "ASMR / satisfying product",
+  "definition": "Close-mic tactile sound and oddly satisfying visuals (pours, crunches, cleaning, cutting, clicks), little or no talking.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 9,
+  "notable_examples": [
+   "ASMR plus ridiculous foley ad (HireFireTeam)",
+   "'Silent review' ASMR format (The Social Savannah)",
+   "AI mukbang ASMR ramen ad",
+   "Toyota satisfying ad (r/Satisfyingasfuck, 2,252 upvotes)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "ASMR + foley ad took over account with 43% hold rate",
+    "url": "https://x.com/HireFireTeam/status/1807762698664337743"
+   },
+   {
+    "claim": "Motion trends: escapism/satisfying content, soap-crushing account 42M likes",
+    "url": "https://motionapp.com/creative-trends"
+   },
+   {
+    "claim": "ASMR listed among 37 favourite formats from 50,000+ DTC video ads",
+    "url": "https://www.linkedin.com/posts/abramsjake_favorite-creative-formats-activity-7465744981731942401-fxtA"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Best for tactile, food, beauty, cleaning products; weaker for products with no sensory moment.",
+  "notes": "",
+  "evidence_score": 24,
+  "rank": 14
+ },
+ {
+  "style": "Micro movie / short drama ad",
+  "definition": "A 30 to 60 second film built on story architecture (character, conflict, payoff) instead of hook-benefit-CTA; includes AI short-drama ads.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 9,
+  "notable_examples": [
+   "Toyota truck cliff spot (Kyra Richards breakdown)",
+   "Marc Jacobs microdrama for the Scene bag",
+   "Sparko 'The Empire' germ-board-meeting AI film",
+   "Seedance 2.5 multi-cut drama ads"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "'2027 will be the year of Micro movie ads' post, 11,671 likes",
+    "url": "https://www.linkedin.com/posts/kyraserio_2027-will-be-the-year-of-micro-movie-ads-activity-7505962524463382528-JxSx"
+   },
+   {
+    "claim": "Motion masterclass: FB video ads turning into micro movies in 2026 (Sarah Levinger)",
+    "url": "https://www.linkedin.com/posts/motion1_how-you-can-make-micro-movies-save-this-activity-7412496767960862720-BO_2"
+   },
+   {
+    "claim": "'Entertainment ads': song ads, drama ads, educational animation dominate top brands",
+    "url": "https://x.com/pounddz/status/2103086813598408802"
+   },
+   {
+    "claim": "Ipsos/Syracuse: AI ads underperform partly because AI attempts storytelling less often",
+    "url": "https://www.linkedin.com/posts/lisa-zielinski-570a3a6_in-our-recent-study-with-syracuse-university-activity-7485396282685972480-SdOO"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product that can be the payoff of a story.",
+  "notes": "",
+  "evidence_score": 24,
+  "rank": 15
+ },
+ {
+  "style": "Absurdist / brainrot / high-dopamine AI hook",
+  "definition": "Rapid-fire impossible or unhinged scenes (floating in eggs, alien chugging beer, hybrid creatures) that grab attention before the product lands.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 9,
+  "notable_examples": [
+   "Kalshi NBA Finals spot by PJ Accetturo (Veo 3, under $2,000)",
+   "Italian brainrot brand content (Ryanair; KFC backlash)",
+   "stretch-jeans backflip Sora ad (Alex Cooper)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Kalshi ad: about 18M impressions in 48 hours, 20M+ total, under $2,000",
+    "url": "https://www.npr.org/2025/06/23/nx-s1-5432712/ai-video-ad-kalshi-advertising-nba-finals"
+   },
+   {
+    "claim": "Kalshi launch post 1.14M views",
+    "url": "https://x.com/PJaccetturo/status/1932893260399456513"
+   },
+   {
+    "claim": "Caveat: pulls views not necessarily buyers; use as a 3s hook",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   },
+   {
+    "claim": "Motion trend: absurdity/brain rot lowers cognitive load",
+    "url": "https://motionapp.com/creative-trends"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product as a hook; the body still has to sell.",
+  "notes": "",
+  "evidence_score": 24,
+  "rank": 16
+ },
+ {
+  "style": "Problem / solution (problem agitation)",
+  "definition": "Open on a specific pain, agitate for a couple of seconds, flip to the product as the fix; under 30 seconds.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 6,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "'highest-performing cold-traffic format for DTC brands in most verticals'",
+    "url": "https://adlibrary.com/posts/best-dtc-meta-ads-examples-2026"
+   },
+   {
+    "claim": "One of 5 formats across $100M spend",
+    "url": "https://www.linkedin.com/posts/curtishowland_ive-spent-100m-on-meta-ads-in-the-dtc-space-activity-7417573805969276928-75Mk"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any problem-solving product.",
+  "notes": "",
+  "evidence_score": 24,
+  "rank": 17
+ },
+ {
+  "style": "Skit / comedic scenario",
+  "definition": "Short scripted or staged comedic scene (often relatable conflict) that introduces the product as the punchline or fix.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 8,
+  "notable_examples": [
+   "Harmon Brothers-style scripted spots (Squatty Potty, Purple, Poo-Pourri)",
+   "Liquid Death 'Deadliest Thing on Earth' ($1,500, 3M views)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "25% of ads spending $1M+ use humor vs 14% of social ads",
+    "url": "https://motionapp.com/creative-trends"
+   },
+   {
+    "claim": "Skits 'blowing up right now for cold top of the funnel' (1,200+ ads analyzed)",
+    "url": "https://www.reddit.com/r/UGCcreators/comments/1s5tmkf/these_ugc_formats_keep_showing_up_in_winning_ads/"
+   },
+   {
+    "claim": "Skits listed in $100M-spend winning formats cheat sheet",
+    "url": "https://www.linkedin.com/posts/lachezarvoynov_winning-meta-ad-creative-formats-cheat-sheet-activity-7479904514553151488-68VR"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product with a relatable problem.",
+  "notes": "",
+  "evidence_score": 23,
+  "rank": 18
+ },
+ {
+  "style": "Zach D Films style 3D explainer",
+  "definition": "Fast, clay-like 3D animation in second person ('you') that escalates a what-if or shows anatomy/mechanism, then cuts to the product.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 8,
+  "notable_examples": [
+   "Ridge suitcases sponsored Zack D Films short",
+   "Prime Hydration Zack D Films ad (r/ksi, 897 upvotes)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "A tier: 'second person escalation, best for problems that compound'",
+    "url": "https://x.com/CEO_Vlad/status/2096569603761827953"
+   },
+   {
+    "claim": "Channel has 28.6M subscribers; Upwork/Fiverr jobs for ZDF-style ads",
+    "url": "https://www.upwork.com/freelance-jobs/apply/Animator-Video-Editor-for-Zack-Films-Style-Ads_~022034006309696494168/"
+   },
+   {
+    "claim": "'Anatomical product animations' in 11 AI formats crushing",
+    "url": "https://www.linkedin.com/posts/yousifa_ive-tore-apart-200-winning-dtc-ads-these-activity-7510039496156020736-fzqr"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "moderate",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Best when there is a hidden mechanism (body, sleep, digestion, materials); weaker for pure aesthetic products.",
+  "notes": "",
+  "evidence_score": 23,
+  "rank": 19
+ },
+ {
+  "style": "Native text formats in video (iMessage, Notes app, Reddit post, tweet, sticky note)",
+  "definition": "The ad is a screen of a text thread, notes list, forum post or sticky note, animated or filmed, so it reads as a recommendation between friends.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 7,
+  "notable_examples": [
+   "Spacegoods, Eleat, Life Cykel text-message ads",
+   "sticky-note UGC cloned with Nano Banana + Seedance"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Text-message format 'consistently outperforms polished creatives by 2 to 3x on CTR' (commenter, supplement brands)",
+    "url": "https://www.reddit.com/r/FacebookAds/comments/1s9hlea/these_ad_formats_keep_showing_up_in_winning_ads/"
+   },
+   {
+    "claim": "Text overlays + iMessage convos in list of formats top brands run",
+    "url": "https://x.com/FynCas/status/1949502399451689237"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product.",
+  "notes": "",
+  "evidence_score": 22,
+  "rank": 20
+ },
+ {
+  "style": "Product demo (show it working)",
+  "definition": "20 to 40 seconds of the product in action, often no voiceover, sometimes POV hands only.",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 7,
+  "notable_examples": [
+   "multi-scene demo (CEO_Vlad A tier)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "One of 5 formats always used across $100M spend",
+    "url": "https://www.linkedin.com/posts/curtishowland_ive-spent-100m-on-meta-ads-in-the-dtc-space-activity-7417573805969276928-75Mk"
+   },
+   {
+    "claim": "POV hands demo is the 'AI-friendliest format', $5 to 15 per demo",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product with a visible function.",
+  "notes": "",
+  "evidence_score": 22,
+  "rank": 21
+ },
+ {
+  "style": "CGI product hero / FOOH (fake out of home)",
+  "definition": "Hyper-real CGI puts a giant or impossible version of the product into a real city (buses getting mascara, bags driving through Paris).",
+  "sources": [
+   "LinkedIn",
+   "Web",
+   "X",
+   "Reddit"
+  ],
+  "independent_mentions": 7,
+  "notable_examples": [
+   "Maybelline mascara bus/tube",
+   "Jacquemus Le Bambino bags on cars",
+   "Nykaa sneakers portal at Gateway of India",
+   "Apple Vertex CGI NYC weather"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Maybelline: 12M views in hours, 76M total",
+    "url": "https://www.marketingbrew.com/stories/2023/10/26/why-some-brands-are-embracing-fake-out-of-home"
+   },
+   {
+    "claim": "Critic: fake OOH CGI ads 2 years on, 'probably costing £15k upwards for minimal impact'",
+    "url": "https://www.linkedin.com/posts/rich-johnson-84a0b51a_somewhere-in-an-alternate-universe-a-marketing-activity-7378759227378511872-P4z5"
+   },
+   {
+    "claim": "Academic study on engagement in TikTok #FOOH content accepted for 2027",
+    "url": "https://www.linkedin.com/posts/delchiappa_fooh-fooh-activity-7480512192635789312-rRel"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product with an iconic shape or packaging.",
+  "notes": "Brand-awareness format; almost no direct-response evidence.",
+  "evidence_score": 22,
+  "rank": 22
+ },
+ {
+  "style": "Green screen reaction / reply-to-comment",
+  "definition": "Creator appears over a screenshot, article, comment or a proven winning ad and reacts or answers the objection.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 6,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "A tier: green screen reactions over a proven winner",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   },
+   {
+    "claim": "Reply-to-comment ad $2 to 11 per video",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   },
+   {
+    "claim": "Green screen meme format automatable 'for pennies'",
+    "url": "https://x.com/_mattwelter/status/1878104250560946482"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product.",
+  "notes": "",
+  "evidence_score": 21,
+  "rank": 23
+ },
+ {
+  "style": "Meme ad",
+  "definition": "A known meme template repurposed around the product or the problem.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 6,
+  "notable_examples": [
+   "Olipop, Spot and Tango, EveryPlate"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Meme ads among 8 formats in 1,200+ winning ads",
+    "url": "https://www.reddit.com/r/FacebookAds/comments/1s9hlea/these_ad_formats_keep_showing_up_in_winning_ads/"
+   },
+   {
+    "claim": "Ranked C tier",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; short shelf life.",
+  "notes": "",
+  "evidence_score": 21,
+  "rank": 24
+ },
+ {
+  "style": "Craft and toy material animation (felt, crochet, LEGO, plush, paper craft, doll)",
+  "definition": "The same animated story rendered in a tactile material world: felt stop-motion, crochet, brick toys, plush, paper cutout, plastic doll, diorama.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 8,
+  "notable_examples": [
+   "feltmation and crochet prompt docs (adswithcami)",
+   "LEGO/crochet singing ads (Diego_exits)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Style list: Pixar, cartoon, flat 2D, claymation, plush/toy, felt stop motion, paper craft, plastic doll, Lego, diorama (452 likes)",
+    "url": "https://www.linkedin.com/posts/alexgoughcooper_ai-animation-ad-styles-activity-7457783748747624448-oHv9"
+   },
+   {
+    "claim": "3 angles x 5 styles = 15 ads; cartoon styles keep the 'AI slop detector quiet'",
+    "url": "https://www.linkedin.com/posts/yousifa_these-cartoon-style-ads-are-making-literal-activity-7509677157552398336-n-wl"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; mainly a variety lever on a winning animated script.",
+  "notes": "",
+  "evidence_score": 20,
+  "rank": 25
+ },
+ {
+  "style": "Anime / manga style",
+  "definition": "Japanese-animation look: cel shading, speed lines, dramatic framing, sometimes manga panels animated.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 8,
+  "notable_examples": [
+   "World Cup anime fan video, 4M+ views (Deykhan Ten)",
+   "Seedance 2.0 manga-panel to anime (Varun Mayya)",
+   "Mochi.tv AI anime shorts (YC)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Anime listed among AI animation ad styles in multiple workflow posts (Mho_23, mikefutia, spwfeijen)",
+    "url": "https://x.com/Mho_23/status/2071293386724982947"
+   },
+   {
+    "claim": "AI anime ad generators marketed to brands",
+    "url": "https://www.pippit.ai/blog/ai-anime/what-is-ai-anime-ad-generator"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Works for youth, gaming, streetwear, snacks, gadgets; brand-fit risk for premium or older audiences.",
+  "notes": "No DTC performance numbers found; Reddit mentions are mostly complaints about AI anime app ads.",
+  "evidence_score": 20,
+  "rank": 26
+ },
+ {
+  "style": "Listicle video ('3 reasons why')",
+  "definition": "Numbered reasons or signs, each segment its own mini hook, voiceover or creator delivered.",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 5,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "Listicle videos among top formats across 20,000 ads",
+    "url": "https://www.linkedin.com/posts/daradenney_ive-created-20000-ads-heres-whats-converting-activity-7453082218517917696-MNVD"
+   },
+   {
+    "claim": "'Reasons why' one of 5 ads across $100M spend",
+    "url": "https://www.linkedin.com/posts/curtishowland_ive-spent-100m-on-meta-ads-in-the-dtc-space-activity-7417573805969276928-75Mk"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product.",
+  "notes": "",
+  "evidence_score": 20,
+  "rank": 27
+ },
+ {
+  "style": "VSL / advertorial story video",
+  "definition": "60 seconds to several minutes of education-through-story (history, mechanism, villain) with the product revealed late.",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 7,
+  "notable_examples": [
+   "The Black Stuff soap advertorial (2,000 years of leatherworking story)",
+   "Harmon Brothers (Squatty Potty, Purple, Poo-Pourri)",
+   "grounding product podcast VSL"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "5+ minute VSLs and 2 to 4 minute Pixar doctor AI VSLs in $100M-spend cheat sheet",
+    "url": "https://www.linkedin.com/posts/lachezarvoynov_winning-meta-ad-creative-formats-cheat-sheet-activity-7479904514553151488-68VR"
+   },
+   {
+    "claim": "Advertorial-style video 'one of the better formats we're seeing right now'",
+    "url": "https://x.com/sourfraser/status/2102401597879816679"
+   },
+   {
+    "claim": "Long-form educational (40 to 50s+) gaining spend",
+    "url": "https://motionapp.com/creative-trends"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Best for considered or 'weird' products that need belief building.",
+  "notes": "",
+  "evidence_score": 19,
+  "rank": 28
+ },
+ {
+  "style": "Day in the life / GRWM / routine vlog",
+  "definition": "The product woven into a morning routine, get-ready-with-me or vlog-style day, often a recurring persona.",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 6,
+  "notable_examples": [
+   "'GRWM in Tokyo, Harajuku vibes' AI earbuds ad went viral (ShamiWeb3)",
+   "AI persona day-in-the-life account earning $11k/mo (framexin)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Car POVs + GRWM and day-in-the-life hooks in list of formats top brands run",
+    "url": "https://x.com/FynCas/status/1949502399451689237"
+   },
+   {
+    "claim": "Vlog and native lifestyle in 37-format master list",
+    "url": "https://www.linkedin.com/posts/abramsjake_favorite-creative-formats-activity-7465744981731942401-fxtA"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Best for daily-use products (beauty, wearables, food, wellness).",
+  "notes": "",
+  "evidence_score": 18,
+  "rank": 29
+ },
+ {
+  "style": "POV / first-person",
+  "definition": "Camera is the viewer's eyes ('POV: you finally...'), hands and point of view, no face.",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 5,
+  "notable_examples": [
+   "pastel earbuds Japanese cut-scene POV ad (ShamiWeb3)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "First-person/POV content named a Motion creative trend",
+    "url": "https://motionapp.com/creative-trends"
+   },
+   {
+    "claim": "Warning: 12 audited brands ran the same 'POV: you just found out about [product]' opening 47 times",
+    "url": "https://www.linkedin.com/posts/nishant-parmar-92b528305_dtc-ecommerce-creativestrategy-activity-7505677269177393153-kaQO"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product.",
+  "notes": "",
+  "evidence_score": 17,
+  "rank": 30
+ },
+ {
+  "style": "Talking objects / anthropomorphic everyday items",
+  "definition": "Everyday objects or foods become talking characters (a fryer complaining, a banana explaining digestion) placed in real-looking scenes.",
+  "sources": [
+   "X",
+   "Reddit",
+   "LinkedIn"
+  ],
+  "independent_mentions": 7,
+  "notable_examples": [
+   "fryer, grape, banana, sun, lightbulb health-hack characters (AlessandroLavis, davidfigeira)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "'$150k+/month content systems' built on object characters",
+    "url": "https://x.com/AlessandroLavis/status/2022264096318525834"
+   },
+   {
+    "claim": "'$80k+/month ad accounts are quietly testing animated object formats'",
+    "url": "https://x.com/davidfigeira/status/2031338896605286598"
+   },
+   {
+    "claim": "Backlash: 'I hate AI animated objects in ads... these ads are EVERYWHERE'",
+    "url": "https://www.reddit.com/r/hatethissmug/comments/1vxdyj6/i_hate_ai_animated_objects_in_ads/"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; the product or the problem itself can talk.",
+  "notes": "",
+  "evidence_score": 16,
+  "rank": 31
+ },
+ {
+  "style": "Yapper ad (unscripted creator rant)",
+  "definition": "A charismatic creator talks loosely and fast about a problem or product with minimal editing.",
+  "sources": [
+   "X",
+   "LinkedIn"
+  ],
+  "independent_mentions": 4,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "Yapper ads top format in multiple accounts",
+    "url": "https://www.linkedin.com/posts/alexgoughcooper_yappers-are-the-top-ad-format-in-multiple-activity-7434968393566445569-tR9N"
+   },
+   {
+    "claim": "'one of the last islands' AI cannot fake (575 likes)",
+    "url": "https://www.linkedin.com/posts/daradenney_the-latest-trend-in-creator-content-for-activity-7460297912896458753-3ymH"
+   },
+   {
+    "claim": "S tier ecom format",
+    "url": "https://x.com/ChelalaPierre1/status/2103088143138193657"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "strong",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; depends on creator casting.",
+  "notes": "",
+  "evidence_score": 16,
+  "rank": 32
+ },
+ {
+  "style": "Tutorial / hack",
+  "definition": "The product is the payoff of a useful trick or how-to ('hack I wish I knew sooner').",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 4,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "Tutorial & hack: low sales pressure, excellent on cold audiences",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   },
+   {
+    "claim": "Higgsfield 'Tutorial' preset among 9 ad styles",
+    "url": "https://x.com/higgsfield/status/2044163123268177929"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Needs a use case that can be taught.",
+  "notes": "",
+  "evidence_score": 16,
+  "rank": 33
+ },
+ {
+  "style": "Virtual try-on",
+  "definition": "The product worn or used by many generated body types and settings without a shoot.",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 4,
+  "notable_examples": [
+   "Higgsfield 'Virtual Try On' preset"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Try-on videos without a model in 11 AI formats crushing",
+    "url": "https://www.linkedin.com/posts/yousifa_ive-tore-apart-200-winning-dtc-ads-these-activity-7510039496156020736-fzqr"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "no",
+  "product_agnostic_note": "Only wearables (fashion, jewelry, eyewear, accessories).",
+  "notes": "",
+  "evidence_score": 16,
+  "rank": 34
+ },
+ {
+  "style": "Expert explainer",
+  "definition": "A doctor, specialist or credentialed person explains the mechanism; also AI 'doctor' characters.",
+  "sources": [
+   "Reddit",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 4,
+  "notable_examples": [
+   "MUD\\WTR, Fulton Insoles, Jolie expert hooks"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Expert angle one of 19 hooks in 10,000+ top video ads",
+    "url": "https://www.reddit.com/r/FacebookAds/comments/1rw5ufs/i_analyzed_10000_topperforming_video_ads_from/"
+   },
+   {
+    "claim": "Oren John: 'the new mid funnel is expert storytelling'",
+    "url": "https://www.linkedin.com/posts/motion1_oren-john-value-content-is-commodified-activity-7436754533252263936-tGXH"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "moderate",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Needs a mechanism an expert can credibly explain.",
+  "notes": "",
+  "evidence_score": 16,
+  "rank": 35
+ },
+ {
+  "style": "Miniature / diorama / tilt-shift world",
+  "definition": "Toy-sized sets and tilt-shift blur make the product world look like a miniature model.",
+  "sources": [
+   "X",
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 5,
+  "notable_examples": [
+   "Airbnb stylized miniature diorama spots into 2026"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Airbnb diorama spots polished enough that viewers debated if they were AI",
+    "url": "https://shhots.ai/blog/best-ai-commercials/"
+   },
+   {
+    "claim": "Miniature tilt-shift AI video 'one of the fastest-growing formats on Instagram and YouTube'",
+    "url": "https://www.lvprompts.com/2026/07/diorama-free-ai-prompt-generator-for.html"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product as a hero in a tiny world.",
+  "notes": "",
+  "evidence_score": 14,
+  "rank": 36
+ },
+ {
+  "style": "Retro VHS / 90s infomercial / nostalgia",
+  "definition": "Degraded VHS look, 90s infomercial or 'As Seen On TV' parody, or Y2K nostalgia styling.",
+  "sources": [
+   "X",
+   "Reddit",
+   "Web"
+  ],
+  "independent_mentions": 5,
+  "notable_examples": [
+   "Poppi Y2K Super Bowl ad",
+   "90s POV-ray infomercial parody (re_skob, 113k views)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Poppi nostalgia campaign: 100x search, 10x Amazon sales, 250% IG engagement",
+    "url": "https://motionapp.com/creative-trends"
+   },
+   {
+    "claim": "Retro cartoon and synthwave in AI animation ad style lists",
+    "url": "https://x.com/mikefutia/status/2040101348621095173"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; parody tone suits gadgets and household goods.",
+  "notes": "",
+  "evidence_score": 14,
+  "rank": 37
+ },
+ {
+  "style": "Fake news report / breaking news",
+  "definition": "Anchor, lower-thirds and breaking-news UI present the product as a news story or 'as featured on' moment.",
+  "sources": [
+   "X",
+   "Reddit",
+   "Web"
+  ],
+  "independent_mentions": 4,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "Fake news-style ads in list of formats top brands run",
+    "url": "https://x.com/FynCas/status/1949502399451689237"
+   },
+   {
+    "claim": "'Brand just got featured on' authority hook (1,200+ ads analyzed)",
+    "url": "https://www.reddit.com/r/UGCcreators/comments/1s5tmkf/these_ugc_formats_keep_showing_up_in_winning_ads/"
+   },
+   {
+    "claim": "Fake news anchor $11 to 15 per video; must stay obvious parody",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; keep it parody to avoid deception.",
+  "notes": "",
+  "evidence_score": 13,
+  "rank": 38
+ },
+ {
+  "style": "Wes Anderson symmetric pastel",
+  "definition": "Centered symmetric frames, pastel palette, deadpan narration and chapter cards.",
+  "sources": [
+   "X",
+   "Web"
+  ],
+  "independent_mentions": 6,
+  "notable_examples": [
+   "Prada Wes Anderson short (fan anticipation)",
+   "Ava Williams train TikTok, 13M views, 180k videos on the audio"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Wes Anderson miniature listed in one-workflow AI animation ad styles",
+    "url": "https://x.com/mikefutia/status/2040101348621095173"
+   },
+   {
+    "claim": "Trend origin 13M views",
+    "url": "https://www.creativebloq.com/news/wes-anderson-tiktok"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product; brand-aesthetic play.",
+  "notes": "",
+  "evidence_score": 12,
+  "rank": 39
+ },
+ {
+  "style": "GTA / video game parody",
+  "definition": "The ad is styled as open-world game footage or game UI, with missions and HUD.",
+  "sources": [
+   "X",
+   "Reddit"
+  ],
+  "independent_mentions": 4,
+  "notable_examples": [
+   "Kalshi 'GTA-style madness' NBA Finals spot",
+   "Whop GTA style ad (beechinour)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "GTA-style ad for Whop 'generated millions of views'",
+    "url": "https://x.com/beechinour/status/1988701882446176505"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Best for youth, gaming-adjacent and male audiences.",
+  "notes": "",
+  "evidence_score": 10,
+  "rank": 40
+ },
+ {
+  "style": "Pain point visualization ('make the invisible visible')",
+  "definition": "Visceral AI visuals of the problem (shin splints cracking, bloated gut inflating) before the product fix.",
+  "sources": [
+   "LinkedIn",
+   "X"
+  ],
+  "independent_mentions": 3,
+  "notable_examples": [
+   "stretch jeans, running shoes, bloat relief concepts (Alex Cooper)"
+  ],
+  "performance_numbers": [
+   {
+    "claim": "Best Sora outputs were unrealistic pain-point visuals",
+    "url": "https://www.linkedin.com/posts/alexgoughcooper_ive-spent-20-hours-making-ads-with-sora-activity-7391123251642482688-2m74"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Best for problem-solving products (health, comfort, cleaning).",
+  "notes": "",
+  "evidence_score": 9,
+  "rank": 41
+ },
+ {
+  "style": "Mashup (AI plus real)",
+  "definition": "Fast edit chaining UGC clips, AI shots and b-roll into re-hooking sequences with no linear narrative.",
+  "sources": [
+   "LinkedIn",
+   "Web"
+  ],
+  "independent_mentions": 3,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "'AI + Real Mashup' in 37-format list",
+    "url": "https://www.linkedin.com/posts/abramsjake_favorite-creative-formats-activity-7465744981731942401-fxtA"
+   },
+   {
+    "claim": "Mashup $3 to 10 generation cost",
+    "url": "https://www.apogee.ad/en/blog/crea-publicitaire-ia-concepts-meta-ads/"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product.",
+  "notes": "",
+  "evidence_score": 9,
+  "rank": 42
+ },
+ {
+  "style": "Hidden camera / doorbell cam hook",
+  "definition": "Opens as security, doorbell or hidden-camera footage for voyeuristic realism.",
+  "sources": [
+   "LinkedIn",
+   "X"
+  ],
+  "independent_mentions": 2,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "Hidden camera and doorcam hooks seen on the Sora feed, being tested",
+    "url": "https://www.linkedin.com/posts/alexgoughcooper_ive-spent-20-hours-making-ads-with-sora-activity-7391123251642482688-2m74"
+   }
+  ],
+  "format_type": "novelty_scroll_stop_ai",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "partial",
+  "product_agnostic_note": "Works as a hook for home, pet, security, delivery-moment products.",
+  "notes": "",
+  "evidence_score": 8,
+  "rank": 43
+ },
+ {
+  "style": "In-car talking head",
+  "definition": "Creator talks from the driver's seat, reads as private and unscripted.",
+  "sources": [
+   "X"
+  ],
+  "independent_mentions": 2,
+  "notable_examples": [],
+  "performance_numbers": [
+   {
+    "claim": "S tier: 'reads as private and unscripted and is the CHEAPEST to render well'",
+    "url": "https://x.com/CEO_Vlad/status/2096569603761827953"
+   }
+  ],
+  "format_type": "proven_performance",
+  "performance_signal": "anecdotal",
+  "product_agnostic": "yes",
+  "product_agnostic_note": "Any product.",
+  "notes": "",
+  "evidence_score": 5,
+  "rank": 44
+ }
+]

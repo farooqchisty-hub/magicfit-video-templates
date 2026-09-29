@@ -1,0 +1,21 @@
+{
+  "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+  "name": "Red Bull Sugarfree",
+  "brand": "Red Bull",
+  "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+  "tagline": "Wiiings without sugar",
+  "size": "250 ml can",
+  "archetype": "ingested",
+  "scale": "handheld",
+  "look": "slim silver and blue can, two charging red bulls in front of a yellow sun, 'Sugarfree' marked on the can",
+  "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+  "facts": {"caffeine_mg": 75, "taurine_mg": 1000, "b_vitamins": "niacin, B2, B6, B12", "sweeteners": "sucralose, acesulfame K"},
+  "allowed_claims": [
+    "Same benefits of the original Energy Drink, without sugar",
+    "Caffeine helps to improve concentration and increase alertness",
+    "B-group vitamins contribute to the reduction of tiredness and fatigue"
+  ],
+  "forbidden": ["calorie numbers (not on page)", "health, weight-loss or medical claims", "showing children drinking it", "more than 2 cans in one sitting"],
+  "use_moments": ["before training or a race", "long study or work session", "late drive", "pre-game or pre-event"],
+  "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day."
+}

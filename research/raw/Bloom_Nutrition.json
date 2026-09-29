@@ -1,0 +1,4 @@
+{
+  "detail": "treg's database pool is saturated \u2014 retry in a moment",
+  "treg_saturated": true
+}

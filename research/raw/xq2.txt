@@ -1,0 +1,30 @@
+AI animation ads min_faves:100
+skeleton style ad min_faves:50
+talking object ad AI min_faves:50
+"zach d films" ad style min_faves:30
+feltmation OR crochet ad AI min_faves:30
+LEGO style ad AI min_faves:50
+GTA style ad AI min_faves:100
+CGI billboard ad AI min_faves:100
+fake OOH AI min_faves:50
+"day in the life" ad AI min_faves:50
+POV ad format ecommerce min_faves:50
+"us vs them" ad min_faves:30
+founder ad format min_faves:100
+green screen ad format min_faves:50
+unboxing ad AI min_faves:50
+mockumentary ad AI min_faves:50
+news report style ad AI min_faves:50
+miniature world ad AI min_faves:50
+VHS retro ad AI min_faves:50
+stop motion ad AI min_faves:50
+singing ad AI brand min_faves:50
+wireframe ad AI viral min_faves:30
+hyper motion product ad min_faves:50
+product explosion ad AI min_faves:50
+ASMR ad format min_faves:50
+brainrot ad brand min_faves:100
+anime style ad Meta min_faves:30
+giant product city AI ad min_faves:50
+morph transition ad AI min_faves:50
+"cinematic ad" AI brand min_faves:200

@@ -1,0 +1,303 @@
+{
+ "creator_tutorial_demo": [
+  {
+   "id": "28780925064878985",
+   "brand": "Our Place",
+   "hook": "Chef answers question about perfect sear with Our Place"
+  },
+  {
+   "id": "1752239762642564",
+   "brand": "Fishwife",
+   "hook": "Introducing Fishwife's newest starter pack, a curated lineup"
+  },
+  {
+   "id": "985761814418965",
+   "brand": "Hismile",
+   "hook": "Man applies purple strip to watermelon"
+  }
+ ],
+ "ugc_testimonial": [
+  {
+   "id": "3693157700858805",
+   "brand": "Our Place",
+   "hook": "Creator announces wok is back in stock"
+  },
+  {
+   "id": "1075313125147700",
+   "brand": "Fishwife",
+   "hook": "Woman eating tinned fish, saying \"It's so funny\""
+  },
+  {
+   "id": "1505906931026556",
+   "brand": "Gruns",
+   "hook": "Creator holds large bag of gummies, surprised"
+  }
+ ],
+ "product_hero_studio": [
+  {
+   "id": "1012155198449340",
+   "brand": "HexClad",
+   "hook": "Chef flips food in pan, text appears"
+  },
+  {
+   "id": "2040746463269110",
+   "brand": "Ridge",
+   "hook": "Ridge power bank charging watch and phone."
+  },
+  {
+   "id": "4592465647742824",
+   "brand": "Dr Squatch",
+   "hook": "F in the chat for the boys who got Dr. Squatch"
+  }
+ ],
+ "founder_story": [
+  {
+   "id": "1745605040056952",
+   "brand": "Our Place",
+   "hook": "Man in kitchen talks about finding perfect wok"
+  },
+  {
+   "id": "1737046210914925",
+   "brand": "Graza",
+   "hook": "Man talking to camera with potato chip bag"
+  },
+  {
+   "id": "1675933347010573",
+   "brand": "Magic Spoon",
+   "hook": "Man holds bowl of oatmeal, talking to camera"
+  }
+ ],
+ "lifestyle_montage": [
+  {
+   "id": "1392180393079449",
+   "brand": "Our Place",
+   "hook": "Cooking vegetables with fire in a pan"
+  },
+  {
+   "id": "1325096529702334",
+   "brand": "Fishwife",
+   "hook": "Close up of tinned fish with text overlay"
+  },
+  {
+   "id": "1729859681399450",
+   "brand": "Lovevery",
+   "hook": "Mom holding baby, text 'Newborn' on screen"
+  }
+ ],
+ "unboxing_first_impression": [
+  {
+   "id": "2040988550621770",
+   "brand": "Ridge",
+   "hook": "They claim this carry-on is made of high quality materials"
+  },
+  {
+   "id": "1288446989945094",
+   "brand": "HexClad",
+   "hook": "Unboxing HexClad cookware set, welcome to the hybrid revolution"
+  },
+  {
+   "id": "4562943350692763",
+   "brand": "Graza",
+   "hook": "POV: you get your first box from @getgraza"
+  }
+ ],
+ "skit_comedy": [
+  {
+   "id": "4554827388116037",
+   "brand": "Gruns",
+   "hook": "Man eats habanero for Gruns discount"
+  },
+  {
+   "id": "1393098222467704",
+   "brand": "Mid-Day Squares",
+   "hook": "Man on TV holding product, \"We Just Launched\" text"
+  },
+  {
+   "id": "1685879652496863",
+   "brand": "True Classic",
+   "hook": "Man knocking on door to offer food"
+  }
+ ],
+ "meme_trend_format": [
+  {
+   "id": "2152014045718263",
+   "brand": "Gruns",
+   "hook": "Woman in bathroom mirror applying makeup"
+  },
+  {
+   "id": "1685307955959756",
+   "brand": "Mid-Day Squares",
+   "hook": "POV: Your grandmother wants to support her grandkids' company"
+  },
+  {
+   "id": "1427022522656734",
+   "brand": "Liquid Death",
+   "hook": "Me taking my \"smoke break\" after 3 hours"
+  }
+ ],
+ "problem_solution_before_after": [
+  {
+   "id": "1016645160874260",
+   "brand": "Gruns",
+   "hook": "POV: You're on a GLP-1 but not backed up"
+  },
+  {
+   "id": "2092535494988419",
+   "brand": "Hismile",
+   "hook": "Woman applies purple strips to her teeth"
+  },
+  {
+   "id": "2843317376044899",
+   "brand": "Mid-Day Squares",
+   "hook": "Why could you eat a PB&J as a kid?"
+  }
+ ],
+ "green_screen_reaction": [
+  {
+   "id": "809976442137003",
+   "brand": "Hismile",
+   "hook": "Dentist reacts to TikToker using teeth whitening strips"
+  }
+ ],
+ "street_interview_vox_pop": [
+  {
+   "id": "1791439555367267",
+   "brand": "Hismile",
+   "hook": "The 1 WAY to see if it smells like"
+  },
+  {
+   "id": "1913865552909299",
+   "brand": "True Classic",
+   "hook": "Woman asks man if he is alright"
+  }
+ ],
+ "kinetic_typography_motion_graphics": [
+  {
+   "id": "1723855265319277",
+   "brand": "Dr Squatch",
+   "hook": "We need to apologize to anyone who bought"
+  },
+  {
+   "id": "1755093182373984",
+   "brand": "Owala",
+   "hook": "Owala bottle with text 'Designed by Young Artists'"
+  },
+  {
+   "id": "1068168329329036",
+   "brand": "Caraway",
+   "hook": "Moms: Are you \"Letting It Soak\" Again?"
+  }
+ ],
+ "day_in_the_life": [
+  {
+   "id": "2257038654856165",
+   "brand": "Owala",
+   "hook": "Hey guys come with me to play golf"
+  },
+  {
+   "id": "2155309672066202",
+   "brand": "True Classic",
+   "hook": "I saw this father for his son"
+  },
+  {
+   "id": "1776750476977955",
+   "brand": "Dollar Shave Club",
+   "hook": "Woman wakes up in bed, stretches"
+  }
+ ],
+ "animation_2d": [
+  {
+   "id": "2080038329301272",
+   "brand": "Red Bull",
+   "hook": "Cartoon hand lifting barbell with Red Bull can"
+  }
+ ],
+ "comic_book": [
+  {
+   "id": "2294007691452355",
+   "brand": "Red Bull",
+   "hook": "Cartoon illustration of person lifting weights with Red Bull"
+  }
+ ],
+ "us_vs_them_comparison": [
+  {
+   "id": "969163922877577",
+   "brand": "Ridge",
+   "hook": "Millennial vs Gen Z power bank comparison"
+  },
+  {
+   "id": "2011903796122532",
+   "brand": "Cometeer",
+   "hook": "Woman tastes two coffees, one Cometeer, one Nespresso"
+  },
+  {
+   "id": "1581414576721910",
+   "brand": "HexClad",
+   "hook": "Why Gordon Ramsay's cookware costs $1,000..."
+  }
+ ],
+ "animation_3d_character": [
+  {
+   "id": "4677768569109876",
+   "brand": "Touchland",
+   "hook": "3D animated character with cotton candy and stars"
+  },
+  {
+   "id": "2839002426472670",
+   "brand": "Starface",
+   "hook": "Bubbles in an aquarium with text overlay"
+  }
+ ],
+ "athlete_celebrity_endorsement": [
+  {
+   "id": "1516995877131166",
+   "brand": "CELSIUS",
+   "hook": "Athlete asks \"Heads or Tails?\" to camera"
+  },
+  {
+   "id": "935984139557560",
+   "brand": "Athletic Brewing",
+   "hook": "Man in blue shirt swinging baseball bat"
+  }
+ ],
+ "other": [
+  {
+   "id": "1477237684150537",
+   "brand": "True Classic",
+   "hook": "Look at what's in the water"
+  }
+ ],
+ "asmr_sensory": [
+  {
+   "id": "978650818495226",
+   "brand": "Liquid Death",
+   "hook": "Woman in car opening Liquid Death can"
+  }
+ ],
+ "stop_motion": [
+  {
+   "id": "2890143464664834",
+   "brand": "Dollar Shave Club",
+   "hook": "Animated razor and loofah with faces and hair"
+  }
+ ],
+ "cinematic_brand_film": [
+  {
+   "id": "1826946835133039",
+   "brand": "MANSCAPED",
+   "hook": "Close up of match igniting, then rocket launch."
+  },
+  {
+   "id": "29336906309243682",
+   "brand": "Olipop",
+   "hook": "Clapperboard marks start of filming for Olipop"
+  }
+ ],
+ "podcast_clip": [
+  {
+   "id": "1014119281446733",
+   "brand": "Arrae",
+   "hook": "The hard truth about weight loss shortcuts"
+  }
+ ]
+}
