@@ -1,0 +1,154 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video Template Engine Plan</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1b19;--mute:#6b6760;--line:#e4e0d8;--card:#fff;--acc:#1f6f5c;--accs:#e3f1ec;--warn:#9a5b00;--warns:#fbf0dc}
+@media (prefers-color-scheme:dark){:root{--bg:#141412;--fg:#ecebe7;--mute:#a09c94;--line:#2c2b28;--card:#1c1b19;--acc:#6fd0b3;--accs:#17302a;--warn:#f0b35a;--warns:#33280f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Inter",Segoe UI,sans-serif}
+main{max-width:880px;margin:0 auto;padding:40px 16px 80px}h1{font-size:30px;line-height:1.2;margin:0 0 6px}h2{font-size:21px;margin:44px 0 12px;padding-top:18px;border-top:1px solid var(--line)}h3{font-size:16px;margin:22px 0 6px}
+.sub{color:var(--mute);margin:0 0 24px}table{width:100%;border-collapse:collapse;font-size:14.5px;margin:10px 0}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mute);font-weight:600;font-size:13px}
+.gate{background:var(--accs);border-left:3px solid var(--acc);padding:10px 14px;border-radius:6px;margin:12px 0;font-weight:600}.note{background:var(--warns);border-left:3px solid var(--warn);padding:10px 14px;border-radius:6px;margin:12px 0}
+code,pre{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}pre{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px;overflow-x:auto}
+ol li,ul li{margin:4px 0}.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:99px;background:var(--accs);color:var(--acc);font-weight:600}
+.wrap{overflow-x:auto}
+</style></head><body><main>
+<h1>MagicFit Video Template Engine: plan for review</h1>
+<p class="sub">200 product-agnostic 30 second video ad templates across 10 styles. Input: template file + product URL. Output: a captioned 30 s ad. Drafted 29 Sep 2026.</p>
+
+<h2>1. What a template is</h2>
+<p>A template fixes the <b>concept</b> (world, cast, story spine, beats, camera, music map, caption look) and leaves the <b>product</b> open. At run time the agent enriches the product URL and writes the dialogue, voiceover and product moments to fit the fixed concept. Example: the F1 driver's day-in-the-life stays; the shampoo becomes whatever the URL sells.</p>
+<p>What makes "any physical product" work is an <b>adaptation contract</b> inside every template:</p>
+<ul>
+<li><b>Product archetype</b> resolved from the URL: worn, applied to body, ingested, handheld tool or gadget, home or furniture (too big to hold), carried accessory, consumable or refill.</li>
+<li>Per archetype, each product beat says <b>where the product appears, how the character uses it, and at what scale</b> (a racer holds a serum but sits on a sofa).</li>
+<li>Lines are <b>intents, not words</b>: "hook: the driver admits the one thing that slows him down, which is {pain the product solves}". The concept stays fixed and the wording is generated.</li>
+<li><b>Claims only from the product page</b>. No invented stats and no medical claims beyond what the page states. Health and supplement products get a stricter claims mode.</li>
+<li>A <b>fit score</b>. If a product fits the concept badly, the agent says so and suggests better templates instead of forcing it.</li>
+</ul>
+
+<h2>2. Three layer rule system (so learnings update all 200 at once)</h2>
+<table><tr><th>Layer</th><th>Holds</th><th>Count</th></tr>
+<tr><td><b>Runner</b> (AGENT.md)</td><td>Pipeline, product enrichment, QA gates, caption rules, stitching, the house rules from the cinematic harness (native sound first, one continuous score, phonetic brand words, physics, fictional world)</td><td>1</td></tr>
+<tr><td><b>Style</b> (style.json)</td><td>What makes anime look like anime: visual grammar, camera language, caption look, model prompt vocabulary, known failure modes</td><td>10</td></tr>
+<tr><td><b>Template</b> (template.json)</td><td>Concept, cast cards and reference images, world, beats, line intents, adaptation contract, unit plan</td><td>200</td></tr></table>
+<p>Templates inherit from their style and the runner. A learning from a test goes into the lowest layer it applies to, so it reaches every template without editing 200 files.</p>
+
+<h2>3. Template file (draft schema)</h2>
+<pre>{
+  "id": "cin-07-pit-lane-routine", "style": "cinematic-day-in-life", "runtime_s": 30, "aspect": "9:16",
+  "logline": "A race driver walks us through race-day morning; {product} is the one ritual he never skips.",
+  "world": {"setting": "fictional series, team 'Halcyon Racing'", "palette": "...", "blank_signage": true},
+  "cast": [{"id": "driver", "card": "cast/driver.png", "voice": "calm, dry, 30s, North American", "on_camera_first_line": true}],
+  "adaptation": {
+    "worn": {"moment": "suits up, product is the layer he puts on", "scale": "on body"},
+    "applied": {"moment": "motorhome mirror, pre-helmet", "scale": "hand"},
+    "home": {"moment": "the one thing in his hotel room he brought from home", "scale": "room"}
+  },
+  "beats": [
+    {"t": "0-3", "role": "hook", "picture": "helmet visor snaps shut, cut to his eyes", "line_intent": "the one thing that slows him down: {pain}", "delivery": "quiet, confessional"},
+    {"t": "3-10", "role": "setup", "...": "..."},
+    {"t": "10-20", "role": "product_proof", "product_beat": true},
+    {"t": "20-27", "role": "payoff"}, {"t": "27-30", "role": "cta", "line_intent": "in-world CTA naming {brand}"}
+  ],
+  "units": [{"id": "U1", "beats": ["hook","setup"], "len_s": 10}, {"id": "U2", "len_s": 12}, {"id": "U3_exact", "len_s": 8, "why": "brand + CTA lines"}],
+  "music": [{"section": "build", "beats": ["hook","setup","product_proof"]}, {"section": "release", "beats": ["payoff","cta"]}],
+  "captions": {"style_ref": "style", "burn_in": true, "srt": true},
+  "qa": ["product shape and label match the URL images", "driver identical across units", "no real brands"]
+}</pre>
+
+<h2>4. The runner (what the buyer's Claude or Codex does)</h2>
+<ol>
+<li><b>Enrich</b> the URL: Shopify <code>/products/&lt;handle&gt;.json</code>, schema.org JSON-LD, then a page scrape as fallback. Build a product card: name, brand, phonetic spelling, archetype, 3 benefits quoted from the page, use moment, scale, images, allowed claims.</li>
+<li><b>Fit check</b> against the adaptation contract. Stop and suggest alternatives if the score is too low.</li>
+<li><b>Screenplay</b>: fill every line intent in the template's concept, with delivery notes. Brand words spelled phonetically.</li>
+<li><b>Keyframes</b>: image model with product image + cast cards, one per beat. This becomes the buyer's own contact sheet.</li>
+<li><b>Video units</b>: 2 to 4 generations totaling about 30 s. Exact-risk lines (brand, CTA) go in the short unit.</li>
+<li><b>Assemble</b>: frame-exact stitch, one continuous score, loudness at -14 LUFS.</li>
+<li><b>Captions (mandatory wherever there is speech)</b>: word timings from the final vocal stem, burned in using the style's caption look, plus a .srt file.</li>
+<li><b>QA</b>: transcript vs script, brand word check on the vocal stem, frame scan (faces, product fidelity, physics, real-brand leaks), runtime 28 to 32 s.</li>
+</ol>
+<p>Buyer requirements to state on the listing: an agent with a video model (Seedance class), an image model, and ffmpeg. The template is model-agnostic; model tips live in the style layer.</p>
+
+<h2>5. Candidate top 10 styles (to be confirmed by research)</h2>
+<p>This is a starting hypothesis. Phase 1 replaces it with an evidence-ranked list.</p>
+<div class="wrap"><table><tr><th>#</th><th>Style</th><th>Why it sells D2C</th><th>AI feasibility</th></tr>
+<tr><td>1</td><td>UGC creator testimonial</td><td>Most-run D2C format on Meta and TikTok</td><td>High</td></tr>
+<tr><td>2</td><td>Unboxing / first impressions</td><td>Packaging and reveal moment</td><td>High</td></tr>
+<tr><td>3</td><td>Problem to solution demo (before / after)</td><td>Shows the mechanism</td><td>High</td></tr>
+<tr><td>4</td><td>Cinematic day-in-the-life (the F1 driver)</td><td>Borrowed aspiration</td><td>High, harness proven</td></tr>
+<tr><td>5</td><td>3D animated character (Pixar-like)</td><td>Stops the scroll, category-neutral</td><td>High</td></tr>
+<tr><td>6</td><td>Anime / manga</td><td>High novelty, strong Gen Z pull</td><td>High</td></tr>
+<tr><td>7</td><td>Comic book / motion comic</td><td>Panel structure maps cleanly to beats</td><td>Medium (text in panels)</td></tr>
+<tr><td>8</td><td>Skit / comedy sketch</td><td>Shareable, hooks hard</td><td>Medium (timing)</td></tr>
+<tr><td>9</td><td>Street interview / reaction</td><td>Social proof in native form</td><td>High</td></tr>
+<tr><td>10</td><td>CGI product hero / surreal (drops, dolly, giant product in a city)</td><td>Premium feel, no cast</td><td>High</td></tr></table></div>
+<p>Also in the running: tutorial / GRWM, us-vs-them comparison, founder story, mockumentary or news report, stop motion, ASMR.</p>
+
+<h2>6. Phases, gates and task list</h2>
+<h3>Phase 1: Research the top 10 styles <span class="tag">no gate</span></h3>
+<ol>
+<li>Pull D2C video ads from Meta Ad Library and TikTok Creative Center top ads (treg / ScrapeCreators), plus the CPMA library's mined video patterns.</li>
+<li>Classify each ad by style; rank by prevalence and persistence (completed lifespan and live age kept separate, as in Phase 0 of the ad agent).</li>
+<li>Grade AI feasibility per style and write style.json v0 for the top 10 (visual grammar, camera, caption look).</li>
+</ol>
+<h3>Phase 2: 10 flagship storyboards for one example product</h3>
+<ol start="4">
+<li>Pick the example product (see open decisions) and run the enrichment step on it, which also tests step 1 of the runner.</li>
+<li>Write one flagship concept per style, already in the template schema, so extracting the template later is mechanical.</li>
+<li>Per concept: 30 s beat sheet, screenplay with dialogue and VO, cast cards, unit plan, music map, caption look.</li>
+<li>Generate 8 to 10 keyframes per storyboard (image model, product image + cast refs) and render 10 contact sheets on one Pages site: panel, timecode, line, camera, product moment, caption sample.</li>
+</ol>
+<div class="gate">CHECKPOINT 1: you review and approve the 10 contact sheets.</div>
+<h3>Phase 3: Reverse-engineer into the unified template</h3>
+<ol start="8">
+<li>Freeze the schema, write AGENT.md (the runner), write 10 style.json files and 10 template.json files from the approved boards.</li>
+<li>Dry-run adaptability on paper: run the runner up to the screenplay and keyframes for 3 very different products (worn, ingested, furniture) on 3 templates. Costs a few dollars; no video.</li>
+</ol>
+<div class="gate">CHECKPOINT 2: approve the template format and the paper adaptations.</div>
+<h3>Phase 4: First real video and iteration</h3>
+<ol start="10">
+<li>Hand one template + the product URL to a clean agent session that only has the runner, and let it produce the 30 s captioned ad. This tests the product as a buyer would get it, not my tooling.</li>
+<li>Review, diagnose, fix at the right layer, rerun. Two or three rounds.</li>
+</ol>
+<div class="gate">CHECKPOINT 3: approve the first video.</div>
+<h3>Phase 5: Scale to 200</h3>
+<ol start="12">
+<li>Write 19 more loglines per style (190), checking for diversity across worlds, archetype coverage and casting.</li>
+</ol>
+<div class="gate">CHECKPOINT 4: approve the 200 loglines (cheap to change here).</div>
+<ol start="13">
+<li>Expand all 190 into full template.json files with cast cards, then run a schema lint and the adaptation check (every template must resolve all 7 archetypes or explicitly mark ones it excludes).</li>
+</ol>
+<h3>Phase 6: Random tests and rule sweep</h3>
+<ol start="14">
+<li>Pick 4 or 5 random templates across styles and products and produce real videos.</li>
+<li>Fold every learning into runner, style or template rules; re-lint all 200.</li>
+</ol>
+<div class="gate">CHECKPOINT 5: approve the bundle for packaging.</div>
+<h3>Phase 7: Package and host</h3>
+<ol start="16">
+<li>Bundle: AGENT.md, manifest.json, styles/, templates/&lt;id&gt;/ (template.json, cast/, preview.mp4 for tested ones, contact_sheet.png for all).</li>
+<li>Cloudflare R2 as the source of truth; one Google Drive folder per template mirrored from R2 for buyers.</li>
+<li>Also templatize the 69 existing MagicFit homepage videos into the same schema as a bonus pack.</li>
+</ol>
+
+<h2>7. Why test before scaling to 200</h2>
+<p>The first real video will almost certainly change the schema (unit lengths, how line intents are phrased, what the adaptation contract needs). Writing 190 templates before that means rewriting 190. So the order is 10 flagships, then test, then 200, then the random tests.</p>
+
+<h2>8. Cost estimate</h2>
+<table><tr><th>Step</th><th>Estimate</th></tr>
+<tr><td>Research pulls</td><td>under $5</td></tr>
+<tr><td>10 contact sheets (about 100 keyframes)</td><td>$10 to $25</td></tr>
+<tr><td>Paper adaptations</td><td>$3 to $8</td></tr>
+<tr><td>One 30 s video with retakes and music</td><td>$25 to $45 (Seedance 2.5 about $0.27/s at 720p)</td></tr>
+<tr><td>4 or 5 random test videos</td><td>$120 to $220</td></tr>
+<tr><td>190 cast cards + contact sheets</td><td>$150 to $400</td></tr></table>
+
+<h2>9. Open decisions for you</h2>
+<ol>
+<li><b>Example product</b> for the 10 contact sheets. Default: one mid-size item from a real Shopify store that is visually clear and category-neutral (a skincare serum or an insulated bottle). Send a URL if you have one.</li>
+<li><b>Aspect</b>: 9:16 only, or also 1:1 / 4:5? Default is 9:16.</li>
+<li><b>Order</b>: OK with testing before scaling to 200 (section 7)?</li>
+<li><b>Top 10</b>: research-ranked, or do you want to lock certain styles (animation, comic, cinematic, creator) no matter what the data says?</li>
+</ol>
+<p class="sub">House rules applied throughout: fictional worlds and blank signage, North American casting, native sound first, one continuous score, captions wherever there is speech, no em dashes.</p>
+</main></body></html>
