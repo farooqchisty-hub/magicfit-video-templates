@@ -1,0 +1,5 @@
+styles/*/img/
+product/pack/*.png
+research/tiles/
+research/raw/
+*.url
