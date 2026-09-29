@@ -1,0 +1,40 @@
+{
+ "text": " No way! She's a rookie? Not anymore!",
+ "words": [
+  {
+   "word": "No",
+   "start": 7.08,
+   "end": 7.34
+  },
+  {
+   "word": "way!",
+   "start": 7.34,
+   "end": 7.92
+  },
+  {
+   "word": "She's",
+   "start": 7.92,
+   "end": 8.78
+  },
+  {
+   "word": "a",
+   "start": 8.78,
+   "end": 8.86
+  },
+  {
+   "word": "rookie?",
+   "start": 8.86,
+   "end": 9.62
+  },
+  {
+   "word": "Not",
+   "start": 9.62,
+   "end": 11.3
+  },
+  {
+   "word": "anymore!",
+   "start": 11.3,
+   "end": 12.04
+  }
+ ]
+}

@@ -59,6 +59,17 @@ Check every clip: transcript against the filled lines (the brand pronounced corr
 ## Stage 7: Final check and delivery
 Watch the final at full length. Report to the user: what was made, the product card used, every line as spoken, what you checked and what you could not check, and the cost. List any compromises honestly.
 
+## Model notes (from real runs)
+- Seedance on Replicate (2.5 and 2.0) rejects photoreal human faces in reference images and first frames (error E005). Stylized characters (3D, anime, clay, comic) pass. For photoreal templates either use a Seedance provider that accepts face references, or generate the whole ad as ONE native 30 second take (Seedance 2.5 supports it) with only the product and people-free references, describing the cast in text so the same people stay on screen.
+- Reference syntax differs by provider: Replicate Seedance uses [Image1], [Image2]; convert the template's @Image tokens. Replicate cannot combine a first-frame image with reference images, so pass the storyboard keyframe as an extra reference ("[Image3] is the storyboard frame: match its composition").
+- Uncommon brand words are often mispronounced in long takes. Always transcribe the brand line with two transcribers. If it is wrong and the line cannot be re-rolled cheaply, clone the speaker's voice from their own clean lines in the same take (e.g. Chatterbox with an audio prompt), generate only the brand words, splice them over the wrong words with a rain or room-tone bed, and re-check. Say the brand in the prompt plainly ("ember, like a glowing coal, then mug, like a coffee mug"); a parenthetical spelling can be read aloud.
+- Video models improvise extra lines. Say "Only the scripted lines are spoken; no extra dialogue." Mute unscripted off-camera lines in the edit.
+- A shot marked product-absent can still need the product: once a worn product is put on, it stays on the character in every later shot. Add it to those keyframes and units.
+- Phrases like "one hand touching it" make image models put a second product in the hand. Describe empty hands instead.
+- Resolve every either/or phrase in a product_action ("laces, strap, zip or fastening") to the one that fits, and fix grammar for pairs and plurals ("a pair of ... sneakers").
+- Describe the product in full on its first mention in a prompt, then call it "the product".
+- Always pass the cast card for every shot where the character appears. If a character drifts, add an explicit identity lock sentence (colours, glasses, scarf, no fingers on wings) and keep face shots to 3 references.
+
 ## Global rules
 - Fictional world: invent any other brand; every other sign is blank or uses the template's fictional brands.
 - Never show a real competitor. Never show children using adult products.

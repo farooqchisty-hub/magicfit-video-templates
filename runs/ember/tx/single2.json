@@ -1,0 +1,190 @@
+{
+ "text": " Hour 19. This is where races are lost. Car's in four minutes. You good? Give me one minute. Emeril muck. Exact drinking temperature every stint. Gap's two seconds. Go get him. Got him! Your temperature, every stint.",
+ "words": [
+  {
+   "word": "Hour",
+   "start": 0,
+   "end": 0.68
+  },
+  {
+   "word": "19.",
+   "start": 0.68,
+   "end": 1.34
+  },
+  {
+   "word": "This",
+   "start": 1.34,
+   "end": 1.88
+  },
+  {
+   "word": "is",
+   "start": 1.88,
+   "end": 2
+  },
+  {
+   "word": "where",
+   "start": 2,
+   "end": 2.16
+  },
+  {
+   "word": "races",
+   "start": 2.16,
+   "end": 2.42
+  },
+  {
+   "word": "are",
+   "start": 2.42,
+   "end": 2.58
+  },
+  {
+   "word": "lost.",
+   "start": 2.58,
+   "end": 3.18
+  },
+  {
+   "word": "Car's",
+   "start": 3.18,
+   "end": 4.08
+  },
+  {
+   "word": "in",
+   "start": 4.08,
+   "end": 4.16
+  },
+  {
+   "word": "four",
+   "start": 4.16,
+   "end": 4.34
+  },
+  {
+   "word": "minutes.",
+   "start": 4.34,
+   "end": 4.84
+  },
+  {
+   "word": "You",
+   "start": 4.84,
+   "end": 5.14
+  },
+  {
+   "word": "good?",
+   "start": 5.14,
+   "end": 5.56
+  },
+  {
+   "word": "Give",
+   "start": 5.56,
+   "end": 6.1
+  },
+  {
+   "word": "me",
+   "start": 6.1,
+   "end": 6.24
+  },
+  {
+   "word": "one",
+   "start": 6.24,
+   "end": 6.36
+  },
+  {
+   "word": "minute.",
+   "start": 6.36,
+   "end": 7.12
+  },
+  {
+   "word": "Emeril",
+   "start": 7.12,
+   "end": 13
+  },
+  {
+   "word": "muck.",
+   "start": 13,
+   "end": 13.36
+  },
+  {
+   "word": "Exact",
+   "start": 13.36,
+   "end": 13.96
+  },
+  {
+   "word": "drinking",
+   "start": 13.96,
+   "end": 14.24
+  },
+  {
+   "word": "temperature",
+   "start": 14.24,
+   "end": 14.64
+  },
+  {
+   "word": "every",
+   "start": 14.64,
+   "end": 15.06
+  },
+  {
+   "word": "stint.",
+   "start": 15.06,
+   "end": 15.74
+  },
+  {
+   "word": "Gap's",
+   "start": 15.74,
+   "end": 18.24
+  },
+  {
+   "word": "two",
+   "start": 18.24,
+   "end": 18.32
+  },
+  {
+   "word": "seconds.",
+   "start": 18.32,
+   "end": 18.92
+  },
+  {
+   "word": "Go",
+   "start": 18.92,
+   "end": 19.22
+  },
+  {
+   "word": "get",
+   "start": 19.22,
+   "end": 19.42
+  },
+  {
+   "word": "him.",
+   "start": 19.42,
+   "end": 19.78
+  },
+  {
+   "word": "Got",
+   "start": 19.78,
+   "end": 24.82
+  },
+  {
+   "word": "him!",
+   "start": 24.82,
+   "end": 25.1
+  },
+  {
+   "word": "Your",
+   "start": 25.1,
+   "end": 27.36
+  },
+  {
+   "word": "temperature,",
+   "start": 27.36,
+   "end": 27.98
+  },
+  {
+   "word": "every",
+   "start": 27.98,
+   "end": 28.86
+  },
+  {
+   "word": "stint.",
+   "start": 28.86,
+   "end": 29.42
+  }
+ ]
+}

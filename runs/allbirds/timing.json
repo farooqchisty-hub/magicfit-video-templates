@@ -1,0 +1,176 @@
+{
+ "words": [
+  {
+   "word": "Rookie,",
+   "start": 0.39,
+   "end": 0.84
+  },
+  {
+   "word": "you'll",
+   "start": 0.84,
+   "end": 1.32
+  },
+  {
+   "word": "never",
+   "start": 1.32,
+   "end": 1.52
+  },
+  {
+   "word": "land",
+   "start": 1.52,
+   "end": 1.82
+  },
+  {
+   "word": "it.",
+   "start": 1.82,
+   "end": 2.24
+  },
+  {
+   "word": "Two",
+   "start": 2.97,
+   "end": 3.42
+  },
+  {
+   "word": "falls,",
+   "start": 3.42,
+   "end": 4.04
+  },
+  {
+   "word": "one",
+   "start": 4.04,
+   "end": 4.5
+  },
+  {
+   "word": "run",
+   "start": 4.5,
+   "end": 4.72
+  },
+  {
+   "word": "left.",
+   "start": 4.72,
+   "end": 5.22
+  },
+  {
+   "word": "Not",
+   "start": 5.89,
+   "end": 6.34
+  },
+  {
+   "word": "today.",
+   "start": 6.34,
+   "end": 6.68
+  },
+  {
+   "word": "Allbirds",
+   "start": 11.42,
+   "end": 11.94
+  },
+  {
+   "word": "Tree",
+   "start": 11.94,
+   "end": 12.34
+  },
+  {
+   "word": "Runners.",
+   "start": 12.34,
+   "end": 12.96
+  },
+  {
+   "word": "Breathable",
+   "start": 13.37,
+   "end": 13.82
+  },
+  {
+   "word": "and",
+   "start": 13.82,
+   "end": 14.2
+  },
+  {
+   "word": "lightweight.",
+   "start": 14.2,
+   "end": 14.86
+  },
+  {
+   "word": "No",
+   "start": 22.18,
+   "end": 22.44
+  },
+  {
+   "word": "way!",
+   "start": 22.44,
+   "end": 23.02
+  },
+  {
+   "word": "She's",
+   "start": 23.43,
+   "end": 23.88
+  },
+  {
+   "word": "a",
+   "start": 23.88,
+   "end": 23.96
+  },
+  {
+   "word": "rookie?",
+   "start": 23.96,
+   "end": 24.72
+  },
+  {
+   "word": "Not",
+   "start": 25.95,
+   "end": 26.4
+  },
+  {
+   "word": "anymore!",
+   "start": 26.4,
+   "end": 27.14
+  }
+ ],
+ "post": [
+  {
+   "kind": "namecard",
+   "text": "DAX HOLLOWAY",
+   "sub": "3x Harbor Cup champion",
+   "bar": "#C8102E",
+   "start": 0.3,
+   "end": 2.2,
+   "y": 0.58
+  },
+  {
+   "kind": "namecard",
+   "text": "MIKA SANTOS",
+   "sub": "Rookie",
+   "bar": "#3AA0FF",
+   "start": 2.5,
+   "end": 4.6,
+   "y": 0.58
+  },
+  {
+   "kind": "sfx",
+   "text": "SHHK!",
+   "start": 9.4,
+   "end": 10.8,
+   "x": 0.62,
+   "y": 0.3,
+   "angle": 10
+  },
+  {
+   "kind": "sfx",
+   "text": "!?",
+   "start": 22.3,
+   "end": 24.4,
+   "x": 0.78,
+   "y": 0.22,
+   "angle": -8,
+   "outline": "#000000"
+  },
+  {
+   "text": "Allbirds Tree Runner",
+   "sub": "Light feet, big comeback.",
+   "start": 28.6,
+   "end": 32.2,
+   "y": 0.07
+  }
+ ],
+ "duration": 32.2
+}

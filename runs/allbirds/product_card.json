@@ -1,0 +1,26 @@
+{
+  "name": "Allbirds Tree Runner",
+  "brand": "Allbirds",
+  "phonetic": "ALL-birds",
+  "short_name": "these runners",
+  "visual": "a black knit Allbirds Tree Runner sneaker with black laces and a thick rounded white sole",
+  "archetype": "worn",
+  "scale": "body",
+  "image": "https://cdn.shopify.com/s/files/1/1104/4168/files/TR3MJBW080_SHOE_LEFT_GLOBAL_MENS_TREE_RUNNER_JET_BLACK_WHITE.png?v=1751165486",
+  "benefits": [
+    "breathable and lightweight",
+    "feels silky smooth and cool on your skin",
+    "perfect for everyday casual wear, walking, and warmer weather",
+    "made with responsibly sourced eucalyptus tree fiber"
+  ],
+  "tagline": "",
+  "use_moments": [
+    "everyday casual wear",
+    "walking",
+    "warmer weather"
+  ],
+  "forbidden": [
+    "performance or athletic claims the page does not make",
+    "carbon or climate claims beyond the page"
+  ]
+}

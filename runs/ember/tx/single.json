@@ -1,0 +1,210 @@
+{
+ "text": " Hour 19. This is where races are lost. Car's in four minutes. You good? Give me one minute. Eber Mike. Exact drinking temperature. Every stint. Gap's two seconds. Go get him. Execute it. Clean. Aggressive. Got him. Your temperature. Every stint.",
+ "words": [
+  {
+   "word": "Hour",
+   "start": 0,
+   "end": 0.58
+  },
+  {
+   "word": "19.",
+   "start": 0.58,
+   "end": 1.24
+  },
+  {
+   "word": "This",
+   "start": 1.24,
+   "end": 1.94
+  },
+  {
+   "word": "is",
+   "start": 1.94,
+   "end": 2.06
+  },
+  {
+   "word": "where",
+   "start": 2.06,
+   "end": 2.22
+  },
+  {
+   "word": "races",
+   "start": 2.22,
+   "end": 2.5
+  },
+  {
+   "word": "are",
+   "start": 2.5,
+   "end": 2.66
+  },
+  {
+   "word": "lost.",
+   "start": 2.66,
+   "end": 3.32
+  },
+  {
+   "word": "Car's",
+   "start": 3.32,
+   "end": 4.1
+  },
+  {
+   "word": "in",
+   "start": 4.1,
+   "end": 4.2
+  },
+  {
+   "word": "four",
+   "start": 4.2,
+   "end": 4.4
+  },
+  {
+   "word": "minutes.",
+   "start": 4.4,
+   "end": 4.86
+  },
+  {
+   "word": "You",
+   "start": 4.86,
+   "end": 5.1
+  },
+  {
+   "word": "good?",
+   "start": 5.1,
+   "end": 5.52
+  },
+  {
+   "word": "Give",
+   "start": 5.52,
+   "end": 6.36
+  },
+  {
+   "word": "me",
+   "start": 6.36,
+   "end": 6.5
+  },
+  {
+   "word": "one",
+   "start": 6.5,
+   "end": 6.62
+  },
+  {
+   "word": "minute.",
+   "start": 6.62,
+   "end": 7.56
+  },
+  {
+   "word": "Eber",
+   "start": 7.56,
+   "end": 11.58
+  },
+  {
+   "word": "Mike.",
+   "start": 11.58,
+   "end": 12
+  },
+  {
+   "word": "Exact",
+   "start": 12,
+   "end": 12.52
+  },
+  {
+   "word": "drinking",
+   "start": 12.52,
+   "end": 12.84
+  },
+  {
+   "word": "temperature.",
+   "start": 12.84,
+   "end": 13.5
+  },
+  {
+   "word": "Every",
+   "start": 13.5,
+   "end": 13.86
+  },
+  {
+   "word": "stint.",
+   "start": 13.86,
+   "end": 14.6
+  },
+  {
+   "word": "Gap's",
+   "start": 14.6,
+   "end": 18.48
+  },
+  {
+   "word": "two",
+   "start": 18.48,
+   "end": 18.56
+  },
+  {
+   "word": "seconds.",
+   "start": 18.56,
+   "end": 19.16
+  },
+  {
+   "word": "Go",
+   "start": 19.16,
+   "end": 19.58
+  },
+  {
+   "word": "get",
+   "start": 19.58,
+   "end": 19.8
+  },
+  {
+   "word": "him.",
+   "start": 19.8,
+   "end": 20.04
+  },
+  {
+   "word": "Execute",
+   "start": 20.04,
+   "end": 21.26
+  },
+  {
+   "word": "it.",
+   "start": 21.26,
+   "end": 21.5
+  },
+  {
+   "word": "Clean.",
+   "start": 21.5,
+   "end": 22.16
+  },
+  {
+   "word": "Aggressive.",
+   "start": 22.16,
+   "end": 23.08
+  },
+  {
+   "word": "Got",
+   "start": 23.08,
+   "end": 24.64
+  },
+  {
+   "word": "him.",
+   "start": 24.64,
+   "end": 24.86
+  },
+  {
+   "word": "Your",
+   "start": 24.86,
+   "end": 27.18
+  },
+  {
+   "word": "temperature.",
+   "start": 27.18,
+   "end": 27.74
+  },
+  {
+   "word": "Every",
+   "start": 27.74,
+   "end": 28.78
+  },
+  {
+   "word": "stint.",
+   "start": 28.78,
+   "end": 29.34
+  }
+ ]
+}

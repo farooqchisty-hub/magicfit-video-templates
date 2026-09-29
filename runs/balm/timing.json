@@ -1,0 +1,184 @@
+{
+ "words": [
+  {
+   "word": "Stay",
+   "start": 0.73,
+   "end": 1.18
+  },
+  {
+   "word": "awake,",
+   "start": 1.18,
+   "end": 1.74
+  },
+  {
+   "word": "Mabel.",
+   "start": 1.74,
+   "end": 2.18
+  },
+  {
+   "word": "One",
+   "start": 2.18,
+   "end": 2.74
+  },
+  {
+   "word": "more",
+   "start": 2.74,
+   "end": 3
+  },
+  {
+   "word": "ship.",
+   "start": 3.43,
+   "end": 3.88
+  },
+  {
+   "word": "Point",
+   "start": 5.23,
+   "end": 5.68
+  },
+  {
+   "word": "Hollow,",
+   "start": 5.68,
+   "end": 6.06
+  },
+  {
+   "word": "we're",
+   "start": 6.06,
+   "end": 6.18
+  },
+  {
+   "word": "blind",
+   "start": 6.18,
+   "end": 6.38
+  },
+  {
+   "word": "out",
+   "start": 6.38,
+   "end": 6.6
+  },
+  {
+   "word": "here.",
+   "start": 6.6,
+   "end": 6.84
+  },
+  {
+   "word": "You",
+   "start": 6.84,
+   "end": 6.94
+  },
+  {
+   "word": "there?",
+   "start": 6.94,
+   "end": 7.32
+  },
+  {
+   "word": "I'm",
+   "start": 7.32,
+   "end": 8.02
+  },
+  {
+   "word": "here!",
+   "start": 8.02,
+   "end": 8.36
+  },
+  {
+   "word": "I'm",
+   "start": 8.36,
+   "end": 8.64
+  },
+  {
+   "word": "here!",
+   "start": 8.64,
+   "end": 8.94
+  },
+  {
+   "word": "Summer",
+   "start": 10.99,
+   "end": 11.44
+  },
+  {
+   "word": "Fridays.",
+   "start": 11.44,
+   "end": 12.2
+  },
+  {
+   "word": "Instant",
+   "start": 12.2,
+   "end": 12.64
+  },
+  {
+   "word": "moisture",
+   "start": 12.64,
+   "end": 13.04
+  },
+  {
+   "word": "even",
+   "start": 13.04,
+   "end": 13.68
+  },
+  {
+   "word": "out",
+   "start": 13.68,
+   "end": 13.88
+  },
+  {
+   "word": "here.",
+   "start": 13.88,
+   "end": 14.36
+  },
+  {
+   "word": "I",
+   "start": 22.54,
+   "end": 22.86
+  },
+  {
+   "word": "see",
+   "start": 22.86,
+   "end": 23.2
+  },
+  {
+   "word": "your",
+   "start": 23.2,
+   "end": 23.44
+  },
+  {
+   "word": "light!",
+   "start": 23.44,
+   "end": 24.0
+  },
+  {
+   "word": "Turning",
+   "start": 24.0,
+   "end": 24.54
+  },
+  {
+   "word": "now!",
+   "start": 24.97,
+   "end": 25.42
+  },
+  {
+   "word": "Safe",
+   "start": 26.15,
+   "end": 26.6
+  },
+  {
+   "word": "home,",
+   "start": 26.6,
+   "end": 27.06
+  },
+  {
+   "word": "Marigold.",
+   "start": 27.06,
+   "end": 27.78
+  }
+ ],
+ "post": [
+  {
+   "text": "Summer Fridays Lip Butter Balm",
+   "sub": "Soft lips, bright light.",
+   "start": 28.7,
+   "end": 32.3,
+   "y": 0.05
+  }
+ ],
+ "duration": 32.3
+}

@@ -1,7 +1,7 @@
 """Assemble units into the final ad.
 Usage: python3 assemble.py edit.json
 edit.json: {"fps":30,"w":1080,"h":1920,"out":"run/final.mp4",
- "clips":[{"file":"run/units/U1.mp4","in":0,"out":8.2}, ...],
+ "clips":[{"file":"run/units/U1.mp4","in":0,"out":8.2,"gain":1.0}, ...],   (gain 0 mutes a clip's native audio)
  "music":[{"file":"run/music/tension.mp3","start":0.0}, ...],   (sections laid on the timeline, 0.4 s crossfades)
  "music_gain":0.55, "duck":true,
  "sfx":[{"file":"x.wav","start":10.6,"gain":0.8}],
@@ -14,7 +14,7 @@ tmp=tempfile.mkdtemp(); parts=[]
 for i,c in enumerate(e["clips"]):
     p=f"{tmp}/p{i}.mp4"; d=c["out"]-c["in"]
     run(["ffmpeg","-y","-ss",str(c["in"]),"-t",f"{d:.3f}","-i",c["file"],"-f","lavfi","-t",f"{d:.3f}","-i","anullsrc=r=48000:cl=stereo",
-         "-filter_complex",f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={fps},setsar=1[v];[0:a][1:a]amix=inputs=2:duration=longest,atrim=0:{d:.3f}[a]",
+         "-filter_complex",f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={fps},setsar=1[v];[0:a]volume={c.get('gain',1)}[ga];[ga][1:a]amix=inputs=2:duration=longest,atrim=0:{d:.3f}[a]",
          "-map","[v]","-map","[a]","-c:v","libx264","-preset","medium","-crf","18","-c:a","aac","-ar","48000",p] if subprocess.run(["ffprobe","-v","error","-select_streams","a","-show_entries","stream=index","-of","csv=p=0",c["file"]],capture_output=True,text=True).stdout.strip() else
         ["ffmpeg","-y","-ss",str(c["in"]),"-t",f"{d:.3f}","-i",c["file"],"-f","lavfi","-t",f"{d:.3f}","-i","anullsrc=r=48000:cl=stereo",
          "-filter_complex",f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={fps},setsar=1[v]","-map","[v]","-map","1:a","-c:v","libx264","-preset","medium","-crf","18","-c:a","aac","-ar","48000",p])

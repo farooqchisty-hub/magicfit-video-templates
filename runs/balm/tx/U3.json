@@ -1,0 +1,50 @@
+{
+ "text": " I see your light! Turning now! Safe home, Marigold.",
+ "words": [
+  {
+   "word": "I",
+   "start": 7.42,
+   "end": 7.74
+  },
+  {
+   "word": "see",
+   "start": 7.74,
+   "end": 8.08
+  },
+  {
+   "word": "your",
+   "start": 8.08,
+   "end": 8.32
+  },
+  {
+   "word": "light!",
+   "start": 8.32,
+   "end": 8.88
+  },
+  {
+   "word": "Turning",
+   "start": 8.88,
+   "end": 9.42
+  },
+  {
+   "word": "now!",
+   "start": 9.42,
+   "end": 10.3
+  },
+  {
+   "word": "Safe",
+   "start": 10.3,
+   "end": 11.48
+  },
+  {
+   "word": "home,",
+   "start": 11.48,
+   "end": 11.94
+  },
+  {
+   "word": "Marigold.",
+   "start": 11.94,
+   "end": 12.66
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "fps": 30,
+ "out": "final.mp4",
+ "clips": [
+  {
+   "file": "units/U1.mp4",
+   "in": 0,
+   "out": 9.04
+  },
+  {
+   "file": "units/U2.mp4",
+   "in": 0,
+   "out": 6.08
+  },
+  {
+   "file": "units/U3.mp4",
+   "in": 0,
+   "out": 13.06
+  },
+  {
+   "file": "units/U4.mp4",
+   "in": 0,
+   "out": 4.2
+  }
+ ],
+ "music": [
+  {
+   "file": "music/score.mp3",
+   "start": 0
+  }
+ ],
+ "music_gain": 0.5,
+ "duck": true,
+ "captions_concat": "captions/captions.ffconcat"
+}

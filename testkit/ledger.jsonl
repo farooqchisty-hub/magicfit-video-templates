@@ -2,3 +2,25 @@
 {"t": 1790713985.2509818, "tag": "probe-first", "usd": 0, "status": "failed", "id": "ef6cxsz7vdrmy0d0xvfb24ebrw"}
 {"t": 1790714007.4720771, "tag": "probe-20", "usd": 0, "status": "failed", "id": "axz7k88vr1rmt0d0xvfr9rpsn8"}
 {"t": 1790714141.714148, "tag": "probe-clay", "model": "2.5", "res": "480p", "duration": 4, "usd": 0.4112, "id": "vy0qffahd9rmy0d0xvft94g2ew", "out": "/tmp/probe4.mp4", "secs": 129}
+{"t": 1790714746.277372, "tag": "balm/U1", "model": "2.5", "res": "720p", "duration": 9, "usd": 2.0808, "id": "njfrhyq3ysrmy0d0xvksxw8330", "out": "units/U1.mp4", "secs": 172}
+{"t": 1790714782.939669, "tag": "balm/U3", "model": "2.5", "res": "720p", "duration": 13, "usd": 3.0056, "id": "e6vh3xz30nrmw0d0xvkrs0j69g", "out": "units/U3.mp4", "secs": 208}
+{"t": 1790714850.428253, "tag": "balm/U4", "model": "2.5", "res": "720p", "duration": 5, "usd": 1.156, "id": "bsf3vqq3zhrmr0d0xvkr2vbqg4", "out": "units/U4.mp4", "secs": 276}
+{"t": 1790714919.8300202, "tag": "balm/U2", "model": "2.5", "res": "720p", "duration": 6, "usd": 1.3872, "id": "kdryrh74v1rmt0d0xvkvyhn78m", "out": "units/U2.mp4", "secs": 345}
+{"t": 1790715119.454889, "tag": "balm/m4", "model": "elevenlabs-music", "secs": 6.0, "usd": 0.0498, "out": "music/s4.mp3"}
+{"t": 1790715123.429517, "tag": "balm/m3", "model": "elevenlabs-music", "secs": 14.5, "usd": 0.1203, "out": "music/s3.mp3"}
+{"t": 1790715123.486339, "tag": "balm/m1", "model": "elevenlabs-music", "secs": 10.5, "usd": 0.0872, "out": "music/s1.mp3"}
+{"t": 1790715123.8818119, "tag": "balm/m2", "model": "elevenlabs-music", "secs": 7.5, "usd": 0.0622, "out": "music/s2.mp3"}
+{"t": 1790715728.537567, "tag": "allbirds/U4", "model": "2.5", "res": "720p", "duration": 4, "usd": 0.9248, "id": "m2wt5s1xj5rmr0d0xvvrsb2c18", "out": "units/U4.mp4", "secs": 148}
+{"t": 1790715751.328908, "tag": "allbirds/U1", "model": "2.5", "res": "720p", "duration": 7, "usd": 1.6184, "id": "3bsmv01x8xrmy0d0xvvsnx9e4w", "out": "units/U1.mp4", "secs": 171}
+{"t": 1790715764.368564, "tag": "allbirds/U2", "model": "2.5", "res": "720p", "duration": 8, "usd": 1.8496, "id": "e59k351x99rmy0d0xvvtpa67xr", "out": "units/U2.mp4", "secs": 184}
+{"t": 1790715806.989558, "tag": "allbirds/U3", "model": "2.5", "res": "720p", "duration": 13, "usd": 3.0056, "id": "w1n348hxj9rmy0d0xvvrs7g4ww", "out": "units/U3.mp4", "secs": 227}
+{"t": 1790715901.8211908, "tag": "allbirds/m4", "model": "elevenlabs-music", "secs": 5.5, "usd": 0.0457, "out": "music/s4.mp3"}
+{"t": 1790715905.6201222, "tag": "allbirds/m1", "model": "elevenlabs-music", "secs": 7.5, "usd": 0.0622, "out": "music/s1.mp3"}
+{"t": 1790715905.7219589, "tag": "allbirds/m2", "model": "elevenlabs-music", "secs": 9.0, "usd": 0.0747, "out": "music/s2.mp3"}
+{"t": 1790715906.02212, "tag": "allbirds/m3", "model": "elevenlabs-music", "secs": 14.0, "usd": 0.1162, "out": "music/s3.mp3"}
+{"t": 1790716362.032414, "tag": "ember/single", "model": "2.5", "res": "720p", "duration": 30, "usd": 6.936, "id": "es76fyb0axrmy0d0xvz9g14m4g", "out": "single.mp4", "secs": 314}
+{"t": 1790716817.944739, "tag": "ember/single2", "model": "2.5", "res": "720p", "duration": 30, "usd": 6.936, "id": "gerja20p95rmy0d0xw2s2zs3wr", "out": "single.mp4", "secs": 330}
+{"t": 1790716936.3450089, "tag": "ember/tts x4", "usd": 0.1}
+{"t": 1790717011.7289972, "tag": "ember/m2", "model": "elevenlabs-music", "secs": 12.0, "usd": 0.0996, "out": "music/s2.mp3"}
+{"t": 1790717012.060226, "tag": "ember/m3", "model": "elevenlabs-music", "secs": 6.5, "usd": 0.0539, "out": "music/s3.mp3"}
+{"t": 1790717017.329024, "tag": "ember/m1", "model": "elevenlabs-music", "secs": 14.8, "usd": 0.1228, "out": "music/s1.mp3"}

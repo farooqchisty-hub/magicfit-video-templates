@@ -1,0 +1,40 @@
+{
+ "text": " Ember Mug. Exact drinking temperature every stint.",
+ "words": [
+  {
+   "word": "Ember",
+   "start": 0,
+   "end": 0.86
+  },
+  {
+   "word": "Mug.",
+   "start": 0.86,
+   "end": 1.14
+  },
+  {
+   "word": "Exact",
+   "start": 1.14,
+   "end": 1.7
+  },
+  {
+   "word": "drinking",
+   "start": 1.7,
+   "end": 2.04
+  },
+  {
+   "word": "temperature",
+   "start": 2.04,
+   "end": 2.42
+  },
+  {
+   "word": "every",
+   "start": 2.42,
+   "end": 3
+  },
+  {
+   "word": "stint.",
+   "start": 3,
+   "end": 3.54
+  }
+ ]
+}

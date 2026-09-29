@@ -1,0 +1,40 @@
+{
+ "text": " Summer Fridays. Instant moisture even out here.",
+ "words": [
+  {
+   "word": "Summer",
+   "start": 0,
+   "end": 2.4
+  },
+  {
+   "word": "Fridays.",
+   "start": 2.4,
+   "end": 3.16
+  },
+  {
+   "word": "Instant",
+   "start": 3.16,
+   "end": 3.6
+  },
+  {
+   "word": "moisture",
+   "start": 3.6,
+   "end": 4
+  },
+  {
+   "word": "even",
+   "start": 4,
+   "end": 4.64
+  },
+  {
+   "word": "out",
+   "start": 4.64,
+   "end": 4.84
+  },
+  {
+   "word": "here.",
+   "start": 4.84,
+   "end": 5.32
+  }
+ ]
+}

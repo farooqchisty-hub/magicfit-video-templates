@@ -40,6 +40,12 @@ def render(W,H,look,cap_words=None,active=None,post=None):
             test=" ".join(x["w"] for _,x in lines[-1]+[(i,w)])
             if f.getlength(test)>maxw and lines[-1]: lines.append([])
             lines[-1].append((i,w))
+        spec=" ".join(str(look.get(k,"")) for k in ("outline","shadow","stroke"))
+        om=re.search(r"(\d+)\s*px\s*(?:solid\s*)?(#[0-9A-Fa-f]{6}|black|white)?[^,;]*?(?:outline|stroke)",spec) or re.search(r"(\d+)\s*px\s*(#[0-9A-Fa-f]{6})",str(look.get("outline","")))
+        if om:
+            c=om.group(2) or "black"; c={"black":"#000000","white":"#FFFFFF"}.get(c,c)
+            sw,sc=max(2,int(int(om.group(1))*H/1280)),rgb(c)
+        else: sw,sc=0,None
         lh=int(size*1.18); top=cy-lh*len(lines)//2
         layer=Image.new("RGBA",(W,H),(0,0,0,0)); d=ImageDraw.Draw(layer)
         boxed=bool(look.get("box")) and str(look.get("box")).lower() not in ("false","none","0")
@@ -47,18 +53,44 @@ def render(W,H,look,cap_words=None,active=None,post=None):
             text=" ".join(x["w"] for _,x in L); tw=f.getlength(text); x=(W-tw)/2; y=top+li*lh
             if boxed: d.rounded_rectangle([x-24,y-10,x+tw+24,y+lh-4],radius=14,fill=(0,0,0,165))
             for i,w in L:
-                d.text((x,y),w["w"],font=f,fill=actc if i==active else dim); x+=f.getlength(w["w"]+" ")
+                d.text((x,y),w["w"],font=f,fill=actc if i==active else (col if sw else dim),stroke_width=sw,stroke_fill=sc); x+=f.getlength(w["w"]+" ")
         if not boxed:
             sh=Image.new("RGBA",(W,H),(0,0,0,0)); sd=ImageDraw.Draw(sh)
             for li,L in enumerate(lines):
                 text=" ".join(x["w"] for _,x in L); tw=f.getlength(text); sd.text(((W-tw)/2,top+li*lh+3),text,font=f,fill=(0,0,0,170))
             im=Image.alpha_composite(im,sh.filter(ImageFilter.GaussianBlur(6)))
         im=Image.alpha_composite(im,layer)
+    if post and post.get("kind")=="namecard":
+        d=ImageDraw.Draw(im); f1=font(800,int(H*0.036)); f2=font(600,int(H*0.022)); x0=int(W*0.06); y0=int(H*post.get("y",0.60))
+        tw=max(f1.getlength(post["text"]),f2.getlength(post.get("sub","")))+int(W*0.08); bh=int(H*0.085); sk=int(bh*0.35)
+        d.polygon([(x0,y0),(x0+tw+sk,y0),(x0+tw,y0+bh),(x0-sk,y0+bh)],fill=rgb(post.get("bar","#1E90FF"),235))
+        d.text((x0+int(W*0.025),y0+int(bh*0.08)),post["text"],font=f1,fill=(255,255,255,255))
+        if post.get("sub"): d.text((x0+int(W*0.025),y0+int(bh*0.56)),post["sub"],font=f2,fill=(255,255,255,235))
+        return im
+    if post and post.get("kind")=="sfx":
+        sz=int(H*post.get("size",0.09)); f=font(800,sz); txt=post["text"]
+        layer=Image.new("RGBA",(int(f.getlength(txt))+sz,int(sz*1.6)),(0,0,0,0)); ld=ImageDraw.Draw(layer)
+        ld.text((sz//2,sz//4),txt,font=f,fill=(255,255,255,255),stroke_width=max(3,sz//10),stroke_fill=rgb(post.get("outline","#3AA0FF")))
+        layer=layer.rotate(post.get("angle",10),expand=True,resample=Image.BICUBIC)
+        im.alpha_composite(layer,(int(W*post.get("x",0.5))-layer.width//2,int(H*post.get("y",0.4))-layer.height//2))
+        return im
     if post:
-        d=ImageDraw.Draw(im); f1=font(800,int(H*0.058)); f2=font(600,int(H*0.034)); y=int(H*post.get("y",0.22))
-        for txt,f in [(post["text"],f1),(post.get("sub",""),f2)]:
+        d=ImageDraw.Draw(im); y=int(H*post.get("y",0.22)); maxw=W*0.86
+        for txt,base in [(post["text"],0.058),(post.get("sub",""),0.034)]:
             if not txt: continue
-            tw=f.getlength(txt); d.text(((W-tw)/2+2,y+3),txt,font=f,fill=(0,0,0,150)); d.text(((W-tw)/2,y),txt,font=f,fill=(255,255,255,255)); y+=int(f.size*1.25)
+            sz=int(H*base); f=font(800 if base>0.04 else 600,sz)
+            words=txt.split(); rows=[txt]
+            if f.getlength(txt)>maxw:
+                rows=[];cur=""
+                for w in words:
+                    t=(cur+" "+w).strip()
+                    if f.getlength(t)>maxw and cur: rows.append(cur);cur=w
+                    else: cur=t
+                rows.append(cur)
+            while max(f.getlength(r) for r in rows)>maxw and sz>12: sz=int(sz*0.92); f=font(800 if base>0.04 else 600,sz)
+            for r in rows:
+                tw=f.getlength(r); d.text(((W-tw)/2,y),r,font=f,fill=(255,255,255,255),stroke_width=max(2,sz//14),stroke_fill=(16,38,63,255)); y+=int(sz*1.18)
+            y+=int(sz*0.25)
     return im
 def srt_ts(t): ms=int(round(t*1000)); return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
 def build(timing,look,out,W=1080,H=1920):

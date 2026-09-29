@@ -1,0 +1,20 @@
+{
+ "fps": 30,
+ "out": "final.mp4",
+ "clips": [
+  {
+   "file": "single_fixed.mp4",
+   "in": 0,
+   "out": 30.08
+  }
+ ],
+ "music": [
+  {
+   "file": "music/score.mp3",
+   "start": 0
+  }
+ ],
+ "music_gain": 0.45,
+ "duck": true,
+ "captions_concat": "captions/captions.ffconcat"
+}
