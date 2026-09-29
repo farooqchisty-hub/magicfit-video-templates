@@ -1,0 +1,1007 @@
+{
+  "id": "how_its_made-01-whats-inside",
+  "source_board": "styles/how_its_made/board.json",
+  "style": "how_its_made",
+  "title": "What's Inside",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "2am at a truck stop, a long-haul driver reaches for {{product.name}}. The camera dives inside it to show, part by part, exactly what the product page says is in there, and nothing it does not.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "ingredient lists are the classic dive: each named ingredient becomes a glowing model"
+      ],
+      "applied": [
+        "great",
+        "named actives in a cream, serum or balm float out of the formula"
+      ],
+      "worn": [
+        "good",
+        "works when the page names materials or layers (knit, foam, membrane, sole); weak if the page only says 'premium fabric'"
+      ],
+      "handheld": [
+        "great",
+        "an exploded view of the parts or specs the page names (battery, lens, chip, casing)"
+      ],
+      "carried": [
+        "good",
+        "named fabrics, frame, lining and compartments go translucent"
+      ],
+      "home": [
+        "stretch",
+        "Rosa uses it in the sleeper berth of her cab, so only pillows, blankets, lamps and small appliances fit; large furniture cannot be in the cab"
+      ],
+      "consumable": [
+        "good",
+        "the refill or pack is opened and its named contents explained"
+      ]
+    },
+    "avoid": [
+      "products whose page names fewer than 2 components",
+      "products for children",
+      "alcohol",
+      "medicines, supplements or anything whose components would need medical or health claims",
+      "anything unsafe to use right before driving (sleep aids, sedatives)",
+      "large furniture and large appliances"
+    ]
+  },
+  "product_extract": {
+    "why": "This template explains the product's own components. The standard product card has no field for them, so the runner extracts them here, from the product page only, before filling the template.",
+    "components": {
+      "min": 2,
+      "max": 4,
+      "extract": "Up to 4 components the product page itself names: ingredients from an ingredient list, actives, materials, fabrics, layers, parts or construction features from a materials or spec section, or 'made with' text. Keep the page's order or its emphasis. A component is only valid if its name appears on the page.",
+      "fields": {
+        "name": "the component's name exactly as written on the page",
+        "page_quote": "the exact page text that names it (copied, for the audit trail)",
+        "amount": "an amount, percentage, count or size ONLY if the page states it next to the component, else empty",
+        "stated_function": "what the component does, copied from the page ONLY if the page says it, else empty",
+        "label": "the post callout text: name, plus amount if stated, in capitals, 4 words or fewer",
+        "visual": "one sentence describing how the component is shown as a stylized 3D object in this world, following world_bible.materials_rule and the component look set asset (ingredients and actives as glossy ball-and-stick models, crystals or droplets; materials as a floating layer or panel of that material; parts as a floating exploded part). Describe shape and colour only, never text."
+      },
+      "glow_colours": {
+        "1": "amber",
+        "2": "coral (a group may add lime, violet and cyan)",
+        "3": "pearl white",
+        "4": "soft pink and mint"
+      },
+      "mapping": {
+        "4": "S04 = component 1, S05 = component 2, S06 = component 3, S07 = component 4.",
+        "3": "S04 = component 1, S05 = component 2, S06 = component 3, S07 = all three together in a loose ring (use [[component.3.visual]] in S07 and add the other two in the same ring).",
+        "2": "S04 and S05 = component 1 (S05 is a slower orbit around the same object), S06 and S07 = component 2. L3 names component 1, L4 gives its stated function or amount, L5 names component 2, L6 gives its stated function or amount (or the left_out payoff).",
+        "fewer": "Fewer than 2 page-named components: the template does not fit. Stop at the fit check and suggest another template."
+      }
+    },
+    "left_out": {
+      "extract": "OPTIONAL. One thing the page explicitly says the product is free of or made without ('no X', 'X-free', 'without X', 'free from X'). Only if the page states it word for word. Never infer it from an ingredient list.",
+      "fields": {
+        "name": "the thing left out, as the page words it",
+        "page_quote": "the exact page text",
+        "visual": "one sentence describing a large stylized novelty version of that thing in this world's materials_rule, no face, no letters"
+      },
+      "prop_prompt_template": "Stylized 3D prop reference sheet on a plain mid-grey background, three views of one large [[left_out.visual]] in soft rounded Pixar-lite style, one small chip or dent for wear. No face, no letters or marks. Clean studio light, soft shadow. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+      "if_absent": "Use the default text for [[S01.gag]] and [[S07.gag]], drop the bounce sound, and write L1 and L6 without it."
+    },
+    "gags": {
+      "S01.gag": {
+        "with_left_out": "High in the upper right corner of the frame, far from the product with a wide gap of empty space between them, a large stylized [[left_out.visual]] is caught mid bounce, flying away from the product, with a short motion arc trailing to the upper right and a soft ripple on the glass where it hit. It never touches, crosses or enters the product.",
+        "default": "A thin bright scan line sweeps down across the cutaway and faint glints of amber, coral, pearl white and mint show inside, one per component."
+      },
+      "S07.gag": {
+        "with_left_out": "and on the other side of that clear wall, outside in the pale grey-blue void, a large stylized [[left_out.visual]] pressed against the glass, shut out, with no face",
+        "default": "and behind it, softly out of focus, the earlier components glowing in a loose arc, all of them now lit"
+      }
+    },
+    "nothing_unstated": [
+      "The narrator and the callouts may only say three things about a component: its name, an amount the page states, and a function the page states. Nothing else.",
+      "If stated_function is empty, the line names the component (and its stated amount, origin or count if any) and says nothing about what it does. Never add general knowledge about an ingredient, material or part, never 'which means', never science the page does not state.",
+      "Visuals may be stylized, but they must not imply a function the page does not state (no glowing arrows into a body, no before and after on skin, no health imagery).",
+      "No component is invented to fill a slot. With 2 or 3 components use the mapping; never pad to 4.",
+      "Benefit lines (L7) still come only from product.benefits."
+    ],
+    "token_syntax": "[[component.N.name]], [[component.N.label]], [[component.N.visual]], [[left_out.visual]], [[S01.gag]], [[S07.gag]] are filled from this block in Stage 3, right after the product card slots. No [[...]] token may remain in the fill."
+  },
+  "world_bible": {
+    "lore": [
+      "Rosa Delgado has driven for 22 years. Since her husband Manny died in 2021 she runs Delgado Freight alone, one truck out of El Paso, and the red cab is the same 2009 rig he bought used.",
+      "Tonight she is hauling a reefer trailer of avocados from Laredo to Kansas City, 940 miles, due on the dock at 7am. At Mile 212 she is nine hours into an eleven hour driving limit.",
+      "Mile 212 Stop is a 1968 fuel island with a six stool diner. The owner, Walt, has not turned the canopy lights off since the night of the 1996 blizzard, so drivers call it the lighthouse.",
+      "The inside of the product is imagined as a calm lab: one glowing platform for the product, and a far arc of four small pedestals, one per component glow colour (amber, coral, pearl white, mint), waiting to be lit as each component is shown.",
+      "Only what the product page names gets a pedestal. Anything the page does not state stays dark and is never shown or explained."
+    ],
+    "materials_rule": "Every object in the world is a soft stylized 3D model: rounded bevels on every edge, matte painted plastic and satin painted metal, simplified shapes with specific wear painted on as scuffs, chips, stickers-as-shapes and bug spatter; liquids glow softly from inside; nothing photoreal and no readable text anywhere. The product alone is photoreal and exact, in every shot where it appears whole.",
+    "locations": {
+      "truckstop": {
+        "foreground": [
+          "oil-stained concrete with a painted yellow parking stripe worn down to patches",
+          "a rounded red fuel pump with a blank glowing display and a green diesel nozzle hanging in its holster, one drip at the tip",
+          "a squeegee standing in a dented blue washer-fluid bucket clipped to the pump island",
+          "a shallow puddle reflecting the orange canopy lights",
+          "a dry tumbleweed caught against the base of the pump island"
+        ],
+        "midground": [
+          "the plain red big rig cab, front three-quarter, with a chrome grille and a small chrome crescent moon hood ornament",
+          "a row of five amber clearance lights along the cab roof, one of them out",
+          "a bug-spattered windshield with a wiper parked half way",
+          "black mud flaps with a small painted silver crescent moon shape",
+          "the diner's long lit window with a single round red stool visible through it",
+          "a dented white ice chest by the diner door with a brick on its lid"
+        ],
+        "background": [
+          "a tall pole sign glowing plain warm white with no markings",
+          "the empty two-lane highway running straight to a dark horizon",
+          "a single amber traffic light blinking over the junction",
+          "a line of wooden telephone poles sagging with wire",
+          "flat-topped mesa silhouettes against a navy sky full of stars and a thin crescent moon"
+        ]
+      },
+      "void": {
+        "foreground": [
+          "faint concentric light rings on the pale floor around the platform",
+          "a slim brushed aluminium rim around the base of the glowing platform",
+          "a soft glossy reflection of the platform glow on the floor",
+          "a low thin haze lying just above the floor"
+        ],
+        "midground": [
+          "tiny soft bubbles drifting upward through the empty air",
+          "a thin ring light hanging high above, reflected as a soft ellipse on the floor",
+          "a few small clear glass-like droplets hovering far to either side",
+          "faint drifting specks of light like dust in a beam"
+        ],
+        "background": [
+          "a far arc of four small softly glowing pedestals, one amber, one coral, one pearl white, one mint, small and out of focus",
+          "a faint floor grid fading into the gradient",
+          "a gentle curve where the floor meets the wall, like an infinity cove",
+          "a thin brushed aluminium rail curving along the far wall",
+          "a second, dimmer ring light far behind, reflected in the floor"
+        ]
+      }
+    },
+    "personal_props": {
+      "rosa": [
+        "a small brass saint medal on a bead chain hanging from the rear-view mirror, Manny's, worn smooth by thumbs",
+        "a dented stainless travel mug with a strip of red tape around the handle so nobody at the depot takes it",
+        "reading glasses tucked in her flannel shirt pocket, one arm bent and taped",
+        "a hand-knitted navy seat cushion gone flat in the middle",
+        "a turquoise ring on her right hand that clicks against the steering wheel"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "molecules",
+        "name": "The component look set",
+        "prop_prompt": "Stylized 3D prop reference sheet on a plain mid-grey background: a lineup of glossy ball-and-stick molecule models in soft rounded Pixar-lite style, left to right: one larger amber model made of two joined rings with small spheres, four smaller models in coral, lime green, violet and cyan, a small cluster of pearl white faceted crystals, and two models in soft pink and mint green. Each glows gently in its own colour. Clean studio light, soft shadows. No letters, numbers, formulas or labels anywhere. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+        "asset": "assets/molecules.jpg",
+        "used_for": "the look of every component inside the product: glossy, softly glowing, one colour each (amber, coral with lime, violet and cyan for groups, pearl white, pink and mint). For ingested and applied products the components are shown in exactly this ball-and-stick and crystal language; for other archetypes use it only as the gloss, glow and colour reference."
+      },
+      {
+        "id": "rig",
+        "name": "Delgado Freight cab",
+        "prop_prompt": "Stylized 3D prop reference sheet on a plain mid-grey background: a big rig truck cab in soft rounded Pixar-lite style, shown front and rear three-quarter, glossy red paint with a few chips on the bumper, a chrome grille, a small chrome crescent moon hood ornament, five amber clearance lights on the roof with one unlit, bug spatter on the windshield, black mud flaps each with a small silver crescent moon shape. Upright, all wheels on the ground. No letters, numbers or logos anywhere. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+        "asset": "assets/rig.jpg",
+        "used_for": "S02 and S09"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Delgado Freight",
+        "mark": "a silver crescent moon over a single straight road line",
+        "colors": "red and silver",
+        "appears_on": "the cab doors, mud flaps and hood ornament (the crescent alone)",
+        "text_in_post": "the words DELGADO FREIGHT on the cab door in S02 and S09 only, added in post"
+      },
+      {
+        "name": "Mile 212 Stop",
+        "mark": "a warm white circle with a single road chevron",
+        "colors": "sodium orange and warm white",
+        "appears_on": "the pole sign and pump tops, always blank in the model",
+        "text_in_post": "optional MILE 212 on the pole sign in S09"
+      }
+    ],
+    "wear_and_time": "2:07am on a dry, cold desert night after a windy evening. The rig has 600 miles of bugs on the windshield, the diesel nozzle is still dripping from her fill-up, the diner is on its fourth pot of coffee and one roof clearance light has blown. Out of place: a tumbleweed jammed against the pump island. Inside the product everything is spotless until the components arrive.",
+    "sound_world": [
+      "the buzz of the canopy lights",
+      "a diesel engine idling with a low clatter",
+      "the clunk of the fuel nozzle shutting off",
+      "wind hissing across the empty lot",
+      "the product's own opening or use sound in the cab",
+      "soft bubble pops and glassy shimmers inside the void",
+      "a soft blip as each component arrives",
+      "air brakes sighing as the rig pulls away"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "the cup holder of the cab beside her taped travel mug, where the product rides"
+      ],
+      "applied": [
+        "the dashboard tray beside her reading glasses, where the product rides"
+      ],
+      "worn": [
+        "the passenger seat of the cab, where the product lies folded or set out"
+      ],
+      "handheld": [
+        "the dashboard tray, where the product rides beside her reading glasses"
+      ],
+      "carried": [
+        "the passenger seat of the cab, where the product sits"
+      ],
+      "home": [
+        "the small sleeper berth behind the cab seats, where the product is set up among her flattened navy cushion and a folded blanket"
+      ],
+      "consumable": [
+        "the door pocket of the cab, where a pack of the product rides"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "rosa",
+      "name": "Rosa Delgado",
+      "role": "long-haul trucker on a late drive (non-speaking; the narrator talks)",
+      "look": "stylized 3D woman, 46, Mexican American, warm brown skin, dark hair with grey streaks in a low ponytail, laugh lines, red and navy flannel shirt over a grey tee, trucker cap in plain navy with no logo",
+      "voice": "non-speaking; one satisfied 'mm' and a laugh",
+      "card_prompt": "Stylized 3D character identity sheet on a plain pale grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders of the same woman. Rosa Delgado: 46, Mexican American, warm brown skin, dark hair with grey streaks in a low ponytail, laugh lines, friendly tired eyes, red and navy flannel shirt over a grey tee, plain navy trucker cap with no logo. Consistent identity across all three views. No text.",
+      "asset": "assets/rosa.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "truckstop",
+      "name": "Mile 212 truck stop at 2am",
+      "plate_prompt": "Stylized 3D animation render, vertical 9:16, upright composition with level horizon: a lonely truck stop at 2am on an empty highway, a glowing canopy of warm sodium light over the fuel island, a big rig with a plain red cab seen from the front three-quarter parked under it, dark navy sky with stars, empty road stretching away. Soft rounded forms, clean lighting. All signs blank, no people, no text, no brands.",
+      "asset": "assets/truckstop.jpg"
+    },
+    {
+      "id": "void",
+      "name": "Inside the product: explainer void",
+      "plate_prompt": "Stylized 3D animation render, vertical 9:16: a seamless pale grey-blue studio void with a soft gradient floor and gentle three-point light, a single softly glowing circular platform in the centre, lots of empty space. Clean, calm, premium explainer look. No objects, no text. The glowing platform is completely empty: no product, no container, nothing standing on it.",
+      "asset": "assets/void.jpg"
+    }
+  ],
+  "asset_urls": {
+    "rosa": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/how_its_made-01-whats-inside/assets/rosa.jpg",
+    "truckstop": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/how_its_made-01-whats-inside/assets/truckstop.jpg",
+    "void": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/how_its_made-01-whats-inside/assets/void.jpg",
+    "molecules": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/how_its_made-01-whats-inside/assets/molecules.jpg",
+    "rig": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/how_its_made-01-whats-inside/assets/rig.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "The product in the void, cut away along one side, its inside glowing. The narrator names one surprising page-stated fact (with a left-out prop bouncing off if the page says it is free of something)."
+    },
+    {
+      "id": "setup",
+      "t": "3-8.4",
+      "summary": "2am at a truck stop, Rosa uses the product in her cab; the camera dives into it."
+    },
+    {
+      "id": "product",
+      "t": "8.4-21.6",
+      "summary": "The x-ray tour: up to four page-named components, one at a time, each lighting its pedestal; only what the page states is said."
+    },
+    {
+      "id": "build",
+      "t": "21.6-25",
+      "summary": "Pull back out: the whole product rebuilds itself, label to camera. The brand line."
+    },
+    {
+      "id": "payoff",
+      "t": "25-27.4",
+      "summary": "Rosa back on the dark highway, smiling, dawn on the horizon."
+    },
+    {
+      "id": "cta",
+      "t": "27.4-30",
+      "summary": "The product on a turntable in the void, one edge in x-ray, its components orbiting, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.2-2.9",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S01",
+      "max_words": 10,
+      "line_intent": "Hook: one surprising true fact from the product page that makes the viewer ask 'wait, how?'. If left_out exists, pair how the product looks, feels or tastes with the thing it is free of.",
+      "delivery": "fast, curious, friendly, a little conspiratorial",
+      "rules": "the fact must be stated on the product page; left_out only if the page says it word for word"
+    },
+    {
+      "id": "L2",
+      "t": "3.4-5.6",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S02",
+      "max_words": 8,
+      "line_intent": "Promise the explanation and set the scene.",
+      "delivery": "quick, playful, lifting on 'inside'",
+      "fixed_line": "So what's actually in there? Let's go inside."
+    },
+    {
+      "id": "L3",
+      "t": "8.6-11.4",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S04",
+      "max_words": 10,
+      "line_intent": "Component 1: 'First,' then its name, then its stated_function if the page gives one (else its stated amount, or nothing more).",
+      "delivery": "clear, a beat on the component name",
+      "rules": "name as written on the page; function only from stated_function, reworded no further than person and tense; nothing unstated (see product_extract.nothing_unstated)"
+    },
+    {
+      "id": "L4",
+      "t": "11.7-15.3",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S05",
+      "max_words": 12,
+      "line_intent": "Component 2: 'Then' plus its name (a group may list its members as the page lists them), then its stated_function if the page gives one.",
+      "delivery": "rapid list if it is a group, ticking each one, then slower on the function",
+      "rules": "same as L3; spell hard names phonetically in the TTS script"
+    },
+    {
+      "id": "L5",
+      "t": "15.6-17.4",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S06",
+      "max_words": 8,
+      "line_intent": "Component 3: 'Plus' and its name, with its stated amount or stated_function if the page gives one; if the page gives neither, the name alone.",
+      "delivery": "matter of fact, quick",
+      "rules": "same as L3; with only 2 components follow product_extract.components.mapping"
+    },
+    {
+      "id": "L6",
+      "t": "17.8-21.4",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S07",
+      "max_words": 10,
+      "line_intent": "Component 4, and pay off the hook: if left_out exists, name what the page uses instead and end on 'Not <left_out>.'; otherwise name component 4 with its stated function.",
+      "delivery": "the reveal, a small grin, punch on the last two words",
+      "rules": "same as L3; left_out wording from its page_quote only"
+    },
+    {
+      "id": "L7",
+      "t": "22.0-24.8",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S08",
+      "max_words": 9,
+      "line_intent": "Product line: say {{product.name}} and its one point of difference from product.benefits.",
+      "delivery": "warm and certain, slower than the rest",
+      "rules": "benefit only from product.benefits, reworded no further than person and tense; brand spelled with product.phonetic in the TTS script"
+    },
+    {
+      "id": "L8",
+      "t": "27.7-29.6",
+      "speaker": "narrator",
+      "on_camera": false,
+      "shot": "S10",
+      "max_words": 6,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word line about knowing exactly what is inside.",
+      "delivery": "smiling, a little stretched"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 3.0,
+      "beat": "hook",
+      "framing": "centred medium on the void",
+      "camera": "slow orbit, snap zoom at the bounce",
+      "action": "The product stands in the void cut cleanly away along one side, its inside glowing; if the page names something the product is free of, a big stylized version of it tumbles in and bounces off an invisible glass wall.",
+      "product_state": "cutaway, upright, front intact with label to camera, one side open",
+      "audio": "whoosh, a glassy shimmer (a glassy bonk and skitter if there is a left-out prop)",
+      "caption": "{{line.L1}}",
+      "refs": [
+        "product",
+        "void"
+      ],
+      "dressing": [
+        "faint concentric light rings on the floor around the platform",
+        "tiny glints of light rising behind the cutaway",
+        "the far arc of four small component-coloured pedestals, soft and out of focus",
+        "a slim brushed aluminium rim around the base of the platform"
+      ],
+      "keyframe_prompt": "In the pale grey-blue void from the location plate, {{action}}. The product matches the product reference exactly. [[S01.gag]] No letters, numbers or formulas anywhere except the product's own label.",
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright on the glowing platform, rendered realistic with its front label to camera and undistorted, a clean vertical slice removed from its right side so its real contents glow softly behind a clear glass-like wall",
+        "applied": "{{product.visual}} standing upright on the glowing platform, rendered realistic with its label to camera, its right side sliced cleanly away so the formula inside glows softly behind a clear glass-like wall",
+        "worn": "{{product.visual}} floating upright just above the glowing platform as if on an invisible form, its best side to camera, one clean section on its right side peeled back to show its inner layers stacked like a cross-section",
+        "handheld": "{{product.visual}} standing upright on the glowing platform, logo to camera, its right side cut away in a clean x-ray section so its inner parts show in a soft glow",
+        "carried": "{{product.visual}} standing on the glowing platform, logo to camera, its right side panel turned clear like glass so its compartments and inner structure show",
+        "home": "{{product.visual}} on a wider glowing platform scaled to its size, its best side to camera, one clean section on its right cut away to show its inner construction in a soft glow",
+        "consumable": "a single {{product.visual}} standing upright on the glowing platform, label to camera, its right side sliced cleanly away so its contents show behind a clear glass-like wall"
+      }
+    },
+    {
+      "id": "S02",
+      "t0": 3.0,
+      "t1": 5.8,
+      "beat": "setup",
+      "framing": "medium in the cab",
+      "camera": "slow push-in",
+      "action": "2am in the cab at the truck stop: Rosa, cap on, uses the product in the driver's seat; the canopy light glows through the windshield.",
+      "product_state": "in hand or in use at chest height, label or logo to camera",
+      "audio": "the product's own opening or use sound, soft cab hum, a truck passing outside",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "rosa",
+        "product",
+        "truckstop"
+      ],
+      "dressing": [
+        "the small brass saint medal swinging from the rear-view mirror",
+        "the dented steel travel mug with red tape on its handle in the cup holder",
+        "reading glasses in her flannel pocket with one taped arm",
+        "a bug-spattered windshield glowing with orange canopy light",
+        "her turquoise ring on her right hand"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: inside the cab of a big rig at night, Rosa, the woman from the character sheet, in her plain navy cap and red and navy flannel, sitting in the driver's seat, {{action}}; warm sodium light from the truck stop canopy through the windshield, navy night outside. Dashboard screens blank. The product is realistic and exact inside the stylized world and matches the product reference.",
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "opening {{product.visual}} at chest height with the label facing camera and undistorted, about to have some, a small puff of mist or aroma curling from the opening",
+        "applied": "squeezing a little of {{product.visual}} onto the back of one hand at chest height, the label facing camera and undistorted",
+        "worn": "pulling on or adjusting {{product.visual}} in the driver's seat, its details catching the orange canopy light",
+        "handheld": "holding {{product.visual}} at chest height and switching it on or putting it to use, logo facing camera and undistorted",
+        "carried": "opening {{product.visual}} on her lap in the driver's seat, logo facing camera and undistorted",
+        "home": "turned in her seat toward the small sleeper berth behind the seats, one hand switching on or settling {{product.visual}}, which is set up there among a flattened navy cushion and a folded blanket",
+        "consumable": "taking one {{product.visual}} from its pack at chest height, the label facing camera and undistorted"
+      }
+    },
+    {
+      "id": "S03",
+      "t0": 5.8,
+      "t1": 8.4,
+      "beat": "setup",
+      "framing": "extreme close-up diving into the opening",
+      "camera": "fast push-in through the opening",
+      "action": "The camera rushes into the product; its surface turns translucent like glass and the world opens into its glowing inside.",
+      "product_state": "close on its opening or surface, filling the frame",
+      "audio": "deep whoosh, a glassy shimmer, a soft rush",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "dressing": [
+        "a thin frost ring of light around the point of entry",
+        "tiny glints climbing the translucent inner walls",
+        "soft pale grey-blue glow beyond"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: {{action}}. The product matches the product reference exactly. No letters generated except the product's own printing.",
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "extreme close-up top-down on the opening of {{product.visual}}, the opening large in the centre of frame, its walls turning translucent like frosted glass so its glowing contents are visible inside, a sense of the camera about to fly in",
+        "applied": "extreme close-up on the cap, pump or nozzle opening of {{product.visual}}, large in the centre of frame, the container walls turning translucent like frosted glass so the glowing formula shows inside, a sense of the camera about to fly in",
+        "worn": "extreme close-up on the surface of {{product.visual}}, its weave, grain or stitching filling the frame and turning translucent so its inner layers glow beneath, a sense of the camera about to fly in",
+        "handheld": "extreme close-up on a seam, port or button of {{product.visual}}, its shell turning translucent like frosted glass so its glowing inner parts show beneath, a sense of the camera about to fly in",
+        "carried": "extreme close-up on the zip, clasp or opening of {{product.visual}}, the outer fabric or shell turning translucent so its glowing inner structure shows beneath, a sense of the camera about to fly in",
+        "home": "extreme close-up on the surface of {{product.visual}}, its outer layer turning translucent like frosted glass so its glowing inner construction shows beneath, a sense of the camera about to fly in",
+        "consumable": "extreme close-up top-down on the opened pack of {{product.visual}}, the wrapper turning translucent so its glowing contents show inside, a sense of the camera about to fly in"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 8.4,
+      "t1": 11.6,
+      "beat": "product",
+      "framing": "centred on one molecule",
+      "camera": "orbit with snap zoom",
+      "action": "Inside the product: the first page-named component spins into the centre and glows amber; empty space around it for the post label.",
+      "product_state": "inside the product (its interior is the set)",
+      "audio": "soft blip as it arrives, low hum",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "void",
+        "molecules"
+      ],
+      "dressing": [
+        "tiny soft glints drifting past the component",
+        "the amber pedestal in the far arc now glowing",
+        "soft concentric floor rings far below"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: {{action}}. Clean soft light, one idea in frame. No letters, numbers or formulas anywhere.",
+      "product_role": "background",
+      "product_action": {
+        "ingested": "inside the product's own contents, imagined as a softly glowing space tinted the real colour of what is inside (a glowing liquid if it is liquid, a warm crumbly glow if it is solid, soft bubbles only if the page says it is sparkling): [[component.1.visual]] spins into the centre of the frame and glows warm amber, with lots of empty space above and below it",
+        "applied": "inside the formula, imagined as a soft pearly translucent medium with slow swirls: [[component.1.visual]] spins into the centre of the frame and glows warm amber, with lots of empty space above and below it",
+        "worn": "inside the product's material, its layers imagined as huge soft translucent sheets of its real weave or grain drifting apart in the pale grey-blue void: [[component.1.visual]] spins into the centre of the frame and glows warm amber, with lots of empty space above and below it",
+        "handheld": "inside the product, its shell opened into a clean floating exploded view in the pale grey-blue void, the other parts soft and out of focus: [[component.1.visual]] spins into the centre of the frame and glows warm amber, with lots of empty space above and below it",
+        "carried": "inside the product, its walls turned to frosted glass around a calm pale grey-blue space, its real lining colour glowing faintly: [[component.1.visual]] spins into the centre of the frame and glows warm amber, with lots of empty space above and below it",
+        "home": "inside the product, its outer surface turned to frosted glass around a calm pale grey-blue space, its inner construction faint in the background: [[component.1.visual]] spins into the centre of the frame and glows warm amber, with lots of empty space above and below it",
+        "consumable": "inside the pack, its contents lifted gently out into the pale grey-blue void: [[component.1.visual]] spins into the centre of the frame and glows warm amber, with lots of empty space above and below it"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 11.6,
+      "t1": 15.4,
+      "beat": "product",
+      "framing": "centred group",
+      "camera": "slow orbit",
+      "action": "The second page-named component pops in with a coral glow (a group arrives one by one and orbits in a ring).",
+      "product_state": "inside the product (its interior is the set)",
+      "audio": "rising blips, one per part, a soft chime",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "void",
+        "molecules"
+      ],
+      "dressing": [
+        "tiny soft glints in the medium",
+        "the coral pedestal in the far arc now glowing",
+        "a soft ring light reflection overhead"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: {{action}}. Each part has a soft matching glow and empty space around it for labels. No letters, numbers or formulas anywhere.",
+      "product_role": "background",
+      "product_action": {
+        "ingested": "inside the product's own contents, imagined as a softly glowing space tinted the real colour of what is inside (a glowing liquid if it is liquid, a warm crumbly glow if it is solid, soft bubbles only if the page says it is sparkling): [[component.2.visual]] pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it",
+        "applied": "inside the formula, imagined as a soft pearly translucent medium with slow swirls: [[component.2.visual]] pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it",
+        "worn": "inside the product's material, its layers imagined as huge soft translucent sheets of its real weave or grain drifting apart in the pale grey-blue void: [[component.2.visual]] pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it",
+        "handheld": "inside the product, its shell opened into a clean floating exploded view in the pale grey-blue void, the other parts soft and out of focus: [[component.2.visual]] pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it",
+        "carried": "inside the product, its walls turned to frosted glass around a calm pale grey-blue space, its real lining colour glowing faintly: [[component.2.visual]] pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it",
+        "home": "inside the product, its outer surface turned to frosted glass around a calm pale grey-blue space, its inner construction faint in the background: [[component.2.visual]] pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it",
+        "consumable": "inside the pack, its contents lifted gently out into the pale grey-blue void: [[component.2.visual]] pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 15.4,
+      "t1": 17.6,
+      "beat": "product",
+      "framing": "centred close",
+      "camera": "push-in",
+      "action": "The third page-named component drifts in with a pearl white glow and turns slowly.",
+      "product_state": "inside the product (its interior is the set)",
+      "audio": "a crystalline tinkle, a soft shimmer",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "void",
+        "molecules"
+      ],
+      "dressing": [
+        "faint sparkling trails behind the component",
+        "a faint pearl glow on the medium around it",
+        "the pearl pedestal in the far arc now glowing"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: {{action}}. Soft light, empty space around it. No letters, numbers or formulas anywhere.",
+      "product_role": "background",
+      "product_action": {
+        "ingested": "inside the product's own contents, imagined as a softly glowing space tinted the real colour of what is inside (a glowing liquid if it is liquid, a warm crumbly glow if it is solid, soft bubbles only if the page says it is sparkling): [[component.3.visual]] drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it",
+        "applied": "inside the formula, imagined as a soft pearly translucent medium with slow swirls: [[component.3.visual]] drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it",
+        "worn": "inside the product's material, its layers imagined as huge soft translucent sheets of its real weave or grain drifting apart in the pale grey-blue void: [[component.3.visual]] drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it",
+        "handheld": "inside the product, its shell opened into a clean floating exploded view in the pale grey-blue void, the other parts soft and out of focus: [[component.3.visual]] drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it",
+        "carried": "inside the product, its walls turned to frosted glass around a calm pale grey-blue space, its real lining colour glowing faintly: [[component.3.visual]] drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it",
+        "home": "inside the product, its outer surface turned to frosted glass around a calm pale grey-blue space, its inner construction faint in the background: [[component.3.visual]] drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it",
+        "consumable": "inside the pack, its contents lifted gently out into the pale grey-blue void: [[component.3.visual]] drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 17.6,
+      "t1": 21.6,
+      "beat": "product",
+      "framing": "two-shot of the component against the product's clear inner wall",
+      "camera": "slow pull back",
+      "action": "The fourth page-named component glows pink and mint beside the product's clear inner wall; if there is a left-out prop, it is pressed against the outside of the glass, shut out.",
+      "product_state": "inside the product, its clear wall visible",
+      "audio": "two soft chimes (a muffled knock on the glass if there is a left-out prop)",
+      "caption": "{{line.L6}}",
+      "refs": [
+        "void",
+        "molecules"
+      ],
+      "dressing": [
+        "a faint smudge on the glass wall",
+        "tiny glints on the inside of the wall",
+        "the mint pedestal in the far arc now glowing",
+        "soft floor rings far below"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: {{action}}. No faces on any object, no letters, numbers or formulas anywhere.",
+      "product_role": "background",
+      "product_action": {
+        "ingested": "inside the product's own contents, imagined as a softly glowing space tinted the real colour of what is inside (a glowing liquid if it is liquid, a warm crumbly glow if it is solid, soft bubbles only if the page says it is sparkling): [[component.4.visual]] in the centre, glowing soft pink and mint; to the right the curved clear glass-like inner wall of the product, [[S07.gag]]",
+        "applied": "inside the formula, imagined as a soft pearly translucent medium with slow swirls: [[component.4.visual]] in the centre, glowing soft pink and mint; to the right the curved clear glass-like inner wall of the container, [[S07.gag]]",
+        "worn": "inside the product's material, its layers imagined as huge soft translucent sheets of its real weave or grain drifting apart in the pale grey-blue void: [[component.4.visual]] in the centre, glowing soft pink and mint; to the right a clear glass-like pane standing for the product's outer layer, [[S07.gag]]",
+        "handheld": "inside the product, its shell opened into a clean floating exploded view in the pale grey-blue void, the other parts soft and out of focus: [[component.4.visual]] in the centre, glowing soft pink and mint; to the right the clear glass-like edge of the product's opened shell, [[S07.gag]]",
+        "carried": "inside the product, its walls turned to frosted glass around a calm pale grey-blue space, its real lining colour glowing faintly: [[component.4.visual]] in the centre, glowing soft pink and mint; to the right the frosted glass wall of the product, [[S07.gag]]",
+        "home": "inside the product, its outer surface turned to frosted glass around a calm pale grey-blue space, its inner construction faint in the background: [[component.4.visual]] in the centre, glowing soft pink and mint; to the right the frosted glass outer surface of the product, [[S07.gag]]",
+        "consumable": "inside the pack, its contents lifted gently out into the pale grey-blue void: [[component.4.visual]] in the centre, glowing soft pink and mint; to the right the clear glass-like wall of the opened pack, [[S07.gag]]"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 21.6,
+      "t1": 25.0,
+      "beat": "build",
+      "framing": "centred hero",
+      "camera": "fast pull back, then hold",
+      "action": "The camera flies back out; the product rebuilds itself from its x-ray state into its solid, exact form on the platform, label to camera.",
+      "product_state": "hero, complete solid form, upright, label square to camera, held 2.5 s",
+      "audio": "reverse whoosh, a satisfying click as it seals, soft bass hit",
+      "caption": "{{line.L7}}",
+      "refs": [
+        "product",
+        "void"
+      ],
+      "dressing": [
+        "faint fading x-ray glow lines around the product",
+        "the far arc of four pedestals now all lit",
+        "soft concentric floor rings",
+        "a thin ring light reflected on the floor"
+      ],
+      "keyframe_prompt": "In the pale grey-blue void from the location plate: {{action}}. The product matches the product reference exactly: same shape, colours and label. Premium, centred, empty space above.",
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} reassembled into its complete realistic form, standing upright on the softly glowing platform, label square to camera and perfectly undistorted, faint fading x-ray glow lines around its edges as if it just rebuilt itself, a few cold droplets on it",
+        "applied": "{{product.visual}} reassembled into its complete realistic form, standing upright on the softly glowing platform, label square to camera and perfectly undistorted, faint fading x-ray glow lines around its edges",
+        "worn": "{{product.visual}} reassembled into its complete realistic form, floating upright just above the softly glowing platform as if on an invisible form, its best side square to camera, faint fading x-ray glow lines around its edges",
+        "handheld": "{{product.visual}} reassembled into its complete realistic form, standing upright on the softly glowing platform, logo square to camera, its exploded parts just clicked back into place, faint fading x-ray glow lines around its edges",
+        "carried": "{{product.visual}} reassembled into its complete realistic form, standing on the softly glowing platform, logo square to camera, its walls solid again, faint fading x-ray glow lines around its edges",
+        "home": "{{product.visual}} reassembled into its complete realistic form on a wider glowing platform scaled to it, its best side square to camera, faint fading x-ray glow lines around its edges",
+        "consumable": "the pack of {{product.visual}} reassembled into its complete realistic form, standing upright on the softly glowing platform, label square to camera, faint fading x-ray glow lines around its edges"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 25.0,
+      "t1": 27.4,
+      "beat": "payoff",
+      "framing": "from behind the truck",
+      "camera": "low tracking behind",
+      "action": "The big rig pulls away from the truck stop down the empty highway toward a thin line of dawn; in the side mirror Rosa is smiling.",
+      "product_state": "absent",
+      "audio": "diesel rumble, air brake release, a short happy horn",
+      "caption": "",
+      "refs": [
+        "rosa",
+        "truckstop",
+        "rig"
+      ],
+      "dressing": [
+        "black mud flaps with small silver crescent moon shapes",
+        "five amber clearance lights on the cab roof, one unlit",
+        "the glowing truck stop canopy shrinking far behind",
+        "wooden telephone poles along the road",
+        "mesa silhouettes against the thin orange dawn"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render, from low behind a big rig with a plain red cab and blank trailer driving away down an empty straight highway at night toward a thin orange line of dawn on the horizon, all wheels on the road, the side mirror showing Rosa, the woman from the character sheet, smiling in her navy cap. Upright vertical composition, level horizon, the road runs from bottom to the centre of the frame. All signs blank.",
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 27.4,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "centred pack shot",
+      "camera": "slow turntable rotation 15 degrees, label stays readable",
+      "action": "The product on the platform in the void, one edge in x-ray, small glowing shapes of its components orbiting it; space above for the tagline.",
+      "product_state": "hero, upright, label to camera, cutaway on one edge only",
+      "audio": "final soft chime, underscore button",
+      "caption": "{{line.L8}}",
+      "refs": [
+        "product",
+        "void",
+        "molecules"
+      ],
+      "dressing": [
+        "the component shapes orbiting in a loose ring",
+        "the far arc of pedestals all lit",
+        "faint floor rings",
+        "a few rising glints"
+      ],
+      "keyframe_prompt": "{{action}}. The product matches the product reference exactly and is the brightest, sharpest object. Large empty space in the upper third for a title. No letters, numbers or formulas anywhere except the product's own label.",
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}}, realistic, upright on the glowing platform, label facing camera and undistorted across its front, only its far right edge cut away to show a sliver of its glowing contents, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring",
+        "applied": "{{product.visual}}, realistic, upright on the glowing platform, label facing camera and undistorted, only its far right edge cut away to show a sliver of the glowing formula, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring",
+        "worn": "{{product.visual}}, realistic, floating upright just above the glowing platform, its best side to camera, one thin edge peeled back to show its layers, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring",
+        "handheld": "{{product.visual}}, realistic, upright on the glowing platform, logo facing camera, only its far right edge in x-ray, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring",
+        "carried": "{{product.visual}}, realistic, standing on the glowing platform, logo facing camera, one side panel faintly clear, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring",
+        "home": "{{product.visual}}, realistic, on a wider glowing platform scaled to it, its best side to camera, one edge in soft x-ray, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring",
+        "consumable": "the pack of {{product.visual}} with one unit beside it, realistic, upright on the glowing platform, label facing camera, one edge cut away to show its contents, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.4,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "product image",
+        "rosa card",
+        "truckstop plate",
+        "void plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer animation, soft rounded forms, clean studio light; the product is always rendered realistic and exact as @Image1. Shot 1 (0 to 3 s): in the pale grey-blue void of @Image4, {{action.S01}}; [[S01.gag]] Snap zoom on the moment. Shot 2 (3 to 5.8 s): inside a big rig cab at 2am at the truck stop of @Image3, @Image2 (Rosa) in the driver's seat, {{action.S02}}. Shot 3 (5.8 to 9 s): fast push-in, {{action.S03}}, and we fly inside. Native sound: whoosh, glassy shimmer, the product's own opening or use sound, cab hum, a soft rush. No speech (narration added in post). No music. No letters or numbers anywhere except the product's own label."
+    },
+    {
+      "id": "U2",
+      "t0": 8.4,
+      "t1": 21.6,
+      "shots": [
+        "S04",
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "len_s": 14,
+      "exact_risk": false,
+      "refs": [
+        "void plate",
+        "molecules sheet",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer inside the product, continuous camera travel, one idea at a time, centred, glossy glowing objects in the style of @Image2. Shot 1 (0 to 3.2 s): {{action.S04}}, snap zoom. Shot 2 (3.2 to 7 s): {{action.S05}}. Shot 3 (7 to 9.2 s): {{action.S06}}. Shot 4 (9.2 to 14 s): slow pull back, {{action.S07}}. The void of @Image1 shows wherever the product's walls are clear. Keep empty space around each object. Native sound: a blip on each arrival, rising blips for groups, a crystalline tinkle, soft chimes. No speech. No music. No letters, numbers or formulas."
+    },
+    {
+      "id": "U3",
+      "t0": 21.6,
+      "t1": 25.0,
+      "shots": [
+        "S08"
+      ],
+      "len_s": 4,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "void plate",
+        "S08 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer. Fast pull back out of the product; the x-ray walls solidify into {{action.S08}} in the void of @Image2; then hold still. Keep its shape, colours and label exactly as @Image1. Native sound: reverse whoosh, a satisfying seal click, soft bass hit. No speech (narration added in post). No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 25.0,
+      "t1": 30,
+      "shots": [
+        "S09",
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "rosa card",
+        "rig sheet",
+        "void plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer. Shot 1 (0 to 2.4 s): low behind the big rig of @Image3 with a plain red cab pulling away down an empty straight highway toward a thin orange line of dawn, wheels on the road, upright frame, level horizon; @Image2 (Rosa) smiling in the side mirror. Shot 2 (2.4 to 5 s): in the void of @Image4, {{action.S10}}, slow 15 degree turntable move, the product matching @Image1 exactly, empty space above. Native sound: diesel rumble, air brake release, a short horn, a final soft chime. No speech. No music. No text except the product's own label."
+    }
+  ],
+  "music": [
+    {
+      "section": "curious",
+      "t0": 0,
+      "t1": 8.4,
+      "brief": "Plucky pizzicato synth and soft finger snaps, 110 bpm, a question-mark motif on the hook, drops out for the product's own sound in the cab."
+    },
+    {
+      "section": "tour",
+      "t0": 8.4,
+      "t1": 21.6,
+      "brief": "Same motif with light marimba and a soft kick, a small rising arpeggio on each new component, ducked 8 dB under narration."
+    },
+    {
+      "section": "reveal",
+      "t0": 21.6,
+      "t1": 30,
+      "brief": "Brief lift and a warm chord on the rebuilt product, a bright button on the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 1.6,
+      "sound": "glassy bonk of the left-out prop bouncing off (only with left_out)",
+      "why": "the visual gag is the hook; the sound sells it"
+    },
+    {
+      "t": 3.8,
+      "sound": "the product's own opening or use sound",
+      "why": "the product moment in the human world must register; only if the native sound is weak"
+    },
+    {
+      "t": 22.4,
+      "sound": "a satisfying seal click as the product rebuilds itself",
+      "why": "marks the return to the real product for the brand line"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "narrator",
+      "plan": "one fast, friendly, curious narrator (American, mid-tenor, 1.1x pace) as a single TTS track in post; units carry no speech; the brand line (L7) with product.phonetic lands over the short exact risk unit U3; hard component names get phonetic spellings in the TTS script"
+    }
+  ],
+  "captions": {
+    "font": "Montserrat ExtraBold",
+    "size": "7.2% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFE14D yellow on the spoken word",
+    "shadow": "none, 9px black stroke outline",
+    "position": "centre, 58% down the frame, never over the cutaway subject",
+    "max_words_on_screen": 2,
+    "box": false,
+    "case": "uppercase",
+    "motion": "each word pops in at 120% and settles to 100% over 3 frames",
+    "callout_labels": "ingredient callouts in post: white rounded pill with black text and a thin leader line to the 3D part"
+  },
+  "post_text": [
+    {
+      "t0": 8.8,
+      "t1": 11.6,
+      "text": "[[component.1.label]]",
+      "sub": "",
+      "style": "white rounded pill label with black Montserrat Bold text and a thin leader line to the amber component"
+    },
+    {
+      "t0": 12.0,
+      "t1": 15.4,
+      "text": "[[component.2.label]]",
+      "sub": "",
+      "style": "one pill per part of a group (split on slashes), each popping in on its blip; one pill for a single component"
+    },
+    {
+      "t0": 15.6,
+      "t1": 17.6,
+      "text": "[[component.3.label]]",
+      "sub": "",
+      "style": "pill label beside the pearl white component"
+    },
+    {
+      "t0": 18.0,
+      "t1": 21.6,
+      "text": "[[component.4.label]]",
+      "sub": "",
+      "style": "pill labels on the pink and mint component; with left_out, a small red 'NO' stamp shape next to the left-out prop outside the wall"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L8}}",
+      "style": "Montserrat ExtraBold white with black stroke in the empty space above the product, pop in 3 frames"
+    }
+  ],
+  "qa": [
+    "every component named in L3 to L6 and in the callouts appears on the product page, with its page_quote recorded in the fill",
+    "no line or callout says what a component does unless stated_function is filled from the page",
+    "left_out is used only if the page says it word for word; otherwise the default gags are used and L1 and L6 do not mention it",
+    "no [[...]] token remains in the fill",
+    "the product in S01, S02, S03, S08 and S10 matches the product image (shape, colours, label), photoreal inside the stylized world",
+    "the left-out prop never touches, overlaps or enters the product in S01 and stays outside the glass in S07",
+    "Rosa identical in S02 and S09 against the character sheet",
+    "no model-drawn letters, numbers or formulas anywhere; every name and amount is a post callout",
+    "L7 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "late drive",
+        "long study or work session",
+        "before training"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free",
+      "benefits": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "components": [
+        {
+          "name": "Caffeine",
+          "page_quote": "Caffeine helps to improve concentration and increase alertness",
+          "amount": "",
+          "stated_function": "helps to improve concentration and increase alertness",
+          "label": "CAFFEINE",
+          "visual": "a single glossy amber ball-and-stick molecule model, two joined rings with small spheres attached"
+        },
+        {
+          "name": "B-group vitamins (niacin, B2, B6, B12)",
+          "page_quote": "B-group vitamins contribute to the reduction of tiredness and fatigue",
+          "amount": "",
+          "stated_function": "contribute to the reduction of tiredness and fatigue",
+          "label": "NIACIN / B2 / B6 / B12",
+          "visual": "four small glossy ball-and-stick molecule models, one coral, one lime green, one violet, one cyan"
+        },
+        {
+          "name": "Taurine",
+          "page_quote": "With Taurine",
+          "amount": "1000 mg",
+          "stated_function": "",
+          "label": "TAURINE 1000 mg",
+          "visual": "a small cluster of pearl white faceted crystals dissolving into spiralling sparkling white swirls"
+        },
+        {
+          "name": "Sweeteners: sucralose and acesulfame K",
+          "page_quote": "sweeteners (sucralose, acesulfame K)",
+          "amount": "",
+          "stated_function": "",
+          "label": "SUCRALOSE / ACESULFAME K",
+          "visual": "two glossy ball-and-stick molecule models side by side, one soft pink and one mint green"
+        }
+      ],
+      "left_out": {
+        "name": "sugar",
+        "page_quote": "Same benefits of the original Energy Drink, without sugar",
+        "visual": "white sugar cube with slightly rounded edges, a sparkling granular surface and one small chip missing from a top corner",
+        "asset": "assets/example_left_out.jpg"
+      }
+    },
+    "lines": {
+      "L1": "This tastes sweet. But there's no sugar in it.",
+      "L2": "So what's actually in there? Let's go inside.",
+      "L3": "First, caffeine. It helps improve concentration and alertness.",
+      "L4": "Then B vitamins: niacin, B2, B6, B12. They help reduce tiredness.",
+      "L5": "Plus a thousand milligrams of taurine.",
+      "L6": "And the sweet? Sucralose and acesulfame K. Not sugar.",
+      "L7": "Red Bull Sugarfree. Same benefits, without sugar.",
+      "L8": "Wiiings without sugar."
+    },
+    "tokens": {
+      "S01.gag": "High in the upper right corner of the frame, far from the product with a wide gap of empty space between them, a large stylized white sugar cube with slightly rounded edges, a sparkling granular surface and one small chip missing from a top corner is caught mid bounce, flying away from the product, with a short motion arc trailing to the upper right and a soft ripple on the glass where it hit. It never touches, crosses or enters the product.",
+      "S07.gag": "and on the other side of that clear wall, outside in the pale grey-blue void, a large stylized white sugar cube with slightly rounded edges, a sparkling granular surface and one small chip missing from a top corner pressed against the glass, shut out, with no face",
+      "component.N": "see product.components, in order",
+      "left_out.visual": "white sugar cube with slightly rounded edges, a sparkling granular surface and one small chip missing from a top corner"
+    },
+    "actions": {
+      "S01": "{{product.visual}} standing upright on the glowing platform, rendered realistic with its front label to camera and undistorted, a clean vertical slice removed from its right side so its real contents glow softly behind a clear glass-like wall",
+      "S02": "opening {{product.visual}} at chest height with the label facing camera and undistorted, a small puff of cold mist from the opening",
+      "S03": "extreme close-up top-down on the opening of {{product.visual}}, the opening large in the centre of frame, its walls turning translucent like frosted glass so its glowing contents are visible inside, a sense of the camera about to fly in",
+      "S04": "inside the product's own contents, imagined as a glowing pale golden sparkling liquid with soft bubbles drifting: a single glossy amber ball-and-stick molecule model, two joined rings with small spheres attached spins into the centre of the frame and glows warm amber, with lots of empty space above and below it",
+      "S05": "inside the product's own contents, imagined as a glowing pale golden sparkling liquid with soft bubbles drifting: four small glossy ball-and-stick molecule models, one coral, one lime green, one violet, one cyan pops into the centre of the frame with a soft coral glow (a group of parts arrives one after another and orbits in an evenly spaced ring in coral, lime, violet and cyan), with empty space around it",
+      "S06": "inside the product's own contents, imagined as a glowing pale golden sparkling liquid with soft bubbles drifting: a small cluster of pearl white faceted crystals dissolving into spiralling sparkling white swirls drifts into the centre of the frame with a pearl white glow, turning slowly, with empty space around it",
+      "S07": "inside the product's own contents, imagined as a glowing pale golden sparkling liquid with soft bubbles drifting: two glossy ball-and-stick molecule models side by side, one soft pink and one mint green in the centre, glowing soft pink and mint; to the right the curved clear glass-like inner wall of the product, and on the other side of that clear wall, outside in the pale grey-blue void, a large stylized white sugar cube with slightly rounded edges, a sparkling granular surface and one small chip missing from a top corner pressed against the glass, shut out, with no face",
+      "S08": "{{product.visual}} reassembled into its complete realistic form, standing upright on the softly glowing platform, label square to camera and perfectly undistorted, faint fading x-ray glow lines around its edges as if it just rebuilt itself, a few cold droplets on it",
+      "S10": "{{product.visual}}, realistic, upright on the glowing platform, label facing camera and undistorted across its front, only its far right edge cut away to show a sliver of its glowing contents, small glowing component shapes (amber, coral, pearl white, mint) orbiting it in a loose ring"
+    },
+    "notes": "Taurine shows the nothing-unstated rule: the page names it and gives 1000 mg but says nothing about what it does, so L5 gives only the name and the amount. The sweeteners are named because the page lists them; 'the sweet' in L6 is the hook payoff, not a function claim."
+  }
+}

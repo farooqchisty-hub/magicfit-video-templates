@@ -1,0 +1,917 @@
+{
+  "id": "us_vs_them-01-same-monday",
+  "style": "us_vs_them",
+  "title": "Same Monday",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Same architect, same Monday, stacked in split screen: on top she makes do with a plain generic version, below she has {{product.name}}. By 3pm only one of them is still winning, and the other one knows it.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a messy generic version at the desk against the product is the clearest split"
+      ],
+      "applied": [
+        "good",
+        "greasy fingerprints on the drawings make the rival's cost visible; the product is applied at the desk"
+      ],
+      "worn": [
+        "good",
+        "shoes, glasses, jackets and watches that pinch or slip against ones she forgets she is wearing"
+      ],
+      "handheld": [
+        "great",
+        "a leaking or dying generic gadget against one that just works, beside the pencil tin"
+      ],
+      "carried": [
+        "good",
+        "a split zip and spilled drawings against a neat bag on the chair back"
+      ],
+      "home": [
+        "stretch",
+        "desk lamps, chairs, cushions and speakers work in the studio; the bin payoff becomes a push aside and large furniture barely fits the split panes"
+      ],
+      "consumable": [
+        "good",
+        "a torn, scattering generic pack against a tidy one"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "products whose benefits are only health or medical claims (the rival's costs must stay everyday annoyances)",
+      "categories where a plain generic version would look like a specific real competitor (one dominant brand shape)"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Brooks Studio is Nia's four-person architecture practice, three years old, on the second floor of a 1920s printing warehouse in Chicago. The floor still has bolt holes where the presses stood.",
+      "Today, Monday, at 3pm, she pitches a six-storey apartment building to the Ferrante family. The white foam model on the meeting table took the team eleven nights.",
+      "The little foam house on her desk is the first model she ever built, in her second year of college; its roof has been glued back on twice.",
+      "Her pencil cup is her grandfather's old blue coffee tin; it always holds six sharpened pencils and a soft drafting brush.",
+      "Both halves are the same room, the same objects, the same woman on the same Monday. Only one thing changes, the product she relies on, and with it the light, the mess and the stains."
+    ],
+    "locations": {
+      "desk": {
+        "foreground": [
+          "a triangular aluminium architect's scale ruler lying across the drafting pad",
+          "her grandfather's faded blue coffee tin pencil cup with six sharpened pencils and a soft drafting brush",
+          "a half-unrolled roll of yellow trace paper held flat by a smooth river stone",
+          "the small white foam house model with a pitched roof and a visible glue seam on the ridge"
+        ],
+        "midground": [
+          "a black anglepoise desk lamp with a slightly chipped arm",
+          "a closed silver laptop with a completely plain, bare, unmarked lid",
+          "a jade plant in a terracotta pot on the deep window sill",
+          "a grey steel flat-file cabinet with brass pull handles beside the desk",
+          "a white wire waste bin by the desk leg"
+        ],
+        "background": [
+          "exposed brick with patches of ghost white paint and old bolt holes",
+          "a cork strip pinned with loose pencil sketches of rooflines and floor plans, no words",
+          "a tall steel-framed window with a cracked-then-repaired corner pane",
+          "a shelf of material samples: a cork square, a pale concrete tile, a slice of oak and a green felt swatch",
+          "a white enamel pendant lamp hanging on a long black cord"
+        ]
+      },
+      "meeting": {
+        "foreground": [
+          "the near end of the long pale oak table with two woven-seat oak chairs",
+          "a glass water carafe and two tumblers on a cork coaster"
+        ],
+        "midground": [
+          "the large white foam model of a six-storey apartment building on a birch plywood base, tiny foam trees around it",
+          "a wicker basket of rolled drawings at the table's side",
+          "material sample boards leaning against a table leg: brick, zinc and oak swatches"
+        ],
+        "background": [
+          "a blank whiteboard on the brick wall with a single magnet holding up a small pencil sketch",
+          "tall steel-framed windows with the jade plant on the sill",
+          "black steel roof beams and a white ventilation duct overhead",
+          "a row of three white enamel pendant lamps"
+        ]
+      }
+    },
+    "personal_props": {
+      "nia": [
+        "thin gold-rim glasses with one arm a little loose, which she pushes up with a knuckle",
+        "a slim silver watch with a worn leather-look steel mesh strap",
+        "a white linen shirt with the sleeves rolled twice, a graphite smudge on the side of her right hand",
+        "a short stubby pencil tucked behind her ear",
+        "small gold hoop earrings"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "model",
+        "name": "The Ferrante model",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a white foam-board architectural model of a six-storey apartment building with recessed balconies and a stepped roof terrace, on a square birch plywood base with tiny white foam trees and two tiny white scale figures, crisp cut edges and a few pencil guide marks on the base. No letters, numbers or logos anywhere.",
+        "asset": "assets/model.jpg"
+      },
+      {
+        "id": "tin",
+        "name": "Grandpa's pencil tin",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: an old cylindrical coffee tin with faded, worn cornflower-blue paint and bare metal showing at the rim, the paper label long gone, holding six sharpened yellow drafting pencils and a soft-bristled drafting brush with a wooden handle. No letters, numbers or logos anywhere.",
+        "asset": "assets/tin.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Brooks Studio",
+        "mark": "a small square folded along one diagonal, like a paper corner",
+        "colors": "white and pale oak",
+        "appears_on": "the plywood base of the Ferrante model (a tiny etched corner mark), the end card",
+        "text_in_post": "none"
+      },
+      {
+        "name": "the rival",
+        "mark": "none: a plain candy-pink unbranded version of the product's category",
+        "colors": "candy pink (flat dull beige instead if the product itself is pink)",
+        "appears_on": "the old-way pane only",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "One Monday, 9am to 3pm, lived twice in the same room with the same objects in the same places. The old way: warm tungsten, wrappers, crumbs, the rival's mess on the drafting pad, the pencil tin knocked over, a stained or rumpled cuff. The product way: cool window daylight, everything where it belongs, pencils upright in the tin, a clean cuff. The golden-hour pack shot at the end belongs to the product day.",
+    "sound_world": [
+      "the pencil scratching fast on the drafting pad",
+      "the rival failing (a splat, a sputter, a zip splitting, a creak) against the product's clean sound",
+      "fingertips peeling off tacky laptop keys",
+      "pencils rolling out of the knocked-over tin",
+      "the soft creak of a woven-seat chair",
+      "the rival dropping into a wire bin with a hollow clank",
+      "street traffic hum through the tall window"
+    ],
+    "rival": {
+      "rule": "The rival is a generic, unbranded version of the SAME product category as the product, in the same format and at the same scale, so the comparison is fair and specific. It is flat candy pink (flat dull beige if the product itself is pink), with no label, no text, no logo and no pattern, and never in the product's own colours. It never resembles a real competitor. Its flaws are small everyday annoyances, never health, safety or medical claims, and never a claim about any real brand.",
+      "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: one plain unbranded version of the product's category, the same format and size as the product, in a flat candy-pink colour with no label, no text, no logo and no pattern at all, slightly worn, with its archetype flaw visible (see by_archetype), shown front view and three-quarter view. Never red, blue or silver unless the product is pink. No letters, numbers or logos anywhere.",
+      "asset": "generate per product from prop_prompt into assets/rival.jpg (refs id 'rival'); assets/pink_can.jpg is the beverage example used in example_fill",
+      "by_archetype": {
+        "ingested": {
+          "form": "a plain candy-pink unlabelled pack in the same format as the product (bottle, tin, carton, pouch, tub or bar wrapper)",
+          "flaw": "messy and sticky: it spurts, drips or crumbs everywhere and leaves a tacky ring"
+        },
+        "applied": {
+          "form": "a plain candy-pink unlabelled tube, jar or pump bottle",
+          "flaw": "greasy and heavy: it splats, leaves shiny fingerprints on the drawings and a sheen on her skin"
+        },
+        "worn": {
+          "form": "a plain candy-pink unbranded version of the same garment or accessory (shoes, glasses, jacket, watch, bag strap, socks)",
+          "flaw": "uncomfortable: it pinches, slips, itches or needs constant adjusting"
+        },
+        "handheld": {
+          "form": "a plain candy-pink unbranded version of the same gadget, bottle or tool",
+          "flaw": "unreliable: it leaks, tangles, sputters or dies mid-task"
+        },
+        "carried": {
+          "form": "a plain candy-pink unbranded bag or case of the same type",
+          "flaw": "badly made: the strap slips, the zip splits, things fall out"
+        },
+        "home": {
+          "form": "a plain candy-pink unbranded version of the same home item (lamp, chair, cushion, speaker, throw)",
+          "flaw": "cheap: it flickers, sags, creaks or wobbles"
+        },
+        "consumable": {
+          "form": "a plain candy-pink unlabelled pack or refill of the same kind",
+          "flaw": "wasteful: it tears badly, scatters or runs out by noon"
+        }
+      }
+    },
+    "product_adjacent": {
+      "ingested": [
+        "the product standing on the desk corner in the product pane; in the old-way pane the same spot holds the pink rival and a sticky ring"
+      ],
+      "applied": [
+        "the product on the deep window sill beside the jade plant in the product pane; the pink rival tube in the same spot in the old-way pane"
+      ],
+      "worn": [
+        "nothing on the desk: she wears the product in the product pane and the pink rival in the old-way pane"
+      ],
+      "handheld": [
+        "the product beside the blue coffee tin pencil cup in the product pane; the pink rival there in the old-way pane"
+      ],
+      "carried": [
+        "the product hanging from the back of her chair in the product pane; the pink rival bag slumped on the floor in the old-way pane"
+      ],
+      "home": [
+        "the product beside or behind the desk as part of the studio (lamp, chair, cushion, speaker) in the product pane; the pink rival in the same place in the old-way pane"
+      ],
+      "consumable": [
+        "the product's pack in the top flat-file drawer in the product pane; the torn pink rival pack spilling on the desk in the old-way pane"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "nia",
+      "name": "Nia Brooks",
+      "role": "the architect, playing both versions of herself",
+      "look": "woman, 34, Black American, short natural curls, small gold hoop earrings, thin gold-rim glasses, white linen shirt with sleeves rolled, dark grey trousers, a slim silver watch",
+      "voice": "warm, quick, wry, American, a little deadpan on the jokes",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Nia Brooks: 34, Black American, short natural curls, small gold hoop earrings, thin gold-rim glasses, white linen shirt with sleeves rolled, a slim silver watch, warm confident half-smile. Photoreal, consistent identity across all three views. No text.",
+      "asset": "assets/nia.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "desk",
+      "name": "Nia's desk at Brooks Studio",
+      "plate_prompt": "Clean commercial photo, vertical 9:16, upright vertical composition, level horizon, eye-level locked-off 35mm view: a pale oak architect's desk in a converted warehouse studio, facing camera, with a closed silver laptop with a completely plain, bare, unmarked lid, a large blank drafting pad, a pencil cup, a small white foam architectural model of a house, a tall window with soft daylight to one side, exposed brick behind. The desk sits around the vertical centre of one seamless photograph with brick wall above and floor below; no borders or panels. No people, no readable text, no logos.",
+      "asset": "assets/desk.jpg"
+    },
+    {
+      "id": "meeting",
+      "name": "Studio meeting table",
+      "plate_prompt": "Clean commercial photo, vertical 9:16, upright vertical composition, level horizon, eye-level locked-off 35mm view: the meeting corner of a converted warehouse architecture studio, a long pale oak table seen end-on, a large white foam architectural model of a small apartment building in the middle of it, two empty chairs at the near end, a blank whiteboard on the brick wall behind. One seamless photograph, no borders or panels. No people, no readable text, no logos.",
+      "asset": "assets/meeting.jpg"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.5",
+      "summary": "Split screen, both panes in sync: the same woman at 9am. Top: the pink rival fails on her. Bottom: the product works cleanly, she looks at us."
+    },
+    {
+      "id": "contrast",
+      "t": "2.5-11.5",
+      "summary": "Ping-pong: 11am top, the rival's first annoyance; 11am bottom, fast clean sketching with the product; 3pm top, the rival's afternoon letdown at the meeting table."
+    },
+    {
+      "id": "win",
+      "t": "11.5-16",
+      "summary": "3pm bottom: she presents the model, sharp and fast."
+    },
+    {
+      "id": "product",
+      "t": "16-21",
+      "summary": "The split collapses, the product side takes the frame: the product at chest height, the product line."
+    },
+    {
+      "id": "payoff",
+      "t": "21-24",
+      "summary": "The old-way Nia looks straight at her other self, concedes, and bins the rival."
+    },
+    {
+      "id": "cta",
+      "t": "24-30",
+      "summary": "The product beside the finished model at golden hour, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.4-2.3",
+      "speaker": "nia",
+      "on_camera": true,
+      "shot": "S02",
+      "line_intent": "Hook: state the controlled experiment, same person, one difference, naming the category in the plural.",
+      "delivery": "bottom-pane Nia, straight to lens, dry, a tiny smile",
+      "max_words": 5,
+      "rules": "Pattern: 'Same Monday. Two <plural category noun>.' The noun is the plain category (bottles, creams, jackets, lamps, bags, packs), never a brand."
+    },
+    {
+      "id": "L2",
+      "t": "3.0-5.0",
+      "speaker": "nia",
+      "on_camera": true,
+      "shot": "S03",
+      "line_intent": "Old way, cost one: a muttered question about the small everyday annoyance the rival is causing right now.",
+      "delivery": "top-pane Nia, muttering, dealing with the rival's mess",
+      "max_words": 6,
+      "rules": "the annoyance comes from world_bible.rival.by_archetype[product.archetype].flaw; no health, safety or medical claim; never names a brand. e.g. 'Why is everything sticky?', 'Why is everything greasy?', 'Why won't this stay up?'"
+    },
+    {
+      "id": "L3",
+      "t": "6.0-8.2",
+      "speaker": "nia",
+      "on_camera": true,
+      "shot": "S04",
+      "line_intent": "Product way, win one: the matching moment, one short benefit that answers L2.",
+      "delivery": "bottom-pane Nia, a quick glance up at the lens mid-sketch, then straight back to work",
+      "max_words": 6,
+      "rules": "starts with 'Mine'; benefit only from product.benefits, reworded no further than person and tense"
+    },
+    {
+      "id": "L4",
+      "t": "9.3-11.2",
+      "speaker": "nia",
+      "on_camera": true,
+      "shot": "S05",
+      "line_intent": "Old way, cost two: the afternoon version of the rival's letdown, said through frustration at the meeting table.",
+      "delivery": "top-pane Nia, weary, chin on her hand",
+      "max_words": 6,
+      "rules": "no health, safety or medical claim; ordinary annoyance only. e.g. 'Is it three already?', 'Not again.', 'Where did it all go?'"
+    },
+    {
+      "id": "L5",
+      "t": "12.2-15.6",
+      "speaker": "nia",
+      "on_camera": true,
+      "shot": "S06",
+      "line_intent": "Product way, win two: the same hour, visibly winning at the thing that matters.",
+      "delivery": "bottom-pane Nia, standing, crisp and confident, to colleagues off camera",
+      "max_words": 8,
+      "fixed_line": "And that's the whole building. Questions?"
+    },
+    {
+      "id": "L6",
+      "t": "16.6-20.4",
+      "speaker": "nia",
+      "on_camera": true,
+      "shot": "S07",
+      "line_intent": "Product line: say {{product.name}} (or its short spoken form) and the ONE difference from the rival that made the whole day.",
+      "delivery": "to lens, warm, unhurried, product at chest height",
+      "max_words": 10,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; never mentions the rival by any name; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L7",
+      "t": "22.0-23.4",
+      "speaker": "nia",
+      "on_camera": true,
+      "shot": "S08",
+      "line_intent": "Payoff: the old-way self concedes.",
+      "delivery": "top-world Nia, flat, looking straight at the lens, getting rid of the rival",
+      "max_words": 3,
+      "fixed_line": "Okay. Fine."
+    },
+    {
+      "id": "L8",
+      "t": "27.0-29.4",
+      "speaker": "nia",
+      "on_camera": false,
+      "shot": "S09",
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word line built from the L6 benefit.",
+      "delivery": "warm voiceover, smiling",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.5,
+      "beat": "hook",
+      "framing": "top pane, medium at desk",
+      "camera": "locked off, matched to S02",
+      "action": "The old way, 9am: Nia at her desk starts her day with the pink rival and it fails on her at once; she flinches.",
+      "product_state": "absent (rival only)",
+      "audio": "the rival failing, a sharp intake of breath",
+      "caption": "",
+      "refs": [
+        "nia",
+        "desk",
+        "rival"
+      ],
+      "keyframe_prompt": "Head-on and centred: she sits squarely facing the lens behind the desk, the camera one metre in front of the desk at her eye level, her shoulders filling most of the frame width, the desk front edge running straight across the lower quarter of the frame (not seen from the side, no angled desk, no chair or floor visible). Waist-up medium shot: Nia, the woman from the character sheet, at a pale oak desk like the one in the location reference, in her white linen shirt with sleeves rolled and gold-rim glasses, warm yellowish tungsten light, the desk cluttered with crumpled plain snack wrappers and a half-eaten glazed pastry. She is {{action}}; she flinches back, annoyed. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. The product itself does not appear.",
+      "dressing": [
+        "the blue coffee tin pencil cup knocked on its side, pencils rolled across the pad",
+        "the small white foam house model with its glued roof ridge",
+        "the black anglepoise lamp",
+        "crumpled plain snack wrappers and a half-eaten glazed pastry",
+        "the cork strip of pinned pencil sketches on the brick"
+      ],
+      "product_role": "absent",
+      "action_subject": "rival",
+      "product_action": {
+        "ingested": "opening the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), and a small spurt of sticky pink foam or a shower of crumbs hits her shirt cuff and the drafting pad",
+        "applied": "squeezing the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), and a greasy blob splats onto the drafting pad and her cuff",
+        "worn": "putting on the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) and wincing as it pinches or slips",
+        "handheld": "switching on or opening the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), and it sputters, leaks or tangles in her hands",
+        "carried": "dropping the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) onto the desk, and its zip splits and pencils spill across the pad",
+        "home": "switching on or sitting down on the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) beside the desk, and it flickers, sags or wobbles",
+        "consumable": "tearing open the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), and its contents scatter across the drafting pad"
+      },
+      "action_note": "product_action in this shot describes the RIVAL (world_bible.rival), never the product; fill it the same way but the product image is not a reference here"
+    },
+    {
+      "id": "S02",
+      "t0": 0,
+      "t1": 2.5,
+      "beat": "hook",
+      "framing": "bottom pane, medium at desk",
+      "camera": "locked off, matched to S01",
+      "action": "The product way, 9am: same desk, same framing, tidy and in cool daylight; the product works cleanly and Nia looks up into the lens.",
+      "product_state": "in hand or in use, label to camera",
+      "audio": "the product's own clean sound, dialogue",
+      "caption": "{{line.L1}}",
+      "refs": [
+        "nia",
+        "desk",
+        "product"
+      ],
+      "keyframe_prompt": "Waist-up medium shot, framed exactly like a matching shot of the same desk, camera about one metre away so she fills the width of the frame: Nia, the woman from the character sheet, sitting at a pale oak desk like the one in the location reference, seen close: the desk top runs along the bottom of the frame and the desk legs are not visible, in her white linen shirt with sleeves rolled and gold-rim glasses, in cool clean window daylight, the desk tidy with the drafting pad, pencil cup and white foam model neatly arranged. She is {{action}}, and looks straight into the lens with a small dry smile. The product matches the product reference exactly, undistorted. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one product in frame.",
+      "dressing": [
+        "the blue coffee tin pencil cup upright with six sharpened pencils",
+        "the small white foam house model with its glued roof ridge",
+        "the black anglepoise lamp",
+        "the triangular aluminium scale ruler on the pad",
+        "the cork strip of pinned pencil sketches on the brick"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "holding {{product.visual}}, just opened cleanly, at chest height with the label facing camera",
+        "applied": "holding {{product.visual}} at chest height with the label facing camera, a little just smoothed onto the back of her hand",
+        "worn": "wearing {{product.visual}}, just put on, touching it once, its best side to camera",
+        "handheld": "holding {{product.visual}} at chest height, switched on or ready, logo facing camera",
+        "carried": "setting {{product.visual}} neatly on the desk corner, logo facing camera",
+        "home": "switching on or settling beside {{product.visual}} at the desk, at its true size, logo toward camera",
+        "consumable": "taking one {{product.visual}} cleanly from its pack at chest height, label facing camera"
+      }
+    },
+    {
+      "id": "S03",
+      "t0": 2.5,
+      "t1": 5.5,
+      "beat": "contrast",
+      "framing": "top pane, medium close-up",
+      "camera": "locked off",
+      "action": "The old way, 11am: the rival's first annoyance stalls her work, mid-mutter.",
+      "product_state": "absent (rival in frame)",
+      "audio": "the annoyance's sound, dialogue",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "nia",
+        "desk",
+        "rival"
+      ],
+      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, at the cluttered pale oak desk from the location reference in warm yellowish tungsten light, a rumpled white shirt cuff, grimacing as she is {{action}}. Pastry crumbs everywhere. The laptop screen, if visible, faces away from camera. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. The product itself does not appear.",
+      "dressing": [
+        "the blue coffee tin pencil cup on its side",
+        "the triangular scale ruler smeared with pink",
+        "pastry crumbs across the yellow trace paper",
+        "the black anglepoise lamp",
+        "the cork strip of pinned sketches behind"
+      ],
+      "product_role": "absent",
+      "action_subject": "rival",
+      "product_action": {
+        "ingested": "peeling sticky fingertips off the keys of an open silver laptop, the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) beside a tacky pink ring on the drafting pad",
+        "applied": "wiping shiny greasy fingerprints off her drawings with a crumpled napkin, the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) beside them",
+        "worn": "tugging and readjusting the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) for the tenth time instead of drawing",
+        "handheld": "shaking the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), which has leaked or died, over a damp patch on the drafting pad",
+        "carried": "digging through the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) on her lap for a pencil, its lining torn",
+        "home": "leaning over to steady the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) beside the desk as it flickers or wobbles",
+        "consumable": "picking bits spilled from the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) off her drawings one by one"
+      },
+      "action_note": "product_action in this shot describes the RIVAL (world_bible.rival), never the product; fill it the same way but the product image is not a reference here"
+    },
+    {
+      "id": "S04",
+      "t0": 5.5,
+      "t1": 8.5,
+      "beat": "contrast",
+      "framing": "bottom pane, medium close-up",
+      "camera": "locked off",
+      "action": "The product way, 11am: clean hands sketching fast and sure on the drafting pad with the product right there; she flicks a glance at the lens.",
+      "product_state": "with her, label to camera",
+      "audio": "pencil scratching fast, dialogue",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "nia",
+        "desk",
+        "product"
+      ],
+      "keyframe_prompt": "Medium close-up framed exactly like its matching old-way shot, camera about 70 centimetres away, head-on: she fills most of the frame width from the chest up. Nia, the woman from the character sheet, at a tidy pale oak desk like the one in the location reference, seen close: the desk top runs along the bottom of the frame and the desk legs are not visible, in cool clean daylight, clean white linen shirt, sketching quickly and confidently with a pencil on the large drafting pad, clean loose architectural lines with no words or numbers, flicking her eyes up to the lens with a small smile. {{action}}; the product matches the product reference exactly, undistorted, the brightest object in frame. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines.",
+      "dressing": [
+        "the blue coffee tin pencil cup upright with sharpened pencils",
+        "the triangular scale ruler",
+        "the half-unrolled yellow trace paper under a river stone",
+        "the black anglepoise lamp",
+        "the cork strip of pinned sketches behind"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} stands upright on the desk corner, label facing camera",
+        "applied": "{{product.visual}} stands upright on the desk corner, label facing camera",
+        "worn": "she is wearing {{product.visual}}, comfortable and forgotten, its best side visible",
+        "handheld": "{{product.visual}} rests beside the blue coffee tin pencil cup, working, logo facing camera",
+        "carried": "{{product.visual}} hangs neatly from the back of her chair at the frame edge, logo visible",
+        "home": "{{product.visual}} stands beside the desk at its true size, doing its job, logo toward camera",
+        "consumable": "the pack of {{product.visual}} stands neatly on the desk corner, label facing camera"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 8.5,
+      "t1": 11.5,
+      "beat": "contrast",
+      "framing": "top pane, medium at meeting table",
+      "camera": "locked off, matched to S06",
+      "action": "The old way, 3pm: slumped at the meeting table, the rival letting her down one more time.",
+      "product_state": "absent (rival in frame)",
+      "audio": "a long sigh, the room ticking quiet, dialogue",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "nia",
+        "meeting",
+        "rival"
+      ],
+      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, sitting slumped at the near end of the long pale oak meeting table from the location reference in dull warm tungsten light, rumpled white shirt cuff, chin propped on one hand, ordinary afternoon frustration, {{action}}, a small plate of pastry crumbs in front of her, the white foam building model behind, the blank whiteboard on the brick wall. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. The product itself does not appear.",
+      "dressing": [
+        "the white foam apartment building model on its birch plywood base",
+        "the glass water carafe and tumblers",
+        "the wicker basket of rolled drawings",
+        "a small plate of pastry crumbs and a crumpled napkin",
+        "the jade plant on the window sill"
+      ],
+      "product_role": "absent",
+      "action_subject": "rival",
+      "product_action": {
+        "ingested": "mid-yawn with eyes half closed, the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) empty in front of her beside a tacky ring",
+        "applied": "dabbing a greasy shine off her forehead with a napkin, the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) on the table",
+        "worn": "with the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) pulled off and pushed aside on the table (or kicked off under it if it is footwear), rubbing where it pinched",
+        "handheld": "staring at the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), dead again, lying on the table in front of her",
+        "carried": "with the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) spilled open on the table, drawings sliding out of it",
+        "home": "shifting on or squinting under the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) at the table end as it sags or flickers",
+        "consumable": "shaking the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), already empty, over the table"
+      },
+      "action_note": "product_action in this shot describes the RIVAL (world_bible.rival), never the product; fill it the same way but the product image is not a reference here"
+    },
+    {
+      "id": "S06",
+      "t0": 11.5,
+      "t1": 16,
+      "beat": "win",
+      "framing": "bottom pane, medium at meeting table",
+      "camera": "locked off, matched to S05",
+      "action": "The product way, 3pm: standing at the head of the table, crisp and bright, presenting the foam model to two colleagues seen from behind, the product with her.",
+      "product_state": "with her or on the table, label to camera",
+      "audio": "confident dialogue, a colleague's impressed murmur",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "nia",
+        "meeting",
+        "product"
+      ],
+      "keyframe_prompt": "Medium shot at the long pale oak meeting table from the location reference in cool clean daylight: Nia, the woman from the character sheet, in her clean white linen shirt and gold-rim glasses, stands at the head of the table presenting the white foam architectural model with one open hand, energetic and sharp, mid-sentence. Two colleagues sit at the near end seen from behind, the backs of their heads soft. {{action}}; the product matches the product reference exactly, undistorted. Blank whiteboard behind. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines.",
+      "dressing": [
+        "the white foam apartment building model on its birch plywood base",
+        "the glass water carafe and tumblers",
+        "the wicker basket of rolled drawings",
+        "material sample boards leaning on a table leg",
+        "the jade plant on the window sill"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} stands upright on the table beside the model, label facing camera",
+        "applied": "{{product.visual}} stands upright on the table beside the model, label facing camera",
+        "worn": "she wears {{product.visual}}, comfortable and sharp, its best side toward camera",
+        "handheld": "{{product.visual}} rests on the table beside the model, logo facing camera",
+        "carried": "{{product.visual}} sits neatly on the table beside the model, rolled drawings tucked in it, logo facing camera",
+        "home": "{{product.visual}} stands at the table end at its true size, part of the room, logo toward camera",
+        "consumable": "the pack of {{product.visual}} stands upright on the table beside the model, label facing camera"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 16,
+      "t1": 21,
+      "beat": "product",
+      "framing": "full frame, medium close-up",
+      "camera": "locked off, slight push-in",
+      "action": "The divider slides up and the product side takes the whole screen: Nia by the tall studio window shows the product at chest height and says the product line to the lens.",
+      "product_state": "hero at chest height, label readable, held 3 s",
+      "audio": "split collapse whoosh (post), room tone, dialogue",
+      "caption": "{{line.L6}}",
+      "refs": [
+        "nia",
+        "product",
+        "desk"
+      ],
+      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, standing by the tall studio window in cool clean daylight, clean white linen shirt and gold-rim glasses, {{action}}, talking warmly to the lens with a confident smile, the tidy oak desk and white foam model softly out of focus behind her. The product matches the product reference exactly, undistorted, the brightest object in frame, never covering her mouth.",
+      "dressing": [
+        "the jade plant in its terracotta pot on the sill",
+        "the graphite smudge on the side of her hand",
+        "the stubby pencil behind her ear",
+        "the blurred desk with the blue coffee tin and foam house behind her"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "holding {{product.visual}} at chest height with the label facing camera",
+        "applied": "holding {{product.visual}} at chest height with the label facing camera",
+        "worn": "wearing {{product.visual}}, one hand touching it, its best side and logo to camera (if it is footwear, holding it at chest height)",
+        "handheld": "holding {{product.visual}} at chest height with the logo facing camera",
+        "carried": "holding {{product.visual}} by its strap or handle at chest height, logo to camera",
+        "home": "standing beside {{product.visual}} by the window with one hand resting on it, at its true size, logo to camera",
+        "consumable": "holding the pack of {{product.visual}} at chest height with the label facing camera"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 21,
+      "t1": 24,
+      "beat": "payoff",
+      "framing": "full frame, medium",
+      "camera": "locked off",
+      "action": "Cut back to the old-way world full frame: rumpled Nia at her cluttered desk stares flatly into the lens as if at her other self, concedes, and gets rid of the rival.",
+      "product_state": "absent (rival going away)",
+      "audio": "the rival clanks into the bin or thuds aside, dialogue",
+      "caption": "{{line.L7}}",
+      "refs": [
+        "nia",
+        "desk",
+        "rival"
+      ],
+      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, at the same cluttered pale oak desk from the location reference, the tall steel-framed window to one side and exposed brick behind in warm yellowish tungsten light, rumpled white shirt cuff, glasses slightly askew, staring flatly and straight into the lens with a resigned deadpan look, {{action}}. Snack wrappers and crumbs on the desk. Comedic, deadpan, ordinary. The product itself does not appear.",
+      "dressing": [
+        "the blue coffee tin pencil cup on its side",
+        "the small white foam house model",
+        "the black anglepoise lamp",
+        "crumpled wrappers and crumbs",
+        "the tall steel-framed window and the cork strip of sketches behind"
+      ],
+      "product_role": "absent",
+      "action_subject": "rival",
+      "product_action": {
+        "ingested": "holding the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) out over a small wire waste bin beside the desk, about to drop it in",
+        "applied": "holding the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) out over a small wire waste bin beside the desk, about to drop it in",
+        "worn": "holding the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), just taken off, out over a small wire waste bin beside the desk, about to drop it in",
+        "handheld": "holding the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) out over a small wire waste bin beside the desk, about to drop it in",
+        "carried": "holding the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) by one strap out over a small wire waste bin beside the desk, about to drop it in",
+        "home": "unplugging the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) or pushing it out of frame with one hand, not looking at it",
+        "consumable": "holding the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), torn and half empty, out over a small wire waste bin beside the desk, about to drop it in"
+      },
+      "action_note": "product_action in this shot describes the RIVAL (world_bible.rival), never the product; fill it the same way but the product image is not a reference here"
+    },
+    {
+      "id": "S09",
+      "t0": 24,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "full frame, medium insert",
+      "camera": "slow push-in",
+      "action": "Golden hour on the tidy desk: the product beside the finished foam model; tagline and pack shot.",
+      "product_state": "hero, label to camera",
+      "audio": "soft evening room tone, score resolves",
+      "caption": "{{line.L8}}",
+      "refs": [
+        "product",
+        "desk",
+        "model"
+      ],
+      "keyframe_prompt": "Close premium pack shot at desk height: {{action}}, warm low golden-hour sun from a window on the left rim-lighting it, the corner of a finished white foam architectural model beside it, softly blurred brick wall behind with empty space above the product for a title. The product matches the product reference exactly, undistorted. No people, no hands, no faces. No text anywhere except the product's own label.",
+      "dressing": [
+        "the Ferrante apartment model on its birch plywood base",
+        "the blue coffee tin pencil cup with sharpened pencils",
+        "the jade plant on the sill catching the low sun"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} stands upright on a pale oak desk, filling about 40% of the frame height, label facing camera, fine cold droplets",
+        "applied": "{{product.visual}} stands upright on a pale oak desk, filling about 40% of the frame height, label facing camera",
+        "worn": "{{product.visual}} laid neatly on a pale oak desk, its best side and logo to camera",
+        "handheld": "{{product.visual}} resting on a pale oak desk, logo facing camera",
+        "carried": "{{product.visual}} standing on a pale oak desk, logo facing camera",
+        "home": "{{product.visual}} beside the pale oak desk at its true size, the camera pulled back just enough to hold it whole, logo to camera",
+        "consumable": "the pack of {{product.visual}} standing upright on a pale oak desk, label facing camera"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 24,
+      "shots": [
+        "S01",
+        "S03",
+        "S05",
+        "S08"
+      ],
+      "len_s": 12,
+      "exact_risk": false,
+      "placement": "top pane (old-way world). Unit clock 0 to 2.5 plays at edit 0 to 2.5; 2.5 to 5.5 at edit 2.5 to 5.5; 5.5 to 8.5 at edit 8.5 to 11.5; 8.5 to 12 goes full frame at edit 21 to 24. Between its segments the pane holds its last frame at 60% brightness, muted.",
+      "refs": [
+        "nia card",
+        "desk plate",
+        "meeting plate",
+        "rival prop sheet",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial comparison footage, warm yellowish tungsten light, cluttered and a bit messy, locked-off 35mm eye-level shots, faces and hands kept around the vertical centre of the frame. @Image1 (Nia, white linen shirt, gold-rim glasses) in the studio from @Image2 and @Image3. Only the plain candy-pink rival from @Image4 appears, with no label, no text and no logo. Shot 1 (0 to 2.5 s): at her cluttered desk, {{action.S01}}; she flinches. Shot 2 (2.5 to 5.5 s): medium close-up, {{action.S03}}, and mutters: \"{{line.L2}}\" Shot 3 (5.5 to 8.5 s): at the meeting table, chin on her hand, {{action.S05}}: \"{{line.L4}}\" Shot 4 (8.5 to 12 s): back at the desk she stares flatly into the lens, says: \"{{line.L7}}\" while {{action.S08}}. Native sound: the rival's small failures, a sigh, the clank in the bin. No music. No text, no clocks, no split screen."
+    },
+    {
+      "id": "U2",
+      "t0": 0,
+      "t1": 16,
+      "shots": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "len_s": 10,
+      "exact_risk": false,
+      "placement": "bottom pane (product world). Unit clock 0 to 2.5 plays at edit 0 to 2.5; 2.5 to 5.5 at edit 5.5 to 8.5; 5.5 to 10 at edit 11.5 to 16. Between its segments the pane holds its last frame at 60% brightness, muted.",
+      "refs": [
+        "product image",
+        "nia card",
+        "desk plate",
+        "meeting plate",
+        "S02 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial comparison footage, cool clean daylight, tidy and ordered, locked-off 35mm eye-level shots matched to the other world, faces and hands kept around the vertical centre of the frame. @Image2 (Nia, white linen shirt, gold-rim glasses) in the studio from @Image3 and @Image4, with the product exactly as @Image1. Shot 1 (0 to 2.5 s): at her tidy desk, {{action.S02}}, and says dryly to the lens: \"{{line.L1}}\" Shot 2 (2.5 to 5.5 s): medium close-up, sketching fast and sure on a drafting pad, {{action.S04}}, she glances up: \"{{line.L3}}\" Shot 3 (5.5 to 10 s): standing at the head of the meeting table presenting a white foam building model to two colleagues seen from behind, {{action.S06}}, crisp: \"{{line.L5}}\" Keep the product's shape, colours and label exactly as @Image1. Native sound: the product's clean sound, pencil, confident voice. No music. No text, no clocks, no split screen."
+    },
+    {
+      "id": "U3",
+      "t0": 16,
+      "t1": 21,
+      "shots": [
+        "S07"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "placement": "full frame; the post split collapse reveals it",
+      "refs": [
+        "product image",
+        "nia card",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial, cool clean daylight by a tall studio window. Medium close-up of @Image2 (Nia), {{action.S07}}; the product matches @Image1 exactly, label readable; very slight push-in, she says warmly to the lens: \"{{line.L6}}\" (say the brand as {{product.phonetic}}). The product stays still for the whole line. Keep the product's shape, colours and label exactly as @Image1. Native sound: room tone, her voice. No music, no text."
+    },
+    {
+      "id": "U4",
+      "t0": 24,
+      "t1": 30,
+      "shots": [
+        "S09"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "placement": "full frame",
+      "refs": [
+        "product image",
+        "S09 keyframe as first frame"
+      ],
+      "prompt": "9:16 premium pack shot at golden hour. Slow push-in onto {{action.S09}}, beside a finished white foam architectural model, warm low sun from a window rim-lighting it; the product matches @Image1 exactly and does not move or change. Keep the brick wall above the product empty. Native sound: quiet evening studio room tone. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "split",
+      "t0": 0,
+      "t1": 16,
+      "brief": "One motif in two versions, 100 bpm: a detuned, wobbly, slightly flat Rhodes and lazy kick for the old-way pane; the same motif bright and tight on plucked synth and clean claps for the product pane; the edit switches versions on each ping-pong cut."
+    },
+    {
+      "section": "take the frame",
+      "t0": 16,
+      "t1": 24,
+      "brief": "Bright version only, filtered down under the product line, a comic one-beat dropout for Okay. Fine."
+    },
+    {
+      "section": "resolve",
+      "t0": 24,
+      "t1": 30,
+      "brief": "Bright version opens up with a warm pad and resolves on the tonic under the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0,
+      "sound": "soft whoosh as the divider draws across the frame",
+      "why": "announces the split screen format in the first frame"
+    },
+    {
+      "t": 16,
+      "sound": "whoosh up as the top pane slides away",
+      "why": "marks the winning side taking the screen"
+    },
+    {
+      "t": 2.5,
+      "sound": "small clock tick on each time-stamp change (also at 5.5, 8.5, 11.5)",
+      "why": "keeps the day moving across ping-pong cuts"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "nia",
+      "plan": "native in U2 (product world, first generation); her U2 stem is the voice reference for U1, U3 and the tagline so both versions share one voice"
+    }
+  ],
+  "captions": {
+    "font": "Manrope ExtraBold",
+    "size": "4.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF full opacity, other words 65%",
+    "box": "rounded pill behind each caption, rgba(20,20,20,.55), 12px radius",
+    "position": "inside the speaking pane, 80% down that pane; in full frame, 70% down the frame",
+    "max_words_on_screen": 4,
+    "pane_labels": "top pane 'THE OLD WAY' in muted beige small caps, bottom pane 'THE {{product.brand}} WAY' in sky blue #6EC1E4 small caps, both top-left inside their pane, 2.6% of frame height",
+    "time_stamps": "top-right of each pane, monospace, white 80%, ticks over on each beat"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 16,
+      "text": "Split screen: two 9:8 panes, 3px white divider at 50% height",
+      "sub": "",
+      "style": "divider draws left to right over 6 frames at 0 s; inactive pane holds its last frame at 60% brightness, muted"
+    },
+    {
+      "t0": 0,
+      "t1": 16,
+      "text": "THE OLD WAY (top) / THE {{product.brand}} WAY (bottom)",
+      "sub": "",
+      "style": "pane labels, Manrope ExtraBold small caps 2.6% of frame height, top-left of each pane; beige #CDBBA0 on top, sky blue #6EC1E4 on bottom"
+    },
+    {
+      "t0": 0,
+      "t1": 16,
+      "text": "9:02 AM (0 to 2.5 s), 11:40 AM (2.5 to 8.5 s), 3:15 PM (8.5 to 16 s)",
+      "sub": "",
+      "style": "time stamps top-right of each pane, JetBrains Mono white 80%, digits roll over in 5 frames with the tick"
+    },
+    {
+      "t0": 25.4,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline}}",
+      "sub_fallback": "if product.tagline is empty: {{line.L8}}",
+      "style": "Manrope ExtraBold white, centred in the empty wall above the product, fade and rise 12px over 8 frames"
+    }
+  ],
+  "qa": [
+    "the rival is generated per product from world_bible.rival: same category and format as the product, flat candy pink (beige if the product is pink), no label, text or logo, never resembling a real competitor",
+    "the product never appears in S01, S03, S05 or S08; the rival never appears in S02, S04, S06, S07 or S09",
+    "matched framing between S01/S02, S03/S04 and S05/S06 so the split reads as the same room",
+    "rival costs in L2 and L4 are everyday annoyances only, no health, safety or medical claims",
+    "L3 and L6 benefits are verbatim from product.benefits",
+    "Nia identical to her character sheet in both worlds; no readable model text, clocks and labels come only from post"
+  ],
+  "asset_urls": {
+    "nia": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/us_vs_them-01-same-monday/assets/nia.jpg",
+    "desk": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/us_vs_them-01-same-monday/assets/desk.jpg",
+    "meeting": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/us_vs_them-01-same-monday/assets/meeting.jpg",
+    "model": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/us_vs_them-01-same-monday/assets/model.jpg",
+    "tin": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/us_vs_them-01-same-monday/assets/tin.jpg"
+  },
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "rival": {
+      "asset": "assets/pink_can.jpg",
+      "form": "a plain slim candy-pink unlabelled can standing for any generic sugary energy drink",
+      "flaw": "sticky pink spray, a tacky ring, the 3pm slump"
+    },
+    "lines": {
+      "L1": "Same Monday. Two cans.",
+      "L2": "Why is everything sticky?",
+      "L3": "Mine helps me focus.",
+      "L4": "Is it three already?",
+      "L5": "And that's the whole building. Questions?",
+      "L6": "Red Bull Sugarfree. Same benefits, without the sugar.",
+      "L7": "Okay. Fine.",
+      "L8": "Wiiings without sugar."
+    },
+    "actions": {
+      "S01": "opening the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo), and a small spurt of sticky pink foam or a shower of crumbs hits her shirt cuff and the drafting pad",
+      "S02": "holding {{product.visual}}, just opened cleanly, at chest height with the label facing camera",
+      "S03": "peeling sticky fingertips off the keys of an open silver laptop, the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) beside a tacky pink ring on the drafting pad",
+      "S04": "{{product.visual}} stands upright on the desk corner, label facing camera",
+      "S05": "mid-yawn with eyes half closed, the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) empty in front of her beside a tacky ring",
+      "S06": "{{product.visual}} stands upright on the table beside the model, label facing camera",
+      "S07": "holding {{product.visual}} at chest height with the label facing camera",
+      "S08": "holding the rival from the rival prop sheet (a plain candy-pink unbranded version of the same kind of product, no label, no text, no logo) out over a small wire waste bin beside the desk, about to drop it in",
+      "S09": "{{product.visual}} stands upright on a pale oak desk, filling about 40% of the frame height, label facing camera, fine cold droplets"
+    }
+  }
+}

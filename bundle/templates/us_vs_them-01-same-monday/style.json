@@ -1,0 +1,61 @@
+{
+  "key": "us_vs_them",
+  "name": "Us vs them",
+  "definition": "A 30 second side-by-side comparison: the same person, the same day, the same beats, lived two ways. One pane is the old way or a generic rival, the other is the product. The viewer does the comparing; the edit only has to line the moments up.",
+  "why_it_sells": "One of the five formats run across $100M of DTC Meta spend. A comparison is a complete argument in one frame: the viewer sees the cost of the old way and the win of the new way at once, so the benefit never has to be claimed out loud. It works when the two sides differ in one controlled variable (the product) and the difference is visible, not narrated.",
+  "visual_grammar": "Stacked split screen for 9:16: two 9:8 panes, the old way on top, the product on the bottom, separated by a thin white divider. Identical framing, lens, eyeline and blocking in both panes so only the variable changes. The old-way pane is warmer, messier, slightly desaturated and cluttered; the product pane is clean, cool and ordered in the product's colours. Ping-pong rhythm: the pane that is talking plays, the other holds a frozen frame at 60% brightness, so the eye always knows where to look. The split collapses into a single full frame for the product line and the CTA: the winning side takes the screen.",
+  "camera": "Matched locked-off setups (same height, same 35mm lens, same distance) between the two worlds so the panes rhyme; at most a slow matched push-in in both panes. Action is staged in the middle band of the frame (22% to 78% of the height) because each 9:16 generation is cropped to a 9:8 pane. Product moments get a locked macro insert in full frame.",
+  "light": "Same room, two moods: old-way pane lit warm tungsten with a sickly yellow cast and flat shadows; product pane lit with cool clean daylight and a crisp key. The product is the brightest object in any frame it is in.",
+  "texture": "Clean commercial digital. Old-way pane gets a touch of softness and lifted blacks in the grade; product pane stays crisp with true blacks.",
+  "palette_rule": "Assign the product's colours to the winning pane only (sky blue and silver here) and give the old way a muddy complementary palette (warm beige, dull pink). The divider and pane labels are neutral white so neither side owns them.",
+  "pacing": "Hook in under 2 seconds with both panes moving in sync on the same action (the reveal that it is one person, two versions). Then ping-pong beats of 3 to 4.5 seconds, alternating sides, each old-way beat answered by the matching product beat. Time stamps rendered in post keep the day moving. Collapse to full frame for the product line (hold the can at least 1.5 s), one comic beat from the old-way self conceding, then the CTA.",
+  "sound": "Native sound per pane from its own generation; only the active pane's sound is heard, the frozen pane is muted. A single score that shifts between a dull, detuned version of the motif (old way) and a bright version (product way) on each ping-pong cut. Added sound only for the split open and collapse (a soft whoosh) and each time-stamp tick.",
+  "caption_look": {
+    "font": "Manrope ExtraBold",
+    "size": "4.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF full opacity, other words 65%",
+    "box": "rounded pill behind each caption, rgba(20,20,20,.55), 12px radius",
+    "position": "inside the speaking pane, 80% down that pane; in full frame, 70% down the frame",
+    "max_words_on_screen": 4,
+    "pane_labels": "top pane 'THE SUGAR WAY' in muted beige small caps, bottom pane 'THE SUGARFREE WAY' in sky blue #6EC1E4 small caps, both top-left inside their pane, 2.6% of frame height",
+    "time_stamps": "top-right of each pane, monospace, white 80%, ticks over on each beat"
+  },
+  "model_vocab": [
+    "split-screen comparison, matched framing",
+    "identical camera setup",
+    "same person, same outfit",
+    "warm cluttered old-way version",
+    "clean cool ordered version",
+    "locked-off 35mm",
+    "subject framed at the vertical centre, one seamless photograph",
+    "commercial product lighting"
+  ],
+  "failure_modes": [
+    "the model cannot render a real split screen reliably: generate each world as its own 9:16 unit and composite the panes in post",
+    "action at the top or bottom of the frame is lost in the 9:8 crop: keep the face and hands around the vertical centre with normal headroom above and desk or floor below",
+    "asking for action 'in the middle band of the frame' is read literally and draws flat colour bars and hard panel edges into the still: describe it as normal headroom above and desk or floor below in one seamless photograph with no borders or bars",
+    "generating keyframes before the character sheet exists gives a different woman in every pane: never render a shot with a missing or failed cast card; re-run the card, then force every shot that uses it",
+    "the two worlds drift into different rooms or outfits: use the same location plate and the same character sheet for both, describe the outfit identically, change only light, clutter and the one variable",
+    "the rival reads as a real competitor: the rival is a plain candy-pink can with no label, no text, no logo, never red, blue or silver, never a known can shape colour scheme",
+    "the old-way side slides into health claims (shaking, clutching the stomach, looking ill): limit it to mess, stickiness and ordinary afternoon yawns",
+    "both panes talking at once is unreadable: only one pane speaks at a time, the other is frozen and muted",
+    "the product gets swapped for the rival or vice versa: name which can is in which world in every prompt",
+    "the model adds labels, clocks or captions into the scene: pane labels and time stamps are post only, keep walls and screens blank",
+    "pane pairs drift in framing (one wide, one medium) and the comparison stops rhyming: give both panes the same explicit distance ('waist-up, camera about one metre away')",
+    "empty pack shots can sprout a person peering from behind the product: say no people, hands or faces anywhere",
+    "naming the location plate in a close shot pulls the camera back to the plate's wide framing: say 'a desk like the one in the reference, seen close, desk legs not visible'",
+    "a dressed desk plate puts a fruit logo on the closed laptop lid: say a closed silver laptop with a completely plain, bare, unmarked lid",
+    "a location plate shot at a three-quarter angle pulls the paired desk shot back to that side-on wide view: spell out head-on, centred, one metre in front of the desk, desk edge straight across the lower quarter, and say the desk from the reference is seen close"
+  ],
+  "negatives": [
+    "no real brands, logos or competitor products",
+    "no readable text, clocks with numbers, labels or signs",
+    "no split screen or dividing line drawn by the model",
+    "no illness, shaking or medical symptoms",
+    "no extra fingers",
+    "no more than one can per person"
+  ],
+  "prompt_prefix": "Commercial comparison ad still, vertical 9:16 frame, one seamless photograph, locked-off 35mm eye-level setup, the subject's face and hands framed around the vertical centre of the image, clean commercial digital image.",
+  "asset_style": "Clean commercial photo, even light."
+}

@@ -1,0 +1,845 @@
+{
+  "id": "podcast-01-send-it-pod",
+  "style": "podcast",
+  "title": "Send It Pod",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Two climbing podcast hosts argue about the worst summit attempt of their lives (she fell asleep on the ridge, standing up). When she asks what's in his pack now, the answer on the desk is {{product.name}}, and it isn't for the mountain.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "opening it right into the mic is a podcast in-joke and the long-session payoff is natural"
+      ],
+      "applied": [
+        "great",
+        "lip balm, hand cream or face mist from the desk drawer, applied on air, fits a three-hour talker"
+      ],
+      "worn": [
+        "good",
+        "glasses, headphones, hats, fleeces, watches and socks pulled from a stuff sack and put on at the desk; footwear is shown, not worn, on camera"
+      ],
+      "handheld": [
+        "good",
+        "bottles, headlamps, earbuds, chargers and tools set down by the mic"
+      ],
+      "carried": [
+        "great",
+        "her line literally asks what's in his pack: he lifts it onto the desk"
+      ],
+      "home": [
+        "good",
+        "lamps, chairs, speakers, blankets and plants as part of the studio set; large sofas or beds are a stretch in a one-car garage"
+      ],
+      "consumable": [
+        "good",
+        "snacks, refills and sachets torn open on the desk"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "climbing safety equipment (ropes, harnesses, helmets): the punchline says it isn't for the mountain",
+      "anything unsafe to use while talking into a mic (sedatives)"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Send It Pod records every Tuesday night in Kofi's converted one-car garage in Boulder. Tonight is episode 148; his late dad's workbench is still under the shelves and the old oil stain is still under the rug.",
+      "Brynn and Kofi were rope partners for nine seasons before she went full-time as an alpine guide (about 60 days a year on the ice) and he started drawing trail maps for a living.",
+      "The story everyone asks for: Kessik Peak, 2016, 4:10am on the summit ridge, Brynn fell asleep standing up, clipped to an anchor, for eleven minutes. Kofi took a photo. It hangs in a thin brass frame on the back shelf.",
+      "The chunk of grey granite on the desk came off Kessik's summit block that morning. They use it as a paperweight for the listener questions.",
+      "Every rope on the shelf has a story and a strip of coloured tape on its end: orange for retired, green for still in service."
+    ],
+    "locations": {
+      "pod": {
+        "foreground": [
+          "a walnut desk with a pale coffee ring and a small old burn mark near the edge",
+          "a fist-sized chunk of grey speckled granite used as a paperweight on a few index cards",
+          "a coiled headphone cable held with a strip of green gaffer tape",
+          "a chalk bag with a chalk-dusted rim used as a pen pot, two pencils sticking out",
+          "a hand-drawn topo sketch on cream paper with pencil contour lines and a dotted route, no writing"
+        ],
+        "midground": [
+          "two matte black broadcast mics on sprung boom arms clamped to the desk edge",
+          "a small audio mixer with rows of sky-blue and grey knobs and no labels",
+          "a brass desk lamp with a slightly dented shade throwing a warm pool of light",
+          "a dented orange climbing helmet hung upside down as a planter, trailing pothos over its rim",
+          "a small round red glass lamp on a short stand, glowing, with nothing written on or near it"
+        ],
+        "background": [
+          "dark grey acoustic foam panels, one corner peeling and held up with silver tape",
+          "wooden shelves of coiled climbing ropes in faded orange, teal and purple, each end whipped with coloured tape",
+          "scuffed helmets with drawn star and mountain stickers (shapes only) and a sling of carabiners",
+          "the thin brass-framed photo of a tiny climber asleep on a snowy ridge at dawn",
+          "a string of faded plain coloured cloth flags in blue, white, red, green and yellow along the top shelf",
+          "a pegboard of old hand tools above a worn workbench",
+          "the sky-blue neon mountain outline with a small flag on its summit",
+          "a small garage window with snow falling in the dark outside"
+        ]
+      }
+    },
+    "personal_props": {
+      "brynn": [
+        "a forest green fleece with a darker patched elbow from a rock scrape",
+        "white athletic tape wrapped around her right index finger, grey at the edges",
+        "a cream ceramic mug with a chipped rim and a hand-painted pine tree",
+        "a small orange guide's whistle on a cord around her neck",
+        "chalk-dry knuckles and a faded tan line from glacier glasses"
+      ],
+      "kofi": [
+        "a thin leather cord bracelet worn smooth and dark",
+        "a mechanical pencil tucked behind his ear",
+        "a matte black pocket notebook held shut with a rubber band",
+        "rust flannel sleeves rolled with a frayed left cuff"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "neon",
+        "name": "The Send It neon",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a hand-bent sky-blue neon tube sign in the shape of a simple two-peak mountain outline with a small triangular flag on the taller summit, mounted on a clear acrylic backing with four small chrome standoffs and a thin black cable hanging from the bottom corner. Glowing softly. No letters, words or numbers anywhere.",
+        "asset": "assets/neon.jpg"
+      },
+      {
+        "id": "photo",
+        "name": "The Kessik Peak photo",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a small framed photograph in a thin brushed brass frame with a cream mat, the photo showing a tiny climber in a red jacket slumped asleep upright against a rope anchor on a snowy knife-edge ridge at pink dawn, the face not visible, the frame slightly tarnished at the corners, a small chip in the glass. No letters, words or numbers anywhere.",
+        "asset": "assets/photo.jpg"
+      },
+      {
+        "id": "planter",
+        "name": "The helmet planter",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: an old dented orange climbing helmet hung upside down on three thin cords as a planter, scuffs and scratches on the shell, a faded drawn-star sticker (shape only), a trailing pothos plant spilling over the rim with long green vines. No letters, words, numbers or logos anywhere.",
+        "asset": "assets/planter.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Send It Pod",
+        "mark": "a simple two-peak mountain outline with a small flag on the summit",
+        "colors": "sky blue and forest green",
+        "appears_on": "the neon on the back wall, the lower third and end card",
+        "text_in_post": "show name and episode number in the lower third"
+      },
+      {
+        "name": "Kessik Peak",
+        "mark": "a sharp knife-edge double summit silhouette",
+        "colors": "snow white and dawn pink",
+        "appears_on": "the framed photo on the back shelf, the topo sketch on the desk",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "9:40pm on a Tuesday in late January, 52 minutes into the recording, snow falling past the garage window. Brynn's tea has gone cold with a skin on it, the index cards are dog-eared and weighted with the granite, one foam panel has peeled at the corner, and a coil of rope has slumped off its shelf peg.",
+    "sound_world": [
+      "the spring creak of a boom arm as someone leans in",
+      "carabiners clinking on the shelf when Brynn slaps the desk",
+      "the faint electric buzz of the neon",
+      "an office chair's gas lift sighing",
+      "the product's own sound (a click, a zip, a rustle, an unscrew) close and slightly too loud on the mic",
+      "snow ticking against the small garage window",
+      "laughter blowing into the pop filter"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "the product on the walnut desk right in front of Kofi's mic base, on one of the listener index cards as a coaster"
+      ],
+      "applied": [
+        "the shallow top drawer of the walnut desk on Kofi's side, where the product lives next to spare pencils"
+      ],
+      "worn": [
+        "a canvas stuff sack under Kofi's side of the desk, where the product has been stashed for the show"
+      ],
+      "handheld": [
+        "the desk beside Kofi's mixer knobs, where the product rests next to the rubber-banded notebook"
+      ],
+      "carried": [
+        "the product on the floor beside Kofi's chair, lifted onto the desk for the reveal"
+      ],
+      "home": [
+        "the corner of the studio beside Kofi's chair, where the product is part of the set"
+      ],
+      "consumable": [
+        "the product's pack in Kofi's shallow desk drawer"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "brynn",
+      "name": "Brynn Olsen",
+      "role": "co-host, alpine guide, the storyteller",
+      "look": "woman, 44, white American, sun-weathered face with laugh lines and freckles, long ash-blonde hair in a loose braid over one shoulder, pale blue eyes, forest green fleece zip-up over a cream thermal, silver stud earrings",
+      "voice": "husky, big laugh, Colorado casual, tells stories with her hands",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Brynn Olsen: 44, white American, sun-weathered face with laugh lines and freckles, long ash-blonde hair in a loose braid over one shoulder, pale blue eyes, forest green fleece zip-up over a cream thermal top, small silver stud earrings. Big warm grin. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/brynn.jpg"
+    },
+    {
+      "id": "kofi",
+      "name": "Kofi Mensah",
+      "role": "co-host, former rope partner, the straight man",
+      "look": "man, 35, Ghanaian American, dark skin, close-cropped black hair with a sharp line-up, short full black beard, warm dark eyes, rust-orange flannel shirt over a plain charcoal tee, a thin leather cord bracelet",
+      "voice": "deep, dry, precise, deadpan timing, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Kofi Mensah: 35, Ghanaian American, dark skin, close-cropped black hair with a sharp line-up, short full black beard, warm dark eyes, rust-orange flannel shirt over a plain charcoal tee, a thin leather cord bracelet. Dry, amused expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/kofi.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "pod",
+      "name": "Send It Pod studio",
+      "plate_prompt": "Photoreal video podcast studio, vertical 9:16, upright vertical composition, level horizon: a small cosy converted garage studio at evening, a walnut desk with two large matte black broadcast microphones on boom arms with no logos, two pairs of over-ear headphones resting on the desk, a plain cream ceramic mug, a closed dark grey laptop with a completely plain matte lid, bare and unmarked. Behind: dark acoustic foam panels, wooden shelves with coiled coloured climbing ropes, unbranded helmets and carabiners, a trailing plant, a warm brass desk lamp, and a sky-blue neon line drawing of a mountain outline on the back wall with no letters. No people, no readable text, no real brands.",
+      "asset": "assets/pod.jpg"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.6",
+      "summary": "Cold open mid-story: Brynn confesses she fell asleep on a summit ridge, standing up."
+    },
+    {
+      "id": "banter",
+      "t": "2.6-11.2",
+      "summary": "Kofi was roped to her. She protests: hour fourteen! He reminds her what she packed instead. She fires back: so what's in your pack, genius?"
+    },
+    {
+      "id": "product",
+      "t": "11.2-16.2",
+      "summary": "Kofi produces the product at the desk, the product moment lands on the mic, and he names it with one benefit."
+    },
+    {
+      "id": "punchline",
+      "t": "16.2-21",
+      "summary": "She assumes it's for climbing. It isn't: he needs it here, because she talks for three hours."
+    },
+    {
+      "id": "payoff",
+      "t": "21-24.8",
+      "summary": "Brynn collapses laughing into her mic. That's fair."
+    },
+    {
+      "id": "cta",
+      "t": "24.8-30",
+      "summary": "Wide two-shot, the product between the mics; Brynn does a deadpan host-read of the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.5",
+      "speaker": "brynn",
+      "on_camera": true,
+      "shot": "S01",
+      "line_intent": "Hook: cold-open on the most outrageous sentence of a genuinely interesting story.",
+      "delivery": "half proud, half ashamed, hands up, leaning into the mic",
+      "max_words": 10,
+      "fixed_line": "I fell asleep on a summit ridge. Standing up."
+    },
+    {
+      "id": "L2",
+      "t": "2.8-3.8",
+      "speaker": "kofi",
+      "on_camera": true,
+      "shot": "S02",
+      "line_intent": "The co-host raises the stakes of the story.",
+      "delivery": "deadpan outrage, pointing across the desk",
+      "max_words": 4,
+      "fixed_line": "Roped to me!"
+    },
+    {
+      "id": "L3",
+      "t": "4.8-6.6",
+      "speaker": "brynn",
+      "on_camera": true,
+      "shot": "S03",
+      "line_intent": "The storyteller defends herself with the detail that makes the problem relatable.",
+      "delivery": "laughing, slapping the desk",
+      "max_words": 6,
+      "fixed_line": "It was hour fourteen, Kofi!"
+    },
+    {
+      "id": "L4",
+      "t": "7.4-8.8",
+      "speaker": "kofi",
+      "on_camera": true,
+      "shot": "S04",
+      "line_intent": "Callback: name the ordinary, unbranded thing she relied on up the mountain instead, the kind of thing that fails at exactly what the product's benefit does.",
+      "delivery": "dry, slow, counting on his fingers",
+      "max_words": 6,
+      "rules": "a generic category noun, never a brand or a real product; no claim about it, just the fact she packed it. Pattern: 'You packed <number> <generic things>.' e.g. 'You packed cotton socks.', 'You packed zero sunscreen.', 'You packed a paper map.'"
+    },
+    {
+      "id": "L5",
+      "t": "9.4-10.9",
+      "speaker": "brynn",
+      "on_camera": true,
+      "shot": "S05",
+      "line_intent": "The challenge that invites the product in.",
+      "delivery": "arms folded, eyebrows up, a grin",
+      "max_words": 7,
+      "fixed_line": "So what's in your pack, genius?"
+    },
+    {
+      "id": "L6",
+      "t": "13.4-16.0",
+      "speaker": "kofi",
+      "on_camera": true,
+      "shot": "S07",
+      "line_intent": "Product line: say {{product.name}} (or its short spoken form) and the ONE benefit from product.benefits that beats what she packed.",
+      "delivery": "calm, pleased with himself, right after the product moment",
+      "max_words": 9,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L7",
+      "t": "16.6-18.0",
+      "speaker": "brynn",
+      "on_camera": true,
+      "shot": "S08",
+      "line_intent": "Set-up for the twist: the obvious assumption about when it's used.",
+      "delivery": "teasing, pointing at the product",
+      "max_words": 7,
+      "fixed_line": "You bring that up a mountain?"
+    },
+    {
+      "id": "L8",
+      "t": "18.2-20.8",
+      "speaker": "kofi",
+      "on_camera": true,
+      "shot": "S08",
+      "line_intent": "Punchline: the real use moment is right here in the studio, at the co-host's expense.",
+      "delivery": "bone dry, a tiny pause before 'here', not looking at her",
+      "max_words": 10,
+      "rules": "Pattern: 'No. I <verb> it here. You talk for three hours.' The verb fits the archetype (bring, wear, use, keep, need); the last sentence 'You talk for three hours.' never changes."
+    },
+    {
+      "id": "L9",
+      "t": "21.6-22.4",
+      "speaker": "brynn",
+      "on_camera": true,
+      "shot": "S09",
+      "line_intent": "Payoff: the target concedes, laughing.",
+      "delivery": "wheezing with laughter, forehead nearly on the desk",
+      "max_words": 3,
+      "fixed_line": "That's fair."
+    },
+    {
+      "id": "L10",
+      "t": "26.4-29.4",
+      "speaker": "brynn",
+      "on_camera": true,
+      "shot": "S10",
+      "line_intent": "Tagline as a knowing host-read, then out: product.tagline if the page has one, otherwise a 3 to 5 word line built from the L6 benefit, then 'There, I read the ad.'",
+      "delivery": "sits up, fake-announcer voice for the tagline, then normal and deadpan for the rest",
+      "max_words": 10,
+      "rules": "always ends with 'There, I read the ad.'"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.7,
+      "beat": "hook",
+      "framing": "single, medium close-up, off-axis",
+      "camera": "locked, cam B, slow 10% digital punch-in",
+      "action": "Brynn at her mic, hands up, confesses mid-story, looking past camera at Kofi.",
+      "product_state": "absent",
+      "audio": "warm close mic voice, room tone, chair creak",
+      "caption": "{{line.L1}}",
+      "refs": [
+        "brynn",
+        "pod"
+      ],
+      "keyframe_prompt": "Off-axis podcast single, medium close-up: Brynn, the woman from the character sheet, sitting at a walnut desk in the podcast studio from the location plate, speaking into a large matte black broadcast microphone on a boom arm with no logo, over-ear headphones on, both hands raised in a half-proud, half-ashamed confession, laughing eyes looking past the camera toward her co-host off frame right. Behind her, soft bokeh of shelves with coiled ropes and helmets and a sky-blue neon mountain outline with no letters. Soft key light, warm lamp glow. Keep the lower third plain and uncluttered for captions (nothing drawn there). Framing: the camera is close and off-axis, the host fills most of the frame from mid-chest up, the room only as soft shallow-focus bokeh behind; the desk surface appears only as a thin strip at the very bottom edge. Do not copy the wide framing of the location reference.",
+      "dressing": [
+        "the white athletic tape on her index finger",
+        "the helmet planter trailing pothos behind her",
+        "the brass-framed Kessik photo on the back shelf",
+        "coloured tape on the rope ends"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.7,
+      "t1": 4.4,
+      "beat": "banter",
+      "framing": "single, medium close-up, off-axis",
+      "camera": "locked, cam C",
+      "action": "Kofi points across the desk in deadpan outrage.",
+      "product_state": "absent (the product is out of sight)",
+      "audio": "voice, desk thump",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "kofi",
+        "pod"
+      ],
+      "keyframe_prompt": "Off-axis podcast single, medium close-up: Kofi, the man from the character sheet, at a walnut desk in the podcast studio, over-ear headphones on, leaning toward a large matte black broadcast microphone on a boom arm with no logo, pointing across the desk toward his co-host off frame left with deadpan outrage. Behind him, soft bokeh of dark acoustic foam, a trailing plant and a warm brass lamp. No product on the desk. Soft key light, shallow depth of field. Framing: the camera is close and off-axis, the host fills most of the frame from mid-chest up, the room only as soft shallow-focus bokeh behind; the desk surface appears only as a thin strip at the very bottom edge. Do not copy the wide framing of the location reference.",
+      "dressing": [
+        "the mechanical pencil behind his ear",
+        "the rubber-banded black notebook by his hand",
+        "the peeling foam panel held with silver tape",
+        "the pegboard of old tools behind him"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.4,
+      "t1": 7.0,
+      "beat": "banter",
+      "framing": "single, medium, off-axis",
+      "camera": "locked, cam B",
+      "action": "Brynn slaps the desk laughing, defending herself.",
+      "product_state": "absent",
+      "audio": "desk slap, laughter, voice",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "brynn",
+        "pod",
+        "planter"
+      ],
+      "keyframe_prompt": "Off-axis podcast single, medium shot: Brynn, the woman from the character sheet, laughing hard and slapping the walnut desk with one palm, her braid swinging, headphones on, a large matte black broadcast microphone on a boom arm with no logo in front of her, a plain cream ceramic mug on the desk. She looks past camera toward her co-host off frame right. Sky-blue neon mountain outline with no letters and rope shelves in soft bokeh behind. Warm practical light. Framing: the camera is close and off-axis, the host fills most of the frame from mid-chest up, the room only as soft shallow-focus bokeh behind; the desk surface appears only as a thin strip at the very bottom edge. Do not copy the wide framing of the location reference.",
+      "dressing": [
+        "her pine tree mug with the chipped rim",
+        "carabiners swinging on the shelf behind her",
+        "the faded coloured cloth flags along the top shelf",
+        "the chalk bag pen pot"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.2,
+      "beat": "banter",
+      "framing": "wide two-shot across the desk",
+      "camera": "locked, cam A",
+      "action": "The full set: Kofi counts on his fingers, Brynn covers her face.",
+      "product_state": "absent",
+      "audio": "voice, room tone",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "brynn",
+        "kofi",
+        "pod"
+      ],
+      "keyframe_prompt": "Wide two-shot of the whole podcast studio from the location plate, upright vertical composition, level horizon: Brynn, the woman from her character sheet, on the left and Kofi, the man from his character sheet, on the right, facing each other across the walnut desk, each at a large matte black broadcast microphone on a boom arm with no logo, headphones on. Kofi counts on his fingers deadpan; Brynn covers her face with one hand, laughing. A plain cream mug in front of Brynn. No product on the desk. Rope shelves, acoustic foam, brass lamp and the sky-blue neon mountain outline with no letters behind. Clean lower area for a lower third.",
+      "dressing": [
+        "the granite paperweight on the index cards",
+        "the small sky-blue knobbed mixer between them",
+        "the garage window with snow falling outside",
+        "the helmet planter",
+        "rope coils on the shelves"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S05",
+      "t0": 9.2,
+      "t1": 11.2,
+      "beat": "banter",
+      "framing": "single, medium close-up, off-axis",
+      "camera": "locked, cam B",
+      "action": "Brynn folds her arms, eyebrows up: the challenge.",
+      "product_state": "absent",
+      "audio": "voice",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "brynn",
+        "pod",
+        "neon"
+      ],
+      "keyframe_prompt": "Off-axis podcast single, medium close-up: Brynn, the woman from the character sheet, arms folded, eyebrows raised in a teasing challenge, grinning, leaning back slightly from a large matte black broadcast microphone on a boom arm with no logo, headphones on, looking past camera toward her co-host off frame right. Soft bokeh of rope shelves and the sky-blue neon mountain outline behind. Soft key light.",
+      "dressing": [
+        "the orange guide's whistle on her cord",
+        "the patched elbow of her fleece",
+        "the neon mountain with its summit flag behind",
+        "the brass lamp's dented shade"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S06",
+      "t0": 11.2,
+      "t1": 13.2,
+      "beat": "product",
+      "framing": "macro insert on the desk",
+      "camera": "locked, insert cam",
+      "action": "Kofi's hand brings the product into the pool of lamp light by his mic; its moment (opening, switching on, unzipping) happens right on the mic.",
+      "product_state": "hero, label or logo to camera",
+      "audio": "the product's own sound almost too loud in the mic",
+      "caption": "",
+      "refs": [
+        "product",
+        "pod",
+        "neon"
+      ],
+      "product_role": "hero",
+      "keyframe_prompt": "Locked macro insert on a walnut podcast desk: {{action}}. The product matches the product reference exactly, undistorted, the brightest object in frame. Warm lamp bokeh and a sky-blue neon glow behind. Exactly one product. Framing: a true macro, camera 30 centimetres from the product at desk height, the product fills about half the frame height, the mic base beside it, one hand only, everything else melted into bokeh. Do not copy the wide framing of the location reference.",
+      "dressing": [
+        "his worn leather cord bracelet",
+        "the coiled cable with green gaffer tape",
+        "the chalk bag pen pot blurred behind"
+      ],
+      "product_action": {
+        "ingested": "a man's dark-skinned hand with a thin leather cord bracelet setting {{product.visual}} upright right in front of the base of a large matte black broadcast microphone and opening it, label to camera, cold droplets on it",
+        "applied": "a man's dark-skinned hand with a thin leather cord bracelet setting {{product.visual}} upright in front of the base of a large matte black broadcast microphone and flicking its cap open, label to camera",
+        "worn": "a man's dark-skinned hand with a thin leather cord bracelet laying {{product.visual}} on the walnut desk in front of the base of a large matte black broadcast microphone, pulled from a canvas stuff sack, its best side and logo to camera",
+        "handheld": "a man's dark-skinned hand with a thin leather cord bracelet setting {{product.visual}} down in front of the base of a large matte black broadcast microphone and switching it on or clicking it once, logo to camera",
+        "carried": "a man's dark-skinned hand with a thin leather cord bracelet thumping {{product.visual}} onto the walnut desk beside the base of a large matte black broadcast microphone and unzipping or unclasping it, logo to camera",
+        "home": "a man's dark-skinned hand with a thin leather cord bracelet switching on or patting {{product.visual}} beside the desk, the insert cam low at its level, the product at its true size and lit as the brightest thing in frame",
+        "consumable": "a man's dark-skinned hand with a thin leather cord bracelet tearing open the pack of {{product.visual}} in front of the base of a large matte black broadcast microphone, label to camera"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 13.2,
+      "t1": 16.2,
+      "beat": "product",
+      "framing": "single, medium close-up, off-axis",
+      "camera": "locked, cam C, 10% punch-in",
+      "action": "Kofi shows the product beside his mic and names it, pleased with himself.",
+      "product_state": "in hand or in use at chest height, label readable",
+      "audio": "voice, the product's own sound fading",
+      "caption": "{{line.L6}}",
+      "refs": [
+        "kofi",
+        "product",
+        "pod"
+      ],
+      "product_role": "in_use",
+      "keyframe_prompt": "Off-axis podcast single, medium close-up: Kofi, the man from the character sheet, at his large matte black broadcast microphone on a boom arm with no logo, headphones on, {{action}}, a calm, pleased half smile, looking past camera toward his co-host off frame left. The product matches the product reference exactly, undistorted, and never covers his mouth. Acoustic foam, a plant and a brass lamp in soft bokeh behind. Soft key light, the product catching a sky-blue neon rim light. Exactly one product.",
+      "dressing": [
+        "the rubber-banded black notebook on the desk",
+        "the frayed cuff of his flannel",
+        "the pegboard and workbench bokeh behind"
+      ],
+      "product_action": {
+        "ingested": "holding {{product.visual}} open at chest height beside the mic, label facing camera",
+        "applied": "having just applied {{product.visual}} on air, holding it at chest height beside the mic, label facing camera",
+        "worn": "wearing {{product.visual}}, just put on, adjusting it once beside the mic (if it is footwear, holding it up at chest height instead)",
+        "handheld": "holding {{product.visual}} at chest height beside the mic, logo facing camera",
+        "carried": "holding {{product.visual}} open on the desk in front of him, one hand on it, logo facing camera",
+        "home": "leaning back in or beside {{product.visual}} next to his desk chair, one hand resting on it, its best side to camera",
+        "consumable": "holding one {{product.visual}} from the open pack at chest height beside the mic, label facing camera"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 16.2,
+      "t1": 21.0,
+      "beat": "punchline",
+      "framing": "medium two-shot, tighter than the wide",
+      "camera": "locked, cam A, slow punch-in",
+      "action": "Brynn points at the product teasingly; Kofi delivers the punchline without looking at her. Her face drops, then cracks.",
+      "product_state": "in front of or on Kofi, label to camera",
+      "audio": "voices, overlapping start of her laugh",
+      "caption": "{{line.L7}} {{line.L8}}",
+      "refs": [
+        "brynn",
+        "kofi",
+        "product",
+        "pod"
+      ],
+      "product_role": "background",
+      "keyframe_prompt": "Medium two-shot across a walnut podcast desk, upright vertical composition, level horizon: Brynn, the woman from her character sheet, on the left pointing teasingly at the product, mouth open mid-question, and Kofi, the man from his character sheet, on the right, bone-dry expression, looking straight ahead at his mic rather than at her. Both at large matte black broadcast microphones with no logo, headphones on. {{action}}; the product matches the product reference exactly, undistorted. A plain cream ceramic mug in front of Brynn. Sky-blue neon mountain outline with no letters and rope shelves behind. Exactly one product.",
+      "dressing": [
+        "the granite paperweight on the index cards",
+        "the hand-drawn topo sketch on the desk",
+        "her pine tree mug",
+        "the brass-framed Kessik photo behind"
+      ],
+      "product_action": {
+        "ingested": "{{product.visual}} stands upright on the desk in front of Kofi with its label facing camera",
+        "applied": "{{product.visual}} stands upright on the desk in front of Kofi with its label facing camera",
+        "worn": "Kofi is wearing {{product.visual}} (or it lies on the desk in front of him if it is footwear), its best side to camera",
+        "handheld": "{{product.visual}} rests on the desk in front of Kofi with its logo facing camera",
+        "carried": "{{product.visual}} sits open on the desk in front of Kofi with its logo facing camera",
+        "home": "{{product.visual}} is visible at its true size beside Kofi's chair, part of the studio set",
+        "consumable": "the open pack of {{product.visual}} lies on the desk in front of Kofi with its label facing camera"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 21.0,
+      "t1": 24.8,
+      "beat": "payoff",
+      "framing": "single, medium, off-axis",
+      "camera": "locked, cam B",
+      "action": "Brynn collapses laughing, forehead toward the desk, one hand up conceding.",
+      "product_state": "absent",
+      "audio": "wheezing laughter, his low chuckle off mic",
+      "caption": "{{line.L9}}",
+      "refs": [
+        "brynn",
+        "pod"
+      ],
+      "keyframe_prompt": "Off-axis podcast single, medium shot: Brynn, the woman from the character sheet, doubled over with genuine wheezing laughter, forehead nearly touching the walnut desk, one hand raised in surrender, braid falling forward, headphones slipping, the large matte black broadcast microphone with no logo beside her face, a plain cream mug. Warm lamp and sky-blue neon bokeh behind. Real, candid, joyful. Framing: the camera is close and off-axis, the host fills most of the frame from mid-chest up, the room only as soft shallow-focus bokeh behind; the desk surface appears only as a thin strip at the very bottom edge. Do not copy the wide framing of the location reference.",
+      "dressing": [
+        "her pine tree mug",
+        "the athletic tape on her finger",
+        "carabiners swinging on the shelf",
+        "the chalk bag pen pot"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 24.8,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "wide two-shot",
+      "camera": "locked, cam A",
+      "action": "Wide of the set with the product between the two hosts. Brynn sits up and does a deadpan host-read to camera; Kofi raises the product in a small toast.",
+      "product_state": "hero, label to camera; then raised or touched by Kofi",
+      "audio": "voices, a laugh, podcast stinger in post",
+      "caption": "{{line.L10}}",
+      "refs": [
+        "brynn",
+        "kofi",
+        "product",
+        "pod"
+      ],
+      "product_role": "hero",
+      "keyframe_prompt": "Wide two-shot of the podcast studio from the location plate, upright vertical composition, level horizon: Brynn, the woman from her character sheet, on the left sitting up straight and looking directly into the camera with a deadpan announcer face, and Kofi, the man from his character sheet, on the right grinning and looking at her. Both at large matte black broadcast microphones on boom arms with no logo, headphones on. {{action}}; the product matches the product reference exactly, undistorted, lit as the brightest object. A plain cream mug in front of Brynn. Rope shelves, brass lamp and the sky-blue neon mountain outline with no letters behind. Exactly one product. Clean lower area for a lower third.",
+      "dressing": [
+        "the neon mountain with its summit flag",
+        "the granite paperweight",
+        "the small mixer",
+        "the garage window with falling snow",
+        "the helmet planter"
+      ],
+      "product_action": {
+        "ingested": "{{product.visual}} stands upright on the walnut desk exactly between the two mics, label facing camera",
+        "applied": "{{product.visual}} stands upright on the walnut desk exactly between the two mics, label facing camera",
+        "worn": "Kofi wears {{product.visual}} (or it sits on the desk between the mics if it is footwear), its best side and logo to camera",
+        "handheld": "{{product.visual}} rests on the walnut desk exactly between the two mics, logo facing camera",
+        "carried": "{{product.visual}} sits on the walnut desk exactly between the two mics, logo facing camera",
+        "home": "{{product.visual}} stands in the studio between and just behind the two hosts' chairs, at its true size and fully in frame, logo to camera",
+        "consumable": "the pack of {{product.visual}} stands upright on the walnut desk exactly between the two mics, label facing camera"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 11.2,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "len_s": 12,
+      "exact_risk": false,
+      "refs": [
+        "brynn card",
+        "kofi card",
+        "pod plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 video podcast clip in a small cosy studio: walnut desk, two large matte black broadcast mics on boom arms with no logos, headphones, rope shelves, a sky-blue neon mountain outline with no letters, soft key light, warm lamp. Three locked cameras, cutting on each speaker. Shot 1 (0 to 2.7 s): off-axis single of @Image1 (Brynn), hands up, half proud: \"{{line.L1}}\" Shot 2 (2.7 to 4.4 s): off-axis single of @Image2 (Kofi), pointing across the desk, deadpan outrage: \"{{line.L2}}\" Shot 3 (4.4 to 7 s): Brynn slaps the desk laughing: \"{{line.L3}}\" Shot 4 (7 to 9.2 s): wide two-shot, Kofi counts on his fingers, dry and slow: \"{{line.L4}}\" Brynn covers her face. Shot 5 (9.2 to 12 s): Brynn folds her arms, eyebrows up: \"{{line.L5}}\" Each host looks past the lens at the other. No product visible yet. Native sound: close warm broadcast-mic voices, room tone, chair creaks, a desk slap, overlapping laughter. No music. No text on screen, no logos."
+    },
+    {
+      "id": "U2",
+      "t0": 11.2,
+      "t1": 16.2,
+      "shots": [
+        "S06",
+        "S07"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "kofi card",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "9:16 video podcast. Shot 1 (0 to 2 s): locked macro insert, {{action.S06}}; the product matches @Image1 exactly, undistorted, and its own sound is loud and close in the mic. Shot 2 (2 to 5 s): off-axis single of @Image2 (Kofi), headphones on, {{action.S07}}, calm and pleased, looking past camera at his co-host: \"{{line.L6}}\" (say the brand as {{product.phonetic}}). Keep the product's shape, colours and label exactly as @Image1. Exactly one product. Native sound: the product's own sound, close voice, room tone. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 16.2,
+      "t1": 24.8,
+      "shots": [
+        "S08",
+        "S09"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "brynn card",
+        "kofi card",
+        "product image",
+        "S08 keyframe as first frame"
+      ],
+      "prompt": "9:16 video podcast, same studio and light. Shot 1 (0 to 4.8 s): medium two-shot across the desk, {{action.S08}} (the product exactly as @Image3). @Image1 (Brynn) points at it, teasing: \"{{line.L7}}\" @Image2 (Kofi), bone dry, looking at his mic, not at her, a tiny pause: \"{{line.L8}}\" Her face drops, then cracks. Shot 2 (4.8 to 8.6 s): off-axis single of Brynn doubled over laughing, forehead toward the desk, one hand up: \"{{line.L9}}\" Kofi's low chuckle off mic. The product does not move. Native sound: voices, overlapping genuine laughter, room tone. No music. No logos, no readable text."
+    },
+    {
+      "id": "U4",
+      "t0": 24.8,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "brynn card",
+        "kofi card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 video podcast, locked wide two-shot of the studio: {{action.S10}}; the product matches @Image1 exactly and stays unchanged. @Image2 (Brynn) sits up and looks straight into the lens with a fake-announcer voice, then normal and deadpan: \"{{line.L10}}\" (say the brand, if spoken, as {{product.phonetic}}). @Image3 (Kofi) grins and raises or taps the product in a small toast, label still to camera (if it is room-scale he just pats it). Native sound: voices, a laugh, room tone. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "conversation",
+      "t0": 0,
+      "t1": 24.8,
+      "brief": "No score: a real podcast clip has none, the voices and laughter carry it."
+    },
+    {
+      "section": "end stinger",
+      "t0": 28.6,
+      "t1": 30,
+      "brief": "A 1.5 second podcast stinger: a warm acoustic guitar strum and a snare hit, as if it's the show's own outro."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 12.4,
+      "sound": "the product's own sound (open, click, zip, rustle), close-miked and slightly too loud",
+      "why": "the product moment and a podcast in-joke; must register clearly; only if the native sound is weak"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "brynn",
+      "plan": "native voice in U1; her U1 vocal stem as voice reference for U3 and U4"
+    },
+    {
+      "speaker": "kofi",
+      "plan": "native voice in U1; his U1 stem as voice reference for U2 and U3"
+    }
+  ],
+  "captions": {
+    "font": "Inter ExtraBold",
+    "size": "5.4% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#7FD1FF sky blue on the word being spoken",
+    "shadow": "soft black drop shadow 0 3px 10px rgba(0,0,0,.7)",
+    "box": false,
+    "position": "centre, 70% down the frame, above the platform UI safe zone and below the hosts' mouths",
+    "max_words_on_screen": 4,
+    "speaker_colour": "each host's words take a subtle tint on their first line (Brynn warm white, Kofi cool white) so viewers follow overlapping speech",
+    "lower_third": "show name and episode lower third on the first wide shot, rendered in post",
+    "waveform": "small animated audio waveform bar under the captions, rendered in post"
+  },
+  "post_text": [
+    {
+      "t0": 7.0,
+      "t1": 11.2,
+      "text": "SEND IT POD",
+      "sub": "Ep. 148: Worst summit ever",
+      "style": "podcast lower third bottom left on the wide shot: white Inter ExtraBold on a dark translucent bar with a small sky-blue mountain glyph, slides in from the left"
+    },
+    {
+      "t0": 0,
+      "t1": 30,
+      "text": "(audio waveform)",
+      "sub": "",
+      "style": "small animated sky-blue waveform bar under the captions, reacting to the voices, rendered in code"
+    },
+    {
+      "t0": 27.0,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline}}",
+      "sub_fallback": "if product.tagline is empty: {{line.L10}} without 'There, I read the ad.'",
+      "style": "Inter ExtraBold white, centred in the clean lower area above the platform UI, fades up 6 frames under the host-read"
+    }
+  ],
+  "qa": [
+    "no product visible anywhere in S01 to S05; it first appears in S06",
+    "the product matches the product image in S06, S07, S08 and S10",
+    "L4 names only a generic, unbranded thing; L6 benefit is verbatim from product.benefits",
+    "L8 ends with 'You talk for three hours.'; L10 ends with 'There, I read the ad.'",
+    "Brynn and Kofi identical to their character sheets; hosts look past the lens except Brynn's host-read in S10",
+    "no readable model text: mics, mixer, laptop and neon carry no letters"
+  ],
+  "asset_urls": {
+    "brynn": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/podcast-01-send-it-pod/assets/brynn.jpg",
+    "kofi": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/podcast-01-send-it-pod/assets/kofi.jpg",
+    "pod": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/podcast-01-send-it-pod/assets/pod.jpg",
+    "neon": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/podcast-01-send-it-pod/assets/neon.jpg",
+    "photo": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/podcast-01-send-it-pod/assets/photo.jpg",
+    "planter": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/podcast-01-send-it-pod/assets/planter.jpg"
+  },
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "I fell asleep on a summit ridge. Standing up.",
+      "L2": "Roped to me!",
+      "L3": "It was hour fourteen, Kofi!",
+      "L4": "You packed four candy bars.",
+      "L5": "So what's in your pack, genius?",
+      "L6": "Red Bull Sugarfree. Keeps me alert, no sugar.",
+      "L7": "You bring that up a mountain?",
+      "L8": "No. I bring it here. You talk for three hours.",
+      "L9": "That's fair.",
+      "L10": "Wiiings without sugar. There, I read the ad."
+    },
+    "actions": {
+      "S06": "a man's dark-skinned hand with a thin leather cord bracelet setting {{product.visual}} upright right in front of the base of a large matte black broadcast microphone and opening it, label to camera, cold droplets on it",
+      "S07": "holding {{product.visual}} open at chest height beside the mic, label facing camera",
+      "S08": "{{product.visual}} stands upright on the desk in front of Kofi with its label facing camera",
+      "S10": "{{product.visual}} stands upright on the walnut desk exactly between the two mics, label facing camera"
+    }
+  }
+}

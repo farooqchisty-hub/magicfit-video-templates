@@ -1,0 +1,865 @@
+{
+  "id": "routine-01-5am-club",
+  "style": "routine",
+  "title": "5am Club",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "A trail runner walks us through the eight quiet steps between his 4:58 alarm and a ridge-top sunrise. Step four, always before the headlamp goes on, is {{product.name}}.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a pre-run snack or pick-me-up from the fridge is the classic step four"
+      ],
+      "applied": [
+        "great",
+        "sunscreen, anti-chafe balm or lip balm at the entry mirror is a real pre-run step"
+      ],
+      "worn": [
+        "great",
+        "socks, base layers, watches, glasses or shoes put on at the entry bench; gear is what a runner's routine is made of"
+      ],
+      "handheld": [
+        "good",
+        "earbuds, trackers, soft flasks and phone armbands switched on at the counter"
+      ],
+      "carried": [
+        "great",
+        "a running vest, belt or small pack loaded and zipped before the door"
+      ],
+      "home": [
+        "good",
+        "the whole first half is his apartment, so a foam roller, coffee maker, sunrise lamp or mat gets its own spot; large furniture only as a place he sits for thirty seconds"
+      ],
+      "consumable": [
+        "great",
+        "gels, electrolyte tabs and bars from the cupboard, torn open at the counter"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "sleep aids or sedatives (the story is getting out the door awake)",
+      "anything a runner should not use right before hard exercise",
+      "prescription or regulated drugs"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Wes Tanaka works the repair counter at the only bike shop in Pinecrest Valley, which opens at 9. If the ridge is going to happen, it happens before work.",
+      "He is in week 12 of a 16-week plan for his first 50k, the Larch Ridge Ultra on the second Saturday of October. The plan is a hand-drawn grid taped to the fridge, eleven rows crossed out in black marker.",
+      "He has topped Larch Ridge 147 times and brings one small grey stone down from the summit cairn each time. The jar by the sink is nearly full.",
+      "He has rented the one-bedroom above a closed hardware store for six years. The radiator clanks for the first time each autumn, and it started this week.",
+      "Miso, a 14-year-old grey tabby, sleeps on the arm of the couch and does not get up for anyone before 7."
+    ],
+    "locations": {
+      "apartment": {
+        "foreground": [
+          "a pair of mud-caked grey trail shoes on a flattened brown paper grocery bag by the door, laces still knotted",
+          "a glass mason jar almost full of small grey ridge stones on the counter by the sink",
+          "a foam roller and a lacrosse ball on a worn wool rug",
+          "three unwashed ceramic mugs by the sink, one with a chipped handle"
+        ],
+        "midground": [
+          "a paper training grid taped to the white fridge with small round magnets, rows of hand-drawn boxes, most crossed out in black marker, no words",
+          "oak open shelves with mismatched hand-thrown mugs, a jar of oats and a jar of honey with a wooden dipper",
+          "a pour-over coffee cone on a glass carafe with yesterday's grounds still in the filter",
+          "two plain black running vests and a faded rain shell on the entry hooks",
+          "a hand-drawn topographic map of the valley pinned by the door, one route traced in orange highlighter",
+          "a bicycle wheel leaning against the hall wall with a small tyre-patch tin on the floor",
+          "wool running socks drying over the radiator"
+        ],
+        "background": [
+          "the window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, a film of condensation at the bottom of the glass",
+          "a small cast-iron radiator under the window with chipped cream paint",
+          "a grey tabby cat asleep on the arm of a worn corduroy couch in the dim living area",
+          "a sprig of golden larch in a jam jar on the windowsill",
+          "the doorway to the bedroom with the bedside lamp still glowing"
+        ]
+      },
+      "ridge": {
+        "foreground": [
+          "silver-grey granite slabs with rust-orange and pale green lichen",
+          "a narrow dirt trail with exposed roots and a thin crust of first frost in the shade",
+          "a knee-high cairn of stacked grey stones at the summit",
+          "a few fallen golden larch needles caught in the rock cracks"
+        ],
+        "midground": [
+          "the plain orange diamond trail marker nailed to a weathered silver post",
+          "golden larch trees bent by the wind",
+          "a bleached dead whitebark pine snag with a raven perched on it",
+          "a patch of old snow in a north-facing gully"
+        ],
+        "background": [
+          "a valley full of low golden cloud",
+          "layered blue mountain ridges fading into the distance",
+          "a tiny wooden fire lookout on a far peak",
+          "the last few warm lights of the small town far below, no city"
+        ]
+      }
+    },
+    "personal_props": {
+      "wes": [
+        "a thin black sports watch with a cracked bezel and a blank face",
+        "a faded orange neck gaiter worn thin at the fold",
+        "a plain black headlamp with a strip of silver duct tape holding the battery door shut",
+        "a strip of blue kinesiology tape down his left shin from an old trail fall",
+        "one small grey stone in the chest pocket of his vest"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "shoes",
+        "name": "Wes's trail shoes",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, three views of the same pair (side, top and sole) with no labels or captions: a pair of plain grey trail running shoes with no logos or text, caked with dried brown mud along the sole and toe, frayed mesh at the left toe, aggressive lugged soles packed with dirt and a pine needle, grey laces double knotted. Photoreal, clean creator-video light. No view labels, captions or words on the sheet.",
+        "asset": "assets/shoes.jpg"
+      },
+      {
+        "id": "headlamp",
+        "name": "The duct-taped headlamp",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a plain black running headlamp on a black elastic strap, the strap faded and fuzzy, a strip of silver duct tape wrapped around the battery case holding its door shut, a scratched lens, a small round button on top. No logos, letters or text anywhere. Photoreal, clean creator-video light.",
+        "asset": "assets/headlamp.jpg"
+      },
+      {
+        "id": "stone_jar",
+        "name": "The summit stone jar",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a tall glass mason jar with a plain metal screw ring and no lid, almost full to the top with small rounded grey granite pebbles, some flecked with orange lichen, one pebble resting on the grey surface beside the jar. No labels, letters or text anywhere. Photoreal, clean creator-video light.",
+        "asset": "assets/stone_jar.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Larch Ridge Trail",
+        "mark": "a plain orange diamond",
+        "colors": "safety orange on weathered silver wood",
+        "appears_on": "trail marker posts, the orange route line on his hand-drawn map",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Pinecrest Valley Bike Co",
+        "mark": "a single pine tree inside a gear circle",
+        "colors": "forest green and cream",
+        "appears_on": "one faded mug on the open shelf",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "The last week of September, 4:58am to sunrise at 6:52am, about 3 degrees outside with the first frost of the season. Last night's mugs are still by the sink, the shoes are still muddy from Sunday's long run, the socks drying on the radiator are only half dry, week 12 on the fridge grid is half crossed out, and the cat has not moved. On the ridge the frost has not burned off the shaded rocks yet.",
+    "sound_world": [
+      "the radiator clanking and hissing as it warms up",
+      "the fridge compressor humming and the door seal unsticking",
+      "laces zipping through the eyelets and a double knot pulled tight",
+      "the headlamp button clicking",
+      "gravel crunching under the shoes outside the door",
+      "wind moving through the larches",
+      "a single raven croak on the ridge"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "the compact white fridge door shelf, the product standing alone beside two glass jars of homemade food and a plain white carton, a glass tub of blueberries on the shelf above"
+      ],
+      "applied": [
+        "the small wooden shelf under the round entry mirror, the product standing alone there"
+      ],
+      "worn": [
+        "the oak bench by the entry hooks, the product laid out there on its own"
+      ],
+      "handheld": [
+        "the oak counter in front of the window, the product resting alone on a folded tea towel"
+      ],
+      "carried": [
+        "the first entry hook, the product hanging there alone with the rain shell pushed aside"
+      ],
+      "home": [
+        "its own spot in the small living area by the cast-iron radiator, set up and ready"
+      ],
+      "consumable": [
+        "the cupboard above the counter, a pack of the product alone on the middle shelf beside a jar of oats"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "wes",
+      "name": "Wes Tanaka",
+      "role": "creator, trail runner filming his own routine",
+      "look": "man, 34, Japanese American, lean runner's build, short black hair messy from sleep, light stubble, calm dark eyes, faded charcoal long-sleeve running top, black shorts, plain black running vest later, a thin black sports watch with a blank face",
+      "voice": "low, calm, close-mic whisper, unhurried, a little dry, American Pacific Northwest",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Wes Tanaka: 34, Japanese American, lean runner's build, short black hair a little messy, light stubble, calm dark eyes, faded plain charcoal long-sleeve running top with no logos. Calm, focused, slightly amused expression, a real person. Natural soft light, photoreal, consistent identity across all three views. No text.",
+      "asset": "assets/wes.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "apartment",
+      "name": "Small apartment kitchen and entry at 4:58am",
+      "plate_prompt": "Creator video frame, vertical 9:16, upright composition, level horizon: a small lived-in one-bedroom apartment kitchen, a runner's home with gear and dishes everywhere at 4:58am, oak open shelves, cream walls, black matte handles, warm amber under-cabinet lights on, a compact white fridge, a window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, a short entry hall with a hook holding a plain black running vest and a plain black headlamp, a small round mirror by the door. Detail is densest on the shelves, walls and entry, and the counter space in front of the window stays clear. Crisp creator-video grade, no people, no readable text, no logos.",
+      "asset": "assets/apartment.jpg"
+    },
+    {
+      "id": "ridge",
+      "name": "Larch Ridge at sunrise",
+      "plate_prompt": "Creator video frame, vertical 9:16, upright composition, level horizon: a narrow rocky trail along a mountain ridge at sunrise, silver-grey granite, golden larch trees, a valley full of low cloud below, layered blue mountains behind, the sun just breaking the far ridge, a small plain orange diamond trail marker on a post. No people, no readable text, no logos.",
+      "asset": "assets/ridge.jpg"
+    }
+  ],
+  "asset_urls": {
+    "wes": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/routine-01-5am-club/assets/wes.jpg",
+    "apartment": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/routine-01-5am-club/assets/apartment.jpg",
+    "ridge": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/routine-01-5am-club/assets/ridge.jpg",
+    "shoes": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/routine-01-5am-club/assets/shoes.jpg",
+    "headlamp": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/routine-01-5am-club/assets/headlamp.jpg",
+    "stone_jar": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/routine-01-5am-club/assets/stone_jar.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.2",
+      "summary": "In bed at 4:58 with the phone glowing, he whispers to the tripod: five am, come run with me."
+    },
+    {
+      "id": "steps",
+      "t": "2.2-7.4",
+      "summary": "Steps one to three at a clip: feet on the cold floor, a big glass of water at the dark window, the double knot."
+    },
+    {
+      "id": "product",
+      "t": "7.4-12.0",
+      "summary": "Step four slows down: the product alone at its spot, then the product moment, with the name and the benefit."
+    },
+    {
+      "id": "build",
+      "t": "12.0-19.6",
+      "summary": "Steps five to seven speed up again: the headlamp clicks on as the benefit lands, the door opens into the blue dark, the climb by headlamp beam."
+    },
+    {
+      "id": "payoff",
+      "t": "19.6-25.2",
+      "summary": "Step eight: the ridge at sunrise, headlamp off, the valley in cloud below."
+    },
+    {
+      "id": "cta",
+      "t": "25.2-30",
+      "summary": "Back to step four's spot in morning light: the product waiting for the viewer, with the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.4-2.0",
+      "speaker": "wes",
+      "on_camera": true,
+      "line_intent": "Hook: name the hard moment the routine starts at and invite the viewer in.",
+      "delivery": "sleepy close whisper to the tripod, a half smile",
+      "shot": "S01",
+      "max_words": 7,
+      "fixed_line": "Five a.m. Come run with me."
+    },
+    {
+      "id": "L2",
+      "t": "2.4-3.9",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Step one: the first small action that beats the excuse.",
+      "delivery": "voiceover, close-mic whisper, on the beat",
+      "shot": "S02",
+      "max_words": 8,
+      "fixed_line": "Step one: feet down before the snooze."
+    },
+    {
+      "id": "L3",
+      "t": "4.2-5.4",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Step two: a simple prep action.",
+      "delivery": "voiceover whisper",
+      "shot": "S03",
+      "max_words": 6,
+      "fixed_line": "Two: big glass of water."
+    },
+    {
+      "id": "L4",
+      "t": "5.8-7.2",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Step three: a personal rule that makes him feel like a pro.",
+      "delivery": "voiceover whisper, a little firm on 'always'",
+      "shot": "S04",
+      "max_words": 6,
+      "fixed_line": "Three: double knot. Always."
+    },
+    {
+      "id": "L5",
+      "t": "8.0-11.6",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Product step: 'Four:' then {{product.name}} said clearly, then the ONE benefit from product.benefits that earns it a place in a pre-dawn run routine.",
+      "delivery": "voiceover, slower and clearer on the name, a small satisfied breath after the product moment",
+      "shot": "S05",
+      "max_words": 11,
+      "rules": "must open with 'Four:'; benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the TTS prompt using product.phonetic"
+    },
+    {
+      "id": "L6",
+      "t": "12.2-13.8",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Step five: 'Five: headlamp.' then the moment the product's benefit shows up, in three or four of his own words that restate (never extend) a benefit from product.benefits.",
+      "delivery": "voiceover, a touch brighter, awake now",
+      "shot": "S07",
+      "max_words": 8,
+      "rules": "must open with 'Five: headlamp.'; benefit comes only from product.benefits, reworded no further than person and tense; no numbers or performance claims unless the page states them word for word"
+    },
+    {
+      "id": "L7",
+      "t": "14.2-15.8",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Step six: commit before doubt.",
+      "delivery": "voiceover, quick",
+      "shot": "S08",
+      "max_words": 7,
+      "fixed_line": "Six: out before I think."
+    },
+    {
+      "id": "L8",
+      "t": "16.6-17.6",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Step seven: the effort.",
+      "delivery": "voiceover, breathing harder behind it",
+      "shot": "S09",
+      "max_words": 4,
+      "fixed_line": "Seven: the climb."
+    },
+    {
+      "id": "L9",
+      "t": "21.0-22.0",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "Step eight: the reward, in as few words as possible.",
+      "delivery": "voiceover, quiet, almost reverent, then silence",
+      "shot": "S10",
+      "max_words": 3,
+      "fixed_line": "Eight: this."
+    },
+    {
+      "id": "L10",
+      "t": "26.0-29.6",
+      "speaker": "wes",
+      "on_camera": false,
+      "line_intent": "In-world CTA: make step four the viewer's own by naming where the product lives in their morning (the fridge, the door hook, the shelf by the mirror, the cupboard), then product.tagline if the page has one, else a 3 to 5 word line tying it to getting out the door.",
+      "delivery": "voiceover, warm, smiling audibly on the tagline",
+      "shot": "S11",
+      "max_words": 11,
+      "rules": "must say 'step four'; the place named matches the spot shown in S05 and S11; tagline verbatim from the page if it exists; brand spelled phonetically in the TTS prompt using product.phonetic"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.2,
+      "beat": "hook",
+      "framing": "medium close-up in bed, from the nightstand tripod",
+      "camera": "locked off, tripod on the nightstand",
+      "action": "Dark bedroom, a face-down phone glowing on the sheets; Wes props up on one elbow, hair messy, and whispers to the camera.",
+      "product_state": "absent",
+      "audio": "soft alarm chime cut off, sheets rustle, whisper",
+      "caption": "Five a.m. Come run with me",
+      "refs": [
+        "wes"
+      ],
+      "keyframe_prompt": "Medium close-up from a camera at nightstand height of Wes, the man from the character sheet, in bed in a dark bedroom at 4:58am, propped up on one elbow under a cream duvet, hair messy from sleep, looking into the camera with a sleepy half smile mid-whisper. The only light: a warm bedside lamp just switched on and deep blue pre-dawn light through a window behind him showing dark pine silhouettes and a mountain ridge, no city. The nightstand holds the lamp, a glass of water and a paperback with a plain cover, no clock, no screens with numbers, no stand or camera gear anywhere in the frame. A phone lies face down on the sheets with a faint glow around its edge. Clean uncluttered dark area in the upper left of the frame for a step sticker added later. No readable text, no logos.",
+      "dressing": [
+        "a glass of water with a ring on the nightstand and a paperback with a plain cover lying face down",
+        "a grey tabby cat curled asleep at the foot of the cream duvet",
+        "a pair of wool running socks on the floorboards",
+        "the orange neck gaiter hanging on the bedpost"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.2,
+      "t1": 4.0,
+      "beat": "steps",
+      "framing": "floor-level close-up of feet",
+      "camera": "locked off on the floor",
+      "action": "Step one: two bare feet drop onto the cold oak floor beside the bed.",
+      "product_state": "absent",
+      "audio": "bare feet on wood, floorboard creak",
+      "caption": "Step one: feet down before the snooze",
+      "refs": [
+        "apartment"
+      ],
+      "keyframe_prompt": "Floor-level close-up, camera on the oak floorboards beside a bed: a man's two bare feet just landing flat on the floor, ankles and the hem of black shorts visible, the edge of a cream duvet hanging above, warm lamp light from one side and blue window light on the floorboards. Upright vertical composition, level floor line. Crisp focus on the feet. No text, no logos.",
+      "dressing": [
+        "a strip of blue kinesiology tape down his left shin",
+        "a foam roller and a lacrosse ball on the worn wool rug",
+        "a pair of wool running socks tossed by the bed"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.0,
+      "t1": 5.6,
+      "beat": "steps",
+      "framing": "medium close-up at the kitchen sink",
+      "camera": "locked off, counter height",
+      "action": "Step two: he fills a tall glass at the tap in front of the dark blue window.",
+      "product_state": "absent",
+      "audio": "water pouring into glass",
+      "caption": "Two: big glass of water",
+      "refs": [
+        "wes",
+        "apartment"
+      ],
+      "keyframe_prompt": "Medium close-up at counter height of Wes, the man from the character sheet, in a faded charcoal long-sleeve top, filling a tall clear glass of water at the kitchen tap from the apartment location reference, the window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, warm amber under-cabinet light on his face and hands. Calm, sleepy. Only the one glass of water; no bottles, cartons or packaged products anywhere in frame. No text, no logos.",
+      "dressing": [
+        "the mason jar of grey ridge stones on the counter",
+        "three unwashed mugs by the sink, one with a chipped handle",
+        "a sprig of golden larch in a jam jar on the windowsill",
+        "a film of condensation at the bottom of the window glass"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 5.6,
+      "t1": 7.4,
+      "beat": "steps",
+      "framing": "straight top-down overhead",
+      "camera": "locked off, overhead",
+      "action": "Step three: his hands pull a double knot tight on a plain grey trail shoe.",
+      "product_state": "absent",
+      "audio": "lace pulled tight, a snap",
+      "caption": "Three: double knot. Always",
+      "refs": [
+        "apartment",
+        "shoes",
+        "headlamp"
+      ],
+      "keyframe_prompt": "Straight top-down overhead view onto an oak floor: his right foot is inside the shoe, flat on the floor, and a man's two hands pull a double knot tight on the laces of a mud-caked plain grey trail running shoe with no logos or text, exactly the shoe from the prop reference, his knee in black shorts at the edge of frame, warm lamp light, crisp detail on the laces. The floorboards run parallel to the sides of the frame. No text, no logos. The shoe is visibly caked with dried brown mud on the toe and sides.",
+      "dressing": [
+        "dried brown mud caked on the grey shoe and frayed mesh at the toe",
+        "the shoe resting on a flattened brown paper grocery bag",
+        "the duct-taped black headlamp lying beside the shoe on the oak floor",
+        "the blue kinesiology tape on his shin"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S05",
+      "t0": 7.4,
+      "t1": 9.4,
+      "beat": "product",
+      "framing": "medium insert at the step-four spot",
+      "camera": "locked off",
+      "action": "Step four: the product alone at its spot in the apartment, lit like a hero, and his hand reaches for it.",
+      "product_state": "hero, alone at its spot, label to camera, the brightest object in frame",
+      "audio": "the spot's own sound (a fridge seal, a cupboard door, a hook, a switch), room hum",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "product",
+        "wes",
+        "apartment"
+      ],
+      "keyframe_prompt": "Locked-off medium insert at the step-four spot in the small apartment at 5am: {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted. Label facing camera, it is the brightest object in frame. Beyond it, Wes, the man from the character sheet, in his charcoal top, reaches one hand toward it, his face soft in the background in warm kitchen light. Exactly one product. No readable text except the product's own label, no other logos.",
+      "dressing": [
+        "the paper training grid taped to the fridge, rows of boxes crossed out in black marker",
+        "the warm amber under-cabinet light",
+        "the mason jar of ridge stones at the edge of the counter",
+        "the kitchen behind him with oak shelves and mismatched mugs"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "shot from inside the compact white fridge looking out, the door swung open, {{product.visual}} standing upright alone in the door shelf lit bright white by the fridge light, cold condensation beads on it, two glass jars of homemade food and a plain white carton with no text beside it",
+        "applied": "on the small wooden shelf under the round entry mirror, {{product.visual}} standing alone in the one warm hall light, the mirror showing only a soft blur of the hall",
+        "worn": "on the oak bench by the entry hooks, {{product.visual}} laid out neatly on its own in the one warm hall light",
+        "handheld": "on the oak counter in front of the deep blue window, {{product.visual}} resting alone on a folded tea towel under the amber under-cabinet light",
+        "carried": "{{product.visual}} hanging alone from the first entry hook in the one warm hall light, the rain shell pushed aside",
+        "home": "in the small living area by the cast-iron radiator, {{product.visual}} standing in its own spot, lit by the bedside lamp through the doorway, ready to be used",
+        "consumable": "shot from inside the cupboard above the counter looking out, the door swung open, a pack of {{product.visual}} alone on the middle shelf beside a plain jar of oats, lit by the amber under-cabinet light"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 9.4,
+      "t1": 12.0,
+      "beat": "product",
+      "framing": "medium close-up at the step-four spot",
+      "camera": "locked off, counter height",
+      "action": "He does step four with one practised move, then holds or shows the product with the label to camera; the blue window or the warm hall behind him.",
+      "product_state": "in hand or in use, label to camera at chest height, held 1.5 s",
+      "audio": "the product's own use sound (registers the moment), a small exhale",
+      "caption": "",
+      "refs": [
+        "wes",
+        "product",
+        "apartment"
+      ],
+      "keyframe_prompt": "Medium close-up at counter height of Wes, the man from the character sheet, in the small apartment at 5am, {{action}}, a small satisfied breath. The product matches the product reference exactly: same shape, colours and label, undistorted. It is fully visible and never covers his face. Warm amber light on the product and his face, the deep blue pre-dawn window or the dark hall behind him. Exactly one product. No text, no other logos.",
+      "dressing": [
+        "the paper training grid taped to the fridge behind him, rows of boxes crossed out in black marker",
+        "the pour-over cone on its glass carafe",
+        "the mason jar of ridge stones at the edge of the counter",
+        "mismatched hand-thrown mugs on the oak shelves"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "standing at the oak kitchen counter, holding {{product.visual}} at chest height just after a sip, opened, upright, label facing camera",
+        "applied": "at the round entry mirror, smoothing {{product.visual}} onto his cheekbones or lips with two fingers, then holding it at chest height with the label facing camera",
+        "worn": "at the entry bench, pulling on {{product.visual}} and settling it with one practised tug, the product clearly visible with its best side to camera",
+        "handheld": "at the oak counter, switching on {{product.visual}} and fitting or strapping it where it goes, a glance down at it, logo facing camera",
+        "carried": "at the oak counter, zipping {{product.visual}} shut with his rain shell packed inside, then shrugging or clipping it on, logo facing camera",
+        "home": "using {{product.visual}} in its spot in the living area for thirty seconds of the routine (rolling out, switching it on, or sitting on it to lace up), the product fully visible and lit",
+        "consumable": "at the oak counter, tearing open one of the product ({{product.visual}}) and eating or using it in one practised move, then holding the pack at chest height with the label facing camera"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 12.0,
+      "t1": 14.0,
+      "beat": "build",
+      "framing": "medium close-up by the entry hook",
+      "camera": "locked off",
+      "action": "Step five: at the entry hook he clicks the plain black headlamp on over his forehead; the beam flares toward camera.",
+      "product_state": "absent",
+      "audio": "headlamp click",
+      "caption": "{{line.L6}}",
+      "refs": [
+        "wes",
+        "apartment"
+      ],
+      "keyframe_prompt": "Medium close-up of Wes, the man from the character sheet, in the apartment entry hall at 5am, now wearing a plain black running vest with no logos over his charcoal top, pressing the button on a plain black headlamp strapped over his forehead, the white beam just switched on and flaring softly toward the camera, eyes bright and alert. Warm hall light, a dark doorway behind. No mirror in frame. No text, no logos.",
+      "dressing": [
+        "a strip of silver duct tape on the headlamp battery case",
+        "a faded rain shell and a second black vest on the entry hooks",
+        "the hand-drawn topographic map pinned by the door with an orange route line",
+        "the orange neck gaiter around his neck"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 14.0,
+      "t1": 16.2,
+      "beat": "build",
+      "framing": "wide from inside the entry, looking out",
+      "camera": "locked off, then he leaves frame",
+      "action": "Step six: the front door opens onto deep blue dark and pines; he steps out, headlamp beam cutting into the mist.",
+      "product_state": "absent",
+      "audio": "door latch, cold wind rushes in, first footsteps on gravel",
+      "caption": "Six: out before I think",
+      "refs": [
+        "wes",
+        "apartment"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: wide shot from inside a small apartment entry looking out through an open front door: Wes, the man from the character sheet, seen from behind in a plain black running vest and black shorts, stepping out onto a gravel path into deep blue pre-dawn darkness with pine silhouettes and low mist, the white beam of his headlamp cutting ahead of him, warm hall light spilling out around him onto the gravel. No text, no logos.",
+      "dressing": [
+        "a bicycle wheel leaning on the hall wall with a small tyre-patch tin",
+        "the rain shell left on the hook",
+        "a doormat worn through at the centre",
+        "the warm hall light on the gravel and low mist beyond"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 16.2,
+      "t1": 19.6,
+      "beat": "build",
+      "framing": "handheld POV",
+      "camera": "handheld POV from his chest, running uphill",
+      "action": "Step seven: POV up a steep rocky switchback, the headlamp beam bouncing over rocks and roots, the sky lightening at the top.",
+      "product_state": "absent",
+      "audio": "fast footsteps on rock, hard breathing",
+      "caption": "Seven: the climb",
+      "refs": [
+        "ridge",
+        "shoes"
+      ],
+      "keyframe_prompt": "One continuous full-bleed photo, uniformly sharp, no motion blur at all, no borders, no side panels. Upright vertical composition, level horizon: first-person chest-height view looking up a steep rocky mountain switchback trail in the last of the blue pre-dawn light, a white headlamp beam lighting rocks and roots just ahead, the muddy tips of the two plain grey trail shoes from the prop reference at the bottom of the frame, larch trees on either side, the sky at the top of the trail beginning to glow pale orange. A small plain orange diamond marker on a post, no text. No logos.",
+      "dressing": [
+        "a thin crust of frost on shaded rocks",
+        "rust-orange lichen on the granite",
+        "exposed roots across the trail",
+        "the plain orange diamond marker on a weathered silver post"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 19.6,
+      "t1": 25.2,
+      "beat": "payoff",
+      "framing": "wide, runner small against the sunrise",
+      "camera": "locked off on a rock, tripod",
+      "action": "Step eight: Wes reaches the ridge top, clicks the headlamp off, and stands with hands on hips as the sun breaks over a valley of cloud.",
+      "product_state": "absent",
+      "audio": "wind, breathing slowing, a distant bird",
+      "caption": "Eight: this",
+      "refs": [
+        "wes",
+        "ridge"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: wide shot from a tripod on a rock of Wes, the man from the character sheet, standing small in the lower third on a silver-grey granite ridge top, seen from behind and slightly to the side, hands on hips, plain black running vest, headlamp now off and pushed up on his forehead, catching his breath. The sun is just breaking over layered blue mountains ahead, a valley full of golden low cloud below, golden larch trees at the frame edge, warm rim light on his shoulders. Standing on the ground, normal gravity. No text, no logos.",
+      "dressing": [
+        "the knee-high summit cairn of grey stones beside him",
+        "a bleached dead pine snag with a raven perched on it",
+        "a tiny wooden fire lookout on a far peak",
+        "the orange neck gaiter around his neck"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S11",
+      "t0": 25.2,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert at the step-four spot",
+      "camera": "locked off, slow push-in",
+      "action": "Back at the step-four spot in golden morning light, the product waiting for tomorrow. End card in post.",
+      "product_state": "hero, alone at its spot, label to camera",
+      "audio": "the spot's own sound, soft morning room tone",
+      "caption": "{{line.L10}}",
+      "refs": [
+        "product",
+        "apartment",
+        "stone_jar"
+      ],
+      "keyframe_prompt": "Locked-off medium insert with a very slow push-in at the same step-four spot in the small apartment, now in golden morning light: {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted. Label facing camera, it is the brightest object in frame. Beyond it, the empty apartment in soft focus, golden light coming through the window. Clean area above the product for a title added later. Exactly one product. No person, no readable text except the product's own label.",
+      "dressing": [
+        "the mason jar of ridge stones on the counter catching the gold light",
+        "the three unwashed mugs still by the sink, rim-lit gold",
+        "the paper training grid on the fridge with one more box crossed out",
+        "the sprig of golden larch on the windowsill"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "shot from inside the compact white fridge looking out, the door swung open, a fresh one, {{product.visual}}, standing upright alone and centred in the door shelf, condensation beads on it, lit bright white by the fridge light, two glass jars and a plain white carton beside it",
+        "applied": "{{product.visual}} back on the small wooden shelf under the round entry mirror, catching gold light from the window",
+        "worn": "{{product.visual}} back on the oak bench by the entry hooks, a little trail dust on it, catching the gold light",
+        "handheld": "{{product.visual}} back on the folded tea towel on the oak counter, catching the gold morning light from the window",
+        "carried": "{{product.visual}} back on the first entry hook, a little trail dust on it, catching the gold light",
+        "home": "{{product.visual}} in its spot in the living area by the radiator, catching the first gold light through the window",
+        "consumable": "shot from inside the cupboard above the counter looking out, the door swung open, a fresh pack of {{product.visual}} alone on the middle shelf, lit by warm gold morning light"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.4,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 8,
+      "exact_risk": false,
+      "refs": [
+        "wes card",
+        "apartment plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 creator morning routine video, tripod-mounted phone, clean crisp grade, small tidy apartment at 4:58am, warm amber lamps against deep blue pre-dawn windows as in @Image2. Shot 1 (0 to 2.2 s): @Image1 (Wes) propped on one elbow in bed, a face-down phone glowing on the sheets, looks into the camera and whispers sleepily: \"Five a.m. Come run with me.\" Hard cut. Shot 2 (2.2 to 4 s): floor-level, two bare feet drop onto the cold oak floor. Hard cut. Shot 3 (4 to 5.6 s): at the sink he fills a tall glass of water in front of the blue window. Hard cut. Shot 4 (5.6 to 7.4 s, render to 8 s): straight top-down, his hands pull a double knot tight on a plain grey trail shoe. One action per shot, crisp and satisfying. Native sound, close-mic ASMR: alarm chime cut off, feet on wood, water pouring, lace snap. Only the whispered line in shot 1; no other dialogue. No music. No text on screen. No logos."
+    },
+    {
+      "id": "U2",
+      "t0": 7.4,
+      "t1": 12.0,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "wes card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 creator morning routine video, same clean grade. Shot 1 (0 to 2 s): locked off at the step-four spot, {{action.S05}}; a hand reaches in toward it. Hard cut. Shot 2 (2 to 4.6 s): at counter height, @Image2 (Wes), {{action.S06}}, a small satisfied exhale. Keep the product's shape, colours and label exactly as @Image1. One product only. Native sound: the spot's own sound (fridge seal, cupboard door, hook or switch), the product's own use sound, the exhale. No dialogue (voiceover added in post). No music."
+    },
+    {
+      "id": "U3",
+      "t0": 12.0,
+      "t1": 25.2,
+      "shots": [
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "len_s": 14,
+      "exact_risk": false,
+      "refs": [
+        "wes card",
+        "ridge plate",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 creator routine video moving from indoors to a mountain sunrise. Shot 1 (0 to 2 s): locked medium close-up, @Image1 (Wes) in a plain black running vest clicks a plain black headlamp on over his forehead, the beam flares toward camera. Hard cut. Shot 2 (2 to 4.2 s): wide from inside the entry, he steps out of the open front door onto gravel into deep blue darkness and pines, headlamp beam cutting the mist. Hard cut. Shot 3 (4.2 to 7.6 s): handheld first-person view running up a steep rocky switchback, headlamp beam bouncing over rocks, the sky lightening at the top. Hard cut. Shot 4 (7.6 to 13.2 s): locked wide on a granite ridge as in @Image2, Wes arrives, clicks the headlamp off, stands with hands on hips catching his breath as the sun breaks over a valley of golden cloud. Upright vertical composition, level horizon, normal gravity. Native sound: headlamp click, door latch, wind, footsteps on gravel and rock, hard breathing that slows at the top. No dialogue (voiceover added in post). No music. No logos."
+    },
+    {
+      "id": "U4",
+      "t0": 25.2,
+      "t1": 30,
+      "shots": [
+        "S11"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "apartment plate",
+        "S11 keyframe as first frame"
+      ],
+      "prompt": "9:16 creator routine video, clean crisp grade. Locked off at the same step-four spot as before, now in golden morning light, a very slow push-in onto {{action.S11}}; the product matches @Image1 exactly and does not move or change; beyond it, the empty apartment from @Image2 in golden morning light. Keep a clean area above the product. Native sound: the spot's own sound, soft morning room tone. No dialogue (voiceover added in post). No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "steps",
+      "t0": 0,
+      "t1": 12.0,
+      "brief": "Warm lo-fi house bed, 118 bpm, soft kick, muted guitar pluck and a vinyl hiss, sat low so the ASMR foley stays loud; each step cut lands on a kick. Drops to just the pad under the product step from 7.4 s so the product moment and the name sit clean."
+    },
+    {
+      "section": "out the door",
+      "t0": 12.0,
+      "t1": 19.6,
+      "brief": "The full beat comes back on the headlamp click, hi-hats added on the climb, energy rising with his breathing."
+    },
+    {
+      "section": "sunrise",
+      "t0": 19.6,
+      "t1": 30,
+      "brief": "Beat drops out on 'Eight: this', one wide warm synth chord and the wind; a gentle return of the guitar pluck under the CTA, ending on the tonic."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 9.6,
+      "sound": "the product's own opening or use sound, close ASMR mic",
+      "why": "the product moment must register; only added if the native sound is weak"
+    },
+    {
+      "t": 12.1,
+      "sound": "headlamp click",
+      "why": "marks the moment the benefit lands; the edit rides on it"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "wes",
+      "plan": "native whisper in U1 S01; all voiceover lines L2 to L10 generated in post with a TTS voice cloned from his U1 stem (close-mic whisper preset), with the phonetic spelling for the brand line and tagline"
+    }
+  ],
+  "captions": {
+    "font": "Inter Bold",
+    "size": "4.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "none: the whole short line appears at once, it is a label not a karaoke caption",
+    "shadow": "soft 0 2px 10px rgba(0,0,0,.55)",
+    "box": false,
+    "position": "centre, 72% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 5,
+    "step_sticker": "large numeral in Inter Black, 11% of frame height, white, inside a 1.6 px white outline circle, upper left at 8% from the top and sides, with a small '/8' after it at 40% size; ticks on with a 4 frame scale from 90 to 100 percent on each step cut",
+    "timestamp": "4:58 AM in small Inter Medium caps under the step sticker for the hook only"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 2.2,
+      "text": "4:58 AM",
+      "style": "small Inter Medium caps, white, upper left under where the step sticker will sit, fades on at frame 1"
+    },
+    {
+      "t0": 2.2,
+      "t1": 25.2,
+      "text": "Step stickers 1/8 to 8/8, one per step cut (1 at 2.2 s, 2 at 4.0, 3 at 5.6, 4 at 7.4 and held through 12.0, 5 at 12.0, 6 at 14.0, 7 at 16.2, 8 at 19.6)",
+      "style": "large white Inter Black numeral inside a thin white outline circle with a small '/8', upper left, 4 frame scale-on per step; step 4 gets a subtle fill in the product's main colour to mark the product step"
+    },
+    {
+      "t0": 27.0,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline}}",
+      "style": "Inter Bold, white, centred in the clean area above the product, fade up 8 frames, with a final '4/8' step sticker ticking on beside it",
+      "sub_fallback": "if product.tagline is empty: the tagline half of {{line.L10}} (the words after the CTA sentence)"
+    }
+  ],
+  "qa": [
+    "the product in S05, S06 and S11 matches the product image (shape, colours, label)",
+    "S05 and S11 show the same step-four spot from the same angle; only the light changes",
+    "for worn and carried products the product stays on Wes in S07 to S10 wherever that part of him is in frame (it replaces the plain black vest if it is a vest or pack)",
+    "Wes identical across S01, S03, S05 to S08 and S10 against the character sheet",
+    "no other packaged products in the kitchen: jars, carton and cupboard contents are plain and unlabelled",
+    "upright vertical composition and level horizon in S08 to S10; normal gravity on the ridge",
+    "L5 opens with 'Four:' and L6 with 'Five: headlamp.'; both benefits come only from product.benefits",
+    "the step sticker numbers in post match the spoken step numbers exactly"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "Five a.m. Come run with me.",
+      "L2": "Step one: feet down before the snooze.",
+      "L3": "Two: big glass of water.",
+      "L4": "Three: double knot. Always.",
+      "L5": "Four: Red Bull Sugarfree. The original's benefits, no sugar.",
+      "L6": "Five: headlamp. And I'm properly alert.",
+      "L7": "Six: out before I think.",
+      "L8": "Seven: the climb.",
+      "L9": "Eight: this.",
+      "L10": "Put step four in your fridge. Wiiings without sugar."
+    },
+    "actions": {
+      "S05": "shot from inside the compact white fridge looking out, the door swung open, {{product.visual}} standing upright alone in the door shelf lit bright white by the fridge light, cold condensation beads on it, two glass jars of homemade food and a plain white carton with no text beside it",
+      "S06": "standing at the oak kitchen counter, holding {{product.visual}} at chest height just after a sip, opened, upright, label facing camera",
+      "S11": "shot from inside the compact white fridge looking out, the door swung open, a fresh one, {{product.visual}}, standing upright alone and centred in the door shelf, condensation beads on it, lit bright white by the fridge light, two glass jars and a plain white carton beside it"
+    }
+  }
+}

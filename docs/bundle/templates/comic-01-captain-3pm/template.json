@@ -1,0 +1,947 @@
+{
+  "id": "comic-01-captain-3pm",
+  "style": "comic",
+  "title": "Captain 3pm",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Captain 3pm is the strongest man in Brightwater City until three o'clock, when the Slump rolls in and his powers run out. Then comes issue #2, and {{product.name}}.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "the desk fridge under desk 41-17 is the natural home for a snack or beverage ritual at 2:59"
+      ],
+      "applied": [
+        "good",
+        "a dab below the mask from the desk drawer reads as a power-up; works for skincare, balm, fragrance, hair"
+      ],
+      "worn": [
+        "good",
+        "new gear as a costume upgrade (shoes, jacket, glasses, watch); the S06 framing widens for footwear"
+      ],
+      "handheld": [
+        "great",
+        "a gadget from the desk drawer that charges his badge is pure comic logic"
+      ],
+      "carried": [
+        "good",
+        "a bag slung like a utility belt; the rescue does not use it, so the payoff is lighter"
+      ],
+      "home": [
+        "stretch",
+        "the product beat moves to the office break nook by the window; fine for lamps, chairs, cushions, plants and appliances, not beds or bedroom furniture"
+      ],
+      "consumable": [
+        "great",
+        "a pack in the top drawer he reaches for every afternoon"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "sleep aids, sedatives or anything whose benefit is rest or sleep (the villain is drowsiness, the product must beat it)",
+      "beds, mattresses and bedroom furniture that cannot live in an office break nook"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Captain 3pm is a 32-page monthly comic printed on cheap newsprint by the fictional Harbourlight Comics. This is issue #2; issue #1 ended with the Slump escaping into the air vents of Pemberton Tower.",
+      "By day Gord Pike processes claims at desk 41-17 on the 41st floor of Pemberton Tower. He has saved Brightwater City 212 times, every single save before three in the afternoon.",
+      "The Slump first rose out of the Brightwater harbour fog in 1987, the year the city moved to open-plan offices. It feeds on yawns and gets bigger every hour after lunch.",
+      "Gord's cape was sewn by his daughter from an old sky-blue bedsheet; the collar is held on by a safety pin since the Slump tore it in issue #1.",
+      "The desk fridge under desk 41-17 is the only one on the floor that anyone is afraid to open. It has a hand-drawn gold star sticker on the door."
+    ],
+    "materials_rule": "Every object is drawn, not photographed: confident black brush ink with a thick outer contour and thin interior hatching, flat colour fills, Ben-Day halftone dots for every shadow and gradient (fine dots on skin and the product, coarse dots on walls and sky), solid spot blacks in the deepest shadows, slight CMYK misregistration where colour meets line, on slightly yellowed off-white newsprint with faint paper grain. The whole image is one single panel inside a thick hand-inked black border with slightly wobbly ruled edges and a thin white gutter; action may break the border. No lettering, balloons or sound effect words anywhere.",
+    "locations": {
+      "office": {
+        "foreground": [
+          "a wire in-tray stacked with blank manila folders pinched by a big black binder clip",
+          "a chipped white coffee mug with a hand-drawn lightning bolt on it and a brown coffee ring on the desk",
+          "a sky-blue stress ball squashed flat with a thumbprint dent",
+          "a rolling office chair with a split armrest patched with grey duct tape",
+          "the small sky-blue desk fridge under the nearest desk with a chrome handle and a drawn gold star sticker on the door",
+          "the steel top drawer of desk 41-17 with a sticky runner and a scatter of paper clips inside"
+        ],
+        "midground": [
+          "rows of beige desks with chunky monitors showing only abstract coloured bars",
+          "a water cooler with a big blue bottle and a single bubble rising",
+          "a potted rubber plant with one yellowed drooping leaf",
+          "a cork board of blank white memos held by red, yellow and blue pushpins",
+          "a bentwood coat stand with a spare sky-blue cape on a wire hanger",
+          "a plain round wall clock with hands and simple tick marks and no numerals",
+          "a small break nook by the window behind a blank folding screen, with a low table and a floor lamp"
+        ],
+        "background": [
+          "a floor-to-ceiling window with a thin black mullion grid",
+          "an invented art-deco skyline of stepped towers with sunburst crowns, no real landmarks",
+          "a window cleaner's cradle hanging on two cables outside the glass",
+          "a small blimp with plain unmarked sides drifting past",
+          "a flock of birds drawn as tiny ink ticks"
+        ]
+      },
+      "skyline": {
+        "foreground": [
+          "a rooftop wooden water tower with iron hoops and a conical lid",
+          "art-deco stone eagle gargoyles on a cornice, cracked and pigeon-streaked",
+          "a rooftop pigeon coop of chicken wire and planks",
+          "a rusty fire-escape ladder climbing a brick wall"
+        ],
+        "midground": [
+          "Pemberton Tower, a tall stepped art-deco tower with a sunburst crown and a needle spire",
+          "a single-pylon cable-stayed bridge with fanned cables over the river",
+          "an elevated train on a curved steel viaduct",
+          "rows of brownstone rooftops with chimney pots and television aerials"
+        ],
+        "background": [
+          "a wide river with a small paddle ferry leaving a white wake",
+          "low blue hills drawn with a single ink line",
+          "a golden yellow sky with a radiating coarse halftone sunburst",
+          "a zeppelin mooring mast on the tallest distant tower",
+          "small puffy clouds outlined in ink with flat white fill"
+        ]
+      }
+    },
+    "personal_props": {
+      "gord": [
+        "the plain silver circular badge with a lightning bolt, a scratch across one edge from issue #1",
+        "a navy tie with a small dark coffee blot near the tip",
+        "a sky-blue cape with a big steel safety pin holding the collar",
+        "a plain wristwatch with a cracked glass face and no numerals",
+        "an office lanyard with a blank white badge card"
+      ],
+      "slump": [
+        "a limp grey necktie with a loosened sagging knot hanging from its chest",
+        "a cloud of paper clips and staples orbiting its body like flies",
+        "a sagging grey office chair it drags behind it by one arm",
+        "a trail of grey drip puddles wherever it passes"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "fridge",
+        "name": "The fridge under desk 41-17",
+        "prop_prompt": "Comic book prop reference sheet on a plain mid-grey background: the same small sky-blue desk fridge drawn twice side by side, once closed and once with the door swung open showing one empty wire shelf and a soft blue glow; rounded corners, a chrome pull handle, a dented lower corner, a hand-drawn gold star sticker on the door. Bold black ink line art, flat colours, Ben-Day halftone shading. No view labels, no captions, no letters, no numbers, no logos anywhere on the sheet.",
+        "asset": "assets/fridge.jpg"
+      },
+      {
+        "id": "girder",
+        "name": "The rescue girder",
+        "prop_prompt": "Comic book prop reference sheet on a plain mid-grey background: a long red-painted steel I-beam girder with rows of round rivets, one bent end, chipped paint showing grey steel and a dangling snapped cable, shown in side view only. Bold black ink line art, flat colours, Ben-Day halftone shading, spot blacks. No letters, no numbers, no logos.",
+        "asset": "assets/girder.jpg"
+      },
+      {
+        "id": "badge",
+        "name": "Captain 3pm's badge",
+        "prop_prompt": "Comic book prop reference sheet on a plain mid-grey background: the same plain silver circular chest badge with a raised gold lightning bolt and a scratch across one edge, drawn twice side by side, once dull and once glowing with radiating ink light rays. Bold black ink line art, flat colours, Ben-Day halftone shading. One single panel, no dividers, no view labels, no captions, no letters, no numbers, no logos anywhere on the sheet.",
+        "asset": "assets/badge.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Captain 3pm",
+        "mark": "a silver circle with a gold lightning bolt",
+        "colors": "sky blue, silver and golden yellow",
+        "appears_on": "Gord's badge, his coffee mug (bolt only), the cover sunburst",
+        "text_in_post": "the comic title on the cover panel S01 and the end card only"
+      },
+      {
+        "name": "Pemberton Tower",
+        "mark": "a stepped tower silhouette with a sunburst crown",
+        "colors": "cream and gold",
+        "appears_on": "the tower itself in the skyline, the blank badge card shape",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Harbourlight Comics",
+        "mark": "a small lighthouse in a circle",
+        "colors": "red on newsprint",
+        "appears_on": "cover corner box (added in post only)",
+        "text_in_post": "issue number and price box on the cover only"
+      }
+    ],
+    "wear_and_time": "A Thursday, the page starts at 2:59pm and runs to about 3:10pm. Bright sunny afternoon outside, the office washed grey by the Slump until the product. Used: a half-drunk coffee gone cold, a squashed stress ball, a shredded morning of blank memos. Out of place: a sky-blue cape hanging on the office coat stand, and the Slump's grey drips on the carpet.",
+    "sound_world": [
+      "the heavy thunk of a forehead meeting a keyboard",
+      "the tick of the plain wall clock",
+      "the suck and chrome clunk of the desk fridge door",
+      "the product's own sound as it comes out (a door seal, a drawer runner, a zip, a click)",
+      "cape snap in the wind through an open window",
+      "wet fog tearing apart around a punch",
+      "papers fluttering off desks",
+      "a page turn rustle of newsprint"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "the small sky-blue desk fridge under desk 41-17 (signature object fridge), holding the product chilled on its single shelf"
+      ],
+      "applied": [
+        "the steel top drawer of desk 41-17, the product lying among blank memos"
+      ],
+      "worn": [
+        "a plain lidded box on the carpet under desk 41-17, the product folded or set inside"
+      ],
+      "handheld": [
+        "the steel top drawer of desk 41-17, the product lying among paper clips and a blank notepad"
+      ],
+      "carried": [
+        "under desk 41-17, the product propped against the desk leg"
+      ],
+      "home": [
+        "the break nook by the office window behind a blank folding screen, where the product is set up at its real size"
+      ],
+      "consumable": [
+        "the steel top drawer of desk 41-17, a pack of the product among paper clips"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "gord",
+      "name": "Gord Pike (Captain 3pm)",
+      "role": "hero, office worker by day",
+      "look": "man, 42, white American, sandy blond hair thinning at the temples, square jaw with light stubble, broad shoulders and a slight dad belly, sky-blue domino mask, white short-sleeve office shirt, navy tie, sky-blue cape, plain silver circular badge with a lightning bolt on the shirt pocket",
+      "voice": "big, warm, old-radio heroic, self-aware, American",
+      "card_prompt": "Comic book character turnaround on plain off-white paper, three views side by side at the same scale: front, three-quarter and profile of the same man, full body. Gord Pike, known as Captain 3pm: 42, white American, sandy blond hair thinning at the temples, square jaw with light stubble, broad shoulders and a slight dad belly, a sky-blue domino mask, white short-sleeve office shirt, navy tie, sky-blue cape fastened at the collar, a plain silver circular badge with a lightning bolt on the shirt pocket, grey office trousers, brown shoes. Heroic but slightly goofy. No letters or numbers on the badge. Consistent design across all three views. No text.",
+      "asset": "assets/gord.jpg"
+    },
+    {
+      "id": "slump",
+      "name": "The Slump",
+      "role": "villain, the afternoon slump made flesh",
+      "look": "a huge amorphous grey and olive fog creature, heavy-lidded sleepy yellow eyes, a wide yawning mouth, drooping arms that drip like wet clay, a limp grey necktie hanging from its chest",
+      "voice": "slow, low, yawning, syrupy",
+      "card_prompt": "Comic book villain turnaround on plain off-white paper, three views side by side at the same scale: front, three-quarter and profile of the same creature. The Slump: a huge amorphous blob made of heavy grey and olive fog, heavy-lidded sleepy yellow eyes, a wide yawning mouth, two drooping arms that drip like wet clay, a limp grey necktie hanging from its chest, the bottom trailing off into mist. Funny and menacing at once. Consistent design across all three views. No text.",
+      "asset": "assets/slump.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "office",
+      "name": "41st floor, Pemberton Tower",
+      "plate_prompt": "Modern American comic book panel, vertical 9:16, upright vertical composition, level horizon, bold black ink line art, flat colours with Ben-Day halftone dots, off-white newsprint texture: an open-plan office on a high floor with a floor-to-ceiling window over a sunny art-deco city skyline, rows of desks, computer monitors showing only abstract coloured bars, a plain round wall clock with hands and simple tick marks and no numerals, potted plants, a small desk fridge under the nearest desk. No people, no letters, no numbers, no logos, no text anywhere.",
+      "asset": "assets/office.jpg"
+    },
+    {
+      "id": "skyline",
+      "name": "Brightwater City skyline",
+      "plate_prompt": "Modern American comic book splash panel, vertical 9:16, upright vertical composition, level horizon, bold black ink line art, flat colours with Ben-Day halftone dots, off-white newsprint texture: a sunny art-deco city skyline in the afternoon, an invented skyline with no recognisable real landmarks: in the centre Pemberton Tower, a wide stepped ziggurat tower with a fan-shaped sunburst crown and a short needle spire that does not resemble any real building, a single-pylon cable-stayed bridge, a river, golden yellow sky with a halftone sunburst. No people, no signage, no letters, no logos, no text anywhere.",
+      "asset": "assets/skyline.jpg"
+    }
+  ],
+  "asset_urls": {
+    "gord": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/comic-01-captain-3pm/assets/gord.jpg",
+    "slump": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/comic-01-captain-3pm/assets/slump.jpg",
+    "office": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/comic-01-captain-3pm/assets/office.jpg",
+    "skyline": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/comic-01-captain-3pm/assets/skyline.jpg",
+    "fridge": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/comic-01-captain-3pm/assets/fridge.jpg",
+    "girder": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/comic-01-captain-3pm/assets/girder.jpg",
+    "badge": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/comic-01-captain-3pm/assets/badge.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.4",
+      "summary": "Cover splash: Captain 3pm holding a falling steel beam above the city at noon."
+    },
+    {
+      "id": "setup",
+      "t": "2.4-7.0",
+      "summary": "Three o'clock: he slumps at his desk, the colour drains, the Slump looms over the tower."
+    },
+    {
+      "id": "product",
+      "t": "7.0-14.4",
+      "summary": "Page flip to issue #2: the product comes out from under desk 41-17, the product moment, colour floods back, the product line."
+    },
+    {
+      "id": "build",
+      "t": "14.4-21.0",
+      "summary": "He flies out of the window and punches through the Slump in a full splash panel."
+    },
+    {
+      "id": "payoff",
+      "t": "21.0-24.6",
+      "summary": "Five past three, the city sunny again, he is back at his desk, finishing the afternoon."
+    },
+    {
+      "id": "cta",
+      "t": "24.6-30",
+      "summary": "Final panel: the product in a halftone sunburst, tagline and next-issue box."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.2",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "Hook: the hero's best self, stated as a brag the viewer suspects will not last.",
+      "delivery": "big old-radio heroic narration, chest out",
+      "shot": "S01",
+      "max_words": 6,
+      "fixed_line": "By noon, I'm unstoppable."
+    },
+    {
+      "id": "L2",
+      "t": "2.8-4.6",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "The problem everyone recognises, landed as a joke.",
+      "delivery": "deflated, face on the desk, comic timing",
+      "shot": "S02",
+      "max_words": 7,
+      "fixed_line": "By three? Not so much."
+    },
+    {
+      "id": "L3",
+      "t": "5.2-6.8",
+      "speaker": "slump",
+      "on_camera": true,
+      "line_intent": "The problem, personified as the villain, taunts the hero.",
+      "delivery": "slow, syrupy, a yawn in the middle",
+      "shot": "S03",
+      "max_words": 5,
+      "fixed_line": "Nap time, Captain."
+    },
+    {
+      "id": "L4",
+      "t": "7.6-8.8",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "The turn: the hero refuses the old ending as the new issue begins.",
+      "delivery": "quiet, determined, a grin starting",
+      "shot": "S04",
+      "max_words": 5,
+      "fixed_line": "Not this issue."
+    },
+    {
+      "id": "L5",
+      "t": "11.6-14.2",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "Product line: say {{product.name}} (or its short spoken form) and the ONE benefit from product.benefits that best reads as beating the three o'clock slump (energy, focus, comfort, freshness, confidence, calm).",
+      "delivery": "heroic, restored, straight to the reader",
+      "shot": "S06",
+      "max_words": 9,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L6",
+      "t": "18.6-20.2",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "The hit line: the problem is beaten.",
+      "delivery": "shouted mid-punch, joyful",
+      "shot": "S08",
+      "max_words": 4,
+      "fixed_line": "Afternoon's cancelled."
+    },
+    {
+      "id": "L7",
+      "t": "22.0-24.0",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "Payoff: the win lands back in real life, with a wink.",
+      "delivery": "casual, pleased, loosening his tie",
+      "shot": "S09",
+      "max_words": 8,
+      "fixed_line": "Three oh five. Back to work."
+    },
+    {
+      "id": "L8",
+      "t": "26.8-28.8",
+      "speaker": "gord",
+      "on_camera": false,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word line that ties the product to winning the afternoon, said like the end of a radio serial.",
+      "delivery": "warm heroic voiceover, like the end of a radio serial",
+      "shot": "S10",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.4,
+      "beat": "hook",
+      "framing": "cover splash panel, low angle",
+      "camera": "push-in across the cover, 2.5D parallax",
+      "action": "Captain 3pm hovers above the city at noon holding a falling steel beam over his head, cape snapping, a golden halftone sunburst behind; the top of the page is clean for the title.",
+      "product_state": "absent",
+      "audio": "wind, cape flap, distant crowd cheer, dialogue",
+      "caption": "By noon, I'm unstoppable.",
+      "refs": [
+        "gord",
+        "skyline",
+        "girder"
+      ],
+      "keyframe_prompt": "Comic book cover splash panel, low angle: Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge), flying high above the sunny art-deco city from the skyline reference, holding a long steel girder over his head with both arms, cape snapping, heroic grin, a golden yellow halftone sunburst radiating behind him. The top quarter of the panel is a clean flat golden sky with nothing in it, left empty for a title. Upright vertical composition, level horizon. No letters, no numbers, no text.",
+      "dressing": [
+        "the rivets and bent end of the red steel girder",
+        "art-deco eagle gargoyles on a cornice below",
+        "a rooftop wooden water tower",
+        "the needle spire of Pemberton Tower",
+        "a paddle ferry's white wake on the river far below"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.4,
+      "t1": 4.8,
+      "beat": "setup",
+      "framing": "medium panel",
+      "camera": "slide down through the gutter into the next panel",
+      "action": "Three o'clock: Gord face down on his office desk, cape limp over the chair, the panel's colour draining to grey, a plain wall clock behind with its hands at three.",
+      "product_state": "absent",
+      "audio": "office hum, a long sigh, clock tick, dialogue",
+      "caption": "By three? Not so much.",
+      "refs": [
+        "gord",
+        "office"
+      ],
+      "keyframe_prompt": "Comic panel, medium shot in the office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), slumped face down on his desk with one cheek squashed on the keyboard, arms dangling, his sky-blue cape hanging limp over the office chair, the colours of the panel washed out to grey and olive with only faint blue left in the cape, a plain round wall clock behind him with its hands pointing at three and simple tick marks and no numerals, monitor showing abstract grey bars. Clean flat grey wall area in the upper left, empty. No letters, no numbers, no text.",
+      "dressing": [
+        "the chipped mug with a drawn lightning bolt and a cold coffee ring",
+        "the stress ball squashed flat",
+        "the safety pin on the limp cape collar",
+        "blank memos on the cork board",
+        "the rubber plant with one yellow leaf"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.8,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "wide panel",
+      "camera": "slow pan up the tower to the villain",
+      "action": "The Slump, a colossal grey fog creature, oozes over the top of the office tower, yawning, drooping arms dripping onto the streets; the city goes grey beneath it.",
+      "product_state": "absent",
+      "audio": "a deep rumbling yawn, wind dropping, dialogue",
+      "caption": "Nap time, Captain.",
+      "refs": [
+        "slump",
+        "skyline"
+      ],
+      "keyframe_prompt": "Wide comic panel: The Slump, the fog villain from the character sheet (huge grey and olive fog blob, heavy-lidded sleepy yellow eyes, wide yawning mouth, drooping arms dripping like wet clay, limp grey necktie), oozing over the top of the tall stepped tower from the skyline reference, its drips sliding down the building onto the streets, the whole city drained to desaturated grey and olive, heavy spot blacks. Clean flat grey sky area in the upper right, empty. Upright vertical composition, level horizon. No letters, no text.",
+      "dressing": [
+        "the Slump's orbiting paper clips and staples",
+        "its limp grey necktie",
+        "grey drips sliding down Pemberton Tower's sunburst crown",
+        "the cable-stayed bridge sagging grey",
+        "the elevated train stopped on its viaduct"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.0,
+      "beat": "product",
+      "framing": "close panel",
+      "camera": "page flip, then push-in",
+      "action": "A paper page flip to issue #2; in the first panel Gord's hand goes to his ritual at desk 41-17 and a blue glow spills out around the product.",
+      "product_state": "about to enter, closed or unopened, in its place at desk 41-17",
+      "audio": "paper page flip, the product's surroundings (fridge door, drawer runner, zip, folding screen), dialogue",
+      "caption": "Not this issue.",
+      "refs": [
+        "gord",
+        "office",
+        "product"
+      ],
+      "keyframe_prompt": "Comic panel, close shot at desk 41-17 in the office from the location reference: {{action}}, a soft blue glow and ink light rays spilling out around it. The product is inked in comic style with its shape, colours and label copied exactly from the product reference, never redrawn. The determined masked face of the hero from the character sheet leans into the top of the frame. Clean flat dark area in the lower left, empty. No other letters, no text.",
+      "dressing": [
+        "the dented corner of the desk",
+        "the chrome drawer handle",
+        "the duct-tape patch on the chair armrest",
+        "a blank manila folder fallen to the carpet",
+        "paper clips scattered in the glow"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "a man's hand in a white short-sleeve shirt opening the door of the small sky-blue desk fridge under the desk, where {{product.visual}} stands upright and closed on the single shelf",
+        "applied": "a man's hand in a white short-sleeve shirt pulling open the steel top desk drawer, where {{product.visual}} lies closed among blank memos",
+        "worn": "a man's hand in a white short-sleeve shirt lifting the lid of a plain box on the carpet under the desk, where {{product.visual}} sits folded or set inside",
+        "handheld": "a man's hand in a white short-sleeve shirt pulling open the steel top desk drawer, where {{product.visual}} lies among paper clips and a blank notepad",
+        "carried": "a man's hand in a white short-sleeve shirt reaching under the desk for {{product.visual}} propped against the desk leg",
+        "home": "a man's hand in a white short-sleeve shirt pulling back the blank folding screen of the break nook beside desk 41-17, revealing {{product.visual}} set up at its true size by the window",
+        "consumable": "a man's hand in a white short-sleeve shirt pulling open the steel top desk drawer, where a pack of {{product.visual}} sits among paper clips"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 9.0,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "hero insert panel",
+      "camera": "locked, slow push",
+      "action": "The hero insert: the product raised like a trophy against a halftone sunburst as it opens, switches on or catches the light, highlights drawn in white ink.",
+      "product_state": "hero, opening or just revealed, label or logo facing camera",
+      "audio": "the product's own opening or use sound (registers the moment), brass stab",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Comic hero insert panel: {{action}}. The product is inked in comic style with light halftone, its shape, colours and label copied exactly from the product reference and undistorted. Behind it a radiating halftone sunburst in golden yellow and the strongest colour of the product. The product is the brightest object in the panel. Clean flat sunburst area at the top right, empty. No other letters, no sound effect words, no text. No armour, no gauntlet, no metal sleeve.",
+      "dressing": [
+        "the scratched silver badge on the shirt pocket at the edge of frame",
+        "coarse halftone sunburst rays",
+        "ink droplets and sparkle ticks around the product"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb opening it with a small ink spray of droplets, label facing the viewer",
+        "applied": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb flicking the cap open, label facing the viewer",
+        "worn": "a man's two hands, rolled white shirt cuffs at the edges, holding {{product.visual}} up high like a new costume piece, turned so its best side and details face the viewer",
+        "handheld": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, gripping {{product.visual}} raised like a trophy, ink light rays bursting off it, logo facing the viewer",
+        "carried": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} up high by its handle or strap like a trophy, logo facing the viewer",
+        "home": "a man's hand, rolled white shirt cuff at the edge, pressed on {{product.visual}} as he switches it on or tests it, the product at its true size and lit by radiating ink light rays, its best side to the viewer",
+        "consumable": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding one {{product.visual}} raised like a trophy, fresh out of its pack, label facing the viewer"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 14.4,
+      "beat": "product",
+      "framing": "medium close-up panel",
+      "camera": "push-in, colour floods back across the panel",
+      "action": "Gord stands tall, cape lifting, the badge glowing, colour flooding back into the office, the product in use and fully visible; he says the product line straight to the reader.",
+      "product_state": "in hand or in use, label readable",
+      "audio": "rising brass, cape whip, the product's own use sound, dialogue",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "gord",
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Comic panel, medium close-up from the chest up (widening to full figure when the product is worn on the legs or feet, or is room-sized): Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge now glowing), standing tall in the office, cape lifting in a sudden wind, colour flooding back into the panel in bright blue, gold and white, {{action}}. The product is inked in comic style with light halftone, large and fully visible in the panel, its shape, colours and label copied exactly from the product reference and undistorted, never covering his mouth. He looks straight at the reader with a heroic grin. Clean flat window-sky area in the upper right, empty. No clock, no letters, no numbers, no text.",
+      "dressing": [
+        "the badge glowing with ink light rays",
+        "the safety pin at the cape collar",
+        "blank memos lifting off the cork board in the wind",
+        "the water cooler bubble"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "holding {{product.visual}} up beside his face in the foreground, open and upright, label facing the viewer, about a third of the frame height",
+        "applied": "dabbing {{product.visual}} on his cheek just below the mask, then holding it up beside his face with the label facing the viewer",
+        "worn": "wearing {{product.visual}} with his office outfit and cape, chest out, showing it off to the reader",
+        "handheld": "holding {{product.visual}} up beside his face in the foreground, logo facing the viewer, the badge glowing as if charged by it",
+        "carried": "slinging {{product.visual}} over one shoulder like a utility belt, logo facing the viewer",
+        "home": "standing tall beside {{product.visual}} in the break nook by the window, one hand resting on it, the whole product in the panel",
+        "consumable": "using one {{product.visual}}, then holding the pack up beside his face with the label facing the viewer"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 14.4,
+      "t1": 17.2,
+      "beat": "build",
+      "framing": "diagonal action panel",
+      "camera": "whip through the panel with parallax",
+      "action": "Captain 3pm bursts out through the open office window, fist first, cape streaming, ink speed lines, papers flying behind him.",
+      "product_state": "absent",
+      "audio": "whoosh, papers, wind",
+      "caption": "",
+      "refs": [
+        "gord",
+        "office"
+      ],
+      "keyframe_prompt": "One single dynamic diagonal comic action panel filling the whole frame, no sub-panels, no inset boxes, no dividers, seen from outside the tower in mid air: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape), bursting out of a shattered floor-to-ceiling office window high on the tower, flying fist first toward the viewer with strong foreshortening, cape streaming behind, glass shards and blank papers flying, bold ink speed lines; behind him through the broken window the office with desks and a water cooler; below him the sunny art-deco city streets far down. No clock. Clean flat sky area in the upper left, empty. No letters, no text.",
+      "dressing": [
+        "the window cleaner's cradle swinging on its cables beside the window",
+        "blank manila folders tumbling out of the window",
+        "art-deco eagle gargoyles on the tower cornice below",
+        "glass shards catching sunlight"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 17.2,
+      "t1": 21.0,
+      "beat": "build",
+      "framing": "full splash panel",
+      "camera": "slow push into the impact, shake on the hit",
+      "action": "The punch: Captain 3pm drives his fist through the centre of the Slump, which bursts apart into grey fog chunks; golden light blasts through the hole and the city below turns bright again.",
+      "product_state": "absent",
+      "audio": "huge punch impact, fog bursting, dialogue",
+      "caption": "Afternoon's cancelled.",
+      "refs": [
+        "gord",
+        "slump",
+        "skyline"
+      ],
+      "keyframe_prompt": "Full comic splash panel: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape, glowing silver badge), punching straight through the centre of The Slump, the fog villain from the character sheet, whose grey and olive body bursts apart into chunky fog fragments, its sleepy eyes wide in shock, golden yellow light blasting through the hole in a red and yellow ink burst shape, the art-deco city below turning bright and colourful again. Clean flat burst area in the lower right, empty. Upright vertical composition, level horizon. No letters, no sound effect words, no text.",
+      "dressing": [
+        "paper clips and staples flying out of the burst",
+        "the limp grey necktie torn loose",
+        "Pemberton Tower's sunburst crown lit gold again",
+        "the blimp with plain sides",
+        "ink spot-black debris shapes"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 21.0,
+      "t1": 24.6,
+      "beat": "payoff",
+      "framing": "medium panel",
+      "camera": "slide through the gutter, gentle push",
+      "action": "Five past three: Gord back at his desk in the bright office, cape tucked over the chair, loosening his tie with a satisfied grin, the product at home in the panel, sunlight through the window; the time comes from the caption box in post.",
+      "product_state": "at rest in the panel, label or logo to camera",
+      "audio": "office hum, birds outside, dialogue",
+      "caption": "Three oh five. Back to work.",
+      "refs": [
+        "gord",
+        "office",
+        "product"
+      ],
+      "keyframe_prompt": "Comic panel, medium shot in the bright sunny office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), sitting back at his desk loosening his tie with a satisfied grin, his sky-blue cape tucked over the back of his chair, the monitor showing abstract colourful bars, no clock anywhere in the panel. Also in the panel: {{action}}, inked in comic style, its shape, colours and label copied from the product reference. Warm sunlight through the window. Clean flat wall area in the upper left, empty. No letters, no numbers, no text.",
+      "dressing": [
+        "the chipped lightning-bolt mug",
+        "the rubber plant standing upright again",
+        "the spare cape on the coat stand",
+        "the stress ball back to round",
+        "blue sky and birds as ink ticks through the window"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} standing open and upright beside his keyboard in the foreground, label facing the viewer",
+        "applied": "{{product.visual}} standing upright beside his keyboard in the foreground, cap on, label facing the viewer",
+        "worn": "Gord wearing {{product.visual}}, clearly visible as he leans back (feet up on the desk corner if it is footwear)",
+        "handheld": "{{product.visual}} resting beside his keyboard in the foreground, logo facing the viewer",
+        "carried": "{{product.visual}} hanging from the back of his chair beside the tucked cape, logo facing the viewer",
+        "home": "{{product.visual}} in the break nook by the window just behind his desk, sunlight on it, clearly visible",
+        "consumable": "the pack of {{product.visual}} beside his keyboard in the foreground, label facing the viewer"
+      }
+    },
+    {
+      "id": "S10",
+      "t0": 24.6,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "final panel, pack shot",
+      "camera": "slow push, halftone sunburst rotating slowly",
+      "action": "Final panel of the issue: the product in front of a halftone sunburst, the cape draped at the edge of frame; clean space for the tagline and the next-issue box.",
+      "product_state": "hero, label to camera",
+      "audio": "march resolves, page settles",
+      "caption": "{{line.L8}}",
+      "refs": [
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Final comic panel, pack shot: {{action}}, inked in comic style with light halftone and bold white highlights, its shape, colours and label copied exactly from the product reference and undistorted. Behind it a radiating halftone sunburst in golden yellow and the strongest colour of the product, the corner of a sky-blue cape draped at the edge of the frame. The top third of the panel is a clean flat sunburst area left empty for a title, and a clean flat strip along the bottom is empty. The product is the brightest object in the panel. No other letters, no text.",
+      "dressing": [
+        "the corner of the sky-blue cape with its safety pin",
+        "the chipped lightning-bolt mug",
+        "the stress ball back to round"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing open and upright on the office desk, label facing the viewer",
+        "applied": "{{product.visual}} standing upright on the office desk, label facing the viewer",
+        "worn": "{{product.visual}} laid out or standing neatly on the office desk, its best side to the viewer",
+        "handheld": "{{product.visual}} resting on the office desk, logo facing the viewer",
+        "carried": "{{product.visual}} standing on the office desk, logo facing the viewer",
+        "home": "{{product.visual}} in the break nook by the office window, its best side to the viewer, the sunny skyline behind it",
+        "consumable": "the pack of {{product.visual}} standing upright on the office desk, label facing the viewer"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 7,
+      "exact_risk": false,
+      "refs": [
+        "gord card",
+        "slump card",
+        "skyline plate",
+        "office plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic, printed comic art with bold inks, Ben-Day halftone and newsprint texture, panel borders visible, limited puppet-like character motion while the camera moves through the page. Shot 1 (0 to 2.4 s): push-in across a cover splash, @Image1 (Captain 3pm) holds a steel girder above a sunny city, cape snapping, and says in a big heroic voice: \"By noon, I'm unstoppable.\" Shot 2 (2.4 to 4.8 s): the camera slides down through the white gutter into the next panel, he is face down on his office desk, colour drained to grey, and says, deflated: \"By three? Not so much.\" Shot 3 (4.8 to 7 s): pan up the tower to @Image2 (The Slump), a colossal grey fog creature oozing over the top, who yawns slowly: \"Nap time, Captain.\" Keep clean empty areas for lettering added later. Native sound: wind, cape flap, office hum, a long sigh, a deep rumbling yawn. No music. No letters or text anywhere."
+    },
+    {
+      "id": "U2",
+      "t0": 7.0,
+      "t1": 14.4,
+      "shots": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "gord card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic, bold inks and halftone. Shot 1 (0 to 2 s): a paper page flips to reveal a new page; in its first panel, {{action.S04}}, blue light spilling around the product from @Image1, and @Image2 (Captain 3pm) says quietly: \"Not this issue.\" Shot 2 (2 to 4.4 s): locked hero panel against a golden halftone sunburst, {{action.S05}}. Shot 3 (4.4 to 8 s): push-in as colour floods back into the office, cape lifting, badge glowing, @Image2 {{action.S06}}, and says to the reader: \"{{line.L5}}\" (say the brand as {{product.phonetic}}). The product is inked in comic style but keeps its shape, colours and label exactly as @Image1. Native sound: paper page flip, the product's own sound (a door seal, a click, a zip, a snap), cape whip. No music. No letters or text."
+    },
+    {
+      "id": "U3",
+      "t0": 14.4,
+      "t1": 24.6,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "gord card",
+        "slump card",
+        "product image",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic action, bold inks, halftone, speed lines, 2.5D parallax. Shot 1 (0 to 2.8 s): @Image1 (Captain 3pm) bursts out of the office window fist first, cape streaming, papers flying. Shot 2 (2.8 to 6.6 s): full splash panel, he punches through the centre of @Image2 (The Slump), which bursts into chunks of grey fog as golden light blasts through and the city turns bright; he shouts with joy mid-punch: \"Afternoon's cancelled.\" Shot 3 (6.6 to 11 s): the camera slides through the gutter to a calm panel, he is back at his desk in the sunny office, cape over the chair, loosening his tie, and in the panel {{action.S09}}, the product matching @Image3; he says casually: \"Three oh five. Back to work.\" Keep clean empty areas for lettering. Native sound: whoosh, a huge punch impact, fog bursting, office hum, birds. No music. No letters or text."
+    },
+    {
+      "id": "U4",
+      "t0": 24.6,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic final panel. Slow push toward {{action.S10}}; the product from @Image1 is inked in comic style with bold white highlights and does not move or change shape. A golden halftone sunburst rotates slowly behind it, the corner of a sky-blue cape at the edge of frame. Keep the top third and a bottom strip as clean empty areas. Native sound: soft office ambience, a page settling. No music, no letters or text."
+    }
+  ],
+  "music": [
+    {
+      "section": "cover",
+      "t0": 0,
+      "t1": 2.4,
+      "brief": "Brassy retro superhero march fanfare, bright trumpets and snare, B flat major, 120 bpm."
+    },
+    {
+      "section": "slump",
+      "t0": 2.4,
+      "t1": 7.0,
+      "brief": "The same fanfare slows down like a record losing power, a droopy trombone slide, tuba and a lazy clock tick."
+    },
+    {
+      "section": "issue two",
+      "t0": 7.0,
+      "t1": 24.6,
+      "brief": "Snare roll on the page flip, a brass stab exactly on the product moment, then the full march at double energy with timpani under the punch and a playful pizzicato tag for back to work."
+    },
+    {
+      "section": "final panel",
+      "t0": 24.6,
+      "t1": 30,
+      "brief": "The fanfare theme resolves on a big held major chord with a cymbal swell, like a serial's closing sting."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 7.0,
+      "sound": "paper page flip",
+      "why": "the issue change is the story hinge and must read as a page turning"
+    },
+    {
+      "t": 9.8,
+      "sound": "the product's own opening or use sound (a pop, a click, a zip, a snap, a switch)",
+      "why": "the product moment must register; paired with the SFX lettering"
+    },
+    {
+      "t": 18.2,
+      "sound": "big punch impact",
+      "why": "sells the KA-POW splash"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "gord",
+      "plan": "native voice from U1, then his U1 vocal stem as voice reference for U2, U3 and the tagline voiceover"
+    },
+    {
+      "speaker": "slump",
+      "plan": "native in U1, pitched down 2 semitones with a slight slow-down in post if the native read is not heavy enough"
+    }
+  ],
+  "captions": {
+    "font": "Comic lettering face (a Wild Words style hand-letter font, all caps)",
+    "size": "4.2% of frame height inside balloons",
+    "color": "#111111 text in white balloons with a 3px black outline and a tail to the speaker",
+    "active_word": "the word being spoken is set in bold italic, as comic letterers stress words",
+    "shadow": "none; balloons have a hard 3px black outline",
+    "position": "inside the clean area each keyframe leaves for it, never over faces or the product; narration in yellow rectangular caption boxes at panel tops",
+    "max_words_on_screen": 7,
+    "box": true,
+    "sfx_lettering": "SFX (the product's own sound word, WHOOSH, KA-POW) in a heavy display face with a yellow to red fill, black outline and a 3D drop, animated with a 3 frame scale pop",
+    "balloon_types": "round white balloons for speech, a wobbly grey balloon with drippy edges for the villain, a jagged burst balloon for shouts",
+    "rule": "every word of lettering is rendered in code in post; keyframes contain no letters at all"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 2.4,
+      "text": "CAPTAIN 3PM",
+      "sub": "#1",
+      "style": "comic cover masthead in the clean top area: heavy display face, sky-blue fill, black outline, silver 3D extrude; issue number in a small yellow corner box"
+    },
+    {
+      "t0": 0.3,
+      "t1": 6.8,
+      "text": "Speech balloons for L1, L2 and L3",
+      "sub": "",
+      "style": "round white balloons for Gord with tails to his mouth, a wobbly drippy grey balloon for the Slump, placed in each panel's clean area"
+    },
+    {
+      "t0": 2.4,
+      "t1": 4.8,
+      "text": "3:00 PM.",
+      "sub": "",
+      "style": "yellow rectangular narration caption box at the panel top"
+    },
+    {
+      "t0": 7.0,
+      "t1": 9.0,
+      "text": "ISSUE #2",
+      "sub": "",
+      "style": "masthead-style tag on the new page as it flips, yellow box, black lettering"
+    },
+    {
+      "t0": 9.6,
+      "t1": 11.0,
+      "text": "One comic SFX word for the product's own sound, all caps with an exclamation mark (for example CLICK!, SNAP!, ZIP!, POP!, FWUMP!)",
+      "sub": "",
+      "style": "SFX: heavy display face, yellow to red fill, black outline, 3D drop, 3 frame scale pop, bursting from the product; one word only, and it must name a sound the product really makes"
+    },
+    {
+      "t0": 14.6,
+      "t1": 16.6,
+      "text": "WHOOSH!",
+      "sub": "",
+      "style": "SFX along the speed lines, sky-blue fill, black outline"
+    },
+    {
+      "t0": 17.6,
+      "t1": 20.4,
+      "text": "KA-POW!",
+      "sub": "",
+      "style": "SFX in the clean burst area, red and yellow, largest lettering in the film, with a 2 frame shake"
+    },
+    {
+      "t0": 11.6,
+      "t1": 24.2,
+      "text": "Speech balloons for L4 to L7",
+      "sub": "",
+      "style": "round white balloons, a jagged burst balloon for L6"
+    },
+    {
+      "t0": 21.0,
+      "t1": 24.6,
+      "text": "3:05 PM.",
+      "sub": "",
+      "style": "yellow narration caption box at the panel top"
+    },
+    {
+      "t0": 26.4,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L8}}",
+      "style": "comic masthead face, white with a black outline, centred in the clean sunburst area above the product; sub is product.tagline when the page has one, else the L8 line"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "NEXT ISSUE: every afternoon at 3.",
+      "sub": "",
+      "style": "yellow next-issue box in the clean bottom strip, black comic lettering"
+    }
+  ],
+  "qa": [
+    "the product in S04, S05, S06, S09 and S10 keeps its shape, colours and label from the product image, inked but never redrawn",
+    "Gord identical across S01, S02, S06, S07, S08, S09 against the character sheet; the Slump against its sheet",
+    "no lettering drawn by the model anywhere; every balloon, caption box, SFX word and title is added in post",
+    "the SFX word in post names a sound the product really makes",
+    "worn on the feet or room-sized products: S06 framing widens so the whole product is in the panel",
+    "L5 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "By noon, I'm unstoppable.",
+      "L2": "By three? Not so much.",
+      "L3": "Nap time, Captain.",
+      "L4": "Not this issue.",
+      "L5": "Red Bull Sugarfree. Less tired, no sugar.",
+      "L6": "Afternoon's cancelled.",
+      "L7": "Three oh five. Back to work.",
+      "L8": "Wiiings without sugar."
+    },
+    "actions": {
+      "S04": "a man's hand in a white short-sleeve shirt opening the door of the small sky-blue desk fridge under the desk, where {{product.visual}} stands upright and closed on the single shelf",
+      "S05": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb opening it with a small ink spray of droplets, label facing the viewer",
+      "S06": "holding {{product.visual}} up beside his face in the foreground, open and upright, label facing the viewer, about a third of the frame height",
+      "S09": "{{product.visual}} standing open and upright beside his keyboard in the foreground, label facing the viewer",
+      "S10": "{{product.visual}} standing open and upright on the office desk, label facing the viewer"
+    },
+    "post_text": {
+      "sfx_word": "KSSHHK!",
+      "title": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar"
+    }
+  }
+}

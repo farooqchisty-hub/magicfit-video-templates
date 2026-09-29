@@ -1,0 +1,828 @@
+{
+  "id": "cgi_hero-01-stampede",
+  "style": "cgi_hero",
+  "title": "Stampede",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Dawn in a sleeping city. A six storey {{product.name}} drops into the plaza fountain, and a giant spectacle made from its own look charges off it down the avenue, switching the whole city on as it runs.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a giant beverage or snack pack dripping in a fountain is classic fake out of home"
+      ],
+      "applied": [
+        "great",
+        "giant tubes and jars are the most proven FOOH subject; a glossy ribbon of the texture makes a strong spectacle"
+      ],
+      "worn": [
+        "great",
+        "a building-sized shoe, bag-like accessory or draped garment in a plaza reads instantly; the runner wears the real one at the end"
+      ],
+      "handheld": [
+        "great",
+        "a six storey device powering on, with light rings as the spectacle"
+      ],
+      "carried": [
+        "good",
+        "a giant bag standing in the fountain and springing open works; soft bags need to be shown upright"
+      ],
+      "home": [
+        "good",
+        "a sofa, lamp or appliance spanning the fountain basin is a strong stunt; the runner rests a hand on a normal-size one at the end instead of holding it"
+      ],
+      "consumable": [
+        "good",
+        "the giant pack works; the spectacle from the rule (a river of the contents, never the pack) carries it"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "weapons, blades or anything that reads as a threat at building scale",
+      "products whose only visual is a person or mascot character (the rule falls back to material or colour, which weakens the stunt)"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Calloway is a fictional harbour city of 1.4 million on a cold northern bay. Founders' Plaza sits at the top of Ferris Avenue, a dead-straight 2 km run down to the ferry piers.",
+      "The Founders' Fountain was carved in 1911 from grey granite: a round basin 30 metres across with four bronze dolphin spouts, green with verdigris, restored last spring.",
+      "It is 6:04am on a Tuesday in late October. The first Harbor Line tram of the day leaves the plaza at 6:10; the street sweeper has just passed and the paving is still wet.",
+      "Jae Park runs the same 8 km loop at this hour every weekday, plaza to piers and back, and has never once seen the city switch on before him.",
+      "Kettle & Oar, the corner cafe on the plaza, opens at 6:30; its chairs are still stacked and chained under the striped awning."
+    ],
+    "locations": {
+      "plaza": {
+        "foreground": [
+          "wet grey granite paving setts with a thin film of fountain spray and a few fallen yellow plane-tree leaves",
+          "pigeons pecking at a dropped croissant beside a green cast-iron bench",
+          "a forgotten plain white paper coffee cup on the bench arm",
+          "a brass drinking fountain on a stone pedestal, polished where hands touch it"
+        ],
+        "midground": [
+          "the wide low granite fountain basin with four small bronze dolphin spouts on its rim, streaked green with verdigris, and an open empty pool in the middle",
+          "cast-iron lamp posts with glowing white globe lamps still on",
+          "a parked municipal street sweeper cart with a push broom and a green bin, no markings",
+          "Kettle & Oar's plain green and cream striped awning with bistro chairs stacked and chained underneath",
+          "a row of plane trees in autumn yellow along the plaza edge"
+        ],
+        "background": [
+          "glass office towers mirroring a pale blue dawn sky, windows dark",
+          "a tower crane on a construction site with a small red aircraft light blinking",
+          "the long straight avenue leaving the plaza with tram rails glinting down its centre",
+          "a thin line of harbour water and cranes at the far end of the avenue",
+          "a few seagulls high against the dawn"
+        ]
+      },
+      "avenue": {
+        "foreground": [
+          "twin tram rails set in wet granite glinting with dawn light",
+          "a round cast-iron manhole cover venting a curl of steam",
+          "fallen yellow plane-tree leaves in the gutter"
+        ],
+        "midground": [
+          "a plain silver Harbor Line tram with no logo, interior lights on, empty",
+          "blank glass bus shelters with empty poster frames",
+          "rows of plane trees in autumn yellow along both pavements",
+          "an unmarked white delivery van parked with hazard lights blinking",
+          "overhead tram wires strung between tall poles"
+        ],
+        "background": [
+          "glass towers lining both sides with dark windows",
+          "a harbour waterfront with container cranes and a small red and white lighthouse",
+          "the sun just below the horizon, the sky gold at the bottom and pale blue above",
+          "a ferry at the end pier with its deck lights on"
+        ]
+      }
+    },
+    "personal_props": {
+      "jae": [
+        "plain white wireless earbuds, one silicone tip slightly bent from being stuffed in a pocket",
+        "a charcoal running jacket with a worn reflective stripe across the back",
+        "a single house key tied to his shoelace",
+        "a plain black sports watch with a blank dark face",
+        "grey running shoes with wet, grit-marked soles"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "fountain",
+        "name": "The Founders' Fountain",
+        "prop_prompt": "Photoreal architectural prop reference on a plain mid-grey background, three-quarter view and top view: a large round grey granite fountain basin with a thick carved rim, four bronze dolphin water spouts streaked green with verdigris around the edge, water in the basin, worn and chipped stone where people sit, a small drain grate. No statue in the centre, empty middle. No letters, no plaques with writing, no logos. Soft even studio light.",
+        "asset": "assets/fountain.jpg"
+      },
+      {
+        "id": "tram",
+        "name": "The Harbor Line tram",
+        "prop_prompt": "Photoreal vehicle prop reference on a plain mid-grey background, side view: a modern single-car city tram in plain brushed silver with a pale sky-blue window band, a pantograph on the roof, warm interior lights, rain streaks on the windows, completely unmarked with no numbers, no logos and no route display. Soft even studio light.",
+        "asset": "assets/tram.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Calloway",
+        "mark": "a simple wave under a bridge arch",
+        "colors": "navy and silver",
+        "appears_on": "lamp post banners (shown blank or with the mark only)",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Harbor Line",
+        "mark": "a pale sky-blue band along the tram windows",
+        "colors": "silver and pale sky blue",
+        "appears_on": "the tram only",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Kettle & Oar",
+        "mark": "green and cream awning stripes",
+        "colors": "green and cream",
+        "appears_on": "the corner cafe awning",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "6:04am on a still, cold late-October Tuesday, just before sunrise; breath and manhole steam visible. The street sweeper has just been through so the granite is wet. Used: a cold coffee cup left on a bench, stacked cafe chairs. Out of place: a dropped croissant the pigeons found, one lamp post globe flickering.",
+    "sound_world": [
+      "pigeon wings clattering up off wet stone",
+      "a deep boom and a wall of fountain water",
+      "an earbud popped out, then total city silence",
+      "the spectacle's footfalls or surge on granite like thunder, stone cracking once",
+      "the spectacle's own breath, hum or rush in the cold air",
+      "a chain of relay clicks and buzzing as shop lights switch on",
+      "the tram bell and overhead wire hum",
+      "gulls and the harbour at sunrise"
+    ],
+    "hero_spectacle": {
+      "why": "The board's giant animals came from the example product's own logo. The template keeps the idea (the product releases a giant living force that switches the city on) but derives that force from each product's own visual, so it always belongs to the brand in the ad and never borrows anyone else's.",
+      "derivation_rule": [
+        "1. Logo or label motif first: if the product's mark or label art contains a simple figurative symbol (an animal, bird, leaf, flower, flame, wave, star, sun, crown, drop), the spectacle is two giant photoreal versions of that symbol, sculpted as glossy solid forms or living creatures in the motif's own colour, three storeys tall, moving the way that thing moves (animals run, birds skim low over the street, leaves and petals glide, waves roll, stars and drops bound).",
+        "2. Shape or material second: if the mark is only lettering or an abstract shape, or the motif is a person, a mascot character or a predator that would read as a threat in a city (shark, snake, spider), the spectacle is one giant continuous surge made of the product's own material in its strongest colour: a rolling glossy wave of the liquid for beverages, a thick glossy ribbon of the cream, gel or powder for applied products, a streaming banner of the fabric, leather or mesh for worn products, rings of light pulsing out from the lights, screen or edges of a device, a streaming ribbon of the strap and body material for bags, a rolling wave of the upholstery, glass or light for home products, a tumbling river of the contents (never the pack) for consumables.",
+        "3. Colour last: if neither gives a clear form, the spectacle is a surging wall of light and haze in the product's strongest colour, three storeys high, rolling along the street."
+      ],
+      "constants": [
+        "never letters, never a copy of the wordmark, never a second giant product",
+        "always a separate object from the product; the product's printed label stays untouched and exactly as the reference",
+        "always emerges from a burst of light in the product's accent colour at the product's base, in S05",
+        "three storeys tall (half the product's height), the only saturated colour in the cool blue city apart from the product",
+        "always runs from the plaza down the avenue to the harbour, switching on windows, streetlights and the tram in its wake, then leaps or surges into the sunrise and dissolves into light of its colour",
+        "creatures keep every leg on the ground or mid stride, move forward only, normal gravity; surges hug the street surface and flow forward only",
+        "tone is wonder: nobody harmed or panicking, nothing smashed except cracked paving on the first step"
+      ],
+      "fill": "Before Stage 4, write one sentence `spectacle` (form, colour, surface, motion) from the rule, and one short `spectacle_sound`. Replace every [spectacle] marker in shots, units and actions with that sentence (or a short form of it after its first use in a prompt). Render a spectacle reference sheet from `sheet_prompt` and pass it as the `spectacle` reference wherever refs list it.",
+      "sheet_prompt": "Photoreal computer-generated reference sheet on a plain mid-grey background, side view and three-quarter front view of the same form: [spectacle]. Glossy like wet lacquer with sharp white specular highlights, vivid saturated colour, not brown or muddy. A real physical form, not a logo, not a drawing. No letters, no logos.",
+      "sound": "the spectacle's own physical sound, set in the fill: hooves or footfalls on granite for creatures, a rushing liquid roar for a wave, a deep fabric snap for a banner, a rising electric hum for light rings"
+    },
+    "product_adjacent": {
+      "ingested": [
+        "car-sized cold droplets rolling down the product and splashing into the fountain",
+        "cold mist rolling off the product's top"
+      ],
+      "applied": [
+        "sheets of fountain water streaming off the glossy product",
+        "a single car-sized bead of its contents at the cap"
+      ],
+      "worn": [
+        "the product's stitching, grain or weave visible at giant scale, fountain water dripping from it"
+      ],
+      "handheld": [
+        "the product's lights or edges catching the golden rim light, water streaming off its surfaces"
+      ],
+      "carried": [
+        "water streaming off its straps, seams and zip pulls"
+      ],
+      "home": [
+        "the product level on its own feet or base across the fountain basin, water lapping around its legs"
+      ],
+      "consumable": [
+        "water streaming down the giant pack, its flap edges crisp"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "jae",
+      "name": "Jae Park",
+      "role": "early morning runner, the one human who sees it happen (non-speaking)",
+      "look": "man, 32, Korean American, short black undercut hair, light stubble, athletic build, charcoal running jacket and black shorts, plain white wireless earbuds, no logos",
+      "voice": "non-speaking; breath and one laugh only",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Jae Park: 32, Korean American, short black undercut hair, light stubble, athletic, warm alert eyes, charcoal running jacket with no logos, plain white wireless earbuds. Neutral soft studio light, photoreal, consistent identity across all three views. No text.",
+      "asset": "assets/jae.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "plaza",
+      "name": "Calloway civic plaza at dawn",
+      "plate_prompt": "Photoreal vertical 9:16 location plate, upright composition with level horizon: an empty stone civic plaza at 6am in a North American harbour city, in the middle distance a very wide, low round granite fountain basin about 30 metres across with a knee-high rim, no statue and no tiered centrepiece, only an open shallow pool with low jets, glass office towers on both sides reflecting a pale blue dawn sky, streetlights still glowing, pigeons on the paving, a long straight avenue leading away behind the fountain toward a distant waterfront. All storefront signs and billboards blank. No people, no readable text, no real brands.",
+      "asset": "assets/plaza.jpg"
+    },
+    {
+      "id": "avenue",
+      "name": "The avenue to the waterfront",
+      "plate_prompt": "Photoreal vertical 9:16 location plate, upright composition with level horizon, drone view looking straight down a long straight city avenue at dawn, glass towers lining both sides with dark windows, streetlights on, a plain silver tram on rails, the avenue ending at a harbour waterfront where the sun is just below the horizon. All signs blank. No people, no readable text, no real brands.",
+      "asset": "assets/avenue.jpg"
+    }
+  ],
+  "asset_urls": {
+    "jae": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cgi_hero-01-stampede/assets/jae.jpg",
+    "plaza": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cgi_hero-01-stampede/assets/plaza.jpg",
+    "avenue": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cgi_hero-01-stampede/assets/avenue.jpg",
+    "fountain": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cgi_hero-01-stampede/assets/fountain.jpg",
+    "tram": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cgi_hero-01-stampede/assets/tram.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3.6",
+      "summary": "A sleeping city at dawn. Something enormous falls out of the sky and lands in the plaza fountain with a boom."
+    },
+    {
+      "id": "setup",
+      "t": "3.6-5.6",
+      "summary": "One early runner stops dead, earbud out, and looks up at it."
+    },
+    {
+      "id": "product",
+      "t": "5.6-11",
+      "summary": "The reveal orbit: the giant product, label square to camera. Then the hero spectacle, built from the product's own logo motif, material or colour, emerges from a burst of light at its base."
+    },
+    {
+      "id": "build",
+      "t": "11-20.5",
+      "summary": "The spectacle surges down the avenue. Every streetlight, window and tram lights up in its wake; the runner sprints beside it, laughing."
+    },
+    {
+      "id": "payoff",
+      "t": "20.5-24.5",
+      "summary": "At the waterfront the spectacle leaps into the rising sun and the whole skyline is switched on."
+    },
+    {
+      "id": "cta",
+      "t": "24.5-30",
+      "summary": "The giant product stands in the now busy plaza; the runner has a normal-size one at its base. Brand line, tagline, blank billboard filled in post."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.4-2.6",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Hook: a playful question that frames the stunt as the answer to a morning problem.",
+      "delivery": "deep, warm, amused, trailer narrator but unhurried",
+      "shot": "S01",
+      "max_words": 7,
+      "fixed_line": "Somebody order a wake-up call?"
+    },
+    {
+      "id": "L2",
+      "t": "8.8-10.8",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Name the spectacle as the product's arrival in 3 to 6 words, a playful command with a grin, fitted to the form the rule chose (animals: bring the herd; a wave: let it roll; light: switch it on). No product name, no claim.",
+      "delivery": "a grin in the voice, building",
+      "shot": "S05",
+      "max_words": 6,
+      "rules": "must match the spectacle form written in the fill; no benefit or claim in this line"
+    },
+    {
+      "id": "L3",
+      "t": "14.8-17.4",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "The functional benefit in one line: ONE benefit from product.benefits, the one that best fits a city switching on at dawn.",
+      "delivery": "confident, rhythmic, riding the rhythm of the spectacle",
+      "shot": "S07",
+      "max_words": 9,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; no brand name in this line"
+    },
+    {
+      "id": "L4",
+      "t": "25.0-27.4",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Product line: say {{product.name}} and its point of difference, taken from product.benefits and different from the L3 benefit.",
+      "delivery": "slower, landing each word, satisfied",
+      "shot": "S10",
+      "max_words": 8,
+      "rules": "point of difference comes only from product.benefits, reworded no further than person and tense; brand spoken as product.phonetic in the TTS"
+    },
+    {
+      "id": "L5",
+      "t": "27.8-29.6",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word line that ties the product to the city waking up.",
+      "delivery": "warm, smiling, stretched vowel",
+      "shot": "S10",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 1.8,
+      "beat": "hook",
+      "framing": "extreme wide, street level looking up",
+      "camera": "handheld drift, slight tilt up",
+      "action": "The empty plaza at dawn, pigeons on the paving; the giant product falls out of the pale sky toward the fountain, motion blurred at its edges.",
+      "product_state": "falling, label facing camera, motion blur on edges only",
+      "audio": "city hush, distant gulls, a rising whistle of air",
+      "caption": "Somebody order a wake-up call?",
+      "refs": [
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Extreme wide low angle from street level in the empty civic plaza from the location plate at dawn, pigeons on the stone paving in the foreground, glass towers either side, and high in the pale blue sky {{action}}. It has not landed yet: it hangs in the sky above the rooftops and the wide low fountain below is still calm and empty with nothing in it. The product matches the product reference exactly, scaled up, undistorted. One single product. Upright vertical composition, level horizon, towers vertical. All signs blank. Scale is critical: the product's top is level with the sixth-floor windows of the glass tower beside it (room-scale products instead span the whole fountain basin), it dwarfs the lamp posts, the plane trees and the striped cafe awning, and the fountain basin is only a ring around its base.",
+      "dressing": [
+        "pigeons on wet granite setts in the foreground",
+        "a green cast-iron bench with a plain white paper cup",
+        "glowing globe lamp posts",
+        "the tower crane's red light"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "{{product.visual}}, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only",
+        "applied": "{{product.visual}}, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only",
+        "handheld": "{{product.visual}}, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only",
+        "carried": "{{product.visual}}, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only",
+        "consumable": "a pack of {{product.visual}}, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only",
+        "worn": "{{product.visual}}, scaled up to building size, dropping toward the round fountain (a garment billows open like a parachute as it falls), logo facing the camera, slight motion blur on its edges only",
+        "home": "{{product.visual}}, scaled up so its longest side would span the 30 metre fountain basin, descending level and upright out of the sky toward the fountain, its best side to the camera, slight motion blur on its edges only"
+      }
+    },
+    {
+      "id": "S02",
+      "t0": 1.8,
+      "t1": 3.6,
+      "beat": "hook",
+      "framing": "wide",
+      "camera": "locked off with 4 frames of impact shake",
+      "action": "The product lands in the fountain: a ring of water explodes outward, pigeons burst into the air, a shockwave ripples the paving puddles.",
+      "product_state": "just landed in the fountain, intact, label to camera",
+      "audio": "sub boom, water crash, glass rattling in tower windows, car alarms chirp far off",
+      "caption": "",
+      "refs": [
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Wide shot of the plaza from the location plate at dawn: {{action}}, a huge crown of fountain water exploding outward around its base, a flock of pigeons bursting into the air in the foreground, puddles on the paving rippling. The product matches the product reference exactly, scaled up, intact and undistorted. Upright vertical composition, level horizon. One single product. All signs blank. Scale is critical: the product's top is level with the sixth-floor windows of the glass tower beside it (room-scale products instead span the whole fountain basin), it dwarfs the lamp posts, the plane trees and the striped cafe awning, and the fountain basin is only a ring around its base.",
+      "dressing": [
+        "the bronze dolphin spouts with green verdigris around the rim",
+        "pigeons bursting off the paving",
+        "a dropped croissant",
+        "yellow plane leaves floating in the rippling puddles"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}}, six storeys tall, just landed perfectly upright in the centre of the round fountain, intact, label square to camera",
+        "applied": "{{product.visual}}, six storeys tall, just landed perfectly upright in the centre of the round fountain, intact, label square to camera",
+        "handheld": "{{product.visual}}, six storeys tall, just landed perfectly upright in the centre of the round fountain, intact, label square to camera",
+        "carried": "{{product.visual}}, six storeys tall, just landed perfectly upright in the centre of the round fountain, intact, label square to camera",
+        "consumable": "a pack of {{product.visual}}, six storeys tall, just landed perfectly upright in the centre of the round fountain, intact, label square to camera",
+        "worn": "{{product.visual}}, building-sized, just landed in the centre of the round fountain (footwear on its sole, a watch or glasses on edge, a garment settling over the basin like a colossal draped tent), logo square to camera",
+        "home": "{{product.visual}}, building-sized, just set down level on its own feet or base across the whole fountain basin, best side to camera"
+      }
+    },
+    {
+      "id": "S03",
+      "t0": 3.6,
+      "t1": 5.6,
+      "beat": "setup",
+      "framing": "medium, runner in foreground, the giant product towering behind",
+      "camera": "slow push-in",
+      "action": "Jae, mid run, stops dead, pulls one earbud out and stares up; mist from the splash drifts past him.",
+      "product_state": "background, in the fountain, out of focus but recognisable",
+      "audio": "his breath, water raining down, one pigeon wing flap",
+      "caption": "",
+      "refs": [
+        "jae",
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Medium shot of Jae, the man from the character sheet, in his charcoal running jacket, stopped mid run on the plaza paving, pulling one white earbud out, staring up in awe, fine water mist drifting past him in the dawn light; behind him, soft focus, {{action}}. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom and a contact shadow; it does not float. It is taller than the fountain by far.",
+      "dressing": [
+        "his slightly bent white earbud tip",
+        "the worn reflective stripe on his jacket",
+        "Kettle & Oar's green and cream striped awning with stacked chairs behind",
+        "water mist in the lamp glow"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} standing six storeys tall and upright in the fountain, label facing camera, recognisable",
+        "applied": "{{product.visual}} standing six storeys tall and upright in the fountain, label facing camera, recognisable",
+        "handheld": "{{product.visual}} standing six storeys tall and upright in the fountain, label facing camera, recognisable",
+        "carried": "{{product.visual}} standing six storeys tall and upright in the fountain, label facing camera, recognisable",
+        "consumable": "a pack of {{product.visual}} standing six storeys tall and upright in the fountain, label facing camera, recognisable",
+        "worn": "{{product.visual}}, building-sized in the fountain, logo facing camera, recognisable",
+        "home": "{{product.visual}}, spanning the fountain basin on its own base, best side to camera, recognisable"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 5.6,
+      "t1": 8.6,
+      "beat": "product",
+      "framing": "low hero angle",
+      "camera": "slow locked orbit 20 degrees left, label stays square to camera",
+      "action": "The reveal: the giant product, cold and dripping; water streams off it into the fountain; golden sunrise rim light on its edge.",
+      "product_state": "hero, label square to camera, held 3 s",
+      "audio": "a deep creak of the giant product settling, heavy drips hitting water like rain on a drum",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Extreme low worm's-eye hero angle from the wet granite rim of a wide low city fountain at dawn, the lens almost touching the water, looking steeply up at {{action}}. The product matches the product reference exactly and is perfectly undistorted, every colour and label detail intact. A hard golden rim light on its edge, glass towers reflecting it. The product is the sharpest and brightest object in frame. Upright vertical composition, level horizon. Around it, tiny by comparison, cast-iron globe lamp posts and yellow plane trees, and glass towers converging toward a pale blue dawn sky.",
+      "dressing": [
+        "the carved granite rim in the foreground",
+        "verdigris streaks on a bronze dolphin spout",
+        "glass towers reflecting the product",
+        "a gull crossing the sky"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}}, scaled up six storeys tall, upright in the fountain, label square to camera, condensation droplets as large as cars rolling down its side and falling into the water",
+        "applied": "{{product.visual}}, scaled up six storeys tall, upright in the fountain, cap closed, label square to camera, sheets of fountain water streaming off its glossy sides",
+        "worn": "{{product.visual}}, scaled up to building size in the fountain, logo square to camera, its stitching, grain or weave visible at giant scale, fountain water dripping from it",
+        "handheld": "{{product.visual}}, scaled up six storeys tall, upright in the fountain, logo square to camera, water streaming off its surfaces, its edges and any lights catching the golden rim light",
+        "carried": "{{product.visual}}, scaled up six storeys tall, standing upright in the fountain, logo square to camera, water streaming off its straps and seams",
+        "home": "{{product.visual}}, scaled up so it spans the whole fountain basin, level on its own feet or base, best side to camera, water lapping around its base and its materials visible at giant scale",
+        "consumable": "a pack of {{product.visual}}, scaled up six storeys tall, upright in the fountain, label square to camera, water streaming down it"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 8.6,
+      "t1": 11.0,
+      "beat": "product",
+      "framing": "wide, fountain base",
+      "camera": "locked off, slight push",
+      "action": "A burst of light in the product's accent colour at its base; the hero spectacle, built from the product's own logo motif, material or colour (world_bible.hero_spectacle), emerges onto the plaza, three storeys high, cracking the paving on its first step. The product's printed label stays exactly as it is.",
+      "product_state": "behind the spectacle, label intact and fully visible",
+      "audio": "low rumble, stone cracking, the spectacle's own sound, a hiss of steam",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "product",
+        "plaza",
+        "spectacle"
+      ],
+      "keyframe_prompt": "Wide shot at the base of the giant product in the fountain: {{action}}. In front of it, emerging out of that light onto the plaza: [spectacle], three storeys tall, a separate form standing clear of the product and never covering its label. The product matches the product reference exactly, its printed label intact. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom and a contact shadow; it does not float. It is taller than the fountain by far.",
+      "dressing": [
+        "cracked granite setts under the spectacle",
+        "the bronze dolphin spouts",
+        "steam curling off the spectacle in the cold air",
+        "the street sweeper cart knocked on its side at the edge"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}}, six storeys tall and upright in the fountain, cold mist rolling off its top as a burst of light in its accent colour flares at its base",
+        "applied": "{{product.visual}}, six storeys tall and upright in the fountain, its cap lifted open, a burst of light in its accent colour flaring at its base",
+        "worn": "{{product.visual}}, building-sized in the fountain, a burst of light in its accent colour flaring at its base",
+        "handheld": "{{product.visual}}, six storeys tall and upright in the fountain, powering on with a deep hum, a burst of light in its accent colour flaring at its base",
+        "carried": "{{product.visual}}, six storeys tall and standing in the fountain, its main zip or clasp springing open, a burst of light in its accent colour flaring out of the opening",
+        "home": "{{product.visual}}, spanning the fountain basin on its own base, switching on or settling with a deep hum, a burst of light in its accent colour flaring beneath it",
+        "consumable": "a pack of {{product.visual}}, six storeys tall and upright in the fountain, its top flap opening, a burst of light in its accent colour flaring at its base"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 11.0,
+      "t1": 14.5,
+      "beat": "build",
+      "framing": "low head-on",
+      "camera": "low tracking backward ahead of them",
+      "action": "The spectacle surges head-on toward camera down the avenue; streetlights flare and the dark shop windows light up warm as it passes.",
+      "product_state": "absent",
+      "audio": "thunder of the spectacle on the street, streetlights buzzing on one by one, a car alarm",
+      "caption": "",
+      "refs": [
+        "avenue",
+        "spectacle"
+      ],
+      "keyframe_prompt": "Low head-on shot at street level in the middle of the avenue from the location plate at dawn: [spectacle], three storeys tall, surging straight toward the camera and filling the lower half of the frame, only a few metres from the lens, dust and steam behind it; on both sides the dark shop windows and streetlights are switching on warm yellow in a wave that follows it. Creatures keep every leg on the ground or mid stride; a surge hugs the street surface. Normal gravity. Upright vertical composition, level horizon. All signs blank.",
+      "dressing": [
+        "a manhole venting steam",
+        "fallen yellow leaves whipped up behind the spectacle",
+        "blank bus shelters lighting up",
+        "overhead tram wires"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S07",
+      "t0": 14.5,
+      "t1": 17.5,
+      "beat": "build",
+      "framing": "drone top-down",
+      "camera": "drone moving forward with them",
+      "action": "From above: the spectacle races down the avenue and a wave of light spreads out through the grid behind it, tower by tower, the tram lights up.",
+      "product_state": "absent",
+      "audio": "the spectacle's sound from altitude, wind, a tram bell",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "avenue",
+        "spectacle",
+        "tram"
+      ],
+      "keyframe_prompt": "Drone shot looking straight down the long avenue from the location plate from high above at dawn: [spectacle] racing down the centre of the avenue toward the waterfront, its colour the only saturated thing in the city, and behind it a wave of warm light switching on through the city, windows lit in the towers it has passed, dark ahead of it, a plain silver tram lit up. Upright vertical composition, the avenue runs from bottom to top of the frame. All signs blank.",
+      "dressing": [
+        "the plain silver tram with a sky-blue window band lit up",
+        "rows of autumn plane trees",
+        "the lighthouse and container cranes at the waterfront",
+        "overhead tram wires"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 17.5,
+      "t1": 20.5,
+      "beat": "build",
+      "framing": "medium tracking side by side",
+      "camera": "tracking alongside, handheld",
+      "action": "Jae sprints on the pavement beside the spectacle's leading edge, laughing, keeping pace; lit windows streak past.",
+      "product_state": "absent",
+      "audio": "his laugh and breath, the spectacle's sound, wind",
+      "caption": "",
+      "refs": [
+        "jae",
+        "spectacle"
+      ],
+      "keyframe_prompt": "Tracking medium shot on a city pavement at dawn: Jae, the man from the character sheet, sprinting and laughing, arms pumping, and filling the whole right half of the frame, cropped by the frame edge, the leading edge of [spectacle] (a foreleg and shoulder, a rolling edge or the crest of a surge), three storeys tall, racing beside him; Jae's head only reaches a tenth of its height, lit shop windows with blank signs streaking past in motion blur. He runs forward in the same direction as the spectacle. Upright vertical composition, level horizon.",
+      "dressing": [
+        "the house key on his shoelace",
+        "wet grit-marked shoes mid stride",
+        "blank bus shelter panels streaking past",
+        "yellow leaves spinning in the spectacle's wake"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 20.5,
+      "t1": 24.5,
+      "beat": "payoff",
+      "framing": "extreme wide from behind",
+      "camera": "slow crane up",
+      "action": "At the waterfront the spectacle leaps or surges off the end of the pier toward the rising sun and dissolves into light of its own colour; the whole skyline behind is now lit.",
+      "product_state": "absent",
+      "audio": "the spectacle's sound stops, a whoosh, then gulls and a city waking: traffic, a tram bell",
+      "caption": "",
+      "refs": [
+        "spectacle"
+      ],
+      "keyframe_prompt": "One single seamless photograph, not a collage, no inset panels or frames: shot from behind at the city end of a long harbour pier at sunrise, [spectacle] mid leap or mid surge off the far end of the pier toward a huge rising gold sun on the horizon, its outline dissolving into light of its own colour over calm water, and the lit city skyline wrapping around the harbour on both sides. Upright vertical composition, level horizon over the water.",
+      "dressing": [
+        "the ferry's deck lights at the end pier",
+        "container cranes silhouetted",
+        "gulls scattering",
+        "the lit city wrapping the harbour"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 24.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "wide, low",
+      "camera": "slow push-in then hold",
+      "action": "The plaza, now full morning: commuters walk around the base of the giant product in the fountain. Jae in the foreground with a normal-size one, grinning up at the giant one. A blank billboard on a tower waits for post text.",
+      "product_state": "hero giant product in the fountain, label to camera; one normal-size product with Jae, label to camera",
+      "audio": "busy morning plaza, fountain water, a tram bell",
+      "caption": "{{line.L4}} {{line.L5}}",
+      "refs": [
+        "jae",
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Wide low shot of the plaza from the location plate in bright morning light: the giant product, scaled up in the fountain with its label square to camera and undistorted, commuters in coats walking around its base; in the foreground Jae, the man from the character sheet, in his charcoal running jacket, {{action}}, grinning up at the giant one. Both match the product reference exactly. A large blank white billboard panel on the glass tower in the upper third, empty for a title. Upright vertical composition, level horizon. All other signs blank. Its base sits down inside the fountain basin with water lapping around the bottom and a contact shadow; it does not float. It is taller than the fountain by far. Scale is critical: the product's top is level with the sixth-floor windows of the glass tower beside it (room-scale products instead span the whole fountain basin), it dwarfs the lamp posts, the plane trees and the striped cafe awning, and the fountain basin is only a ring around its base.",
+      "dressing": [
+        "commuters with paper coffee cups and scarves",
+        "Kettle & Oar's awning now open with chairs out",
+        "pigeons settled back on the fountain rim",
+        "bright yellow plane trees"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "holding one normal-size {{product.visual}} at chest height with its label facing camera",
+        "applied": "holding one normal-size {{product.visual}} at chest height with its label facing camera",
+        "worn": "wearing a normal-size {{product.visual}}, clearly visible, standing so it faces camera",
+        "handheld": "holding one normal-size {{product.visual}} at chest height with its logo facing camera",
+        "carried": "with a normal-size {{product.visual}} on his shoulder or in his hand, logo facing camera",
+        "home": "resting one hand on a normal-size {{product.visual}} set on the plaza paving beside him, best side to camera",
+        "consumable": "holding one normal-size pack of {{product.visual}} at chest height with its label facing camera"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 5.6,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 6,
+      "exact_risk": false,
+      "refs": [
+        "product image",
+        "plaza plate",
+        "jae card",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal fake out of home CGI, dawn in a North American city plaza, cool blue grade, handheld street footage feel, upright frame with level horizon. Shot 1 (0 to 1.8 s): street level looking up past pigeons, {{action.S01}}, the product exactly as @Image1, toward the fountain of @Image2. Shot 2 (1.8 to 3.6 s): {{action.S02}}, a crown of water explodes outward, pigeons burst into the air, 4 frames of camera shake. Shot 3 (3.6 to 6 s): slow push-in on @Image3 (Jae), a runner who stops dead, pulls out an earbud and stares up as mist drifts past. The product never dents, tilts or changes. Native sound: city hush, rising air whistle, sub boom, water crash, window glass rattle, pigeon wings, runner's breath. No speech. No music. All signs blank, no text."
+    },
+    {
+      "id": "U2",
+      "t0": 5.6,
+      "t1": 11.0,
+      "shots": [
+        "S04",
+        "S05"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "spectacle sheet",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal CGI hero. Shot 1 (0 to 3 s): low angle, slow 20 degree orbit around {{action.S04}}, the product exactly as @Image1, label square to camera and undistorted, golden rim light. Shot 2 (3 to 6 s): {{action.S05}}; out of the light [spectacle] from @Image2, three storeys tall, emerges onto the plaza, cracking the stone on its first step, steam in the cold air, turning to face the avenue. The product's printed label stays intact; the product does not move or change. Native sound: the product settling, heavy drips on water, low rumble, cracking stone, the spectacle's own sound. No speech. No music. No text."
+    },
+    {
+      "id": "U3",
+      "t0": 11.0,
+      "t1": 24.5,
+      "shots": [
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 14,
+      "exact_risk": false,
+      "refs": [
+        "avenue plate",
+        "jae card",
+        "spectacle sheet",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal CGI chase at dawn, upright frame, level horizon. Shot 1 (0 to 3.5 s): low head-on, [spectacle] from @Image3 surges toward camera down the avenue of @Image1, streetlights and shop windows switching on warm as it passes. Shot 2 (3.5 to 6.5 s): drone top-down moving with it, a wave of light spreading through the towers behind it, a plain silver tram lights up. Shot 3 (6.5 to 9.5 s): tracking beside it, @Image2 (Jae) sprints on the pavement next to its leading edge, laughing, same direction of travel. Shot 4 (9.5 to 14 s): extreme wide from behind, the spectacle leaps or surges off the end of a harbour pier into a huge rising sun and dissolves into light of its own colour while the whole skyline is now lit. It moves forward only, normal gravity, no extra legs. Native sound: the spectacle thundering on the street, streetlights buzzing on, wind, tram bell, a laugh, whoosh, gulls. No speech. No music. All signs blank, no text."
+    },
+    {
+      "id": "U4",
+      "t0": 24.5,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "jae card",
+        "plaza plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal CGI pack shot, bright morning. Slow push-in then hold on the plaza of @Image3: the giant product exactly as @Image1, scaled up in the fountain, label square to camera, commuters walking around its base; in the foreground @Image2 (Jae), {{action.S10}}, grinning up at the giant one. A blank white billboard on the tower stays empty. Neither product moves or changes. Native sound: busy morning plaza, fountain water, footsteps, a tram bell. No speech. No music. No text."
+    }
+  ],
+  "music": [
+    {
+      "section": "hush and drop",
+      "t0": 0,
+      "t1": 5.6,
+      "brief": "Near silence, one high sustained string note rising with the falling product, cut to nothing on the impact so the boom lands in silence, then a single low piano note."
+    },
+    {
+      "section": "reveal",
+      "t0": 5.6,
+      "t1": 11.0,
+      "brief": "Slow brass swell in C minor under the orbit, taiko hits on each step or bound as the spectacle emerges."
+    },
+    {
+      "section": "surge",
+      "t0": 11.0,
+      "t1": 24.5,
+      "brief": "Driving 128 bpm trailer percussion with galloping 6/8 toms, brass ostinato, lifting a step at the drone shot, peak at the leap into the sun."
+    },
+    {
+      "section": "morning",
+      "t0": 24.5,
+      "t1": 30,
+      "brief": "Resolves to C major, bright brass chord and a light shaker, ring out past the last frame under the VO."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 2.0,
+      "sound": "sub boom and water crash of the landing",
+      "why": "the hook lives on this hit; reinforce if the native boom is thin"
+    },
+    {
+      "t": 9.2,
+      "sound": "the spectacle's first impact on stone (a hoof, a bound or a wave crash, per the fill)",
+      "why": "sells the spectacle as physical and marks the product turning into energy"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "vo",
+      "plan": "one deep warm male narrator recorded as a single TTS track in post over all units (units are generated with no speech); the brand line uses product.phonetic and lands over the short exact risk unit U4"
+    }
+  ],
+  "captions": {
+    "font": "Archivo Black",
+    "size": "5.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFD23F (sun gold) on the word being spoken",
+    "shadow": "hard 0 3px 0 rgba(0,0,0,.45) plus soft 0 4px 14px rgba(0,0,0,.5)",
+    "position": "centre, 74% down the frame, clear of the product and above platform UI",
+    "max_words_on_screen": 3,
+    "box": false,
+    "case": "uppercase",
+    "motion": "each word punches in at 115% and settles to 100% over 4 frames, timed to the VO"
+  },
+  "post_text": [
+    {
+      "t0": 25.0,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L5}}",
+      "style": "Archivo Black white, set into the blank billboard on the tower with perspective match and a slight bloom, fades up 8 frames at 25.0 s; the sub (product.tagline when the page has one, else the L5 line) slides up under it at 27.8 s"
+    }
+  ],
+  "qa": [
+    "the spectacle follows world_bible.hero_spectacle: derived from this product's own motif, material or colour, never lettering, never a second giant product",
+    "no [spectacle] marker remains in any prompt; the spectacle sheet was rendered and passed as a reference in S05 to S09",
+    "the giant product keeps its exact label in S01 to S05 and S10, one single giant product, never dented or tilted",
+    "scale is stated and consistent: six storeys for hand and body products, spanning the fountain basin for room products",
+    "the spectacle never covers or wipes the product's printed label in S05",
+    "every sign and billboard blank; the billboard text is added in post",
+    "L3 and L4 benefits are verbatim from product.benefits and are two different benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "spectacle": "two giant photoreal bulls with bright saturated crimson hides, glossy like wet lacquer with sharp white highlights, forward-curving pale horns, heads low in a charging pose, breath steaming in the cold air (rule 1: the two red bulls of the product's own logo)",
+    "spectacle_sound": "hooves on granite like thunder, bull snorts",
+    "spectacle_sheet": "assets/example_spectacle_bull.jpg",
+    "lines": {
+      "L1": "Somebody order a wake-up call?",
+      "L2": "Big morning? Bring the herd.",
+      "L3": "Caffeine helps you stay alert and focused.",
+      "L4": "Red Bull Sugarfree. Same wings, no sugar.",
+      "L5": "Wiiings without sugar."
+    },
+    "actions": {
+      "S01": "{{product.visual}}, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only",
+      "S02": "{{product.visual}}, six storeys tall, just landed perfectly upright in the centre of the round fountain, intact, label square to camera",
+      "S03": "{{product.visual}} standing six storeys tall and upright in the fountain, label facing camera, recognisable",
+      "S04": "{{product.visual}}, scaled up six storeys tall, upright in the fountain, label square to camera, condensation droplets as large as cars rolling down its side and falling into the water",
+      "S05": "{{product.visual}}, six storeys tall and upright in the fountain, cold mist rolling off its top as a burst of light in its accent colour flares at its base",
+      "S10": "holding one normal-size {{product.visual}} at chest height with its label facing camera"
+    }
+  }
+}

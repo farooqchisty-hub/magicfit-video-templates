@@ -1,0 +1,912 @@
+{
+  "id": "unboxing-01-the-drop",
+  "style": "unboxing",
+  "title": "The Drop",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "The night before their first big tournament, a box lands at an esports team house. The captain opens it on camera, the squad gets its first try of {{product.name}}, and three scrims later they are still winning.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a cold box of team fuel opened and tried together is the format's native moment"
+      ],
+      "applied": [
+        "good",
+        "tubes and jars tried on the backs of hands in front of the group; the three-way first try reads slightly staged"
+      ],
+      "worn": [
+        "great",
+        "matching hoodies, headsets, glasses or socks pulled on together right there, team-kit energy"
+      ],
+      "handheld": [
+        "great",
+        "controllers, mice, earbuds and gadgets lifted from foam cut-outs and switched on; the gaming world fits perfectly"
+      ],
+      "carried": [
+        "good",
+        "gear bags and cases unzipped on the coffee table, one per player; the box gets big"
+      ],
+      "home": [
+        "stretch",
+        "desk-scale items (lamp, desk mat, speaker, cushion) unpack and set up at the stations; big items arrive in a floor box and the three-way first try becomes taking turns"
+      ],
+      "consumable": [
+        "great",
+        "snack and hydration packs torn open together, several per player"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "sleep aids or sedatives (the story is staying sharp for scrims)",
+      "furniture too big to come through a front door in one box",
+      "anything that needs assembly before it works on camera",
+      "prescription or regulated drugs"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Kestrel Six is a three-player arena team founded 14 months ago. Kiara, Owen and Noor split the rent on a tired split-level in suburban Columbus, Ohio, and the landlord does not know about the 40 feet of RGB strip.",
+      "The Coldharbor Invitational is their first live LAN event: 16 teams, a 25,000 dollar prize pool, and they got in as the 16th seed off the last qualifier, on a tiebreak.",
+      "Owen built all three PCs out of used parts; his own tower's side panel has been held on with velcro strips since it fell off in March.",
+      "Noor streams practice to about 900 regulars every night. A fist-sized plush kestrel a viewer mailed her sits on top of her monitor and has been on stream for every win.",
+      "Their part-time coach Dez promised the squad a box of team gear if they qualified. He dropped it on the porch at 10:07pm and drove off honking twice."
+    ],
+    "locations": {
+      "teamhouse": {
+        "foreground": [
+          "a low pine coffee table covered in pale overlapping cup rings and one old scorch mark",
+          "a greasy open pizza box with no print, two crusts left, a stack of paper plates",
+          "a tangle of three game controllers and a charging dock with one blinking light",
+          "a mechanical keyboard with one keycap missing, the bare switch showing",
+          "a pair of orange-handled scissors and a half-used roll of silver duct tape"
+        ],
+        "midground": [
+          "a sagging grey couch with a mustard knit throw bunched on one arm and a permanently dented cushion",
+          "a whiteboard on a wobbly easel covered in marker sketches of map outlines, arrows and circles, no words or letters at all",
+          "three gaming desks with ultrawide monitors showing only abstract blurred colour, one PC tower's side panel held on with black velcro strips",
+          "Noor's desk with a round ring light and a small plush kestrel bird sitting on top of her monitor",
+          "a mini fridge beside the desks, its plain white door covered in simple drawn stickers (stars, lightning bolts, little ghosts) with no words, nothing standing on top of it",
+          "a gaming chair with its armrest wrapped in black electrical tape",
+          "a snake of power strips and zip-tied cables under the desks"
+        ],
+        "background": [
+          "magenta and cyan RGB strips along the ceiling edge, one short section dead and dark",
+          "the plain sky-blue team banner showing only a white angular falcon head in profile built from three sharp triangles, hooked beak facing right, pinned slightly crooked with thumbtacks",
+          "a hallway with a pile of plain white sneakers with no logos or stripes, and an overflowing laundry basket",
+          "a window with one bent blind slat and an orange streetlight beyond",
+          "a shelf of small plain gold plastic trophy cups, all blank with no plaques, boxes or figures"
+        ]
+      }
+    },
+    "personal_props": {
+      "kiara": [
+        "thin silver rings on three fingers, one on her thumb worn flat",
+        "a single sky-blue bead at the end of one braid",
+        "a black neoprene wrist brace on her right wrist, fuzzy at the edges",
+        "a pocket notebook of hand-drawn map diagrams with a pen clipped to the cover"
+      ],
+      "owen": [
+        "a tiny precision screwdriver tucked behind his right ear",
+        "a torn thumbhole in the left cuff of his grey hoodie",
+        "a chewed pen cap he turns between his fingers",
+        "a scratch across the right lens of his wire glasses"
+      ],
+      "noor": [
+        "chipped sky-blue nail polish",
+        "a thin gold chain bracelet with a small bird charm",
+        "a black velvet scrunchie holding her high ponytail",
+        "gold hoop earrings, one slightly bent"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "coldbox",
+        "name": "Dez's box",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two unlabelled views side by side: a medium plain kraft cardboard shipping box with slightly crushed corners and beads of condensation, one plain sky-blue square sticker on the lid, a torn tear strip; and the same box open showing a crinkled silver insulated liner, white foam insert with round slots, wisps of cold vapour. No labels, barcodes, letters or text anywhere. No captions or view labels on the sheet. Photoreal, candid phone-photo light.",
+        "asset": "assets/coldbox.jpg"
+      },
+      {
+        "id": "whiteboard",
+        "name": "The strategy whiteboard",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a whiteboard on a wobbly aluminium easel, covered in hand-drawn marker map outlines, arrows, circles and three coloured dots in blue, red and green, half wiped in one corner, a marker tray with three capped markers and an eraser. No letters, words or numbers anywhere. No captions or view labels on the sheet. Photoreal, candid phone-photo light.",
+        "asset": "assets/whiteboard.jpg"
+      },
+      {
+        "id": "kestrel_plush",
+        "name": "Noor's lucky kestrel",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, front and side views: a fist-sized soft plush toy of a small falcon, sky-blue and white with rusty brown wing tips, black bead eyes, one seam slightly split under the wing, fur a little matted from handling. No tags, letters or text. No captions or view labels on the sheet. Photoreal, candid phone-photo light.",
+        "asset": "assets/kestrel_plush.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Kestrel Six",
+        "mark": "a white angular falcon head in profile built from three sharp triangles, hooked beak facing right (never a round songbird)",
+        "colors": "sky blue and white",
+        "appears_on": "team jerseys (chest), the wall banner, the sticker on the cold box",
+        "text_in_post": "none; the team name only appears in the creator hook text"
+      },
+      {
+        "name": "Coldharbor Invitational",
+        "mark": "a white snowflake inside a hexagon",
+        "colors": "ice white on navy",
+        "appears_on": "a blank lanyard pass on Kiara's desk",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "Thursday 10:12pm, two days before the event, then 1:04am during scrims. The pizza has gone cold, one RGB section has been dead for weeks, the couch cushion is dented where Owen always sits, laundry has been ignored all week, and by 1am the box sits open and empty on the table with its insert pulled half out. Besides the product, the only packaged things on the desks are plain water bottles.",
+    "sound_world": [
+      "packing tape and the tear strip ripping",
+      "the insert squeaking and rustling as hands dig into the box",
+      "mechanical keyboards clattering",
+      "three PC fans whirring",
+      "couch springs creaking",
+      "the porch door banging shut in the wind",
+      "a controller's rumble buzzing against the coffee table"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "Dez's cold box exactly as in the prop reference: crinkled silver insulated liner, white foam insert with round slots holding the product chilled, wisps of cold vapour, condensation on the kraft"
+      ],
+      "applied": [
+        "the same kraft box shell and sky-blue sticker, the insert swapped for white tissue paper and crinkle paper with the product nested in it, one per player"
+      ],
+      "worn": [
+        "the same kraft box shell and sky-blue sticker, the insert swapped for folded white tissue with the product folded inside, one per player"
+      ],
+      "handheld": [
+        "the same kraft box shell and sky-blue sticker, the insert swapped for shaped white foam cut-outs holding the product, one per player"
+      ],
+      "carried": [
+        "the same kraft box shell and sky-blue sticker, the insert swapped for crinkle paper with the product folded flat inside, one per player"
+      ],
+      "home": [
+        "a larger plain kraft box with the same sky-blue sticker, the insert swapped for shaped white foam corners around the product; if it is bigger than the coffee table, the box sits on the floor in front of the couch"
+      ],
+      "consumable": [
+        "the same kraft box shell and sky-blue sticker, the insert swapped for crinkle paper with packs of the product, several per player"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "kiara",
+      "name": "Kiara Banks",
+      "role": "team captain, opens the box",
+      "look": "woman, 23, Black American, deep brown skin, shoulder-length box braids pulled half up, bright wide smile, small silver nose stud, plain sky-blue team jersey with a simple white bird silhouette on the chest and no lettering, black over-ear headset around her neck",
+      "voice": "confident, quick, loud-laugh energy, captain's voice, American Midwest",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Kiara Banks: 23, Black American, deep brown skin, shoulder-length box braids pulled half up, bright wide smile, small silver nose stud, plain sky-blue team jersey with a simple white bird silhouette on the chest and no lettering, plain black over-ear headset around her neck with no logos. Confident, excited adult. Consistent identity across all three views. No text.",
+      "asset": "assets/kiara.jpg"
+    },
+    {
+      "id": "owen",
+      "name": "Owen Fitzgerald",
+      "role": "teammate on the couch, the skeptic",
+      "look": "man, 22, white American, pale freckled skin, messy copper-red hair, thin wire glasses, patchy red stubble, grey hoodie over the plain sky-blue team jersey, black headset pushed back on his head",
+      "voice": "nasal, dry, deadpan, cracks when excited, American Northeast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Owen Fitzgerald: 22, white American, pale freckled skin, messy copper-red hair, thin wire glasses, patchy red stubble, plain grey hoodie over a plain sky-blue jersey with no lettering, plain black headset pushed back on his head. Deadpan, skeptical adult expression. Consistent identity across all three views. No text.",
+      "asset": "assets/owen.jpg"
+    },
+    {
+      "id": "noor",
+      "name": "Noor Haddad",
+      "role": "teammate, the hype one",
+      "look": "woman, 21, Lebanese American, olive skin, long dark wavy hair in a high ponytail, thick dark brows, gold hoop earrings, oversized plain sky-blue team jersey with a simple white bird silhouette and no lettering",
+      "voice": "bright, fast, quick to laugh, American West Coast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Noor Haddad: 21, Lebanese American, olive skin, long dark wavy hair in a high ponytail, thick dark brows, gold hoop earrings, oversized plain sky-blue team jersey with a simple white bird silhouette on the chest and no lettering. Bright, excited adult expression. Consistent identity across all three views. No text.",
+      "asset": "assets/noor.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "teamhouse",
+      "name": "Kestrel Six team house living room",
+      "plate_prompt": "Candid smartphone photo, vertical 9:16, upright composition, level horizon: the living room of a rented suburban house turned esports gaming house at 10pm: a sagging grey couch and a low wooden coffee table in the foreground, three gaming desks along the back wall with ultrawide monitors showing only abstract blurred colour, plain black keyboards and headsets, gaming chairs, magenta and cyan RGB light strips along the ceiling and desks, warm overhead light, real three-roommate clutter everywhere but every object is unbranded: plain white sneakers with no logos, stickers that are only simple drawn shapes, no boxed figures or merchandise, a plain sky-blue banner on the wall showing only a white angular falcon head in profile built from three sharp triangles, hooked beak facing right, no lettering. The space in front of the couch stays readable; clutter is densest on the desks, walls and shelves. Phone noise, no people, no readable text, no logos.",
+      "asset": "assets/teamhouse.jpg"
+    }
+  ],
+  "asset_urls": {
+    "kiara": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/unboxing-01-the-drop/assets/kiara.jpg",
+    "owen": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/unboxing-01-the-drop/assets/owen.jpg",
+    "noor": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/unboxing-01-the-drop/assets/noor.jpg",
+    "teamhouse": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/unboxing-01-the-drop/assets/teamhouse.jpg",
+    "coldbox": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/unboxing-01-the-drop/assets/coldbox.jpg",
+    "whiteboard": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/unboxing-01-the-drop/assets/whiteboard.jpg",
+    "kestrel_plush": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/unboxing-01-the-drop/assets/kestrel_plush.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.2",
+      "summary": "A plain box hauled through the front door at night toward the lens; the captain names the stakes: tournament tomorrow, and it just landed."
+    },
+    {
+      "id": "anticipation",
+      "t": "2.2-6.2",
+      "summary": "The box hits the coffee table, the skeptic asks about one strange detail of the box, top-down tear-strip rip."
+    },
+    {
+      "id": "reveal",
+      "t": "6.2-11.6",
+      "summary": "POV from inside the box up at three faces; the captain lifts the product to the lens and names it."
+    },
+    {
+      "id": "first-try",
+      "t": "11.6-18.2",
+      "summary": "All three try the product at the same moment, then fast first reactions, one face per shot."
+    },
+    {
+      "id": "payoff",
+      "t": "18.2-24.6",
+      "summary": "1am practice: the squad still going with the product at the stations, Owen jumps up after a third straight win."
+    },
+    {
+      "id": "cta",
+      "t": "24.6-30",
+      "summary": "Kiara at her station holds up the product to the lens: get yours before game day, and the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.1",
+      "speaker": "kiara",
+      "on_camera": true,
+      "line_intent": "Hook: name the high-stakes moment and announce the package arrival.",
+      "delivery": "breathless grin, hauling the box, loud enough for the house",
+      "shot": "S01",
+      "max_words": 8,
+      "fixed_line": "Tournament's tomorrow. And it just landed."
+    },
+    {
+      "id": "L2",
+      "t": "2.5-3.9",
+      "speaker": "owen",
+      "on_camera": true,
+      "line_intent": "Curiosity: the skeptic notices one physical detail of the sealed box that fits the product (cold for chilled products, heavy, light, rattling, soft, a smell) and asks about it in a two-question rhythm.",
+      "delivery": "deadpan then genuinely curious, leaning off the couch",
+      "shot": "S02",
+      "max_words": 8,
+      "rules": "the detail must match the box state shown in S01 to S03 for this archetype; it must not reveal what the product is; no claims"
+    },
+    {
+      "id": "L3",
+      "t": "4.3-5.5",
+      "speaker": "kiara",
+      "on_camera": false,
+      "line_intent": "The open: build the reveal.",
+      "delivery": "low and dramatic, hands on the tear strip",
+      "shot": "S03",
+      "max_words": 5,
+      "fixed_line": "Okay. Moment of truth."
+    },
+    {
+      "id": "L4",
+      "t": "6.6-7.9",
+      "speaker": "noor",
+      "on_camera": true,
+      "line_intent": "First sight: Noor's unscripted-sounding gasp naming one visible feature of the product (its colour, shape or finish), without the brand.",
+      "delivery": "delighted gasp, peering into the box",
+      "shot": "S04",
+      "max_words": 7,
+      "rules": "describe only what is visible in S04; no brand, no claims"
+    },
+    {
+      "id": "L5",
+      "t": "8.5-11.4",
+      "speaker": "kiara",
+      "on_camera": true,
+      "line_intent": "Product line: say {{product.name}} clearly while it is held to the lens, then the ONE benefit from product.benefits that matters most the night before a tournament.",
+      "delivery": "clear, proud, a touch slower on the name, like presenting a trophy",
+      "shot": "S05",
+      "max_words": 12,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L6",
+      "t": "14.3-15.4",
+      "speaker": "owen",
+      "on_camera": true,
+      "line_intent": "First reaction from the skeptic: a short honest verdict.",
+      "delivery": "surprised, grudging, nodding slowly",
+      "shot": "S07",
+      "max_words": 5,
+      "fixed_line": "Okay, that's good."
+    },
+    {
+      "id": "L7",
+      "t": "16.0-17.9",
+      "speaker": "noor",
+      "on_camera": true,
+      "line_intent": "The benefit as a reaction tied to the task ahead: two or three quick words that restate a benefit from product.benefits, then 'Queue us up.'",
+      "delivery": "fast, hyped, already pulling her headset on",
+      "shot": "S08",
+      "max_words": 7,
+      "rules": "must end with 'Queue us up.'; benefit comes only from product.benefits, reworded no further than person and tense; no numbers or performance claims unless the page states them word for word"
+    },
+    {
+      "id": "L8",
+      "t": "22.4-23.8",
+      "speaker": "owen",
+      "on_camera": true,
+      "line_intent": "Payoff: proof in the world, the win.",
+      "delivery": "voice cracking with excitement, standing, hands on head (GG said as 'jee jee')",
+      "shot": "S09",
+      "max_words": 5,
+      "fixed_line": "GG. That's three straight."
+    },
+    {
+      "id": "L9",
+      "t": "25.4-29.6",
+      "speaker": "kiara",
+      "on_camera": true,
+      "line_intent": "In-world CTA from the person who opened it: 'Get yours before game day.' then product.tagline if the page has one, else a 3 to 5 word line tying the product to game day.",
+      "delivery": "direct to lens, captain's grin, raises the product on the tagline",
+      "shot": "S10",
+      "max_words": 10,
+      "rules": "must open with 'Get yours before game day.'; tagline verbatim from the page if it exists; brand spelled phonetically in the video prompt using product.phonetic"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.2,
+      "beat": "hook",
+      "framing": "medium close-up, box close to lens",
+      "camera": "handheld phone, backing away as she walks in",
+      "action": "Kiara hauls a plain kraft box through the front door at night straight toward the lens, grinning; the box hints at what is inside.",
+      "product_state": "hidden inside the sealed box",
+      "audio": "door bang, cardboard creak, her voice",
+      "caption": "Tournament's tomorrow. And it just landed",
+      "refs": [
+        "kiara",
+        "coldbox"
+      ],
+      "keyframe_prompt": "Handheld phone shot at night in the front hallway of a suburban house: Kiara, the woman from the character sheet, in her plain sky-blue team jersey, walks straight toward the camera carrying the plain kraft cardboard box from the prop reference, {{action}}, one plain sky-blue square sticker on it with no text, the dark open front door and porch light behind her. Big breathless grin, mid-sentence, eyes on the lens. Warm hallway light mixed with a magenta RGB glow from the room ahead. No courier labels, no barcodes, no readable text, no logos. Phone noise, candid.",
+      "dressing": [
+        "the one sky-blue sticker on the kraft box",
+        "the black neoprene brace on her right wrist",
+        "a pile of sneakers in the hallway behind her",
+        "the porch light through the open door"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "the box held in both arms close to the lens, slightly frosted with a few cold water beads, the product sealed inside",
+        "applied": "the box held in both arms close to the lens, clean, dry and sealed, the product hidden inside",
+        "worn": "the box carried easily on one forearm close to the lens, light and soft-cornered, sealed, the product hidden inside",
+        "handheld": "the box held carefully level in both hands close to the lens as if something fragile is inside, sealed",
+        "carried": "the box held in both arms close to the lens, wide, flat and light, sealed",
+        "home": "a larger box walked in end-first with both arms, its top edge close to the lens, sealed, heavy enough that she leans back",
+        "consumable": "the box held in both arms close to the lens, sealed, something inside shifting softly as she walks"
+      }
+    },
+    {
+      "id": "S02",
+      "t0": 2.2,
+      "t1": 4.0,
+      "beat": "anticipation",
+      "framing": "medium, living room",
+      "camera": "handheld, whip pan from the box to Owen",
+      "action": "The box lands in front of the couch (on the coffee table, or the floor if it is big); Owen, headset pushed back, leans off the couch and points at it.",
+      "product_state": "hidden inside the sealed box",
+      "audio": "box thud, couch creak, dialogue",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "owen",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone shot in the gaming-house living room from the location reference at 10pm: Owen, the man from the character sheet, grey hoodie over his sky-blue jersey, black headset pushed back on his copper-red hair, leans forward off the sagging grey couch pointing at a plain kraft cardboard box that has just landed in the foreground, {{action}}. Deadpan curious face mid-question. Magenta and cyan RGB light behind, monitors showing only abstract blurred colour. No text on the box, no logos, phone noise, candid.",
+      "dressing": [
+        "the greasy open pizza box with two crusts on the coffee table",
+        "the mustard knit throw bunched on the couch arm",
+        "the torn thumbhole in his hoodie cuff",
+        "the strategy whiteboard with marker map sketches behind him"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "the box on the wooden coffee table, a faint wisp of cold vapour at its seam and beads of condensation on the cardboard",
+        "applied": "the box on the wooden coffee table, clean and sealed, a curl of white tissue paper poking out of one corner",
+        "worn": "the box on the wooden coffee table, dented softly where it landed, sealed, a corner of white tissue poking out",
+        "handheld": "the box sitting heavy and square on the wooden coffee table, sealed, a strip of white foam visible at one seam",
+        "carried": "the box lying flat and wide across the wooden coffee table, sealed, a tuft of crinkle paper at one seam",
+        "home": "the larger box on the floor in front of the coffee table if it is too big for the table, sealed, shaped white foam corners visible at one seam",
+        "consumable": "the box on the wooden coffee table, sealed, a tuft of crinkle paper at one seam"
+      }
+    },
+    {
+      "id": "S03",
+      "t0": 4.0,
+      "t1": 6.2,
+      "beat": "anticipation",
+      "framing": "straight top-down on the box",
+      "camera": "handheld phone held overhead",
+      "action": "Top-down: two hands with silver rings pull the tear strip across the box lid; the first glimpse of the insert escapes the seam.",
+      "product_state": "hidden inside the box, the insert just showing",
+      "audio": "tape rip (ASMR, loud), the insert rustling or a hiss of cold air",
+      "caption": "Okay. Moment of truth",
+      "refs": [
+        "teamhouse",
+        "coldbox"
+      ],
+      "keyframe_prompt": "Straight top-down overhead phone view of the plain kraft cardboard box from the prop reference on a pine coffee table (or on the floorboards if it is the larger box), the box edges parallel to the frame edges: two hands with deep brown skin and thin silver rings rip a tear strip across the top of the box, {{action}}, one plain sky-blue square sticker with no text. Edges of other people's knees and a couch at the frame edges, magenta and cyan RGB spill on the surface. No labels, no barcodes, no readable text, no logos.",
+      "dressing": [
+        "the pale cup rings and old scorch mark on the coffee table",
+        "her thin silver rings",
+        "a tangle of game controllers at the edge of the table",
+        "the roll of silver duct tape and orange-handled scissors"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "a small puff of white cold vapour escaping from the opening seam, condensation beads on the cardboard",
+        "applied": "a flash of white tissue paper showing through the opening seam",
+        "worn": "a flash of folded white tissue showing through the opening seam",
+        "handheld": "a line of white foam insert showing through the opening seam",
+        "carried": "crinkle paper spilling from the opening seam",
+        "home": "shaped white foam corners showing through the opening seam of the larger box",
+        "consumable": "crinkle paper and one corner of a pack showing through the opening seam"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 6.2,
+      "t1": 8.2,
+      "beat": "reveal",
+      "framing": "low POV from inside the box",
+      "camera": "phone set inside the box, looking up",
+      "action": "From inside the box: the four flaps open, three faces lean in over the edge lit by a soft white glow; the product in its insert at the bottom of frame.",
+      "product_state": "in its insert at the bottom edge of frame, one per player where the product allows",
+      "audio": "cardboard flaps, the insert rustling, gasp, dialogue",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "kiara",
+        "owen",
+        "noor",
+        "product"
+      ],
+      "keyframe_prompt": "Low POV from inside an open cardboard box looking straight up: the four open kraft flaps frame the shot, and three adult faces lean over the edge looking down into the box, lit from below by a soft white glow: Kiara, the woman from the first character sheet, grinning in the centre; Owen, the man from the second character sheet, with wire glasses, to one side; Noor, the woman from the third character sheet, with a high dark ponytail and gold hoops, mouth open in a delighted gasp. A dark ceiling with magenta and cyan RGB strips above them. At the very bottom edge of the frame: {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted. No readable text except the product's own label, no logos.",
+      "dressing": [
+        "the crushed corners of the kraft flaps",
+        "the box's insert as described for this product",
+        "the one dead section of RGB strip on the ceiling",
+        "Owen's scratched right lens and Noor's bent gold hoop"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "the tops of several of the product (each {{product.visual}}) standing in white foam slots inside a crinkled silver insulated liner, soft white cold vapour drifting up",
+        "applied": "three of the product (each {{product.visual}}) nested in white tissue paper, labels up",
+        "worn": "three of the product (each {{product.visual}}) folded in white tissue paper, the top one showing its best detail",
+        "handheld": "three of the product (each {{product.visual}}) sitting in shaped white foam cut-outs, logos up",
+        "carried": "three of the product (each {{product.visual}}) folded flat in crinkle paper, logos up",
+        "home": "one of the product ({{product.visual}}), or its top edge if it is large, held in shaped white foam corners",
+        "consumable": "several packs of {{product.visual}} in crinkle paper, labels up"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 8.2,
+      "t1": 11.6,
+      "beat": "reveal",
+      "framing": "close-up, product to the lens",
+      "camera": "handheld, steady on the product",
+      "action": "Kiara lifts the product out of the box and holds it to the lens beside her face, label forward.",
+      "product_state": "hero, new, label to lens, held still for 3 s",
+      "audio": "the insert rustling, dialogue",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "kiara",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone close-up in the gaming-house living room: Kiara, the woman from the character sheet, {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted. Label flat to camera, lit by a clean white glow from the open box below so its colours stay true. Proud grin, mid-sentence. Magenta and cyan RGB light on her braids and the background, monitors with abstract blurred colour. Exactly one product in frame. No readable text except the product's own label, no other logos.",
+      "dressing": [
+        "the sky-blue bead at the end of one braid",
+        "her thin silver rings",
+        "the crooked sky-blue banner with the angular white falcon-head mark behind her",
+        "the whiteboard of marker sketches blurred in the background"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "holds {{product.visual}} up toward the lens beside her face, about 40 cm from the camera, unopened, upright, frost and condensation beads on it, a thin curl of cold vapour, four fingers behind it and thumb in front",
+        "applied": "holds {{product.visual}} up toward the lens beside her face, about 40 cm from the camera, sealed, a scrap of tissue paper still clinging to it, pinched between thumb and two fingers",
+        "worn": "holds {{product.visual}} up against her chest or beside her face toward the lens, just shaken out of its tissue, its front and best detail to camera",
+        "handheld": "holds {{product.visual}} up toward the lens beside her face on her open palm, about 40 cm from the camera, logo to camera",
+        "carried": "holds {{product.visual}} up by its handle beside her face toward the lens, front panel and logo to camera",
+        "home": "kneels beside the open box and lifts {{product.visual}} out, or tips it upright if it is large, so it stands beside her face toward the lens, front to camera",
+        "consumable": "holds one pack of {{product.visual}} up toward the lens beside her face, about 40 cm from the camera, label flat to camera, four fingers behind it and thumb in front"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 11.6,
+      "t1": 14.0,
+      "beat": "first-try",
+      "framing": "medium close-up on three hands",
+      "camera": "handheld, slightly low",
+      "action": "Three hands, the first try together over the coffee table.",
+      "product_state": "one in each person's hand where the product allows, the moment of first use, labels mostly to camera",
+      "audio": "three product sounds in near sync (registers the moment), laughter",
+      "caption": "",
+      "refs": [
+        "product",
+        "teamhouse",
+        "coldbox"
+      ],
+      "keyframe_prompt": "Handheld phone medium close-up, slightly low, over the wooden coffee table: three different adult hands (one deep brown with silver rings, one pale and freckled, one olive with a gold bracelet), {{action}}, the open kraft box blurred below. Magenta and cyan RGB glow in the background, the product lit by a warm overhead light so its colours stay true. The product matches the product reference exactly: same shape, colours and label, undistorted. No readable text except the product's own label, no other logos.",
+      "dressing": [
+        "the open kraft box and its insert below",
+        "one deep brown hand with silver rings and a wrist brace, one pale freckled hand with a torn hoodie cuff, one olive hand with chipped sky-blue nails and a gold bird-charm bracelet",
+        "paper plates and the pizza box at the edge of frame"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "each holding exactly one of the product ({{product.visual}}), upright, labels mostly facing camera, all three opening them at the same moment with a tiny spray",
+        "applied": "each holding one of the product ({{product.visual}}), all three squeezing or dabbing a little onto the backs of their other hands at the same moment, labels mostly facing camera",
+        "worn": "each holding one of the product ({{product.visual}}) by its edges, all three pulling them on or holding them up against themselves at the same moment",
+        "handheld": "each holding one of the product ({{product.visual}}), all three switching them on or snapping them onto their gear at the same moment, small lights or clicks answering",
+        "carried": "each holding one of the product ({{product.visual}}), all three unzipping or unclipping them at the same moment, logos mostly facing camera",
+        "home": "all three reaching in together to stand {{product.visual}} up on the table or the floor and switch it on or try it at the same moment",
+        "consumable": "each holding one pack of {{product.visual}}, all three tearing them open at the same moment, labels mostly facing camera"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 14.0,
+      "t1": 15.8,
+      "beat": "first-try",
+      "framing": "reaction close-up",
+      "camera": "handheld, whip pan in",
+      "action": "Owen tries the product for the first time, eyebrows up, grudging nod.",
+      "product_state": "in hand or on him, just tried, label partly visible",
+      "audio": "dialogue, room laughter",
+      "caption": "Okay, that's good",
+      "refs": [
+        "owen",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone reaction shot, head and chest, of Owen, the man from the character sheet (copper-red messy hair, wire glasses, freckles, grey hoodie over a plain sky-blue jersey with no lettering, numbers or mesh sports print, only a small white falcon-head mark, black headset pushed back), sitting normally on the grey couch in the gaming-house living room, his body and shoulders fully visible and in natural proportion. {{action}}, eyebrows raised in grudging surprise, a slow approving nod. The product matches the product reference exactly: same shape, colours and label, undistorted. Magenta and cyan RGB light on his hair, monitors with abstract blurred colour behind. The coffee table is out of frame. Exactly one product in the whole frame. No readable text except the product's own label, no logos. Nothing covers his mouth; his whole mouth is clearly visible.",
+      "dressing": [
+        "the precision screwdriver tucked behind his right ear",
+        "the dented couch cushion under him",
+        "the mustard throw on the couch arm",
+        "the PC tower with the velcro-strapped side panel behind him"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "He holds {{product.visual}} in his own right hand at chin height, just lowered from his first sip, opened, upright, label partly toward camera, held away from his lips",
+        "applied": "He rubs a little of {{product.visual}} into the back of his hand with his thumb, the product held in his other hand at chest height, label partly toward camera",
+        "worn": "He is now wearing {{product.visual}}, tugging it once to check the fit",
+        "handheld": "He turns {{product.visual}} over in his right hand at chest height, just switched on or snapped into place, logo partly toward camera",
+        "carried": "He has {{product.visual}} open on his lap, one hand inside checking the pockets, logo partly toward camera",
+        "home": "He leans back and tries {{product.visual}} beside the couch (sitting on it, switching it on or leaning on it), the product fully visible",
+        "consumable": "He holds the open pack of {{product.visual}} at chest height, just having tried one, label partly toward camera"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 15.8,
+      "t1": 18.2,
+      "beat": "first-try",
+      "framing": "reaction close-up",
+      "camera": "handheld, whip pan across",
+      "action": "Noor, the product in hand or on, gets ready for the scrim and points at the stations.",
+      "product_state": "in hand or worn, at chest height",
+      "audio": "dialogue, chair roll",
+      "caption": "{{line.L7}}",
+      "refs": [
+        "noor",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone reaction close-up of Noor, the woman from the character sheet, in the gaming-house living room, {{action}}, bright hyped expression, mouth open mid-word, high dark ponytail swinging. The product matches the product reference exactly: same shape, colours and label, undistorted. Magenta and cyan RGB light behind, gaming stations with abstract blurred colour on the monitors. Exactly one product. No readable text except the product's own label, no logos.",
+      "dressing": [
+        "the plush kestrel sitting on top of her monitor",
+        "her ring light glowing",
+        "chipped sky-blue nail polish",
+        "the black velvet scrunchie in her ponytail"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "holding {{product.visual}} at chest height in one hand, opened, upright, label toward camera, while pulling a plain black over-ear headset onto her head with the other hand",
+        "applied": "holding {{product.visual}} at chest height in one hand, capped, label toward camera, while pulling a plain black over-ear headset on with the other hand",
+        "worn": "wearing {{product.visual}}, pointing at the gaming stations with one hand",
+        "handheld": "holding {{product.visual}} in one hand at chest height, logo toward camera, pointing at the gaming stations with it",
+        "carried": "swinging {{product.visual}} onto one shoulder, logo toward camera, pointing at the gaming stations with her free hand",
+        "home": "turning away from {{product.visual}}, now set up and on at her station behind her, pointing at the stations",
+        "consumable": "holding the open pack of {{product.visual}} at chest height, label toward camera, while pulling a plain black over-ear headset on with the other hand"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 18.2,
+      "t1": 24.6,
+      "beat": "payoff",
+      "framing": "wide over the shoulders at the three stations",
+      "camera": "handheld from behind the couch, then whip to Owen",
+      "action": "1am practice: three players at their stations, monitors bright with abstract colour, the product at the stations; Owen jumps up, hands on his head, celebrating a third straight win.",
+      "product_state": "at the stations or on the players, small in frame",
+      "audio": "keyboard clatter, mouse clicks, whoops, dialogue",
+      "caption": "GG. That's three straight",
+      "refs": [
+        "kiara",
+        "owen",
+        "noor",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: handheld phone shot from behind the couch at 1am in the gaming-house living room: three adults at three gaming desks along the wall, their backs mostly to camera, monitors glowing with abstract blurred bright colour and no interface or text. Owen, the man from the second character sheet, has jumped up from his chair in the middle with both hands on his head in celebration, mouth open in a whoop; Kiara, the woman from the first character sheet, on the left, turning to him laughing; Noor, the woman from the third character sheet, on the right, fists raised. {{action}}, small in frame but recognisable from the product reference. Magenta and cyan RGB strips, a dark window. No readable text, no logos on keyboards, headsets or chairs.",
+      "dressing": [
+        "the empty box on the coffee table with its insert pulled half out",
+        "the tower with the velcro-strapped side panel",
+        "the plush kestrel on Noor's monitor",
+        "the mini fridge covered in cartoon stickers",
+        "the gaming chair armrest wrapped in electrical tape"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "On each desk stands exactly one of the product ({{product.visual}})",
+        "applied": "On each desk sits one of the product, capped ({{product.visual}})",
+        "worn": "All three are wearing {{product.visual}}",
+        "handheld": "Each player is using or has beside their keyboard one of the product ({{product.visual}})",
+        "carried": "One of the product ({{product.visual}}) hangs from the back of each gaming chair",
+        "home": "{{product.visual}} is set up and on at the stations",
+        "consumable": "An open pack of {{product.visual}} lies on each desk"
+      }
+    },
+    {
+      "id": "S10",
+      "t0": 24.6,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium close-up at her station",
+      "camera": "handheld, settles still",
+      "action": "Kiara spins her chair to the lens, headset around her neck, and holds up the product for the CTA and tagline. End card in post.",
+      "product_state": "hero, label to lens, held still for the tagline",
+      "audio": "chair creak, teammates cheering behind, dialogue",
+      "caption": "{{line.L9}}",
+      "refs": [
+        "kiara",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone medium close-up of Kiara, the woman from the character sheet, at her gaming desk at 1am, having spun her chair to face the camera, plain black headset around her neck, captain's grin, {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted. Label flat to camera, lit by a warm desk lamp so its colours stay true; behind her a monitor glowing with abstract blurred colour and teammates blurred mid-cheer. Clean uncluttered area in the lower third of the frame for an end card added later. Exactly one product in her hands. No readable text except the product's own label, no logos.",
+      "dressing": [
+        "the black neoprene wrist brace",
+        "her pocket notebook of map diagrams open on the desk",
+        "a blank snowflake-in-hexagon lanyard pass hanging from her monitor",
+        "a mechanical keyboard with one keycap missing"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "holding {{product.visual}} up toward the lens at shoulder height, opened, upright, four fingers behind it and thumb in front",
+        "applied": "holding {{product.visual}} up toward the lens at shoulder height, label to camera, four fingers behind it and thumb in front",
+        "worn": "wearing {{product.visual}} and pointing at it with her thumb, the product fully in frame",
+        "handheld": "holding {{product.visual}} up toward the lens at shoulder height, logo to camera",
+        "carried": "holding {{product.visual}} up by its strap toward the lens, logo to camera",
+        "home": "leaning aside so {{product.visual}}, set up and on at her station behind her, fills the frame beside her, one hand presenting it",
+        "consumable": "holding the pack of {{product.visual}} up toward the lens at shoulder height, label to camera"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.2,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "kiara card",
+        "owen card",
+        "noor card",
+        "teamhouse plate",
+        "product image",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone unboxing video filmed handheld by a friend in an esports gaming house at 10pm, magenta and cyan RGB light, phone noise, not cinematic. Shot 1 (0 to 2.2 s): @Image1 (Kiara) hauls a plain kraft box with no labels through the front door straight toward the lens, {{action.S01}}, grinning, breathless: \"Tournament's tomorrow. And it just landed.\" Whip pan. Shot 2 (2.2 to 4 s): the box lands in the living room from @Image4, {{action.S02}}; @Image2 (Owen) leans off the couch, points, deadpan then curious: \"{{line.L2}}\" Hard cut. Shot 3 (4 to 6.2 s): straight top-down, Kiara's hands rip the tear strip across the lid, {{action.S03}}; her voice, low and dramatic: \"Okay. Moment of truth.\" Hard cut. Shot 4 (6.2 to 9 s): low POV from inside the box, the flaps fold open, Kiara, Owen and @Image3 (Noor) lean over the edge lit by a soft white glow, at the bottom of frame {{action.S04}}, the product exactly as @Image5; Noor gasps: \"{{line.L4}}\" Native sound: door, box thud, loud tape rip, the insert rustling, cardboard flaps, overlapping voices. No music. No text on screen, no labels on the box, no logos except the product's own."
+    },
+    {
+      "id": "U2",
+      "t0": 8.2,
+      "t1": 11.6,
+      "shots": [
+        "S05"
+      ],
+      "len_s": 4,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "kiara card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone unboxing video in a gaming house, RGB light. Handheld close-up: @Image2 (Kiara) {{action.S05}}, holds it still and says clearly and proudly, a touch slower on the name: \"{{line.L5}}\" (say the brand as {{product.phonetic}}). Keep the product's shape, colours and label exactly as @Image1; it is lit by white light so the colours stay true. One product only. Native sound: the insert rustling, her voice, a teammate's 'ooh'. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 11.6,
+      "t1": 24.6,
+      "shots": [
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "owen card",
+        "noor card",
+        "kiara card",
+        "product image",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone video in an esports gaming house, magenta and cyan RGB light, phone noise, fast handheld whip pans. Shot 1 (0 to 2.4 s): three adult hands over the coffee table, {{action.S06}}, the product exactly as @Image4, laughter. Whip pan. Shot 2 (2.4 to 4.2 s): reaction close-up of @Image1 (Owen) on the couch, {{action.S07}}, eyebrows up, grudging: \"Okay, that's good.\" Whip pan. Shot 3 (4.2 to 6.6 s): @Image2 (Noor), {{action.S08}}, fast and hyped: \"{{line.L7}}\" Hard cut. Shot 4 (6.6 to 13 s): 1am, from behind the couch, the three at their gaming desks, monitors glowing with abstract colour and no interface, {{action.S09}}; keyboards clatter; Owen jumps up with both hands on his head, voice cracking: \"GG. That's three straight.\" @Image3 (Kiara) turns to him laughing, Noor raises her fists. Each person has at most one of the product. Native sound: the product's own sounds, laughter, keyboard and mouse clicks, whoops. No music. No logos, no readable screens."
+    },
+    {
+      "id": "U4",
+      "t0": 24.6,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "kiara card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone video at 1am in a gaming house. Handheld medium close-up that settles still: @Image2 (Kiara) spins her gaming chair to face the lens, headset around her neck, {{action.S10}}, lit by a warm desk lamp so the colours stay true; teammates blurred and cheering behind. She says directly, grinning, raising the product a little on the last words: \"{{line.L9}}\" (say any brand name as {{product.phonetic}}). The product does not bend, warp or change: keep its shape, colours and label exactly as @Image1. Keep the lower third clean. Native sound: chair creak, cheering, her voice. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "hype bed",
+      "t0": 0,
+      "t1": 30,
+      "brief": "Optional creator-style hype bed: a bouncy trap beat at 140 bpm with an 808 and a plucked synth hook, kept low under the voices; hard drop-out for the tape rip (4.0 to 6.2 s) and under the brand line (8.2 to 11.6 s), slams back in on the three-way first try at 11.6 s, and rides the win at 22.4 s."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 4.6,
+      "sound": "tape rip, close and crisp",
+      "why": "the unboxing ASMR moment the format is built on; only added if the native rip is weak"
+    },
+    {
+      "t": 11.8,
+      "sound": "three of the product's own opening or switch-on sounds in near sync",
+      "why": "the product moment must register; only added if the native sounds are weak"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "kiara",
+      "plan": "native in U1; her U1 vocal stem as voice reference for U2, U3 and U4"
+    },
+    {
+      "speaker": "owen",
+      "plan": "native in U1; U1 stem as reference for his U3 lines"
+    },
+    {
+      "speaker": "noor",
+      "plan": "native in U1; U1 stem as reference for her U3 line"
+    }
+  ],
+  "captions": {
+    "font": "Poppins Bold",
+    "size": "5% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#7FD3FF (cool sky blue) on the word being spoken",
+    "shadow": "none, sits on a box",
+    "box": "rounded rectangle, rgba(0,0,0,.62), 12px radius, 10px padding",
+    "position": "centre, 64% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 4,
+    "speaker_tag": "tiny lower-case first name in 60% opacity above the caption box when the speaker changes",
+    "reaction_emoji": "none; reactions carry themselves"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 2.4,
+      "text": "the night before the invitational",
+      "style": "creator hook text, white Poppins Bold on a black 62% rounded box, lower case, top 16% of frame, pops on at frame 1"
+    },
+    {
+      "t0": 18.2,
+      "t1": 20.4,
+      "text": "1:04 am",
+      "style": "small white Poppins Medium on a translucent dark pill, upper right, marks the time jump"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline}}",
+      "style": "end card in the clean lower third: Poppins Bold white on a sky-blue rounded box, pops on 6 frames",
+      "sub_fallback": "if product.tagline is empty: the tagline half of {{line.L9}} (the words after 'Get yours before game day.')"
+    }
+  ],
+  "qa": [
+    "the product in S04 to S10 matches the product image (shape, colours, label)",
+    "the box state in S01 to S03 matches the archetype (frost and cold vapour only for chilled products) and L2 asks about that same detail",
+    "the box's outer shell matches the coldbox prop sheet; its insert follows world_bible.product_adjacent for the archetype, never the round foam slots unless the product is chilled",
+    "each person holds at most one of the product at a time; everyone on screen is an adult",
+    "Kiara, Owen and Noor identical across shots against their character sheets",
+    "monitors show only abstract blurred colour; no logos on keyboards, headsets, chairs or the box",
+    "L5 and L7 benefits come only from product.benefits; L4 describes only what is visible"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "Tournament's tomorrow. And it just landed.",
+      "L2": "Is that cold? Why is it cold?",
+      "L3": "Okay. Moment of truth.",
+      "L4": "Oh, it's the silver ones.",
+      "L5": "Red Bull Sugarfree. Same benefits as the original. No sugar.",
+      "L6": "Okay, that's good.",
+      "L7": "Alert. Focused. Queue us up.",
+      "L8": "GG. That's three straight.",
+      "L9": "Get yours before game day. Wiiings without sugar."
+    },
+    "actions": {
+      "S01": "the box held in both arms close to the lens, slightly frosted with a few cold water beads, the product sealed inside",
+      "S02": "the box on the wooden coffee table, a faint wisp of cold vapour at its seam and beads of condensation on the cardboard",
+      "S03": "a small puff of white cold vapour escaping from the opening seam, condensation beads on the cardboard",
+      "S04": "the tops of several of the product (each {{product.visual}}) standing in white foam slots inside a crinkled silver insulated liner, soft white cold vapour drifting up",
+      "S05": "holds {{product.visual}} up toward the lens beside her face, about 40 cm from the camera, unopened, upright, frost and condensation beads on it, a thin curl of cold vapour, four fingers behind it and thumb in front",
+      "S06": "each holding exactly one of the product ({{product.visual}}), upright, labels mostly facing camera, all three opening them at the same moment with a tiny spray",
+      "S07": "He holds {{product.visual}} in his own right hand at chin height, just lowered from his first sip, opened, upright, label partly toward camera, held away from his lips",
+      "S08": "holding {{product.visual}} at chest height in one hand, opened, upright, label toward camera, while pulling a plain black over-ear headset onto her head with the other hand",
+      "S09": "On each desk stands exactly one of the product ({{product.visual}})",
+      "S10": "holding {{product.visual}} up toward the lens at shoulder height, opened, upright, four fingers behind it and thumb in front"
+    }
+  }
+}

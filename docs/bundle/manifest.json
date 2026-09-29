@@ -1,0 +1,407 @@
+{
+  "version": "1.0",
+  "templates": [
+    {
+      "id": "anime-01-rookie-arc",
+      "style": "anime",
+      "style_name": "Anime / manga",
+      "title": "Rookie Arc",
+      "logline": "Final of the Harbor Cup skate tournament at sunset. A rookie has fallen twice, the three-time champion is laughing, and she has one run left. Her power-up is {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "great",
+        "handheld": "good",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "anything unsafe to use right before skating (sleep aids, sedatives)",
+        "products that need a readable screen or printed instructions to make sense (all lettering is post only)"
+      ]
+    },
+    {
+      "id": "cgi_hero-01-stampede",
+      "style": "cgi_hero",
+      "style_name": "CGI product hero / FOOH (fake out of home)",
+      "title": "Stampede",
+      "logline": "Dawn in a sleeping city. A six storey {{product.name}} drops into the plaza fountain, and a giant spectacle made from its own look charges off it down the avenue, switching the whole city on as it runs.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "great",
+        "handheld": "great",
+        "carried": "good",
+        "home": "good",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "weapons, blades or anything that reads as a threat at building scale",
+        "products whose only visual is a person or mascot character (the rule falls back to material or colour, which weakens the stunt)"
+      ]
+    },
+    {
+      "id": "cinematic-01-night-stint",
+      "style": "cinematic",
+      "style_name": "Cinematic micro movie",
+      "title": "Night Stint",
+      "logline": "Hour 19 of a 24 hour endurance race, 3am and raining. A driver has four minutes before her car comes in; the one ritual she never skips is {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "good",
+        "handheld": "good",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "anything unsafe to use right before driving (sleep aids, sedatives)"
+      ]
+    },
+    {
+      "id": "comic-01-captain-3pm",
+      "style": "comic",
+      "style_name": "Comic book / motion comic",
+      "title": "Captain 3pm",
+      "logline": "Captain 3pm is the strongest man in Brightwater City until three o'clock, when the Slump rolls in and his powers run out. Then comes issue #2, and {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "great"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids, sedatives or anything whose benefit is rest or sleep (the villain is drowsiness, the product must beat it)",
+        "beds, mattresses and bedroom furniture that cannot live in an office break nook"
+      ]
+    },
+    {
+      "id": "how_its_made-01-whats-inside",
+      "style": "how_its_made",
+      "style_name": "3D how it's made explainer (Zack D. Films style)",
+      "title": "What's Inside",
+      "logline": "2am at a truck stop, a long-haul driver reaches for {{product.name}}. The camera dives inside it to show, part by part, exactly what the product page says is in there, and nothing it does not.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products whose page names fewer than 2 components",
+        "products for children",
+        "alcohol",
+        "medicines, supplements or anything whose components would need medical or health claims",
+        "anything unsafe to use right before driving (sleep aids, sedatives)",
+        "large furniture and large appliances"
+      ]
+    },
+    {
+      "id": "lifestyle_montage-01-the-wall",
+      "style": "lifestyle_montage",
+      "style_name": "Lifestyle montage",
+      "title": "The Wall",
+      "logline": "Three people, one day, three walls: a baker at 5am, an architecture student at 2pm, a climber at 7pm. Each hits theirs, each reaches for {{product.name}}, each gets over it, all cut to one beat.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "products that cannot plausibly help with a tiring moment (the montage promises getting over a wall)",
+        "beds and large appliances"
+      ]
+    },
+    {
+      "id": "miniature-01-night-build",
+      "style": "miniature",
+      "style_name": "Miniature / diorama / tilt-shift world",
+      "title": "Night Build",
+      "logline": "2am in a tiny model town. The review is at nine, the whole crew has fallen asleep on the job, and the foreman calls in the big one: {{product.name}}. Then the camera pulls back.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "great"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids or sedatives (the story is finishing a deadline through the night)",
+        "products that are messy or unsafe near a paper model (open flames, liquids that must be poured out on camera)"
+      ]
+    },
+    {
+      "id": "pixar3d-01-night-owl",
+      "style": "pixar3d",
+      "style_name": "3D animated story",
+      "title": "The Night Owl",
+      "logline": "The foggiest night of the year, and the lighthouse keeper is a tiny old owl who cannot keep her eyes open. A ferry is feeling its way toward the rocks. {{product.name}} keeps the light on.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "stretch",
+        "handheld": "good",
+        "carried": "good",
+        "home": "good",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids or sedatives (the story is about staying awake)",
+        "large furniture and appliances that could not fit in a small round lamp room"
+      ]
+    },
+    {
+      "id": "podcast-01-send-it-pod",
+      "style": "podcast",
+      "style_name": "Podcast clip",
+      "title": "Send It Pod",
+      "logline": "Two climbing podcast hosts argue about the worst summit attempt of their lives (she fell asleep on the ridge, standing up). When she asks what's in his pack now, the answer on the desk is {{product.name}}, and it isn't for the mountain.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "good",
+        "handheld": "good",
+        "carried": "great",
+        "home": "good",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "climbing safety equipment (ropes, harnesses, helmets): the punchline says it isn't for the mountain",
+        "anything unsafe to use while talking into a mic (sedatives)"
+      ]
+    },
+    {
+      "id": "problem_solution-01-the-3pm-wall",
+      "style": "problem_solution",
+      "style_name": "Problem to solution (before and after)",
+      "title": "The 3pm Wall",
+      "logline": "At 3pm a designer's whole afternoon turns grey and slow motion, ten minutes before the client call. One moment with {{product.name}} and the colour and speed come back.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "good",
+        "consumable": "great"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids or sedatives (the story is getting sharp again)",
+        "medicines or anything whose benefit would read as a medical fix for tiredness",
+        "products whose page benefits have nothing to do with focus, energy, comfort or mood (the 3pm wall must be the problem they solve)"
+      ]
+    },
+    {
+      "id": "retro_infomercial-01-slump-buster",
+      "style": "retro_infomercial",
+      "style_name": "Retro VHS infomercial parody",
+      "title": "The Better Way",
+      "logline": "Found on a 1997 tape: the host of a late-night home shopping show has the answer to an everyday problem, and he cannot contain himself. Black-and-white misery, full-colour miracle, a studio audience that goes 'ooooh', and it is {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "medical, weight-loss or body-changing products (the black and white problem would mock a condition)",
+        "beds, sofas and large appliances"
+      ]
+    },
+    {
+      "id": "routine-01-5am-club",
+      "style": "routine",
+      "style_name": "Creator routine / tutorial",
+      "title": "5am Club",
+      "logline": "A trail runner walks us through the eight quiet steps between his 4:58 alarm and a ridge-top sunrise. Step four, always before the headlamp goes on, is {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "great",
+        "handheld": "good",
+        "carried": "great",
+        "home": "good",
+        "consumable": "great"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids or sedatives (the story is getting out the door awake)",
+        "anything a runner should not use right before hard exercise",
+        "prescription or regulated drugs"
+      ]
+    },
+    {
+      "id": "skit-01-desk-police",
+      "style": "skit",
+      "style_name": "Skit / comedy sketch",
+      "title": "Desk Police",
+      "logline": "The Desk Police raid an open-plan office, confiscating muffins desk by desk, until the officer's detector reaches the one desk that passes inspection: {{product.name}} gets a salute.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "good",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "weapons, knives or anything a police parody should never salute",
+        "products whose main benefit is indulgence (a dessert or candy would be confiscated, not cleared)"
+      ]
+    },
+    {
+      "id": "street_interview-01-blind-guess",
+      "style": "street_interview",
+      "style_name": "Street interview",
+      "title": "Blind Guess",
+      "logline": "A street host runs a blind test on a college quad with one question: what's the catch? Everyone, including a chemistry professor, names the same one. The cover comes off: it's {{product.name}}, and the catch isn't there.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "good",
+        "handheld": "good",
+        "carried": "good",
+        "home": "good",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "anything that needs skin contact on the face or an ingredient warning before a stranger tries it (strong actives, allergens without a warning)",
+        "products whose page lists no benefit that is easy to phrase as the opposite of a common downside"
+      ]
+    },
+    {
+      "id": "text_message-01-surprise-thread",
+      "style": "text_message",
+      "style_name": "Text-message / group chat",
+      "title": "The Surprise Thread",
+      "logline": "5pm, two hours before a surprise 30th: the group chat is on fire, the decor and the cake are still in the bag, and the friend who promised to do both just walked in from work running on empty. Her reply to the thread is {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "good",
+        "consumable": "great"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "phones or apps whose value is their screen UI (every screen here is blank and the chat is built in code)",
+        "anything that cannot plausibly live in a small city apartment"
+      ]
+    },
+    {
+      "id": "ugc-01-finals-week",
+      "style": "ugc",
+      "style_name": "UGC creator testimonial",
+      "title": "Finals Week",
+      "logline": "2am in the university library, seven hours before her final. A grad student films herself explaining why she swapped her old study-night habit for {{product.name}}, then proves it by the time the window goes blue.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "great"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids or anything that sedates (the story is staying sharp to study)",
+        "furniture or anything that cannot sit on a library desk",
+        "prescription or regulated drugs"
+      ]
+    },
+    {
+      "id": "unboxing-01-the-drop",
+      "style": "unboxing",
+      "style_name": "Unboxing / first impressions",
+      "title": "The Drop",
+      "logline": "The night before their first big tournament, a box lands at an esports team house. The captain opens it on camera, the squad gets its first try of {{product.name}}, and three scrims later they are still winning.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "great",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "great"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids or sedatives (the story is staying sharp for scrims)",
+        "furniture too big to come through a front door in one box",
+        "anything that needs assembly before it works on camera",
+        "prescription or regulated drugs"
+      ]
+    },
+    {
+      "id": "us_vs_them-01-same-monday",
+      "style": "us_vs_them",
+      "style_name": "Us vs them",
+      "title": "Same Monday",
+      "logline": "Same architect, same Monday, stacked in split screen: on top she makes do with a plain generic version, below she has {{product.name}}. By 3pm only one of them is still winning, and the other one knows it.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "products whose benefits are only health or medical claims (the rival's costs must stay everyday annoyances)",
+        "categories where a plain generic version would look like a specific real competitor (one dominant brand shape)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "id": "cinematic-01-night-stint",
+  "style": "cinematic",
+  "title": "Night Stint",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Hour 19 of a 24 hour endurance race, 3am and raining. A driver has four minutes before her car comes in; the one ritual she never skips is {{product.name}}.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a pre-stint drink or snack is a natural ritual"
+      ],
+      "applied": [
+        "great",
+        "pre-helmet skincare, balm or sunscreen at the garage mirror"
+      ],
+      "worn": [
+        "good",
+        "base layers, socks, glasses, watches and gloves fit the kit"
+      ],
+      "handheld": [
+        "good",
+        "earbuds, bottles, trackers and gadgets in her hands while she waits"
+      ],
+      "carried": [
+        "good",
+        "bags and cases at her chair"
+      ],
+      "home": [
+        "stretch",
+        "the beat moves to the drivers' room; works for pillows, lamps, blankets, chairs, not for large furniture"
+      ],
+      "consumable": [
+        "good",
+        "refills and packs on the tool cart"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "anything unsafe to use right before driving (sleep aids, sedatives)"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Halcyon Racing is an 11-person privateer team running a two-year-old car against factory teams. They have never finished on the podium at Vallon.",
+      "Jess is the team's third driver and its rookie, so she gets the night stints nobody wants. She drives with her late father's old analog stopwatch on a lanyard; he ran a small kart track in Ohio.",
+      "Ray has run pit walls for 30 years. He carries a dented steel thermos he never seems to drink from and keeps a pencil behind his ear.",
+      "It has rained since hour 14. The crew sleep in 20 minute shifts on the tyre stacks."
+    ],
+    "locations": {
+      "garage": {
+        "foreground": [
+          "wet rain tyres in black heated tyre blankets with white chalk tally marks on the sidewalls",
+          "a yellow air-gun hose coiled on a steel reel",
+          "a paper cup of cold coffee with a brown ring inside"
+        ],
+        "midground": [
+          "a dented sky-blue roll-cab tool chest with coloured tape strips on the drawers",
+          "a whiteboard stint chart of hand-drawn boxes, half wiped, with round magnets",
+          "a crew member asleep on a tyre stack with a silver jacket over his face",
+          "an open pizza box on the tyres with two slices left",
+          "a spare steering wheel in a foam-lined flight case",
+          "race gloves drying on a string line"
+        ],
+        "background": [
+          "the open shutter with a curtain of rain and orange sodium light",
+          "timing monitors on a gantry showing coloured lap graphs",
+          "a silver and sky-blue team flag with a half-sun arc mark",
+          "cable trays, a red fire extinguisher, puddles reflecting the lights"
+        ]
+      },
+      "car": {
+        "foreground": [
+          "a strip of silver tape over a crack in the front splitter",
+          "mud and rubber streaks along the sidepods",
+          "clear tear-off strips on the windscreen"
+        ],
+        "midground": [
+          "the half-sun arc mark on the nose",
+          "a blinking red rain light at the rear"
+        ],
+        "background": [
+          "wet tarmac with orange reflections"
+        ]
+      },
+      "track": {
+        "foreground": [
+          "white and red kerbs with rubber marks",
+          "a gravel trap with tyre tracks through it"
+        ],
+        "midground": [
+          "a stacked tyre wall with a sky-blue belt",
+          "a marshal post with an orange flag on a pole"
+        ],
+        "background": [
+          "pine forest and snowy mountains under a pink dawn"
+        ]
+      }
+    },
+    "personal_props": {
+      "jess": [
+        "her father's scuffed analog stopwatch on a faded red lanyard",
+        "a frayed woven friendship bracelet on her left wrist",
+        "a silver and sky-blue helmet with a faded cartoon go-kart sticker on the back (shape only, no text)"
+      ],
+      "ray": [
+        "a pencil behind his right ear",
+        "a clipboard with a dog-eared paper stint sheet of pencil ticks",
+        "a dented steel thermos",
+        "reading glasses pushed up on his head"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "helmet",
+        "name": "Jess's helmet",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, three views: a closed-face racing helmet, silver with a sky-blue diagonal stripe, a dark tinted visor lifted open, scuffs and chips along the chin guard, rain droplets, and on the back a small faded cartoon sticker of a go-kart (drawing only, no letters). No text or logos anywhere. Photoreal studio light.",
+        "asset": "assets/helmet.jpg"
+      },
+      {
+        "id": "stopwatch",
+        "name": "Her father's stopwatch",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: an old chrome analog mechanical stopwatch with a scratched crystal, a worn crown button and a faded red woven lanyard, a small dent on the case. Plain dial with tick marks and no brand name or words. Photoreal macro studio light.",
+        "asset": "assets/stopwatch.jpg"
+      },
+      {
+        "id": "pitboard",
+        "name": "Halcyon pit board",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a hand-held racing pit board on a long aluminium pole, sky-blue board with a silver border, the large painted digits 27 at the top and a white half-sun arc mark below, rain-spotted and chipped at the edges. Only the digits 27, no other text. Photoreal studio light.",
+        "asset": "assets/pitboard.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Halcyon Racing",
+        "mark": "a white half-sun rising over a horizon line",
+        "colors": "silver and sky blue",
+        "appears_on": "car nose and flanks, crew jackets (chest), team flag, pit board, tool chest",
+        "text_in_post": "the word HALCYON only on the car flank; everywhere else the mark alone"
+      },
+      {
+        "name": "Marrow Tyres",
+        "mark": "a single yellow band around the sidewall",
+        "colors": "black and yellow",
+        "appears_on": "every tyre and tyre blanket",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "Hour 19, 3:07am, five hours of rain. Everything is wet; the car carries mud, rubber marbles and tape; the crew are exhausted, food is half eaten, tape is everywhere. First light arrives at the hairpin.",
+    "sound_world": [
+      "rain drumming on the garage roof",
+      "the hum of tyre-blanket heaters",
+      "a distant, unintelligible circuit PA",
+      "generator drone",
+      "ice shifting in the bucket",
+      "radio squelch",
+      "air-gun bursts"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "a steel ice bucket of crushed ice beside her chair, holding the product chilled"
+      ],
+      "applied": [
+        "her open kit bag on the tool cart with the product on top"
+      ],
+      "worn": [
+        "her kit bag on the tool cart with the product folded or set on top"
+      ],
+      "handheld": [
+        "the tool cart beside her chair with the product next to her gloves"
+      ],
+      "carried": [
+        "the product hanging from the back of her folding chair"
+      ],
+      "home": [
+        "the small drivers' room behind the garage, where the product is set up"
+      ],
+      "consumable": [
+        "a pack of the product on the tool cart beside her chair"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "jess",
+      "name": "Jess Calder",
+      "role": "lead driver",
+      "look": "woman, 29, North American, short dark-blonde hair tied back, sharp green eyes, light freckles, silver and sky-blue Halcyon race suit unzipped to the waist over a grey fireproof top",
+      "voice": "low, calm, dry, a little hoarse from the night, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Jess Calder: 29, North American, short dark-blonde hair tied back, sharp green eyes, light freckles, focused tired expression, silver and sky-blue race suit unzipped to the waist over a grey fireproof top, no logos on the suit. Neutral soft studio light, photoreal, consistent identity across all three views. No text.",
+      "asset": "assets/jess.jpg"
+    },
+    {
+      "id": "ray",
+      "name": "Ray Okafor",
+      "role": "crew chief on the radio and in the garage",
+      "look": "man, 54, Black American, close grey beard, reading glasses pushed up on his head, team headset, silver team rain jacket",
+      "voice": "warm, gravelly, unhurried, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Ray Okafor: 54, Black American, close grey beard, reading glasses pushed up on his head, wearing a team radio headset and a silver rain jacket with no logos. Calm, experienced expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text.",
+      "asset": "assets/ray.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "garage",
+      "name": "Halcyon garage at night",
+      "plate_prompt": "Cinematic film still, vertical 9:16, an empty endurance-racing team garage at 3am in heavy rain: open shutter to a wet pit lane with sodium-orange lights and rain streaks, stacks of tyres with blank sidewalls, tool carts, a silver and sky-blue colour scheme on the walls, monitors showing only abstract lap graphs, crew chairs, haze. No people, no readable text, no real brands.",
+      "asset": "assets/garage.jpg"
+    },
+    {
+      "id": "car",
+      "name": "Halcyon #27 car",
+      "plate_prompt": "Studio reference of a fictional Le Mans style prototype race car in silver and sky-blue livery with a large number 27 and the word HALCYON on the side, no other sponsors or logos, three-quarter front view on a dark wet track at night with headlights on. Photoreal, no people.",
+      "asset": "assets/car.jpg"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "Eyes in the helmet opening, rain on the pit wall, a timing screen reads hour 19. She names where races are lost."
+    },
+    {
+      "id": "setup",
+      "t": "3-8",
+      "summary": "The crew is asleep on tyre stacks; Ray tells her the car is four minutes out."
+    },
+    {
+      "id": "product",
+      "t": "8-14",
+      "summary": "Her ritual: the product comes out, the product moment, the product line."
+    },
+    {
+      "id": "build",
+      "t": "14-22",
+      "summary": "The car screams in, the crew leaps up, she drops in and leaves into the rain."
+    },
+    {
+      "id": "payoff",
+      "t": "22-27",
+      "summary": "Onboard at the hairpin as dawn breaks, she passes the rival car."
+    },
+    {
+      "id": "cta",
+      "t": "27-30",
+      "summary": "The product at sunrise with the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.6-2.8",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "Hook: name the moment in this world where the product matters most.",
+      "delivery": "quiet, certain, almost to herself",
+      "shot": "S01",
+      "max_words": 10,
+      "fixed_line": "Hour nineteen. This is where races are lost."
+    },
+    {
+      "id": "L2",
+      "t": "4.6-6.4",
+      "speaker": "ray",
+      "on_camera": true,
+      "line_intent": "Raise the stakes with a countdown.",
+      "delivery": "gentle, gravelly, checking on her",
+      "shot": "S03",
+      "max_words": 8,
+      "fixed_line": "Car's in four minutes. You good?"
+    },
+    {
+      "id": "L3",
+      "t": "7.0-7.9",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "She asks for the ritual moment, without naming it.",
+      "delivery": "calm, already reaching for something",
+      "shot": "S04",
+      "max_words": 6,
+      "fixed_line": "Give me one minute."
+    },
+    {
+      "id": "L4",
+      "t": "10.8-13.6",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "Product line: say {{product.name}} (or its short spoken form) and the ONE benefit from product.benefits that matters most at 3am before a stint (focus, comfort, protection, calm, grip, warmth...).",
+      "delivery": "low and satisfied after the product moment, a small smile",
+      "shot": "S06",
+      "max_words": 9,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L5",
+      "t": "18.0-19.6",
+      "speaker": "ray",
+      "on_camera": false,
+      "line_intent": "Radio push: the race needs everything now.",
+      "delivery": "radio crackle, urgent but steady",
+      "shot": "S08",
+      "max_words": 8,
+      "fixed_line": "Gap's two seconds. Go get him."
+    },
+    {
+      "id": "L6",
+      "t": "24.6-25.4",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "Payoff: the win in two words.",
+      "delivery": "breathless, under her breath, inside the helmet",
+      "shot": "S09",
+      "max_words": 4,
+      "fixed_line": "Got him."
+    },
+    {
+      "id": "L7",
+      "t": "27.6-29.6",
+      "speaker": "jess",
+      "on_camera": false,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word line that ties the product to finishing strong.",
+      "delivery": "warm voiceover, unhurried",
+      "shot": "S10",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.9,
+      "beat": "hook",
+      "framing": "extreme close-up",
+      "camera": "slow push-in",
+      "action": "Jess's green eyes in the open helmet visor, rain-light reflections sliding across the visor, the orange glow of the pit lane behind.",
+      "product_state": "absent",
+      "audio": "rain on the garage roof, distant engine",
+      "caption": "Hour nineteen. This is where races are lost.",
+      "refs": [
+        "jess",
+        "helmet"
+      ],
+      "keyframe_prompt": "Extreme close-up of Jess, the woman from the character sheet, wearing an open-face race helmet with the visor lifted, only her green eyes and freckled nose bridge visible through the opening, rain-light reflections sliding across the raised visor, orange pit-lane glow behind her, cool blue ambient light on one side of her face. Focused, tired, certain. The helmet is plain silver and sky-blue with no text, letters or logos anywhere.",
+      "dressing": [
+        "the dark visor lifted open with rain droplets on it",
+        "the orange shutter light reflected in the visor"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.9,
+      "t1": 4.4,
+      "beat": "setup",
+      "framing": "wide",
+      "camera": "locked off",
+      "action": "The garage at 3am: two crew members asleep on stacked tyres, rain sheeting past the open shutter, a timing screen glowing with abstract graphs.",
+      "product_state": "absent",
+      "audio": "rain, a monitor hum",
+      "caption": "",
+      "refs": [
+        "garage"
+      ],
+      "keyframe_prompt": "Wide shot of the garage from the location plate: two crew members in silver team jackets asleep on stacked tyres with blank sidewalls, rain sheeting past the open shutter, orange pit lights outside, a timing monitor glowing with an abstract lap graph. Quiet, exhausted, beautiful.",
+      "dressing": [
+        "tyre blankets with chalk tally marks",
+        "a crew member asleep with a silver jacket over his face",
+        "an open pizza box with two slices on the tyres",
+        "the half-wiped whiteboard stint chart",
+        "race gloves drying on a string line"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.4,
+      "t1": 6.6,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "slow dolly left",
+      "action": "Ray leans in the doorway of the drivers' corner, headset on, glasses on his head, and checks on her.",
+      "product_state": "absent",
+      "audio": "rain, dialogue",
+      "caption": "Car's in four minutes. You good?",
+      "refs": [
+        "ray",
+        "garage"
+      ],
+      "keyframe_prompt": "Medium shot of Ray, the man from the character sheet, leaning in a garage doorway at night, team radio headset on, reading glasses pushed up on his head, silver rain jacket wet at the shoulders, warm practical light on his face, rain and orange pit lights blurred behind him. He is mid-sentence, kind, checking on someone off camera.",
+      "dressing": [
+        "a pencil behind Ray's ear",
+        "his clipboard of pencil ticks under one arm",
+        "the dented thermos in his hand",
+        "rain beading on his shoulders",
+        "cable trays overhead"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 6.6,
+      "t1": 8.2,
+      "beat": "setup",
+      "framing": "medium close-up",
+      "camera": "locked off",
+      "action": "Jess on a folding chair, helmet on her knee, answers without looking up and goes for her ritual: the product.",
+      "product_state": "about to enter",
+      "audio": "the product's surroundings (ice, a bag zip, a cart)",
+      "caption": "Give me one minute.",
+      "refs": [
+        "jess",
+        "garage",
+        "product",
+        "helmet",
+        "stopwatch"
+      ],
+      "keyframe_prompt": "Medium close-up of Jess, the woman from the character sheet, sitting on a folding chair in the garage, race suit unzipped to the waist over a grey top, helmet resting on her knee, {{action}}. Calm expression, cool blue light from one side and warm orange from the pit lane.",
+      "dressing": [
+        "her father's stopwatch on its red lanyard around her neck",
+        "the helmet with the faded go-kart sticker on her knee",
+        "a paper cup of cold coffee on the floor",
+        "the dented sky-blue tool chest behind her"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "reaching with one hand toward a steel ice bucket where {{product.visual}} sits chilled in crushed ice",
+        "applied": "reaching toward her open kit bag on the tool cart where {{product.visual}} sits on top",
+        "worn": "reaching toward her kit bag on the tool cart where {{product.visual}} is set out on top",
+        "handheld": "reaching toward the tool cart where {{product.visual}} sits beside her gloves",
+        "carried": "reaching back for {{product.visual}} hanging from the back of her chair",
+        "home": "standing up and turning toward the doorway of the small drivers' room behind the garage, where {{product.visual}} is set up",
+        "consumable": "reaching toward the tool cart where a pack of {{product.visual}} sits"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 8.2,
+      "t1": 10.4,
+      "beat": "product",
+      "framing": "macro insert",
+      "camera": "locked off, slight rack focus",
+      "action": "Macro insert: her hand brings the product into the light.",
+      "product_state": "hero, label or logo to camera",
+      "audio": "the product's own handling sound",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Macro insert: {{action}}. The product matches the product reference exactly, undistorted, the brightest object in frame, dark garage background with orange bokeh.",
+      "dressing": [
+        "a frayed friendship bracelet on the wrist",
+        "a rolled towel on the chair edge"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "a woman's hand with short nails lifting {{product.visual}} out of crushed ice, label to camera, cold droplets running down it",
+        "applied": "a woman's hand with short nails taking {{product.visual}} from the kit bag and opening it, label to camera",
+        "worn": "a woman's hand with short nails picking up {{product.visual}} from the kit bag, turning it once so its details catch the light",
+        "handheld": "a woman's hand with short nails picking up {{product.visual}} from the tool cart, label or logo to camera",
+        "carried": "a woman's hand with short nails unclipping {{product.visual}} from the chair back, logo to camera",
+        "home": "a woman's hand with short nails switching on or touching {{product.visual}} in the dim drivers' room, the product lit as the brightest thing in the frame",
+        "consumable": "a woman's hand with short nails taking one {{product.visual}} from its pack, label to camera"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 10.4,
+      "t1": 13.8,
+      "beat": "product",
+      "framing": "close-up",
+      "camera": "slow push-in",
+      "action": "She uses the product, then says the product line with a small smile.",
+      "product_state": "in hand or in use, label readable",
+      "audio": "the product's own use sound (registers the moment), dialogue",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "jess",
+        "product",
+        "garage"
+      ],
+      "keyframe_prompt": "Close-up of Jess, the woman from the character sheet, in the garage at night, {{action}}. The product matches the product reference exactly and is fully visible, never covering her mouth. Rain and orange pit lights blurred behind her. Her face must match the character sheet exactly: dark-blonde hair tied back, green eyes, light freckles.",
+      "dressing": [
+        "the whiteboard stint chart blurred behind her",
+        "tyre blanket bokeh"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "holding {{product.visual}} at chest height with the label readable, just lowered from a sip, a small satisfied smile",
+        "applied": "applying {{product.visual}} in a small mirror clipped to the tool cart, then holding it at chest height with the label readable, a small satisfied smile",
+        "worn": "wearing {{product.visual}}, adjusting it once, a small satisfied smile",
+        "handheld": "using {{product.visual}} for a moment, then holding it at chest height with the logo readable, a small satisfied smile",
+        "carried": "slinging or pocketing {{product.visual}} with one practised move, a small satisfied smile",
+        "home": "settling into or beside {{product.visual}} in the drivers' room for sixty seconds of calm, eyes closing briefly, a small satisfied smile",
+        "consumable": "using one {{product.visual}} with a practised motion, then holding the pack at chest height with the label readable, a small satisfied smile"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 13.8,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "low head-on",
+      "camera": "handheld, low",
+      "action": "The #27 car brakes head-on toward camera into the pit box in the rain, headlights flaring; crew rush in from both sides.",
+      "product_state": "absent",
+      "audio": "engine scream, air guns",
+      "caption": "",
+      "refs": [
+        "car",
+        "garage"
+      ],
+      "keyframe_prompt": "Low head-on shot at ground level in a wet pit lane at night: the fictional silver and sky-blue number 27 HALCYON prototype race car from the reference drives straight toward the camera and brakes into its pit box, its four wheels on the ground, nose low, headlights flaring, spray off the front tyres, two crew members in silver jackets rushing in from left and right with wheel guns, orange pit lights overhead. Normal gravity: the car sits flat on the tarmac, horizon level, camera upright.",
+      "dressing": [
+        "silver tape over a crack in the splitter",
+        "mud streaks along the sidepods",
+        "the yellow air-gun hose",
+        "rubber marbles on the wet tarmac"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 19.8,
+      "beat": "build",
+      "framing": "medium",
+      "camera": "tracking with the car",
+      "action": "Jess drops into the cockpit, belts snap, visor down; the car leaves the pit lane into the dark.",
+      "product_state": "absent",
+      "audio": "belts, engine, radio",
+      "caption": "Gap's two seconds. Go get him.",
+      "refs": [
+        "jess",
+        "car",
+        "pitboard"
+      ],
+      "keyframe_prompt": "Medium shot over the cockpit edge of the silver and sky-blue number 27 car: Jess, the woman from the character sheet, now in her closed helmet with visor down, gloved hands pulling her harness tight, a crew member's arm helping, rain beading on the bodywork, pit lane lights streaking behind.",
+      "dressing": [
+        "clear tear-off strips on the windscreen",
+        "a crew arm holding the sky-blue number 27 pit board in the background",
+        "Ray at the pit wall under rain"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 19.8,
+      "t1": 25.6,
+      "beat": "payoff",
+      "framing": "onboard wide",
+      "camera": "car-mounted, behind driver",
+      "action": "Onboard into a hairpin as dawn breaks, the #27 dives inside a dark rival car and passes it.",
+      "product_state": "absent",
+      "audio": "engine, downshifts, dialogue",
+      "caption": "Got him.",
+      "refs": [
+        "car"
+      ],
+      "keyframe_prompt": "Onboard camera from behind the driver's helmet inside the number 27 car braking into a tight hairpin on a wet track at first light, a dark grey rival prototype car with no logos just ahead on the outside, the pink and blue dawn sky over mountains, spray off the tyres, dashboard lights.",
+      "dressing": [
+        "coloured buttons on the steering wheel",
+        "red and white kerbs with rubber marks",
+        "a marshal post with an orange flag",
+        "a stacked tyre wall with a sky-blue belt"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 25.6,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert",
+      "camera": "slow crane down",
+      "action": "Sunrise over the pit wall; the product sits there as the #27 passes in the background. Tagline and pack shot.",
+      "product_state": "hero, label to camera",
+      "audio": "car passing, score resolves",
+      "caption": "{{line.L7}}",
+      "refs": [
+        "product",
+        "car",
+        "stopwatch"
+      ],
+      "keyframe_prompt": "Premium sunrise pack shot: {{action}}. The product matches the product reference exactly, undistorted, golden sunrise light rim-lighting it, the blurred silver and sky-blue number 27 prototype passing behind, mountains and a pink dawn sky. The product is the brightest object in the frame. Empty space above it for a title.",
+      "dressing": [
+        "Ray's dented thermos further along the wall",
+        "painted team stripes on the concrete"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright on the wet concrete pit wall, label to camera, droplets on it",
+        "applied": "{{product.visual}} standing upright on the wet concrete pit wall, label to camera",
+        "worn": "{{product.visual}} laid neatly on the wet concrete pit wall, its best side to camera",
+        "handheld": "{{product.visual}} resting on the wet concrete pit wall, logo to camera",
+        "carried": "{{product.visual}} resting on the wet concrete pit wall, logo to camera",
+        "home": "{{product.visual}} in the drivers' room, its window framing the sunrise and the car passing on the track outside",
+        "consumable": "the pack of {{product.visual}} standing upright on the wet concrete pit wall, label to camera"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.2,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "jess card",
+        "ray card",
+        "garage plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 cinematic night scene in a racing team garage during a 24 hour race, heavy rain, orange pit lights, cool blue ambient light, 35mm grain. Shot 1 (0 to 3 s): extreme close-up of @Image1 (Jess) in an open helmet, visor lifted, she says quietly to herself: \"Hour nineteen. This is where races are lost.\" Shot 2 (3 to 4.5 s): wide shot of the garage, two crew asleep on tyre stacks, rain past the open shutter. Shot 3 (4.5 to 6.6 s): @Image2 (Ray) leans in the doorway with a headset, gently: \"Car's in four minutes. You good?\" Shot 4 (6.6 to 9 s): Jess on a folding chair, helmet on her knee, calm, {{action.S04}}: \"Give me one minute.\" Native sound: rain on the roof, monitor hum, ice shifting. No music. No text on screen. No logos except the fictional HALCYON."
+    },
+    {
+      "id": "U2",
+      "t0": 8.2,
+      "t1": 13.8,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "jess card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 cinematic. Shot 1 (0 to 2.2 s): locked macro insert, {{action.S05}}; the product matches @Image1 exactly, undistorted. Shot 2 (2.2 to 6 s): close-up of @Image2 (Jess) in the garage at night, {{action.S06}}, and says low and satisfied: \"{{line.L4}}\" (say the brand as {{product.phonetic}}). Keep the product's shape, colours and label exactly as @Image1. Native sound: rain, the product's own sound (a click, a snap, a pour, a rustle) if it has one. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 13.8,
+      "t1": 25.6,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 12,
+      "exact_risk": false,
+      "refs": [
+        "car plate",
+        "jess card",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 cinematic racing sequence, rain turning to first light. Shot 1 (0 to 3 s): low handheld wide, the silver and sky-blue number 27 prototype from @Image1 slides into its pit box from left to right, spray and sparks, crew rush in with wheel guns. Shot 2 (3 to 6 s): over the cockpit edge, @Image2 (Jess) in a closed helmet pulls her harness tight; a radio voice, crackly and steady: \"Gap's two seconds. Go get him.\" The car pulls away down the pit lane. Shot 3 (6 to 12 s): onboard from behind the driver braking into a wet hairpin at dawn, the car dives inside a dark grey rival prototype with no logos and passes it; Jess, breathless inside the helmet: \"Got him.\" Cars move forward in their direction of travel, no spins, no sliding sideways. Native sound: engines, downshifts, air guns, radio. No music."
+    },
+    {
+      "id": "U4",
+      "t0": 25.6,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 premium pack shot at sunrise. Slow crane down onto {{action.S10}}; the product matches @Image1 exactly and does not move or change. A blurred silver and sky-blue race car passes on the track behind, mountains and pink dawn sky. Keep empty space above the product. Native sound: the car passing, morning birds. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "tension",
+      "t0": 0,
+      "t1": 13.8,
+      "brief": "Low pulsing synth bass and soft taiko ticks like a clock, sparse, in D minor, 96 bpm; leaves room for dialogue."
+    },
+    {
+      "section": "drive",
+      "t0": 13.8,
+      "t1": 25.6,
+      "brief": "Same motif, the pulse doubles, driving drums and distorted synth, big lift on the pit exit, peak at the pass."
+    },
+    {
+      "section": "release",
+      "t0": 25.6,
+      "t1": 30,
+      "brief": "The motif resolves to D major, warm pads and a single held chord that rings out past the last frame."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 10.6,
+      "sound": "the product's own opening or use sound",
+      "why": "the product moment must register; only if the native sound is weak"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "jess",
+      "plan": "native voice from U1, then her U1 vocal stem as voice reference for U2 and U3"
+    },
+    {
+      "speaker": "ray",
+      "plan": "native in U1; radio line in U3 uses his U1 stem as reference with a radio filter"
+    }
+  ],
+  "captions": {
+    "font": "Inter Tight SemiBold",
+    "size": "5.2% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF at full opacity, other words 70%",
+    "shadow": "soft 0 2px 8px rgba(0,0,0,.6)",
+    "position": "centre, 68% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 4,
+    "box": false
+  },
+  "post_text": [
+    {
+      "t0": 27.4,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline_or_line.L7}}",
+      "style": "Inter Tight Bold, white, centred in the empty space above the product, fade up 8 frames"
+    }
+  ],
+  "qa": [
+    "the product in S05, S06 and S10 matches the product image (shape, colours, label)",
+    "Jess identical across S01, S04, S06, S08 against the character sheet",
+    "the car moves forward, four wheels down, no spins",
+    "no readable model text except the digits 27 and the fictional HALCYON",
+    "L4 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "Hour nineteen. This is where races are lost.",
+      "L2": "Car's in four minutes. You good?",
+      "L3": "Give me one minute.",
+      "L4": "Red Bull Sugarfree. Keeps me sharp, no sugar.",
+      "L5": "Gap's two seconds. Go get him.",
+      "L6": "Got him.",
+      "L7": "Wiiings without sugar."
+    },
+    "actions": {
+      "S04": "reaching with one hand toward a steel ice bucket where {{product.visual}} sits chilled in crushed ice",
+      "S05": "a woman's hand with short nails lifting {{product.visual}} out of crushed ice, label to camera, cold droplets running down it",
+      "S06": "holding {{product.visual}} at chest height with the label readable, just lowered from a sip, a small satisfied smile",
+      "S10": "{{product.visual}} standing upright on the wet concrete pit wall, label to camera, droplets on it"
+    }
+  },
+  "asset_urls": {
+    "jess": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cinematic-01-night-stint/assets/jess.jpg",
+    "ray": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cinematic-01-night-stint/assets/ray.jpg",
+    "garage": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cinematic-01-night-stint/assets/garage.jpg",
+    "car": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cinematic-01-night-stint/assets/car.jpg",
+    "helmet": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cinematic-01-night-stint/assets/helmet.jpg",
+    "stopwatch": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cinematic-01-night-stint/assets/stopwatch.jpg",
+    "pitboard": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/cinematic-01-night-stint/assets/pitboard.jpg"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "key": "skit",
+  "name": "Skit / comedy sketch",
+  "definition": "A scripted 30 second comedy sketch with actors: one absurd premise played completely straight, escalated in two or three visual beats, and resolved by the product as the punchline. The joke is the ad; the product is the button.",
+  "why_it_sells": "Humour buys the first three seconds on cold traffic and gets rewatched and shared (25% of ads spending $1M+ use humour against 14% of social ads). It sells when the product IS the punchline, so remembering the joke means remembering the brand. It fails when the joke could be about anything.",
+  "visual_grammar": "Sitcom and sketch-show look: bright high-key frames, symmetrical staging, characters placed centre frame so the joke reads on a phone, one gag per shot, the straight man always calm and in focus, the absurd character always in full costume and dead serious. Reactions get their own shot. The product sits in the calm character's hand, lit clean.",
+  "camera": "Locked-off tripod for every joke (comedy is funnier when the camera does not move), 24 to 28mm for group gags so bodies and props read, 50mm for reaction close-ups, one fast whip pan or crash zoom per sketch as the escalation button, a locked macro insert for the product. Eye-level, never Dutch.",
+  "light": "Even, bright, slightly overexposed studio-sitcom light with soft shadows; practical overhead office or kitchen fixtures in frame; the product gets a small extra kicker so it is the cleanest object in the shot.",
+  "texture": "Clean digital, crisp, no grain, saturated but natural skin, slight bloom on white surfaces. Looks like a well-lit comedy show, not a film.",
+  "palette_rule": "Paint the set in the product's colours at low saturation (for this product: sky-blue carpet and chairs, silver desks) so the product feels at home, and give the absurd character one loud contrasting accent (here a red armband) so the eye tracks the joke.",
+  "pacing": "Premise lands in under 2 seconds (costume plus one line). Rule of three: two escalations, then the product breaks the pattern. Hold 0.4 s of silence before every punchline and after every reaction (build the pause with a cut, never ask the model to act a pause). Product held at least 1.5 s in a clean insert. Last 5 seconds: one final visual gag in the background while the product sits calm in the foreground, then the tagline.",
+  "sound": "Native room tone and dialogue from the generations, dry and close, no reverb. A parody score cue in the genre of the premise (here a 70s cop-show brass and wah funk) that stops dead for punchlines. Added sound only for props the joke depends on (the detector beep, the approval chime, the alarm shriek).",
+  "caption_look": {
+    "font": "Archivo Black",
+    "size": "5.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFD400 yellow on the word being spoken",
+    "shadow": "hard 3px black outline plus 0 3px 0 rgba(0,0,0,.5) drop",
+    "box": false,
+    "position": "centre, 70% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "case": "UPPERCASE",
+    "punchline_rule": "punchline words pop in with a 110% scale bounce over 4 frames; silent gags get no caption"
+  },
+  "model_vocab": [
+    "sitcom still",
+    "bright high-key lighting",
+    "symmetrical composition",
+    "deadpan expression",
+    "comedic tableau, everyone frozen mid-action",
+    "straight man reaction shot",
+    "exaggerated costume played completely seriously",
+    "locked-off tripod shot"
+  ],
+  "failure_modes": [
+    "models cannot do comic timing: never write 'pauses for effect'; build every pause as a cut or a held freeze in the edit",
+    "faces go goofy or mugging when you say 'funny': ask for 'deadpan, completely serious' and let the premise be the joke",
+    "a costume with a badge or patch invents text: say plain silver badge with no engraving, armband with no writing",
+    "gadget props grow screens with fake readouts: say matte black wand with one round light, no screen, no text",
+    "cakes and pastries get writing piped on them: say plain frosting with no writing",
+    "the product in the calm character's hand becomes a generic can: keep it in a locked insert and pass the product reference every time it is visible",
+    "group gags go soft and unreadable at phone size: max three people in a gag frame, centre the joke",
+    "a mid-air dive rendered from a side angle can come back rotated: frame dives from the front at three-quarter angle, level horizon, normal gravity",
+    "the hook shot came back with the absurd character tiny in the far background: say she stands large in the centre, knees up, about two metres from camera, and dominates the frame",
+    "background extras in product inserts and pack shots stare at camera and pull focus (and can drift off-brief in casting): say empty blurred background with no people",
+    "even with 'large in the centre' the model kept her tiny when the prompt also said 'wide' and 'down the aisle': describe the framing by body coverage ('fills the frame from knees to cap') and never mention the depth of the room",
+    "a long cartoonish dressing list (fruit magnets, ribbons, balloons) tips the location plate into a flat illustration: open the plate prompt with photoreal live-action, a real photograph, not an illustration",
+    "prop reference sheets come back with small view labels and rulers printed on them: say no view labels, captions, rulers or scale bars",
+    "a location plate with a dressed desk in the foreground is copied into every keyframe, the same fan and pens blocking each shot: keep the plate foreground an open aisle and put the desk clutter in the midground"
+  ],
+  "negatives": [
+    "no real brands, logos or sponsor names except the product",
+    "no readable text, signs, badges or screen readouts",
+    "no writing on food",
+    "no mugging, winking or cartoon faces",
+    "no extra fingers",
+    "no slow motion"
+  ],
+  "prompt_prefix": "Sitcom comedy sketch still, vertical 9:16 frame, bright high-key studio lighting, crisp clean digital image, symmetrical eye-level composition, characters played completely deadpan and serious.",
+  "asset_style": "Bright even sitcom lighting, crisp digital photo."
+}

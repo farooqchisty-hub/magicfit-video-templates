@@ -1,0 +1,875 @@
+{
+  "id": "miniature-01-night-build",
+  "style": "miniature",
+  "title": "Night Build",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "2am in a tiny model town. The review is at nine, the whole crew has fallen asleep on the job, and the foreman calls in the big one: {{product.name}}. Then the camera pulls back.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a full-size snack or beverage towering in the square, opened by the rope crew, is the concept's best gag"
+      ],
+      "applied": [
+        "great",
+        "a giant tube or jar as a monument, the crew twisting the cap like a capstan and rolling it out like paint"
+      ],
+      "worn": [
+        "good",
+        "shoes, watches, glasses and caps become a landmark the crew climbs; garments drape like a big top; very small items (rings) read as a sculpture, not a skyscraper"
+      ],
+      "handheld": [
+        "great",
+        "gadgets and bottles tower like skyscrapers and the crew levers them on"
+      ],
+      "carried": [
+        "good",
+        "the bag opens like a warehouse door; large luggage crowds the board"
+      ],
+      "home": [
+        "stretch",
+        "tabletop pieces (lamps, candles, cushions, plants) sit at the board edge like a mountain; large furniture only works beside the desk and loses the hand-set moment"
+      ],
+      "consumable": [
+        "great",
+        "the balsa crane lifts pieces out of the giant pack"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "sleep aids or sedatives (the story is finishing a deadline through the night)",
+      "products that are messy or unsafe near a paper model (open flames, liquids that must be poured out on camera)"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Riverside Commons is Amara Cole's final thesis model at the Kellerman School of Architecture: 46 hand-cut buildings at 1:87 scale on a 90 by 120 cm board. Her jury review is at 9am in Room 3B with three visiting critics.",
+      "It is 2:10am. She has been awake for 20 hours, the resin river was poured on Tuesday and still smells faintly sweet, and the civic hall roof has fallen off twice tonight.",
+      "Sal is one of 72 figurines from a box of Oakbridge Model Supply workers she bought in first year. He is the only one she repainted by hand, and his grey walrus mustache is a single dab of paint from a size 000 brush.",
+      "The tiny crew builds whatever she forgets. Their rule: nothing gets finished after midnight without the foreman's say so.",
+      "The paved square in the middle is left empty on purpose: it is the one space in the plan she has never been able to design."
+    ],
+    "materials_rule": "Everything in the tiny world is real model-making material seen at macro: white museum board and foam core with slightly fuzzy knife-cut edges, basswood and balsa strips, chalky sky-blue card, flocked foam trees on twisted wire trunks, two-part clear resin water with trapped bubbles, 2 cm hand-painted plastic figurines on small card bases with visible brush strokes, thin glue strings at the joins, faint pencil guide lines, pins and blue painter's tape holding pieces that are still drying. Everything from the real world (the product, her hands, her tools) is full-size and photoreal, enormous next to the model.",
+    "locations": {
+      "town": {
+        "foreground": [
+          "a dropped snapped-off craft-knife blade lying across the paving like a giant steel beam",
+          "a tiny wheelbarrow heaped with balsa offcuts and sawdust",
+          "a pin-head street lamp glowing from a grain-of-rice warm light",
+          "a strip of blue painter's tape holding a loose card roof down",
+          "a dried clear glue drip on the paving like a frozen puddle"
+        ],
+        "midground": [
+          "balsa-strip scaffolding tied with glue strings against a half-built card house",
+          "faint pencil guide lines still visible on the bare white card walls",
+          "flocked foam trees in two greens on twisted wire trunks",
+          "the clear resin river with trapped air bubbles and a toothpick footbridge",
+          "two figurines asleep on a basswood bench, one with his hard hat tipped over his eyes",
+          "a stack of tiny white card wall panels waiting on a pallet made of coffee stirrers"
+        ],
+        "background": [
+          "the civic hall with its plain round window and a roof that sits slightly crooked",
+          "a row of finished white card terraces with dark punched windows",
+          "the edge of the green cutting mat with its faint grid lines",
+          "the huge soft glow of the angled desk lamp far above",
+          "an enormous out-of-focus steel ruler lying beyond the board like a distant highway"
+        ]
+      },
+      "desk": {
+        "foreground": [
+          "a craft knife with a blue grip and a snapped blade",
+          "a cork-backed steel ruler with worn edge marks",
+          "a squeeze bottle of white glue with a blank label and a dried drip down the side",
+          "curls of pencil shavings and hole-punched card dots on the mat"
+        ],
+        "midground": [
+          "the handmade white and sky-blue card model of the town square on a green cutting mat",
+          "a clear plastic figurine box with a blank label and a few spare painted figurines",
+          "an open plastic tray of tiny paint pots with dried rings on the lids",
+          "an angled black desk lamp with a dented shade",
+          "a cold coffee in a chunky grey mug with a spoon left in it"
+        ],
+        "background": [
+          "loose line sketches and elevation drawings pinned to the wall with pushpins",
+          "a corkboard of blank sticky notes in yellow and pink",
+          "a dark window with blurred city lights",
+          "a grey hoodie hanging off the back of a stool",
+          "other empty studio desks in the dark behind"
+        ]
+      }
+    },
+    "personal_props": {
+      "sal": [
+        "a tiny red megaphone with a paint chip on the rim showing white plastic",
+        "a white hard hat with a grey scuff where he was dropped on the floor",
+        "a clipboard made from a square of card smaller than a grain of rice",
+        "a pencil-lead crowbar he carries over his shoulder"
+      ],
+      "amara": [
+        "a yellow pencil tucked into her hair, its end chewed",
+        "round tortoiseshell glasses with a strip of blue tape on one arm",
+        "an olive sweater with dried white glue flecks on one cuff",
+        "a small plaster cut on her left thumb from the craft knife"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "crane",
+        "name": "The crew's balsa crane",
+        "prop_prompt": "Macro product photograph of one model-making prop standing alone on a seamless plain mid-grey background, nothing else in frame: no hands, no people, no figurines, no tools, no tape, no ruler: a tiny handmade construction crane about 12 cm tall built from balsa strips and a bent paperclip jib, a white sewing-thread cable with a bent pin hook, a thread-spool counterweight, a small card cab painted orange, glue strings at the joins, sitting on a little card base. No letters, no numbers, no logos. Soft studio light, visible wood grain and paint texture.",
+        "asset": "assets/crane.jpg"
+      },
+      {
+        "id": "rig",
+        "name": "The crew's rope rig",
+        "prop_prompt": "Macro product photograph of one model-making prop standing alone on a seamless plain mid-grey background, nothing else in frame: no hands, no people, no figurines, no tools, no tape, no ruler: a tiny pulley and rope rig for 2 cm figurines, a white cotton thread rope with a small loop knot, a bead pulley on a bent pin, a toothpick lever, and a tiny coil of spare thread, laid out neatly. No letters, no numbers, no logos. Soft studio light, visible fibres and wood grain.",
+        "asset": "assets/rig.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Riverside Commons",
+        "mark": "a sky-blue wavy line under a simple house outline",
+        "colors": "sky blue and white",
+        "appears_on": "the corner of the model board, the jury title card",
+        "text_in_post": "project name on the end card only"
+      },
+      {
+        "name": "Kellerman School of Architecture",
+        "mark": "a plain black square with a white arch",
+        "colors": "black and white",
+        "appears_on": "a sticker shape on the cutting mat corner",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Oakbridge Model Supply",
+        "mark": "a small oak leaf",
+        "colors": "forest green on cream",
+        "appears_on": "the figurine box and glue bottle (labels blank in frame)",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "2:10am on the night before the review, then the bright 9am review room. Cool blue night light with one warm lamp pool. Used: a snapped knife blade, a cold coffee, half the glue bottle. Out of place: the civic hall roof sits crooked, one tree has fallen into the river, a figurine is asleep in the wheelbarrow.",
+    "sound_world": [
+      "the tinny squeak of Sal's megaphone",
+      "tiny figurine snores",
+      "the creak of balsa scaffolding",
+      "the deep boom of a full-size product landing on card",
+      "a thread rope straining, then the product's own opening, click or switch sound, enormous at tiny scale",
+      "tiny hammer taps and card sliding into slots",
+      "the hum of the desk lamp",
+      "a tired laugh at 2am"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "cold droplets beading on the product as big as the figurines",
+        "a figurine holding a thimble up to catch a drop"
+      ],
+      "applied": [
+        "the removed cap lying on the paving like a fallen dome",
+        "a tiny paint roller and tray beside it"
+      ],
+      "worn": [
+        "thread ropes and toothpick ladders strung up the product like a climbing wall"
+      ],
+      "handheld": [
+        "a figurine with a card clipboard checking the product like an inspector"
+      ],
+      "carried": [
+        "a stack of tiny card crates being carried out of the open product"
+      ],
+      "home": [
+        "the edge of the model board (or the floor beside the desk for large pieces), where the product rises behind the town like a mountain"
+      ],
+      "consumable": [
+        "the balsa crane parked beside the open pack, its thread hook ready"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "sal",
+      "name": "Sal Moreno",
+      "role": "the tiny foreman figurine",
+      "look": "a 2 cm tall hand-painted 1:87 figurine of a Latino man in his 60s, grey walrus mustache, white hard hat, orange hi-vis vest over a blue work shirt, tan trousers, holding a tiny red megaphone, on a small card base",
+      "voice": "gravelly, warm, bossy in a loving way, Mexican American, natural adult voice",
+      "card_prompt": "Macro product photograph of a model railway figurine on a plain white card base against a pale grey background, three views side by side at the same scale: front, three-quarter and profile of the same 2 cm tall hand-painted 1:87 scale plastic figurine. Sal Moreno: a Latino man in his 60s with a grey walrus mustache and a friendly squint, white hard hat, orange hi-vis vest over a blue work shirt, tan work trousers, brown boots, holding a tiny red megaphone. Visible brushstrokes and slightly imperfect paint, glossy dot eyes. Consistent across all three views. No text.",
+      "asset": "assets/sal.jpg"
+    },
+    {
+      "id": "amara",
+      "name": "Amara Cole",
+      "role": "architecture grad student, the giant",
+      "look": "woman, 27, Black American, short natural hair with a pencil tucked into it, round tortoiseshell glasses, oversized olive knit sweater with the sleeves pushed up, small gold hoop earrings",
+      "voice": "soft, warm, tired but amused, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Amara Cole: 27, Black American, short natural hair with a pencil tucked into it, round tortoiseshell glasses, warm brown eyes, small gold hoop earrings, oversized olive knit sweater with the sleeves pushed up, focused and amused expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text.",
+      "asset": "assets/amara.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "town",
+      "name": "Riverside Commons model at night",
+      "plate_prompt": "Tilt-shift macro photograph, vertical 9:16, upright vertical composition, level horizon: a handmade 1:87 scale architectural model of a small town square at night, white card and chalky sky-blue balsa buildings with blank fronts and tiny windows mostly dark, a civic hall with a plain round window and no clock, flocked foam trees, a resin river with a little bridge, a paved central square left empty, tiny street lamps, a few 2 cm painted figurines in orange hi-vis vests asleep on benches and scaffolding. The model sits on a green cutting mat lit by cool blue night light. One continuous photograph, tilt-shift blur gradually softening toward the top and bottom edges. No signs, no letters, no logos, no text.",
+      "asset": "assets/town.jpg"
+    },
+    {
+      "id": "desk",
+      "name": "Amara's studio desk at 2am",
+      "plate_prompt": "Photoreal wide shot, vertical 9:16, upright vertical composition, level horizon: an architecture student's desk in a dark studio at 2am, a large handmade white and sky-blue card model of a small town square on a green cutting mat, an angled desk lamp throwing a warm pool of light, a craft knife, a steel ruler, a glue bottle and a small box with blank labels, sketches with only loose lines pinned to the wall, a dark window with city lights. No people, no products, no letters, no logos, no text.",
+      "asset": "assets/desk.jpg"
+    }
+  ],
+  "asset_urls": {
+    "sal": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/miniature-01-night-build/assets/sal.jpg",
+    "amara": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/miniature-01-night-build/assets/amara.jpg",
+    "town": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/miniature-01-night-build/assets/town.jpg",
+    "desk": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/miniature-01-night-build/assets/desk.jpg",
+    "crane": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/miniature-01-night-build/assets/crane.jpg",
+    "rig": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/miniature-01-night-build/assets/rig.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.6",
+      "summary": "Macro close on the tiny foreman on a dark rooftop, megaphone up, deadline in one line."
+    },
+    {
+      "id": "setup",
+      "t": "2.6-7.0",
+      "summary": "The tiny crew asleep all over the unfinished model; the foreman calls in the big one."
+    },
+    {
+      "id": "product",
+      "t": "7.0-14.2",
+      "summary": "A giant hand sets the full-size product in the square like a monument; the tiny crew opens or switches it on with ropes; the product line."
+    },
+    {
+      "id": "build",
+      "t": "14.2-20.6",
+      "summary": "The town lights up and the crew builds; the camera pulls back to reveal the student at her desk, who takes the same product and uses it."
+    },
+    {
+      "id": "payoff",
+      "t": "20.6-25.0",
+      "summary": "9am: the finished model at the review, the jury applauds, the foreman gives a thumbs up."
+    },
+    {
+      "id": "cta",
+      "t": "25.0-30",
+      "summary": "Morning light on the desk: the product in the finished model, tiny crew resting around it, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.5",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "Hook: a surprising character states a deadline the viewer instantly feels.",
+      "delivery": "gravelly, exasperated, into the megaphone",
+      "shot": "S01",
+      "max_words": 8,
+      "fixed_line": "Review's at nine. This town's asleep."
+    },
+    {
+      "id": "L2",
+      "t": "5.0-6.6",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "The call for help that brings the product in.",
+      "delivery": "shouted up at the sky, megaphone raised",
+      "shot": "S03",
+      "max_words": 7,
+      "fixed_line": "Bring in the big one!"
+    },
+    {
+      "id": "L3",
+      "t": "11.6-14.0",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "Product line: say {{product.name}} (or its short spoken form) and the ONE benefit from product.benefits that a crew racing a 9am deadline at 2am needs most (focus, energy, comfort, grip, calm, freshness).",
+      "delivery": "proud, like unveiling a monument, hand on the product",
+      "shot": "S06",
+      "max_words": 9,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L4",
+      "t": "18.6-20.4",
+      "speaker": "amara",
+      "on_camera": true,
+      "line_intent": "The reveal: the real person joins the tiny crew as one team.",
+      "delivery": "soft, amused, leaning over the model with the product",
+      "shot": "S08",
+      "max_words": 7,
+      "fixed_line": "Okay, team. One more street."
+    },
+    {
+      "id": "L5",
+      "t": "22.6-24.6",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "Payoff: the deadline is beaten, said by the character who set it.",
+      "delivery": "satisfied, thumbs up to the lens",
+      "shot": "S09",
+      "max_words": 6,
+      "fixed_line": "Nine a.m. Nailed it."
+    },
+    {
+      "id": "L6",
+      "t": "27.2-29.2",
+      "speaker": "amara",
+      "on_camera": false,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word line that ties the product to getting the big thing finished.",
+      "delivery": "warm, smiling voiceover",
+      "shot": "S10",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.6,
+      "beat": "hook",
+      "framing": "macro close-up at figurine eye level",
+      "camera": "slow probe-lens push-in",
+      "action": "Sal stands on the edge of a dark card rooftop, megaphone raised, the sleeping tiny town blurred behind him in blue night light.",
+      "product_state": "absent",
+      "audio": "quiet night hum, tiny megaphone click, dialogue",
+      "caption": "Review's at nine. This town's asleep.",
+      "refs": [
+        "sal",
+        "town"
+      ],
+      "keyframe_prompt": "Macro close-up at figurine eye level: Sal, the 2 cm hand-painted foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, tiny red megaphone), standing on the edge of a white card rooftop of the miniature town from the location reference, megaphone raised to his mouth, the dark sleeping town behind him out of focus with a few warm window lights, cool blue night light. Visible paint texture on the figurine. No signs, no text.",
+      "dressing": [
+        "the paint chip on the megaphone rim",
+        "the scuffed white hard hat",
+        "a pin-head street lamp glowing beside him",
+        "the crooked civic hall roof far behind"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.6,
+      "t1": 4.6,
+      "beat": "setup",
+      "framing": "high-angle tilt-shift wide",
+      "camera": "slow motion-control slide",
+      "action": "The tiny crew asleep all over the unfinished model: one slumped on scaffolding, two on a bench, one curled in a wheelbarrow; half-built houses with bare card walls.",
+      "product_state": "absent",
+      "audio": "tiny snores, a creak of card",
+      "caption": "",
+      "refs": [
+        "town",
+        "crane"
+      ],
+      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference at night: several 2 cm hand-painted figurines in orange hi-vis vests and white hard hats asleep on the job, one slumped on balsa scaffolding against a half-built card house, two asleep on a bench, one curled up in a tiny wheelbarrow, bare unfinished card walls, windows dark, the empty paved square in the centre. Cool blue night light, tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Upright vertical composition, level horizon. No signs, no text.",
+      "dressing": [
+        "a figurine asleep in the wheelbarrow of balsa offcuts",
+        "balsa scaffolding tied with glue strings",
+        "pencil guide lines on the bare card walls",
+        "the snapped knife blade lying across the paving",
+        "the balsa crane parked idle with its thread cable hanging"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "low angle from the square",
+      "camera": "locked, tilt up",
+      "action": "Sal in the empty square shouts up at the sky; a giant warm shadow falls over him as something enormous descends.",
+      "product_state": "not yet visible; only its huge soft shadow falls over the square",
+      "audio": "megaphone, rushing air, dialogue",
+      "caption": "Bring in the big one!",
+      "refs": [
+        "sal",
+        "town"
+      ],
+      "keyframe_prompt": "Low-angle macro shot from ground level in the paved square of the miniature town from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), shouting up at the sky through his tiny red megaphone, a huge soft shadow falling across him and the square from above as something enormous descends out of frame, blurred card buildings around him. No signs, no text.",
+      "dressing": [
+        "the dried glue drip on the paving",
+        "blue painter's tape on a loose card roof",
+        "the toothpick footbridge over the resin river",
+        "flocked foam trees on wire trunks"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.4,
+      "beat": "product",
+      "framing": "low-angle tilt-shift wide",
+      "camera": "slow crane up the product",
+      "action": "A giant real adult hand sets the full-size product down in the square (room-sized products are settled at the edge of the board); it towers over the tiny houses while the woken figurines stare up.",
+      "product_state": "hero, closed or unused, label or logo facing camera",
+      "audio": "a deep thud like a landing monument, tiny gasps",
+      "caption": "",
+      "refs": [
+        "product",
+        "town"
+      ],
+      "keyframe_prompt": "Low-angle tilt-shift macro photograph in the miniature town square from the location reference: {{action}}, towering over the tiny white and sky-blue card houses like a landmark, label or logo facing the viewer and undistorted, matching the product reference exactly as a real full-size object, several 2 cm hand-painted figurines in orange hi-vis vests around its base staring up in awe. Warm desk-lamp light catching the product. The whole product is in sharp focus and fully visible in one continuous photograph. Only one of the product in the scene. Upright vertical composition, level horizon. No signs, no other text.",
+      "dressing": [
+        "the snapped knife blade on the paving beside the product",
+        "a stack of card wall panels on a coffee-stirrer pallet",
+        "the pin-head street lamps",
+        "the green cutting mat grid at the edge"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright and closed in the centre of the square",
+        "applied": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright in the centre of the square with its cap on",
+        "worn": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set down in the centre of the square like a new landmark",
+        "handheld": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright in the centre of the square",
+        "carried": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set down standing and closed in the centre of the square",
+        "home": "{{product.visual}} at its real size settled at the edge of the model board (on the desk if it fits, on the floor right beside the desk if it does not), rising behind the tiny houses like a mountain range, a normal-size adult hand with dark brown skin resting on it as she settles it into place",
+        "consumable": "a normal-size adult hand with dark brown skin just letting go of a pack of {{product.visual}}, real full-size, set upright in the centre of the square"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 9.4,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "macro on the product",
+      "camera": "locked",
+      "action": "On the product, three tiny crew members use the rope rig to open it, switch it on or unpack it; the moment is enormous at their scale.",
+      "product_state": "opening, switching on or unpacking, label or logo visible",
+      "audio": "tiny heave-ho, the product's own sound like thunder at tiny scale",
+      "caption": "",
+      "refs": [
+        "product",
+        "sal",
+        "rig"
+      ],
+      "keyframe_prompt": "Macro photograph on the real full-size product from the product reference: {{action}}, the product's label or logo visible and undistorted, the dark blurred miniature town far below. Only one of the product. No other text.",
+      "dressing": [
+        "the white thread rope with a loop knot",
+        "the bead pulley on a bent pin",
+        "a toothpick lever braced on an edge",
+        "a figurine's scuffed white hard hat"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid of {{product.visual}}, heaving on a thin rope tied to its opening tab or cap until it cracks open and a burst of cold white mist rises like a geyser",
+        "applied": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats on top of {{product.visual}}, pushing on toothpick levers around its cap like sailors at a capstan until it twists open",
+        "worn": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats climbing {{product.visual}} on thread ropes like a rock face, one already waving from the top",
+        "handheld": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats on {{product.visual}}, heaving together on a toothpick lever against its button, lid or clasp until it clicks open or on",
+        "carried": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats hauling the zip pull or clasp of {{product.visual}} along with a thread rope, opening it like a warehouse door",
+        "home": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats climbing a toothpick ladder onto {{product.visual}} and heaving on a thread rope tied to its switch, knob, handle or corner until it clicks on or settles into place",
+        "consumable": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats heaving on a thread rope that runs over a bead pulley, hauling one {{product.visual}} up out of its open pack"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 14.2,
+      "beat": "product",
+      "framing": "low-angle macro medium",
+      "camera": "slow slide around the base",
+      "action": "Sal stands at the base of the product with one hand on it like a monument, megaphone lowered, and says the product line; the label rises above him.",
+      "product_state": "open or in use, in the square, label readable",
+      "audio": "the product's sound settling, a tiny cheer, dialogue",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "sal",
+        "product",
+        "town"
+      ],
+      "keyframe_prompt": "Low-angle macro shot at figurine eye level in the miniature town square from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, red megaphone lowered), {{action}}. The real full-size product matches the product reference exactly, label or logo facing the viewer and undistorted. Warm light, blurred card houses. Only one of the product. No other text.",
+      "dressing": [
+        "the chipped red megaphone lowered at his side",
+        "the pencil-lead crowbar over his shoulder",
+        "a figurine climbing a toothpick ladder behind",
+        "warm pin-head lamps"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "standing proudly at the base of {{product.visual}}, now open, one tiny hand resting on it like a monument, the label rising above him, cold droplets on it",
+        "applied": "standing proudly at the base of {{product.visual}}, its cap lying beside him like a fallen dome, one tiny hand resting on it, the label rising above him",
+        "worn": "standing proudly in front of {{product.visual}}, which lies in the square like a new landmark with tiny crew climbing it, one tiny hand resting on it",
+        "handheld": "standing proudly at the base of {{product.visual}}, now open or switched on, one tiny hand resting on it, the logo rising above him",
+        "carried": "standing proudly in the open mouth of {{product.visual}} like at a warehouse door, one tiny hand on its edge, the logo rising above him",
+        "home": "standing proudly at the foot of {{product.visual}} at the edge of the board, which rises behind him like a mountain, one tiny hand resting on it",
+        "consumable": "standing proudly at the base of the open pack of {{product.visual}}, one piece lying beside him like a monument, the label rising above him"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 14.2,
+      "t1": 17.0,
+      "beat": "build",
+      "framing": "high-angle tilt-shift wide",
+      "camera": "motion-control slide, stop-motion figures",
+      "action": "Every window in the tiny town switches on warm amber; the crew is awake, a toy crane swings a roof into place, figurines carry card walls, the product towering over it all.",
+      "product_state": "in the square or at the board edge, small in the background",
+      "audio": "tiny hammering, crane whirr, bustle",
+      "caption": "",
+      "refs": [
+        "town",
+        "product",
+        "crane"
+      ],
+      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference, now busy: every tiny window glowing warm amber, 2 cm hand-painted figurines in orange hi-vis vests awake and working, carrying white card walls, hammering, a small toy crane swinging a sky-blue card roof into place, and {{action}}, the real full-size product matching the product reference. Tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Only one of the product. Upright vertical composition, level horizon. No signs, no text.",
+      "dressing": [
+        "the balsa crane swinging a sky-blue card roof on its thread cable",
+        "the resin river with trapped bubbles",
+        "the civic hall roof now straight",
+        "figurines carrying white card panels",
+        "every tiny window glowing amber"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} standing open in the centre of the square, towering over it all, label facing the viewer",
+        "applied": "{{product.visual}} standing in the centre of the square, a tiny crew rolling a thin stripe of it onto a card roof like paint",
+        "worn": "{{product.visual}} lying in the square as the crew's newest landmark, figurines climbing it on thread ropes",
+        "handheld": "{{product.visual}} standing in the centre of the square, open or switched on, towering over it all, logo facing the viewer",
+        "carried": "{{product.visual}} standing open in the centre of the square, figurines carrying tiny card crates out of it like a warehouse",
+        "home": "{{product.visual}} rising at the edge of the board like a mountain behind the glowing town",
+        "consumable": "the pack of {{product.visual}} standing in the centre of the square, the balsa crane lifting one piece out of it"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 17.0,
+      "t1": 20.6,
+      "beat": "build",
+      "framing": "pull-back to human-scale medium",
+      "camera": "one continuous pull-back and rise",
+      "action": "Reveal: the camera pulls back and up to show the town is a model on Amara's desk at 2am; she takes the product from the model, uses it, and speaks to the tiny crew.",
+      "product_state": "in her hand or in use, label readable",
+      "audio": "room tone, desk lamp buzz, dialogue",
+      "caption": "Okay, team. One more street.",
+      "refs": [
+        "amara",
+        "desk",
+        "product"
+      ],
+      "keyframe_prompt": "Photoreal medium shot at a studio desk at 2am from the location reference: Amara, the woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), beside a large handmade white and sky-blue card model of a town square with tiny glowing windows and tiny figurines in orange vests, {{action}}. The product matches the product reference exactly and is undistorted and fully visible, never covering her mouth. Warm desk lamp light on her face and the product, amused tired smile. Only one of the product in the scene. Upright vertical composition, level horizon. No text.",
+      "dressing": [
+        "the chewed pencil in her hair",
+        "blue tape on her glasses arm",
+        "glue flecks on her sweater cuff",
+        "the craft knife and cork-backed ruler on the mat",
+        "the cold coffee mug with a spoon in it"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "lifting {{product.visual}} out of the square and holding it open at chin height just after a sip, label facing the viewer",
+        "applied": "lifting {{product.visual}} out of the square and smoothing a little onto the back of her hand, then holding it at chin height with the label readable",
+        "worn": "lifting {{product.visual}} out of the square and putting it on, the product clearly in frame on her",
+        "handheld": "lifting {{product.visual}} out of the square and using it for a moment, then holding it at chin height with the logo readable",
+        "carried": "lifting {{product.visual}} out of the square and slinging it onto her shoulder, logo readable",
+        "home": "reaching over to {{product.visual}} beside the model board and using it (switching it on, leaning into it or resting a hand on it), the product fully in frame",
+        "consumable": "lifting one {{product.visual}} out of its pack in the square and using it, then holding the pack at chin height with the label readable"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 20.6,
+      "t1": 25.0,
+      "beat": "payoff",
+      "framing": "macro foreground, human-scale background",
+      "camera": "slow push past Sal",
+      "action": "9am in a bright review room: the finished model on a white plinth, Sal in the foreground giving a thumbs up to the lens; behind, out of focus, Amara presents and blurred jurors applaud.",
+      "product_state": "absent",
+      "audio": "applause, morning room tone, dialogue",
+      "caption": "Nine a.m. Nailed it.",
+      "refs": [
+        "sal",
+        "amara",
+        "town"
+      ],
+      "keyframe_prompt": "Macro photograph in a bright morning review room: in sharp focus in the foreground, Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), standing on the edge of the finished miniature town model from the location reference and giving a thumbs up to the lens, the model finished with every building complete and trees in place; behind him, slightly soft but clearly recognisable, Amara, the Black American woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), presenting with a proud smile to a few blurred jurors who are applauding, big bright windows. The product is not in this shot. No text.",
+      "dressing": [
+        "the paint-chipped megaphone tucked under his arm",
+        "finished flocked trees all standing",
+        "the civic hall with its straight roof",
+        "big bright morning windows"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 25.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "tilt-shift medium, pack shot",
+      "camera": "slow motion-control push",
+      "action": "Morning sun through the studio window: the product in the finished model, the tiny crew resting and picnicking around its base; clean space above for the tagline.",
+      "product_state": "hero, label to camera",
+      "audio": "birds outside, tiny contented sigh, score resolves",
+      "caption": "{{line.L6}}",
+      "refs": [
+        "product",
+        "town",
+        "crane"
+      ],
+      "keyframe_prompt": "Tilt-shift macro pack shot in soft golden morning window light: {{action}}, the real full-size product matching the product reference exactly and undistorted, towering over completed white and sky-blue card houses and flocked trees, 2 cm hand-painted figurines in orange hi-vis vests resting around its base, one lying back on the paving, two sharing a tiny picnic. The product is the brightest object in the frame and sits in the band of sharp focus. Large softly blurred empty area in the top third for a title. Only one of the product. Upright vertical composition, level horizon. No signs, no other text.",
+      "dressing": [
+        "two figurines sharing a picnic on a card crumb",
+        "the balsa crane parked with its hook hanging",
+        "the resin river glinting",
+        "the pin-head lamps now off in the morning light"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright and open in the centre of the finished square, label facing the viewer, cold droplets on it",
+        "applied": "{{product.visual}} standing upright in the centre of the finished square, cap on, label facing the viewer",
+        "worn": "{{product.visual}} set in the centre of the finished square as its landmark, best side to the viewer",
+        "handheld": "{{product.visual}} standing in the centre of the finished square, logo facing the viewer",
+        "carried": "{{product.visual}} standing upright in the centre of the finished square, logo facing the viewer",
+        "home": "{{product.visual}} at the edge of the finished board, rising behind the tiny town like a mountain in the morning light, best side to the viewer",
+        "consumable": "the pack of {{product.visual}} standing upright in the centre of the finished square, one piece beside it, label facing the viewer"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 7,
+      "exact_risk": false,
+      "refs": [
+        "sal card",
+        "town plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 tilt-shift macro footage of a handmade 1:87 miniature town at night, hand-painted 2 cm figurines that move in stepped stop-motion while the camera glides smoothly. Shot 1 (0 to 2.6 s): probe-lens push-in on @Image1 (Sal, the foreman figurine) on a card rooftop, megaphone up, he says in a gravelly voice: \"Review's at nine. This town's asleep.\" Shot 2 (2.6 to 4.6 s): high-angle tilt-shift slide over the town from @Image2, tiny crew asleep on scaffolding, a bench and in a wheelbarrow. Shot 3 (4.6 to 7 s): low angle in the empty square, Sal shouts up through the megaphone: \"Bring in the big one!\" and a huge soft shadow falls across him. Natural adult voice, close-miked, not sped up. Native sound: tiny snores, card creaks, rushing air. No music. No text, no signs."
+    },
+    {
+      "id": "U2",
+      "t0": 7.0,
+      "t1": 14.2,
+      "shots": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "sal card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 tilt-shift macro, handmade miniature town. Shot 1 (0 to 2.4 s): {{action.S04}}, the product from @Image1 as a real full-size object towering over the card houses, label or logo to camera; the tiny figurines stare up. Shot 2 (2.4 to 4.4 s): macro, {{action.S05}}. Shot 3 (4.4 to 8 s): low angle at the base, @Image2 (Sal), {{action.S06}}, and says proudly: \"{{line.L3}}\" (say the brand as {{product.phonetic}}). The product is photographically exact, keeps its shape, colours and label as @Image1, and never shrinks or changes scale. Only one of the product. Native sound: a deep monument thud, tiny gasps, a heave-ho, the product's own sound enormous at tiny scale. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 14.2,
+      "t1": 25.0,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "town plate",
+        "amara card",
+        "desk plate",
+        "sal card",
+        "product image",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 miniature to human scale. Shot 1 (0 to 2.8 s): high-angle tilt-shift slide over @Image1 (the model town), every tiny window switches on warm amber, the figurines wake and build in stop-motion, a toy crane swings a roof in, and {{action.S07}}. Shot 2 (2.8 to 6.4 s): one continuous pull-back and rise reveals the town is a card model on a desk at 2am; @Image2 (Amara), {{action.S08}}, and says softly: \"Okay, team. One more street.\" Shot 3 (6.4 to 11 s): a bright review room at 9am, the finished model on a plinth, @Image4 (Sal) in sharp macro foreground gives a thumbs up to the lens and says: \"Nine a.m. Nailed it.\" while Amara presents out of focus and blurred jurors applaud. The desk and model match @Image3; the product matches @Image5 exactly. Only one of the product. Native sound: tiny hammering, crane whirr, desk lamp buzz, applause. No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 25.0,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "town plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 tilt-shift macro pack shot in golden morning window light. Slow motion-control push toward {{action.S10}}; the real full-size product matches @Image1 exactly, in the finished miniature square from @Image2, tiny painted figurines resting and picnicking around its base, one waving slowly in stop-motion. The product does not move or change shape. Keep the top third as soft empty blur. Native sound: birds outside the window, a tiny contented sigh. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "night",
+      "t0": 0,
+      "t1": 7.0,
+      "brief": "Sparse pizzicato strings and a music-box celesta in a sleepy lullaby waltz, D major, 84 bpm, leaving room for the tiny voice."
+    },
+    {
+      "section": "the big one",
+      "t0": 7.0,
+      "t1": 14.2,
+      "brief": "A timpani roll and a tiny brass fanfare as the product lands, a glockenspiel sparkle on the product moment, then the waltz switches to a brisk 4/4."
+    },
+    {
+      "section": "build and reveal",
+      "t0": 14.2,
+      "t1": 25.0,
+      "brief": "Busy plucked strings and brushed snare like a workshop montage, opening into full warm strings on the pull-back reveal and a small triumphant lift for 9am."
+    },
+    {
+      "section": "morning",
+      "t0": 25.0,
+      "t1": 30,
+      "brief": "The lullaby melody returns in daylight on celesta and warm strings, resolving on a gentle held chord."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 8.0,
+      "sound": "deep monument thud as the product lands on card (for room-sized products, the thud of it being settled into place)",
+      "why": "tells the ear the product is enormous in this world"
+    },
+    {
+      "t": 10.2,
+      "sound": "the product's own opening, click or switch sound, sweetened as thunder at tiny scale",
+      "why": "the product moment must register and sell the scale gag"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "sal",
+      "plan": "native voice from U1, then his U1 vocal stem as voice reference for U2 and U3; natural adult pitch, never chipmunked"
+    },
+    {
+      "speaker": "amara",
+      "plan": "native in U3, her U3 stem as voice reference for the tagline voiceover"
+    }
+  ],
+  "captions": {
+    "font": "Recoleta SemiBold",
+    "size": "4.8% of frame height",
+    "color": "#1E2A3A on a cream #FFF6E6 rounded label with a hairline #1E2A3A border",
+    "active_word": "the spoken word underlined in sky blue #6CB8E6",
+    "shadow": "soft 0 3px 6px rgba(0,0,0,.25) under the label, as if it is a paper tag in the model",
+    "position": "centre, 70% down the frame, inside the tilt-shift blur band so it never covers the in-focus figurine",
+    "max_words_on_screen": 5,
+    "box": true,
+    "scale_labels": "in post, a small handwritten-style tag (like a model-shop label) names the scale on the reveal: 1:87, then 1:1"
+  },
+  "post_text": [
+    {
+      "t0": 0.2,
+      "t1": 2.4,
+      "text": "Riverside Commons, 2:00 a.m.",
+      "sub": "",
+      "style": "small cream model-shop tag with a hairline border, Recoleta, top left, as if pinned into the model"
+    },
+    {
+      "t0": 17.2,
+      "t1": 18.4,
+      "text": "1:87",
+      "sub": "",
+      "style": "handwritten-style scale tag, cream label, next to the model as the pull-back starts"
+    },
+    {
+      "t0": 18.4,
+      "t1": 19.8,
+      "text": "1:1",
+      "sub": "",
+      "style": "the same tag flips to 1:1 when Amara comes into frame"
+    },
+    {
+      "t0": 20.8,
+      "t1": 22.4,
+      "text": "Final review, 9:00 a.m.",
+      "sub": "",
+      "style": "cream model-shop tag, top left"
+    },
+    {
+      "t0": 26.8,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L6}}",
+      "style": "Recoleta SemiBold, deep navy on a cream rounded label, centred in the soft blur above the product, fades up 8 frames; sub is product.tagline when the page has one, else the L6 line"
+    }
+  ],
+  "qa": [
+    "the product in S04 to S08 and S10 is full-size and photographically exact against the product image, never shrunk to model scale",
+    "only one of the product in any shot",
+    "Sal identical across S01, S03, S06, S09 against his figurine sheet; Amara identical in S08 and S09",
+    "figurine voices are natural adult pitch, never sped up",
+    "room-sized home products sit at the board edge or beside the desk, never inside the square",
+    "no readable model text; every tag, scale label and title is added in post",
+    "L3 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "Review's at nine. This town's asleep.",
+      "L2": "Bring in the big one!",
+      "L3": "Red Bull Sugarfree. Wide awake, no sugar.",
+      "L4": "Okay, team. One more street.",
+      "L5": "Nine a.m. Nailed it.",
+      "L6": "Wiiings without sugar."
+    },
+    "actions": {
+      "S04": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright and closed in the centre of the square",
+      "S05": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid of {{product.visual}}, heaving on a thin rope tied to its opening tab or cap until it cracks open and a burst of cold white mist rises like a geyser",
+      "S06": "standing proudly at the base of {{product.visual}}, now open, one tiny hand resting on it like a monument, the label rising above him, cold droplets on it",
+      "S07": "{{product.visual}} standing open in the centre of the square, towering over it all, label facing the viewer",
+      "S08": "lifting {{product.visual}} out of the square and holding it open at chin height just after a sip, label facing the viewer",
+      "S10": "{{product.visual}} standing upright and open in the centre of the finished square, label facing the viewer, cold droplets on it"
+    }
+  }
+}

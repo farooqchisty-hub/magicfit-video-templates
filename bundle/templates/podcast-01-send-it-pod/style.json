@@ -1,0 +1,59 @@
+{
+  "key": "podcast",
+  "name": "Podcast clip",
+  "definition": "A 30 second clip cut from what looks like a real video podcast: two hosts at broadcast mics on a lived-in set, mid-conversation about something genuinely interesting. The product comes up because the story needs it, often as the punchline, and the clip ends like a clip, not like a commercial.",
+  "why_it_sells": "Borrowed trust and borrowed attention: viewers stop for a good story between two people who clearly like each other, and a product mentioned by a host reads as a recommendation, not an ad. The most-mentioned style in the social research (9x growth in podcast UGC briefs, 'S tier for anything that needs explaining'). It only works if the conversation would be worth watching with the product removed; the product has to arrive as a laugh or a reveal, never as a read-out.",
+  "visual_grammar": "The three-camera podcast rig: a wide two-shot across the desk, and two singles shot slightly off-axis from the side so each host looks past the lens to the other. Big dynamic broadcast mics on boom arms with foam or no windscreen, over-ear headphones, mugs and props on the desk. A lived-in set behind: shelf of hobby gear, plants, a warm practical lamp and one coloured neon shape. Cutaways to reactions and one insert of the object being talked about. Framing is static per camera; energy comes from cutting between cameras on the laugh.",
+  "camera": "Three locked cameras on 35mm (wide) and 50 to 85mm (singles), the singles at 30 degrees off the speaker's eyeline, eye level. Occasional slow digital punch-in (10%) on the best line, the way podcast editors do. One locked macro insert on the product, never handheld.",
+  "light": "Soft key from a big diffused source on the camera-far side of each host, warm practicals in the background (a lamp, string lights), a coloured neon accent rim, slightly dark set so the faces pop. Looks like a well-lit creator studio, not a TV studio.",
+  "texture": "Clean mirrorless video, 4K sharpness, shallow depth of field on singles with creamy background bokeh, a slight warm grade, no grain, no letterbox. Real skin, real stubble, headphone marks in the hair.",
+  "palette_rule": "A warm, wooden, lived-in set (walnut, cream, forest green) with the product's cool colours (sky blue and silver) brought in as the neon accent and one prop, so the can looks like it belongs on the desk.",
+  "pacing": "Cold-open mid-story: the first line is the most outrageous sentence of the story, no intro. Cut camera on every speaker change or laugh, roughly every 2 seconds, overlapping speech allowed. The product insert is the held beat (at least 1.5 s). The punchline lands on a two-shot so both reactions are visible. End on a laugh and a one-line host-read, then cut hard.",
+  "sound": "Close, warm broadcast-mic voices with room tone, headphone bleed, chair creaks and a mug on the desk. The can crack is recorded close to the mic (it should sound almost too loud, a podcast in-joke). Laughter is real and overlapping. No score under the conversation; a short podcast stinger on the end card, added in post.",
+  "caption_look": {
+    "font": "Inter ExtraBold",
+    "size": "5.4% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#7FD1FF sky blue on the word being spoken",
+    "shadow": "soft black drop shadow 0 3px 10px rgba(0,0,0,.7)",
+    "box": false,
+    "position": "centre, 70% down the frame, above the platform UI safe zone and below the hosts' mouths",
+    "max_words_on_screen": 4,
+    "speaker_colour": "each host's words take a subtle tint on their first line (Brynn warm white, Kofi cool white) so viewers can follow overlapping speech",
+    "lower_third": "show name and episode lower third on the first wide shot, rendered in post",
+    "waveform": "small animated audio waveform bar under the captions, rendered in post"
+  },
+  "model_vocab": [
+    "video podcast studio set",
+    "large dynamic broadcast microphone on a boom arm",
+    "over-ear studio headphones",
+    "three-camera podcast setup, off-axis single",
+    "warm practical lamp and a coloured neon accent shape",
+    "shallow depth of field, creamy bokeh",
+    "mid-laugh, genuine reaction",
+    "lived-in shelves of climbing gear"
+  ],
+  "failure_modes": [
+    "microphones come out as real brand models with visible logos: say plain matte black broadcast mic with no logo",
+    "the neon sign turns into readable words: ask for an abstract neon line drawing of a mountain outline, no letters",
+    "singles look straight into the lens like a presenter: say 'looking past camera at the co-host off frame left or right'",
+    "both hosts get cans or the mug becomes a second can: say the woman drinks from a plain cream ceramic mug and only the man has the can",
+    "headphones float or merge into hair: say headphones resting on the ears with the band over the head",
+    "the set reads as a news desk or TV studio: say small cosy creator studio, walnut desk, acoustic foam panels, plants",
+    "climbing gear on the shelves picks up brand prints: say plain coloured ropes and unbranded helmets",
+    "dense desk dressing brings back real-brand habits: a closed laptop gets a fruit logo on its lid; describe it as a dark grey laptop with a completely plain matte lid",
+    "a richly dressed studio plate pulls every single back to the plate's wide desk framing with the same foreground cable, rock and ring: for singles and inserts say the camera is close, the desk is a thin strip at the bottom edge, and do not copy the reference's framing",
+    "a clean band for captions is drawn as a literal white rectangle: ask for a plain uncluttered lower third with nothing drawn there",
+    "asking for a red recording light makes the model add a readable on-air sign: describe a small round red glass lamp with nothing written on or near it, or leave it out of close singles"
+  ],
+  "negatives": [
+    "no real brands, logos or sponsor names except the product",
+    "no readable text generated by the model, neon and posters are shapes only",
+    "no brand logos on microphones, headphones, laptops or gear",
+    "no TV news desk look",
+    "no product drunk on a mountain or implied as safety equipment",
+    "no extra fingers",
+    "no more than one can per person"
+  ],
+  "prompt_prefix": "Video podcast frame, vertical 9:16, small cosy creator podcast studio, large matte black broadcast microphones on boom arms, over-ear headphones, soft key light, warm practicals and a sky-blue neon accent, shallow depth of field, clean mirrorless video look."
+}

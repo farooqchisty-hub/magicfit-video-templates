@@ -1,0 +1,823 @@
+{
+  "id": "ugc-01-finals-week",
+  "style": "ugc",
+  "title": "Finals Week",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "2am in the university library, seven hours before her final. A grad student films herself explaining why she swapped her old study-night habit for {{product.name}}, then proves it by the time the window goes blue.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a study-night snack or pick-me-up at the carrel is the most native UGC product moment there is"
+      ],
+      "applied": [
+        "good",
+        "lip balm, hand cream or under-eye patches tried on camera at 2am read as honest creator content"
+      ],
+      "worn": [
+        "good",
+        "glasses, hoodies, headphones and socks pulled on in the selfie; shoes only show well in the rear-camera insert"
+      ],
+      "handheld": [
+        "great",
+        "earbuds, pens, timers and phone gear held to the lens, then used at the desk"
+      ],
+      "carried": [
+        "good",
+        "a backpack, pencil case or laptop sleeve unzipped on the carrel to show what is inside"
+      ],
+      "home": [
+        "stretch",
+        "only desk-scale home items (lamp, cushion, speaker, organiser) fit a library carrel; the beat never leaves the desk"
+      ],
+      "consumable": [
+        "great",
+        "gum, snacks and refill packs pulled from her bag every study night"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "sleep aids or anything that sedates (the story is staying sharp to study)",
+      "furniture or anything that cannot sit on a library desk",
+      "prescription or regulated drugs"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Dani Ortiz is a second-year chemistry PhD student at Eastbrook University. Her cumulative organic exam is at 9am in a basement lecture room, and a fail means a retake in May.",
+      "Carrel 31 on the Harlow Hall quiet floor has been hers since first year. She pencilled a tiny sleeping cat on its side wall during her first finals and adds one whisker every term; there are four now.",
+      "Her deck is 212 hand-drawn reaction cards, one mechanism per card, held with a red rubber band. The plan is to get through all of them before the window goes light.",
+      "Her grandmother in San Diego mails a dented tin of homemade snowball cookies every finals week. It arrived Tuesday; it is half empty.",
+      "She posts study-with-me videos to about 4,000 followers from a phone propped on two library books and a hair tie, and one student two carrels down has been asleep since midnight."
+    ],
+    "locations": {
+      "carrel": {
+        "foreground": [
+          "a fat stack of white index cards held with a red rubber band, pencil-drawn hexagon rings and curved arrows on the top card, corners soft and grey from shuffling",
+          "three plain yellow highlighters with blank unprinted barrels, one missing its cap, one with a chewed end",
+          "a dented plain pale blue cookie tin decorated only with an embossed flower pattern and no printing, lid ajar, wax paper and fine white cookie dust spilling onto the desk",
+          "a tangled white charging cable running off the desk edge to a power strip taped under the carrel",
+          "a half-built molecular model kit: black and white plastic balls on grey sticks in a six-sided ring",
+          "a crumpled plain silver foil wrapper with no printing and a scatter of pencil shavings"
+        ],
+        "midground": [
+          "the pale wooden carrel walls, scuffed and covered in years of faint pencil doodles, with a small pencil sketch of a sleeping cat and a curling strip of old masking tape",
+          "a clip-on desk lamp with a bent neck and a pink hair tie looped around it",
+          "a plain silver laptop seen from behind, a big round drawn sticker of a ringed planet stuck dead centre on the lid, with smaller drawn stickers of a cactus and a small frog around it, nothing else on the lid",
+          "a thick textbook with a cracked spine and a plain cover, bristling with coloured paper tabs",
+          "an olive-green backpack slumped on the next chair with a carabiner and a small plush avocado keychain",
+          "a pair of clear lab safety goggles resting on the backpack"
+        ],
+        "background": [
+          "steel shelving with plain unlettered book spines in faded reds, greens and browns, and a half-loaded book cart with no sign or label on it",
+          "greenish fluorescent tubes, one of them dead and dark, one faintly flickering",
+          "a student asleep two carrels down with his hood up and his head on his folded arms",
+          "a tall window reflecting the ceiling tubes, pitch black at 2am",
+          "a round wall clock with plain tick marks and no numbers",
+          "worn blue-grey carpet tiles with an old coffee stain"
+        ]
+      }
+    },
+    "personal_props": {
+      "dani": [
+        "thin gold-rimmed round glasses with a wrap of clear tape on the left arm where it snapped in first year",
+        "a tortoiseshell claw clip with one chipped tooth",
+        "her grandmother's worn silver band on her right thumb",
+        "a blank white lab badge on a retractable reel clipped to her hoodie pocket, the reel cracked",
+        "a yellow highlighter smudge on the cuff of her oatmeal hoodie"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "flashcards",
+        "name": "The 212-card mechanism deck",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a thick stack of plain white index cards held with a red rubber band, corners soft and grey from handling, the top card showing only pencil drawings of hexagon molecule rings and curved arrows with smudges and eraser marks, plus a second view of the stack fanned out. No letters, words or numbers anywhere. Photoreal, shot like a real phone photo in flat light.",
+        "asset": "assets/flashcards.jpg"
+      },
+      {
+        "id": "cookie_tin",
+        "name": "Grandma's cookie tin",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a round pale blue metal cookie tin with a raised flower pattern embossed on the lid, a dent on one side and small rust spots on the rim, lid ajar, inside wax paper and round crumbly snowball cookies thickly dusted white, fine white dust on the grey surface. No letters or logos anywhere. Photoreal, flat phone-photo light.",
+        "asset": "assets/cookie_tin.jpg"
+      },
+      {
+        "id": "laptop",
+        "name": "Dani's sticker laptop",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: the closed lid and the open back of a plain silver laptop with no logo, the lid with a big round hand-drawn style ringed planet sticker dead centre on the lid and smaller cartoon stickers around it (a green cactus, a small smiling frog, a coffee cup, a star), some stickers peeling at the corners, a scuff on one edge. Stickers are drawings only, no letters or words. Photoreal, flat phone-photo light.",
+        "asset": "assets/laptop.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Eastbrook University",
+        "mark": "a simple shield outline with three wavy horizontal lines",
+        "colors": "faded navy on oatmeal",
+        "appears_on": "the crest shape on her hoodie, her lab badge reel",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Harlow Hall Library",
+        "mark": "none, the building is anonymous",
+        "colors": "pale oak, blue-grey carpet",
+        "appears_on": "nowhere; every sign is blank",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Dani's study channel",
+        "mark": "a small drawn beaker with a star",
+        "colors": "white on the platform sticker",
+        "appears_on": "only the creator end sticker",
+        "text_in_post": "her handle on the end sticker if the platform shows it"
+      }
+    ],
+    "wear_and_time": "Mid December, 2:07am to about 6:10am on the last night of finals week. The tin is half empty, one highlighter has lost its cap, the lamp neck is bent from being yanked, the backpack has slid off its chair, and a second pile of finished cards grows on the left while the rubber-banded stack shrinks. By dawn there is frost in the window corners, her flyaways have multiplied and the fluorescent light looks weak against the blue window.",
+    "sound_world": [
+      "the fluorescent tubes buzzing, one ticking as it flickers",
+      "index cards riffling and slapping onto the done pile",
+      "a highlighter squeaking across a page",
+      "the cookie tin lid clinking",
+      "the radiator knocking under the window",
+      "the student two carrels down breathing slowly in his sleep",
+      "her phone mic catching her own half-whisper bouncing off the carrel walls"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "the product standing by her elbow on the carrel desk between the highlighters and the cookie tin, cold beads on it"
+      ],
+      "applied": [
+        "the product lying on the rubber-banded index cards beside the highlighters"
+      ],
+      "worn": [
+        "the product folded on the next chair beside her olive backpack"
+      ],
+      "handheld": [
+        "the product on the index cards beside the laptop, its cable trailing to the taped power strip if it charges"
+      ],
+      "carried": [
+        "the product slumped on the next chair, half unzipped, cards and highlighters showing inside"
+      ],
+      "home": [
+        "the product set up on the carrel desk or clipped to the carrel wall beside the bent-neck lamp"
+      ],
+      "consumable": [
+        "a pack of the product half out of the front pocket of her olive backpack"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "dani",
+      "name": "Dani Ortiz",
+      "role": "creator, second-year chemistry grad student filming her own video",
+      "look": "woman, 25, Mexican American, Latina, warm tan-brown skin, dark brown eyes, full dark brows, dark brown hair piled in a messy claw clip with flyaways, thin gold-rimmed round glasses, light under-eye shadows, no makeup, small gold hoop earrings, oversized oatmeal hoodie over a grey tee",
+      "voice": "warm, fast, conspiratorial library half-whisper, dry humour, American West Coast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Dani Ortiz: 25, Mexican American Latina woman with clearly warm tan-brown skin (not pale), dark brown eyes, full dark brows, soft round face, dark brown hair piled in a messy claw clip with flyaways, thin gold-rimmed round glasses, light under-eye shadows, no makeup, small gold hoop earrings, oversized plain oatmeal hoodie with no print over a grey tee. Tired but amused expression, a real person, not a model. Consistent identity across all three views. No text.",
+      "asset": "assets/dani.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "carrel",
+      "name": "Library study carrel at 2am",
+      "plate_prompt": "Unedited smartphone photo, vertical 9:16, upright composition, level horizon: an empty pale wooden study carrel on the quiet floor of a university library at 2am, seen from where the student sits, genuinely messy and lived in after a week of finals. On the desk an open laptop seen from behind, a big round planet sticker covering the centre of its lid, highlighters, index cards, a cookie tin and a textbook. Behind: rows of steel shelves with plain coloured book spines and no lettering, greenish overhead fluorescent tubes, a tall pitch black window. Detail is densest on the shelves and carrel walls, and the centre of the desk where she sits stays clear. Phone sensor noise, flat light, no people in the foreground, no readable text, no logos.",
+      "asset": "assets/carrel.jpg"
+    }
+  ],
+  "asset_urls": {
+    "dani": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-01-finals-week/assets/dani.jpg",
+    "carrel": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-01-finals-week/assets/carrel.jpg",
+    "flashcards": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-01-finals-week/assets/flashcards.jpg",
+    "cookie_tin": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-01-finals-week/assets/cookie_tin.jpg",
+    "laptop": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-01-finals-week/assets/laptop.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.4",
+      "summary": "Selfie at 2am with a text hook box; she whispers the stakes: exam at nine, and she is weirdly fine."
+    },
+    {
+      "id": "problem",
+      "t": "2.4-4.6",
+      "summary": "Jump cut: the old way she used to get through study nights. Never again."
+    },
+    {
+      "id": "product",
+      "t": "4.6-11.4",
+      "summary": "She lifts the product to the lens, flips to the rear camera for the product moment on the desk, then names it with the one benefit."
+    },
+    {
+      "id": "proof",
+      "t": "11.4-21.5",
+      "summary": "She says what it does for her, then a propped time-lapse from 2am to blue dawn shows her working through the cards with the product in shot."
+    },
+    {
+      "id": "payoff",
+      "t": "21.5-25.5",
+      "summary": "Dawn selfie, cards fanned: chapter ten done, she feels ready."
+    },
+    {
+      "id": "cta",
+      "t": "25.5-30",
+      "summary": "The product up beside her face to the lens: the in-world CTA, then the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.3",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Hook: the creator names the high-stakes moment and a surprising state she is in, so the viewer asks why.",
+      "delivery": "half-whisper, quick, a little smug, leaning into the lens",
+      "shot": "S01",
+      "max_words": 12,
+      "fixed_line": "It's 2am, my exam's at nine, and I'm weirdly fine."
+    },
+    {
+      "id": "L2",
+      "t": "2.6-4.4",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Name the old study-night habit this product replaces or beats, in her own casual words, then 'Never again.'",
+      "delivery": "eye-roll, deadpan, faster",
+      "shot": "S02",
+      "max_words": 10,
+      "rules": "the old habit is the plain generic thing this product is the better version of (the old study snacks, cheap earbuds that die, a balm that never lasts); never name or show a rival brand; no claim that the old thing is harmful; no benefit claims here"
+    },
+    {
+      "id": "L3",
+      "t": "4.7-5.8",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "The swap: product enters the frame.",
+      "delivery": "bright, holding it up, like showing a friend",
+      "shot": "S03",
+      "max_words": 6,
+      "fixed_line": "So I swapped to this."
+    },
+    {
+      "id": "L4",
+      "t": "8.2-11.2",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Product line: say {{product.name}} clearly (or its short spoken form), then the ONE benefit from product.benefits that answers the old habit in L2.",
+      "delivery": "right after the product moment, clear and a touch slower on the name, a small nod",
+      "shot": "S05",
+      "max_words": 12,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L5",
+      "t": "11.7-14.1",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "A second, different benefit from product.benefits in her own casual words, tied to getting through the cards tonight; if the page has only one benefit, say how it feels to use at 2am without adding any new claim.",
+      "delivery": "sincere, tapping the textbook, quieter",
+      "shot": "S06",
+      "max_words": 9,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; no numbers, no medical or performance claims unless the page states them word for word"
+    },
+    {
+      "id": "L6",
+      "t": "21.9-24.9",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Payoff: proof the promise came true, in the creator's words.",
+      "delivery": "tired, proud, a soft laugh, dawn light on her face",
+      "shot": "S09",
+      "max_words": 10,
+      "fixed_line": "Chapter ten, done. And I actually feel ready."
+    },
+    {
+      "id": "L7",
+      "t": "26.0-29.6",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "In-world CTA: open with 'Finals week?', tell the viewer to grab {{product.short_name}}, then product.tagline if the page has one, else a 3 to 5 word line tying the product to getting through the night.",
+      "delivery": "direct to lens, pushing the product toward camera, grin on the tagline",
+      "shot": "S10",
+      "max_words": 11,
+      "rules": "must open with 'Finals week?'; tagline verbatim from the page if it exists; brand spelled phonetically in the video prompt using product.phonetic"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.4,
+      "beat": "hook",
+      "framing": "selfie close-up, top of head cropped",
+      "camera": "front camera, handheld at arm's length, small wobble",
+      "action": "Dani leans into the lens at the carrel at 2am, laptop glow on her face, fluorescent tubes and dark shelves behind, and whispers the hook.",
+      "product_state": "absent",
+      "audio": "library room tone, fluorescent hum, her whisper",
+      "caption": "It's 2am, my exam's at nine, and I'm weirdly fine",
+      "refs": [
+        "dani",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, filming herself at arm's length at a library study carrel at 2am: her face fills the upper half of the frame, top of her messy claw-clip hair slightly cut off, gold-rimmed glasses catching the cold blue glow of a laptop screen below frame, leaning in toward the lens mid-whisper with a small smug smile, eyes looking straight into the lens. Behind her: greenish overhead fluorescent tubes and dim rows of shelves with plain unlettered spines, matching the carrel location reference. The phone is not visible because we are seeing through its front camera. Empty clean area at the top of the frame for a text box added later. Phone sensor noise, flat unflattering light, real skin texture, not cinematic.",
+      "dressing": [
+        "the cold blue laptop glow from below",
+        "the bent-neck clip lamp with a pink hair tie behind her shoulder",
+        "the dead fluorescent tube among the lit ones",
+        "plain unlettered spines on the shelves behind"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.4,
+      "t1": 4.6,
+      "beat": "problem",
+      "framing": "selfie medium close-up, jump cut slightly wider",
+      "camera": "front camera, handheld, reframed",
+      "action": "Jump cut: she rolls her eyes and makes a flat 'never again' hand chop beside her face.",
+      "product_state": "absent",
+      "audio": "room tone, dialogue",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "dani",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the same library carrel at 2am, slightly wider than a close-up: head and shoulders plus one hand raised beside her face doing a flat chopping 'never again' gesture, eyes rolled up in mock disgust, oatmeal hoodie, glasses, claw-clip hair. Fluorescent tubes and plain dark shelves behind. No product, bottle or packaging anywhere in frame. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, amateur framing, not cinematic.",
+      "dressing": [
+        "the highlighter smudge on her hoodie cuff",
+        "the carrel wall with the small pencil cat doodle behind her",
+        "the student asleep with his hood up two carrels back",
+        "the flickering fluorescent tube"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 6.0,
+      "beat": "product",
+      "framing": "selfie medium close-up with the product held toward the lens",
+      "camera": "front camera, handheld",
+      "action": "She lifts the product up into frame beside her face, label or logo turned to the lens.",
+      "product_state": "entering, new and unused, upright, label or logo to lens beside her cheek",
+      "audio": "room tone, dialogue",
+      "caption": "So I swapped to this",
+      "refs": [
+        "dani",
+        "carrel",
+        "product"
+      ],
+      "keyframe_prompt": "Front-camera selfie, face straight on to the lens and fully in frame, of Dani, the exact woman from the character sheet (Latina, warm tan-brown skin, soft round face, messy dark top bun in a tortoiseshell claw clip, thin gold-rimmed round glasses, small gold hoops, oversized oatmeal hoodie over a grey tee), at the library carrel at 2am, {{action}}. Bright, showing-a-friend smile, eyebrows up. The product matches the product reference exactly: same shape, colours and label, undistorted and not mirrored. Her fingers never cover the label. Fluorescent tubes and plain shelves behind. Exactly one product. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, not cinematic. Any book cart in view is plain metal with no sign, card or label.",
+      "dressing": [
+        "the clear tape wrap on the left arm of her glasses",
+        "her grandmother's silver band on her right thumb",
+        "the bent-neck clip lamp beside her",
+        "plain unlettered spines and the book return cart behind"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "holding {{product.visual}} up beside her cheek about 35 cm from the lens, unopened, upright, label flat to camera, cold condensation on it, four fingers wrapped behind it and her thumb in front",
+        "applied": "holding {{product.visual}} up beside her cheek about 35 cm from the lens, capped and unused, label flat to camera, pinched between her thumb and two fingers",
+        "worn": "holding {{product.visual}} up toward the lens beside her face by one edge or strap, not yet on, its front and best detail turned to camera",
+        "handheld": "holding {{product.visual}} up beside her cheek about 35 cm from the lens on her fingertips, logo or face of the device to camera",
+        "carried": "lifting {{product.visual}} by its handle or strap half into frame beside her shoulder, front panel and logo to camera",
+        "home": "tilting the phone so {{product.visual}}, set up on the carrel desk beside her, sits in frame next to her face, pointing at it with a capped highlighter",
+        "consumable": "holding one unopened pack of {{product.visual}} up beside her cheek about 35 cm from the lens, label flat to camera, four fingers behind it and her thumb in front"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 6.0,
+      "t1": 8.0,
+      "beat": "product",
+      "framing": "rear-camera handheld insert, top-down at 45 degrees",
+      "camera": "rear camera, handheld, close",
+      "action": "Flip to the rear camera: on the cluttered desk, her hand opens or starts using the product between the highlighters and index cards.",
+      "product_state": "hero, on the desk or in her hand, label or logo to camera, the product moment",
+      "audio": "the product's own opening or use sound (registers the moment), keyboard in the distance",
+      "caption": "",
+      "refs": [
+        "carrel",
+        "product",
+        "flashcards",
+        "cookie_tin"
+      ],
+      "keyframe_prompt": "Handheld rear-camera phone shot looking down at 45 degrees onto a cluttered library carrel desk at 2am: {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted and not mirrored. It is the clearest and brightest object on the desk. Around it: yellow highlighters, a stack of blank index cards with faint pencil lines and no readable writing, the edge of a laptop, a textbook with a plain cover. Laptop glow and fluorescent light, slightly underexposed, phone noise. Exactly one product. No readable text anywhere except the product's own label.",
+      "dressing": [
+        "the red rubber-banded stack of index cards with pencil-drawn hexagon rings",
+        "the dented pale blue cookie tin with the lid ajar and white cookie dust on the desk",
+        "three plain unprinted yellow highlighters, one missing its cap",
+        "the half-built molecular model ring",
+        "pencil shavings and a crumpled plain foil wrapper"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright in the centre of the desk, label facing camera, condensation beads on it, a woman's hand with short unpainted nails opening it with a tiny spray",
+        "applied": "a woman's hand with short unpainted nails uncapping {{product.visual}} in the centre of the desk, label facing camera, and squeezing or dabbing a little onto the back of her other hand",
+        "worn": "{{product.visual}} laid out in the centre of the desk on the index cards, a woman's hand with short unpainted nails unfolding it or lifting it by one edge to show its best detail",
+        "handheld": "a woman's hand with short unpainted nails switching on, clicking or snapping on {{product.visual}} in the centre of the desk, logo to camera, a small light or movement showing it working if it has one",
+        "carried": "{{product.visual}} lying across the desk, logo to camera, a woman's hand with short unpainted nails unzipping or opening it to show the inside, highlighters and cards sliding in",
+        "home": "{{product.visual}} set up on the corner of the desk, a woman's hand with short unpainted nails switching it on or adjusting it, its light or shape changing the corner of the carrel",
+        "consumable": "a woman's hand with short unpainted nails tearing open one pack of {{product.visual}} in the centre of the desk, the pack label to camera"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 8.0,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "selfie close-up, product at chin height",
+      "camera": "front camera, handheld, slight punch-in",
+      "action": "Back on the front camera: she uses the product for a beat, then names it, label to the lens at chin height.",
+      "product_state": "in hand or in use, label or logo readable at chin height, held still for 2.5 s",
+      "audio": "room tone, dialogue",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie close-up, face straight on to the lens, of Dani, the exact woman from the character sheet (Latina, warm tan-brown skin, soft round face, messy dark top bun in a tortoiseshell claw clip, thin gold-rimmed round glasses, small gold hoops, oversized oatmeal hoodie over a grey tee), at the library carrel at 2am, {{action}}, lips just parted mid-word, a small satisfied nod. The product matches the product reference exactly: same shape, colours and label, undistorted and not mirrored. It is fully visible and never covers her mouth. Laptop glow on her face, fluorescent tubes behind. Exactly one product. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, real skin, not cinematic.",
+      "dressing": [
+        "the blank lab badge on its cracked reel clipped to her hoodie",
+        "the tortoiseshell claw clip in her hair",
+        "the carrel wall with pencil doodles and curling masking tape behind her",
+        "the fluorescent tubes, one dead"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "having just lowered {{product.visual}} from a sip, holding it opened and steady at chin height about 35 cm from the lens, upright, label flat to camera",
+        "applied": "having just applied {{product.visual}} (a fresh sheen where it went on), holding it steady at chin height about 35 cm from the lens, label flat to camera",
+        "worn": "now wearing {{product.visual}}, one hand touching it once to show it off, the product clearly in frame",
+        "handheld": "having just used {{product.visual}}, holding it steady at chin height about 35 cm from the lens, logo to camera",
+        "carried": "with {{product.visual}} slung on one shoulder, holding its strap up at chin height so the logo faces the lens",
+        "home": "leaning back so {{product.visual}}, now on or in use on the desk beside her, sits in frame next to her face",
+        "consumable": "having just used one of the product ({{product.visual}}), holding the open pack steady at chin height about 35 cm from the lens, label flat to camera"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 14.4,
+      "beat": "proof",
+      "framing": "selfie medium shot, product in frame",
+      "camera": "front camera, handheld, jump cut wider",
+      "action": "She taps the open textbook with a highlighter, the product in the corner of frame, sincere.",
+      "product_state": "on the desk or on her, lower corner of frame, label to lens",
+      "audio": "highlighter tap, room tone, dialogue",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie medium shot of Dani, the woman from the character sheet, at the library carrel at 2am, phone held a little lower and wider: head, shoulders and the desk visible, she taps an open textbook with plain grey blocks of text and no readable words with a yellow highlighter, sincere calm expression looking into the lens. {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted and not mirrored. Fluorescent tubes and plain shelves behind. Exactly one product. The phone is not visible because we are seeing through its front camera. Phone noise, flat light, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow.",
+      "dressing": [
+        "the textbook with a cracked spine and coloured paper tabs",
+        "the cookie tin at the edge of the desk",
+        "the tangled white charging cable",
+        "the olive backpack with the plush avocado keychain on the next chair"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} stands upright on the desk in the lower right corner, opened, label toward the lens",
+        "applied": "{{product.visual}} stands capped on the desk in the lower right corner, label toward the lens",
+        "worn": "She is wearing {{product.visual}}, clearly in frame; if it is worn below the frame (shoes, socks), it sits on the desk in the lower right corner instead",
+        "handheld": "{{product.visual}} rests on the desk in the lower right corner, logo toward the lens",
+        "carried": "{{product.visual}} sits open on the desk in the lower right corner with cards and highlighters inside",
+        "home": "{{product.visual}} is set up and on at the desk in the lower right corner",
+        "consumable": "the open pack of {{product.visual}} lies on the desk in the lower right corner, label toward the lens"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 14.4,
+      "t1": 18.0,
+      "beat": "proof",
+      "framing": "wide, phone propped on the shelf of the carrel",
+      "camera": "locked off, propped phone, time-lapse",
+      "action": "Propped phone time-lapse: she works through the index cards, flipping and stacking, the product beside her.",
+      "product_state": "beside her elbow or on her, small in frame",
+      "audio": "sped-up page flips and highlighter squeaks",
+      "caption": "",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: a phone propped on the carrel shelf films Dani, the woman from the character sheet, from the front and slightly above at her library study carrel at 2am: she is bent over the desk writing on a blank index card, a growing stack of cards on one side, laptop open, {{action}}, small in frame but still recognisable from the product reference. Empty study carrels and plain shelves stretch behind her under fluorescent tubes, a tall black window in the background. Slight motion blur on her hand like a time-lapse frame. Exactly one product. Phone noise, flat light, no readable text, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow. This is a clean camera frame with no phone interface: no status bar, no clock, no battery or signal icons. Any book cart in view is plain metal with no sign, card or label.",
+      "dressing": [
+        "a second pile of finished index cards growing on the left",
+        "the laptop lid seen from behind with its big planet sticker dead centre",
+        "the student asleep two carrels down with his hood up",
+        "the book return cart and the pitch black window"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright beside her elbow",
+        "applied": "{{product.visual}} standing capped beside her elbow",
+        "worn": "she is wearing {{product.visual}}",
+        "handheld": "{{product.visual}} beside her elbow, in use or within reach",
+        "carried": "{{product.visual}} open on the chair beside her",
+        "home": "{{product.visual}} set up on the carrel and on",
+        "consumable": "the pack of {{product.visual}} beside her elbow"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 18.0,
+      "t1": 21.5,
+      "beat": "proof",
+      "framing": "wide, same propped angle",
+      "camera": "locked off, propped phone, time-lapse continues",
+      "action": "Same angle, hours later: the window behind her has gone blue with dawn, the card stack is tall, she stretches her arms up; the product is where it was.",
+      "product_state": "same place as S07, used",
+      "audio": "time-lapse whoosh settling into birdsong through the window",
+      "caption": "",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: the same propped-phone angle of Dani, the woman from the character sheet, at her library study carrel, but hours later at dawn: the tall window behind her is now pale blue with first light, the fluorescent tubes look weaker, she leans back stretching both arms above her head, a tall neat stack of blank index cards beside the laptop, {{action}}, recognisable from the product reference. Empty carrels and plain shelves behind. Exactly one product. Phone noise, no readable text, not cinematic. This is a clean camera frame with no phone interface: no status bar, no clock, no battery or signal icons.",
+      "dressing": [
+        "the finished card pile now tall and the rubber-banded stack almost gone",
+        "the plain pale blue cookie tin, now empty with only white cookie dust, decorated only with an embossed flower pattern, no printed pictures, no barcode",
+        "the backpack slid to the floor",
+        "frost in the corners of the pale blue window"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright in the same spot by her elbow, now empty",
+        "applied": "{{product.visual}} standing in the same spot by her elbow, cap off",
+        "worn": "she is still wearing {{product.visual}}",
+        "handheld": "{{product.visual}} in the same spot by her elbow",
+        "carried": "{{product.visual}} on the chair beside her, now zipped and packed",
+        "home": "{{product.visual}} still on in the same spot on the carrel",
+        "consumable": "the pack of {{product.visual}} in the same spot by her elbow, lighter now"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 21.5,
+      "t1": 25.5,
+      "beat": "payoff",
+      "framing": "selfie close-up",
+      "camera": "front camera, handheld",
+      "action": "Dawn selfie: blue window light on her face, she fans the stack of finished index cards next to her cheek and laughs softly.",
+      "product_state": "absent",
+      "audio": "birds outside, room tone, dialogue",
+      "caption": "Chapter ten, done. And I actually feel ready",
+      "refs": [
+        "dani",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, at the library carrel at dawn: cool pale-blue window light now on one side of her face, glasses pushed up, a few more flyaways, tired but proud soft laugh, fanning a thick stack of blank index cards beside her cheek (cards have faint pencil lines only, no readable writing). A pale blue dawn window and plain shelves behind. The phone is not visible because we are seeing through its front camera. Phone sensor noise, real skin, not cinematic.",
+      "dressing": [
+        "her flyaways multiplied and the claw clip slipping",
+        "frost in the corners of the pale blue dawn window behind her",
+        "the carrel wall pencil cat doodle",
+        "the dead fluorescent tube"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 25.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "selfie medium close-up, product pushed toward the lens",
+      "camera": "front camera, handheld, product pushed toward lens then held",
+      "action": "She holds the product out toward the lens beside her grin and delivers the CTA and tagline. End card sticker added in post.",
+      "product_state": "hero, label or logo to lens, held still for the tagline",
+      "audio": "room tone, dialogue",
+      "caption": "{{line.L7}}",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the library carrel at dawn, grinning straight into the lens, {{action}}. The product matches the product reference exactly: same shape, colours and label, undistorted and not mirrored. Pale blue dawn window light, plain shelves behind. Clean uncluttered area in the lower third of the frame for a sticker added later. Exactly one product. The phone is not visible because we are seeing through its front camera. Phone noise, real skin, not cinematic.",
+      "dressing": [
+        "the silver band on her right thumb",
+        "the finished card stack on the desk edge",
+        "pale blue dawn window with frost in the corners",
+        "the book return cart, now empty"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "holding {{product.visual}} out toward the camera beside her face, about 35 cm from the lens, upright, label flat to camera, four fingers behind it and her thumb in front",
+        "applied": "holding {{product.visual}} out toward the camera beside her face, about 35 cm from the lens, capped, label flat to camera",
+        "worn": "wearing {{product.visual}}, or holding it up toward the lens beside her face if it is worn out of frame, pointing at it with her free hand",
+        "handheld": "holding {{product.visual}} out toward the camera beside her face, about 35 cm from the lens, logo to camera",
+        "carried": "holding {{product.visual}} up by its strap beside her face toward the lens, logo to camera",
+        "home": "tilting the phone so {{product.visual}}, still on at the desk in the dawn light, sits in frame beside her grin, one hand presenting it",
+        "consumable": "holding the pack of {{product.visual}} out toward the camera beside her face, about 35 cm from the lens, label flat to camera"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 6.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 6,
+      "exact_risk": false,
+      "refs": [
+        "dani card",
+        "carrel plate",
+        "product image",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone front-camera selfie video, filmed by @Image1 (Dani) herself at arm's length at a university library study carrel at 2am, greenish fluorescent light and laptop glow on her face, plain shelves behind as in @Image2, phone sensor noise, small handheld wobble, not cinematic. Shot 1 (0 to 2.4 s): close-up, she leans into the lens and half-whispers, a little smug: \"It's 2am, my exam's at nine, and I'm weirdly fine.\" Hard jump cut. Shot 2 (2.4 to 4.6 s): slightly wider, she rolls her eyes and does a flat chopping hand gesture, deadpan: \"{{line.L2}}\" Hard jump cut. Shot 3 (4.6 to 6 s): {{action.S03}}, the product exactly as @Image3 and not mirrored, bright: \"So I swapped to this.\" The phone is never visible. Native sound: library room tone, fluorescent hum, her voice slightly roomy on a phone mic. No music. No text on screen. No logos except the product's own."
+    },
+    {
+      "id": "U2",
+      "t0": 6.0,
+      "t1": 11.4,
+      "shots": [
+        "S04",
+        "S05"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "dani card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone video in a library at 2am, phone noise, not cinematic. Shot 1 (0 to 2 s): handheld rear-camera view looking down at 45 degrees onto a cluttered study desk, {{action.S04}}; the product's own opening or use sound is crisp and close. Hard cut. Shot 2 (2 to 5.4 s): front-camera selfie close-up of @Image2 (Dani), {{action.S05}}, and says clearly, a touch slower on the name: \"{{line.L4}}\" (say the brand as {{product.phonetic}}). Small nod. Keep the product's shape, colours and label exactly as @Image1, unmirrored. One product only. Native sound: the product's own sound, room tone, her voice. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 11.4,
+      "t1": 25.5,
+      "shots": [
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 14,
+      "exact_risk": false,
+      "refs": [
+        "dani card",
+        "carrel plate",
+        "product image",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone video at a university library study carrel, phone noise, flat light, not cinematic. Shot 1 (0 to 3 s): front-camera selfie medium shot of @Image1 (Dani), she taps an open textbook with a highlighter, {{action.S06}}, the product exactly as @Image3, sincere: \"{{line.L5}}\" Hard cut. Shot 2 (3 to 6.6 s): the phone is now propped on the carrel shelf, locked off, sped-up time-lapse: she writes and stacks index cards quickly, {{action.S07}}, the product staying in the same place, the window behind her is black. Shot 3 (6.6 to 10 s): same locked angle, the time-lapse slows to real time as the window goes pale blue with dawn; she leans back and stretches both arms up; the card stack is tall; {{action.S08}}. Hard cut. Shot 4 (10 to 14 s): front-camera selfie close-up in blue dawn light, she fans the stack of cards beside her cheek, tired and proud, soft laugh: \"Chapter ten, done. And I actually feel ready.\" Cards have no readable writing. Location as @Image2. Native sound: highlighter tap, fast page flips, birds outside at dawn, her voice. No music."
+    },
+    {
+      "id": "U4",
+      "t0": 25.5,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "dani card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone front-camera selfie at a library carrel at dawn, pale blue window light, phone noise, not cinematic. @Image2 (Dani) grins into the lens, {{action.S10}}, holds it still and says directly, with a grin on the last words: \"{{line.L7}}\" (say any brand name as {{product.phonetic}}). The product does not bend, warp or change; keep its shape, colours and label exactly as @Image1, unmirrored. Keep the lower third clean. Native sound: room tone, birds, her voice. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "creator bed",
+      "t0": 0,
+      "t1": 30,
+      "brief": "No composed score. Optional: a quiet lo-fi hip hop loop (dusty keys, soft kick, 82 bpm) sat very low under the voice, as a creator would add from a sound library; drop it out entirely for the brand line at 8.2 to 11.2 s so the name is clean."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 6.6,
+      "sound": "the product's own opening or use sound, close phone-mic character",
+      "why": "the product moment must register; only added if the native sound is weak"
+    },
+    {
+      "t": 14.4,
+      "sound": "short time-lapse whoosh",
+      "why": "tells the viewer hours have passed, the proof of the claim"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "dani",
+      "plan": "native voice from U1; her U1 vocal stem as voice reference for U2, U3 and U4 so the whisper register stays the same"
+    }
+  ],
+  "captions": {
+    "font": "Montserrat ExtraBold (TikTok creator-caption look)",
+    "size": "6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFE24A, the word currently spoken, no scaling pop",
+    "shadow": "hard 5px black stroke plus 0 3px 0 rgba(0,0,0,.5)",
+    "box": false,
+    "position": "centre, 60% down the frame, clear of the chin and of the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "case": "sentence case, no end punctuation",
+    "hook_text": "native TikTok-style white rounded box with black text, top 18% of frame, 0 to 3 s only, written like a post title in lower case",
+    "stickers": "one timestamp sticker in the platform's own style for time passage, rendered in post"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 3.0,
+      "text": "finals week survival (2am edition)",
+      "style": "native TikTok-style hook box: white rounded rectangle, black Montserrat Bold, lower case, top 18% of frame, pops on at frame 1"
+    },
+    {
+      "t0": 14.4,
+      "t1": 21.5,
+      "text": "2:14 am, then counts up fast to 6:02 am",
+      "style": "timestamp sticker in platform style, white text on a translucent dark pill, upper right, digits roll with the time-lapse"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline_or_line.L7}}",
+      "style": "creator-style end sticker, white rounded card in the lower third, Montserrat ExtraBold, slight tilt, pops on 6 frames"
+    }
+  ],
+  "qa": [
+    "the product in S03 to S08 and S10 matches the product image (shape, colours, label) and is never mirrored in the front-camera selfies",
+    "Dani identical across every selfie shot against the character sheet",
+    "the phone is never visible in front-camera shots; no phone interface in the propped shots",
+    "windows pitch black in S01 to S07, pale blue in S08 to S10",
+    "exactly one product in every frame, always in the same spot in S06 to S08",
+    "L2 names and shows no rival brand; L4 and L5 benefits come only from product.benefits",
+    "no readable model text: index cards, book spines, screens and the hoodie crest stay blank"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "It's 2am, my exam's at nine, and I'm weirdly fine.",
+      "L2": "Last semester I lived on the sugary stuff. Never again.",
+      "L3": "So I swapped to this.",
+      "L4": "Red Bull Sugarfree. Same benefits as the original, just no sugar.",
+      "L5": "It keeps me alert, and I'm actually focused.",
+      "L6": "Chapter ten, done. And I actually feel ready.",
+      "L7": "Finals week? Grab the silver can. Wiiings without sugar."
+    },
+    "actions": {
+      "S03": "holding {{product.visual}} up beside her cheek about 35 cm from the lens, unopened, upright, label flat to camera, cold condensation on it, four fingers wrapped behind it and her thumb in front",
+      "S04": "{{product.visual}} standing upright in the centre of the desk, label facing camera, condensation beads on it, a woman's hand with short unpainted nails opening it with a tiny spray",
+      "S05": "having just lowered {{product.visual}} from a sip, holding it opened and steady at chin height about 35 cm from the lens, upright, label flat to camera",
+      "S06": "{{product.visual}} stands upright on the desk in the lower right corner, opened, label toward the lens",
+      "S07": "{{product.visual}} standing upright beside her elbow",
+      "S08": "{{product.visual}} standing upright in the same spot by her elbow, now empty",
+      "S10": "holding {{product.visual}} out toward the camera beside her face, about 35 cm from the lens, upright, label flat to camera, four fingers behind it and her thumb in front"
+    }
+  }
+}

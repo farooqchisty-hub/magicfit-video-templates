@@ -1,0 +1,60 @@
+{
+  "key": "how_its_made",
+  "name": "3D how it's made explainer (Zack D. Films style)",
+  "definition": "A fast stylized 3D explainer: a narrator opens with a surprising fact, then the camera flies inside the product through cutaways and x-ray views, showing each part of the mechanism as a clean labelled 3D object, and pulls back out to the person using it.",
+  "why_it_sells": "Curiosity gap plus education: 'wait, how?' holds the viewer to the answer, and every answer is a product feature. The stylized 3D look reads as content, not an ad (the Zack D. Films channel has about 28.6M subscribers and brands now hire for the style). It sells when the mechanism is genuinely surprising and every fact is true to the product page; it fails when it becomes a spec list.",
+  "visual_grammar": "Clean stylized 3D (soft rounded forms, simplified materials, slightly toy-like proportions on people, realistic proportions on the product). Every explanation is a cutaway: the product sliced in half, glass-like x-ray walls, parts floating out in an exploded view on a neutral void. One idea per shot, centred, with generous empty space for post labels. Continuous camera travel links shots (fly into the opening, pull back out), never flat cuts between unrelated spaces.",
+  "camera": "Virtual camera with purposeful moves: fast push-in dives through openings, orbiting exploded views, snap zooms (6 frames) on each new part, pull-back reveals. Always centred subject, eye level or 30 degree top angle. No handheld.",
+  "light": "Soft even studio three-point light with a gentle rim; inside the product, the liquid glows from within in the product's colour. Colour-coded glow per ingredient.",
+  "texture": "Smooth subsurface materials, soft ambient occlusion, very mild bloom, no film grain, no photoreal skin pores. Product label rendered crisp and exact even inside the stylized world.",
+  "palette_rule": "A neutral pale grey-blue void so each explained part can carry one bright identifying colour; the product keeps its real colours exactly.",
+  "pacing": "Fast: hook fact in the first 2 seconds, a new visual every 2 to 3 seconds timed to the narration, snap zoom on each new noun, one held product beat at least 1.5 s at the brand line, then pull back to the human payoff.",
+  "sound": "Narration is the spine: one fast, curious, friendly TTS voice track in post. Units carry native whooshes, glassy clinks, pops, bubble swirls and small UI-like blips for each part reveal. Light playful underscore (plucky synth and soft percussion) that ducks under the voice.",
+  "caption_look": {
+    "font": "Montserrat ExtraBold",
+    "size": "7.2% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFE14D yellow on the spoken word",
+    "shadow": "none, 9px black stroke outline",
+    "position": "centre, 58% down the frame, never over the cutaway subject",
+    "max_words_on_screen": 2,
+    "box": false,
+    "case": "uppercase",
+    "motion": "each word pops in at 120% and settles to 100% over 3 frames",
+    "callout_labels": "ingredient callouts in post: white rounded pill with black text and a thin leader line to the 3D part"
+  },
+  "model_vocab": [
+    "stylized 3D render, Zack D. Films style explainer",
+    "cutaway cross-section",
+    "x-ray translucent glass-like walls",
+    "exploded view floating on a neutral void",
+    "soft rounded Pixar-lite characters",
+    "subsurface scattering, soft ambient occlusion",
+    "glowing ball-and-stick molecule model",
+    "clean studio three-point light",
+    "centred subject with empty space for labels"
+  ],
+  "failure_modes": [
+    "the model writes its own labels and chemical formulas in frame: say no letters or numbers anywhere except the product label; all callouts are added in post",
+    "the product loses its label when rendered stylized: say the can is realistic and exact while the world is stylized",
+    "cutaways show the inside of a human body: never; explanations stay inside the product, the only body shown is the character from outside",
+    "molecules turn into random clip art: specify ball-and-stick models with a set colour per ingredient",
+    "characters change look between shots: keep one stylized character and always pass the character sheet",
+    "vehicles in wide shots come back rotated: frame the truck from behind or head-on, upright vertical composition, level horizon",
+    "too many parts at once reads as clutter: one ingredient per shot, centred",
+    "the rejected sugar cube comes back lodged inside the can cutaway, reading as 'sugar inside': say it is clearly separated by empty space, flying away, and does not touch the can",
+    "a motion trail on the flying sugar cube can be drawn back across the can, which reads as the cube touching it: put the cube high in the far corner and say its arc trails away and never crosses the can",
+    "the richer void plate can put a blank silver can on the platform, which then leaks into every ingredient shot: say the platform in the plate is completely empty, and keep product cans out of prop sheets"
+  ],
+  "negatives": [
+    "no letters, numbers or chemical formulas generated by the model",
+    "no real brands except the product",
+    "no human anatomy, organs or brain imagery",
+    "no photoreal skin on characters",
+    "no second can",
+    "no clutter, one idea per frame",
+    "no children"
+  ],
+  "prompt_prefix": "Stylized 3D animation render in the style of a viral 3D explainer, vertical 9:16 frame, soft rounded forms, clean studio three-point light, soft ambient occlusion, centred subject with empty space around it.",
+  "asset_style": "Stylized 3D animated character render, soft rounded Pixar-lite proportions, smooth subsurface skin, not photoreal."
+}

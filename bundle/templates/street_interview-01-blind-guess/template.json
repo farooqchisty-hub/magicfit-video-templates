@@ -1,0 +1,942 @@
+{
+  "id": "street_interview-01-blind-guess",
+  "style": "street_interview",
+  "title": "Blind Guess",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "A street host runs a blind test on a college quad with one question: what's the catch? Everyone, including a chemistry professor, names the same one. The cover comes off: it's {{product.name}}, and the catch isn't there.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "a blind taste from sample cups is the classic street test"
+      ],
+      "applied": [
+        "great",
+        "a dab on the back of the hand is a natural blind test for creams, balms and sunscreens"
+      ],
+      "worn": [
+        "good",
+        "blind try-ons with logos taped over work for shoes, glasses, jackets, watches; weaker for underwear or intimate items"
+      ],
+      "handheld": [
+        "good",
+        "five seconds with a wrapped gadget, bottle or tool is enough to form a guess"
+      ],
+      "carried": [
+        "good",
+        "lifting and slinging a bag or case with the logo covered gives a clear feel test"
+      ],
+      "home": [
+        "good",
+        "a blind sit or touch test on the lawn under a gingham cloth suits chairs, pillows, throws, lamps and speakers; large sofas and beds are a stunt, a stretch"
+      ],
+      "consumable": [
+        "good",
+        "one loose piece or a sniff from a wrapped refill pack"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "anything that needs skin contact on the face or an ingredient warning before a stranger tries it (strong actives, allergens without a warning)",
+      "products whose page lists no benefit that is easy to phrase as the opposite of a common downside"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "The quad is the old heart of a fictional East Coast college: the chemistry hall on the north side went up in 1911, the maples along the path were planted by the class of 1962, and the path is worn smooth down the middle by a century of short cuts.",
+      "Bea has run Quad Talk for three years and 212 episodes, filmed on one phone by her roommate Dani. Her record is 41 interviews in a single afternoon.",
+      "Today's blind test: the product hidden under a cover Bea folded from a grocery bag and taped shut with sky-blue washi tape. The question never changes: what's the catch? The chalk tally board says every tester so far has confidently named one.",
+      "Dr. Harold Greene has taught intro chemistry here for 34 years and has a standing bet with his students that he will find the flaw in anything by testing it. He has never lost it.",
+      "It is the Thursday of midterm week: half the quad is running on no sleep, and homecoming pennants are already up for Saturday."
+    ],
+    "locations": {
+      "quad": {
+        "foreground": [
+          "drifts of fallen maple leaves in red, orange and butter yellow along the edge of the stone path",
+          "Bea's folding card table with a blue gingham cloth, a leaning stack of plain white sample cups and a brown paper bag of used ones",
+          "a small wooden A-frame chalkboard with two columns of chalk tally marks: a drawn box above the long column (found a catch) and a crossed-out box above the empty one (no catch)",
+          "a weathered teak bench with a blank brass plaque and a carved heart on the backrest",
+          "a mint-green commuter bike with a wicker front basket locked to a black steel rack"
+        ],
+        "midground": [
+          "the flagstone path worn smooth and pale down its centre",
+          "a black cast-iron lamp post with ragged scraps of old blank flyers and rusty staples on it",
+          "students on a faded red plaid blanket on the lawn with a pile of textbooks and a thermos",
+          "a green groundskeeper's utility cart with a rake and a tarp heaped with leaves",
+          "a green-patinated bronze statue of a seated scholar on a stone plinth, a small pumpkin left in its lap",
+          "a squirrel on the back of the bench holding an acorn"
+        ],
+        "background": [
+          "red brick halls with white window trim and ivy turning crimson up the walls",
+          "a white clock tower with a plain face and black hands",
+          "maroon and gold triangular homecoming pennants strung between lamp posts, each with a small white acorn shape",
+          "big maples in full orange, low sun coming through them",
+          "a half-raked lawn: neat leaf piles on one side, piles kicked apart on the other"
+        ]
+      }
+    },
+    "personal_props": {
+      "bea": [
+        "the Quad Talk mic: black foam windscreen, sky-blue cube flag with a thin silver band and a chipped corner, a wrap of sky-blue washi tape on the handle",
+        "the hand-folded kraft paper cover taped with sky-blue washi tape, creased from being slipped on and off the product all afternoon",
+        "a small enamel pin shaped like a speech bubble on her corduroy lapel",
+        "a tan canvas crossbody bag with a sleeve of spare cups poking out",
+        "a faint coffee drip stain on the left cuff of the cream corduroy jacket"
+      ],
+      "tyler": [
+        "a black laptop backpack with a carabiner of keys and a sticker drawing of a rocket (shape only)",
+        "a graphing calculator poking out of the side pocket",
+        "a hoodie drawstring chewed flat at one end",
+        "a white earbud case clipped to the backpack strap"
+      ],
+      "mei": [
+        "a canvas tote heavy with library books, a sprig of dried lavender tucked in the handle",
+        "a ceramic travel mug hand-painted with a small blue cloud",
+        "a pencil pushed through her bob above one ear",
+        "a pulled loop of yarn at the cuff of the mustard knit"
+      ],
+      "hal": [
+        "a 40-year-old tan leather satchel with scuffed corners and a brass buckle",
+        "half-moon glasses on a thin beaded cord",
+        "a pale smudge of chalk dust on his right tweed sleeve",
+        "a small silver lapel pin shaped like a ball-and-stick molecule model: three tiny balls joined by two sticks"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "mic",
+        "name": "The Quad Talk mic",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: one handheld interview microphone with a black foam windscreen, a matte sky-blue cube mic flag with a thin brushed silver band around its middle and one slightly chipped corner, a wrap of sky-blue washi tape around the black handle, shown front view and three-quarter view. No letters, numbers or logos anywhere. Soft even studio light.",
+        "asset": "assets/mic.jpg"
+      },
+      {
+        "id": "tally",
+        "name": "The catch tally board",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a small wooden A-frame sidewalk chalkboard, weathered pine frame, the black board divided by a chalk line into two columns: the left column topped by a hand-drawn chalk cube and filled with many chalk tally marks in groups of five, the right column topped by a hand-drawn chalk cube with a cross through it and completely empty. No letters, words or numbers anywhere. Soft even studio light.",
+        "meaning": "left column: testers who named a catch; right column: testers who said no catch (always empty before the reveal)",
+        "asset": "assets/tally.jpg"
+      },
+      {
+        "id": "kit",
+        "name": "Bea's blind test table",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a small folding card table with a blue and white gingham cloth, a leaning stack of plain white paper sample cups, a brown paper bag of used cups, and an empty hand-folded brown kraft paper tube cover sealed with sky-blue washi tape lying on its side with nothing inside it. No letters, no logos. Soft even studio light.",
+        "asset": "assets/kit.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Quad Talk",
+        "mark": "a rounded speech bubble outline",
+        "colors": "sky blue and silver",
+        "appears_on": "the cube mic flag (plain in camera), Bea's enamel pin, the end card",
+        "text_in_post": "channel name on the mic flag close-ups and the end card"
+      },
+      {
+        "name": "the college (never named)",
+        "mark": "a small white acorn shape",
+        "colors": "maroon and gold",
+        "appears_on": "homecoming pennants between the lamp posts",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "3:40pm on a Thursday in late October, low gold sun, a light breeze lifting leaves across the path. Eleven testers have already been through; the tally board's catch column is nearly full and the no-catch column is empty; the leaves are raked into piles on one side and kicked apart on the other; someone's red umbrella is forgotten on a bench.",
+    "sound_world": [
+      "dry maple leaves crunching under sneakers",
+      "the crisp crinkle of the kraft paper cover coming off the product",
+      "the squeak of a paper sample cup being squeezed",
+      "a bike bell and distant frisbee thwacks and laughter",
+      "the clock tower chiming the three-quarter hour",
+      "wind hissing through the maples",
+      "chalk squeaking on the tally board"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "the product hidden in a plain kraft paper sleeve on the card table, with small plain white sample cups poured or portioned from it (a sip for drinks, a bite on a white napkin for food, one piece for supplements)"
+      ],
+      "applied": [
+        "the product hidden in a kraft paper sleeve on the card table, with a pack of plain white tissues for wiping the back of the hand"
+      ],
+      "worn": [
+        "the product laid on the card table with every logo and tag covered by strips of kraft paper and sky-blue washi tape"
+      ],
+      "handheld": [
+        "the product on the card table wrapped in kraft paper so only its working parts show"
+      ],
+      "carried": [
+        "the product on the card table with its logo and hardware covered by a kraft paper patch and washi tape"
+      ],
+      "home": [
+        "the product set up on the lawn beside the card table under the blue gingham cloth, a plain extension reel running to a groundskeeper's outlet if it needs power"
+      ],
+      "consumable": [
+        "the product's pack wrapped in kraft paper on the card table, a few loose pieces on a white napkin"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "bea",
+      "name": "Bea Santos",
+      "role": "street interview host",
+      "look": "woman, 26, Filipino American, long straight black hair in a high ponytail, big expressive dark eyes, small nose stud, cropped cream corduroy jacket over a plain black tee, holds a handheld mic with a black foam windscreen and a plain sky-blue cube mic flag",
+      "voice": "quick, bright, playful, American, a laugh always close",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Bea Santos: 26, Filipino American, long straight black hair in a high ponytail, big expressive dark eyes, small nose stud, cropped cream corduroy jacket over a plain black tee. Playful grin. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/bea.jpg"
+    },
+    {
+      "id": "tyler",
+      "name": "Tyler Novak",
+      "role": "interviewee 1, engineering senior",
+      "look": "man, 22, white American, messy sandy-brown hair, light stubble, freckles, olive green hoodie with no print, a laptop backpack strap over one shoulder",
+      "voice": "confident, easygoing, Midwestern",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same young adult man. Tyler Novak: 22, white American, messy sandy-brown hair, light stubble, freckles, olive green hoodie with no print, a black backpack strap over one shoulder. Confident easy smile. Clearly an adult college senior. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/tyler.jpg"
+    },
+    {
+      "id": "mei",
+      "name": "Mei Chen",
+      "role": "interviewee 2, grad student",
+      "look": "woman, 24, Chinese American, chin-length black bob with blunt bangs, thin gold wire glasses, oversized denim jacket over a mustard knit, a canvas tote with no print",
+      "voice": "sharp, animated, West Coast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same young adult woman. Mei Chen: 24, Chinese American, chin-length black bob with blunt bangs, thin gold wire glasses, oversized denim jacket over a mustard knit sweater. Animated, sceptical expression. Clearly an adult grad student. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/mei.jpg"
+    },
+    {
+      "id": "hal",
+      "name": "Dr. Harold Greene",
+      "role": "interviewee 3, chemistry professor",
+      "look": "man, 61, Black American, short white hair and a neat white beard, half-moon reading glasses, brown tweed jacket with elbow patches over a light blue oxford shirt, a leather satchel",
+      "voice": "deep, measured, amused, Southern American lilt",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Dr. Harold Greene: 61, Black American, short white hair and a neat white beard, half-moon reading glasses, brown tweed jacket with elbow patches over a light blue oxford shirt. Amused, professorial expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/hal.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "quad",
+      "name": "College quad in autumn",
+      "plate_prompt": "Candid phone photo, vertical 9:16, upright vertical composition, level horizon: the main quad of a North American college on a bright autumn afternoon, red brick buildings with white trim, big maples with orange leaves, a green lawn crossed by a stone path, benches, a few adult students walking in the distance slightly out of focus. No readable signs, no crests, no names, no real brands, no logos.",
+      "asset": "assets/quad.jpg"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.4",
+      "summary": "Bea straight into the lens on the quad, the covered product in hand: blind test, what's the catch?"
+    },
+    {
+      "id": "answers",
+      "t": "2.4-10.6",
+      "summary": "Three quick blind tries, three confident guesses at the same catch. The chemistry professor is the most certain."
+    },
+    {
+      "id": "reveal",
+      "t": "10.6-15.6",
+      "summary": "Bea pulls the cover off: it's the product, and its main benefit is exactly the absence of that catch. Tyler's jaw drops."
+    },
+    {
+      "id": "proof",
+      "t": "15.6-23",
+      "summary": "Mei checks for the catch again; Bea answers with the benefit. The professor takes one for his 8am."
+    },
+    {
+      "id": "payoff",
+      "t": "23-26",
+      "summary": "A line of people has formed behind them wanting to try."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "Bea holds the product next to the mic flag, tagline, and calls the next person in."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.2",
+      "speaker": "bea",
+      "on_camera": true,
+      "shot": "S01",
+      "line_intent": "Hook: the host states the tiny test in one breath, straight to the viewer.",
+      "delivery": "fast, bright, eyebrows up, straight into the lens",
+      "max_words": 6,
+      "fixed_line": "Blind test. What's the catch?"
+    },
+    {
+      "id": "L2",
+      "t": "3.2-4.6",
+      "speaker": "tyler",
+      "on_camera": true,
+      "shot": "S02",
+      "line_intent": "First confident wrong answer, the one the viewer would give: he names the catch after one blind try.",
+      "delivery": "instant, cocky, one finger up",
+      "max_words": 6,
+      "rules": "The catch is the everyday downside people expect from this kind of product, and it must be the direct opposite of product.benefits[0] (or the benefit chosen for L5), e.g. benefit 'lightweight' means the catch is 'heavy', 'non-greasy' means 'greasy', 'fragrance-free' means 'it smells', 'all-day battery' means 'dies by lunch'. The same catch word is used by all three testers, so the reveal lands once. The catch is a guess, never a claim about any real product. Pattern: '<Catch>. A hundred percent.'"
+    },
+    {
+      "id": "L3",
+      "t": "5.8-7.2",
+      "speaker": "mei",
+      "on_camera": true,
+      "shot": "S03",
+      "line_intent": "Second confident answer, the same catch, with a vivid reaction to how good it is.",
+      "delivery": "eyes wide, pointing at the covered product",
+      "max_words": 6,
+      "rules": "The catch is the everyday downside people expect from this kind of product, and it must be the direct opposite of product.benefits[0] (or the benefit chosen for L5), e.g. benefit 'lightweight' means the catch is 'heavy', 'non-greasy' means 'greasy', 'fragrance-free' means 'it smells', 'all-day battery' means 'dies by lunch'. The same catch word is used by all three testers, so the reveal lands once. The catch is a guess, never a claim about any real product. Pattern: '<Oh, that's too good.> <Catch>.'"
+    },
+    {
+      "id": "L4",
+      "t": "8.4-10.2",
+      "speaker": "hal",
+      "on_camera": true,
+      "shot": "S04",
+      "line_intent": "The expert names the same catch with total authority, raising the stakes of the reveal.",
+      "delivery": "slow, amused, total authority, a small tap on the cover",
+      "max_words": 7,
+      "rules": "The catch is the everyday downside people expect from this kind of product, and it must be the direct opposite of product.benefits[0] (or the benefit chosen for L5), e.g. benefit 'lightweight' means the catch is 'heavy', 'non-greasy' means 'greasy', 'fragrance-free' means 'it smells', 'all-day battery' means 'dies by lunch'. The same catch word is used by all three testers, so the reveal lands once. The catch is a guess, never a claim about any real product. Must end with the words 'I teach chemistry.' Pattern: '<Catch>, obviously. I teach chemistry.'"
+    },
+    {
+      "id": "L5",
+      "t": "11.4-13.6",
+      "speaker": "bea",
+      "on_camera": true,
+      "shot": "S05",
+      "line_intent": "The reveal: say {{product.name}} (or its short spoken form) and the ONE benefit that proves the catch is not there.",
+      "delivery": "gleeful, drawn out, pulling the cover off",
+      "max_words": 9,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; it must be the benefit whose opposite the testers guessed; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L6",
+      "t": "14.0-14.8",
+      "speaker": "tyler",
+      "on_camera": true,
+      "shot": "S06",
+      "line_intent": "Genuine reaction to the reveal.",
+      "delivery": "jaw drops, laughs",
+      "max_words": 3,
+      "fixed_line": "No way."
+    },
+    {
+      "id": "L7",
+      "t": "15.8-17.2",
+      "speaker": "mei",
+      "on_camera": true,
+      "shot": "S07",
+      "line_intent": "The sceptic checks for the catch one more time.",
+      "delivery": "narrowed eyes, half laughing",
+      "max_words": 6,
+      "fixed_line": "Wait, so what's the catch?"
+    },
+    {
+      "id": "L8",
+      "t": "17.4-19.2",
+      "speaker": "bea",
+      "on_camera": true,
+      "shot": "S07",
+      "line_intent": "Host answers: there is none, then one short benefit (the L5 benefit or a second one from product.benefits), nothing more.",
+      "delivery": "matter of fact, a wink",
+      "max_words": 6,
+      "rules": "starts with 'No catch.'; benefit only from product.benefits, reworded no further than person and tense"
+    },
+    {
+      "id": "L9",
+      "t": "20.0-22.6",
+      "speaker": "hal",
+      "on_camera": true,
+      "shot": "S08",
+      "line_intent": "The expert converts and ties one benefit to his own use moment: his eight a.m. lecture.",
+      "delivery": "claiming the product, mock serious",
+      "max_words": 8,
+      "rules": "benefit only from product.benefits (reworded no further than person and tense) or a plain statement of use; must end with 'my eight a.m.' Pattern: '<Benefit> for my eight a.m.'"
+    },
+    {
+      "id": "L10",
+      "t": "27.0-29.4",
+      "speaker": "bea",
+      "on_camera": true,
+      "shot": "S10",
+      "line_intent": "Sign-off: product.tagline if the page has one, otherwise a 3 to 5 word line built from the L5 benefit, then back into the format with 'Next!'",
+      "delivery": "to camera, product up by the mic flag, then turning to wave the next person in",
+      "max_words": 8,
+      "rules": "always ends with the word 'Next!'"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.4,
+      "beat": "hook",
+      "framing": "medium close-up, host to lens",
+      "camera": "handheld selfie-distance, slight sway",
+      "action": "Bea on the quad talks straight to camera, mic in one hand, the covered product beside her.",
+      "product_state": "hidden under the kraft paper cover (or the gingham cloth for room-scale products), its outline readable, no label",
+      "audio": "crowd chatter, birds, wind bump on the mic, dialogue",
+      "caption": "{{line.L1}}",
+      "refs": [
+        "bea",
+        "quad",
+        "product"
+      ],
+      "product_role": "background",
+      "keyframe_prompt": "Candid medium close-up of Bea, the woman from the character sheet, on the autumn college quad from the location plate, talking straight into the lens with eyebrows raised and a playful grin. In one hand she holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text. With her other hand she is {{action}}. Orange maples and brick buildings out of focus behind her, a few adult students walking. Bright natural daylight. Keep plain open sky at the top of the frame for a question card added later (no boxes or shapes drawn there). Her face exactly matches the character sheet: Filipino American, long straight black hair in a high ponytail, small nose stud.",
+      "dressing": [
+        "a small wooden A-frame chalkboard beside her covered in chalk tally marks",
+        "her card table with the gingham cloth and the leaning stack of white cups",
+        "the washi tape on the kraft paper cover",
+        "homecoming pennants blurred behind"
+      ],
+      "product_action": {
+        "ingested": "holding up {{product.visual}} completely wrapped in a plain brown kraft paper sleeve taped with sky-blue washi tape, only its outline showing, plus a small stack of plain white sample cups",
+        "applied": "holding up {{product.visual}} wrapped in a plain brown kraft paper sleeve taped with sky-blue washi tape, only its cap showing",
+        "worn": "holding up {{product.visual}} folded or dangling from two fingers, every logo and tag hidden under strips of kraft paper and sky-blue washi tape",
+        "handheld": "holding up {{product.visual}} wrapped in kraft paper and sky-blue washi tape so only its working end shows",
+        "carried": "holding up {{product.visual}} by its handle or strap, its logo hidden under a kraft paper patch taped with sky-blue washi tape",
+        "home": "gesturing proudly at {{product.visual}} beside her on the lawn, completely hidden under a blue and white gingham cloth, only its outline and scale readable",
+        "consumable": "holding up the pack of {{product.visual}} wrapped in plain brown kraft paper and sky-blue washi tape"
+      }
+    },
+    {
+      "id": "S02",
+      "t0": 2.4,
+      "t1": 5.0,
+      "beat": "answers",
+      "framing": "medium, subject right third",
+      "camera": "handheld, snap zoom on the answer",
+      "action": "Tyler tries the covered product blind and names the catch instantly, Bea's mic in frame from the left.",
+      "product_state": "hidden, in use for the blind try",
+      "audio": "the product's own use sound, crowd, dialogue",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "tyler",
+        "quad",
+        "product"
+      ],
+      "product_role": "in_use",
+      "keyframe_prompt": "Candid handheld street interview frame: Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, framed chest-up on the right third, {{action}}, answering with cocky certainty, one finger raised. From the left edge of the frame, a woman's hand in a cream corduroy sleeve holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text toward him. No label or logo of the product is visible. Orange maples, brick and passers-by out of focus behind. Natural daylight.",
+      "dressing": [
+        "the carabiner of keys on his backpack strap",
+        "the chewed hoodie drawstring",
+        "the cast-iron lamp post with blank flyer scraps behind",
+        "students on a red plaid blanket in the distance"
+      ],
+      "product_action": {
+        "ingested": "lowering a small plain white paper sample cup from his lips after one blind taste",
+        "applied": "rubbing a small dab of the product into the back of his hand, the kraft-sleeved {{product.visual}} in Bea's hand at the frame edge",
+        "worn": "wearing or holding up {{product.visual}} for a blind try-on, every logo and tag hidden under kraft paper and sky-blue washi tape",
+        "handheld": "trying the kraft-wrapped {{product.visual}} for a few seconds, only its working end uncovered",
+        "carried": "hefting {{product.visual}} onto one shoulder or in one hand, its logo hidden under a kraft paper patch",
+        "home": "sitting on, touching or switching on {{product.visual}} set on the lawn, the blue gingham cloth still draped over its branding",
+        "consumable": "trying one loose piece of {{product.visual}} taken from a kraft-wrapped pack"
+      }
+    },
+    {
+      "id": "S03",
+      "t0": 5.0,
+      "t1": 7.6,
+      "beat": "answers",
+      "framing": "medium close-up, subject left third",
+      "camera": "handheld, reframe on the point",
+      "action": "Mei tries it blind, eyes go wide, she points at the covered product and names the same catch.",
+      "product_state": "hidden, in use for the blind try",
+      "audio": "laughter off screen, dialogue",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "mei",
+        "quad",
+        "product"
+      ],
+      "product_role": "in_use",
+      "keyframe_prompt": "Candid handheld street interview frame: Mei, the young woman from the character sheet, on a stone path on the autumn college quad, framed chest-up on the left third, eyes wide behind her gold glasses, {{action}}, mouth open mid-word. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text enters from the right edge. No label or logo of the product is visible. A bench and orange leaves out of focus behind. Natural daylight, slight lens flare.",
+      "dressing": [
+        "the lavender sprig in her tote handle",
+        "the pencil in her bob",
+        "the teak bench with the carved heart behind her",
+        "a squirrel on the bench back"
+      ],
+      "product_action": {
+        "ingested": "pointing at the small plain white paper sample cup in her other hand after one blind taste",
+        "applied": "holding up the back of her hand where the product has just been rubbed in, pointing at it",
+        "worn": "wearing {{product.visual}} for a blind try-on, logos and tags hidden under kraft paper tape, pointing down at it",
+        "handheld": "holding the kraft-wrapped {{product.visual}} after trying it, pointing at it",
+        "carried": "holding {{product.visual}} by its strap or handle with its logo covered in kraft paper, pointing at it",
+        "home": "standing beside {{product.visual}} on the lawn under the gingham cloth after trying it, pointing at it",
+        "consumable": "holding one loose piece of {{product.visual}} on a white napkin, pointing at it"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 7.6,
+      "t1": 10.6,
+      "beat": "answers",
+      "framing": "medium",
+      "camera": "handheld, slow punch-in",
+      "action": "Dr. Greene tries it blind, considers, and names the catch with total authority.",
+      "product_state": "hidden, in use for the blind try",
+      "audio": "crowd, a distant bell, dialogue",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "hal",
+        "quad",
+        "product"
+      ],
+      "product_role": "in_use",
+      "keyframe_prompt": "Candid handheld street interview frame: Dr. Harold Greene, the man from the character sheet, standing in front of a red brick building on the autumn college quad, framed chest-up, a leather satchel on his shoulder, {{action}}, peering over his half-moon glasses with amused total authority, mid-sentence. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text held toward him from the left edge. No label or logo of the product is visible. Natural afternoon daylight, real skin texture.",
+      "dressing": [
+        "his half-moon glasses on the beaded cord",
+        "the chalk smudge on his tweed sleeve",
+        "ivy turning crimson on the brick behind",
+        "the white clock tower in the distance"
+      ],
+      "product_action": {
+        "ingested": "holding a small plain white paper sample cup after one blind taste",
+        "applied": "studying the back of his hand where a dab of the product has been rubbed in",
+        "worn": "holding {{product.visual}} up at arm's length after a blind try-on, logos and tags hidden under kraft paper tape",
+        "handheld": "turning the kraft-wrapped {{product.visual}} over in his hand like a lab sample",
+        "carried": "weighing {{product.visual}} in one hand by its strap, logo covered with kraft paper",
+        "home": "tapping {{product.visual}} under the gingham cloth on the lawn with one finger like a lab sample",
+        "consumable": "holding one loose piece of {{product.visual}} up to the light like a lab sample"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 10.6,
+      "t1": 13.8,
+      "beat": "reveal",
+      "framing": "close-up insert",
+      "camera": "handheld, pull focus from cover to label",
+      "action": "Bea pulls the cover off; the product is revealed and held to camera next to the mic flag.",
+      "product_state": "hero reveal, label to camera, held 2 s",
+      "audio": "paper slide or cloth whip, a gasp off screen, dialogue",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "product",
+        "bea"
+      ],
+      "product_role": "reveal",
+      "keyframe_prompt": "Handheld close-up insert on the autumn college quad: {{action}}. The product matches the product reference exactly, fully uncovered, undistorted, label or logo to camera, the sharpest object in frame. Beside it, slightly out of focus, a handheld microphone with a plain sky-blue cube mic flag with no text. Orange leaves and green lawn bokeh behind. Exactly one product in the frame. Natural daylight.",
+      "dressing": [
+        "the crumpled kraft paper cover with its sky-blue washi tape",
+        "the chipped corner of the sky-blue mic flag",
+        "fallen leaves on the lawn behind"
+      ],
+      "product_action": {
+        "ingested": "a woman's hand in a cream corduroy sleeve holding {{product.visual}} upright to camera, the kraft paper sleeve just pulled off and crumpled in her other hand at the bottom edge of frame, not touching the product",
+        "applied": "a woman's hand in a cream corduroy sleeve holding {{product.visual}} upright to camera, the kraft paper sleeve crumpled in her other hand at the bottom edge of frame",
+        "worn": "a woman's hand in a cream corduroy sleeve holding up {{product.visual}} with the last strip of kraft paper tape just peeled off its logo, best side to camera",
+        "handheld": "a woman's hand in a cream corduroy sleeve holding {{product.visual}} to camera, the kraft paper wrap crumpled in her other hand at the bottom edge of frame",
+        "carried": "a woman's hand in a cream corduroy sleeve holding up {{product.visual}} by its handle, the kraft paper patch just peeled off its logo",
+        "home": "a woman's hand whipping the blue and white gingham cloth off {{product.visual}} standing on the lawn, the product fully revealed at its true size",
+        "consumable": "a woman's hand in a cream corduroy sleeve holding the pack of {{product.visual}} upright to camera, the kraft paper wrap crumpled in her other hand at the bottom edge of frame"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 13.8,
+      "t1": 15.6,
+      "beat": "reveal",
+      "framing": "close-up",
+      "camera": "handheld snap zoom",
+      "action": "Tyler's jaw drops, hands on his head, laughing.",
+      "product_state": "absent",
+      "audio": "laughter, dialogue",
+      "caption": "{{line.L6}}",
+      "refs": [
+        "tyler",
+        "quad"
+      ],
+      "product_role": "absent",
+      "keyframe_prompt": "Candid handheld close-up of Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, jaw dropped in genuine surprise, both hands on top of his messy hair, starting to laugh, eyes on something just off camera. Slight motion blur from a snap zoom. Orange maples out of focus. Natural daylight, real skin texture.",
+      "dressing": [
+        "the rocket sticker drawing on his backpack",
+        "the graphing calculator in the side pocket",
+        "the green groundskeeper's cart with a heap of leaves behind"
+      ]
+    },
+    {
+      "id": "S07",
+      "t0": 15.6,
+      "t1": 19.6,
+      "beat": "proof",
+      "framing": "two-shot",
+      "camera": "handheld, swings between them",
+      "action": "Mei narrows her eyes and checks for the catch; Bea, with the product, answers with a wink.",
+      "product_state": "with Bea, label half to camera",
+      "audio": "crowd, dialogue",
+      "caption": "{{line.L7}} {{line.L8}}",
+      "refs": [
+        "mei",
+        "bea",
+        "product",
+        "quad"
+      ],
+      "product_role": "in_use",
+      "keyframe_prompt": "Candid handheld two-shot on the autumn college quad: Mei, the young woman from her character sheet, on the right with narrowed sceptical eyes behind gold glasses and a half laugh, and Bea, the host from her character sheet, on the left holding a handheld microphone with a plain sky-blue cube mic flag with no text and {{action}}, winking. The product matches the product reference exactly, undistorted. Brick and orange leaves behind. Natural daylight. Exactly one product in the frame.",
+      "dressing": [
+        "Mei's hand-painted cloud travel mug",
+        "the speech bubble pin on Bea's lapel",
+        "the bronze statue with a pumpkin in its lap behind them"
+      ],
+      "product_action": {
+        "ingested": "holding {{product.visual}} upright in her other hand, label turned toward camera",
+        "applied": "holding {{product.visual}} upright in her other hand, label turned toward camera",
+        "worn": "holding up {{product.visual}} against herself with her other hand, its best side toward camera",
+        "handheld": "holding {{product.visual}} in her other hand, logo turned toward camera",
+        "carried": "holding {{product.visual}} by its strap or handle in her other hand, logo toward camera",
+        "home": "resting her other hand on {{product.visual}} standing on the lawn between them, its best side toward camera",
+        "consumable": "holding the pack of {{product.visual}} upright in her other hand, label turned toward camera"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 19.6,
+      "t1": 23.0,
+      "beat": "proof",
+      "framing": "medium",
+      "camera": "handheld",
+      "action": "Dr. Greene claims one for himself with mock seriousness.",
+      "product_state": "his one, label visible as he takes it",
+      "audio": "crowd, dialogue, laughter",
+      "caption": "{{line.L9}}",
+      "refs": [
+        "hal",
+        "product",
+        "quad"
+      ],
+      "product_role": "in_use",
+      "keyframe_prompt": "Candid handheld medium shot on the autumn college quad: Dr. Harold Greene, the man from the character sheet, in his brown tweed jacket, mock-serious, {{action}}, a wry smile over his half-moon glasses. The product matches the product reference exactly, undistorted, label still visible. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text enters from the left edge. Brick building behind. Natural daylight. Exactly one product in the frame.",
+      "dressing": [
+        "the tiny silver molecule-model pin on his lapel",
+        "the brass buckle of his leather satchel",
+        "a small wooden A-frame chalkboard of chalk tick marks at the edge of frame"
+      ],
+      "product_action": {
+        "ingested": "tucking one {{product.visual}} into the inside pocket of his tweed jacket, label still visible as it goes in",
+        "applied": "tucking {{product.visual}} into the inside pocket of his tweed jacket, label still visible as it goes in",
+        "worn": "putting on {{product.visual}} over or with his tweed jacket and adjusting it once, dignified",
+        "handheld": "slipping {{product.visual}} into his tweed jacket's outer pocket, logo still visible as it goes in",
+        "carried": "slinging {{product.visual}} over his shoulder next to his old leather satchel",
+        "home": "claiming {{product.visual}}: tucking it under one arm if it is small enough to carry, otherwise sitting down on or beside it on the lawn and patting it",
+        "consumable": "tucking the pack of {{product.visual}} into the inside pocket of his tweed jacket, label still visible as it goes in"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 23.0,
+      "t1": 26.0,
+      "beat": "payoff",
+      "framing": "wide",
+      "camera": "handheld, turns to reveal the line",
+      "action": "The camera swings round: a line of eight or nine adult students and staff has formed on the path behind Bea, waving to be next.",
+      "product_state": "absent",
+      "audio": "crowd building, 'me next', laughter",
+      "caption": "",
+      "refs": [
+        "bea",
+        "quad",
+        "tally"
+      ],
+      "product_role": "absent",
+      "keyframe_prompt": "Candid handheld wide shot on the autumn college quad, upright vertical composition, level horizon: Bea, the host from the character sheet, in the foreground turning to look back with a delighted laugh, holding her microphone with a plain sky-blue cube mic flag with no text, and behind her on the stone path a line of eight or nine adults (students in their twenties and a couple of staff) of mixed genders and ethnicities, waving and grinning to be next, plain clothes with no prints or logos, nobody holding any product. Orange maples and brick buildings, bright afternoon sun.",
+      "dressing": [
+        "the card table with the gingham cloth beside her",
+        "a small wooden A-frame chalkboard of chalk tick marks",
+        "maroon and gold pennants between the lamp posts",
+        "the half-raked leaf piles",
+        "a mint-green bike with a wicker basket at the rack"
+      ]
+    },
+    {
+      "id": "S10",
+      "t0": 26.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium close-up, host to lens",
+      "camera": "handheld, steadies for the sign-off",
+      "action": "Bea holds the product up next to the mic flag, says the tagline to camera, then turns to wave the next person in.",
+      "product_state": "hero, beside the mic flag, label to camera",
+      "audio": "crowd, dialogue, light beat in post",
+      "caption": "{{line.L10}}",
+      "refs": [
+        "bea",
+        "product",
+        "quad"
+      ],
+      "product_role": "hero",
+      "keyframe_prompt": "Candid medium close-up of Bea, the host from the character sheet, on the autumn college quad, talking straight into the lens with a big grin, {{action}}, and in her other hand a microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text right next to it. The product matches the product reference exactly, undistorted, label to camera. The blurred line of people behind her. Bright natural daylight. Exactly one product in the frame. Clean area in the upper third for the channel card.",
+      "dressing": [
+        "the speech bubble pin on her lapel",
+        "the washi tape on the mic handle",
+        "the A-frame chalkboard blurred behind her",
+        "pennants and orange maples in bokeh"
+      ],
+      "product_action": {
+        "ingested": "holding {{product.visual}} upright beside her face with the label facing camera",
+        "applied": "holding {{product.visual}} upright beside her face with the label facing camera",
+        "worn": "wearing or holding up {{product.visual}} against her shoulder, its best side and logo to camera",
+        "handheld": "holding {{product.visual}} up beside her face with the logo facing camera",
+        "carried": "holding {{product.visual}} up by its strap or handle beside her, logo to camera",
+        "home": "standing beside {{product.visual}} on the lawn with one arm resting on it or around it, the product at its true size and fully in frame, logo to camera",
+        "consumable": "holding the pack of {{product.visual}} upright beside her face with the label facing camera"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 10.6,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "bea card",
+        "tyler card",
+        "mei card",
+        "hal card",
+        "quad plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid street interview on an autumn college quad, handheld phone camera at eye level, natural daylight, jump cuts. Shot 1 (0 to 2.4 s): @Image1 (Bea) straight into the lens, holding a mic with a plain sky-blue cube flag, {{action.S01}}, fast and bright: \"{{line.L1}}\" Shot 2 (2.4 to 5 s): @Image2 (Tyler), {{action.S02}}, cocky: \"{{line.L2}}\" Shot 3 (5 to 7.6 s): @Image3 (Mei), {{action.S03}}, eyes wide: \"{{line.L3}}\" Shot 4 (7.6 to 11 s): @Image4 (Dr. Greene), {{action.S04}}, peers over his glasses, amused and certain: \"{{line.L4}}\" The product's label and logo stay hidden in every shot. The host holds the only microphone, always in frame. Native sound: crowd chatter, birds, wind bumps on the mic, close dry dialogue. No music. No text on screen, no logos, no readable signs."
+    },
+    {
+      "id": "U2",
+      "t0": 10.6,
+      "t1": 15.6,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "bea card",
+        "tyler card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid handheld. Shot 1 (0 to 3.2 s): close-up, {{action.S05}}; the product matches @Image1 exactly and is held still to camera with the label readable beside a sky-blue mic flag; @Image2 (Bea), off screen then leaning into frame, gleeful: \"{{line.L5}}\" (say the brand as {{product.phonetic}}). Shot 2 (3.2 to 5 s): snap zoom on @Image3 (Tyler), jaw drops, hands on his head, laughing: \"{{line.L6}}\" Keep the product's shape, colours and label exactly as @Image1. Exactly one product. Native sound: the cover coming off (paper or cloth), a gasp, laughter, crowd. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 15.6,
+      "t1": 26.0,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "mei card",
+        "bea card",
+        "hal card",
+        "product image",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid street interview, handheld phone camera, autumn college quad, natural daylight. Shot 1 (0 to 4 s): two-shot, @Image1 (Mei) narrows her eyes, half laughing: \"{{line.L7}}\" @Image2 (Bea), holding the mic and {{action.S07}} (the product exactly as @Image4), winks: \"{{line.L8}}\" Shot 2 (4 to 7.4 s): @Image3 (Dr. Greene), {{action.S08}}, mock serious: \"{{line.L9}}\" Shot 3 (7.4 to 10.4 s): the camera swings round to reveal a line of adults on the path behind Bea, waving to be next; Bea laughs. One product per person. Native sound: crowd, laughter, 'me next'. No music. No logos, no readable signs."
+    },
+    {
+      "id": "U4",
+      "t0": 26.0,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "bea card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid handheld, college quad in autumn daylight. Medium close-up of @Image2 (Bea) straight into the lens, {{action.S10}}; the product matches @Image1 exactly, label to camera and unchanged, a mic with a plain sky-blue cube flag next to it; big grin: \"{{line.L10}}\" (say the brand, if spoken, as {{product.phonetic}}), turning to wave someone in on the last word. The product keeps its exact shape and label. Native sound: crowd, dialogue. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "answers",
+      "t0": 0,
+      "t1": 10.6,
+      "brief": "No score: raw street ambience only, the format's authenticity lives here."
+    },
+    {
+      "section": "reveal",
+      "t0": 10.6,
+      "t1": 26.0,
+      "brief": "A light trending-style lo-fi hip hop beat, 92 bpm, muted drums and a plucky synth, enters on the cover coming off and sits well under dialogue."
+    },
+    {
+      "section": "sign-off",
+      "t0": 26.0,
+      "t1": 30,
+      "brief": "The same beat with a short riser and a clean stop on 'Next!'"
+    }
+  ],
+  "sfx": [
+    {
+      "t": 11.0,
+      "sound": "the cover coming off (kraft paper slide or gingham cloth whip), then a soft whoosh",
+      "why": "the reveal is the product moment and must register even with the crowd noise"
+    },
+    {
+      "t": 29.4,
+      "sound": "a short record-stop or tape stop",
+      "why": "sells the 'next clip' cut that makes it feel like a series"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "bea",
+      "plan": "native voice in U1; her U1 vocal stem as voice reference for U2, U3 and U4"
+    },
+    {
+      "speaker": "tyler",
+      "plan": "native in U1; his U1 stem as reference for 'No way' in U2"
+    },
+    {
+      "speaker": "mei",
+      "plan": "native in U1; her U1 stem as reference for her U3 line"
+    },
+    {
+      "speaker": "hal",
+      "plan": "native in U1; his U1 stem as reference for his U3 line"
+    }
+  ],
+  "captions": {
+    "font": "Montserrat ExtraBold, all caps",
+    "size": "5.8% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFD23F yellow on the word being spoken",
+    "shadow": "hard black stroke 4px plus soft drop shadow",
+    "box": false,
+    "position": "centre, 60% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "speaker_label": "first time each person speaks, a small white-on-black name and year tag top left, e.g. 'TYLER, SENIOR', rendered in post",
+    "question_card": "the host's question stays pinned at the top in a white rounded box with black text for the first 10 seconds"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 10.6,
+      "text": "WHAT'S THE CATCH?",
+      "sub": "",
+      "style": "question card pinned at the top: white rounded box, black Montserrat ExtraBold, pops on at 0.2 s"
+    },
+    {
+      "t0": 0,
+      "t1": 30,
+      "text": "QUAD TALK",
+      "sub": "",
+      "style": "fictional channel logo composited onto the blank sky-blue mic flag in every shot, white Montserrat ExtraBold on sky blue, tracked to the flag"
+    },
+    {
+      "t0": 2.4,
+      "t1": 10.6,
+      "text": "TYLER, SENIOR / MEI, GRAD STUDENT / DR. GREENE, CHEMISTRY",
+      "sub": "",
+      "style": "one name tag per person on their first answer, small white on black, top left under the question card"
+    },
+    {
+      "t0": 27.0,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline}}",
+      "style": "Montserrat ExtraBold white with black stroke in the clean upper third, pops on per word",
+      "sub_fallback": "if product.tagline is empty: {{line.L10}} without the word 'Next!'"
+    }
+  ],
+  "qa": [
+    "no label or logo of the product is readable in S01 to S04; the product matches the product image in S05, S07, S08 and S10",
+    "L2, L3 and L4 name the same catch, and it is the direct opposite of the benefit said in L5",
+    "L5 and L8 benefits are verbatim from product.benefits (person and tense only)",
+    "Bea, Tyler, Mei and Dr. Greene identical to their character sheets across all shots",
+    "exactly one product in any frame; room-scale products appear at true size on the lawn, never held",
+    "no readable model text: the mic flag is plain sky blue, the tally board has only marks and drawn boxes"
+  ],
+  "asset_urls": {
+    "bea": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/bea.jpg",
+    "tyler": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/tyler.jpg",
+    "mei": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/mei.jpg",
+    "hal": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/hal.jpg",
+    "quad": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/quad.jpg",
+    "mic": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/mic.jpg",
+    "tally": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/tally.jpg",
+    "kit": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/street_interview-01-blind-guess/assets/kit.jpg"
+  },
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "catch": "sugar (the opposite of 'without sugar')",
+    "lines": {
+      "L1": "Blind test. What's the catch?",
+      "L2": "Sugar. A hundred percent.",
+      "L3": "Oh, that's loaded. Sugar.",
+      "L4": "Sugar, obviously. I teach chemistry.",
+      "L5": "It's Red Bull Sugarfree. Made without sugar.",
+      "L6": "No way.",
+      "L7": "Wait, so what's the catch?",
+      "L8": "No catch. Same benefits.",
+      "L9": "Keeps me sharp for my eight a.m.",
+      "L10": "Wiiings without sugar. Next!"
+    },
+    "actions": {
+      "S01": "holding up {{product.visual}} completely wrapped in a plain brown kraft paper sleeve taped with sky-blue washi tape, only its outline showing, plus a small stack of plain white sample cups",
+      "S02": "lowering a small plain white paper sample cup from his lips after one blind taste",
+      "S03": "pointing at the small plain white paper sample cup in her other hand after one blind taste",
+      "S04": "holding a small plain white paper sample cup after one blind taste",
+      "S05": "a woman's hand in a cream corduroy sleeve holding {{product.visual}} upright to camera, the kraft paper sleeve just pulled off and crumpled in her other hand at the bottom edge of frame, not touching the product",
+      "S07": "holding {{product.visual}} upright in her other hand, label turned toward camera",
+      "S08": "tucking one {{product.visual}} into the inside pocket of his tweed jacket, label still visible as it goes in",
+      "S10": "holding {{product.visual}} upright beside her face with the label facing camera"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "key": "breaking_news",
+  "name": "Fake breaking news report",
+  "definition": "A deadpan local TV news bulletin on a fictional channel that treats a small, harmless, funny event as the story of the day, and the product is the news. A studio anchor throws to a field reporter live on the scene, there is b-roll, an eyewitness interview, a cross-talk back to the desk, and a sign-off. Played completely straight: the comedy comes from the gravity of the format applied to something tiny.",
+  "why_it_sells": "News framing borrows urgency and credibility (a 'breaking' banner is one of the strongest thumb-stoppers there is), and the format naturally repeats the key fact several times (anchor, reporter, witness, graphics) without feeling like an ad. The eyewitness holding the product up to the reporter's mic is an organic hero shot. It fails if it looks like real news or like any real network: the channel, the graphics and the story must be clearly fictional and clearly a joke.",
+  "visual_grammar": "Two visual worlds. The studio: symmetrical anchor framing at a glossy desk, clean key light, a deep navy and sky-blue set with glowing abstract screens, the anchor's face in the upper half. The field: shoulder-mounted news camera look, daylight a little overexposed, the reporter in the left or centre of frame with a hand mic, the scene behind her, a slightly telephoto b-roll style through office glass. Graphics are the style's signature and are ALWAYS rendered in post: 'BREAKING NEWS' slam, lower-third name straps, a 'LIVE' bug, a clock and the channel bug, a scrolling ticker of joke headlines, and split screen for the cross-talk.",
+  "camera": "Studio: locked-off pedestal camera, a slow push on the anchor's first line, one hard cut to a two-box split screen (built in post from the anchor and reporter shots). Field: handheld shoulder rig with small natural sway, snap zooms on b-roll, a slightly low interview angle for the witness with the mic entering frame from the side. 24 to 35mm field, 50mm studio, no shallow depth of field beyond what a broadcast camera gives.",
+  "light": "Studio: bright, even broadcast key with a hair light, cool blue fill from the set screens. Field: flat afternoon daylight, a bit of wind, office interiors under fluorescent light seen through glass.",
+  "texture": "Clean HD broadcast video with a slight over-sharpened edge and compression feel on the field footage, clean and glossy in the studio. Post adds the full graphics package and a subtle broadcast safe-area glow.",
+  "palette_rule": "The fictional channel's graphics package is built from the product's own colours (navy, sky blue, silver) so the can always looks at home, with one warm gold accent for 'BREAKING' and the ticker; no red in the graphics, so the red of the product wordmark is the only red on screen.",
+  "pacing": "News rhythm: a 3 s cold open on the anchor, throw to the field by 3 s, shots of 2 to 3.5 s, the witness with the product held for at least 2 s, a cross-talk back to the desk at the midpoint, a comic button, and a sign-off with the pack shot on the desk. Lines are delivered crisply with the tiny professional pauses of live TV.",
+  "sound": "Native dialogue: studio voices clean and close, field voices with wind and street or office ambience. Post adds the channel's news sting (timpani hit and synth stabs), a low pulsing news bed under everything, a whoosh on each graphic, and a short sign-off stinger. The bed ducks under dialogue.",
+  "caption_look": {
+    "font": "IBM Plex Sans Condensed SemiBold",
+    "size": "4.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF at full opacity, other words 75%",
+    "box": "broadcast closed-caption style: rgba(10,20,40,.82) rounded 6px box behind each line, 10px padding",
+    "position": "centre, 50% down the frame, stacked above the lower third so nothing overlaps",
+    "max_words_on_screen": 5,
+    "shadow": false,
+    "graphics_stack": "from top to bottom: captions at 50%, lower-third name strap at 58 to 66%, gold ticker band at 67 to 71%, all above the bottom 22% platform UI safe zone; channel bug and clock top right, LIVE bug top left"
+  },
+  "model_vocab": [
+    "local TV news broadcast",
+    "news anchor at a glossy studio desk",
+    "field reporter live on location with a hand microphone",
+    "shoulder-mounted news camera footage",
+    "HD broadcast video look",
+    "even broadcast studio lighting",
+    "telephoto b-roll through office windows"
+  ],
+  "failure_modes": [
+    "the words 'still from a news broadcast' make the model burn in a full graphics package (station bug, clock, LIVE tag) and even real call letters of a real station: describe frames as clean camera-original footage before graphics are added, and never say 'broadcast still' in plate prompts",
+    "news-camera wording pushes the model toward a 4:3 or 16:9 picture pillarboxed over a blurred copy of itself: say full-bleed 9:16 filling the frame edge to edge, and check location plates before keyframes because a letterboxed plate spreads to every shot using it",
+    "the model paints its own 'BREAKING NEWS' banner, ticker or lower third with garbled letters: always ask for clean empty space in the lower half and say no on-screen graphics, text or letters",
+    "the set screens behind the anchor show readable words or real network logos: say abstract glowing blue shapes and blurred city lights only",
+    "microphone flags come back with real network call letters: say a plain navy mic flag with no letters",
+    "the anchor desk grows a laptop logo or papers with readable text: say blank papers and no laptop",
+    "office b-roll through glass shows readable signs and monitors: say monitors show only soft abstract colour and the whiteboard has only unreadable scribble shapes",
+    "the reporter looks like a real famous journalist: keep the cast card and the fictional channel only",
+    "the witness squeezes the can toward the mic and bends it: say he holds it upright at chest height beside the mic, label to camera",
+    "wide exterior shots of the glass tower come back tilted: say upright vertical composition, level horizon, vertical building lines",
+    "the anchor comes back small behind a huge desk: ask for tight framing from mid-chest up with his head and shoulders filling the upper half",
+    "two-handed grips hide the label: say one hand only, fingertips at the bottom rim",
+    "a reporter against a location plate can come back looking pasted in with mismatched light: say she is photographed in the scene with matching daylight and shadows; if it persists, drop the location plate from that shot's refs and describe the place in words",
+    "asking for 'clean empty space in the lower part of the frame' can produce a literal blank grey band with the subject cut off above it: say the scene continues naturally through the lower third with no important detail there",
+    "a dressed office plate puts Hector's bell and report stack in the near foreground of every office shot, shrinking the action behind it: for b-roll, say the people fill the middle of the frame and nothing sits in the near foreground",
+    "prop sheets pick up printed view captions (view 1, side profile) when called a reference sheet: ask for the object isolated on a plain mid-grey backdrop with no captions or view labels"
+  ],
+  "negatives": [
+    "no real TV networks, channel logos, call letters or journalists",
+    "no model-generated on-screen graphics, banners, tickers or text",
+    "no real brands or logos except the product",
+    "no emergency services, police tape, sirens or anything that implies real danger",
+    "no extra fingers",
+    "no children"
+  ],
+  "prompt_prefix": "Clean camera-original frame from a TV news camera, as recorded before any graphics are added, full-bleed vertical 9:16 image filling the entire frame edge to edge (no letterbox, no borders, no blurred bands), HD video look, even broadcast lighting, no station logos, no clocks, no banners, no captions, no text overlays of any kind, the scene continues naturally through the lower third of the frame with no important detail there (graphics are added later).",
+  "asset_style": "Photoreal casting reference, even broadcast lighting."
+}

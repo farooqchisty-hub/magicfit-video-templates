@@ -1,0 +1,62 @@
+{
+  "key": "retro_infomercial",
+  "name": "Retro VHS infomercial parody",
+  "definition": "A lovingly exact parody of a 1990s late-night TV infomercial, as if found on a worn VHS tape: an over-eager host, a black-and-white 'problem' segment with a hopeless everyday struggle, a full-colour miracle reveal, a testimonial, 'but wait, there's more', a studio audience 'ooooh', and a graphics card telling you where to get it. The joke is the format; the product is the one thing in it that is real.",
+  "why_it_sells": "Instant pattern interrupt in a feed of glossy 2020s ads: the tape noise and the 4:3 energy stop the thumb, and everyone already knows the infomercial structure, so the viewer follows problem, product, benefit, proof, offer without effort. Parody gives permission to say the benefit loudly and repeat it, which a straight ad cannot do. It fails when the parody mocks the product or the viewer: the host is ridiculous, the product is never the punchline.",
+  "visual_grammar": "Three looks, strictly separated: (1) the host on a bright pastel set (teal, magenta, butter yellow, glass blocks, a fake potted palm) lit flat and bright; (2) the problem segment in exaggerated black and white with slightly sped-up comic misfortune; (3) the reveal and testimonial in over-saturated colour. The image is always full-bleed 9:16; the 4:3 feel comes from composition (the host and props kept in the middle of the frame like a 1990s TV picture) and from a rounded CRT vignette added in post, with plain set wall above and below where post-rendered graphics (starbursts, the 'available where you shop' card, the offer card) sit. Direct address to camera, big hand gestures, the product held next to the face.",
+  "camera": "Locked-off studio pedestal cameras with slow zooms, never dollies; one crash zoom on 'but wait, there's more'; a wide-angle close-up of the host for the direct-to-lens moments; a slowly rotating turntable for the product beauty shot. Problem segment is a static wide with comedy timing. No handheld, no shallow depth of field: everything in focus like 1990s video.",
+  "light": "Flat, high-key three-point studio light with hot highlights and hard shadow-free faces; slightly blown whites; a star-filter glint on the product. The problem segment is grey, dull and overcast in feel.",
+  "texture": "Standard-definition interlaced video look: soft detail, chroma bleed on reds, slight colour fringing, blooming whites, low contrast blacks. In post: VHS tracking lines, a head-switching noise bar at the bottom edge, occasional tape wobble on cuts, a 'PLAY' on-screen display in the first second, and a faint rounded CRT vignette. The model only gives the soft 1990s video base; heavy tape damage is always post so faces and the can stay clean.",
+  "palette_rule": "The set is built from the loudest 1990s pastels (teal, magenta, butter yellow) and the product's sky blue slots in as the hero accent; red of the wordmark is never used on the set so the label stays the only red. Problem segment is fully desaturated so the switch to colour is the reveal.",
+  "pacing": "Classic infomercial rhythm compressed to 30 s: problem in the first 4 s, the product revealed by 5 s and held 2 s next to the host's face, then a new 'selling point' every 2 to 3 s, each closed by a mini-button (a pose, a gasp, a boing), and the offer card held for the last 4 s. Comic beats get a half-second pause before the reaction.",
+  "sound": "Native dialogue with a slightly boxy studio sound. In post: a cheesy 1990s synth-and-slap-bass jingle bed, a laugh-and-'ooooh' studio audience, cartoon boings and whooshes on graphics, and a faint tape hiss with a warble on each cut. The host is always slightly too loud.",
+  "caption_look": {
+    "font": "Cooper Black (or a rounded heavy serif like it)",
+    "size": "5.6% of frame height",
+    "color": "#FFE94A (infomercial yellow)",
+    "active_word": "the stressed word jumps to #FFFFFF and scales to 110% for 6 frames",
+    "shadow": "4px black outline plus a hard 6px drop shadow down-right in #D6246E (magenta)",
+    "position": "centre, 64% down the frame, above the platform UI safe zone, always below the host's chin",
+    "max_words_on_screen": 4,
+    "box": false,
+    "animation": "each caption line slides in from the left with a slight overshoot, like a 1990s character generator",
+    "starbursts": "selling points also get a spinning yellow starburst with a two to three word callout (post only)"
+  },
+  "model_vocab": [
+    "1990s TV infomercial",
+    "standard definition broadcast video still",
+    "flat high-key studio lighting",
+    "pastel 90s studio set with glass blocks",
+    "direct address to camera",
+    "over-saturated colour",
+    "exaggerated black and white problem segment",
+    "soft interlaced video, slight chroma bleed"
+  ],
+  "failure_modes": [
+    "asking for 'a 4:3 picture inside the 9:16 frame' makes the model render a small 4:3 image pillarboxed over a blurred copy of itself: always say full-bleed 9:16 filling the frame edge to edge, and get the 4:3 feel from centred composition plus a post CRT vignette",
+    "a letterboxed location plate poisons every shot that references it: check plates are full-bleed before rendering keyframes, and say full-bleed in the plate prompt too",
+    "the model renders fake price tags, phone numbers or 'CALL NOW' text itself: always ask for a plain empty set wall or a blank card area where graphics go, and say no text, numbers or letters anywhere",
+    "the model over-applies VHS damage and wrecks the can label: ask only for soft 1990s video, keep tape damage for post",
+    "the host becomes a modern influencer: repeat 1990s wardrobe words (double-breasted pastel blazer, big hair, huge white smile) and direct address",
+    "the black and white problem segment comes back in colour or sepia: say fully black and white, no colour at all, and exclude the can from that shot",
+    "the host's hand squeezes or bends the can when he waves it: say he holds it gently upright at the base with fingertips, label facing camera",
+    "vintage beige telephones grow keypads with readable numbers: say plain beige telephones with blank buttons",
+    "studio audiences come out with repeated clone faces: say a varied audience of different ages and ethnicities in 1990s clothes",
+    "real 1990s product brands creep into the desk props: say the desk props are unbranded",
+    "a rotating pedestal shot distorts the cylinder: keep the can upright, straight on, the pedestal does the turning",
+    "a busy pack shot with the host's hand at the edge can come back as a picture-in-picture inset over a second copy of the set: say one single continuous camera image, no inset",
+    "set props (the wax lemon bowl) leak into the office segment when the dressing lists are long: say only office things on the desk in office shots",
+    "prop sheets pick up printed view captions and taped paper labels when called a reference sheet: ask for a full-frame studio photograph on a mid-grey backdrop with no tags, labels or handwriting",
+    "a pack shot asking for clean graphic areas above and below can come back letterboxed with flat coloured bands: say the wall runs to the very top edge and the table front to the very bottom edge"
+  ],
+  "negatives": [
+    "no real brands, logos or TV channel marks except the product",
+    "no model-generated text, numbers, prices or phone numbers anywhere",
+    "no invented prices or discounts",
+    "no modern smartphones, flat screens or 2020s clothing",
+    "no extra fingers",
+    "no children"
+  ],
+  "prompt_prefix": "Still frame from a 1990s TV infomercial, full-bleed vertical 9:16 image that fills the entire frame edge to edge (no letterbox, no pillarbox, no borders, no blurred bands), standard-definition broadcast video look, flat high-key studio lighting, over-saturated colour, soft detail, slight chroma bleed, everything in focus.",
+  "asset_style": "Photoreal casting reference with 1990s styling, flat bright light."
+}
