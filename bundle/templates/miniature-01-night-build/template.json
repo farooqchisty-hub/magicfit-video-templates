@@ -428,9 +428,9 @@
       ],
       "product_role": "reveal",
       "product_action": {
-        "ingested": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright and closed in the centre of the square",
+        "ingested": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright (propped on end if it is flat) and closed in the centre of the square",
         "applied": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright in the centre of the square with its cap on",
-        "worn": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set down in the centre of the square like a new landmark",
+        "worn": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set down in the centre of the square like a new landmark (a garment neatly folded into a block so it does not smother the houses)",
         "handheld": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright in the centre of the square",
         "carried": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set down standing and closed in the centre of the square",
         "home": "{{product.visual}} at its real size settled at the edge of the model board (on the desk if it fits, on the floor right beside the desk if it does not), rising behind the tiny houses like a mountain range, a normal-size adult hand with dark brown skin resting on it as she settles it into place",
@@ -462,13 +462,13 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid of {{product.visual}}, heaving on a thin rope tied to its opening tab or cap until it cracks open and a burst of cold white mist rises like a geyser",
+        "ingested": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid of {{product.visual}}, heaving on a thin rope tied to its opening tab, cap or wrapper edge until it cracks open with a burst of cold white mist like a geyser (a beverage) or its wrapper tears back like a curtain (food)",
         "applied": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats on top of {{product.visual}}, pushing on toothpick levers around its cap like sailors at a capstan until it twists open",
         "worn": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats climbing {{product.visual}} on thread ropes like a rock face, one already waving from the top",
-        "handheld": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats on {{product.visual}}, heaving together on a toothpick lever against its button, lid or clasp until it clicks open or on",
+        "handheld": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats on {{product.visual}}, heaving together on a toothpick lever against its button, lid or clasp until it clicks open, on or into place",
         "carried": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats hauling the zip pull or clasp of {{product.visual}} along with a thread rope, opening it like a warehouse door",
         "home": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats climbing a toothpick ladder onto {{product.visual}} and heaving on a thread rope tied to its switch, knob, handle or corner until it clicks on or settles into place",
-        "consumable": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats heaving on a thread rope that runs over a bead pulley, hauling one {{product.visual}} up out of its open pack"
+        "consumable": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats heaving on a thread rope that runs over a bead pulley, hauling one piece up out of the open pack of {{product.visual}}"
       }
     },
     {
@@ -496,7 +496,7 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "standing proudly at the base of {{product.visual}}, now open, one tiny hand resting on it like a monument, the label rising above him, cold droplets on it",
+        "ingested": "standing proudly at the base of {{product.visual}}, now open, one tiny hand resting on it like a monument, the label rising above him",
         "applied": "standing proudly at the base of {{product.visual}}, its cap lying beside him like a fallen dome, one tiny hand resting on it, the label rising above him",
         "worn": "standing proudly in front of {{product.visual}}, which lies in the square like a new landmark with tiny crew climbing it, one tiny hand resting on it",
         "handheld": "standing proudly at the base of {{product.visual}}, now open or switched on, one tiny hand resting on it, the logo rising above him",
@@ -532,7 +532,7 @@
       "product_role": "background",
       "product_action": {
         "ingested": "{{product.visual}} standing open in the centre of the square, towering over it all, label facing the viewer",
-        "applied": "{{product.visual}} standing in the centre of the square, a tiny crew rolling a thin stripe of it onto a card roof like paint",
+        "applied": "{{product.visual}} standing in the centre of the square, a tiny crew polishing a card roof with a dab of it on a scrap of cloth",
         "worn": "{{product.visual}} lying in the square as the crew's newest landmark, figurines climbing it on thread ropes",
         "handheld": "{{product.visual}} standing in the centre of the square, open or switched on, towering over it all, logo facing the viewer",
         "carried": "{{product.visual}} standing open in the centre of the square, figurines carrying tiny card crates out of it like a warehouse",
@@ -566,13 +566,13 @@
       ],
       "product_role": "in_use",
       "product_action": {
-        "ingested": "lifting {{product.visual}} out of the square and holding it open at chin height just after a sip, label facing the viewer",
+        "ingested": "lifting {{product.visual}} out of the square and holding it open at chin height just after a sip or a bite, label facing the viewer",
         "applied": "lifting {{product.visual}} out of the square and smoothing a little onto the back of her hand, then holding it at chin height with the label readable",
         "worn": "lifting {{product.visual}} out of the square and putting it on, the product clearly in frame on her",
         "handheld": "lifting {{product.visual}} out of the square and using it for a moment, then holding it at chin height with the logo readable",
         "carried": "lifting {{product.visual}} out of the square and slinging it onto her shoulder, logo readable",
         "home": "reaching over to {{product.visual}} beside the model board and using it (switching it on, leaning into it or resting a hand on it), the product fully in frame",
-        "consumable": "lifting one {{product.visual}} out of its pack in the square and using it, then holding the pack at chin height with the label readable"
+        "consumable": "lifting one piece out of the pack of {{product.visual}} in the square and using it, then holding the pack at chin height with the label readable"
       }
     },
     {
@@ -625,7 +625,7 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "{{product.visual}} standing upright and open in the centre of the finished square, label facing the viewer, cold droplets on it",
+        "ingested": "{{product.visual}} standing upright and open in the centre of the finished square (propped on end if it is flat), label facing the viewer",
         "applied": "{{product.visual}} standing upright in the centre of the finished square, cap on, label facing the viewer",
         "worn": "{{product.visual}} set in the centre of the finished square as its landmark, best side to the viewer",
         "handheld": "{{product.visual}} standing in the centre of the finished square, logo facing the viewer",
@@ -807,6 +807,7 @@
     }
   ],
   "qa": [
+    "where an action offers choices in parentheses (a beverage or food, footwear or a garment, large or small pieces), keep only the one that fits this product and delete the rest before prompting",
     "the product in S04 to S08 and S10 is full-size and photographically exact against the product image, never shrunk to model scale",
     "only one of the product in any shot",
     "Sal identical across S01, S03, S06, S09 against his figurine sheet; Amara identical in S08 and S09",
@@ -864,12 +865,12 @@
       "L6": "Wiiings without sugar."
     },
     "actions": {
-      "S04": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright and closed in the centre of the square",
-      "S05": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid of {{product.visual}}, heaving on a thin rope tied to its opening tab or cap until it cracks open and a burst of cold white mist rises like a geyser",
-      "S06": "standing proudly at the base of {{product.visual}}, now open, one tiny hand resting on it like a monument, the label rising above him, cold droplets on it",
+      "S04": "a normal-size adult hand with dark brown skin just letting go of {{product.visual}}, a real full-size object, set upright (propped on end if it is flat) and closed in the centre of the square",
+      "S05": "three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid of {{product.visual}}, heaving on a thin rope tied to its opening tab, cap or wrapper edge until it cracks open with a burst of cold white mist like a geyser (a beverage) or its wrapper tears back like a curtain (food)",
+      "S06": "standing proudly at the base of {{product.visual}}, now open, one tiny hand resting on it like a monument, the label rising above him",
       "S07": "{{product.visual}} standing open in the centre of the square, towering over it all, label facing the viewer",
-      "S08": "lifting {{product.visual}} out of the square and holding it open at chin height just after a sip, label facing the viewer",
-      "S10": "{{product.visual}} standing upright and open in the centre of the finished square, label facing the viewer, cold droplets on it"
+      "S08": "lifting {{product.visual}} out of the square and holding it open at chin height just after a sip or a bite, label facing the viewer",
+      "S10": "{{product.visual}} standing upright and open in the centre of the finished square (propped on end if it is flat), label facing the viewer"
     }
   }
 }

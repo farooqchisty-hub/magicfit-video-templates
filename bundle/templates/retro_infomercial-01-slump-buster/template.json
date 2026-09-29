@@ -1,952 +1,952 @@
 {
- "id": "retro_infomercial-01-slump-buster",
- "style": "retro_infomercial",
- "title": "The Better Way",
- "version": "1.0",
- "runtime_s": 30,
- "aspect": "9:16",
- "logline": "Found on a 1997 tape: the host of a late-night home shopping show has the answer to an everyday problem, and he cannot contain himself. Black-and-white misery, full-colour miracle, a studio audience that goes 'ooooh', and it is {{product.name}}.",
- "fit": {
-  "archetypes": {
-   "ingested": [
-    "great",
-    "held up by the host, sparkling on the pedestal, the testimonial holds it up"
-   ],
-   "applied": [
-    "good",
-    "the host presents it and the testimonial shows the result; keep the demo to a dab on the hand, never a before and after of a body"
-   ],
-   "worn": [
-    "good",
-    "modelled on a display form on the pedestal, the testimonial wears it at her desk"
-   ],
-   "handheld": [
-    "great",
-    "the gadget that fixes the black and white problem is the infomercial's home turf"
-   ],
-   "carried": [
-    "good",
-    "presented by its strap, the testimonial pats it on her desk"
-   ],
-   "home": [
-    "stretch",
-    "the set grows a fake living room corner and a big mirrored riser; works for chairs, lamps, fans and small appliances that fit Gloria's cubicle, not for beds or sofas"
-   ],
-   "consumable": [
-    "good",
-    "packs stacked on the rotating pedestal"
-   ]
-  },
-  "avoid": [
-   "products for children",
-   "alcohol",
-   "medical, weight-loss or body-changing products (the black and white problem would mock a condition)",
-   "beds, sofas and large appliances"
-  ],
-  "note": "a page with only one benefit still works, but L7 then restates it from a new angle, which is weaker"
- },
- "product_extract": {
-  "why": "The format lives on a black and white problem and a silly prop swept off the table. Both must fit the product, so the runner derives them here before filling the template.",
-  "problem": {
-   "extract": "The everyday problem that the headline benefit (the one L4 uses, from product.benefits) solves, as an office-desk pantomime Gloria will overact in black and white. Derive it only from that benefit: focus or energy gives the 3pm slump; warmth gives shivering under the air vent; comfort gives squirming in a hard chair; organisation gives a desk avalanche of loose things. Never a medical condition, never a body the product claims to change.",
-   "fields": {
-    "visual": "one sentence for S02 and U1: what Gloria does at her desk, overacted, in black and white, with the product not in frame"
-   },
-   "default": "slumped at her desk with sleepy eyes and her glasses askew, a stack of paper files starting to slide off the desk"
-  },
-  "old_way": {
-   "extract": "The silly prop Dale sweeps off the demo table in S07 while L7 lands the second selling point.",
-   "with_left_out": "ONLY if the product page says word for word that the product is free of or made without something ('no X', 'X-free', 'without X'): a giant white foam novelty version of that thing, the size of a hatbox, painted, one corner dented where it has been dropped before, no face, no letters. Build its prop sheet from the example_old_way asset's look.",
-   "default": "a wobbly tower of five plain dull grey unmarked boxes standing for the old way, no letters, no logos",
-   "fields": {
-    "visual": "one sentence for S07 and U3"
-   }
-  },
-  "token_syntax": "[[problem.visual]], [[old_way.visual]] and [[starburst.N]] are filled from this block in Stage 3, right after the product card slots. No [[...]] token may remain in the fill.",
-  "starbursts": "[[starburst.1]], [[starburst.2]] and [[starburst.3]] are one to three words lifted from L4 and L7 as filled, in capitals with an exclamation mark. They never add a claim the lines do not make."
- },
- "world_bible": {
-  "lore": [
-   "The Dale Dazzle Hour tapes on Tuesday nights in Studio B of WonderVision 38 in Tampa, Florida, and airs at 2am. This is episode 412, taped on 14 October 1997.",
-   "Dale Dazzle was born Dale Pruitt and sold above-ground pools door to door before he got the show in 1991. The gold pinky ring was bought with his first commission cheque in 1984 and he taps it on the table when he wants a cut.",
-   "Gloria Tran is a claims processor at a Tampa insurance office, not an actor. Her sister-in-law works in the station's front office, and this is her third segment; she was paid in a gift basket.",
-   "The studio audience is bussed in from a retirement community and a Thursday bowling league, paid in a free lunch, and the ooooh is rehearsed twice before tape rolls.",
-   "The station manager has warned that if episode 412 does not move product, the 2am slot goes to a psychic hotline. The six desk phones were bought used from a closed travel agency in 1993 and only two of them ever connected."
-  ],
-  "materials_rule": "Everything is 1997 television production stock and must be period accurate to 1997: painted wooden set flats with visible seams, glass blocks, white laminate, brass-tone and chrome trim, pastel carpet, acrylic, neon glass tubes, wax fruit, plastic plants. Office props are beige injection-moulded plastic, grey-blue fabric cubicle panels, manila paper and styrofoam. Nothing invented after 1997 appears anywhere: no flat screens, no mobile phones, no laptops, no earbuds, no light strips, no modern logos, no plastic water bottles. Everything is seen through soft standard-definition video with slight colour bleed. The product is the one exception: it appears exactly as it is today, sharp and true to the product image, lit like a 1997 miracle.",
-  "locations": {
-   "set": {
-    "foreground": [
-     "teal carpet with a faint coffee stain and a cross of silver gaffer tape marking the host's spot",
-     "the white laminate demo table with a chipped front edge and a brass-tone trim strip",
-     "the small round mirrored rotating pedestal with a thin grey cord running off the back of the table",
-     "a cut crystal bowl of dusty wax lemons at the end of the table"
+  "id": "retro_infomercial-01-slump-buster",
+  "style": "retro_infomercial",
+  "title": "The Better Way",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Found on a 1997 tape: the host of a late-night home shopping show has the answer to an everyday problem, and he cannot contain himself. Black-and-white misery, full-colour miracle, a studio audience that goes 'ooooh', and it is {{product.name}}.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "held up by the host, sparkling on the pedestal, the testimonial holds it up"
+      ],
+      "applied": [
+        "good",
+        "the host presents it and the testimonial shows the result; keep the demo to a dab on the hand, never a before and after of a body"
+      ],
+      "worn": [
+        "good",
+        "modelled on a display form on the pedestal, the testimonial wears it at her desk"
+      ],
+      "handheld": [
+        "great",
+        "the gadget that fixes the black and white problem is the infomercial's home turf"
+      ],
+      "carried": [
+        "good",
+        "presented by its strap, the testimonial pats it on her desk"
+      ],
+      "home": [
+        "stretch",
+        "the set grows a fake living room corner and a big mirrored riser; works for chairs, lamps, fans and small appliances that fit Gloria's cubicle, not for beds or sofas"
+      ],
+      "consumable": [
+        "good",
+        "packs stacked on the rotating pedestal"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "medical, weight-loss or body-changing products (the black and white problem would mock a condition)",
+      "beds, sofas and large appliances"
     ],
-    "midground": [
-     "a fake potted palm with dusty plastic fronds in a gold-painted urn",
-     "a pastel pink faux-marble column with a chip showing white plaster",
-     "a magenta neon squiggle tube mounted on the wall",
-     "a neat pyramid of plain white cardboard boxes on a side riser",
-     "a chrome bar stool with a teal vinyl seat, split and taped",
-     "a small four-point starburst shape painted in butter yellow on the front panel of the table"
+    "note": "a page with only one benefit still works, but L7 then restates it from a new angle, which is weaker"
+  },
+  "product_extract": {
+    "why": "The format lives on a black and white problem and a silly prop swept off the table. Both must fit the product, so the runner derives them here before filling the template.",
+    "problem": {
+      "extract": "The everyday problem that the headline benefit (the one L4 uses, from product.benefits) solves, as an office-desk pantomime Gloria will overact in black and white. Derive it only from that benefit: focus or energy gives the 3pm slump; warmth gives shivering under the air vent; comfort gives squirming in a hard chair; organisation gives a desk avalanche of loose things. Never a medical condition, never a body the product claims to change.",
+      "fields": {
+        "visual": "one sentence for S02 and U1: what Gloria does at her desk, overacted, in black and white, with the product not in frame"
+      },
+      "default": "slumped at her desk with sleepy eyes and her glasses askew, a stack of paper files starting to slide off the desk"
+    },
+    "old_way": {
+      "extract": "The silly prop Dale sweeps off the demo table in S07 while L7 lands the second selling point.",
+      "with_left_out": "ONLY if the product page says word for word that the product is free of or made without something ('no X', 'X-free', 'without X'): a giant white foam novelty version of that thing, the size of a hatbox, painted, one corner dented where it has been dropped before, no face, no letters. Build its prop sheet from the example_old_way asset's look.",
+      "default": "a wobbly tower of five plain dull grey unmarked boxes standing for the old way, no letters, no logos",
+      "fields": {
+        "visual": "one sentence for S07 and U3"
+      }
+    },
+    "token_syntax": "[[problem.visual]], [[old_way.visual]] and [[starburst.N]] are filled from this block in Stage 3, right after the product card slots. No [[...]] token may remain in the fill.",
+    "starbursts": "[[starburst.1]], [[starburst.2]] and [[starburst.3]] are one to three words lifted from L4 and L7 as filled, in capitals with an exclamation mark. They never add a claim the lines do not make."
+  },
+  "world_bible": {
+    "lore": [
+      "The Dale Dazzle Hour tapes on Tuesday nights in Studio B of WonderVision 38 in Tampa, Florida, and airs at 2am. This is episode 412, taped on 14 October 1997.",
+      "Dale Dazzle was born Dale Pruitt and sold above-ground pools door to door before he got the show in 1991. The gold pinky ring was bought with his first commission cheque in 1984 and he taps it on the table when he wants a cut.",
+      "Gloria Tran is a claims processor at a Tampa insurance office, not an actor. Her sister-in-law works in the station's front office, and this is her third segment; she was paid in a gift basket.",
+      "The studio audience is bussed in from a retirement community and a Thursday bowling league, paid in a free lunch, and the ooooh is rehearsed twice before tape rolls.",
+      "The station manager has warned that if episode 412 does not move product, the 2am slot goes to a psychic hotline. The six desk phones were bought used from a closed travel agency in 1993 and only two of them ever connected."
     ],
-    "background": [
-     "a tall curved glass-block wall lit teal and magenta from behind",
-     "butter-yellow and teal geometric set flats with visible seams between them",
-     "a row of black ceiling track-light housings with coloured gels",
-     "a painted pink and orange sunset backdrop behind a fake window frame with white vertical blinds",
-     "the edge of a black stage curtain with a sandbag on a light stand"
-    ]
-   },
-   "office": {
-    "foreground": [
-     "a beige keyboard with yellowed keys and a coiled cord",
-     "a beige ball mouse on a mouse pad printed with a palm tree sunset",
-     "a styrofoam coffee cup with a pink lipstick mark and a skin on the coffee",
-     "a heavy beige stapler and a paper desk blotter with an empty grid"
+    "materials_rule": "Everything is 1997 television production stock and must be period accurate to 1997: painted wooden set flats with visible seams, glass blocks, white laminate, brass-tone and chrome trim, pastel carpet, acrylic, neon glass tubes, wax fruit, plastic plants. Office props are beige injection-moulded plastic, grey-blue fabric cubicle panels, manila paper and styrofoam. Nothing invented after 1997 appears anywhere: no flat screens, no mobile phones, no laptops, no earbuds, no light strips, no modern logos, no plastic water bottles. Everything is seen through soft standard-definition video with slight colour bleed. The product is the one exception: it appears exactly as it is today, sharp and true to the product image, lit like a 1997 miracle.",
+    "locations": {
+      "set": {
+        "foreground": [
+          "teal carpet with a faint coffee stain and a cross of silver gaffer tape marking the host's spot",
+          "the white laminate demo table with a chipped front edge and a brass-tone trim strip",
+          "the small round mirrored rotating pedestal with a thin grey cord running off the back of the table",
+          "a cut crystal bowl of dusty wax lemons at the end of the table"
+        ],
+        "midground": [
+          "a fake potted palm with dusty plastic fronds in a gold-painted urn",
+          "a pastel pink faux-marble column with a chip showing white plaster",
+          "a magenta neon squiggle tube mounted on the wall",
+          "a neat pyramid of plain white cardboard boxes on a side riser",
+          "a chrome bar stool with a teal vinyl seat, split and taped",
+          "a small four-point starburst shape painted in butter yellow on the front panel of the table"
+        ],
+        "background": [
+          "a tall curved glass-block wall lit teal and magenta from behind",
+          "butter-yellow and teal geometric set flats with visible seams between them",
+          "a row of black ceiling track-light housings with coloured gels",
+          "a painted pink and orange sunset backdrop behind a fake window frame with white vertical blinds",
+          "the edge of a black stage curtain with a sandbag on a light stand"
+        ]
+      },
+      "office": {
+        "foreground": [
+          "a beige keyboard with yellowed keys and a coiled cord",
+          "a beige ball mouse on a mouse pad printed with a palm tree sunset",
+          "a styrofoam coffee cup with a pink lipstick mark and a skin on the coffee",
+          "a heavy beige stapler and a paper desk blotter with an empty grid"
+        ],
+        "midground": [
+          "a chunky beige tube monitor with a blank grey glow and blank yellow sticky notes around its bezel",
+          "a tall wobbly stack of manila files with coloured tab stickers",
+          "a beige desk phone with a coiled cord and blank buttons",
+          "a small plush troll-like toy with neon pink hair sitting on top of the monitor",
+          "a black pager lying at the edge of the desk",
+          "a spider plant in a white plastic pot with a few brown tips"
+        ],
+        "background": [
+          "grey-blue fabric cubicle walls with coloured push pins and a pinned poster of abstract colour noise",
+          "a beige tower computer under the desk with a floppy disk slot",
+          "a fluorescent ceiling panel with one flickering tube",
+          "a tractor-feed printer on a side cabinet with a long fold of striped paper spilling to the floor",
+          "a rotary card index file with blank cards"
+        ]
+      }
+    },
+    "personal_props": {
+      "dale": [
+        "the gold pinky ring from his first commission cheque in 1984, a little loose, turned with his thumb",
+        "a white pocket square folded into three sharp points",
+        "a chunky gold wristwatch with a scratched crystal",
+        "a tortoiseshell pocket comb in his inside breast pocket",
+        "a shine of hairspray failing at his temples under the hot lights"
+      ],
+      "gloria": [
+        "large round wire-frame glasses, bent slightly on the left",
+        "a tortoiseshell claw clip holding the blowout",
+        "a black pager clipped to her skirt waistband",
+        "a teal scrunchie on her wrist",
+        "her styrofoam coffee cup with a pink lipstick mark"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "pedestal",
+        "name": "The Dazzle Desk pedestal",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a small round 1990s motorised display turntable pedestal for a television shopping show, the top covered in a mosaic of small square mirror tiles, a chrome base with a brass-tone trim ring, a thin grey power cord with a beige plug, a small scuff on the chrome. Empty on top. No letters, numbers or logos. Flat bright 1990s studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+        "asset": "assets/pedestal.jpg"
+      },
+      {
+        "id": "phones",
+        "name": "The six phone bank",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a row of six identical 1990s beige office desk telephones with coiled cords, each with a grid of plain blank square buttons and no numbers or letters, one with a yellowed receiver and one with a small crack in its case. No text, numbers or logos anywhere. Flat bright 1990s studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+        "asset": "assets/phones.jpg"
+      }
     ],
-    "midground": [
-     "a chunky beige tube monitor with a blank grey glow and blank yellow sticky notes around its bezel",
-     "a tall wobbly stack of manila files with coloured tab stickers",
-     "a beige desk phone with a coiled cord and blank buttons",
-     "a small plush troll-like toy with neon pink hair sitting on top of the monitor",
-     "a black pager lying at the edge of the desk",
-     "a spider plant in a white plastic pot with a few brown tips"
+    "brand_system": [
+      {
+        "name": "The Dale Dazzle Hour",
+        "mark": "a fat four-point starburst sparkle",
+        "colors": "butter yellow, teal and magenta",
+        "appears_on": "the front panel of the demo table (the starburst shape only), the phone desk front",
+        "text_in_post": "the show logo and all starbursts with words are added in post"
+      },
+      {
+        "name": "WonderVision 38",
+        "mark": "a rounded tube television outline with a small lightning zigzag inside",
+        "colors": "magenta and chrome",
+        "appears_on": "nothing in camera",
+        "text_in_post": "the channel bug in the bottom corner, post only"
+      },
+      {
+        "name": "Dazzle Desk",
+        "mark": "none",
+        "colors": "white laminate and brass",
+        "appears_on": "the demo table itself",
+        "text_in_post": "none"
+      }
     ],
-    "background": [
-     "grey-blue fabric cubicle walls with coloured push pins and a pinned poster of abstract colour noise",
-     "a beige tower computer under the desk with a floppy disk slot",
-     "a fluorescent ceiling panel with one flickering tube",
-     "a tractor-feed printer on a side cabinet with a long fold of striped paper spilling to the floor",
-     "a rotary card index file with blank cards"
-    ]
-   }
+    "wear_and_time": "Tuesday 14 October 1997, 11:40pm, the second take of the night. The hot studio lights have been on for three hours: Dale's forehead shines, his hairspray is giving up at the temples, the wax lemons are dusty and one strip of gaffer tape has lifted off the carpet. The office segment was taped the afternoon before under a flickering fluorescent tube, the coffee has a skin on it and the files are three weeks behind. Out of place: a stagehand's styrofoam cup left behind the palm urn.",
+    "sound_world": [
+      "the hum and tick of hot studio lights",
+      "the whirr of the pedestal motor",
+      "the live audience's rehearsed ooooh",
+      "a fluorescent tube buzzing in the office",
+      "the screech of a tractor-feed printer",
+      "a pager chirping on the desk",
+      "the product's own opening or use sound",
+      "a dial tone from a receiver that nobody called"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "a crystal bowl of crushed ice on the demo table beside the pedestal, the kind 1990s shows used to make things look cold"
+      ],
+      "applied": [
+        "a white fluffy hand towel and a small mirrored tray on the demo table for the demonstration"
+      ],
+      "worn": [
+        "a plain white display form (bust, hand, foot or hanger, whichever the product needs) on the demo table"
+      ],
+      "handheld": [
+        "a white laminate demo board on the table with the product's accessories laid out in a row"
+      ],
+      "carried": [
+        "a pile of everyday things on the demo table (a paperback, a folded sweater, a thermos) that the host pulls out of it one by one"
+      ],
+      "home": [
+        "a fake 1990s living room corner built on the set (a floral rug, a brass floor lamp, a wood-veneer side table) with a white sheet ready to be whipped off the product"
+      ],
+      "consumable": [
+        "a tall stack of the product's packs on a side riser, like a pyramid of boxes"
+      ]
+    }
   },
-  "personal_props": {
-   "dale": [
-    "the gold pinky ring from his first commission cheque in 1984, a little loose, turned with his thumb",
-    "a white pocket square folded into three sharp points",
-    "a chunky gold wristwatch with a scratched crystal",
-    "a tortoiseshell pocket comb in his inside breast pocket",
-    "a shine of hairspray failing at his temples under the hot lights"
-   ],
-   "gloria": [
-    "large round wire-frame glasses, bent slightly on the left",
-    "a tortoiseshell claw clip holding the blowout",
-    "a black pager clipped to her skirt waistband",
-    "a teal scrunchie on her wrist",
-    "her styrofoam coffee cup with a pink lipstick mark"
-   ]
-  },
-  "signature_objects": [
-   {
-    "id": "pedestal",
-    "name": "The Dazzle Desk pedestal",
-    "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a small round 1990s motorised display turntable pedestal for a television shopping show, the top covered in a mosaic of small square mirror tiles, a chrome base with a brass-tone trim ring, a thin grey power cord with a beige plug, a small scuff on the chrome. Empty on top. No letters, numbers or logos. Flat bright 1990s studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
-    "asset": "assets/pedestal.jpg"
-   },
-   {
-    "id": "phones",
-    "name": "The six phone bank",
-    "prop_prompt": "Prop reference sheet on a plain mid-grey background: a row of six identical 1990s beige office desk telephones with coiled cords, each with a grid of plain blank square buttons and no numbers or letters, one with a yellowed receiver and one with a small crack in its case. No text, numbers or logos anywhere. Flat bright 1990s studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
-    "asset": "assets/phones.jpg"
-   }
+  "cast": [
+    {
+      "id": "dale",
+      "name": "Dale Dazzle",
+      "role": "the over-eager infomercial host",
+      "look": "man, 55, white American, deep salon tan, huge perfect white smile, sprayed swept-back silver-blond hair, bushy eyebrows, double-breasted butter-yellow blazer with big shoulders over a teal open-collar shirt, a gold pinky ring",
+      "voice": "booming, relentlessly upbeat, slightly too loud, a classic 1990s announcer lilt, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Dale Dazzle: 55, white American, deep salon tan, huge perfect white smile, sprayed swept-back silver-blond hair, bushy eyebrows, double-breasted butter-yellow 1990s blazer with big shoulder pads over a teal open-collar shirt, a gold pinky ring, over-eager game-show-host expression. Flat bright studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/dale.jpg"
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria Tran",
+      "role": "the everyday victim of the slump, then the testimonial",
+      "look": "woman, 38, Vietnamese American, shoulder-length black hair in a big 1990s blowout with a claw clip, large round wire-frame glasses, oversized teal blazer with shoulder pads over a cream blouse",
+      "voice": "expressive, a bit theatrical, sitcom timing, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Gloria Tran: 38, Vietnamese American, shoulder-length black hair in a big 1990s blowout held with a claw clip, large round wire-frame glasses, oversized teal blazer with shoulder pads over a cream blouse, expressive exasperated expression. Flat bright light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/gloria.jpg"
+    }
   ],
-  "brand_system": [
-   {
-    "name": "The Dale Dazzle Hour",
-    "mark": "a fat four-point starburst sparkle",
-    "colors": "butter yellow, teal and magenta",
-    "appears_on": "the front panel of the demo table (the starburst shape only), the phone desk front",
-    "text_in_post": "the show logo and all starbursts with words are added in post"
-   },
-   {
-    "name": "WonderVision 38",
-    "mark": "a rounded tube television outline with a small lightning zigzag inside",
-    "colors": "magenta and chrome",
-    "appears_on": "nothing in camera",
-    "text_in_post": "the channel bug in the bottom corner, post only"
-   },
-   {
-    "name": "Dazzle Desk",
-    "mark": "none",
-    "colors": "white laminate and brass",
-    "appears_on": "the demo table itself",
-    "text_in_post": "none"
-   }
+  "locations": [
+    {
+      "id": "set",
+      "name": "The Dale Dazzle Hour set, 1997",
+      "plate_prompt": "Full-bleed tall vertical 9:16 photograph filling the entire frame edge to edge, no letterbox, no borders, no blurred bands: an empty 1990s pastel home-shopping TV studio set seen head-on, a tall curved glass-block wall glowing teal and magenta rising from the floor to the top of the frame, butter-yellow and teal geometric panels, a fake potted palm, a white demo table in the lower middle with a small round mirrored rotating pedestal on it, teal carpet filling the bottom of the frame, flat bright high-key studio lighting, standard-definition video look. Upright vertical composition, level horizon. No people, no text, no numbers, no logos, no screens.",
+      "asset": "assets/set.jpg"
+    },
+    {
+      "id": "office",
+      "name": "Beige 1990s office",
+      "plate_prompt": "Still frame from a 1990s TV infomercial problem segment, vertical 9:16, upright vertical composition, level horizon: an empty beige 1990s office cubicle with a chunky CRT computer monitor showing only a blank grey glow, a beige keyboard, a tall wobbly stack of paper files, a desk phone with blank buttons, a rolling chair, fluorescent ceiling light, fabric cubicle walls. Standard-definition video look. No people, no readable text, no logos.",
+      "asset": "assets/office.jpg"
+    }
   ],
-  "wear_and_time": "Tuesday 14 October 1997, 11:40pm, the second take of the night. The hot studio lights have been on for three hours: Dale's forehead shines, his hairspray is giving up at the temples, the wax lemons are dusty and one strip of gaffer tape has lifted off the carpet. The office segment was taped the afternoon before under a flickering fluorescent tube, the coffee has a skin on it and the files are three weeks behind. Out of place: a stagehand's styrofoam cup left behind the palm urn.",
-  "sound_world": [
-   "the hum and tick of hot studio lights",
-   "the whirr of the pedestal motor",
-   "the live audience's rehearsed ooooh",
-   "a fluorescent tube buzzing in the office",
-   "the screech of a tractor-feed printer",
-   "a pager chirping on the desk",
-   "the product's own opening or use sound",
-   "a dial tone from a receiver that nobody called"
+  "asset_urls": {
+    "dale": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/retro_infomercial-01-slump-buster/assets/dale.jpg",
+    "gloria": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/retro_infomercial-01-slump-buster/assets/gloria.jpg",
+    "set": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/retro_infomercial-01-slump-buster/assets/set.jpg",
+    "office": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/retro_infomercial-01-slump-buster/assets/office.jpg",
+    "pedestal": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/retro_infomercial-01-slump-buster/assets/pedestal.jpg",
+    "phones": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/retro_infomercial-01-slump-buster/assets/phones.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-4.5",
+      "summary": "Tape noise, then Dale bursts into a crash zoom: does this happen to you? Black and white: Gloria overacts the everyday problem the product solves and throws up her hands."
+    },
+    {
+      "id": "product",
+      "t": "4.5-10",
+      "summary": "Full colour: Dale presents the product by his grinning face and names it, then the beauty shot on the rotating pedestal with the headline benefit."
+    },
+    {
+      "id": "proof",
+      "t": "10-13",
+      "summary": "Gloria, now in colour and wide awake at the same desk, gives her testimonial."
+    },
+    {
+      "id": "more",
+      "t": "13-22.5",
+      "summary": "But wait, there's more: Dale sweeps the old-way prop off the demo table with the second selling point, the studio audience goes 'ooooh'."
+    },
+    {
+      "id": "cta",
+      "t": "22.5-30",
+      "summary": "Dale at a desk of silent phones: operators are not standing by, just grab one. The product on the pedestal with the 'available where you shop' card and the tagline."
+    }
   ],
-  "product_adjacent": {
-   "ingested": [
-    "a crystal bowl of crushed ice on the demo table beside the pedestal, the kind 1990s shows used to make things look cold"
-   ],
-   "applied": [
-    "a white fluffy hand towel and a small mirrored tray on the demo table for the demonstration"
-   ],
-   "worn": [
-    "a plain white display form (bust, hand, foot or hanger, whichever the product needs) on the demo table"
-   ],
-   "handheld": [
-    "a white laminate demo board on the table with the product's accessories laid out in a row"
-   ],
-   "carried": [
-    "a pile of everyday things on the demo table (a paperback, a folded sweater, a thermos) that the host pulls out of it one by one"
-   ],
-   "home": [
-    "a fake 1990s living room corner built on the set (a floral rug, a brass floor lamp, a wood-veneer side table) with a white sheet ready to be whipped off the product"
-   ],
-   "consumable": [
-    "a tall stack of the product's packs on a side riser, like a pyramid of boxes"
-   ]
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-1.8",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "Hook: the host accuses the viewer of having the problem.",
+      "delivery": "booming, pointing straight down the lens, hitting 'THIS'",
+      "shot": "S01",
+      "fixed_line": "Does THIS happen to you?",
+      "max_words": 5
+    },
+    {
+      "id": "L2",
+      "t": "2.6-4.3",
+      "speaker": "gloria",
+      "on_camera": true,
+      "line_intent": "The victim of the everyday problem begs for a solution in the format's stock phrase.",
+      "delivery": "theatrical despair, arms flung up, sitcom timing",
+      "shot": "S02",
+      "fixed_line": "There's gotta be a better way!",
+      "max_words": 6
+    },
+    {
+      "id": "L3",
+      "t": "4.8-6.8",
+      "speaker": "dale",
+      "on_camera": true,
+      "shot": "S03",
+      "max_words": 6,
+      "line_intent": "Product line: 'Introducing' and {{product.name}}, with far too much enthusiasm.",
+      "delivery": "triumphant, a dramatic pause before the name, then each word punched",
+      "rules": "brand spelled with product.phonetic in the video prompt"
+    },
+    {
+      "id": "L4",
+      "t": "7.3-9.8",
+      "speaker": "dale",
+      "on_camera": false,
+      "shot": "S04",
+      "max_words": 10,
+      "line_intent": "The headline benefit from product.benefits, read like a thrilled feature list; it must be the benefit that product_extract.problem undoes.",
+      "delivery": "voiceover over the beauty shot, rapid and thrilled",
+      "rules": "benefit only from product.benefits, reworded no further than person and tense"
+    },
+    {
+      "id": "L5",
+      "t": "10.3-12.6",
+      "speaker": "gloria",
+      "on_camera": true,
+      "shot": "S05",
+      "max_words": 7,
+      "line_intent": "Testimonial: the former victim confirms L4's benefit in first person as two or three short exclamations, over the top.",
+      "delivery": "delighted and a little too surprised, big thumbs up",
+      "rules": "restates L4 only, no new claim, no numbers"
+    },
+    {
+      "id": "L6",
+      "t": "13.3-15.0",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "The format's signature escalation.",
+      "delivery": "leaning into the lens, finger up, conspiratorial then loud",
+      "shot": "S06",
+      "fixed_line": "But wait, there's more!",
+      "max_words": 4
+    },
+    {
+      "id": "L7",
+      "t": "15.8-19.2",
+      "speaker": "dale",
+      "on_camera": true,
+      "shot": "S07",
+      "max_words": 10,
+      "line_intent": "The second selling point from product.benefits (a different one from L4 if the page has two), landed as he sweeps the old-way prop off the table; with a left-out prop, end on 'Without the <left-out thing>!'.",
+      "delivery": "slow and grand on the first phrase, then a flourish as he sweeps the prop away",
+      "rules": "benefit only from product.benefits; the left-out thing only if the page states it word for word"
+    },
+    {
+      "id": "L8",
+      "t": "22.8-26.2",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "CTA that flips the format's cliche: no ordering, just go get it where you shop.",
+      "delivery": "deadpan on the first sentence, then back to full enthusiasm",
+      "shot": "S09",
+      "fixed_line": "Operators are NOT standing by. Just grab one!",
+      "max_words": 9
+    },
+    {
+      "id": "L9",
+      "t": "27.2-29.2",
+      "speaker": "dale",
+      "on_camera": false,
+      "shot": "S10",
+      "max_words": 6,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word jingle line with the product's short name.",
+      "delivery": "announcer voice, stretched and sung slightly, as if it were a jingle"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2,
+      "beat": "hook",
+      "framing": "wide-angle close-up, direct to lens",
+      "camera": "crash zoom in",
+      "action": "Tape noise clears; Dale bursts into frame on the pastel set, pointing straight at the viewer, enormous grin.",
+      "product_state": "absent",
+      "audio": "tape warble, jingle sting, dialogue",
+      "caption": "Does THIS happen to you?",
+      "refs": [
+        "dale",
+        "set"
+      ],
+      "keyframe_prompt": "Wide-angle close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, leaning toward the lens and pointing one finger straight at the viewer, huge white grin, eyebrows raised, butter-yellow double-breasted blazer and teal shirt, teal and magenta glass-block wall behind him. His face and pointing hand fill the middle of the frame; plain set wall and his blazer fill the top and bottom, full-bleed. No text, no numbers, no logos.",
+      "dressing": [
+        "the gold pinky ring on his pointing hand",
+        "a white pocket square folded in three points",
+        "the magenta neon squiggle tube behind his shoulder",
+        "the teal and magenta glass-block wall"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2,
+      "t1": 4.5,
+      "beat": "hook",
+      "framing": "static medium wide",
+      "camera": "locked off",
+      "action": "Black and white: Gloria overacts the everyday problem the product solves at her office desk ([[problem.visual]]), then flings her arms up in despair.",
+      "product_state": "absent",
+      "audio": "papers or props sliding, a comic sad trombone in post, dialogue",
+      "caption": "There's gotta be a better way!",
+      "refs": [
+        "gloria",
+        "office"
+      ],
+      "keyframe_prompt": "Fully black and white, no colour at all: a static medium wide shot of Gloria, the woman from the character sheet, in the beige 1990s office cubicle from the location plate, [[problem.visual]], flinging both arms up in exaggerated despair, a chunky CRT monitor with a blank grey glow beside her. Comic 1990s infomercial problem segment, overacted. No product in this shot. No readable text.",
+      "dressing": [
+        "the chunky tube monitor with blank sticky notes around its bezel",
+        "the styrofoam cup with a lipstick mark",
+        "the plush toy with neon hair on the monitor",
+        "a fold of striped tractor-feed paper spilling off the side cabinet",
+        "the black pager at the desk edge"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.5,
+      "t1": 7,
+      "beat": "product",
+      "framing": "medium close-up, direct to lens",
+      "camera": "locked off, slow zoom in",
+      "action": "Full colour snaps back. Dale presents the product beside his grinning face, label to camera, a star glint on it.",
+      "product_state": "hero, presented beside his face, label or logo facing camera",
+      "audio": "whoosh, a ding on the star glint, dialogue",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "dale",
+        "product",
+        "set"
+      ],
+      "keyframe_prompt": "Medium close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, looking straight into the lens with a huge white grin, {{action}}, butter-yellow blazer, teal and magenta glass blocks behind, flat bright light, over-saturated colour. The product matches the product reference exactly. One product only. No text or logos except the product's own label.",
+      "dressing": [
+        "his chunky gold wristwatch",
+        "the gold pinky ring",
+        "the fake palm in its gold urn behind him",
+        "hairspray shine at his temples"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "holding {{product.visual}} gently upright at its base with his fingertips right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on its top edge",
+        "applied": "holding {{product.visual}} upright between thumb and two fingers right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on its cap",
+        "worn": "holding {{product.visual}} up beside his grinning face by one edge, its best side to camera, a star-filter glint on it (if it is worn on the head or face, he is wearing it instead, framing it with both hands)",
+        "handheld": "presenting {{product.visual}} on his open palm right beside his cheek, logo facing camera, a star-filter glint on it",
+        "carried": "holding {{product.visual}} up by its handle or strap beside his shoulder, logo facing camera, a star-filter glint on its hardware",
+        "home": "whipping a white sheet off {{product.visual}} in a fake 1990s living room corner built on the set, his other arm flung toward it, the product fully revealed beside him with its best side to camera",
+        "consumable": "holding one pack of {{product.visual}} upright right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on its corner"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 7,
+      "t1": 10,
+      "beat": "product",
+      "framing": "centred insert",
+      "camera": "locked off, the pedestal turns",
+      "action": "Beauty shot: the product on the small mirrored rotating pedestal, glittering; plain wall space on both sides for post-rendered starbursts.",
+      "product_state": "hero, on the turntable, label facing camera at the start",
+      "audio": "sparkle chimes, voiceover",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "product",
+        "set",
+        "pedestal"
+      ],
+      "keyframe_prompt": "Centred insert: {{action}}, on a white demo table, a teal and magenta glass-block wall softly behind, flat bright 1990s studio light. The product matches the product reference exactly. Plain glass-block and teal wall fills the rest of the frame edge to edge, with a clean plain area in the lower third for graphics. One product only. No text, numbers or logos except the product's own label.",
+      "dressing": [
+        "the mirror mosaic tiles on the pedestal top catching light",
+        "the chipped edge and brass trim of the white demo table",
+        "the crystal bowl of wax lemons soft at the edge of frame",
+        "the magenta neon squiggle soft in the background"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright on the small round mirrored rotating pedestal, label facing camera, straight and undistorted, a few cold droplets, star-filter sparkles glinting off its edges",
+        "applied": "{{product.visual}} standing upright on the small round mirrored rotating pedestal, label facing camera, straight and undistorted, star-filter sparkles glinting off its cap",
+        "worn": "{{product.visual}} on a small plain white display form (or neatly folded) on the mirrored rotating pedestal, its best side to camera, star-filter sparkles glinting off it",
+        "handheld": "{{product.visual}} standing on its own on the small round mirrored rotating pedestal, logo facing camera, star-filter sparkles glinting off it",
+        "carried": "{{product.visual}} standing upright on the mirrored rotating pedestal, logo facing camera, star-filter sparkles glinting off its hardware",
+        "home": "{{product.visual}} on a large low round mirrored riser in the fake living room corner of the set, turning slowly, its best side to camera, star-filter sparkles glinting off it",
+        "consumable": "a neat stack of packs of {{product.visual}} on the small round mirrored rotating pedestal, one pack front and centre with its label facing camera, star-filter sparkles glinting off the stack"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 10,
+      "t1": 13,
+      "beat": "proof",
+      "framing": "medium, direct to lens",
+      "camera": "locked off",
+      "action": "Full colour: Gloria at the same desk, now tidy, sitting bolt upright and beaming, the product with her, big thumbs up.",
+      "product_state": "in hand, worn or beside her, label or logo to camera",
+      "audio": "a cheesy harp gliss, dialogue",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "gloria",
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Over-saturated colour, medium shot of Gloria, the woman from the character sheet, in the 1990s office cubicle from the location plate, now tidy with the papers in a neat stack, sitting bolt upright and beaming wide-eyed at the lens, {{action}}, teal blazer with shoulder pads, round glasses, flat bright light. The product matches the product reference exactly. One product only. No readable text. Only office things on the desk: no fruit, no crystal bowls, nothing from the studio set.",
+      "dressing": [
+        "the manila files now in one neat stack with coloured tabs",
+        "the pager clipped to her waistband",
+        "her teal scrunchie on her wrist",
+        "the spider plant on the desk",
+        "the tube monitor with its blank grey glow"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "holding {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand",
+        "applied": "holding {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand, glowing with the result",
+        "worn": "wearing {{product.visual}}, one hand showing it off to the lens, giving a big thumbs up with the other hand",
+        "handheld": "holding {{product.visual}} in one hand with the logo facing camera and undistorted, giving a big thumbs up with the other hand",
+        "carried": "one hand patting {{product.visual}} on the tidy desk beside her, logo facing camera, giving a big thumbs up with the other hand",
+        "home": "sitting in or beside {{product.visual}}, set up in the corner of her tidy cubicle, its best side to camera, giving a big thumbs up",
+        "consumable": "holding the pack of {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 13,
+      "t1": 15.5,
+      "beat": "more",
+      "framing": "wide-angle extreme close-up",
+      "camera": "crash zoom in",
+      "action": "Dale leans right into the lens, one finger raised, eyebrows up, conspiratorial.",
+      "product_state": "absent",
+      "audio": "record scratch into the zoom, dialogue",
+      "caption": "But wait, there's more!",
+      "refs": [
+        "dale",
+        "set"
+      ],
+      "keyframe_prompt": "Wide-angle extreme close-up of Dale, the man from the character sheet, leaning right into the lens with a slightly bulging wide-angle look, one index finger raised beside his face, eyebrows high, mouth open mid-word, tan face shiny under flat bright studio light, a blurred teal and magenta set behind. Over-saturated 1990s video look. No text.",
+      "dressing": [
+        "the gold pinky ring on his raised finger",
+        "hairspray failing at his temples",
+        "a blurred magenta neon squiggle behind"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S07",
+      "t0": 15.5,
+      "t1": 19.5,
+      "beat": "more",
+      "framing": "medium wide at the demo table",
+      "camera": "locked off",
+      "action": "At the demo table, Dale sweeps the old-way prop ([[old_way.visual]]) off the table with a flourish; the product stands untouched on the pedestal beside him.",
+      "product_state": "on the pedestal, label or logo to camera, untouched",
+      "audio": "cartoon boing, audience laugh, dialogue",
+      "caption": "{{line.L7}}",
+      "refs": [
+        "dale",
+        "product",
+        "set"
+      ],
+      "keyframe_prompt": "Medium wide shot of Dale, the man from the character sheet, standing behind the white demo table on the pastel infomercial set from the location plate, sweeping [[old_way.visual]] off the edge of the table with a grand flourish of his arm, grinning at the lens; {{action}}. The product matches the product reference exactly and never touches the prop. One product only. Plain set wall above him. No text or numbers.",
+      "dressing": [
+        "the old-way prop mid-fall off the table edge",
+        "the mirror-tiled pedestal holding the product",
+        "the butter-yellow starburst shape on the table front",
+        "the pyramid of plain white boxes on a side riser",
+        "the cross of gaffer tape on the carpet at his feet"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted",
+        "applied": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted",
+        "worn": "{{product.visual}} sits untouched on a small plain white display form on the mirrored pedestal, its best side to camera",
+        "handheld": "{{product.visual}} stands untouched on the small mirrored pedestal on the table, logo facing camera",
+        "carried": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, logo facing camera",
+        "home": "{{product.visual}} stands untouched on the low mirrored riser just beside the demo table, its best side to camera",
+        "consumable": "the pack of {{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 19.5,
+      "t1": 22.5,
+      "beat": "more",
+      "framing": "wide reverse angle over Dale's shoulder",
+      "camera": "locked off, slow zoom out",
+      "action": "The studio audience on small risers goes 'ooooh', hands to cheeks; Dale takes a bow in the foreground.",
+      "product_state": "absent",
+      "audio": "audience 'ooooh' and applause",
+      "caption": "",
+      "refs": [
+        "dale"
+      ],
+      "keyframe_prompt": "Wide reverse-angle shot from behind Dale, the man from the character sheet (seen from behind in his butter-yellow blazer, taking a small bow in the foreground), looking out at a small 1990s TV studio audience of about twenty adults of varied ages and ethnicities on low carpeted risers, in 1990s clothes (windbreakers, denim jackets, big hair), all going 'ooooh' with hands on their cheeks and mouths in O shapes, bright flat studio light, teal and magenta wash on the back wall. No text, no signs, no logos, no children. Tall vertical framing filling the whole frame edge to edge: the stacked audience risers climb from the middle to the very top of the frame and Dale's back and shoulders fill the bottom edge, no letterbox bars, no blurred bands, no borders.",
+      "dressing": [
+        "burgundy carpeted risers",
+        "windbreakers, denim jackets, shoulder pads and big permed hair",
+        "a pair of oversized plastic-framed glasses in the second row",
+        "the black stage curtain edge with a sandbag on a light stand"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 22.5,
+      "t1": 26.5,
+      "beat": "cta",
+      "framing": "medium, direct to lens",
+      "camera": "locked off",
+      "action": "Dale sits at a long desk of six silent beige telephones, taps one, shrugs at the lens, then points off camera: go get one.",
+      "product_state": "absent",
+      "audio": "silence where ringing should be, a cricket chirp in post, dialogue",
+      "caption": "Operators are NOT standing by. Just grab one!",
+      "refs": [
+        "dale",
+        "set",
+        "phones"
+      ],
+      "keyframe_prompt": "Medium shot of Dale, the man from the character sheet, sitting behind a long white desk on the pastel set from the location plate, a row of six plain beige 1990s telephones with blank buttons in front of him, none ringing, one receiver in his hand held away from his ear, shrugging at the lens with a comic deadpan look, butter-yellow blazer. Empty plain teal wall above him and a clean plain area across the lower third of the frame for a graphic card. No text, numbers or logos anywhere.",
+      "dressing": [
+        "six beige phones with blank buttons, one with a cracked case",
+        "the coiled cords tangled together",
+        "the butter-yellow starburst shape on the desk front",
+        "the gold pinky ring on the hand holding the receiver"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 26.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "centred pack shot",
+      "camera": "locked off, the pedestal turns slowly",
+      "action": "The product glitters on the pedestal, Dale's thumbs-up hand enters frame beside it. Post adds the 'available where you shop' card, the tagline and the tape end.",
+      "product_state": "hero, on the pedestal, label or logo facing camera",
+      "audio": "jingle button, a final ding, tape stop",
+      "caption": "{{line.L9}}",
+      "refs": [
+        "product",
+        "set",
+        "pedestal"
+      ],
+      "keyframe_prompt": "Centred 1990s infomercial pack shot: {{action}}, a man's tanned hand with a gold pinky ring giving a thumbs up at the right edge of the frame beside the product, teal and magenta glass-block wall behind. The product matches the product reference exactly. The upper quarter and lower third of the frame are clean plain wall for graphics. One product only. No text, numbers or logos except the product's own label. One single continuous camera image: no inset picture, no picture-in-picture, no second frame layered over the first. The image fills the full 9:16 frame edge to edge: the glowing glass-block wall runs all the way to the very top edge and the white demo table front runs all the way to the very bottom edge, with no plain coloured bands, no letterbox and no borders.",
+      "dressing": [
+        "the mirror mosaic pedestal",
+        "the gold pinky ring on the thumbs up",
+        "the chipped laminate edge of the demo table",
+        "the glass-block wall glowing behind"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, label facing camera, straight and undistorted, star-filter sparkles on its edges",
+        "applied": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, label facing camera, straight and undistorted, star-filter sparkles on its cap",
+        "worn": "{{product.visual}} on a small plain white display form on the mirrored pedestal on the white demo table, its best side to camera, star-filter sparkles",
+        "handheld": "{{product.visual}} on the small round mirrored pedestal on the white demo table, logo facing camera, star-filter sparkles",
+        "carried": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, logo facing camera, star-filter sparkles on its hardware",
+        "home": "{{product.visual}} on the low mirrored riser in the fake living room corner of the set, its best side to camera, star-filter sparkles",
+        "consumable": "a neat stack of packs of {{product.visual}} on the small round mirrored pedestal on the white demo table, one pack front and centre with its label to camera, star-filter sparkles"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 4.5,
+      "shots": [
+        "S01",
+        "S02"
+      ],
+      "len_s": 5,
+      "exact_risk": false,
+      "refs": [
+        "dale card",
+        "gloria card",
+        "set plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, footage from a 1990s TV infomercial, standard-definition video look, flat bright studio light, everything in focus. Shot 1 (0 to 2 s): crash zoom into @Image1 (Dale, tanned, butter-yellow double-breasted blazer) on a teal and magenta pastel set, he points straight down the lens and booms: \"Does THIS happen to you?\" Shot 2 (2 to 5 s): fully black and white, static wide of @Image2 (Gloria, big 1990s hair, round glasses, shoulder-pad blazer) at a beige office desk, [[problem.visual]], then she flings her arms up and wails: \"There's gotta be a better way!\" Comic overacting. Native sound: boxy studio voice, papers sliding. No music, no text on screen, no numbers, no logos."
+    },
+    {
+      "id": "U2",
+      "t0": 4.5,
+      "t1": 10,
+      "shots": [
+        "S03",
+        "S04"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "dale card",
+        "S03 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, 1990s TV infomercial, over-saturated colour, flat bright studio light. Shot 1 (0 to 2.5 s): medium close-up, @Image2 (Dale) grinning at the lens, {{action.S03}}, and announces with a pause before the name: \"{{line.L3}}\" (say the brand as {{product.phonetic}}, punched). Shot 2 (2.5 to 6 s): locked-off beauty shot, {{action.S04}}, the pedestal turning slowly, plain wall on both sides; Dale's voice, rapid and thrilled: \"{{line.L4}}\" Keep the product's shape, colours and label exactly as @Image1; it never bends. Native sound: studio voice, a ding. No music, no text on screen."
+    },
+    {
+      "id": "U3",
+      "t0": 10,
+      "t1": 22.5,
+      "shots": [
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "gloria card",
+        "dale card",
+        "set plate",
+        "product image",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, 1990s TV infomercial, over-saturated colour, flat bright light, locked-off studio cameras. Shot 1 (0 to 3 s): @Image1 (Gloria) at a tidy beige office desk, bolt upright and beaming, {{action.S05}}: \"{{line.L5}}\" Shot 2 (3 to 5.5 s): crash zoom to a wide-angle extreme close-up of @Image2 (Dale) leaning into the lens, finger raised: \"But wait, there's more!\" Shot 3 (5.5 to 9.5 s): Dale behind a white demo table on the pastel set sweeps [[old_way.visual]] off the table with a flourish; {{action.S07}}: \"{{line.L7}}\" Shot 4 (9.5 to 13 s): reverse wide from behind Dale taking a bow, a small studio audience of varied adults in 1990s clothes on low risers goes \"ooooh\" with hands on their cheeks. The product matches @Image4 whenever it is visible. Native sound: studio voices, audience ooooh and applause. No music, no text, no numbers, no logos."
+    },
+    {
+      "id": "U4",
+      "t0": 22.5,
+      "t1": 30,
+      "shots": [
+        "S09",
+        "S10"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "dale card",
+        "phones sheet",
+        "S09 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, 1990s TV infomercial, flat bright light. Shot 1 (0 to 4 s): @Image2 (Dale) at a long white desk with the six plain beige telephones of @Image3, blank buttons, none ringing; he lifts one receiver, shrugs at the lens deadpan: \"Operators are NOT standing by.\" then brightens and points off camera: \"Just grab one!\" Clean plain area across the lower third. Shot 2 (4 to 8 s): locked-off pack shot, {{action.S10}}, the pedestal turning slowly, Dale's tanned hand with a gold pinky ring gives a thumbs up beside it; his announcer voice sings: \"{{line.L9}}\" The product matches @Image1 exactly and does not bend or change. Keep the upper quarter and lower third as plain wall. Native sound: studio voice, a ding. No music, no text, no numbers."
+    }
+  ],
+  "music": [
+    {
+      "section": "sting and problem",
+      "t0": 0,
+      "t1": 4.5,
+      "brief": "A 1-second bright synth-brass sting with a cymbal swell on the crash zoom (0 to 1 s), then the music drops to a droopy detuned tuba and muted trumpet 'wah wah' for the black and white problem, ending on a sad trombone slide at 4.3 s."
+    },
+    {
+      "section": "jingle",
+      "t0": 4.5,
+      "t1": 22.5,
+      "brief": "The show's cheesy 1990s jingle bed at 112 bpm in E major: slap bass, gated-reverb snare, bright FM electric piano and a saxophone lick on each selling point; ducks 8 dB under every line; a harp gliss into the testimonial at 10 s and a record scratch stop at 13 s, restarting on 'more' at 15.5 s."
+    },
+    {
+      "section": "button",
+      "t0": 22.5,
+      "t1": 30,
+      "brief": "The jingle thins to bass and hi-hat under the phone gag, then a full final chorus hit on the pack shot at 26.5 s, a sung synth-choir swell under the tagline, and a tape-stop pitch-down at 29.6 s."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0.0,
+      "sound": "VHS tape warble and tracking noise clearing",
+      "why": "establishes the found-tape conceit in the first frame; post only"
+    },
+    {
+      "t": 5.6,
+      "sound": "sparkle ding on the product's star glint",
+      "why": "marks the product reveal"
+    },
+    {
+      "t": 17.6,
+      "sound": "cartoon boing as the old-way prop falls",
+      "why": "the comic button on the second selling point"
+    },
+    {
+      "t": 19.8,
+      "sound": "studio audience 'ooooh' and applause",
+      "why": "the format's signature; generated audiences are thin, so layer a clean one"
+    },
+    {
+      "t": 23.4,
+      "sound": "a single cricket chirp over the silent phones",
+      "why": "sells the 'operators are NOT standing by' joke"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "dale",
+      "plan": "native voice from U1, then his U1 vocal stem as voice reference for U2, U3 and U4; a light boxy studio EQ in post"
+    },
+    {
+      "speaker": "gloria",
+      "plan": "native in U1 (black and white) and U3 (testimonial), U1 stem as reference for U3"
+    }
+  ],
+  "captions": {
+    "font": "Cooper Black (or a rounded heavy serif like it)",
+    "size": "5.6% of frame height",
+    "color": "#FFE94A (infomercial yellow)",
+    "active_word": "the stressed word jumps to #FFFFFF and scales to 110% for 6 frames",
+    "shadow": "4px black outline plus a hard 6px drop shadow down-right in #D6246E (magenta)",
+    "position": "centre, 64% down the frame, above the platform UI safe zone, always below the host's chin",
+    "max_words_on_screen": 4,
+    "box": false,
+    "animation": "each caption line slides in from the left with a slight overshoot, like a 1990s character generator",
+    "starbursts": "selling points also get a spinning yellow starburst with a two to three word callout (post only)"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 1.2,
+      "text": "PLAY",
+      "sub": "",
+      "style": "VCR on-screen display, blocky white monospace with black edge, top left, flickering"
+    },
+    {
+      "t0": 0,
+      "t1": 30,
+      "text": "WonderVision 38",
+      "sub": "",
+      "style": "fictional channel bug, small semi-transparent white rounded wordmark, top right, 1990s bevel"
+    },
+    {
+      "t0": 7.3,
+      "t1": 9.9,
+      "text": "[[starburst.1]]",
+      "sub": "[[starburst.2]]",
+      "style": "two spinning yellow starbursts with magenta Cooper Black lettering, left and right of the product, popping in one after the other; each is one or two words taken from L4 with an exclamation mark"
+    },
+    {
+      "t0": 15.8,
+      "t1": 19.4,
+      "text": "[[starburst.3]]",
+      "sub": "",
+      "style": "a yellow starburst with a boing scale bounce, upper left over the plain wall; two or three words taken from L7 with an exclamation mark"
+    },
+    {
+      "t0": 23.0,
+      "t1": 30,
+      "text": "AVAILABLE WHERE YOU SHOP",
+      "sub": "Look for {{product.short_name}}",
+      "style": "1990s offer card in the lower third: magenta bar with a bevelled yellow border, white bold italic text sliding in from the right with a shine sweep; in the style of a phone-number card but with no number and no price; the sub may add the product's two main colours from product.visual (e.g. 'Look for the green and gold jar')"
+    },
+    {
+      "t0": 27.0,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L9}}",
+      "style": "chrome-gradient 1990s bevel type in the upper quarter above the product, lens flare sweep, then tape-stop wobble and blue screen on the last 6 frames"
+    }
+  ],
+  "qa": [
+    "the product in S03, S04, S05, S07 and S10 matches the product image (shape, colours, label) and never bends",
+    "S02 is fully black and white and the product is not in it",
+    "the problem in S02 follows from the L4 benefit and is never a medical condition",
+    "the old-way prop is a left-out thing only if the page says so word for word; otherwise the grey boxes",
+    "no [[...]] token remains in the fill",
+    "no model-drawn text, prices or phone numbers; every starburst, card and bug is post",
+    "Dale and Gloria match their character sheets",
+    "L4, L5 and L7 benefits are verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "the afternoon slump at work",
+        "long study or work session"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free",
+      "benefits": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "problem": {
+        "visual": "slumped at her desk with sleepy eyes and her glasses askew, a stack of paper files starting to slide off the desk"
+      },
+      "old_way": {
+        "from": "left_out: the page says 'without sugar'",
+        "visual": "a giant white foam novelty sugar cube the size of a hatbox, painted with a sparkling granular texture, one corner dented, a few paint flecks missing, no face, no letters",
+        "asset": "assets/example_old_way.jpg"
+      },
+      "starbursts": {
+        "1": "ALERT!",
+        "2": "FOCUSED!",
+        "3": "NO SUGAR!"
+      }
+    },
+    "lines": {
+      "L1": "Does THIS happen to you?",
+      "L2": "There's gotta be a better way!",
+      "L3": "Introducing Red Bull Sugarfree!",
+      "L4": "Helps you stay alert and focused, with no sugar!",
+      "L5": "Wow! I'm alert! I'm focused!",
+      "L6": "But wait, there's more!",
+      "L7": "Same great benefits as the original. Without the sugar!",
+      "L8": "Operators are NOT standing by. Just grab one!",
+      "L9": "Wiiings without sugar!"
+    },
+    "actions": {
+      "S03": "holding {{product.visual}} gently upright at its base with his fingertips right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on the rim",
+      "S04": "{{product.visual}} standing upright on the small round mirrored rotating pedestal, label facing camera, straight and undistorted, a few cold droplets, star-filter sparkles glinting off its edges",
+      "S05": "holding {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand",
+      "S07": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted",
+      "S10": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, label facing camera, straight and undistorted, star-filter sparkles on the rim"
+    },
+    "post_sub_example": "Look for the blue and silver can",
+    "notes": "L4 and L5 use 'Caffeine helps to improve concentration and increase alertness'; L7 uses 'Same benefits of the original Energy Drink, without sugar', which is also what licenses the foam sugar cube as the old-way prop."
   }
- },
- "cast": [
-  {
-   "id": "dale",
-   "name": "Dale Dazzle",
-   "role": "the over-eager infomercial host",
-   "look": "man, 55, white American, deep salon tan, huge perfect white smile, sprayed swept-back silver-blond hair, bushy eyebrows, double-breasted butter-yellow blazer with big shoulders over a teal open-collar shirt, a gold pinky ring",
-   "voice": "booming, relentlessly upbeat, slightly too loud, a classic 1990s announcer lilt, American",
-   "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Dale Dazzle: 55, white American, deep salon tan, huge perfect white smile, sprayed swept-back silver-blond hair, bushy eyebrows, double-breasted butter-yellow 1990s blazer with big shoulder pads over a teal open-collar shirt, a gold pinky ring, over-eager game-show-host expression. Flat bright studio light, photoreal, consistent identity across all three views. No text, no logos.",
-   "asset": "assets/dale.jpg"
-  },
-  {
-   "id": "gloria",
-   "name": "Gloria Tran",
-   "role": "the everyday victim of the slump, then the testimonial",
-   "look": "woman, 38, Vietnamese American, shoulder-length black hair in a big 1990s blowout with a claw clip, large round wire-frame glasses, oversized teal blazer with shoulder pads over a cream blouse",
-   "voice": "expressive, a bit theatrical, sitcom timing, American",
-   "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Gloria Tran: 38, Vietnamese American, shoulder-length black hair in a big 1990s blowout held with a claw clip, large round wire-frame glasses, oversized teal blazer with shoulder pads over a cream blouse, expressive exasperated expression. Flat bright light, photoreal, consistent identity across all three views. No text, no logos.",
-   "asset": "assets/gloria.jpg"
-  }
- ],
- "locations": [
-  {
-   "id": "set",
-   "name": "The Dale Dazzle Hour set, 1997",
-   "plate_prompt": "Full-bleed tall vertical 9:16 photograph filling the entire frame edge to edge, no letterbox, no borders, no blurred bands: an empty 1990s pastel home-shopping TV studio set seen head-on, a tall curved glass-block wall glowing teal and magenta rising from the floor to the top of the frame, butter-yellow and teal geometric panels, a fake potted palm, a white demo table in the lower middle with a small round mirrored rotating pedestal on it, teal carpet filling the bottom of the frame, flat bright high-key studio lighting, standard-definition video look. Upright vertical composition, level horizon. No people, no text, no numbers, no logos, no screens.",
-   "asset": "assets/set.jpg"
-  },
-  {
-   "id": "office",
-   "name": "Beige 1990s office",
-   "plate_prompt": "Still frame from a 1990s TV infomercial problem segment, vertical 9:16, upright vertical composition, level horizon: an empty beige 1990s office cubicle with a chunky CRT computer monitor showing only a blank grey glow, a beige keyboard, a tall wobbly stack of paper files, a desk phone with blank buttons, a rolling chair, fluorescent ceiling light, fabric cubicle walls. Standard-definition video look. No people, no readable text, no logos.",
-   "asset": "assets/office.jpg"
-  }
- ],
- "asset_urls": {
-  "dale": "https://file.deepytb.com/reapi-slave2/tasks/task_01a0ee5b362f772a9d22f36e370ec65f/0.jpg",
-  "gloria": "https://file.deepytb.com/reapi-slave2/tasks/task_01a0ee5b41ec76c2b7d78cfb8162733c/0.jpg",
-  "set": "https://file.deepytb.com/reapi-slave2/tasks/task_01a0ee96f6b7765a9d753d3cb7b1daca/0.jpg",
-  "office": "https://file.deepytb.com/reapi-slave2/tasks/task_01a0ee96499575a0bf0d6882d54f7f2f/0.jpg",
-  "pedestal": "https://file.deepytb.com/reapi-slave2/tasks/task_01a0eea094a675c79799fb6150d2fe70/0.jpg",
-  "phones": "https://file.deepytb.com/reapi-slave2/tasks/task_01a0eea09e5772dca7a75f28c42292aa/0.jpg"
- },
- "beats": [
-  {
-   "id": "hook",
-   "t": "0-4.5",
-   "summary": "Tape noise, then Dale bursts into a crash zoom: does this happen to you? Black and white: Gloria overacts the everyday problem the product solves and throws up her hands."
-  },
-  {
-   "id": "product",
-   "t": "4.5-10",
-   "summary": "Full colour: Dale presents the product by his grinning face and names it, then the beauty shot on the rotating pedestal with the headline benefit."
-  },
-  {
-   "id": "proof",
-   "t": "10-13",
-   "summary": "Gloria, now in colour and wide awake at the same desk, gives her testimonial."
-  },
-  {
-   "id": "more",
-   "t": "13-22.5",
-   "summary": "But wait, there's more: Dale sweeps the old-way prop off the demo table with the second selling point, the studio audience goes 'ooooh'."
-  },
-  {
-   "id": "cta",
-   "t": "22.5-30",
-   "summary": "Dale at a desk of silent phones: operators are not standing by, just grab one. The product on the pedestal with the 'available where you shop' card and the tagline."
-  }
- ],
- "script": [
-  {
-   "id": "L1",
-   "t": "0.3-1.8",
-   "speaker": "dale",
-   "on_camera": true,
-   "line_intent": "Hook: the host accuses the viewer of having the problem.",
-   "delivery": "booming, pointing straight down the lens, hitting 'THIS'",
-   "shot": "S01",
-   "fixed_line": "Does THIS happen to you?",
-   "max_words": 5
-  },
-  {
-   "id": "L2",
-   "t": "2.6-4.3",
-   "speaker": "gloria",
-   "on_camera": true,
-   "line_intent": "The victim of the everyday problem begs for a solution in the format's stock phrase.",
-   "delivery": "theatrical despair, arms flung up, sitcom timing",
-   "shot": "S02",
-   "fixed_line": "There's gotta be a better way!",
-   "max_words": 6
-  },
-  {
-   "id": "L3",
-   "t": "4.8-6.8",
-   "speaker": "dale",
-   "on_camera": true,
-   "shot": "S03",
-   "max_words": 6,
-   "line_intent": "Product line: 'Introducing' and {{product.name}}, with far too much enthusiasm.",
-   "delivery": "triumphant, a dramatic pause before the name, then each word punched",
-   "rules": "brand spelled with product.phonetic in the video prompt"
-  },
-  {
-   "id": "L4",
-   "t": "7.3-9.8",
-   "speaker": "dale",
-   "on_camera": false,
-   "shot": "S04",
-   "max_words": 10,
-   "line_intent": "The headline benefit from product.benefits, read like a thrilled feature list; it must be the benefit that product_extract.problem undoes.",
-   "delivery": "voiceover over the beauty shot, rapid and thrilled",
-   "rules": "benefit only from product.benefits, reworded no further than person and tense"
-  },
-  {
-   "id": "L5",
-   "t": "10.3-12.6",
-   "speaker": "gloria",
-   "on_camera": true,
-   "shot": "S05",
-   "max_words": 7,
-   "line_intent": "Testimonial: the former victim confirms L4's benefit in first person as two or three short exclamations, over the top.",
-   "delivery": "delighted and a little too surprised, big thumbs up",
-   "rules": "restates L4 only, no new claim, no numbers"
-  },
-  {
-   "id": "L6",
-   "t": "13.3-15.0",
-   "speaker": "dale",
-   "on_camera": true,
-   "line_intent": "The format's signature escalation.",
-   "delivery": "leaning into the lens, finger up, conspiratorial then loud",
-   "shot": "S06",
-   "fixed_line": "But wait, there's more!",
-   "max_words": 4
-  },
-  {
-   "id": "L7",
-   "t": "15.8-19.2",
-   "speaker": "dale",
-   "on_camera": true,
-   "shot": "S07",
-   "max_words": 10,
-   "line_intent": "The second selling point from product.benefits (a different one from L4 if the page has two), landed as he sweeps the old-way prop off the table; with a left-out prop, end on 'Without the <left-out thing>!'.",
-   "delivery": "slow and grand on the first phrase, then a flourish as he sweeps the prop away",
-   "rules": "benefit only from product.benefits; the left-out thing only if the page states it word for word"
-  },
-  {
-   "id": "L8",
-   "t": "22.8-26.2",
-   "speaker": "dale",
-   "on_camera": true,
-   "line_intent": "CTA that flips the format's cliche: no ordering, just go get it where you shop.",
-   "delivery": "deadpan on the first sentence, then back to full enthusiasm",
-   "shot": "S09",
-   "fixed_line": "Operators are NOT standing by. Just grab one!",
-   "max_words": 9
-  },
-  {
-   "id": "L9",
-   "t": "27.2-29.2",
-   "speaker": "dale",
-   "on_camera": false,
-   "shot": "S10",
-   "max_words": 6,
-   "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word jingle line with the product's short name.",
-   "delivery": "announcer voice, stretched and sung slightly, as if it were a jingle"
-  }
- ],
- "shots": [
-  {
-   "id": "S01",
-   "t0": 0,
-   "t1": 2,
-   "beat": "hook",
-   "framing": "wide-angle close-up, direct to lens",
-   "camera": "crash zoom in",
-   "action": "Tape noise clears; Dale bursts into frame on the pastel set, pointing straight at the viewer, enormous grin.",
-   "product_state": "absent",
-   "audio": "tape warble, jingle sting, dialogue",
-   "caption": "Does THIS happen to you?",
-   "refs": [
-    "dale",
-    "set"
-   ],
-   "keyframe_prompt": "Wide-angle close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, leaning toward the lens and pointing one finger straight at the viewer, huge white grin, eyebrows raised, butter-yellow double-breasted blazer and teal shirt, teal and magenta glass-block wall behind him. His face and pointing hand fill the middle of the frame; plain set wall and his blazer fill the top and bottom, full-bleed. No text, no numbers, no logos.",
-   "dressing": [
-    "the gold pinky ring on his pointing hand",
-    "a white pocket square folded in three points",
-    "the magenta neon squiggle tube behind his shoulder",
-    "the teal and magenta glass-block wall"
-   ],
-   "product_role": "absent"
-  },
-  {
-   "id": "S02",
-   "t0": 2,
-   "t1": 4.5,
-   "beat": "hook",
-   "framing": "static medium wide",
-   "camera": "locked off",
-   "action": "Black and white: Gloria overacts the everyday problem the product solves at her office desk ([[problem.visual]]), then flings her arms up in despair.",
-   "product_state": "absent",
-   "audio": "papers or props sliding, a comic sad trombone in post, dialogue",
-   "caption": "There's gotta be a better way!",
-   "refs": [
-    "gloria",
-    "office"
-   ],
-   "keyframe_prompt": "Fully black and white, no colour at all: a static medium wide shot of Gloria, the woman from the character sheet, in the beige 1990s office cubicle from the location plate, [[problem.visual]], flinging both arms up in exaggerated despair, a chunky CRT monitor with a blank grey glow beside her. Comic 1990s infomercial problem segment, overacted. No product in this shot. No readable text.",
-   "dressing": [
-    "the chunky tube monitor with blank sticky notes around its bezel",
-    "the styrofoam cup with a lipstick mark",
-    "the plush toy with neon hair on the monitor",
-    "a fold of striped tractor-feed paper spilling off the side cabinet",
-    "the black pager at the desk edge"
-   ],
-   "product_role": "absent"
-  },
-  {
-   "id": "S03",
-   "t0": 4.5,
-   "t1": 7,
-   "beat": "product",
-   "framing": "medium close-up, direct to lens",
-   "camera": "locked off, slow zoom in",
-   "action": "Full colour snaps back. Dale presents the product beside his grinning face, label to camera, a star glint on it.",
-   "product_state": "hero, presented beside his face, label or logo facing camera",
-   "audio": "whoosh, a ding on the star glint, dialogue",
-   "caption": "{{line.L3}}",
-   "refs": [
-    "dale",
-    "product",
-    "set"
-   ],
-   "keyframe_prompt": "Medium close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, looking straight into the lens with a huge white grin, {{action}}, butter-yellow blazer, teal and magenta glass blocks behind, flat bright light, over-saturated colour. The product matches the product reference exactly. One product only. No text or logos except the product's own label.",
-   "dressing": [
-    "his chunky gold wristwatch",
-    "the gold pinky ring",
-    "the fake palm in its gold urn behind him",
-    "hairspray shine at his temples"
-   ],
-   "product_role": "reveal",
-   "product_action": {
-    "ingested": "holding {{product.visual}} gently upright at its base with his fingertips right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on its top edge",
-    "applied": "holding {{product.visual}} upright between thumb and two fingers right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on its cap",
-    "worn": "holding {{product.visual}} up beside his grinning face by one edge, its best side to camera, a star-filter glint on it (if it is worn on the head or face, he is wearing it instead, framing it with both hands)",
-    "handheld": "presenting {{product.visual}} on his open palm right beside his cheek, logo facing camera, a star-filter glint on it",
-    "carried": "holding {{product.visual}} up by its handle or strap beside his shoulder, logo facing camera, a star-filter glint on its hardware",
-    "home": "whipping a white sheet off {{product.visual}} in a fake 1990s living room corner built on the set, his other arm flung toward it, the product fully revealed beside him with its best side to camera",
-    "consumable": "holding one pack of {{product.visual}} upright right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on its corner"
-   }
-  },
-  {
-   "id": "S04",
-   "t0": 7,
-   "t1": 10,
-   "beat": "product",
-   "framing": "centred insert",
-   "camera": "locked off, the pedestal turns",
-   "action": "Beauty shot: the product on the small mirrored rotating pedestal, glittering; plain wall space on both sides for post-rendered starbursts.",
-   "product_state": "hero, on the turntable, label facing camera at the start",
-   "audio": "sparkle chimes, voiceover",
-   "caption": "{{line.L4}}",
-   "refs": [
-    "product",
-    "set",
-    "pedestal"
-   ],
-   "keyframe_prompt": "Centred insert: {{action}}, on a white demo table, a teal and magenta glass-block wall softly behind, flat bright 1990s studio light. The product matches the product reference exactly. Plain glass-block and teal wall fills the rest of the frame edge to edge, with a clean plain area in the lower third for graphics. One product only. No text, numbers or logos except the product's own label.",
-   "dressing": [
-    "the mirror mosaic tiles on the pedestal top catching light",
-    "the chipped edge and brass trim of the white demo table",
-    "the crystal bowl of wax lemons soft at the edge of frame",
-    "the magenta neon squiggle soft in the background"
-   ],
-   "product_role": "hero",
-   "product_action": {
-    "ingested": "{{product.visual}} standing upright on the small round mirrored rotating pedestal, label facing camera, straight and undistorted, a few cold droplets, star-filter sparkles glinting off its edges",
-    "applied": "{{product.visual}} standing upright on the small round mirrored rotating pedestal, label facing camera, straight and undistorted, star-filter sparkles glinting off its cap",
-    "worn": "{{product.visual}} on a small plain white display form (or neatly folded) on the mirrored rotating pedestal, its best side to camera, star-filter sparkles glinting off it",
-    "handheld": "{{product.visual}} standing on its own on the small round mirrored rotating pedestal, logo facing camera, star-filter sparkles glinting off it",
-    "carried": "{{product.visual}} standing upright on the mirrored rotating pedestal, logo facing camera, star-filter sparkles glinting off its hardware",
-    "home": "{{product.visual}} on a large low round mirrored riser in the fake living room corner of the set, turning slowly, its best side to camera, star-filter sparkles glinting off it",
-    "consumable": "a neat stack of packs of {{product.visual}} on the small round mirrored rotating pedestal, one pack front and centre with its label facing camera, star-filter sparkles glinting off the stack"
-   }
-  },
-  {
-   "id": "S05",
-   "t0": 10,
-   "t1": 13,
-   "beat": "proof",
-   "framing": "medium, direct to lens",
-   "camera": "locked off",
-   "action": "Full colour: Gloria at the same desk, now tidy, sitting bolt upright and beaming, the product with her, big thumbs up.",
-   "product_state": "in hand, worn or beside her, label or logo to camera",
-   "audio": "a cheesy harp gliss, dialogue",
-   "caption": "{{line.L5}}",
-   "refs": [
-    "gloria",
-    "product",
-    "office"
-   ],
-   "keyframe_prompt": "Over-saturated colour, medium shot of Gloria, the woman from the character sheet, in the 1990s office cubicle from the location plate, now tidy with the papers in a neat stack, sitting bolt upright and beaming wide-eyed at the lens, {{action}}, teal blazer with shoulder pads, round glasses, flat bright light. The product matches the product reference exactly. One product only. No readable text. Only office things on the desk: no fruit, no crystal bowls, nothing from the studio set.",
-   "dressing": [
-    "the manila files now in one neat stack with coloured tabs",
-    "the pager clipped to her waistband",
-    "her teal scrunchie on her wrist",
-    "the spider plant on the desk",
-    "the tube monitor with its blank grey glow"
-   ],
-   "product_role": "in_use",
-   "product_action": {
-    "ingested": "holding {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand",
-    "applied": "holding {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand, glowing with the result",
-    "worn": "wearing {{product.visual}}, one hand showing it off to the lens, giving a big thumbs up with the other hand",
-    "handheld": "holding {{product.visual}} in one hand with the logo facing camera and undistorted, giving a big thumbs up with the other hand",
-    "carried": "one hand patting {{product.visual}} on the tidy desk beside her, logo facing camera, giving a big thumbs up with the other hand",
-    "home": "sitting in or beside {{product.visual}}, set up in the corner of her tidy cubicle, its best side to camera, giving a big thumbs up",
-    "consumable": "holding the pack of {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand"
-   }
-  },
-  {
-   "id": "S06",
-   "t0": 13,
-   "t1": 15.5,
-   "beat": "more",
-   "framing": "wide-angle extreme close-up",
-   "camera": "crash zoom in",
-   "action": "Dale leans right into the lens, one finger raised, eyebrows up, conspiratorial.",
-   "product_state": "absent",
-   "audio": "record scratch into the zoom, dialogue",
-   "caption": "But wait, there's more!",
-   "refs": [
-    "dale",
-    "set"
-   ],
-   "keyframe_prompt": "Wide-angle extreme close-up of Dale, the man from the character sheet, leaning right into the lens with a slightly bulging wide-angle look, one index finger raised beside his face, eyebrows high, mouth open mid-word, tan face shiny under flat bright studio light, a blurred teal and magenta set behind. Over-saturated 1990s video look. No text.",
-   "dressing": [
-    "the gold pinky ring on his raised finger",
-    "hairspray failing at his temples",
-    "a blurred magenta neon squiggle behind"
-   ],
-   "product_role": "absent"
-  },
-  {
-   "id": "S07",
-   "t0": 15.5,
-   "t1": 19.5,
-   "beat": "more",
-   "framing": "medium wide at the demo table",
-   "camera": "locked off",
-   "action": "At the demo table, Dale sweeps the old-way prop ([[old_way.visual]]) off the table with a flourish; the product stands untouched on the pedestal beside him.",
-   "product_state": "on the pedestal, label or logo to camera, untouched",
-   "audio": "cartoon boing, audience laugh, dialogue",
-   "caption": "{{line.L7}}",
-   "refs": [
-    "dale",
-    "product",
-    "set"
-   ],
-   "keyframe_prompt": "Medium wide shot of Dale, the man from the character sheet, standing behind the white demo table on the pastel infomercial set from the location plate, sweeping [[old_way.visual]] off the edge of the table with a grand flourish of his arm, grinning at the lens; {{action}}. The product matches the product reference exactly and never touches the prop. One product only. Plain set wall above him. No text or numbers.",
-   "dressing": [
-    "the old-way prop mid-fall off the table edge",
-    "the mirror-tiled pedestal holding the product",
-    "the butter-yellow starburst shape on the table front",
-    "the pyramid of plain white boxes on a side riser",
-    "the cross of gaffer tape on the carpet at his feet"
-   ],
-   "product_role": "hero",
-   "product_action": {
-    "ingested": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted",
-    "applied": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted",
-    "worn": "{{product.visual}} sits untouched on a small plain white display form on the mirrored pedestal, its best side to camera",
-    "handheld": "{{product.visual}} stands untouched on the small mirrored pedestal on the table, logo facing camera",
-    "carried": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, logo facing camera",
-    "home": "{{product.visual}} stands untouched on the low mirrored riser just beside the demo table, its best side to camera",
-    "consumable": "the pack of {{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera"
-   }
-  },
-  {
-   "id": "S08",
-   "t0": 19.5,
-   "t1": 22.5,
-   "beat": "more",
-   "framing": "wide reverse angle over Dale's shoulder",
-   "camera": "locked off, slow zoom out",
-   "action": "The studio audience on small risers goes 'ooooh', hands to cheeks; Dale takes a bow in the foreground.",
-   "product_state": "absent",
-   "audio": "audience 'ooooh' and applause",
-   "caption": "",
-   "refs": [
-    "dale"
-   ],
-   "keyframe_prompt": "Wide reverse-angle shot from behind Dale, the man from the character sheet (seen from behind in his butter-yellow blazer, taking a small bow in the foreground), looking out at a small 1990s TV studio audience of about twenty adults of varied ages and ethnicities on low carpeted risers, in 1990s clothes (windbreakers, denim jackets, big hair), all going 'ooooh' with hands on their cheeks and mouths in O shapes, bright flat studio light, teal and magenta wash on the back wall. No text, no signs, no logos, no children. Tall vertical framing filling the whole frame edge to edge: the stacked audience risers climb from the middle to the very top of the frame and Dale's back and shoulders fill the bottom edge, no letterbox bars, no blurred bands, no borders.",
-   "dressing": [
-    "burgundy carpeted risers",
-    "windbreakers, denim jackets, shoulder pads and big permed hair",
-    "a pair of oversized plastic-framed glasses in the second row",
-    "the black stage curtain edge with a sandbag on a light stand"
-   ],
-   "product_role": "absent"
-  },
-  {
-   "id": "S09",
-   "t0": 22.5,
-   "t1": 26.5,
-   "beat": "cta",
-   "framing": "medium, direct to lens",
-   "camera": "locked off",
-   "action": "Dale sits at a long desk of six silent beige telephones, taps one, shrugs at the lens, then points off camera: go get one.",
-   "product_state": "absent",
-   "audio": "silence where ringing should be, a cricket chirp in post, dialogue",
-   "caption": "Operators are NOT standing by. Just grab one!",
-   "refs": [
-    "dale",
-    "set",
-    "phones"
-   ],
-   "keyframe_prompt": "Medium shot of Dale, the man from the character sheet, sitting behind a long white desk on the pastel set from the location plate, a row of six plain beige 1990s telephones with blank buttons in front of him, none ringing, one receiver in his hand held away from his ear, shrugging at the lens with a comic deadpan look, butter-yellow blazer. Empty plain teal wall above him and a clean plain area across the lower third of the frame for a graphic card. No text, numbers or logos anywhere.",
-   "dressing": [
-    "six beige phones with blank buttons, one with a cracked case",
-    "the coiled cords tangled together",
-    "the butter-yellow starburst shape on the desk front",
-    "the gold pinky ring on the hand holding the receiver"
-   ],
-   "product_role": "absent"
-  },
-  {
-   "id": "S10",
-   "t0": 26.5,
-   "t1": 30,
-   "beat": "cta",
-   "framing": "centred pack shot",
-   "camera": "locked off, the pedestal turns slowly",
-   "action": "The product glitters on the pedestal, Dale's thumbs-up hand enters frame beside it. Post adds the 'available where you shop' card, the tagline and the tape end.",
-   "product_state": "hero, on the pedestal, label or logo facing camera",
-   "audio": "jingle button, a final ding, tape stop",
-   "caption": "{{line.L9}}",
-   "refs": [
-    "product",
-    "set",
-    "pedestal"
-   ],
-   "keyframe_prompt": "Centred 1990s infomercial pack shot: {{action}}, a man's tanned hand with a gold pinky ring giving a thumbs up at the right edge of the frame beside the product, teal and magenta glass-block wall behind. The product matches the product reference exactly. The upper quarter and lower third of the frame are clean plain wall for graphics. One product only. No text, numbers or logos except the product's own label. One single continuous camera image: no inset picture, no picture-in-picture, no second frame layered over the first. The image fills the full 9:16 frame edge to edge: the glowing glass-block wall runs all the way to the very top edge and the white demo table front runs all the way to the very bottom edge, with no plain coloured bands, no letterbox and no borders.",
-   "dressing": [
-    "the mirror mosaic pedestal",
-    "the gold pinky ring on the thumbs up",
-    "the chipped laminate edge of the demo table",
-    "the glass-block wall glowing behind"
-   ],
-   "product_role": "hero",
-   "product_action": {
-    "ingested": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, label facing camera, straight and undistorted, star-filter sparkles on its edges",
-    "applied": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, label facing camera, straight and undistorted, star-filter sparkles on its cap",
-    "worn": "{{product.visual}} on a small plain white display form on the mirrored pedestal on the white demo table, its best side to camera, star-filter sparkles",
-    "handheld": "{{product.visual}} on the small round mirrored pedestal on the white demo table, logo facing camera, star-filter sparkles",
-    "carried": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, logo facing camera, star-filter sparkles on its hardware",
-    "home": "{{product.visual}} on the low mirrored riser in the fake living room corner of the set, its best side to camera, star-filter sparkles",
-    "consumable": "a neat stack of packs of {{product.visual}} on the small round mirrored pedestal on the white demo table, one pack front and centre with its label to camera, star-filter sparkles"
-   }
-  }
- ],
- "units": [
-  {
-   "id": "U1",
-   "t0": 0,
-   "t1": 4.5,
-   "shots": [
-    "S01",
-    "S02"
-   ],
-   "len_s": 5,
-   "exact_risk": false,
-   "refs": [
-    "dale card",
-    "gloria card",
-    "set plate",
-    "S01 keyframe as first frame"
-   ],
-   "prompt": "Vertical 9:16, footage from a 1990s TV infomercial, standard-definition video look, flat bright studio light, everything in focus. Shot 1 (0 to 2 s): crash zoom into @Image1 (Dale, tanned, butter-yellow double-breasted blazer) on a teal and magenta pastel set, he points straight down the lens and booms: \"Does THIS happen to you?\" Shot 2 (2 to 5 s): fully black and white, static wide of @Image2 (Gloria, big 1990s hair, round glasses, shoulder-pad blazer) at a beige office desk, [[problem.visual]], then she flings her arms up and wails: \"There's gotta be a better way!\" Comic overacting. Native sound: boxy studio voice, papers sliding. No music, no text on screen, no numbers, no logos."
-  },
-  {
-   "id": "U2",
-   "t0": 4.5,
-   "t1": 10,
-   "shots": [
-    "S03",
-    "S04"
-   ],
-   "len_s": 6,
-   "exact_risk": true,
-   "refs": [
-    "product image",
-    "dale card",
-    "S03 keyframe as first frame"
-   ],
-   "prompt": "Vertical 9:16, 1990s TV infomercial, over-saturated colour, flat bright studio light. Shot 1 (0 to 2.5 s): medium close-up, @Image2 (Dale) grinning at the lens, {{action.S03}}, and announces with a pause before the name: \"{{line.L3}}\" (say the brand as {{product.phonetic}}, punched). Shot 2 (2.5 to 6 s): locked-off beauty shot, {{action.S04}}, the pedestal turning slowly, plain wall on both sides; Dale's voice, rapid and thrilled: \"{{line.L4}}\" Keep the product's shape, colours and label exactly as @Image1; it never bends. Native sound: studio voice, a ding. No music, no text on screen."
-  },
-  {
-   "id": "U3",
-   "t0": 10,
-   "t1": 22.5,
-   "shots": [
-    "S05",
-    "S06",
-    "S07",
-    "S08"
-   ],
-   "len_s": 13,
-   "exact_risk": false,
-   "refs": [
-    "gloria card",
-    "dale card",
-    "set plate",
-    "product image",
-    "S05 keyframe as first frame"
-   ],
-   "prompt": "Vertical 9:16, 1990s TV infomercial, over-saturated colour, flat bright light, locked-off studio cameras. Shot 1 (0 to 3 s): @Image1 (Gloria) at a tidy beige office desk, bolt upright and beaming, {{action.S05}}: \"{{line.L5}}\" Shot 2 (3 to 5.5 s): crash zoom to a wide-angle extreme close-up of @Image2 (Dale) leaning into the lens, finger raised: \"But wait, there's more!\" Shot 3 (5.5 to 9.5 s): Dale behind a white demo table on the pastel set sweeps [[old_way.visual]] off the table with a flourish; {{action.S07}}: \"{{line.L7}}\" Shot 4 (9.5 to 13 s): reverse wide from behind Dale taking a bow, a small studio audience of varied adults in 1990s clothes on low risers goes \"ooooh\" with hands on their cheeks. The product matches @Image4 whenever it is visible. Native sound: studio voices, audience ooooh and applause. No music, no text, no numbers, no logos."
-  },
-  {
-   "id": "U4",
-   "t0": 22.5,
-   "t1": 30,
-   "shots": [
-    "S09",
-    "S10"
-   ],
-   "len_s": 8,
-   "exact_risk": true,
-   "refs": [
-    "product image",
-    "dale card",
-    "phones sheet",
-    "S09 keyframe as first frame"
-   ],
-   "prompt": "Vertical 9:16, 1990s TV infomercial, flat bright light. Shot 1 (0 to 4 s): @Image2 (Dale) at a long white desk with the six plain beige telephones of @Image3, blank buttons, none ringing; he lifts one receiver, shrugs at the lens deadpan: \"Operators are NOT standing by.\" then brightens and points off camera: \"Just grab one!\" Clean plain area across the lower third. Shot 2 (4 to 8 s): locked-off pack shot, {{action.S10}}, the pedestal turning slowly, Dale's tanned hand with a gold pinky ring gives a thumbs up beside it; his announcer voice sings: \"{{line.L9}}\" The product matches @Image1 exactly and does not bend or change. Keep the upper quarter and lower third as plain wall. Native sound: studio voice, a ding. No music, no text, no numbers."
-  }
- ],
- "music": [
-  {
-   "section": "sting and problem",
-   "t0": 0,
-   "t1": 4.5,
-   "brief": "A 1-second bright synth-brass sting with a cymbal swell on the crash zoom (0 to 1 s), then the music drops to a droopy detuned tuba and muted trumpet 'wah wah' for the black and white problem, ending on a sad trombone slide at 4.3 s."
-  },
-  {
-   "section": "jingle",
-   "t0": 4.5,
-   "t1": 22.5,
-   "brief": "The show's cheesy 1990s jingle bed at 112 bpm in E major: slap bass, gated-reverb snare, bright FM electric piano and a saxophone lick on each selling point; ducks 8 dB under every line; a harp gliss into the testimonial at 10 s and a record scratch stop at 13 s, restarting on 'more' at 15.5 s."
-  },
-  {
-   "section": "button",
-   "t0": 22.5,
-   "t1": 30,
-   "brief": "The jingle thins to bass and hi-hat under the phone gag, then a full final chorus hit on the pack shot at 26.5 s, a sung synth-choir swell under the tagline, and a tape-stop pitch-down at 29.6 s."
-  }
- ],
- "sfx": [
-  {
-   "t": 0.0,
-   "sound": "VHS tape warble and tracking noise clearing",
-   "why": "establishes the found-tape conceit in the first frame; post only"
-  },
-  {
-   "t": 5.6,
-   "sound": "sparkle ding on the product's star glint",
-   "why": "marks the product reveal"
-  },
-  {
-   "t": 17.6,
-   "sound": "cartoon boing as the old-way prop falls",
-   "why": "the comic button on the second selling point"
-  },
-  {
-   "t": 19.8,
-   "sound": "studio audience 'ooooh' and applause",
-   "why": "the format's signature; generated audiences are thin, so layer a clean one"
-  },
-  {
-   "t": 23.4,
-   "sound": "a single cricket chirp over the silent phones",
-   "why": "sells the 'operators are NOT standing by' joke"
-  }
- ],
- "voices": [
-  {
-   "speaker": "dale",
-   "plan": "native voice from U1, then his U1 vocal stem as voice reference for U2, U3 and U4; a light boxy studio EQ in post"
-  },
-  {
-   "speaker": "gloria",
-   "plan": "native in U1 (black and white) and U3 (testimonial), U1 stem as reference for U3"
-  }
- ],
- "captions": {
-  "font": "Cooper Black (or a rounded heavy serif like it)",
-  "size": "5.6% of frame height",
-  "color": "#FFE94A (infomercial yellow)",
-  "active_word": "the stressed word jumps to #FFFFFF and scales to 110% for 6 frames",
-  "shadow": "4px black outline plus a hard 6px drop shadow down-right in #D6246E (magenta)",
-  "position": "centre, 64% down the frame, above the platform UI safe zone, always below the host's chin",
-  "max_words_on_screen": 4,
-  "box": false,
-  "animation": "each caption line slides in from the left with a slight overshoot, like a 1990s character generator",
-  "starbursts": "selling points also get a spinning yellow starburst with a two to three word callout (post only)"
- },
- "post_text": [
-  {
-   "t0": 0,
-   "t1": 1.2,
-   "text": "PLAY",
-   "sub": "",
-   "style": "VCR on-screen display, blocky white monospace with black edge, top left, flickering"
-  },
-  {
-   "t0": 0,
-   "t1": 30,
-   "text": "WonderVision 38",
-   "sub": "",
-   "style": "fictional channel bug, small semi-transparent white rounded wordmark, top right, 1990s bevel"
-  },
-  {
-   "t0": 7.3,
-   "t1": 9.9,
-   "text": "[[starburst.1]]",
-   "sub": "[[starburst.2]]",
-   "style": "two spinning yellow starbursts with magenta Cooper Black lettering, left and right of the product, popping in one after the other; each is one or two words taken from L4 with an exclamation mark"
-  },
-  {
-   "t0": 15.8,
-   "t1": 19.4,
-   "text": "[[starburst.3]]",
-   "sub": "",
-   "style": "a yellow starburst with a boing scale bounce, upper left over the plain wall; two or three words taken from L7 with an exclamation mark"
-  },
-  {
-   "t0": 23.0,
-   "t1": 30,
-   "text": "AVAILABLE WHERE YOU SHOP",
-   "sub": "Look for {{product.short_name}}",
-   "style": "1990s offer card in the lower third: magenta bar with a bevelled yellow border, white bold italic text sliding in from the right with a shine sweep; in the style of a phone-number card but with no number and no price; the sub may add the product's two main colours from product.visual (e.g. 'Look for the green and gold jar')"
-  },
-  {
-   "t0": 27.0,
-   "t1": 30,
-   "text": "{{product.name}}",
-   "sub": "{{line.L9}}",
-   "style": "chrome-gradient 1990s bevel type in the upper quarter above the product, lens flare sweep, then tape-stop wobble and blue screen on the last 6 frames"
-  }
- ],
- "qa": [
-  "the product in S03, S04, S05, S07 and S10 matches the product image (shape, colours, label) and never bends",
-  "S02 is fully black and white and the product is not in it",
-  "the problem in S02 follows from the L4 benefit and is never a medical condition",
-  "the old-way prop is a left-out thing only if the page says so word for word; otherwise the grey boxes",
-  "no [[...]] token remains in the fill",
-  "no model-drawn text, prices or phone numbers; every starburst, card and bug is post",
-  "Dale and Gloria match their character sheets",
-  "L4, L5 and L7 benefits are verbatim from product.benefits"
- ],
- "example_fill": {
-  "product": {
-   "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
-   "name": "Red Bull Sugarfree",
-   "brand": "Red Bull",
-   "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
-   "tagline": "Wiiings without sugar",
-   "size": "250 ml can",
-   "archetype": "ingested",
-   "scale": "hand",
-   "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
-   "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
-   "facts": {
-    "caffeine_mg": 75,
-    "taurine_mg": 1000,
-    "b_vitamins": "niacin, B2, B6, B12",
-    "sweeteners": "sucralose, acesulfame K"
-   },
-   "allowed_claims": [
-    "Same benefits of the original Energy Drink, without sugar",
-    "Caffeine helps to improve concentration and increase alertness",
-    "B-group vitamins contribute to the reduction of tiredness and fatigue"
-   ],
-   "forbidden": [
-    "calorie numbers (not on page)",
-    "health, weight-loss or medical claims",
-    "showing children drinking it",
-    "more than 2 cans in one sitting"
-   ],
-   "use_moments": [
-    "the afternoon slump at work",
-    "long study or work session"
-   ],
-   "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
-   "short_name": "the can",
-   "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
-   "phonetic": "RED BULL SHUG-er-free",
-   "benefits": [
-    "Same benefits of the original Energy Drink, without sugar",
-    "Caffeine helps to improve concentration and increase alertness",
-    "B-group vitamins contribute to the reduction of tiredness and fatigue"
-   ],
-   "problem": {
-    "visual": "slumped at her desk with sleepy eyes and her glasses askew, a stack of paper files starting to slide off the desk"
-   },
-   "old_way": {
-    "from": "left_out: the page says 'without sugar'",
-    "visual": "a giant white foam novelty sugar cube the size of a hatbox, painted with a sparkling granular texture, one corner dented, a few paint flecks missing, no face, no letters",
-    "asset": "assets/example_old_way.jpg"
-   },
-   "starbursts": {
-    "1": "ALERT!",
-    "2": "FOCUSED!",
-    "3": "NO SUGAR!"
-   }
-  },
-  "lines": {
-   "L1": "Does THIS happen to you?",
-   "L2": "There's gotta be a better way!",
-   "L3": "Introducing Red Bull Sugarfree!",
-   "L4": "Helps you stay alert and focused, with no sugar!",
-   "L5": "Wow! I'm alert! I'm focused!",
-   "L6": "But wait, there's more!",
-   "L7": "Same great benefits as the original. Without the sugar!",
-   "L8": "Operators are NOT standing by. Just grab one!",
-   "L9": "Wiiings without sugar!"
-  },
-  "actions": {
-   "S03": "holding {{product.visual}} gently upright at its base with his fingertips right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on the rim",
-   "S04": "{{product.visual}} standing upright on the small round mirrored rotating pedestal, label facing camera, straight and undistorted, a few cold droplets, star-filter sparkles glinting off its edges",
-   "S05": "holding {{product.visual}} upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand",
-   "S07": "{{product.visual}} stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted",
-   "S10": "{{product.visual}} upright on the small round mirrored pedestal on the white demo table, label facing camera, straight and undistorted, star-filter sparkles on the rim"
-  },
-  "post_sub_example": "Look for the blue and silver can",
-  "notes": "L4 and L5 use 'Caffeine helps to improve concentration and increase alertness'; L7 uses 'Same benefits of the original Energy Drink, without sugar', which is also what licenses the foam sugar cube as the old-way prop."
- }
 }

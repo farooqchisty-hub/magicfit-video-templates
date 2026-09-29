@@ -477,10 +477,10 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "{{product.visual}}, six storeys tall and upright in the fountain, cold mist rolling off its top as a burst of light in its accent colour flares at its base",
+        "ingested": "{{product.visual}}, six storeys tall and upright in the fountain, its top opening with a puff of cold mist (a beverage) or its wrapper peeling back (food) as a burst of light in its accent colour flares at its base",
         "applied": "{{product.visual}}, six storeys tall and upright in the fountain, its cap lifted open, a burst of light in its accent colour flaring at its base",
         "worn": "{{product.visual}}, building-sized in the fountain, a burst of light in its accent colour flaring at its base",
-        "handheld": "{{product.visual}}, six storeys tall and upright in the fountain, powering on with a deep hum, a burst of light in its accent colour flaring at its base",
+        "handheld": "{{product.visual}}, six storeys tall and upright in the fountain, humming with a deep resonant tone as it powers on or catches the light, a burst of light in its accent colour flaring at its base",
         "carried": "{{product.visual}}, six storeys tall and standing in the fountain, its main zip or clasp springing open, a burst of light in its accent colour flaring out of the opening",
         "home": "{{product.visual}}, spanning the fountain basin on its own base, switching on or settling with a deep hum, a burst of light in its accent colour flaring beneath it",
         "consumable": "a pack of {{product.visual}}, six storeys tall and upright in the fountain, its top flap opening, a burst of light in its accent colour flaring at its base"
@@ -607,13 +607,13 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "holding one normal-size {{product.visual}} at chest height with its label facing camera",
-        "applied": "holding one normal-size {{product.visual}} at chest height with its label facing camera",
-        "worn": "wearing a normal-size {{product.visual}}, clearly visible, standing so it faces camera",
-        "handheld": "holding one normal-size {{product.visual}} at chest height with its logo facing camera",
-        "carried": "with a normal-size {{product.visual}} on his shoulder or in his hand, logo facing camera",
-        "home": "resting one hand on a normal-size {{product.visual}} set on the plaza paving beside him, best side to camera",
-        "consumable": "holding one normal-size pack of {{product.visual}} at chest height with its label facing camera"
+        "ingested": "holding the same product at normal size, {{product.visual}}, at chest height with its label facing camera",
+        "applied": "holding the same product at normal size, {{product.visual}}, at chest height with its label facing camera",
+        "worn": "wearing the same product at normal size, {{product.visual}}, clearly visible, standing so it faces camera",
+        "handheld": "holding the same product at normal size, {{product.visual}}, at chest height with its logo facing camera",
+        "carried": "with the same product at normal size, {{product.visual}}, on his shoulder or in his hand, logo facing camera",
+        "home": "resting one hand on the same product at normal size, {{product.visual}}, set on the plaza paving beside him, best side to camera",
+        "consumable": "holding a normal-size pack of the same product, {{product.visual}}, at chest height with its label facing camera"
       }
     }
   ],
@@ -758,6 +758,7 @@
     }
   ],
   "qa": [
+    "where an action offers choices in parentheses (a beverage or food, footwear or a garment, large or small pieces), keep only the one that fits this product and delete the rest before prompting",
     "the spectacle follows world_bible.hero_spectacle: derived from this product's own motif, material or colour, never lettering, never a second giant product",
     "no [spectacle] marker remains in any prompt; the spectacle sheet was rendered and passed as a reference in S05 to S09",
     "the giant product keeps its exact label in S01 to S05 and S10, one single giant product, never dented or tilted",
@@ -821,8 +822,8 @@
       "S02": "{{product.visual}}, six storeys tall, just landed perfectly upright in the centre of the round fountain, intact, label square to camera",
       "S03": "{{product.visual}} standing six storeys tall and upright in the fountain, label facing camera, recognisable",
       "S04": "{{product.visual}}, scaled up six storeys tall, upright in the fountain, label square to camera, condensation droplets as large as cars rolling down its side and falling into the water",
-      "S05": "{{product.visual}}, six storeys tall and upright in the fountain, cold mist rolling off its top as a burst of light in its accent colour flares at its base",
-      "S10": "holding one normal-size {{product.visual}} at chest height with its label facing camera"
+      "S05": "{{product.visual}}, six storeys tall and upright in the fountain, its top opening with a puff of cold mist (a beverage) or its wrapper peeling back (food) as a burst of light in its accent colour flares at its base",
+      "S10": "holding the same product at normal size, {{product.visual}}, at chest height with its label facing camera"
     }
   }
 }

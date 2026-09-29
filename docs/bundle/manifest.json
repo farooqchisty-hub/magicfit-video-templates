@@ -24,6 +24,51 @@
       ]
     },
     {
+      "id": "asmr-01-five-am",
+      "style": "asmr",
+      "style_name": "ASMR / satisfying",
+      "title": "Five A.M.",
+      "logline": "Five in the morning, a silent kitchen, the first quiet minutes before a long study session. Every sound of the ritual with {{product.name}}, heard up close.",
+      "fit": {
+        "ingested": "great",
+        "applied": "great",
+        "worn": "good",
+        "handheld": "great",
+        "carried": "good",
+        "home": "good",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "sleep aids or sedatives (the ritual starts a study session)",
+        "silent products with no tactile or audible character (the genre depends on the product's own sounds)",
+        "anything used on intimate areas of the body"
+      ]
+    },
+    {
+      "id": "breaking_news-01-slump-over",
+      "style": "breaking_news",
+      "style_name": "Fake breaking news report",
+      "title": "Breaking: It's Over",
+      "logline": "Lakeport Nine News interrupts your afternoon: for the first time in recorded history, an everyday problem has ended on the fourteenth floor of a downtown office tower. Witnesses say it started with {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "great",
+        "handheld": "great",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "medical, pain-relief or weight products (a news report that a problem is over reads as a health claim)",
+        "beds, sofas and large appliances"
+      ]
+    },
+    {
       "id": "cgi_hero-01-stampede",
       "style": "cgi_hero",
       "style_name": "CGI product hero / FOOH (fake out of home)",
@@ -64,6 +109,28 @@
         "products for children",
         "alcohol",
         "anything unsafe to use right before driving (sleep aids, sedatives)"
+      ]
+    },
+    {
+      "id": "claymation-01-snail-mail",
+      "style": "claymation",
+      "style_name": "Claymation",
+      "title": "Snail Mail",
+      "logline": "The Puddleton Parcel Dash: the fastest couriers in town against one old snail with a letter to deliver. He cannot outrun them, so he out-thinks them, with {{product.name}}.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "stretch",
+        "handheld": "good",
+        "carried": "good",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children (the clay look must not pull a child audience toward an adult product)",
+        "alcohol",
+        "products that only make sense shown on a human body (apparel fit, makeup looks): the cast are clay animals",
+        "weapons, including toy or starter pistols"
       ]
     },
     {
@@ -310,6 +377,28 @@
         "alcohol",
         "anything that needs skin contact on the face or an ingredient warning before a stranger tries it (strong actives, allergens without a warning)",
         "products whose page lists no benefit that is easy to phrase as the opposite of a common downside"
+      ]
+    },
+    {
+      "id": "talking_objects-01-fridge-politics",
+      "style": "talking_objects",
+      "style_name": "Talking objects",
+      "title": "Fridge Politics",
+      "logline": "Midnight in the house: wherever things of one kind live, they hold an election. The loud rival promises more of the old flaw, the wholesome one sounds nice, and the quiet candidate is {{product.name}}. Then a real voter opens the door.",
+      "fit": {
+        "ingested": "great",
+        "applied": "good",
+        "worn": "good",
+        "handheld": "good",
+        "carried": "great",
+        "home": "stretch",
+        "consumable": "good"
+      },
+      "avoid": [
+        "products for children",
+        "alcohol",
+        "products whose front is a screen or print that would have to carry the face",
+        "comparisons that name or visually echo a real competitor"
       ]
     },
     {

@@ -925,3 +925,6 @@
 {"t": 1790711405.5507462, "tag": "cgi_hero/S10", "out": "/Users/farooq.chisty/claude fc/magicfit-video-templates/lib/../styles/cgi_hero/img/S10.png", "usd": 0.03}
 {"t": 1790711492.923156, "tag": "cgi_hero/S01", "out": "/Users/farooq.chisty/claude fc/magicfit-video-templates/lib/../styles/cgi_hero/img/S01.png", "usd": 0.03}
 {"t": 1790711499.6018891, "tag": "cgi_hero/S04", "out": "/Users/farooq.chisty/claude fc/magicfit-video-templates/lib/../styles/cgi_hero/img/S04.png", "usd": 0.03}
+{"t": 1790714280.986675, "tag": "run-balm", "out": "keyframes/S06.png", "usd": 0.03}
+{"t": 1790714287.2297542, "tag": "run-balm", "out": "keyframes/S10.png", "usd": 0.03}
+{"t": 1790714299.7100291, "tag": "run-balm", "out": "keyframes/S05.png", "usd": 0.03}

@@ -1,0 +1,985 @@
+{
+  "id": "breaking_news-01-slump-over",
+  "style": "breaking_news",
+  "title": "Breaking: It's Over",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Lakeport Nine News interrupts your afternoon: for the first time in recorded history, an everyday problem has ended on the fourteenth floor of a downtown office tower. Witnesses say it started with {{product.name}}.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "the witness holds up the one he just had and the anchor has his own on air"
+      ],
+      "applied": [
+        "good",
+        "the thing the whole floor put on this morning; the anchor dabs some on at the desk"
+      ],
+      "worn": [
+        "great",
+        "the whole floor is wearing it; the witness models his and the anchor puts his on at the desk"
+      ],
+      "handheld": [
+        "great",
+        "the gadget that started it all, held up to the mic as evidence"
+      ],
+      "carried": [
+        "good",
+        "the bag everyone on fourteen now carries; the anchor has the same one under the desk"
+      ],
+      "home": [
+        "stretch",
+        "the story stays in the office and the studio, so only desk-sized home things fit (lamps, fans, speakers, a desk chair); not beds or sofas"
+      ],
+      "consumable": [
+        "good",
+        "the pack from the office kitchenette as evidence"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "medical, pain-relief or weight products (a news report that a problem is over reads as a health claim)",
+      "beds, sofas and large appliances"
+    ]
+  },
+  "product_extract": {
+    "why": "The story is that an everyday problem has ended. That problem must fit the product, so the runner derives it here before writing L1, L2, L5 and the ticker.",
+    "problem": {
+      "extract": "The everyday problem that the headline benefit (the one L4 uses, from product.benefits) ends, derived only from that benefit. Focus or energy gives the three p.m. slump; warmth gives the office cold snap; comfort gives the aching commute; organisation gives the desk avalanche.",
+      "fields": {
+        "phrase": "2 to 5 spoken words naming it with a time or place, e.g. 'the three p.m. slump'",
+        "short": "1 or 2 words for L5, e.g. 'the slump'",
+        "proof": "what the fourteenth floor is now, 2 to 4 words, e.g. 'wide awake'",
+        "detail": "a 2 to 4 word unthinkable detail, e.g. 'At three p.m.'"
+      },
+      "never": "a medical condition, pain relief, weight or anything the product would claim to cure"
+    },
+    "ticker": {
+      "rule": "Four items joined by two spaces, a middle dot and two spaces: (1) '<PROBLEM.SHORT> NOT SEEN SINCE MONDAY', (2) 'FOURTEENTH FLOOR REPORTS '<one or two words from L4>'', (3) 'LOCAL MAN ACHIEVES INBOX ZERO', (4) 'WEATHER: BRIGHT, SUNNY SPELLS'. Capitals. No claim beyond L4."
+    },
+    "token_syntax": "[[ticker]] is filled from this block in Stage 3, right after the product card slots. No [[...]] token may remain in the fill."
+  },
+  "world_bible": {
+    "lore": [
+      "Lakeport is a Great Lakes city of 640 thousand people. Lakeport Nine News has been the number two local station since 1978, and its 3pm update normally covers traffic on the Causeway Bridge and lake-effect snow.",
+      "Grant Okimoto has anchored the desk for 26 years and has never once smiled on air. The newsroom runs a betting pool on when he will; it stands at 410 dollars.",
+      "Pembrook Tower is a 22-storey glass office block from 1986 on Harbor Street, with a green bronze leaping pike statue by its revolving door that locals rub for luck. The fourteenth floor is Fenwick Hale Accounting, 38 staff, three days from the quarterly filing deadline.",
+      "Hector Alvarado has worked on fourteen for 17 years. On his desk is the brass counter bell his first manager gave him, rung only when a filing goes out; nobody remembers it ringing at 3pm.",
+      "Jolene Barrett is six months into the job and got the story because the traffic reporter was stuck on the Causeway Bridge."
+    ],
+    "locations": {
+      "newsdesk": {
+        "foreground": [
+          "the glossy curved navy anchor desk with a brushed silver trim edge and faint fingerprint smudges by the anchor's seat",
+          "a neat stack of blank white script pages with one corner folded down",
+          "a navy ceramic mug with a small silver three-wave mark and a coffee ring beside it",
+          "a silver ballpoint pen lying square to the pages"
+        ],
+        "midground": [
+          "a small silver three-wave mark inlaid on the front face of the desk",
+          "a clear glass of water with a lemon slice",
+          "a low recessed desk monitor showing only soft blue glow",
+          "silver trim lines curving across the glossy set floor"
+        ],
+        "background": [
+          "large glowing screens with only abstract sky-blue light shapes and blurred city bokeh",
+          "a tall frosted acrylic panel etched with a wave pattern",
+          "a lighting grid of black studio lamps overhead",
+          "a soft navy gradient wall fading into shadow at the edges"
+        ]
+      },
+      "tower": {
+        "foreground": [
+          "a concrete sidewalk with one crack patched in darker asphalt",
+          "a cast iron tree grate around a young maple with yellow autumn leaves on the ground",
+          "a concrete planter of red geraniums with a paper coffee cup tucked in the soil",
+          "a few wet leaves stuck to the pavement"
+        ],
+        "midground": [
+          "the plain brass-framed revolving door with a tall notched rectangle shape etched into the glass above it",
+          "a green bronze statue of a leaping pike on a granite plinth beside the entrance, its nose rubbed shiny gold",
+          "a hot dog cart with a blank striped blue and white umbrella",
+          "a bike rack with one blue bicycle missing its front wheel",
+          "a bronze fire standpipe by the wall"
+        ],
+        "background": [
+          "the 22-storey smoked glass facade rising out of frame",
+          "one band of windows about two-thirds up lit noticeably brighter than the rest",
+          "blurred passers-by in autumn coats",
+          "a flat grey lake sky with a few gulls",
+          "a street light pole with a blank navy banner"
+        ]
+      },
+      "office": {
+        "foreground": [
+          "Hector's desk with a brass counter bell, a strip of sky-blue tape on its black base",
+          "a neat stack of blank finished reports held by a black binder clip",
+          "a ceramic mug stuffed with pens and one ruler",
+          "a small framed family photo, faces tiny and blurred"
+        ],
+        "midground": [
+          "rows of desks with monitors showing only soft abstract colour",
+          "the big whiteboard covered in doodled arrows, boxes and one large hand-drawn star, no letters",
+          "a half-deflated silver birthday balloon tied to a desk chair",
+          "a wall of navy box files with coloured dot stickers",
+          "a water cooler with a sky-blue bottle"
+        ],
+        "background": [
+          "tall windows with afternoon light over a grey lake and the city",
+          "a potted fiddle-leaf fig by the window with one brown leaf",
+          "fluorescent ceiling panels, one missing its cover",
+          "a glass-walled meeting room with its blinds half down"
+        ]
+      }
+    },
+    "personal_props": {
+      "grant": [
+        "rimless glasses he polishes before every segment",
+        "a small silver lapel pin shaped like three waves, no letters",
+        "a clear earpiece with a coiled cable tucked behind his left ear",
+        "a silver ballpoint pen he squares to the page"
+      ],
+      "jolene": [
+        "the station hand mic with its square navy flag and silver three-wave mark",
+        "a navy windbreaker with the small silver three-wave mark on the chest and a salt stain on one cuff",
+        "a black hair tie on her wrist",
+        "a battered leather reporter's notebook sticking out of her back pocket"
+      ],
+      "hector": [
+        "a lanyard with a blank white card on a frayed navy strap",
+        "reading glasses hanging on a beaded chain",
+        "a loosened navy tie with a small coffee stain at the tip",
+        "his brass counter bell with sky-blue tape on the base"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "mic",
+        "name": "Lakeport Nine hand mic",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a black handheld television news microphone with a square navy mic flag near the top, the flag carrying only a small silver mark of three stacked wave lines, one corner of the flag scuffed pale, a coil of black cable. No letters, numbers or logos besides the wave mark. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+        "asset": "assets/mic.jpg"
+      },
+      {
+        "id": "pike",
+        "name": "The Pembrook pike statue",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a life-size green bronze statue of a leaping pike fish arching upward on a rough granite plinth, weathered green patina with darker streaks, the nose and lower jaw rubbed shiny gold by passing hands. No letters, plaques or numbers. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+        "asset": "assets/pike.jpg"
+      },
+      {
+        "id": "bell",
+        "name": "Hector's desk bell",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a brass push-button counter bell with a domed polished brass top slightly dented on one side, a round black base with worn edges and a strip of sky-blue tape wrapped around it. No letters or logos. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no products, no captions, no view labels, no text of any kind.",
+        "asset": "assets/bell.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Lakeport Nine News",
+        "mark": "three stacked silver wave lines",
+        "colors": "navy, sky blue and silver with a warm gold accent for breaking graphics",
+        "appears_on": "the mic flag, the front of the anchor desk, the anchor's mug, Jolene's windbreaker chest, Grant's lapel pin (mark only)",
+        "text_in_post": "station bug, BREAKING NEWS slam, straps, LIVE bug, clock, ticker and end card, all in post"
+      },
+      {
+        "name": "Pembrook Tower",
+        "mark": "a tall slim rectangle with a notched top",
+        "colors": "bronze and smoked glass",
+        "appears_on": "etched in the glass above the revolving door",
+        "text_in_post": "Pembrook Tower in the lower third strap only"
+      },
+      {
+        "name": "Fenwick Hale Accounting",
+        "mark": "a navy square with one folded corner",
+        "colors": "navy and white",
+        "appears_on": "the lanyard strap colour only, never on the card",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "A Thursday in late October, 3:04pm, flat grey lake-effect light with a cold wind off the water. The anchor's coffee is on its third refill, the mic flag is scuffed from years of pack-ups, yellow maple leaves are blowing along Harbor Street. On fourteen: three days to the filing deadline, a leftover birthday balloon going soft, a fluorescent panel missing its cover. Out of place: a paper coffee cup stuck in the geranium planter outside the tower.",
+    "sound_world": [
+      "the soft hum of the studio and a distant newsroom murmur",
+      "wind buffeting the hand mic",
+      "the whump of the revolving door and gulls over Harbor Street",
+      "a clatter of keyboards on the fourteenth floor",
+      "the ding of the brass counter bell",
+      "a sharp high-five slap",
+      "the product's own opening or use sound in a quiet studio"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "the office kitchenette's fridge door on fourteen, and a coaster under the desk shelf of the anchor desk, where each man keeps his own"
+      ],
+      "applied": [
+        "the top drawer of Hector's desk and the shelf under the anchor desk, where each keeps the product"
+      ],
+      "worn": [
+        "coat hooks by the fourteenth floor lifts and the anchor's chair back, where the product hangs when it is not being worn"
+      ],
+      "handheld": [
+        "Hector's desk beside the brass bell and the shelf under the anchor desk"
+      ],
+      "carried": [
+        "the product hung on Hector's chair back and tucked under the anchor desk"
+      ],
+      "home": [
+        "the corner beside Hector's desk and the side of the anchor desk, where the product is set up"
+      ],
+      "consumable": [
+        "a pack in the office kitchenette cupboard and one in the drawer of the anchor desk"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "grant",
+      "name": "Grant Okimoto",
+      "role": "evening anchor at the Lakeport Nine desk",
+      "look": "man, 58, Japanese American, neat swept silver hair, rimless glasses, strong jaw, charcoal suit, pale blue shirt, navy tie, a small silver lapel pin with no logo",
+      "voice": "rich, measured, gravely serious anchor voice with perfect diction, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Grant Okimoto: 58, Japanese American, neat swept silver hair, rimless glasses, strong jaw, charcoal suit, pale blue shirt, navy tie, a small plain silver lapel pin, composed serious news-anchor expression. Even broadcast studio light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/grant.jpg"
+    },
+    {
+      "id": "jolene",
+      "name": "Jolene Barrett",
+      "role": "field reporter live on the scene",
+      "look": "woman, 31, white American, shoulder-length copper-red hair a little windblown, freckles, navy field windbreaker over a cream sweater, holding a hand mic with a plain navy mic flag",
+      "voice": "bright, urgent, clipped live-TV cadence with a hint of barely held amusement, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Jolene Barrett: 31, white American, shoulder-length copper-red hair slightly windblown, freckles, navy windbreaker with no logos over a cream sweater, alert professional TV reporter expression. Even soft light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/jolene.jpg"
+    },
+    {
+      "id": "hector",
+      "name": "Hector Alvarado",
+      "role": "eyewitness, accountant on the fourteenth floor",
+      "look": "man, 47, Mexican American, thick black moustache, short greying hair, warm brown eyes, lanyard with a blank white card, rolled-up sleeves on a light blue striped shirt, loosened tie",
+      "voice": "earnest, slightly awed, talks to the reporter like a witness to a miracle, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Hector Alvarado: 47, Mexican American, thick black moustache, short greying hair, warm brown eyes, a lanyard with a blank white card, light blue striped shirt with rolled-up sleeves and a loosened tie, earnest awed expression. Even soft office light, photoreal, consistent identity across all three views. No text, no logos.",
+      "asset": "assets/hector.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "newsdesk",
+      "name": "Lakeport Nine News studio",
+      "plate_prompt": "Full-bleed tall vertical 9:16 photograph filling the entire frame edge to edge, upright vertical composition, level horizon: an empty modern local news studio, a glossy curved navy and silver anchor desk with blank papers on it and no laptop, behind it large glowing screens showing only abstract sky-blue light shapes and a blurred night city bokeh, silver trim, bright even broadcast lighting. No people, no text, no letters, no logos, no numbers anywhere.",
+      "asset": "assets/newsdesk.jpg"
+    },
+    {
+      "id": "tower",
+      "name": "Outside Pembrook Tower",
+      "plate_prompt": "Full-bleed tall vertical 9:16 photograph filling the entire frame edge to edge, no letterbox, no borders: a downtown sidewalk in flat afternoon daylight outside an ordinary mid-rise glass office tower, the glass facade rising to the top of the frame, a plain revolving door, concrete planters, a couple of blurred passers-by in the distance, no signs on the building. Upright vertical composition, level horizon, vertical building lines. Clean camera-original image: no station logos, no clocks, no captions, no text overlays, no readable text or logos anywhere, no emergency vehicles.",
+      "asset": "assets/tower.jpg"
+    },
+    {
+      "id": "office",
+      "name": "Pembrook Tower, fourteenth floor",
+      "plate_prompt": "Full-bleed tall vertical 9:16 photograph filling the entire frame edge to edge, no letterbox, no borders: a bright open-plan office floor at 3pm, rows of desks with monitors showing only soft abstract colour, a big whiteboard covered in abstract doodled arrows, boxes and squiggles with no letters or words, tall windows with afternoon light and a city view, plants, fluorescent ceiling panels. Upright vertical composition, level horizon. Clean camera-original image: no clocks, no station logos, no captions, no text overlays, no readable text or logos anywhere, no people.",
+      "asset": "assets/office.jpg"
+    }
+  ],
+  "asset_urls": {
+    "grant": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/grant.jpg",
+    "jolene": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/jolene.jpg",
+    "hector": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/hector.jpg",
+    "newsdesk": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/newsdesk.jpg",
+    "tower": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/tower.jpg",
+    "office": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/office.jpg",
+    "mic": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/mic.jpg",
+    "pike": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/pike.jpg",
+    "bell": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/breaking_news-01-slump-over/assets/bell.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "BREAKING NEWS slams in over the anchor, who announces with total gravity that an everyday problem (the one the product ends) is over."
+    },
+    {
+      "id": "setup",
+      "t": "3-8.5",
+      "summary": "Live outside Pembrook Tower: the fourteenth floor is transformed. B-roll through the glass of high-fives and a whiteboard filling up."
+    },
+    {
+      "id": "product",
+      "t": "8.5-14.5",
+      "summary": "The eyewitness presents the product to the mic: it started with one. The news camera zooms in on the evidence as the reporter reads the benefit."
+    },
+    {
+      "id": "build",
+      "t": "14.5-23.5",
+      "summary": "Back to the desk: will the problem return? Not today. The witness hits inbox zero to office applause."
+    },
+    {
+      "id": "payoff",
+      "t": "23.5-26.5",
+      "summary": "The anchor glances off camera, produces his own from under the desk and uses it on air. I'll allow it."
+    },
+    {
+      "id": "cta",
+      "t": "26.5-30",
+      "summary": "The product on the news desk, the anchor signs off with the tagline, end card."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.8",
+      "speaker": "grant",
+      "on_camera": true,
+      "shot": "S01",
+      "max_words": 9,
+      "line_intent": "Hook: announce, with total news gravity, that the everyday problem the product ends is over. Pattern: 'Breaking news. <problem.phrase>... is over.'",
+      "delivery": "grave, measured, a half-beat pause before 'is over'",
+      "rules": "problem words only from product_extract.problem; never a medical condition"
+    },
+    {
+      "id": "L2",
+      "t": "3.2-6.2",
+      "speaker": "jolene",
+      "on_camera": true,
+      "shot": "S02",
+      "max_words": 10,
+      "line_intent": "The field report states the local proof that the problem is gone. Pattern: 'Grant, the fourteenth floor is <problem.proof>. <problem.detail>'",
+      "delivery": "urgent live-TV cadence, the detail delivered as if unthinkable",
+      "rules": "problem words only from product_extract.problem; never a medical condition"
+    },
+    {
+      "id": "L3",
+      "t": "8.8-11.2",
+      "speaker": "hector",
+      "on_camera": true,
+      "shot": "S04",
+      "max_words": 9,
+      "line_intent": "Product line: the eyewitness names the product as the cause. Pattern: 'It started with one <thing, from product.short_name>. {{product.name}}.'",
+      "delivery": "earnest and hushed, like describing a miracle, the name said clearly into the mic",
+      "rules": "brand spelled with product.phonetic in the video prompt"
+    },
+    {
+      "id": "L4",
+      "t": "11.8-14.2",
+      "speaker": "jolene",
+      "on_camera": false,
+      "shot": "S05",
+      "max_words": 10,
+      "line_intent": "The reporter confirms the headline benefit as an official fact: 'Sources confirm' plus one benefit from product.benefits.",
+      "delivery": "voiceover on the evidence shot, crisp, reading from her notes",
+      "rules": "benefit only from product.benefits, reworded no further than person and tense"
+    },
+    {
+      "id": "L5",
+      "t": "14.8-16.6",
+      "speaker": "grant",
+      "on_camera": true,
+      "shot": "S06",
+      "max_words": 8,
+      "line_intent": "The anchor asks the serious follow-up. Pattern: 'Jolene, is <problem.short> expected to return?'",
+      "delivery": "concerned, leaning in, completely straight",
+      "rules": "problem words only from product_extract.problem; never a medical condition"
+    },
+    {
+      "id": "L6",
+      "t": "17.4-19.6",
+      "speaker": "jolene",
+      "on_camera": true,
+      "line_intent": "The reporter's confident answer.",
+      "delivery": "steely, a tiny smile on the second 'not today'",
+      "shot": "S07",
+      "fixed_line": "Not today, Grant. Not today.",
+      "max_words": 6
+    },
+    {
+      "id": "L7",
+      "t": "21.0-22.2",
+      "speaker": "hector",
+      "on_camera": true,
+      "line_intent": "A small everyday victory shouted as a triumph.",
+      "delivery": "arms up, shouted, pure joy",
+      "shot": "S08",
+      "fixed_line": "Inbox zero!",
+      "max_words": 3
+    },
+    {
+      "id": "L8",
+      "t": "25.0-26.2",
+      "speaker": "grant",
+      "on_camera": true,
+      "line_intent": "The anchor breaks character a hair to endorse it.",
+      "delivery": "deadpan after using it on air, one eyebrow up",
+      "shot": "S09",
+      "fixed_line": "I'll allow it.",
+      "max_words": 4
+    },
+    {
+      "id": "L9",
+      "t": "27.3-28.2",
+      "speaker": "grant",
+      "on_camera": false,
+      "shot": "S10",
+      "max_words": 4,
+      "line_intent": "The classic sign-off opener.",
+      "delivery": "classic sign-off warmth over the pack shot",
+      "fixed_line": "That's the news."
+    },
+    {
+      "id": "L10",
+      "t": "28.2-29.4",
+      "speaker": "grant",
+      "on_camera": false,
+      "shot": "S10",
+      "max_words": 6,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word sign-off line about the problem staying gone.",
+      "delivery": "warm, the first smile anyone has heard from him on air"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 3,
+      "beat": "hook",
+      "framing": "symmetrical medium close-up, anchor in upper half",
+      "camera": "locked off, slow push-in",
+      "action": "The BREAKING NEWS graphic slams in (post) as Grant, hands folded on the desk, delivers the story with total gravity.",
+      "product_state": "absent",
+      "audio": "news sting timpani hit, dialogue",
+      "caption": "{{line.L1}}",
+      "refs": [
+        "grant",
+        "newsdesk"
+      ],
+      "keyframe_prompt": "Symmetrical medium close-up of Grant, the man from the character sheet, seated at the glossy navy and silver anchor desk in the news studio from the location plate, hands folded on blank papers, looking straight into the lens with a grave serious expression, mid-sentence, charcoal suit and navy tie, rimless glasses, bright even broadcast key light, glowing abstract sky-blue screens behind him. His face sits in the upper half of the frame; the lower part of the frame is his chest and the desk, clean and empty for graphics. No on-screen graphics, text or logos. Tight framing from mid-chest up: his head and shoulders fill the width of the frame in the upper half, the desk edge crosses the lower middle, the studio set is only a soft background.",
+      "dressing": [
+        "the navy mug with the silver three-wave mark and a coffee ring",
+        "blank script pages with one folded corner",
+        "his small silver three-wave lapel pin",
+        "the clear earpiece coil behind his left ear"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 3,
+      "t1": 6.5,
+      "beat": "setup",
+      "framing": "medium, reporter on the left third, tower behind",
+      "camera": "handheld shoulder rig, gentle sway",
+      "action": "Live outside Pembrook Tower: Jolene reports into her hand mic, gesturing up at the building, wind in her hair.",
+      "product_state": "absent",
+      "audio": "wind on the mic, street ambience, dialogue",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "jolene",
+        "tower",
+        "mic"
+      ],
+      "keyframe_prompt": "Medium shot of Jolene, the woman from the character sheet, standing on a downtown sidewalk outside a mid-rise glass office tower with a plain revolving door and concrete planters on the left third of the frame, speaking urgently into a hand microphone with a plain navy mic flag with no letters, her free hand gesturing up at the glass office tower behind her, copper-red hair blowing slightly, navy windbreaker, flat afternoon daylight, shoulder-mounted news camera look. Upright vertical composition, level horizon, vertical building lines. The sidewalk and her body continue naturally to the bottom edge of the frame. No text, no signs, no logos. She is photographed in the scene with natural matching daylight and shadows, standing on the pavement with her full upper body in frame, not pasted in; the sidewalk and tower fill the frame edge to edge.",
+      "dressing": [
+        "the green bronze leaping pike statue by the entrance, nose rubbed gold",
+        "the brass revolving door with the notched rectangle etched above it",
+        "the hot dog cart with a blank striped umbrella",
+        "yellow maple leaves on the sidewalk"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 6.5,
+      "t1": 8.5,
+      "beat": "setup",
+      "framing": "telephoto b-roll",
+      "camera": "handheld snap zoom",
+      "action": "B-roll through the fourteenth floor glass: office workers mid high-five, one sprinting past with a stack of folders, a whiteboard filling with scribbles.",
+      "product_state": "absent",
+      "audio": "muffled office cheer",
+      "caption": "",
+      "refs": [
+        "office"
+      ],
+      "keyframe_prompt": "Telephoto news b-roll through a glass office window into the open-plan office from the location plate at 3pm: two office workers in business casual mid high-five, a third jogging past carrying a neat stack of folders, a whiteboard behind them covered in abstract doodled arrows and boxes with no letters or words, monitors glowing with soft abstract colour, energetic mood, slight reflections on the glass, news camera compression. Adults only. Upright vertical composition, level horizon. No readable text, no logos. The high-fiving workers are large and fill the middle of the frame, seen through the glass; there is no desk, bell or paper stack in the near foreground. The camera stands outside on a ledge across the street looking in: the window glass with faint sky reflections fills the whole frame and the office desks start well behind it, so nothing from Hector's desk is visible.",
+      "dressing": [
+        "the whiteboard with doodled arrows and one big hand-drawn star",
+        "a half-deflated silver birthday balloon on a chair",
+        "the water cooler with a sky-blue bottle",
+        "reflections of the grey lake on the glass"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 8.5,
+      "t1": 11.5,
+      "beat": "product",
+      "framing": "medium close-up, slightly low interview angle",
+      "camera": "handheld, holds steady",
+      "action": "Hector, interviewed at his desk, presents the product beside Jolene's mic as the cause of it all, label to camera.",
+      "product_state": "hero, held, worn or beside him at chest height, label or logo facing camera",
+      "audio": "office ambience, dialogue",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "hector",
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Medium close-up at a slightly low interview angle of Hector, the man from the character sheet, standing in the bright open-plan office from the location plate, earnest and awed, {{action}}, while a woman's hand holds a hand microphone with a plain navy mic flag with no letters toward him from the left edge of frame, his blank lanyard card, rolled-up sleeves, whiteboard of unreadable scribbles behind. The product matches the product reference exactly. One product only. The lower part of the frame below his chest is clean for graphics. No readable text, no logos except the product's label.",
+      "dressing": [
+        "his blank lanyard card on a frayed navy strap",
+        "reading glasses on a beaded chain",
+        "the loosened tie with a coffee stain at the tip",
+        "the navy mic flag with only a small silver three-wave mark",
+        "the whiteboard with the big hand-drawn star behind"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "holding {{product.visual}} upright in front of him at chest height, a hand's width away from his shirt, with ONE hand only, fingertips around its base so the whole label shows, his other arm relaxed at his side, label facing camera, straight and undistorted",
+        "applied": "holding {{product.visual}} upright in front of him at chest height with ONE hand only, like evidence, the whole label facing camera, straight and undistorted, his other arm relaxed at his side",
+        "worn": "wearing {{product.visual}}, one hand gesturing to it like evidence, its best side to camera and fully visible",
+        "handheld": "holding {{product.visual}} up at chest height in ONE hand like evidence, logo facing camera, straight and undistorted, his other arm relaxed at his side",
+        "carried": "holding {{product.visual}} up at chest height by its handle or strap with one hand, like evidence, logo facing camera",
+        "home": "standing beside {{product.visual}}, set up at the corner of his desk, one hand resting on it like evidence, its best side to camera",
+        "consumable": "holding one pack of {{product.visual}} upright at chest height in ONE hand like evidence, label facing camera, straight and undistorted"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 11.5,
+      "t1": 14.5,
+      "beat": "product",
+      "framing": "evidence close-up",
+      "camera": "handheld snap zoom, settles",
+      "action": "The news camera zooms in on the evidence: the product on Hector's tidy desk beside a neat stack of finished reports.",
+      "product_state": "hero, on or at the desk, label or logo facing camera",
+      "audio": "zoom whir, dialogue voiceover",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "product",
+        "office",
+        "bell"
+      ],
+      "keyframe_prompt": "News camera evidence close-up: {{action}}, the bright office from the location plate softly blurred behind with afternoon window light. The product matches the product reference exactly and is the brightest and sharpest object. One product only. Clean empty area in the lower part of the frame. No readable text, no logos except the product's label.",
+      "dressing": [
+        "the brass counter bell with sky-blue tape beside the product",
+        "the stack of blank reports with a black binder clip",
+        "the mug of pens",
+        "the small framed family photo out of focus"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright on a tidy office desk, label facing camera, straight and undistorted, cold droplets on it, beside a neat stack of blank finished reports and a pen",
+        "applied": "{{product.visual}} standing upright on a tidy office desk, label facing camera, straight and undistorted, beside a neat stack of blank finished reports and a pen",
+        "worn": "{{product.visual}} laid neatly on a tidy office desk beside a neat stack of blank finished reports, its best side to camera",
+        "handheld": "{{product.visual}} resting on a tidy office desk beside a neat stack of blank finished reports and a pen, logo facing camera",
+        "carried": "{{product.visual}} standing on a tidy office desk beside a neat stack of blank finished reports, logo facing camera",
+        "home": "{{product.visual}} set up at the corner of a tidy office desk, the camera finding it past a neat stack of blank finished reports, its best side to camera",
+        "consumable": "a pack of {{product.visual}} on a tidy office desk with one unit set out beside it, label facing camera, beside a neat stack of blank finished reports"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 14.5,
+      "t1": 17,
+      "beat": "build",
+      "framing": "medium close-up, anchor in upper half (the top box of the post split screen)",
+      "camera": "locked off",
+      "action": "Back at the desk, Grant leans in with a concerned follow-up; post builds a stacked split screen with Jolene live.",
+      "product_state": "absent",
+      "audio": "dialogue",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "grant",
+        "newsdesk"
+      ],
+      "keyframe_prompt": "Medium close-up of Grant, the man from the character sheet, at the glossy anchor desk in the news studio from the location plate, leaning slightly forward with a concerned furrowed brow, one hand raised mid-question, rimless glasses, charcoal suit, glowing abstract sky-blue screens behind. His face in the upper half of the frame, the lower half clean. No on-screen graphics, text or logos.",
+      "dressing": [
+        "the navy mug with the three-wave mark",
+        "the silver ballpoint pen",
+        "the clear earpiece coil",
+        "the lighting grid soft behind the screens"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S07",
+      "t0": 17,
+      "t1": 20.5,
+      "beat": "build",
+      "framing": "medium, reporter centred",
+      "camera": "handheld shoulder rig",
+      "action": "Jolene answers steely into the mic as an office worker jogs past behind her carrying a tall stack of finished binders.",
+      "product_state": "absent",
+      "audio": "street ambience, dialogue",
+      "caption": "Not today, Grant. Not today.",
+      "refs": [
+        "jolene",
+        "tower",
+        "mic"
+      ],
+      "keyframe_prompt": "Medium shot of Jolene, the woman from the character sheet, centred on the sidewalk outside the glass office tower from the location plate, speaking into a hand mic with a plain navy flag with no letters, steely confident look with the hint of a smile, while behind her an office worker in a shirt and tie jogs past happily carrying a tall stack of plain binders, flat afternoon daylight, news camera look. Upright vertical composition, level horizon. The sidewalk and her body continue naturally to the bottom edge of the frame. No text, no signs, no logos.",
+      "dressing": [
+        "the green bronze pike statue by the revolving door",
+        "the band of brighter windows high on the tower",
+        "the hot dog cart with the striped umbrella",
+        "the concrete planter of geraniums"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 20.5,
+      "t1": 23.5,
+      "beat": "build",
+      "framing": "medium wide",
+      "camera": "handheld, snap zoom on the arms up",
+      "action": "Hector slams the enter key and throws both arms up; coworkers around the desks applaud.",
+      "product_state": "absent",
+      "audio": "key slam, office cheer, dialogue",
+      "caption": "Inbox zero!",
+      "refs": [
+        "hector",
+        "office",
+        "bell"
+      ],
+      "keyframe_prompt": "Medium wide shot in the open-plan office from the location plate: Hector, the man from the character sheet, sitting at his desk with both arms thrown up in triumph, mouth open in a joyful shout, his monitor glowing with only soft abstract colour, three coworkers of varied ages and ethnicities standing around applauding, afternoon window light, news camera look. Adults only. Upright vertical composition, level horizon. No readable text, no logos.",
+      "dressing": [
+        "the brass counter bell on his desk mid ring",
+        "the half-deflated silver balloon",
+        "the whiteboard with the big hand-drawn star",
+        "navy box files on the wall behind"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 23.5,
+      "t1": 26.5,
+      "beat": "payoff",
+      "framing": "symmetrical medium close-up",
+      "camera": "locked off",
+      "action": "Grant glances off camera, produces his own from under the desk, uses it on air, and deadpans at the lens.",
+      "product_state": "in hand or in use at chest height, label or logo to camera",
+      "audio": "the product's own opening or use sound in the quiet studio, dialogue",
+      "caption": "I'll allow it.",
+      "refs": [
+        "grant",
+        "product",
+        "newsdesk"
+      ],
+      "keyframe_prompt": "Symmetrical medium close-up of Grant, the man from the character sheet, at the glossy anchor desk in the news studio from the location plate, {{action}}, looking straight into the lens with one eyebrow raised in a dry deadpan, glowing abstract sky-blue screens behind him, bright even broadcast light. The product matches the product reference exactly and is large and clearly readable. One product only. The lower part of the frame is clean. No on-screen graphics, text or logos except the product's label. Tight framing from mid-chest up: his head and shoulders fill the width of the frame in the upper half, the desk edge crosses the lower middle, the studio set is only a soft background.",
+      "dressing": [
+        "the navy mug pushed aside",
+        "blank script pages with a folded corner",
+        "his three-wave lapel pin",
+        "the silver trim edge of the desk"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "his own {{product.visual}}, just produced from under the desk, already lowered and held still in one hand at chest height just after having some (not mid-use in this frame), label facing camera, straight and undistorted",
+        "applied": "his own {{product.visual}}, just produced from under the desk, held still in one hand at chest height right after a quick dab (not mid-use in this frame), label facing camera, straight and undistorted",
+        "worn": "wearing his own {{product.visual}}, just put on at the desk, one hand straightening it, its best side to camera",
+        "handheld": "holding his own {{product.visual}} still in one hand at chest height, just produced from under the desk, logo facing camera, straight and undistorted",
+        "carried": "his own {{product.visual}}, just lifted onto the desk from under it, one hand resting on it, logo facing camera",
+        "home": "his own {{product.visual}}, just revealed beside the anchor desk, one hand resting on it or switching it on, its best side to camera",
+        "consumable": "holding his own pack of {{product.visual}} still in one hand at chest height, just produced from under the desk, label facing camera, straight and undistorted"
+      }
+    },
+    {
+      "id": "S10",
+      "t0": 26.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "pack shot on the desk",
+      "camera": "locked off, slow push-in",
+      "action": "The product on the glossy news desk as the studio lights glow behind it; Grant's sign-off, then the channel end card.",
+      "product_state": "hero, on or at the desk, label or logo facing camera",
+      "audio": "sign-off stinger",
+      "caption": "{{line.L9}} {{line.L10}}",
+      "refs": [
+        "product",
+        "newsdesk"
+      ],
+      "keyframe_prompt": "Pack shot in the news studio from the location plate: {{action}}, the glowing abstract sky-blue screens and silver trim softly blurred behind. The product matches the product reference exactly and is the brightest and sharpest object. Clean empty space above the product for a title. One product only. No on-screen graphics, text or logos except the product's label.",
+      "dressing": [
+        "the silver three-wave mark inlaid on the desk front",
+        "blank script pages softly out of focus",
+        "the lemon water glass blurred at the edge",
+        "the lighting grid bokeh"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright on the glossy navy and silver anchor desk, label facing camera, straight and undistorted, cold droplets, reflected in the glossy desk surface",
+        "applied": "{{product.visual}} standing upright on the glossy navy and silver anchor desk, label facing camera, straight and undistorted, reflected in the glossy desk surface",
+        "worn": "{{product.visual}} laid neatly on the glossy navy and silver anchor desk, its best side to camera, reflected in the glossy desk surface",
+        "handheld": "{{product.visual}} resting on the glossy navy and silver anchor desk, logo facing camera, reflected in the glossy desk surface",
+        "carried": "{{product.visual}} standing on the glossy navy and silver anchor desk, logo facing camera, reflected in the glossy desk surface",
+        "home": "{{product.visual}} set just beside the glossy navy and silver anchor desk, its best side to camera, reflected in the glossy studio floor",
+        "consumable": "the pack of {{product.visual}} standing upright on the glossy navy and silver anchor desk, label facing camera, reflected in the glossy desk surface"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.5,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "grant card",
+        "jolene card",
+        "newsdesk plate",
+        "tower plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16 local TV news broadcast, HD broadcast video look, no on-screen graphics. Shot 1 (0 to 3 s): locked-off symmetrical medium close-up with a slow push, @Image1 (Grant, silver hair, rimless glasses, charcoal suit) at a glossy navy anchor desk with glowing abstract blue screens behind, grave and measured: \"{{line.L1}}\" Shot 2 (3 to 6.5 s): handheld news camera, @Image2 (Jolene, copper-red hair, navy windbreaker) on a downtown sidewalk outside a glass office tower, hand mic with a plain navy flag with no letters, wind in her hair, urgent: \"{{line.L2}}\" Shot 3 (6.5 to 9 s): telephoto snap zoom through office glass: adult office workers mid high-five, one jogging past with folders, a whiteboard of unreadable scribbles. Keep the lower part of every frame clean. Native sound: studio voice, wind, street ambience, muffled office cheer. No music, no text, no logos, no signs."
+    },
+    {
+      "id": "U2",
+      "t0": 8.5,
+      "t1": 14.5,
+      "shots": [
+        "S04",
+        "S05"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "hector card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16 local TV news field footage, handheld news camera, bright office. Shot 1 (0 to 3 s): slightly low interview angle, @Image2 (Hector, thick black moustache, striped shirt, loosened tie) {{action.S04}}, beside a hand mic with a plain navy flag entering from the left, and says, hushed and earnest: \"{{line.L3}}\" (say the brand as {{product.phonetic}}). Shot 2 (3 to 6 s): snap zoom that settles on {{action.S05}}; a woman's voice, crisp: \"{{line.L4}}\" Keep the product's shape, colours and label exactly as @Image1; it never bends. Native sound: office ambience, zoom whir. No music, no text on screen."
+    },
+    {
+      "id": "U3",
+      "t0": 14.5,
+      "t1": 23.5,
+      "shots": [
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "grant card",
+        "jolene card",
+        "hector card",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16 local TV news broadcast, no on-screen graphics. Shot 1 (0 to 2.5 s): studio, @Image1 (Grant) at the anchor desk leans in with a concerned brow: \"{{line.L5}}\" Shot 2 (2.5 to 6 s): handheld news camera outside a glass tower, @Image2 (Jolene) into her mic, steely with a tiny smile: \"Not today, Grant. Not today.\" behind her a man in a shirt and tie jogs past happily with a tall stack of plain binders. Shot 3 (6 to 9 s): open-plan office, @Image3 (Hector) slams the enter key and throws both arms up: \"Inbox zero!\" adult coworkers around him applaud. Keep the lower part of each frame clean. Native sound: studio voice, street ambience, key slam, office cheer. No music, no text, no logos."
+    },
+    {
+      "id": "U4",
+      "t0": 23.5,
+      "t1": 30,
+      "shots": [
+        "S09",
+        "S10"
+      ],
+      "len_s": 7,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "grant card",
+        "S09 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16 local TV news studio, even broadcast light, no on-screen graphics. Shot 1 (0 to 3 s): symmetrical medium close-up, @Image2 (Grant) glances off camera, produces his own product from under the desk, uses it once, then {{action.S09}}, raises one eyebrow at the lens and deadpans: \"I'll allow it.\" Shot 2 (3 to 7 s): slow push-in on {{action.S10}}, blurred abstract blue screens behind; Grant's voice, warm: \"That's the news. {{line.L10}}\" The product matches @Image1 exactly and never bends or changes. Clean empty space above the product. Native sound: the product's own sound in a quiet studio, studio voice. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "sting",
+      "t0": 0,
+      "t1": 3,
+      "brief": "The Lakeport Nine news sting: a timpani hit and a rising brass-and-synth stab chord in D major on frame 1, synced to the BREAKING NEWS slam, decaying into a low pulsing news bed."
+    },
+    {
+      "section": "news bed",
+      "t0": 3,
+      "t1": 23.5,
+      "brief": "Classic local-news bed at 100 bpm: ticking hi-hat pulse, low synth bass ostinato, soft string pads, a whoosh on every graphic and cut, ducked 10 dB under all dialogue; a small lift into the cross-talk at 14.5 s."
+    },
+    {
+      "section": "sign-off",
+      "t0": 23.5,
+      "t1": 30,
+      "brief": "The bed drops out for the product's own sound at 24.2 s (two beats of studio silence), then returns warm under the sign-off and resolves into a short three-note brass sign-off stinger on the end card at 29 s."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0.0,
+      "sound": "BREAKING NEWS graphic slam whoosh",
+      "why": "the hook graphic must hit with the sting"
+    },
+    {
+      "t": 24.2,
+      "sound": "the product's own opening or use sound in studio silence",
+      "why": "the payoff joke and the product moment must register; only added if the native sound is weak"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "grant",
+      "plan": "native voice from U1, then his U1 vocal stem as voice reference for U3 and U4"
+    },
+    {
+      "speaker": "jolene",
+      "plan": "native in U1 with wind on the mic; her U1 stem as reference for the voiceover in U2 and her live line in U3"
+    },
+    {
+      "speaker": "hector",
+      "plan": "native in U2, U2 stem as reference for 'Inbox zero!' in U3"
+    }
+  ],
+  "captions": {
+    "font": "IBM Plex Sans Condensed SemiBold",
+    "size": "4.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF at full opacity, other words 75%",
+    "box": "broadcast closed-caption style: rgba(10,20,40,.82) rounded 6px box behind each line, 10px padding",
+    "position": "centre, 50% down the frame, stacked above the lower third so nothing overlaps",
+    "max_words_on_screen": 5,
+    "shadow": false,
+    "graphics_stack": "from top to bottom: captions at 50%, lower-third name strap at 58 to 66%, gold ticker band at 67 to 71%, all above the bottom 22% platform UI safe zone; channel bug and clock top right, LIVE bug top left"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 3,
+      "text": "BREAKING NEWS",
+      "sub": "",
+      "style": "full-width gold and navy slam bar that punches in on frame 1 with a light sweep, then collapses into the lower-third strap position"
+    },
+    {
+      "t0": 0,
+      "t1": 30,
+      "text": "LAKEPORT NINE NEWS",
+      "sub": "3:00 PM",
+      "style": "channel bug top right (silver 'L9' monogram, fictional) with a live clock under it; a gold 'LIVE' bug top left during field shots"
+    },
+    {
+      "t0": 3,
+      "t1": 6.5,
+      "text": "JOLENE BARRETT",
+      "sub": "LIVE: PEMBROOK TOWER, DOWNTOWN LAKEPORT",
+      "style": "lower-third name strap at 58 to 66%, navy with a sky-blue edge, white IBM Plex Sans Condensed"
+    },
+    {
+      "t0": 8.5,
+      "t1": 14.5,
+      "text": "HECTOR ALVARADO",
+      "sub": "EYEWITNESS, 14TH FLOOR",
+      "style": "same lower-third strap"
+    },
+    {
+      "t0": 3,
+      "t1": 26.5,
+      "text": "[[ticker]]",
+      "sub": "",
+      "style": "gold ticker band at 67 to 71%, navy text, scrolls right to left at a readable speed"
+    },
+    {
+      "t0": 14.5,
+      "t1": 20.5,
+      "text": "SPLIT SCREEN",
+      "sub": "",
+      "style": "two stacked boxes (studio above, field below) inside a navy frame with a thin sky-blue rule, built from S06 and S07 plates"
+    },
+    {
+      "t0": 27.2,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L10}}",
+      "style": "end card type in white IBM Plex Sans Condensed Bold centred above the product, framed by the channel's navy and silver sign-off wipe"
+    }
+  ],
+  "qa": [
+    "the product in S04, S05, S09 and S10 matches the product image (shape, colours, label) and never bends",
+    "the problem in L1, L2, L5 and the ticker follows from the L4 benefit and is never a medical condition",
+    "no [[...]] token remains in the fill",
+    "no model-drawn text, logos, call letters or clocks; every strap, bug, ticker and end card is post",
+    "the lower part of every frame stays clean for the graphics stack",
+    "Grant, Jolene and Hector match their character sheets",
+    "L4 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "the afternoon slump at work",
+        "long study or work session"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free",
+      "benefits": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "problem": {
+        "phrase": "The three p.m. slump",
+        "short": "the slump",
+        "proof": "wide awake",
+        "detail": "At three p.m."
+      }
+    },
+    "lines": {
+      "L1": "Breaking news. The three p.m. slump... is over.",
+      "L2": "Grant, the fourteenth floor is wide awake. At three p.m.",
+      "L3": "It started with one can. Red Bull Sugarfree.",
+      "L4": "Sources confirm it helps concentration and alertness. No sugar.",
+      "L5": "Jolene, is the slump expected to return?",
+      "L6": "Not today, Grant. Not today.",
+      "L7": "Inbox zero!",
+      "L8": "I'll allow it.",
+      "L9": "That's the news.",
+      "L10": "Wiiings without sugar."
+    },
+    "tokens": {
+      "ticker": "3PM SLUMP NOT SEEN SINCE MONDAY  \u00b7  FOURTEENTH FLOOR REPORTS 'TOTAL FOCUS'  \u00b7  LOCAL MAN ACHIEVES INBOX ZERO  \u00b7  WEATHER: BRIGHT, ALERT, SUNNY SPELLS"
+    },
+    "actions": {
+      "S04": "holding {{product.visual}} upright in front of him at chest height, a hand's width away from his shirt, with ONE hand only, fingertips around its base so the whole label shows, his other arm relaxed at his side, label facing camera, straight and undistorted",
+      "S05": "{{product.visual}} standing upright on a tidy office desk, label facing camera, straight and undistorted, cold droplets on it, beside a neat stack of blank finished reports and a pen",
+      "S09": "his own {{product.visual}}, just cracked open, already lowered from his lips and held still in one hand at chest height just after a sip (not drinking in this frame), label facing camera, straight and undistorted",
+      "S10": "{{product.visual}} standing upright on the glossy navy and silver anchor desk, label facing camera, straight and undistorted, cold droplets, reflected in the glossy desk surface"
+    },
+    "notes": "The problem (the three p.m. slump) follows from the page claim 'Caffeine helps to improve concentration and increase alertness', which L4 quotes; 'No sugar' comes from 'without sugar'."
+  }
+}

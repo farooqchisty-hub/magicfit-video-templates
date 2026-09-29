@@ -39,6 +39,12 @@ def lint(d):
             if not x.get("asset") or not os.path.exists(f"{d}/{x['asset']}"): P.append(f"{grp} {x.get('id')} asset missing")
     for x in wb.get("signature_objects",[]):
         if not x.get("asset") or not os.path.exists(f"{d}/{x['asset']}"): P.append(f"signature {x.get('id')} asset missing")
+    au=t.get("asset_urls",{})
+    ids=[x["id"] for x in t.get("cast",[])+t.get("locations",[])+wb.get("signature_objects",[]) if x.get("asset")]
+    miss=[i for i in ids if i not in au]
+    if miss: P.append(f"asset_urls missing ids {miss} (run lib/publish_bundle.py)")
+    bad=[k for k,v in au.items() if "farooqchisty-hub.github.io" not in v]
+    if bad: P.append(f"asset_urls not on permanent host: {bad[:3]}")
     ef=t.get("example_fill",{})
     if not ef.get("product") or not ef.get("lines") or not ef.get("actions"): P.append("example_fill incomplete (product, lines, actions)")
     words=sum(len(str(v).split()) for v in ef.get("lines",{}).values())

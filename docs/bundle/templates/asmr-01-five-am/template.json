@@ -1,0 +1,1016 @@
+{
+  "id": "asmr-01-five-am",
+  "style": "asmr",
+  "title": "Five A.M.",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Five in the morning, a silent kitchen, the first quiet minutes before a long study session. Every sound of the ritual with {{product.name}}, heard up close.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "seal, pour, ice and texture are the most proven ASMR triggers"
+      ],
+      "applied": [
+        "great",
+        "caps, pumps and textures spreading on skin are native to the genre"
+      ],
+      "worn": [
+        "good",
+        "zips, clasps and fabric brush are strong; footwear loses the lips-and-chin payoff and cuts to the floor"
+      ],
+      "handheld": [
+        "great",
+        "clicks, snaps and power-on tones carry the film"
+      ],
+      "carried": [
+        "good",
+        "zip purrs and leather creak are rich; the payoff is quieter"
+      ],
+      "home": [
+        "good",
+        "countertop pieces (lamps, candles, kettles, bedding, diffusers) are ideal; large furniture sits under the window and shows only in macro"
+      ],
+      "consumable": [
+        "good",
+        "seal tears and refill clicks; the use moment depends on the product having a satisfying mechanism"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "sleep aids or sedatives (the ritual starts a study session)",
+      "silent products with no tactile or audible character (the genre depends on the product's own sounds)",
+      "anything used on intimate areas of the body"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Imani Brooks is a second-year public health grad student renting the top floor of a 1920s brick row house in West Philadelphia. Her qualifying exam is in six days.",
+      "The counter is a salvaged walnut slab from a closed neighbourhood bakery, topped with a honed black slate board; she oils the walnut every Sunday and the slate still carries a pale water ring from the first week.",
+      "She has kept the same ritual for 41 mornings in a row: 5am, the one product she always reaches for, one page of pencil notes before the sun comes up. The notebook is the fifth Aldercroft notebook this semester.",
+      "The basalt ice bowl was her grandmother's; it is rough and pitted outside and polished smooth inside from decades of use.",
+      "The radiator knocks twice at 5:03 every morning; that is her cue to begin."
+    ],
+    "locations": {
+      "counter": {
+        "foreground": [
+          "honed black slate with fine hairline scratches and a faint pale water ring",
+          "the small black basalt bowl of crushed ice, rough and pitted outside, polished inside",
+          "a polished steel ice scoop with a worn satin handle",
+          "a folded oatmeal linen tea towel with one frayed corner",
+          "a few loose glittering ice crystals melting into tiny beads on the slate"
+        ],
+        "midground": [
+          "an empty tall thin-walled clear glass with a faint fingerprint near the rim",
+          "a closed notebook with a blank kraft cover and a black elastic band, a half-length pencil with tooth marks lying on it",
+          "a small handmade stoneware cup holding more worn pencils",
+          "the oiled walnut edge of the counter with warm straight grain and one old knife nick",
+          "a sprig of rosemary in a small glass jar of water"
+        ],
+        "background": [
+          "a tall window with old wavy glass and cool blue pre-dawn light, the dark silhouette of a fire escape outside",
+          "a warm brass under-cabinet light strip glowing at the back",
+          "a white subway-tile backsplash with grey grout lines",
+          "open walnut shelves with stacked matte stoneware bowls",
+          "a black cast-iron pan hanging from a hook, softly out of focus"
+        ]
+      }
+    },
+    "personal_props": {
+      "imani": [
+        "small plain gold stud earrings",
+        "an oversized oatmeal knit sweater with a pulled thread at the right cuff",
+        "a black hair tie on her left wrist",
+        "a half-length pencil with tooth marks near the end",
+        "short natural unpainted nails with a faint graphite smudge on her little finger"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "icebowl",
+        "name": "Grandmother's basalt ice bowl",
+        "prop_prompt": "Photoreal macro prop reference on a plain mid-grey background, two views: a small round black basalt stone bowl, rough and pitted on the outside, polished glossy smooth on the inside, filled with glittering crushed ice, a polished steel ice scoop with a worn satin handle resting against it. No letters, no logos. Soft low side light and a thin backlight, ultra-crisp stone texture.",
+        "asset": "assets/icebowl.jpg"
+      },
+      {
+        "id": "glass",
+        "name": "The tall thin glass",
+        "prop_prompt": "Photoreal macro prop reference on a plain mid-grey background: a tall thin-walled clear drinking glass with a slightly thickened base, filled with crystal clear ice cubes, fine condensation beads on the outside, one faint fingerprint near the rim. No letters, no logos, no pattern. Soft low side light and a thin backlight.",
+        "asset": "assets/glass.jpg"
+      },
+      {
+        "id": "notebook",
+        "name": "The Aldercroft notebook",
+        "prop_prompt": "Photoreal prop reference on a plain mid-grey background, two views: a closed notebook with a plain blank kraft brown cover, rounded corners, a black elastic closure band and a worn spine; and the same notebook open with pages of soft grey pencil scribble shapes that are not real letters, a half-length yellow pencil with tooth marks. No readable text, no logos. Soft warm light.",
+        "asset": "assets/notebook.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Aldercroft",
+        "mark": "a small embossed leaf shape blind-debossed in the kraft cover",
+        "colors": "kraft brown and black",
+        "appears_on": "the notebook cover only",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "5:02am on a Wednesday in February, dark outside with the first pre-dawn blue, frost at the window edges. Used: the notebook is half full, the pencil worn to half length, a faint water ring on the slate. Out of place: a single loose ice crystal melting on the slate, a hair tie left by the notebook.",
+    "sound_world": [
+      "room tone floor at about minus 50 dB, the counter's own quiet",
+      "the radiator knocking twice far away",
+      "the steel scoop scraping the basalt bowl (ingested only)",
+      "pencil graphite scratching on paper",
+      "a page corner lifting",
+      "a soft exhale",
+      "every product sound comes from sound_by_archetype below: the product's own tactile sounds are the score"
+    ],
+    "sound_by_archetype": {
+      "_rule": "Sound is the product. Each archetype has its own chain of close-mic, dry, native sounds, one per shot, all made by the product itself or the hand on it. The hero sound (S05) always has half a second of silence before it. Never borrow a sound the product cannot make; if the product is quieter than listed, pick its real quietest sound and let the room tone carry it.",
+      "ingested": {
+        "surface": "the slow wet squeak of a fingertip through condensation, one drop tapping the slate",
+        "prep": "the crunch of the steel scoop biting crushed ice, crystals tinkling",
+        "tap": "two dull full taps, ice squeaking as it settles",
+        "threshold": "a tiny click of nail on the tab or cap",
+        "hero": "the sharp crack of the seal and a pressurised hiss (or the tear of a wrapper for food)",
+        "texture": "a fine crackle of bubbles or grains settling",
+        "use": "the pour glugging over ice, cubes cracking and shifting",
+        "settle": "a thermal tick as an ice cube cracks",
+        "payoff": "a soft swallow, ice clinking on glass, an exhale",
+        "cta": "one drop running and tapping the slate"
+      },
+      "applied": {
+        "surface": "the dry whisper of skin gliding on glass or plastic",
+        "prep": "a warm damp linen cloth folded with a soft wet pat",
+        "tap": "two small hollow clicks on the cap",
+        "threshold": "a faint tick of nail on the cap",
+        "hero": "the cap twisting off with a crisp click, or one pump with a soft wet squelch",
+        "texture": "a faint wet tick as two fingertips part through the texture",
+        "use": "the soft wet glide of the texture spread in slow circles",
+        "settle": "a faint soft tack as a fingertip lifts off skin",
+        "payoff": "a skin whisper along the jaw, an exhale",
+        "cta": "the cap settling back on with one soft tick"
+      },
+      "worn": {
+        "surface": "the brushing rasp of skin on fabric, leather or mesh",
+        "prep": "tissue paper folded back with a papery crackle",
+        "tap": "two muffled pats on fabric, two hollow knocks on a sole, or two clicks on a crystal",
+        "threshold": "a tiny metallic tick on a zip pull, buckle or clasp",
+        "hero": "a zip running with a long ribbed purr, a buckle snapping, or a clasp clicking",
+        "texture": "a soft compressing hush as a fingertip presses the lining or padding",
+        "use": "the brush and snap of it going on: a sleeve sliding, a lace pulled tight, a strap clicking",
+        "settle": "fabric falling into place with a soft settle",
+        "payoff": "a collar or strap settling near her chin, an exhale",
+        "cta": "near silence, one thread of fabric brushing the slate"
+      },
+      "handheld": {
+        "surface": "the soft squeak of skin on a smooth finish, a tiny tick of nail on an edge",
+        "prep": "one slow dry stroke of the linen towel on slate",
+        "tap": "two crisp taps on the shell",
+        "threshold": "a faint tick of nail on the button, lid or clasp",
+        "hero": "a lid snapping open, a button clicking, or a soft power-on tone",
+        "texture": "its own small mechanical or electronic sound (a scroll wheel, a hinge, a quiet whir)",
+        "use": "each click, tap or hum it makes in use",
+        "settle": "a last tiny click as it rests",
+        "payoff": "its small click or tone near her chin, an exhale",
+        "cta": "one tiny click as its light fades"
+      },
+      "carried": {
+        "surface": "the ribbed purr of zip teeth under a nail, the creak of the material",
+        "prep": "the linen towel smoothed flat with a soft brush",
+        "tap": "two soft thuds on its body, a faint jingle of hardware",
+        "threshold": "a tiny jingle of the zip pull or clasp",
+        "hero": "the zip running open in one slow pull, or a magnetic flap lifting with a soft thock",
+        "texture": "a soft fabric whisper along an inner pocket",
+        "use": "the notebook sliding in, the zip purring shut, a leather or canvas creak",
+        "settle": "the zip pull swinging and tapping once",
+        "payoff": "a soft creak as she hugs it to her chest, an exhale",
+        "cta": "the zip pull swinging to rest with a last tap"
+      },
+      "home": {
+        "surface": "the texture of its surface under skin: a soft brush on fabric, a glassy squeak, a dry wooden rasp",
+        "prep": "one slow dry stroke of the linen towel clearing a space",
+        "tap": "two taps in its own material: a ceramic tink, a wooden knock, a soft pat",
+        "threshold": "a faint tick on the switch, knob, lid or edge",
+        "hero": "a switch click, a lid lifting with a soft thunk, a warm electrical hum rising, or a cushion exhaling air as it is pressed",
+        "texture": "its quiet working hum, brush or hiss (steam, warm air, fibres lifting)",
+        "use": "its working sound in use: fluffing, pouring, a glow buzzing on",
+        "settle": "a low steady hum or a soft settle",
+        "payoff": "its quiet working sound beside her, an exhale",
+        "cta": "the hum fading to room tone"
+      },
+      "consumable": {
+        "surface": "the crinkle or dry rasp of the pack under skin",
+        "prep": "the pack set down with a soft tap, a corner smoothed with a crinkle",
+        "tap": "two papery taps",
+        "threshold": "a tiny papery tick as a nail lifts the seal corner",
+        "hero": "the seal peeling back in one slow pull with a long crackling tear",
+        "texture": "a faint rustle as one piece is lifted",
+        "use": "a refill clicking into place, a pod dropping in, or a sheet pulled free",
+        "settle": "the pack pressed shut with a soft crackle",
+        "payoff": "an exhale after the first use",
+        "cta": "one soft crinkle, then room tone"
+      }
+    },
+    "product_adjacent": {
+      "ingested": [
+        "the grandmother's basalt bowl of crushed ice with the steel scoop (signature object icebowl)",
+        "the tall thin glass of clear ice (signature object glass)"
+      ],
+      "applied": [
+        "a warm damp oatmeal linen cloth folded on the slate",
+        "a small stoneware dish holding the removed cap"
+      ],
+      "worn": [
+        "a sheet of plain tissue paper folded back on the slate"
+      ],
+      "handheld": [
+        "the oatmeal linen tea towel folded beside it"
+      ],
+      "carried": [
+        "the notebook and pencil that go into it"
+      ],
+      "home": [
+        "the end of the counter under the window, or the floor under the window for large pieces"
+      ],
+      "consumable": [
+        "the opened pack with its seal peeled back"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "imani",
+      "name": "Imani Brooks",
+      "role": "grad student, only hands, lips and chin seen (whisper voice)",
+      "look": "woman, 27, Black American, deep brown skin, short natural hair, small gold stud earrings, oversized oatmeal knit sweater with sleeves pushed up, short natural unpainted nails",
+      "voice": "soft close whisper, warm, American, unhurried",
+      "card_prompt": "Character identity sheet on a plain dark grey background, three panels side by side at the same scale: a front head-and-shoulders portrait, a close crop of the lower face (lips and chin) in soft light, and her two hands resting palm down showing short natural unpainted nails. Imani Brooks: 27, Black American, deep brown skin, short natural hair, small gold stud earrings, oversized oatmeal knit sweater with the sleeves pushed up, calm soft expression. Neutral soft studio light, photoreal, consistent identity across all panels. No text.",
+      "asset": "assets/imani.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "counter",
+      "name": "The 5am counter",
+      "plate_prompt": "Photoreal vertical 9:16 location plate: a dark walnut kitchen counter with a black slate top at 5am, cool blue pre-dawn light from a window on the left, one warm under-cabinet light strip glowing at the back, a small black stone bowl of crushed ice, an empty tall clear glass, and at the far end a closed notebook with a blank cover and a pencil. Very clean, calm, minimal. No people, no packaging, no readable text, no brands.",
+      "asset": "assets/counter.jpg"
+    }
+  ],
+  "asset_urls": {
+    "imani": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/asmr-01-five-am/assets/imani.jpg",
+    "counter": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/asmr-01-five-am/assets/counter.jpg",
+    "icebowl": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/asmr-01-five-am/assets/icebowl.jpg",
+    "glass": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/asmr-01-five-am/assets/glass.jpg",
+    "notebook": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/asmr-01-five-am/assets/notebook.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.2",
+      "summary": "Silence, then a fingertip drags slowly across the product's surface and we hear it. A whisper: listen."
+    },
+    {
+      "id": "setup",
+      "t": "2.2-7",
+      "summary": "The ritual: one small prep gesture, the product settled in its place, two soft taps."
+    },
+    {
+      "id": "product",
+      "t": "7-13.6",
+      "summary": "The hero sound: a nail at the opening point, half a second of silence, the product opens or switches on, its texture up close."
+    },
+    {
+      "id": "build",
+      "t": "13.6-19.4",
+      "summary": "The use moment in slow motion and its aftermath settling."
+    },
+    {
+      "id": "payoff",
+      "t": "19.4-26",
+      "summary": "Her quiet moment with the product, a soft exhale, the brand whispered; then the pencil starts scratching: the study session begins."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "The product alone on the slate, one last small sound; the tagline whispered."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.6-1.8",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "Hook: invite the viewer to lean in and listen.",
+      "delivery": "barely there whisper, close to the mic, a smile in it",
+      "shot": "S01",
+      "max_words": 3,
+      "fixed_line": "Shh. Listen."
+    },
+    {
+      "id": "L2",
+      "t": "20.2-22.2",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "Product line: whisper {{product.name}} (or its short spoken form) and nothing else.",
+      "delivery": "soft whisper after the exhale, each word placed",
+      "shot": "S09",
+      "max_words": 4,
+      "rules": "the product name only; brand spoken as product.phonetic in the whisper TTS"
+    },
+    {
+      "id": "L3",
+      "t": "23.0-25.0",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "The one benefit this quiet 5am moment before a study session needs, whispered in 3 to 5 words, from product.benefits.",
+      "delivery": "whisper, slightly brighter, as the pencil starts",
+      "shot": "S10",
+      "max_words": 6,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense"
+    },
+    {
+      "id": "L4",
+      "t": "27.2-29.4",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word whispered line about the quiet first minutes of the day.",
+      "delivery": "slow whisper, stretched vowel, trailing off",
+      "shot": "S11",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.2,
+      "beat": "hook",
+      "framing": "extreme macro, surface of the product",
+      "camera": "locked off",
+      "action": "A single fingertip drags slowly across the surface of the product, closed and still on the slate, leaving a trace; the product's own surface sound is the hook.",
+      "product_state": "closed, still, surface and part of the label in frame",
+      "audio": "near silence, then the product's surface sound (sound_by_archetype.surface)",
+      "caption": "shh. listen.",
+      "refs": [
+        "imani",
+        "product"
+      ],
+      "keyframe_prompt": "Extreme macro side view on dark slate at 5am: {{action}}. The product matches the product reference exactly, its colours vivid and its label crisp and undistorted. One hand, one fingertip of the woman from the character sheet (deep brown skin, short natural unpainted nails). Dark background with warm bokeh.",
+      "dressing": [
+        "the fine grain or finish of the product's surface",
+        "a faint graphite smudge on the fingertip",
+        "hairline scratches on the slate",
+        "warm brass bokeh behind"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "one fingertip drags slowly down through the condensation beads on {{product.visual}}, closed and upright on dark slate, leaving a clean glossy line with the slow wet squeak of skin on a cold surface, the label crisp under the droplets (food: the fingertip runs along its wrapper with a soft crinkle)",
+        "applied": "one fingertip traces slowly down the smooth side of {{product.visual}}, closed and upright on dark slate, with the dry whisper of skin gliding on its finish, the label crisp",
+        "worn": "one fingertip drags slowly along {{product.visual}}, laid on dark slate, over its seams, grain or weave, with the brushing rasp of skin on the material",
+        "handheld": "one fingertip glides slowly across {{product.visual}} on dark slate, over its edges and buttons, with the soft squeak of skin on a smooth finish",
+        "carried": "one fingertip drags slowly along the seam of {{product.visual}} on dark slate and over the teeth of its zip or the edge of its flap, with a ribbed purr under the nail",
+        "home": "one fingertip drags slowly across the surface of {{product.visual}} (its fabric, glass, wood or ceramic), set at the end of the counter or under the window beside it, with the texture of that surface audible under skin",
+        "consumable": "one fingertip drags slowly across the pack of {{product.visual}} on dark slate, over its label, with the crinkle or dry rasp of the pack material"
+      },
+      "product_audio": {
+        "ingested": "the slow wet squeak of a fingertip through condensation, one drop tapping the slate",
+        "applied": "the dry whisper of skin gliding on glass or plastic",
+        "worn": "the brushing rasp of skin on fabric, leather or mesh",
+        "handheld": "the soft squeak of skin on a smooth finish, a tiny tick of nail on an edge",
+        "carried": "the ribbed purr of zip teeth under a nail, the creak of the material",
+        "home": "the texture of its surface under skin: a soft brush on fabric, a glassy squeak, a dry wooden rasp",
+        "consumable": "the crinkle or dry rasp of the pack under skin"
+      }
+    },
+    {
+      "id": "S02",
+      "t0": 2.2,
+      "t1": 4.6,
+      "beat": "setup",
+      "framing": "macro",
+      "camera": "locked off",
+      "action": "The prep: one small ritual gesture on the counter, the product waiting in soft focus.",
+      "product_state": "closed, in soft focus behind the gesture",
+      "audio": "the archetype's prep sound (sound_by_archetype.prep)",
+      "caption": "",
+      "refs": [
+        "counter",
+        "product"
+      ],
+      "keyframe_prompt": "Macro shot on the dark slate counter from the location plate at 5am: {{action}}. Backlit so every surface sparkles, cool blue window light and a warm under-cabinet glow. One hand at most. The product matches the product reference.",
+      "dressing": [
+        "the worn satin handle of the steel scoop",
+        "loose ice crystals melting into beads on the slate",
+        "the folded oatmeal linen tea towel with a frayed corner",
+        "hairline scratches on the slate"
+      ],
+      "archetype_refs": {
+        "ingested": [
+          "icebowl"
+        ]
+      },
+      "product_role": "background",
+      "product_action": {
+        "ingested": "a small polished steel scoop lifting glittering crushed ice from the black basalt bowl, crystals tumbling off its edge with a crisp crunch and a glassy tinkle, {{product.visual}} waiting closed and upright in soft focus behind (food: a small stoneware plate set down with a soft clink instead)",
+        "applied": "a hand folding a warm damp oatmeal linen cloth on the slate with a soft wet pat, {{product.visual}} waiting closed and upright in soft focus behind",
+        "worn": "a hand folding back a sheet of plain tissue paper from {{product.visual}} with a papery crackle, the product in soft focus beneath",
+        "handheld": "the oatmeal linen tea towel wiping the slate in one slow stroke with a dry whisper, {{product.visual}} waiting in soft focus behind",
+        "carried": "a hand smoothing the linen tea towel flat on the slate with a soft brush, {{product.visual}} standing closed in soft focus behind",
+        "home": "a hand clearing a space with one slow stroke of the linen tea towel, a dry whisper, {{product.visual}} in soft focus behind in the window light",
+        "consumable": "a hand setting the pack of {{product.visual}} down on the slate with a soft tap and smoothing its corner flat with a faint crinkle"
+      },
+      "product_audio": {
+        "ingested": "the crunch of the steel scoop biting crushed ice, crystals tinkling",
+        "applied": "a warm damp linen cloth folded with a soft wet pat",
+        "worn": "tissue paper folded back with a papery crackle",
+        "handheld": "one slow dry stroke of the linen towel on slate",
+        "carried": "the linen towel smoothed flat with a soft brush",
+        "home": "one slow dry stroke of the linen towel clearing a space",
+        "consumable": "the pack set down with a soft tap, a corner smoothed with a crinkle"
+      }
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "macro side-on",
+      "camera": "slow slider right",
+      "action": "The product settled in its place, full label to camera; a fingertip taps it twice.",
+      "product_state": "closed, full label to camera",
+      "audio": "two taps in the product's own material (sound_by_archetype.tap)",
+      "caption": "",
+      "refs": [
+        "imani",
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Macro side-on shot on the dark slate counter from the location plate: {{action}}. The full label or logo faces camera, crisp and undistorted, matching the product reference exactly. One fingertip of the woman from the character sheet (deep brown skin, short natural unpainted nails). Dark background, warm bokeh, cool blue side light.",
+      "dressing": [
+        "the rough pitted basalt rim at the edge of frame",
+        "a folded oatmeal linen tea towel with a frayed corner at the edge",
+        "the cool blue wavy-glass window light"
+      ],
+      "archetype_refs": {
+        "ingested": [
+          "icebowl"
+        ]
+      },
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} nested upright in the basalt bowl of crushed ice (food: laid on the small stoneware plate), full label to camera, a fingertip tapping it twice with two dull full taps as the ice squeaks and settles (food: two soft taps on the wrapper)",
+        "applied": "{{product.visual}} standing upright on the slate, full label to camera, a fingertip tapping its cap twice with two small hollow clicks",
+        "worn": "{{product.visual}} laid out on the slate with its best side and logo to camera, a fingertip tapping it twice with two soft sounds of its material (muffled pats on fabric, hollow knocks on a sole, clicks on a crystal)",
+        "handheld": "{{product.visual}} standing or lying on the slate, logo to camera, a fingertip tapping it twice with two crisp taps on its shell",
+        "carried": "{{product.visual}} standing upright on the slate, logo to camera, a fingertip tapping it twice with two soft thuds and the faint jingle of its hardware",
+        "home": "{{product.visual}} at the end of the counter (or under the window beside it if it is large), best side to camera, a fingertip tapping it twice with the sound its material makes (a ceramic tink, a wooden knock, a soft pat on fabric)",
+        "consumable": "the pack of {{product.visual}} standing upright on the slate, full label to camera, a fingertip tapping it twice with two papery taps"
+      },
+      "product_audio": {
+        "ingested": "two dull full taps, ice squeaking as it settles",
+        "applied": "two small hollow clicks on the cap",
+        "worn": "two muffled pats on fabric, two hollow knocks on a sole, or two clicks on a crystal",
+        "handheld": "two crisp taps on the shell",
+        "carried": "two soft thuds on its body, a faint jingle of hardware",
+        "home": "two taps in its own material: a ceramic tink, a wooden knock, a soft pat",
+        "consumable": "two papery taps"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.4,
+      "beat": "product",
+      "framing": "extreme macro on the opening point",
+      "camera": "locked off",
+      "action": "A short natural fingernail rests on the point where the product opens or switches on; stillness.",
+      "product_state": "closed, about to open, opening point in frame",
+      "audio": "a tiny tick of nail on the product, then half a second of silence",
+      "caption": "",
+      "refs": [
+        "imani",
+        "product"
+      ],
+      "keyframe_prompt": "Extreme macro at 5am on dark slate: {{action}}. The product matches the product reference exactly and is still closed or at rest. One finger of the woman from the character sheet (deep brown skin, short natural unpainted nails). Dark slate all around, crisp detail.",
+      "dressing": [
+        "the product's surface detail at macro",
+        "a loose melting ice crystal or a linen thread on the slate beside it"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "camera directly overhead, {{product.visual}} standing upright so only its top is seen as a clean shape, not tilted and not lying on its side, still sealed with its tab, cap or wrapper edge flat and closed, a short natural nail slid under its edge and resting there (food: the frame is side-on on the plate instead of overhead)",
+        "applied": "extreme macro on the cap or pump of {{product.visual}}, still closed, two fingertips resting on it ready to twist",
+        "worn": "extreme macro on the fastening of {{product.visual}} (a zip pull, a buckle, a lace, a clasp), a fingertip resting on it",
+        "handheld": "extreme macro on the button, lid or clasp of {{product.visual}}, a fingertip resting on it",
+        "carried": "extreme macro on the zip pull or clasp of {{product.visual}}, a fingertip hooked through it",
+        "home": "extreme macro on the switch, lid, knob or edge of {{product.visual}}, a fingertip resting on it",
+        "consumable": "extreme macro on the seal, tear strip or lid of the pack of {{product.visual}}, a nail lifting its corner"
+      },
+      "product_audio": {
+        "ingested": "a tiny click of nail on the tab or cap, then half a second of silence",
+        "applied": "a faint tick of nail on the cap, then half a second of silence",
+        "worn": "a tiny metallic tick on a zip pull, buckle or clasp, then half a second of silence",
+        "handheld": "a faint tick of nail on the button, lid or clasp, then half a second of silence",
+        "carried": "a tiny jingle of the zip pull or clasp, then half a second of silence",
+        "home": "a faint tick on the switch, knob, lid or edge, then half a second of silence",
+        "consumable": "a tiny papery tick as a nail lifts the seal corner, then half a second of silence"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 9.4,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "extreme macro side-on at the opening",
+      "camera": "locked off, high frame rate look",
+      "action": "The hero sound: the product opens or switches on in slow motion, held 2 s.",
+      "product_state": "just opened or switched on, label or logo crisp in frame, held 2 s",
+      "audio": "the hero sound of the whole ad (sound_by_archetype.hero)",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Extreme macro side-on at the instant it opens, backlit, dark background: {{action}}. The product matches the product reference exactly and its label or logo stays crisp and undistorted.",
+      "dressing": [
+        "backlit mist, dust or light catching the moment",
+        "the brass under-cabinet glow as bokeh"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "the tab lifts or the cap breaks and {{product.visual}} opens with a sharp crack of the seal and a pressurised hiss, a small puff of cold mist escaping, droplets leaping off the top in slow motion, the top of the label crisp below (food: the wrapper tears open in one slow crackling pull)",
+        "applied": "the cap of {{product.visual}} twists off with a crisp click (or its pump is pressed once with a soft wet squelch), a glossy bead of its contents appearing at the opening, the label crisp below",
+        "worn": "the fastening of {{product.visual}} opens in slow motion (a zip running with a long ribbed purr, a buckle releasing with a metallic snap, a clasp clicking open)",
+        "handheld": "{{product.visual}} opens, switches on or snaps into place (a lid snapping open, a button clicking, a case snapping onto a phone, a soft power-on tone), its light or finish catching the backlight, logo crisp",
+        "carried": "the zip of {{product.visual}} runs open in one slow pull with a long ribbed purr (or its magnetic flap lifts with a soft thock), the lining revealed, logo crisp",
+        "home": "{{product.visual}} switches on, opens or yields (a switch click, a lid lifting with a soft thunk, a warm electrical hum rising, a cushion exhaling air as a palm presses it), its glow or texture catching the backlight",
+        "consumable": "the seal of the pack of {{product.visual}} peels back in one slow pull with a long crackling tear, the contents revealed, label crisp"
+      },
+      "product_audio": {
+        "ingested": "the sharp crack of the seal and a pressurised hiss (or the tear of a wrapper for food)",
+        "applied": "the cap twisting off with a crisp click, or one pump with a soft wet squelch",
+        "worn": "a zip running with a long ribbed purr, a buckle snapping, or a clasp clicking",
+        "handheld": "a lid snapping open, a button clicking, or a soft power-on tone",
+        "carried": "the zip running open in one slow pull, or a magnetic flap lifting with a soft thock",
+        "home": "a switch click, a lid lifting with a soft thunk, a warm electrical hum rising, or a cushion exhaling air as it is pressed",
+        "consumable": "the seal peeling back in one slow pull with a long crackling tear"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 13.6,
+      "beat": "product",
+      "framing": "extreme macro on the texture",
+      "camera": "slow rack focus from the product edge to the texture",
+      "action": "Texture: the inside, contents or working surface of the product in sharp focus.",
+      "product_state": "open or on, texture in sharp focus",
+      "audio": "the product's texture sound (sound_by_archetype.texture)",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Extreme macro with a slow rack focus, dark, glittering and intimate: {{action}}. It matches the product reference exactly.",
+      "dressing": [
+        "the product's edge in soft focus",
+        "a glint of backlight on its texture",
+        "warm bokeh"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "looking into {{product.visual}}, now open: its contents in sharp focus (fine bubbles fizzing on a liquid, or grains and pieces settling) with a fine crackle, the opening's edge soft",
+        "applied": "a glossy bead of the contents of {{product.visual}} on a fingertip in sharp focus, its texture exact, the container soft behind, a faint wet tick as two fingertips part",
+        "worn": "the inside of {{product.visual}} in sharp focus (lining, stitching or padding), a fingertip pressing it with a soft compressing hush",
+        "handheld": "the working part of {{product.visual}} in sharp focus (its screen glow, its grip texture, its moving part) with its own small mechanical or electronic sound",
+        "carried": "looking into {{product.visual}}, now open: lining, pockets and hardware in sharp focus, a fingertip running along an inner pocket with a soft fabric whisper",
+        "home": "the texture of {{product.visual}} in use in sharp focus (fibres lifting, a glow warming, steam curling), with its quiet working hum or brush",
+        "consumable": "looking into the open pack of {{product.visual}}: its contents in sharp focus, one piece lifted with a faint rustle"
+      },
+      "product_audio": {
+        "ingested": "a fine crackle of bubbles or grains settling",
+        "applied": "a faint wet tick as two fingertips part through the texture",
+        "worn": "a soft compressing hush as a fingertip presses the lining or padding",
+        "handheld": "its own small mechanical or electronic sound (a scroll wheel, a hinge, a quiet whir)",
+        "carried": "a soft fabric whisper along an inner pocket",
+        "home": "its quiet working hum, brush or hiss (steam, warm air, fibres lifting)",
+        "consumable": "a faint rustle as one piece is lifted"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 13.6,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "macro side-on",
+      "camera": "locked off, slow motion on the use moment",
+      "action": "Use: her hand uses the product in slow motion, label to camera.",
+      "product_state": "in use, label or logo to camera",
+      "audio": "the product's use sound (sound_by_archetype.use)",
+      "caption": "",
+      "refs": [
+        "imani",
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Macro side-on on the dark slate counter from the location plate: {{action}}. One hand, five fingers, short natural nails, of the woman from the character sheet (deep brown skin, short natural unpainted nails). The product matches the product reference exactly, label or logo facing camera and undistorted. Dark slate and warm bokeh, backlit, slow motion look.",
+      "dressing": [
+        "the pulled thread at the sweater cuff",
+        "the oiled walnut counter edge with its old knife nick",
+        "the white subway-tile backsplash as soft bokeh"
+      ],
+      "archetype_refs": {
+        "ingested": [
+          "glass"
+        ]
+      },
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "her hand tilting {{product.visual}} at 45 degrees from the top of frame, label to camera, pouring its contents into the tall clear glass of clear ice (a beverage) or tipping them onto a small stoneware plate (food), cubes cracking and shifting or pieces tumbling, in slow motion",
+        "applied": "two fingertips smoothing the contents of {{product.visual}} onto the back of her other hand in slow circles with a soft wet glide, the product standing label to camera beside",
+        "worn": "her hands putting {{product.visual}} on (sliding a wrist through, lacing, zipping, pulling it over), the product clearly in frame, with the brush and snap of it settling",
+        "handheld": "her hand using {{product.visual}} as intended close to the lens, logo to camera, with each click, tap or hum it makes",
+        "carried": "her hand sliding the kraft notebook into {{product.visual}} and zipping it shut, logo to camera, with the ribbed zip purr and a creak of its material",
+        "home": "her hand using {{product.visual}} as intended (switching it on, fluffing it, warming it, pouring from it), best side to camera, with its own working sound",
+        "consumable": "her hand putting one piece from the pack of {{product.visual}} into use (clicking a refill into place, dropping a pod in, pulling a sheet free), the pack label to camera beside, with its click or rustle"
+      },
+      "product_audio": {
+        "ingested": "the pour glugging over ice, cubes cracking and shifting",
+        "applied": "the soft wet glide of the texture spread in slow circles",
+        "worn": "the brush and snap of it going on: a sleeve sliding, a lace pulled tight, a strap clicking",
+        "handheld": "each click, tap or hum it makes in use",
+        "carried": "the notebook sliding in, the zip purring shut, a leather or canvas creak",
+        "home": "its working sound in use: fluffing, pouring, a glow buzzing on",
+        "consumable": "a refill clicking into place, a pod dropping in, or a sheet pulled free"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 19.4,
+      "beat": "build",
+      "framing": "extreme macro on the aftermath",
+      "camera": "locked off, slow motion",
+      "action": "Aftermath: the product or its effect settling, slow motion.",
+      "product_state": "in use, settling",
+      "audio": "the product's settle sound (sound_by_archetype.settle)",
+      "caption": "",
+      "refs": [
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Extreme macro, slow motion, backlit warm glow, dark background: {{action}}. It matches the product reference exactly.",
+      "dressing": [
+        "condensation or light beads on a surface",
+        "the subway-tile backsplash as soft bokeh behind"
+      ],
+      "archetype_refs": {
+        "ingested": [
+          "glass"
+        ]
+      },
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "through the side of the tall clear glass: {{product.visual}}'s contents with bubbles rising past clear ice, a fine white crack running through one cube with a thermal tick (for food: crumbs settling on the stoneware plate)",
+        "applied": "her skin as the contents of {{product.visual}} sink in, the sheen settling into the skin, a faint soft tack as a fingertip lifts",
+        "worn": "{{product.visual}} settled on her (fabric falling into place, a clasp seated, a heel settling), with a last soft settle",
+        "handheld": "{{product.visual}} at rest after use, its light fading or its surface ticking as it settles, a last tiny click",
+        "carried": "{{product.visual}}, now closed, its zip pull swinging and tapping once against it",
+        "home": "{{product.visual}} settled into use, its glow, warmth or texture steady, a low hum",
+        "consumable": "the pack of {{product.visual}} pressed shut with a soft crackle"
+      },
+      "product_audio": {
+        "ingested": "a thermal tick as an ice cube cracks",
+        "applied": "a faint soft tack as a fingertip lifts off skin",
+        "worn": "fabric falling into place with a soft settle",
+        "handheld": "a last tiny click as it rests",
+        "carried": "the zip pull swinging and tapping once",
+        "home": "a low steady hum or a soft settle",
+        "consumable": "the pack pressed shut with a soft crackle"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 19.4,
+      "t1": 22.6,
+      "beat": "payoff",
+      "framing": "close-up, lips and chin only",
+      "camera": "locked off",
+      "action": "Imani, seen from the nose down in her oatmeal sweater, has her moment with the product and exhales softly; the product in sharp focus.",
+      "product_state": "in use or beside her in sharp focus, label to camera",
+      "audio": "the product's payoff sound (sound_by_archetype.payoff), a quiet exhale, the whisper",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "imani",
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Close-up cropped from the nose down of the woman from the character sheet, deep brown skin, small gold stud earring, oversized oatmeal knit sweater, calm soft expression, {{action}}. The product matches the product reference exactly and is undistorted, never covering her mouth. Cool pre-dawn window light and a warm under-cabinet glow.",
+      "dressing": [
+        "the small gold stud earring",
+        "the pulled thread at the sweater cuff",
+        "the sprig of rosemary in a small jar behind",
+        "the pre-dawn window with a fire escape silhouette"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "lowering the tall glass from her lips after one small sip (food: lowering the product from her lips after one small bite) and exhaling softly, {{product.visual}} open on the slate in front of her in sharp focus, label to camera",
+        "applied": "pressing two fingertips gently along her jaw where she has smoothed on {{product.visual}}, then exhaling softly, the product upright on the slate in front of her in sharp focus, label to camera",
+        "worn": "wearing {{product.visual}}, settling it into place with one hand near her chin (a collar, a strap, a sleeve), then exhaling softly, the product in sharp focus (footwear: the frame drops to her foot sliding into it on the wooden floor, same light)",
+        "handheld": "raising {{product.visual}} near her chin and using it once, exhaling softly, the product in sharp focus, logo to camera",
+        "carried": "hugging {{product.visual}}, zipped, to her chest and exhaling softly, the product in sharp focus, logo to camera",
+        "home": "resting her chin on her hand beside {{product.visual}} as it glows, hums or warms (or sinking back into it if it is seating), exhaling softly, the product in sharp focus",
+        "consumable": "exhaling softly after putting one piece from the pack of {{product.visual}} to use, the pack upright on the slate in front of her in sharp focus, label to camera"
+      },
+      "product_audio": {
+        "ingested": "a soft swallow, ice clinking on glass, an exhale",
+        "applied": "a skin whisper along the jaw, an exhale",
+        "worn": "a collar or strap settling near her chin, an exhale",
+        "handheld": "its small click or tone near her chin, an exhale",
+        "carried": "a soft creak as she hugs it to her chest, an exhale",
+        "home": "its quiet working sound beside her, an exhale",
+        "consumable": "an exhale after the first use"
+      }
+    },
+    {
+      "id": "S10",
+      "t0": 22.6,
+      "t1": 26.0,
+      "beat": "payoff",
+      "framing": "macro top-down",
+      "camera": "slow slider forward",
+      "action": "Her pencil touches the notebook page and starts writing in fast, even strokes; the study session begins.",
+      "product_state": "absent",
+      "audio": "pencil graphite scratching on paper, a page corner lifting",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "imani",
+        "counter",
+        "notebook"
+      ],
+      "keyframe_prompt": "Macro top-down of an open notebook on the dark walnut counter: the hand of the woman from the character sheet writing with a pencil, the page covered in soft grey unreadable pencil scribble shapes (no real letters or words), graphite dust. Warm light.",
+      "dressing": [
+        "graphite dust on the page",
+        "the half-length pencil with tooth marks",
+        "the black elastic band of the notebook lying loose",
+        "exactly one black hair tie beside the notebook"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S11",
+      "t0": 26.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium macro pack shot",
+      "camera": "locked off, one slow rack focus",
+      "action": "The product alone on the slate, one last small sound; empty dark space above for the tagline.",
+      "product_state": "hero, full label to camera",
+      "audio": "the product's last sound (sound_by_archetype.cta), room tone, the whisper; optional faint pad",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Pack shot: {{action}}. The product matches the product reference exactly, full label or logo facing camera and undistorted, a soft low side light and thin backlight, cool pre-dawn blue and warm bokeh behind. Large empty dark space in the upper third for a title. Nothing else on the counter.",
+      "dressing": [
+        "the faint pale water ring on the slate",
+        "warm brass bokeh",
+        "the fire escape silhouette softly in the window behind"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} alone and upright on the black slate, full label to camera, beaded with condensation, one large drop rolling down it (food: resting on the small stoneware plate, wrapper folded back)",
+        "applied": "{{product.visual}} alone and upright on the black slate, cap back on, full label to camera, one glossy bead on its rim catching the light",
+        "worn": "{{product.visual}} alone on the black slate, neatly laid or standing, best side and logo to camera, a single thread of window light across it",
+        "handheld": "{{product.visual}} alone on the black slate, logo to camera, its light fading down",
+        "carried": "{{product.visual}} alone and upright on the black slate, logo to camera, its zip pull swinging to rest",
+        "home": "{{product.visual}} alone in the window light at the end of the counter (large pieces on the floor under the window beside it), best side to camera, glowing or at rest",
+        "consumable": "the pack of {{product.visual}} alone and upright on the black slate, full label to camera, resealed"
+      },
+      "product_audio": {
+        "ingested": "one drop running and tapping the slate",
+        "applied": "the cap settling back on with one soft tick",
+        "worn": "near silence, one thread of fabric brushing the slate",
+        "handheld": "one tiny click as its light fades",
+        "carried": "the zip pull swinging to rest with a last tap",
+        "home": "the hum fading to room tone",
+        "consumable": "one soft crinkle, then room tone"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 7,
+      "exact_risk": false,
+      "refs": [
+        "product image",
+        "imani card",
+        "counter plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR macro film, dark walnut and slate kitchen at 5am, ultra-crisp 100mm macro, soft low side light. Shot 1 (0 to 2.2 s): extreme macro, the hand of @Image2, {{action.S01}}, the product exactly as @Image1. Shot 2 (2.2 to 4.6 s): on the counter of @Image3, {{action.S02}}. Shot 3 (4.6 to 7 s): slow slider, {{action.S03}}. The product keeps its exact shape and label. Native close-mic sound: exactly the sounds named in the actions above, dry and close, with a silence floor of room tone. No speech. No music. No text."
+    },
+    {
+      "id": "U2",
+      "t0": 7.0,
+      "t1": 19.4,
+      "shots": [
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "product image",
+        "imani card",
+        "counter plate",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR macro film, dark background, backlit detail. Shot 1 (0 to 2.4 s): {{action.S04}}, the hand of @Image2 on the product from @Image1, a tiny tick and then stillness, half a second of silence. Shot 2 (2.4 to 4.4 s): slow motion, {{action.S05}}. Shot 3 (4.4 to 6.6 s): slow rack focus, {{action.S06}}. Shot 4 (6.6 to 9.6 s): {{action.S07}}. Shot 5 (9.6 to 13 s): {{action.S08}}. One product, one hand, nothing else added to the counter. Native close-mic sound: exactly the sounds named in the actions above, dry and close, with a silence floor of room tone. No speech. No music. No text."
+    },
+    {
+      "id": "U3",
+      "t0": 19.4,
+      "t1": 22.6,
+      "shots": [
+        "S09"
+      ],
+      "len_s": 4,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "imani card",
+        "counter plate",
+        "S09 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR close-up, pre-dawn window light and a warm under-cabinet glow. @Image2 seen only from the nose down in an oatmeal sweater, {{action.S09}}; the product matches @Image1 exactly, label facing camera and undistorted. Native close-mic sound: exactly the sounds named in the actions above, dry and close, with a silence floor of room tone. A quiet exhale. No speech (the whisper is added in post). No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 22.6,
+      "t1": 30,
+      "shots": [
+        "S10",
+        "S11"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "imani card",
+        "counter plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR macro. Shot 1 (0 to 3.4 s): top-down, the hand of @Image2 starts writing in a notebook with a pencil in fast even strokes, the marks are soft unreadable scribble shapes. Shot 2 (3.4 to 8 s): locked pack shot, {{action.S11}}, the product exactly as @Image1; one slow rack focus; empty dark space above the product. The product does not move or change. Native close-mic sound: pencil graphite scratching, a page corner lifting, then the product's last small sound named above, room tone. No speech. No music. No text."
+    }
+  ],
+  "music": [
+    {
+      "section": "silence",
+      "t0": 0,
+      "t1": 26.0,
+      "brief": "No music. The foley is the score: room tone floor at about minus 50 dB so every sound sits in space."
+    },
+    {
+      "section": "afterglow",
+      "t0": 26.0,
+      "t1": 30,
+      "brief": "Optional: one barely audible warm synth pad chord (F major, soft attack) under the tagline, mixed below the drop sound, rings out past the last frame."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 10.0,
+      "sound": "the archetype's hero sound from world_bible.sound_by_archetype (a seal crack, a cap click, a zip purr, a power-on tone, a seal tear), close-mic",
+      "why": "the hero sound of the whole ad; layer a clean recorded one if the native sound is soft or late, always after half a second of silence"
+    },
+    {
+      "t": 17.6,
+      "sound": "the archetype's settle sound from world_bible.sound_by_archetype",
+      "why": "the second signature trigger that pays off the use moment; add only if the native one does not register"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "imani",
+      "plan": "close breathy whisper as one TTS track in post (units carry no speech); the brand line uses product.phonetic and sits over the short exact risk unit U3; whispers never overlap a hero sound"
+    }
+  ],
+  "captions": {
+    "font": "Inter Light",
+    "size": "3.8% of frame height",
+    "color": "#F4F1EA at 92% opacity",
+    "active_word": "fades in word by word over 6 frames, no colour change",
+    "shadow": "very soft 0 1px 10px rgba(0,0,0,.55)",
+    "position": "centre, 80% down the frame, well clear of the macro action",
+    "max_words_on_screen": 3,
+    "box": false,
+    "case": "lowercase",
+    "letter_spacing": "0.04em",
+    "motion": "fade in 6 frames, hold, fade out 8 frames, never pops"
+  },
+  "post_text": [
+    {
+      "t0": 26.6,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L4}}",
+      "style": "Inter Light, #F4F1EA, lowercase tagline under a small uppercase product name with 0.2em tracking, centred in the empty dark space above the product, 10 frame fade; sub is product.tagline when the page has one, else the L4 line"
+    }
+  ],
+  "qa": [
+    "where an action offers choices in parentheses (a beverage or food, footwear or a garment, large or small pieces), keep only the one that fits this product and delete the rest before prompting",
+    "every product sound comes from world_bible.sound_by_archetype for this product's archetype and is a sound this exact product really makes",
+    "the S05 hero sound has half a second of silence before it and no whisper over it",
+    "one product, one hand, five fingers in every macro; no extra vessels or packaging added to the counter",
+    "the label stays crisp in S01, S03, S05, S07, S09 and S11; one hero frame (S11) shows the full label",
+    "the face is only ever seen from the nose down",
+    "no music in any unit; the optional pad only under the last 4 seconds",
+    "archetype_refs: ingested products add the icebowl sheet in S02 and S03 and the glass sheet in S07 and S08",
+    "L3 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "Shh. Listen.",
+      "L2": "Red Bull Sugarfree.",
+      "L3": "Stay sharp. No sugar.",
+      "L4": "Wiiings without sugar."
+    },
+    "actions": {
+      "S01": "one fingertip drags slowly down through the condensation beads on {{product.visual}}, closed and upright on dark slate, leaving a clean glossy line with the slow wet squeak of skin on a cold surface, the label crisp under the droplets (food: the fingertip runs along its wrapper with a soft crinkle)",
+      "S02": "a small polished steel scoop lifting glittering crushed ice from the black basalt bowl, crystals tumbling off its edge with a crisp crunch and a glassy tinkle, {{product.visual}} waiting closed and upright in soft focus behind (food: a small stoneware plate set down with a soft clink instead)",
+      "S03": "{{product.visual}} nested upright in the basalt bowl of crushed ice (food: laid on the small stoneware plate), full label to camera, a fingertip tapping it twice with two dull full taps as the ice squeaks and settles (food: two soft taps on the wrapper)",
+      "S04": "camera directly overhead, {{product.visual}} standing upright so only its top is seen as a clean shape, not tilted and not lying on its side, still sealed with its tab, cap or wrapper edge flat and closed, a short natural nail slid under its edge and resting there (food: the frame is side-on on the plate instead of overhead)",
+      "S05": "the tab lifts or the cap breaks and {{product.visual}} opens with a sharp crack of the seal and a pressurised hiss, a small puff of cold mist escaping, droplets leaping off the top in slow motion, the top of the label crisp below (food: the wrapper tears open in one slow crackling pull)",
+      "S06": "looking into {{product.visual}}, now open: its contents in sharp focus (fine bubbles fizzing on a liquid, or grains and pieces settling) with a fine crackle, the opening's edge soft",
+      "S07": "her hand tilting {{product.visual}} at 45 degrees from the top of frame, label to camera, pouring its contents into the tall clear glass of clear ice (a beverage) or tipping them onto a small stoneware plate (food), cubes cracking and shifting or pieces tumbling, in slow motion",
+      "S08": "through the side of the tall clear glass: {{product.visual}}'s contents with bubbles rising past clear ice, a fine white crack running through one cube with a thermal tick (for food: crumbs settling on the stoneware plate)",
+      "S09": "lowering the tall glass from her lips after one small sip (food: lowering the product from her lips after one small bite) and exhaling softly, {{product.visual}} open on the slate in front of her in sharp focus, label to camera",
+      "S11": "{{product.visual}} alone and upright on the black slate, full label to camera, beaded with condensation, one large drop rolling down it (food: resting on the small stoneware plate, wrapper folded back)"
+    },
+    "sounds": {
+      "surface": "the slow wet squeak of a fingertip through condensation, one drop tapping the slate",
+      "prep": "the crunch of the steel scoop biting crushed ice, crystals tinkling",
+      "tap": "two dull full taps, ice squeaking as it settles",
+      "threshold": "a tiny click of nail on the tab or cap",
+      "hero": "the sharp crack of the seal and a pressurised hiss (or the tear of a wrapper for food)",
+      "texture": "a fine crackle of bubbles or grains settling",
+      "use": "the pour glugging over ice, cubes cracking and shifting",
+      "settle": "a thermal tick as an ice cube cracks",
+      "payoff": "a soft swallow, ice clinking on glass, an exhale",
+      "cta": "one drop running and tapping the slate"
+    }
+  }
+}

@@ -1,0 +1,1138 @@
+{
+  "id": "talking_objects-01-fridge-politics",
+  "style": "talking_objects",
+  "title": "Fridge Politics",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "Midnight in the house: wherever things of one kind live, they hold an election. The loud rival promises more of the old flaw, the wholesome one sounds nice, and the quiet candidate is {{product.name}}. Then a real voter opens the door.",
+  "asset_urls": {
+    "buck": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/talking_objects-01-fridge-politics/assets/buck.jpg",
+    "brenda": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/talking_objects-01-fridge-politics/assets/brenda.jpg",
+    "pat": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/talking_objects-01-fridge-politics/assets/pat.jpg",
+    "marisol": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/talking_objects-01-fridge-politics/assets/marisol.jpg",
+    "venue": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/talking_objects-01-fridge-politics/assets/fridge.jpg",
+    "podium": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/talking_objects-01-fridge-politics/assets/podium.jpg",
+    "audience": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/talking_objects-01-fridge-politics/assets/eggs.jpg"
+  },
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "the fridge election is fully rendered (rivals, moderator, audience, venue) and bottles, pouches or snacks slot straight in; the cap or tab is a natural mouth"
+      ],
+      "applied": [
+        "good",
+        "the bathroom-cabinet election; tubes, pumps, jars and droppers all have a cap or nozzle for a mouth; rival and venue cards must be generated per product"
+      ],
+      "worn": [
+        "good",
+        "the hall-closet election; shoes and garments talk through their collar opening, glasses and watches with hops; rival and venue cards must be generated per product"
+      ],
+      "handheld": [
+        "good",
+        "the junk-drawer election; cases and gadgets talk through a lid or hinge, screens and lenses stay clean; rival and venue cards must be generated per product"
+      ],
+      "carried": [
+        "great",
+        "the coat-hook election; a zip is the most natural mouth there is and bags hang like candidates at podiums; rival and venue cards must be generated per product"
+      ],
+      "home": [
+        "stretch",
+        "the living-room election at real room scale; lamps, speakers, pillows and chairs work, but room-scale objects are harder to animate and she must sit on or switch on the product rather than pick it up"
+      ],
+      "consumable": [
+        "good",
+        "the pantry election; box flaps and tear strips make easy mouths; rival and venue cards must be generated per product"
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol",
+      "products whose front is a screen or print that would have to carry the face",
+      "comparisons that name or visually echo a real competitor"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "The house belongs to Marisol Vega, a small place in San Antonio where almost everything was bought second-hand in 2014; the fridge door seal is so tired that frost builds on the back wall.",
+      "Every night at midnight, wherever things of one kind live in this house (shelf two of the fridge, the bathroom cabinet, the hall closet, the junk drawer, the coat hooks, the living room, the pantry), they hold an election. Whoever the voter picks goes with her; everyone else waits another night.",
+      "Buck has won nine elections in a row, mostly on weekends, and has never once been picked for a work night.",
+      "The audience is always one short: an egg went into this morning's omelette, a cotton bud or a sock went missing. The empty spot sits in the front row.",
+      "Marisol starts a twelve-hour night shift at 12:30am at the fictional St. Aldric Hospital. Whoever she picks tonight goes with her until dawn."
+    ],
+    "materials_rule": "Everything is a real household object shot as photoreal macro product photography (at real room scale in the living room); the only stylization is the faces (glossy animated eyes and mouths that sit on the object's surface and catch the same light) and the rivals' thin noodle arms. Debate furniture is improvised from the venue's own odds and ends: bottle caps, jar lids, shoebox lids, takeout lids, coat hooks, coasters, crinkled foil, toothpicks, rubber bands, twist ties. Faces exist only on the named characters and the audience in the shots where they act: location plates and prop sheets show plain objects with no eyes. Every surface carries real wear: condensation, frost, dust, smears and crumbs.",
+    "locations": {
+      "venue": {
+        "foreground": [
+          "beads of condensation and a small puddle along the front edge of the glass shelf",
+          "a green paper twist tie curled on the glass",
+          "each upturned metal bottle-cap podium standing on a round of crinkled foil like a tiny stage mat",
+          "a single stray frozen pea near the shelf edge"
+        ],
+        "midground": [
+          "the open grey paper-pulp egg carton of white eggs with one empty cup in the front row",
+          "the clear glass butter dish on a folded paper napkin, a butter knife laid across two stock cubes beside it as a desk",
+          "half a lemon cut side down on a small white saucer",
+          "a glass ramekin of leftover rice under wrinkled cling film",
+          "a bunch of cilantro held with a blue rubber band"
+        ],
+        "background": [
+          "a pickle jar with a blank label and a dent in its gold lid",
+          "a mustard squeeze bottle with a crusted yellow cap and a blank label",
+          "frost furring the ridged white back wall",
+          "a plastic takeout container on the upper shelf with a blank strip of masking tape",
+          "a dried amber drip of old juice on the back wall",
+          "the fridge bulb cover with a hairline crack, glowing cold white-blue"
+        ]
+      }
+    },
+    "personal_props": {
+      "buck": [
+        "a toothpick flag with a tiny plain purple paper triangle he waves",
+        "a red rubber band worn across his label like a campaign sash",
+        "a bent or dented top (a crimped cap, a scuffed toe, a cracked corner) from a bad fall off a shelf",
+        "bubbles, crumbs or lint that fly off him whenever he exaggerates"
+      ],
+      "brenda": [
+        "a green twist-tie bow on her top",
+        "a bendy paper straw tucked behind her like a pen behind an ear",
+        "a faint crease on her side from being squashed at the back"
+      ],
+      "pat": [
+        "small rectangular reading glasses",
+        "a flat stick laid across two small blocks as his desk (a butter knife on two stock cubes in the fridge)",
+        "an upturned thimble he taps like a bell for order"
+      ],
+      "marisol": [
+        "navy scrubs with a plain pen with a sky-blue cap clipped in the chest pocket",
+        "a plain lanyard with a blank white badge and a tiny red enamel heart pin",
+        "a plain black wristwatch with a cracked strap",
+        "a claw hair clip holding her messy bun",
+        "house keys with a small rubber cactus keychain"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "podium",
+        "name": "The debate podiums (fridge venue)",
+        "prop_prompt": "Photoreal macro product photography prop reference sheet on a plain mid-grey background showing exactly three objects in a single row and nothing else: three plain upturned silver metal bottle caps with crimped edges and no printing, each standing on a small round of crinkled kitchen foil like a stage mat, a toothpick stuck upright beside each one with a tiny coloured bead on top like a microphone. Cold blue-white light, condensation beads. These are plain inanimate objects: no eyes, no faces, no arms or legs, no eggs, no other props. No letters, no logos. No captions, no labels, no annotation text anywhere on the sheet.",
+        "asset": "assets/podium.jpg",
+        "other_venues": "use venues.<archetype>.podium, described in text"
+      },
+      {
+        "id": "audience",
+        "name": "The audience (fridge venue: the egg carton)",
+        "prop_prompt": "Photoreal macro product photography prop reference sheet on a plain mid-grey background: an open grey paper-pulp egg carton holding eleven plain white eggs and one empty cup in the front row, each egg with only two simple black dot eyes; the carton lid is torn slightly at one hinge. Front and three-quarter views, cold blue-white fridge light. No letters, no stamps, no logos. No captions, no labels, no annotation text anywhere on the sheet.",
+        "asset": "assets/eggs.jpg",
+        "other_venues": "use venues.<archetype>.audience, each with only two simple black dot eyes, described in text"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Buck's campaign (the loud rival)",
+        "mark": "a single gold star",
+        "colors": "purple and gold",
+        "appears_on": "Buck's plain purple label or patch in every venue, his toothpick flag",
+        "text_in_post": "the speaker tag only (his category word, e.g. Cola, Cream, Sneaker)"
+      },
+      {
+        "name": "Brenda's campaign (the wholesome rival)",
+        "mark": "a simple orange-slice drawing",
+        "colors": "orange and white",
+        "appears_on": "Brenda's front panel, label or patch in every venue",
+        "text_in_post": "the speaker tag only (her category word, e.g. Juice, Lotion, Slip-on)"
+      }
+    ],
+    "wear_and_time": "A Tuesday, 12:04am. The venue was last opened at 6pm. It shows a real household's wear: frost or dust on the back wall, a light that flickers now and then, one audience member missing, an old drip or smear, a stray crumb, the shelf or floor a little wet or dusty.",
+    "sound_world": [
+      "the venue's own low hum (the fridge compressor, a bathroom fan, a ticking hall clock)",
+      "the faint buzz of the venue's night light",
+      "bubbles, rustles or creaks from inside Buck whenever he exaggerates",
+      "Pat's thimble tapped like a bell",
+      "tiny squeaky cheers from the audience",
+      "the opening (a door seal pop, a drawer runner, a light switch) and a wash of house sound",
+      "the product's entrance: a squeak on wet glass, a soft thump on wood, a hook's creak"
+    ],
+    "venues": {
+      "ingested": {
+        "venue": "shelf two of the family fridge at midnight",
+        "night light": "cold white-blue fridge bulb light from the top back",
+        "warm light": "warm golden-orange kitchen light",
+        "opening": "the fridge door swings open",
+        "podium": "an upturned metal bottle cap on a round of crinkled foil",
+        "audience": "the open carton of white eggs, one cup empty",
+        "pov": "from the fridge shelf looking out and up past the glass shelf edge",
+        "entrance": "slides upright across the wet glass trailing a puff of cold mist",
+        "buck": "a clear glass straight-sided bottle of dark bubbly cola with a gold metal cap and a plain purple label with a single gold star (for a food product: a loud candy bar in a plain purple wrapper with a gold star)",
+        "brenda": "a tall gable-top orange juice carton with a plain orange panel and a simple orange-slice drawing (for a food product: a smug granola box with a plain orange panel and an orange-slice drawing)",
+        "pat": "a pale yellow stick of butter in a clear glass butter dish, the glass lid tipped back like a hat",
+        "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary white family refrigerator at night seen at shelf height, a glass shelf with three upturned bottle caps set out in a row like tiny debate podiums, an open egg carton of white eggs to one side like an audience, a clear glass butter dish, a pickle jar and a mustard bottle with blank labels in the soft-focus back, frost on the back wall, cold white-blue fridge bulb light from the top back, condensation on the glass shelf. The bottle caps, eggs and all other objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+        "asset": "assets/fridge.jpg",
+        "dressing": "see world_bible.locations.venue (the fridge)",
+        "buck_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck: a clear glass straight-sided bottle full of dark bubbly cola with rising bubbles with a gold metal cap and a plain purple label with a single gold star, no letters, with an expressive 3D animated face on the label: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal glass and condensation. No text or letters anywhere.",
+        "brenda_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda: a tall gable-top orange juice carton with a plain orange panel and a simple orange-slice drawing, no letters, with an expressive 3D animated face on the front panel: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal carton with slight condensation. No text or letters anywhere.",
+        "pat_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a pale yellow stick of butter in a clear glass butter dish with the glass lid tipped back like a hat, with an expressive 3D animated face on the butter: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression. Photoreal butter and glass. No text or letters anywhere.",
+        "cards": "rendered: assets/buck.jpg, assets/brenda.jpg, assets/pat.jpg, assets/fridge.jpg, assets/eggs.jpg, assets/podium.jpg"
+      },
+      "applied": {
+        "venue": "the middle shelf of the bathroom mirror cabinet at midnight",
+        "night light": "a thin cool blue-white nightlight glow through the gap of the cabinet door",
+        "warm light": "warm golden vanity light",
+        "opening": "the mirror door swings open",
+        "podium": "an upturned white jar lid on a square of folded tissue",
+        "audience": "a clear round tub of cotton buds standing on end, one gap in the front",
+        "pov": "from the cabinet shelf looking out and up at her face in the open mirror-door frame",
+        "entrance": "glides upright along the glass shelf into place",
+        "buck": "a fat squat tub of generic heavy cream with a purple screw lid, a greasy thumbprint on it and a plain purple label with a single gold star",
+        "brenda": "a tall slim pump bottle of plain all-natural lotion with a plain orange label and a simple orange-slice drawing",
+        "pat": "a bar of pale yellow soap in a white ceramic soap dish, a small folded washcloth on it like a hat",
+        "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary bathroom mirror cabinet at night seen at shelf height, a glass shelf with three upturned white jar lids on squares of folded tissue in a row like tiny debate podiums, a clear tub of cotton buds to one side like an audience, a bar of soap in a ceramic dish, a toothbrush cup and a box of plasters with blank labels in the soft back, water spots on the mirror door, a cool blue-white nightlight glow through the door gap. All objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+        "dressing": [
+          "water spots and a toothpaste fleck on the glass shelf",
+          "a hair tie looped round a tube of nothing",
+          "a box of plasters with a blank label",
+          "a toothbrush cup with one splayed brush",
+          "a folded square of tissue under each podium",
+          "a cracked tile edge at the back",
+          "a nail clipper left open"
+        ],
+        "buck_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck, the loud rival: a fat squat tub of generic heavy cream with a purple screw lid, a greasy thumbprint on it and a plain purple label with a single gold star, with an expressive 3D animated face on its front: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal materials. No text or letters anywhere.",
+        "brenda_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda, the wholesome rival: a tall slim pump bottle of plain all-natural lotion with a plain orange label and a simple orange-slice drawing, with an expressive 3D animated face on its front: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal materials. No text or letters anywhere.",
+        "pat_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a bar of pale yellow soap in a white ceramic soap dish, a small folded washcloth on it like a hat, with an expressive 3D animated face on its front: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression, no arms. Photoreal materials. No text or letters anywhere.",
+        "cards": "generate the venue plate and the Buck, Brenda and Pat cards from these prompts once per product, then reuse them in every shot"
+      },
+      "worn": {
+        "venue": "the hall closet at midnight (the shoe rack for footwear, the hanging rail for clothes and accessories)",
+        "night light": "a thin line of blue streetlight through the louvred closet door",
+        "warm light": "warm golden hallway light",
+        "opening": "the closet door swings open",
+        "podium": "an upturned plain shoebox lid on the rack (or a spaced wooden hanger on the rail)",
+        "audience": "a row of balled-up socks on the closet floor, one pair missing its partner",
+        "pov": "from the closet floor looking up at her",
+        "entrance": "hops neatly into the third spot on the rack (or swings into the third place on the rail)",
+        "buck": "a clunky old purple high-top sneaker with tangled laces and a gold star patch (for clothes: a stiff boxy purple polyester jacket on a wire hanger with a gold star button; for glasses, watches and jewellery: a chunky purple plastic watch with a gold star on the strap)",
+        "brenda": "an orange canvas slip-on with a simple orange-slice patch (for clothes: a scratchy orange wool sweater on a wooden hanger with an orange-slice patch; for accessories: an orange woven bracelet with an orange-slice bead)",
+        "pat": "a wooden shoehorn standing on end",
+        "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary hall closet at night seen at knee height, a low wooden shoe rack with three upturned plain shoebox lids in a row like tiny debate podiums, a hanging rail above with empty wooden hangers, a row of balled-up socks on the floor like an audience, a wooden shoehorn leaning on the wall, a folded umbrella in the corner, dust along the skirting board, a thin line of blue streetlight through the louvred door. All objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+        "dressing": [
+          "a single lost sock under the rack",
+          "dust bunnies along the skirting board",
+          "a shoebox lid with a crushed corner",
+          "a folded umbrella in the corner",
+          "a tangle of empty wire hangers",
+          "a lint ball on the floor",
+          "a scuffed doorstop"
+        ],
+        "buck_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck, the loud rival: a clunky old purple high-top sneaker with tangled laces and a gold star patch (for clothes: a stiff boxy purple polyester jacket on a wire hanger with a gold star button; for glasses, watches and jewellery: a chunky purple plastic watch with a gold star on the strap), with an expressive 3D animated face on its front: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal materials. No text or letters anywhere.",
+        "brenda_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda, the wholesome rival: an orange canvas slip-on with a simple orange-slice patch (for clothes: a scratchy orange wool sweater on a wooden hanger with an orange-slice patch; for accessories: an orange woven bracelet with an orange-slice bead), with an expressive 3D animated face on its front: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal materials. No text or letters anywhere.",
+        "pat_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a wooden shoehorn standing on end, with an expressive 3D animated face on its front: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression, no arms. Photoreal materials. No text or letters anywhere.",
+        "cards": "generate the venue plate and the Buck, Brenda and Pat cards from these prompts once per product, then reuse them in every shot"
+      },
+      "handheld": {
+        "venue": "the kitchen junk drawer at midnight",
+        "night light": "dim blue light falling through the gap above the drawer",
+        "warm light": "warm golden kitchen light from above",
+        "opening": "the drawer slides open",
+        "podium": "an upturned plastic takeout lid",
+        "audience": "a row of loose batteries lying side by side, one gap in the row",
+        "pov": "from inside the open drawer looking straight up at her",
+        "entrance": "slides across the drawer bottom into the third spot",
+        "buck": "a generic old gadget of the product's own kind in chunky purple plastic with a gold star sticker and a tangled cord (for example tangled wired earbuds, a clunky old torch, a thick old phone case)",
+        "brenda": "the smug eco version of the same kind of gadget in orange bamboo-look plastic with a simple orange-slice sticker",
+        "pat": "a pink rubber eraser standing on end",
+        "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary kitchen junk drawer at night seen from just above the drawer bottom, three upturned plastic takeout lids in a row like tiny debate podiums, a row of loose batteries lying side by side like an audience, a pink rubber eraser, rolls of tape, twist ties, rubber bands, a birthday candle stub and a key with no tag, a folded takeout menu with blank print, dim blue light through the gap above. All objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+        "dressing": [
+          "a roll of tape with the end lost",
+          "a birthday candle stub",
+          "rubber bands in a tangle",
+          "a key with no tag",
+          "a folded takeout menu with blank print",
+          "a stray screw",
+          "crumbs in the drawer corners"
+        ],
+        "buck_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck, the loud rival: a generic old gadget of the product's own kind in chunky purple plastic with a gold star sticker and a tangled cord (for example tangled wired earbuds, a clunky old torch, a thick old phone case), with an expressive 3D animated face on its front: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal materials. No text or letters anywhere.",
+        "brenda_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda, the wholesome rival: the smug eco version of the same kind of gadget in orange bamboo-look plastic with a simple orange-slice sticker, with an expressive 3D animated face on its front: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal materials. No text or letters anywhere.",
+        "pat_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a pink rubber eraser standing on end, with an expressive 3D animated face on its front: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression, no arms. Photoreal materials. No text or letters anywhere.",
+        "cards": "generate the venue plate and the Buck, Brenda and Pat cards from these prompts once per product, then reuse them in every shot"
+      },
+      "carried": {
+        "venue": "the coat hooks and bench by the front door at midnight",
+        "night light": "blue streetlight through the frosted glass panel in the front door",
+        "warm light": "warm golden hallway light",
+        "opening": "the hallway light clicks on",
+        "podium": "a brass coat hook",
+        "audience": "a row of keys hanging on a small key rack, one hook empty",
+        "pov": "from hook height looking out at her face",
+        "entrance": "swings gently onto the third coat hook",
+        "buck": "a battered bulky purple duffel bag with a broken zip pull and a gold star tag (for small cases and wallets: a fat purple wallet stuffed with receipts and a gold star stud)",
+        "brenda": "an orange woven tote with one strap and a simple orange-slice patch",
+        "pat": "a folded umbrella standing in the umbrella stand, its curved handle like a head",
+        "plate_prompt": "Photoreal macro product photography, vertical 9:16: an ordinary front hallway at night seen at coat-hook height, a row of three brass coat hooks on a painted board like tiny debate podiums, a small key rack of hanging keys like an audience, a folded umbrella in a stand, a wooden bench below with a pair of work clogs, a doormat, blue streetlight through the frosted glass panel of the front door. All objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+        "dressing": [
+          "a pair of work clogs under the bench",
+          "a doormat with a worn patch",
+          "a spare mask hanging on a hook",
+          "a pile of unopened envelopes with blank fronts",
+          "a scratch on the door frame",
+          "a single glove on the bench"
+        ],
+        "buck_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck, the loud rival: a battered bulky purple duffel bag with a broken zip pull and a gold star tag (for small cases and wallets: a fat purple wallet stuffed with receipts and a gold star stud), with an expressive 3D animated face on its front: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal materials. No text or letters anywhere.",
+        "brenda_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda, the wholesome rival: an orange woven tote with one strap and a simple orange-slice patch, with an expressive 3D animated face on its front: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal materials. No text or letters anywhere.",
+        "pat_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a folded umbrella standing in the umbrella stand, its curved handle like a head, with an expressive 3D animated face on its front: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression, no arms. Photoreal materials. No text or letters anywhere.",
+        "cards": "generate the venue plate and the Buck, Brenda and Pat cards from these prompts once per product, then reuse them in every shot"
+      },
+      "home": {
+        "venue": "the living room at midnight, at real room scale",
+        "night light": "blue moonlight through the gap in the curtains",
+        "warm light": "warm golden hallway light spilling through the doorway",
+        "opening": "the hallway light clicks on as she walks in",
+        "podium": "a spot on the rug marked by a round cork coaster",
+        "audience": "a stack of cork coasters on the coffee table, one missing",
+        "pov": "from floor level by the coffee table looking up at her in the doorway",
+        "entrance": "settles into the third spot on the rug in a pool of moonlight",
+        "buck": "a sagging old purple version of the product's own kind with a gold star (for example a saggy armchair, a buzzing old lamp, a rattly old speaker, a lumpy old pillow)",
+        "brenda": "the stiff orange designer version of the same kind with a simple orange-slice mark (a rigid fancy chair, a dim decorative lamp, a tiny decorative speaker)",
+        "pat": "the TV remote lying on the coffee table",
+        "plate_prompt": "Photoreal macro product photography, vertical 9:16: an ordinary small living room at night at real room scale, a worn rug with three round cork coasters set out in a row like debate podium marks, a coffee table with a stack of coasters and a TV remote, a dark TV, a houseplant, a doorway to a dark hallway, blue moonlight through a gap in the curtains. All objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+        "dressing": [
+          "a worn rug with a coffee ring",
+          "a houseplant with one yellow leaf",
+          "a dark TV with a dusty screen",
+          "a folded blanket on the arm of a chair",
+          "a basket of unfolded laundry",
+          "a phone charger cable trailing off the table"
+        ],
+        "buck_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck, the loud rival: a sagging old purple version of the product's own kind with a gold star (for example a saggy armchair, a buzzing old lamp, a rattly old speaker, a lumpy old pillow), with an expressive 3D animated face on its front: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal materials. No text or letters anywhere.",
+        "brenda_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda, the wholesome rival: the stiff orange designer version of the same kind with a simple orange-slice mark (a rigid fancy chair, a dim decorative lamp, a tiny decorative speaker), with an expressive 3D animated face on its front: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal materials. No text or letters anywhere.",
+        "pat_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: the TV remote lying on the coffee table, with an expressive 3D animated face on its front: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression, no arms. Photoreal materials. No text or letters anywhere.",
+        "cards": "generate the venue plate and the Buck, Brenda and Pat cards from these prompts once per product, then reuse them in every shot"
+      },
+      "consumable": {
+        "venue": "the pantry cupboard shelf at midnight",
+        "night light": "dim blue light through the gap of the cupboard door",
+        "warm light": "warm golden kitchen light",
+        "opening": "the cupboard door swings open",
+        "podium": "an upturned jar lid",
+        "audience": "a bowl of walnuts in their shells, one space empty",
+        "pov": "from the pantry shelf looking out and up at her",
+        "entrance": "slides out from behind the flour jar into the third spot",
+        "buck": "a loud purple box or pack of the generic old version of the product's kind with a single gold star",
+        "brenda": "the smug orange wholesome-looking pack of the same kind with a simple orange-slice drawing",
+        "pat": "a glass salt shaker with a silver top",
+        "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary pantry cupboard at night seen at shelf height, three upturned jar lids in a row like tiny debate podiums, a bowl of walnuts in their shells like an audience, a glass salt shaker, a flour jar and tins with blank labels in the soft back, a spill of rice grains, dim blue light through the cupboard door gap. All objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+        "dressing": [
+          "a spill of rice grains",
+          "a clip holding a folded bag shut",
+          "a flour jar with a floury thumbprint",
+          "tins with blank labels",
+          "a wooden spoon laid across the shelf",
+          "a paper bag folded over twice"
+        ],
+        "buck_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck, the loud rival: a loud purple box or pack of the generic old version of the product's kind with a single gold star, with an expressive 3D animated face on its front: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal materials. No text or letters anywhere.",
+        "brenda_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda, the wholesome rival: the smug orange wholesome-looking pack of the same kind with a simple orange-slice drawing, with an expressive 3D animated face on its front: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal materials. No text or letters anywhere.",
+        "pat_card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a glass salt shaker with a silver top, with an expressive 3D animated face on its front: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression, no arms. Photoreal materials. No text or letters anywhere.",
+        "cards": "generate the venue plate and the Buck, Brenda and Pat cards from these prompts once per product, then reuse them in every shot"
+      }
+    },
+    "venue_rule": "This template runs in a different venue per product.archetype, so the product lives among its own kind. Before filling, replace every bracketed venue token in shots and units, [venue], [night light], [warm light], [opening], [podium], [audience], [pov] and [entrance], with the values in venues.<product.archetype>; use that venue's plate as the location reference and its Buck, Brenda and Pat cards as the rival and moderator references. Rivals are always generic, unbranded members of the product's own category and never a real competitor's shape, colour or trade dress: Buck is always the loud old-school version in purple with one gold star, Brenda always the wholesome-sounding version in orange with a simple orange-slice mark. If the product's exact kind differs from the defaults (a serum instead of a cream, a hoodie instead of a sneaker), recast the two rivals as the same kind as the product, keeping their colours, marks, faces and voices. No bracket may remain after filling.",
+    "product_face_rule": {
+      "all": "The product is a character but keeps its exact look: eyes only on its top edge, a mouth only from an opening it already has, never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product. Camera for its close-ups sits 10 to 20 degrees above its top edge so the eyes read while the front faces camera. Its voice is the same designed voice for every product: a woman in her 30s, cool, dry and unbothered.",
+      "ingested": "its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the lid, cap or top seal; its existing opening (a pull tab, a bottle cap, a pouch spout, a wrapper's tear notch) moves as its mouth; never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product.",
+      "applied": "its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the cap, pump head or top crimp; its existing opening (a flip-cap hinge, a pump nozzle, a dropper bulb, a jar lid lifting like a jaw) moves as its mouth; never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product.",
+      "worn": "its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the top of a shoe's tongue, the collar of a garment, the top bar of a glasses frame, the case edge above a watch dial); its existing opening (the ankle collar, the neck opening, a cuff) moves as its mouth, and if it has no opening it talks with small hops and tilts; never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product.",
+      "handheld": "its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge; an existing hinge or opening (a case lid, a cap, a flip cover, a charging port) moves as its mouth, and if it has none it talks with small hops, tilts or a pulse of its own light; never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product.",
+      "carried": "its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge at the base of the handle or the ends of the top zip; the main zip or flap parting a little moves as its mouth; never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product.",
+      "home": "its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the rim of a shade, the top of the back cushions, the edge of a lid, the top seam of a pillow); an existing opening or gap (a lid, a spout, the gap between seat cushions, a seam) moves as its mouth, and if it has none it talks with a small tilt or a pulse of its own light; never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product.",
+      "consumable": "its only face is two small glossy animated eyes with tiny floating brows peeking over the top flap or seal of its pack; the top flap or tear strip moves as its mouth; never on the label, logo, print, screen or front panel, which stay untouched and undistorted; no arms on the product."
+    },
+    "product_character": {
+      "speaker_id": "product",
+      "role": "the quiet candidate: the product itself",
+      "look": "exactly the product from the product reference, plus two small glossy animated eyes on its top edge and, if it has an opening, that opening as its mouth; nothing on its label or front",
+      "voice": "woman, 30s, cool, dry, unbothered; the same designed voice for every product",
+      "reference": "always the product image, never a generated card"
+    },
+    "product_adjacent": {
+      "ingested": [
+        "shelf two of the fridge, the product chilled with condensation beside the two rivals"
+      ],
+      "applied": [
+        "the middle shelf of the bathroom mirror cabinet beside the cream tub and the lotion pump"
+      ],
+      "worn": [
+        "the hall closet: the shoe rack for footwear, the hanging rail for clothes and accessories"
+      ],
+      "handheld": [
+        "the kitchen junk drawer among batteries, tape and rubber bands"
+      ],
+      "carried": [
+        "the brass coat hooks by the front door"
+      ],
+      "home": [
+        "the living room at real room scale, the product in the moonlight on the rug"
+      ],
+      "consumable": [
+        "the pantry cupboard shelf among jars and tins with blank labels"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "buck",
+      "name": "Buck",
+      "role": "the loud rival candidate: the old-school, overdone version of the product's own category",
+      "look": "the rival object for this venue (venues.<archetype>.buck) with a plain purple label or patch with a single gold star and no letters; face on the front: bushy white animated eyebrows, a big toothy politician grin, glossy eyes; thin black noodle arms that point and fist-pump",
+      "voice": "man, 60s, booming Boston Irish American politician, backslapping",
+      "card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck: a clear glass straight-sided bottle full of dark bubbly cola with rising bubbles with a gold metal cap and a plain purple label with a single gold star, no letters, with an expressive 3D animated face on the label: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal glass and condensation. No text or letters anywhere.",
+      "asset": "assets/buck.jpg",
+      "asset_note": "the rendered card is the fridge cola (ingested); other archetypes generate venues.<archetype>.buck_card_prompt"
+    },
+    {
+      "id": "brenda",
+      "name": "Brenda",
+      "role": "the wholesome rival candidate: the sweet, smug alternative that misses the point",
+      "look": "the rival object for this venue (venues.<archetype>.brenda) with a plain orange panel and a simple orange-slice drawing, no letters; face on the front: long animated eyelashes, rosy cheeks, a sweet but smug smile; thin white noodle arms clasped politely",
+      "voice": "woman, 50s, syrupy-sweet Midwestern PTA-president voice",
+      "card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda: a tall gable-top orange juice carton with a plain orange panel and a simple orange-slice drawing, no letters, with an expressive 3D animated face on the front panel: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal carton with slight condensation. No text or letters anywhere.",
+      "asset": "assets/brenda.jpg",
+      "asset_note": "the rendered card is the fridge juice carton (ingested); other archetypes generate venues.<archetype>.brenda_card_prompt"
+    },
+    {
+      "id": "pat",
+      "name": "Moderator Pat",
+      "role": "debate moderator, the calm object that lives in the venue",
+      "look": "the moderator object for this venue (venues.<archetype>.pat) with small rectangular reading glasses, calm serious eyes and a neat straight mouth",
+      "voice": "man, 30s, Korean American, smooth evening-news anchor, deadpan",
+      "card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a pale yellow stick of butter in a clear glass butter dish with the glass lid tipped back like a hat, with an expressive 3D animated face on the butter: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression. Photoreal butter and glass. No text or letters anywhere.",
+      "asset": "assets/pat.jpg",
+      "asset_note": "the rendered card is the fridge butter dish (ingested); other archetypes generate venues.<archetype>.pat_card_prompt"
+    },
+    {
+      "id": "marisol",
+      "name": "Marisol Vega",
+      "role": "the voter, a night-shift nurse",
+      "look": "woman, 44, Mexican American, dark hair in a messy bun, warm brown eyes with tired shadows, small gold hoop earrings, navy scrubs with a plain lanyard and blank badge",
+      "voice": "woman, 40s, low, tired, dry humour, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Marisol Vega: 44, Mexican American, dark hair in a messy bun, warm brown eyes with tired shadows, small gold hoop earrings, navy scrubs with a plain lanyard and a blank badge, tired but amused expression. Photoreal, neutral soft studio light, consistent identity across all three views. No text.",
+      "asset": "assets/marisol.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "venue",
+      "name": "The venue (fridge shelf two for ingested; see venues for the others)",
+      "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary white family refrigerator at night seen at shelf height, a glass shelf with three upturned bottle caps set out in a row like tiny debate podiums, an open egg carton of white eggs to one side like an audience, a clear glass butter dish, a pickle jar and a mustard bottle with blank labels in the soft-focus back, frost on the back wall, cold white-blue fridge bulb light from the top back, condensation on the glass shelf. The bottle caps, eggs and all other objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos.",
+      "asset": "assets/fridge.jpg",
+      "other_venues": "venues.<archetype>.plate_prompt, generated once per product"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "The venue's light clicks on and Buck, the loud rival with a politician's grin, is mid-stump speech on a podium."
+    },
+    {
+      "id": "setup",
+      "t": "3-9",
+      "summary": "Brenda makes her pitch; the moderator calls on the third candidate; the product slides into place with its eyes rising over its top edge."
+    },
+    {
+      "id": "product",
+      "t": "9-15",
+      "summary": "The product's calm pitch, label to camera: the product line and the benefit. Buck scoffs."
+    },
+    {
+      "id": "build",
+      "t": "15-22",
+      "summary": "The venue opens: everyone freezes. A tired nurse looks in, says what she needs, and reaches past Buck and Brenda for the product."
+    },
+    {
+      "id": "payoff",
+      "t": "22-26",
+      "summary": "Closed again: the audience erupts, the moderator calls it, Buck asks for a recount."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "The product by her keys at the front door, heading to the night shift, gives a wink. Tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.7",
+      "speaker": "buck",
+      "on_camera": true,
+      "shot": "S01",
+      "line_intent": "Hook: the loud rival proudly promises the exact opposite of the benefit the product will claim in L4 (more of what the product leaves out, or the old-school flaw of the category), opening with a stump-speech address to the audience.",
+      "delivery": "booming stump-speech, fist pump, crowd-baiting",
+      "max_words": 8,
+      "rules": "a generic category flaw only (heavier, stickier, more tangled, itchier, flimsier, more of what the product leaves out); never a health, safety or medical claim about the rival; never a real competitor's slogan"
+    },
+    {
+      "id": "L2",
+      "t": "2.9-4.8",
+      "speaker": "brenda",
+      "on_camera": true,
+      "shot": "S02",
+      "line_intent": "The second rival's pitch: the wholesome-sounding alternative in her category, played for a laugh because it sounds good and misses the point.",
+      "delivery": "syrupy-sweet, a little smug, fluttering lashes",
+      "max_words": 7,
+      "rules": "no claim about any real product; the joke is her smugness, not a fact"
+    },
+    {
+      "id": "L3",
+      "t": "5.2-6.6",
+      "speaker": "pat",
+      "on_camera": true,
+      "shot": "S03",
+      "line_intent": "The moderator hands the floor to the product, calling it by its look in 2 or 3 words (a colour plus what it is, e.g. the little blue tube, the grey one).",
+      "delivery": "deadpan news anchor, peering over his glasses",
+      "max_words": 5,
+      "rules": "never the brand name; a question"
+    },
+    {
+      "id": "L4",
+      "t": "9.4-12.4",
+      "speaker": "product",
+      "on_camera": true,
+      "shot": "S05",
+      "line_intent": "Product line: the product says {{product.name}} (or its short spoken form) and its ONE benefit from product.benefits, calm and confident, the direct answer to Buck's promise.",
+      "delivery": "cool, dry, unbothered, its mouth-opening moving as it talks (or small hops if it has none)",
+      "max_words": 8,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L5",
+      "t": "13.0-14.8",
+      "speaker": "buck",
+      "on_camera": true,
+      "shot": "S06",
+      "line_intent": "The rival dismisses the product; sets up the reversal.",
+      "delivery": "scoffing belly laugh",
+      "max_words": 7,
+      "fixed_line": "Ha! Nobody picks the quiet one."
+    },
+    {
+      "id": "L6",
+      "t": "16.8-18.8",
+      "speaker": "marisol",
+      "on_camera": true,
+      "shot": "S08",
+      "line_intent": "The real user states her need in her own words before a twelve-hour night shift, the need that L4's benefit answers (long shift, on my feet all night, dry ward air, a cold car park, an early start), without promising anything.",
+      "delivery": "tired, to herself, rubbing her eye",
+      "max_words": 7,
+      "rules": "a need, not a claim; no product name"
+    },
+    {
+      "id": "L7",
+      "t": "22.8-24.4",
+      "speaker": "pat",
+      "on_camera": true,
+      "shot": "S10",
+      "line_intent": "Payoff: the world declares the product the winner.",
+      "delivery": "losing his anchor cool, delighted",
+      "max_words": 5,
+      "fixed_line": "The people have spoken!"
+    },
+    {
+      "id": "L8",
+      "t": "25.0-25.7",
+      "speaker": "buck",
+      "on_camera": true,
+      "shot": "S10",
+      "line_intent": "Button: the rival's sore-loser joke.",
+      "delivery": "small, deflated, to Brenda",
+      "max_words": 2,
+      "fixed_line": "Recount?"
+    },
+    {
+      "id": "L9",
+      "t": "27.4-29.4",
+      "speaker": "product",
+      "on_camera": false,
+      "shot": "S11",
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word line in the product's cool voice that ties it to being the one she picked.",
+      "delivery": "cool, a smile in the voice, after a wink",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.8,
+      "beat": "hook",
+      "framing": "medium close-up",
+      "camera": "the fridge light clicks on, then a slow push-in",
+      "action": "Buck, the loud rival, stands on the first podium, noodle arm raised in a fist pump, mid stump speech.",
+      "product_state": "absent",
+      "audio": "the venue's light click, hum, dialogue, audience murmurs",
+      "caption": "{{line.L1}}",
+      "refs": [
+        "buck",
+        "venue",
+        "podium"
+      ],
+      "keyframe_prompt": "Medium close-up in [venue], from the venue plate: Buck, the loud rival from his character sheet, standing on [podium] like a podium, his animated face on his plain purple label mid-shout with a huge toothy politician grin and bushy white eyebrows raised, one thin black noodle arm raised in a fist pump, [night light]. [audience] blurred in the foreground like a crowd. His purple label has only a single gold star, no letters.",
+      "dressing": [
+        "Buck's toothpick flag with a plain purple triangle",
+        "the red rubber-band sash across his label",
+        "a round of crinkled foil under his podium",
+        "the audience with one empty spot blurred in the foreground"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.8,
+      "t1": 5.0,
+      "beat": "setup",
+      "framing": "medium close-up",
+      "camera": "locked off",
+      "action": "Brenda, the wholesome rival, at the next podium, lashes fluttering, noodle hands clasped, smug.",
+      "product_state": "absent",
+      "audio": "the venue's hum, dialogue",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "brenda",
+        "venue",
+        "podium"
+      ],
+      "keyframe_prompt": "Medium close-up in [venue], from the venue plate: Brenda, the wholesome rival from her character sheet, standing behind [podium], her animated face on her plain orange panel fluttering long eyelashes with a sweet smug smile, thin white noodle arms clasped politely, [night light]. Her panel has only a simple orange-slice drawing, no letters.",
+      "dressing": [
+        "the green twist-tie bow on her top",
+        "the bendy paper straw tucked behind her",
+        "two items from the venue's dressing list, softly blurred"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 5.0,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "locked off",
+      "action": "Moderator Pat peers over his glasses; the audience turns to look.",
+      "product_state": "absent",
+      "audio": "audience murmurs, dialogue",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "pat",
+        "venue",
+        "audience"
+      ],
+      "keyframe_prompt": "Medium shot in [venue], from the venue plate: Moderator Pat from his character sheet peering over small rectangular reading glasses with a deadpan news-anchor face, turning toward screen right. Beside him [audience], each with only two simple dot eyes, all turned the same way to look. [night light].",
+      "dressing": [
+        "his flat desk laid across two small blocks",
+        "an upturned thimble bell",
+        "the empty spot in the front row of the audience",
+        "one item from the venue's dressing list in the back"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.0,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "locked off, slightly above the rim",
+      "action": "The product enters the third podium spot, its eyes rising over its top edge, cool and confident.",
+      "product_state": "entering, label or front to camera",
+      "audio": "the product's entrance sound (a squeak on wet glass, a soft thump, a hook's creak)",
+      "caption": "",
+      "refs": [
+        "product",
+        "venue",
+        "podium"
+      ],
+      "keyframe_prompt": "Medium shot in [venue], from the venue plate, camera 10 to 20 degrees above the product's top edge: {{action}}. The product matches the product reference exactly, fully visible and undistorted; no face, mouth or arms on its label, logo or front. It is the only one of the product in the venue. [night light], with a clean rim on the product.",
+      "dressing": [
+        "the third podium waiting on its foil or tissue mat",
+        "a puff of mist or dust where it arrives",
+        "one item from the venue's dressing list"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "{{product.visual}} sliding upright across the wet glass shelf into the third podium spot, trailing a puff of cold mist, label facing camera, condensation beads; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the lid, cap or top seal; its existing opening (a pull tab, a bottle cap, a pouch spout, a wrapper's tear notch) moves as its mouth, its eyes rising over the top edge",
+        "applied": "{{product.visual}} gliding upright along the glass cabinet shelf into the third podium spot, label facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the cap, pump head or top crimp; its existing opening (a flip-cap hinge, a pump nozzle, a dropper bulb, a jar lid lifting like a jaw) moves as its mouth, its eyes rising over the top edge",
+        "worn": "{{product.visual}} hopping neatly into the third spot on the shoe rack (or swinging into the third place on the closet rail), its best side to camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the top of a shoe's tongue, the collar of a garment, the top bar of a glasses frame, the case edge above a watch dial); its existing opening (the ankle collar, the neck opening, a cuff) moves as its mouth, and if it has no opening it talks with small hops and tilts, its eyes rising over the top edge",
+        "handheld": "{{product.visual}} sliding across the drawer bottom into the third podium spot, logo facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge; an existing hinge or opening (a case lid, a cap, a flip cover, a charging port) moves as its mouth, and if it has none it talks with small hops, tilts or a pulse of its own light, its eyes rising over the top edge",
+        "carried": "{{product.visual}} swinging gently onto the third brass coat hook by its strap or handle, logo facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge at the base of the handle or the ends of the top zip; the main zip or flap parting a little moves as its mouth, its eyes rising over the top edge",
+        "home": "{{product.visual}} at its true room size settling into the third spot on the rug in a pool of moonlight, its best side to camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the rim of a shade, the top of the back cushions, the edge of a lid, the top seam of a pillow); an existing opening or gap (a lid, a spout, the gap between seat cushions, a seam) moves as its mouth, and if it has none it talks with a small tilt or a pulse of its own light, its eyes rising over the top edge",
+        "consumable": "{{product.visual}} sliding out from behind the flour jar into the third podium spot on the pantry shelf, label facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over the top flap or seal of its pack; the top flap or tear strip moves as its mouth, its eyes rising over the top edge"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 9.0,
+      "t1": 12.8,
+      "beat": "product",
+      "framing": "close-up",
+      "camera": "slow push-in, 15 degrees above the rim",
+      "action": "Hero close-up: the product at its podium, front to camera, eyes over its top edge, its opening moving as it talks, calm.",
+      "product_state": "hero, front label to camera",
+      "audio": "the venue's hum, dialogue, a single gasp from the audience",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "product",
+        "venue",
+        "buck",
+        "brenda"
+      ],
+      "keyframe_prompt": "Hero close-up in [venue], from the venue plate, camera only 10 to 20 degrees above the product's top edge so its full height and its top both show: {{action}}. The product matches the product reference exactly, fully visible and undistorted; no face, mouth or arms on its label, logo or front. Out of focus behind it only Buck and Brenda from their character sheets, with no letters; no other products. Crisp cool rim light. The product is the brightest object in frame.",
+      "dressing": [
+        "a small puddle or dust line at the shelf edge",
+        "one item from the venue's dressing list softly blurred",
+        "the audience blurred at the frame edge"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright on the glass shelf, label facing camera, frosty condensation beads; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the lid, cap or top seal; its existing opening (a pull tab, a bottle cap, a pouch spout, a wrapper's tear notch) moves as its mouth, its mouth mid-word, calm confident brows",
+        "applied": "{{product.visual}} standing upright on the glass cabinet shelf, label facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the cap, pump head or top crimp; its existing opening (a flip-cap hinge, a pump nozzle, a dropper bulb, a jar lid lifting like a jaw) moves as its mouth, its mouth mid-word, calm confident brows",
+        "worn": "{{product.visual}} standing on the shoe rack or hanging on the closet rail, its front to camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the top of a shoe's tongue, the collar of a garment, the top bar of a glasses frame, the case edge above a watch dial); its existing opening (the ankle collar, the neck opening, a cuff) moves as its mouth, and if it has no opening it talks with small hops and tilts, its mouth mid-word, calm confident brows",
+        "handheld": "{{product.visual}} standing or lying front up on the drawer bottom, logo facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge; an existing hinge or opening (a case lid, a cap, a flip cover, a charging port) moves as its mouth, and if it has none it talks with small hops, tilts or a pulse of its own light, its mouth mid-word, calm confident brows",
+        "carried": "{{product.visual}} hanging from the third brass coat hook, logo facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge at the base of the handle or the ends of the top zip; the main zip or flap parting a little moves as its mouth, its mouth mid-word, calm confident brows",
+        "home": "{{product.visual}} at its true room size on the rug in the moonlight, its best side to camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the rim of a shade, the top of the back cushions, the edge of a lid, the top seam of a pillow); an existing opening or gap (a lid, a spout, the gap between seat cushions, a seam) moves as its mouth, and if it has none it talks with a small tilt or a pulse of its own light, its mouth mid-word, calm confident brows",
+        "consumable": "{{product.visual}} standing upright on the pantry shelf, label facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over the top flap or seal of its pack; the top flap or tear strip moves as its mouth, its mouth mid-word, calm confident brows"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 12.8,
+      "t1": 15.0,
+      "beat": "product",
+      "framing": "medium close-up",
+      "camera": "locked off",
+      "action": "Buck throws his head back in a scoffing belly laugh, arms on his sides like hands on hips.",
+      "product_state": "absent",
+      "audio": "belly laugh, dialogue",
+      "caption": "Ha! Nobody picks the quiet one.",
+      "refs": [
+        "buck",
+        "venue"
+      ],
+      "keyframe_prompt": "Medium close-up in [venue], from the venue plate: Buck, the loud rival from his character sheet, on his podium, tilting back in a scoffing belly laugh, eyes squeezed shut, mouth wide open, noodle arms on his sides like hands on hips, [night light]. His purple label has only a single gold star, no letters.",
+      "dressing": [
+        "his bent or dented top",
+        "bubbles, crumbs or lint flying off him",
+        "the toothpick flag waving",
+        "one item from the venue's dressing list behind"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S07",
+      "t0": 15.0,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "wide shelf",
+      "camera": "fast whip then locked",
+      "action": "[opening]: warm light floods in and every object freezes into an ordinary object, faces neutral and still.",
+      "product_state": "background, frozen, front to camera",
+      "audio": "the opening sound, a blast of house room tone, silence from the candidates",
+      "caption": "",
+      "refs": [
+        "venue",
+        "buck",
+        "brenda",
+        "product"
+      ],
+      "keyframe_prompt": "Wide shot of the whole debate in [venue], from the venue plate, at the instant [opening]: a strong [warm light] floods in from the left, clearly warmer than the night light. Buck and Brenda from their character sheets stand frozen on their podiums like ordinary objects, faces neutral and motionless, mouths closed in a flat line, eyebrows level, arms dropped flat; {{action}}. [audience] frozen. The product matches the product reference exactly, fully visible and undistorted; no face, mouth or arms on its label, logo or front. Labels have no letters except the product's.",
+      "dressing": [
+        "the three podiums in a row",
+        "the audience frozen",
+        "one item from the venue's dressing list",
+        "a stray crumb or speck of dust on the edge"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} frozen in the third spot on the fridge shelf, label facing camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product",
+        "applied": "{{product.visual}} frozen in the third spot on the cabinet shelf, label facing camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product",
+        "worn": "{{product.visual}} frozen in the third spot on the shoe rack or closet rail, its front to camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product",
+        "handheld": "{{product.visual}} frozen in the third spot in the drawer, logo facing camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product",
+        "carried": "{{product.visual}} frozen on the third coat hook, logo facing camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product",
+        "home": "{{product.visual}} frozen at its true room size in the third spot on the rug, its best side to camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product",
+        "consumable": "{{product.visual}} frozen in the third spot on the pantry shelf, label facing camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product"
+      }
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 19.4,
+      "beat": "build",
+      "framing": "medium close-up from inside the fridge",
+      "camera": "low POV from the shelf looking out and up",
+      "action": "From the venue's point of view: Marisol in navy scrubs, lit by the warm light, tired, rubbing one eye, looking in.",
+      "product_state": "absent",
+      "audio": "the venue's hum, dialogue",
+      "caption": "{{line.L6}}",
+      "refs": [
+        "marisol"
+      ],
+      "keyframe_prompt": "Low point-of-view shot [pov]: Marisol, the woman from the character sheet, in navy scrubs with a plain lanyard, dark hair in a messy bun, looking in at midnight, her face lit by [warm light] from behind and the venue's cool light in front, rubbing one tired eye with the back of her hand, a dark house behind her. Photoreal. The edge in the foreground is empty with only one small blurred object at the very bottom corner; no products, no bottles and no faces anywhere in this shot.",
+      "dressing": [
+        "the tiny red enamel heart pin on her lanyard",
+        "the claw clip in her bun",
+        "the dark house with a stove clock glow and a pair of work clogs by the back door"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 19.4,
+      "t1": 22.6,
+      "beat": "build",
+      "framing": "insert",
+      "camera": "locked off",
+      "action": "She chooses the product: past the frozen Buck and Brenda, it comes off its podium into her hand (or she sinks into it or switches it on at room scale).",
+      "product_state": "in hand or in use, front to camera",
+      "audio": "a clink, a thump or a hook's creak, the venue's hum",
+      "caption": "",
+      "refs": [
+        "product",
+        "buck",
+        "brenda",
+        "venue"
+      ],
+      "keyframe_prompt": "Insert shot in [venue], from the venue plate (a medium shot for room-scale products): {{action}}. The product matches the product reference exactly, fully visible and undistorted; no face, mouth or arms on its label, logo or front. Buck and Brenda stand frozen, faces neutral. [warm light] from outside, the venue's cool light inside. Only one of the product.",
+      "dressing": [
+        "her plain black watch with a cracked strap",
+        "the navy scrubs cuff",
+        "one item from the venue's dressing list"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "a woman's hand with short nails and a navy scrubs sleeve reaching in past the frozen rivals and closing around {{product.visual}}, lifting it upright off the fridge shelf, label facing camera, fingers around its back; its two small eyes on its top edge wide with a hint of delight",
+        "applied": "a woman's hand with short nails and a navy scrubs sleeve reaching past the frozen rivals and lifting {{product.visual}} off the cabinet shelf, label facing camera, fingers around its back; its two small eyes on its top edge wide with a hint of delight",
+        "worn": "a woman's hand with short nails and a navy scrubs sleeve reaching past the frozen rivals and lifting {{product.visual}} off the shoe rack or closet rail, its best side to camera; its two small eyes on its top edge wide with a hint of delight",
+        "handheld": "a woman's hand with short nails and a navy scrubs sleeve reaching down past the frozen rivals and lifting {{product.visual}} out of the drawer, logo facing camera, fingers around its back; its two small eyes on its top edge wide with a hint of delight",
+        "carried": "a woman's hand with short nails and a navy scrubs sleeve unhooking {{product.visual}} from the third coat hook by its strap or handle, past the frozen rivals, logo facing camera; its two small eyes on its top edge wide with a hint of delight",
+        "home": "Marisol in navy scrubs walking past the frozen rivals and sinking into, switching on or picking up {{product.visual}} at its true room size, its best side to camera; its two small eyes on its top edge wide with a hint of delight",
+        "consumable": "a woman's hand with short nails and a navy scrubs sleeve reaching past the frozen rivals and taking {{product.visual}} (or one from its pack) off the pantry shelf, label facing camera; its two small eyes on its top edge wide with a hint of delight"
+      }
+    },
+    {
+      "id": "S10",
+      "t0": 22.6,
+      "t1": 26.0,
+      "beat": "payoff",
+      "framing": "medium wide",
+      "camera": "the door shuts to dark, the fridge light clicks back on, locked off",
+      "action": "Closed again, the empty third podium; the audience erupts cheering, Pat flips up like a thrown hat, Buck turns to Brenda deflated.",
+      "product_state": "absent (the empty podium where it stood)",
+      "audio": "the venue closing, the light clicking back, audience cheering, dialogue",
+      "caption": "The people have spoken! / Recount?",
+      "refs": [
+        "pat",
+        "buck",
+        "brenda",
+        "venue"
+      ],
+      "keyframe_prompt": "Medium wide shot in [venue], from the venue plate, after it has closed again, [night light]: an empty third podium in the middle where the product stood; Moderator Pat from his character sheet cheering, his hat or top flipped up in the air like a thrown hat; [audience] cheering with simple dot eyes and open mouths; on the left Buck from his character sheet turned toward Brenda from her character sheet with a deflated sheepish face, Brenda rolling her eyes. Labels have only simple shapes, no letters.",
+      "dressing": [
+        "the empty third podium on its mat",
+        "the thimble bell knocked over",
+        "the empty spot in the audience",
+        "the night light flickering"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S11",
+      "t0": 26.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert",
+      "camera": "slow push-in, slightly above the rim",
+      "action": "By the front door at night: the product beside her keys and blank ID lanyard, front to camera, gives one slow wink. Tagline and pack shot.",
+      "product_state": "hero, front label to camera",
+      "audio": "keys jingle off screen, a door opening to the night, score button",
+      "caption": "{{line.L9}}",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Pack shot by the front door at night, camera 10 to 20 degrees above the product's top edge: {{action}}. The product matches the product reference exactly, fully visible and undistorted; no face, mouth or arms on its label, logo or front. Warm hallway light and a cool blue window behind. The product is the brightest object in frame, clean dark space above it for a title.",
+      "dressing": [
+        "house keys with a small rubber cactus keychain",
+        "the plain lanyard with a blank badge and red heart pin",
+        "a folded pair of navy scrub pants on the edge",
+        "a small plain lunch bag zipped half open"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} standing upright on the small table by the front door beside her house keys and a plain lanyard with a blank badge, label facing camera, fresh condensation beads; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the lid, cap or top seal; its existing opening (a pull tab, a bottle cap, a pouch spout, a wrapper's tear notch) moves as its mouth, one eye closed in a slow wink",
+        "applied": "{{product.visual}} standing upright on the small table by the front door beside her house keys and a plain lanyard with a blank badge, label facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the cap, pump head or top crimp; its existing opening (a flip-cap hinge, a pump nozzle, a dropper bulb, a jar lid lifting like a jaw) moves as its mouth, one eye closed in a slow wink",
+        "worn": "{{product.visual}} set on the hallway bench by the front door beside her house keys and a plain lanyard with a blank badge, its best side to camera, ready to put on; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the top of a shoe's tongue, the collar of a garment, the top bar of a glasses frame, the case edge above a watch dial); its existing opening (the ankle collar, the neck opening, a cuff) moves as its mouth, and if it has no opening it talks with small hops and tilts, one eye closed in a slow wink",
+        "handheld": "{{product.visual}} resting on the small table by the front door beside her house keys and a plain lanyard with a blank badge, logo facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge; an existing hinge or opening (a case lid, a cap, a flip cover, a charging port) moves as its mouth, and if it has none it talks with small hops, tilts or a pulse of its own light, one eye closed in a slow wink",
+        "carried": "{{product.visual}} hanging from the front door handle ready to go, her keys and a plain lanyard with a blank badge clipped to it, logo facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge at the base of the handle or the ends of the top zip; the main zip or flap parting a little moves as its mouth, one eye closed in a slow wink",
+        "home": "{{product.visual}} at its true room size in the dim living room, her keys and a plain lanyard with a blank badge dropped beside it, the hallway light on behind; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge (the rim of a shade, the top of the back cushions, the edge of a lid, the top seam of a pillow); an existing opening or gap (a lid, a spout, the gap between seat cushions, a seam) moves as its mouth, and if it has none it talks with a small tilt or a pulse of its own light, one eye closed in a slow wink",
+        "consumable": "the pack of {{product.visual}} on the small table by the front door beside her house keys and a plain lanyard with a blank badge, label facing camera; its only face is two small glossy animated eyes with tiny floating brows peeking over the top flap or seal of its pack; the top flap or tear strip moves as its mouth, one eye closed in a slow wink"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 9.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "buck card",
+        "brenda card",
+        "pat card",
+        "venue plate",
+        "product image",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal macro in [venue] at midnight (real room scale for the living room), everyday objects with expressive 3D animated faces, [night light]. Shot 1 (0 to 2.8 s): the venue's light clicks on; @Image1 (Buck, the loud purple-labelled rival with a politician's face) on [podium], fist-pumping with a noodle arm, booming: \"{{line.L1}}\" Shot 2 (2.8 to 5 s): @Image2 (Brenda, the orange rival with lashes) at the next podium, sweetly smug: \"{{line.L2}}\" Shot 3 (5 to 7 s): @Image3 (Pat, the moderator with reading glasses), deadpan, as [audience] turn to look: \"{{line.L3}}\" Shot 4 (7 to 9 s): {{action.S04}}; the product matches @Image5 exactly and has no face on its label. Native sound: the venue's hum, a light click, audience murmurs. No music. No text, labels blank except the product."
+    },
+    {
+      "id": "U2",
+      "t0": 9.0,
+      "t1": 15.0,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "buck card",
+        "venue plate",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal macro in [venue]. Shot 1 (0 to 3.8 s): slow push-in, camera 10 to 20 degrees above the top edge, on {{action.S05}}; it says, cool and dry (a woman's voice): \"{{line.L4}}\" (say the brand as {{product.phonetic}}). Its label and front never move, bend or grow a face; only its eyes and its existing opening move. Shot 2 (3.8 to 6 s): @Image2 (Buck) tilts back in a scoffing belly laugh: \"Ha! Nobody picks the quiet one.\" Keep the product's shape, colours and label exactly as @Image1. Native sound: the venue's hum, one gasp from the audience, the laugh. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 15.0,
+      "t1": 26.0,
+      "shots": [
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "marisol card",
+        "buck card",
+        "brenda card",
+        "pat card",
+        "venue plate",
+        "product image",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal. Shot 1 (0 to 1.6 s): [opening], [warm light] floods the venue and every object freezes like an ordinary object, faces neutral and still; {{action.S07}}. Shot 2 (1.6 to 4.4 s): low POV [pov]: @Image1 (Marisol, a tired nurse in navy scrubs) looks in, rubs her eye, to herself: \"{{line.L6}}\" Shot 3 (4.4 to 7.6 s): {{action.S09}}, past the frozen @Image2 (Buck) and @Image3 (Brenda); the product matches @Image6 exactly, undistorted. Shot 4 (7.6 to 11 s): the venue closes, dark, the night light clicks back on; [audience] erupt cheering, @Image4 (Pat) flips up like a thrown hat: \"The people have spoken!\" Buck turns to Brenda, deflated: \"Recount?\" Objects only move while the venue is closed. Native sound: the opening, house room tone, a clink or creak, the closing, cheering. No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 26.0,
+      "t1": 30,
+      "shots": [
+        "S11"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "S11 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal pack shot by the front door at night. Slow push-in, camera 10 to 20 degrees above the top edge, on {{action.S11}}; the product matches @Image1 exactly and does not move, bend or grow a face on its label. Clean dark space above it. Native sound: keys jingling off screen, a door opening to night crickets. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "campaign",
+      "t0": 0,
+      "t1": 9.0,
+      "brief": "Mock election fanfare: snare roll and pompous brass in B flat, 108 bpm, a little honky and small like a school band, ducking under each line."
+    },
+    {
+      "section": "the quiet one",
+      "t0": 9.0,
+      "t1": 15.0,
+      "brief": "The brass drops out; a cool muted vibraphone and upright bass groove under the product's line, then a tuba raspberry on Buck's laugh."
+    },
+    {
+      "section": "the vote",
+      "t0": 15.0,
+      "t1": 26.0,
+      "brief": "Hard stop to silence on the opening (the freeze), a single held high string note while she chooses, then the full fanfare explodes as the venue closes and a sad trombone for the recount."
+    },
+    {
+      "section": "button",
+      "t0": 26.0,
+      "t1": 30,
+      "brief": "The vibraphone groove returns, resolves on one warm chord under the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0.1,
+      "sound": "the venue's light click",
+      "why": "the premise starts on the light; the click is the hook's first beat"
+    },
+    {
+      "t": 15.0,
+      "sound": "the opening sound (door seal pop, drawer runner, light switch)",
+      "why": "the freeze gag only works if the viewer registers the opening"
+    },
+    {
+      "t": 22.6,
+      "sound": "the venue closing and the audience cheer",
+      "why": "the payoff cue"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "buck",
+      "plan": "native voice in U1, then his U1 stem as voice reference for U2 and U3"
+    },
+    {
+      "speaker": "brenda",
+      "plan": "native in U1 only"
+    },
+    {
+      "speaker": "pat",
+      "plan": "native in U1, U1 stem as reference for his U3 line"
+    },
+    {
+      "speaker": "product",
+      "plan": "cast a designed voice (woman, 30s, cool and dry) for the U2 line with TTS or native generation, then reuse it as the reference for the U4 tagline so the product sounds like the same character; the same voice for every product"
+    },
+    {
+      "speaker": "marisol",
+      "plan": "native in U3"
+    }
+  ],
+  "captions": {
+    "font": "Poppins ExtraBold",
+    "size": "5.2% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF, other words 75%",
+    "box": "rounded pill box behind each line in the speaker's colour: loud rival #5B2A86, wholesome rival #F28C1B, moderator #E9C23A with dark text, product #2A9BD8 or the product's own main colour, human #333333",
+    "speaker_tag": "tiny name tag above the pill for the first line of each speaker (e.g. 'Cola'), 2.6% height",
+    "shadow": "none (the pill carries it)",
+    "position": "centre, 70% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 4
+  },
+  "post_text": [
+    {
+      "t0": 27.2,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L9}}",
+      "style": "Poppins ExtraBold, white on a rounded pill in the product's main colour (default sky blue #2A9BD8), centred in the dark space above the product, slides up 12 px and fades in over 8 frames"
+    },
+    {
+      "t0": 0.4,
+      "t1": 9.0,
+      "text": "Speaker name tags above each first caption: Buck and Brenda tagged by their category word for this venue (Cola and Juice in the fridge, Cream and Lotion in the cabinet, and so on), Moderator for Pat",
+      "sub": "",
+      "style": "tiny Poppins SemiBold tag in the speaker's colour, per caption_look"
+    }
+  ],
+  "qa": [
+    "every bracketed venue token was replaced from venues.<product.archetype>; no [ or ] remains in any prompt",
+    "the product in S04, S05, S07, S09 and S11 matches the product image (shape, colours, label) with no face, mouth or arms on its label, logo or front",
+    "the product's eyes sit only on its top edge and its mouth only uses an opening it already has",
+    "Buck and Brenda are generic members of the product's own category, purple with a gold star and orange with an orange slice, and never echo a real competitor",
+    "only one of the product in any shot; objects freeze whenever the venue is open",
+    "L1 promises the opposite of L4 without any health, safety or medical claim about the rival; L4 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "benefits": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "venue": {
+      "venue": "shelf two of the family fridge at midnight",
+      "night light": "cold white-blue fridge bulb light from the top back",
+      "warm light": "warm golden-orange kitchen light",
+      "opening": "the fridge door swings open",
+      "podium": "an upturned metal bottle cap on a round of crinkled foil",
+      "audience": "the open carton of white eggs, one cup empty",
+      "pov": "from the fridge shelf looking out and up past the glass shelf edge",
+      "entrance": "slides upright across the wet glass trailing a puff of cold mist",
+      "buck": "a clear glass straight-sided bottle of dark bubbly cola with a gold metal cap and a plain purple label with a single gold star (for a food product: a loud candy bar in a plain purple wrapper with a gold star)",
+      "brenda": "a tall gable-top orange juice carton with a plain orange panel and a simple orange-slice drawing (for a food product: a smug granola box with a plain orange panel and an orange-slice drawing)",
+      "pat": "a pale yellow stick of butter in a clear glass butter dish, the glass lid tipped back like a hat",
+      "asset": "assets/fridge.jpg",
+      "dressing": "see world_bible.locations.venue (the fridge)",
+      "cards": "rendered: assets/buck.jpg, assets/brenda.jpg, assets/pat.jpg, assets/fridge.jpg, assets/eggs.jpg, assets/podium.jpg"
+    },
+    "lines": {
+      "L1": "My fellow leftovers! More sugar for everyone!",
+      "L2": "Vote for me. I'm basically breakfast.",
+      "L3": "And the silver can?",
+      "L4": "Red Bull Sugarfree. Same benefits. No sugar.",
+      "L5": "Ha! Nobody picks the quiet one.",
+      "L6": "Long shift. I need to focus.",
+      "L7": "The people have spoken!",
+      "L8": "Recount?",
+      "L9": "Wiiings without sugar."
+    },
+    "actions": {
+      "S04": "{{product.visual}} sliding upright across the wet glass shelf into the third podium spot, trailing a puff of cold mist, label facing camera, condensation beads; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the lid, cap or top seal; its existing opening (a pull tab, a bottle cap, a pouch spout, a wrapper's tear notch) moves as its mouth, its eyes rising over the top edge",
+      "S05": "{{product.visual}} standing upright on the glass shelf, label facing camera, frosty condensation beads; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the lid, cap or top seal; its existing opening (a pull tab, a bottle cap, a pouch spout, a wrapper's tear notch) moves as its mouth, its mouth mid-word, calm confident brows",
+      "S07": "{{product.visual}} frozen in the third spot on the fridge shelf, label facing camera, its two small eyes on its top edge fixed and still, its mouth-opening shut, the only one of the product",
+      "S09": "a woman's hand with short nails and a navy scrubs sleeve reaching in past the frozen rivals and closing around {{product.visual}}, lifting it upright off the fridge shelf, label facing camera, fingers around its back; its two small eyes on its top edge wide with a hint of delight",
+      "S11": "{{product.visual}} standing upright on the small table by the front door beside her house keys and a plain lanyard with a blank badge, label facing camera, fresh condensation beads; its only face is two small glossy animated eyes with tiny floating brows peeking over its top edge, sitting on the lid, cap or top seal; its existing opening (a pull tab, a bottle cap, a pouch spout, a wrapper's tear notch) moves as its mouth, one eye closed in a slow wink"
+    }
+  }
+}

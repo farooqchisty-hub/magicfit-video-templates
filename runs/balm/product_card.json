@@ -1,0 +1,25 @@
+{
+  "name": "Summer Fridays Lip Butter Balm",
+  "brand": "Summer Fridays",
+  "phonetic": "SUM-er FRY-dayz",
+  "short_name": "my lip balm",
+  "visual": "a slim beige squeeze tube of Summer Fridays Lip Butter Balm with a crimped ribbed top end, vertical white lettering and a white screw cap",
+  "archetype": "applied",
+  "scale": "hand",
+  "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/Square-Lip-Butter-Balm-Vanilla-Main.jpg?v=1716507861",
+  "benefits": [
+    "conditions and softens dry lips",
+    "instant moisture and shine",
+    "a hint of vanilla flavor",
+    "a nourishing overnight lip mask"
+  ],
+  "tagline": "",
+  "use_moments": [
+    "dry lips",
+    "bedtime overnight lip mask"
+  ],
+  "forbidden": [
+    "the '#1 Lip Brand' ranking claim (numerical, footnoted)",
+    "medical or healing claims"
+  ]
+}

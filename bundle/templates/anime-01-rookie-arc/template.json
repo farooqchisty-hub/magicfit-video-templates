@@ -405,10 +405,10 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "a young woman's bare hand in a silver-grey hoodie sleeve raising {{product.visual}} high against the low setting sun, upright and closed, label facing the viewer, condensation sparkling",
+        "ingested": "a young woman's bare hand in a silver-grey hoodie sleeve raising {{product.visual}} high against the low setting sun, upright and closed, label facing the viewer, condensation sparkling if it is chilled",
         "applied": "a young woman's bare hand in a silver-grey hoodie sleeve raising {{product.visual}} high against the low setting sun, cap on, label facing the viewer",
         "worn": "a young woman's bare hands in silver-grey hoodie sleeves holding {{product.visual}} up against the low setting sun, turned so its best side and details catch the light",
-        "handheld": "a young woman's bare hand in a silver-grey hoodie sleeve raising {{product.visual}} high against the low setting sun, switched off, logo facing the viewer",
+        "handheld": "a young woman's bare hand in a silver-grey hoodie sleeve raising {{product.visual}} high against the low setting sun, logo facing the viewer",
         "carried": "a young woman's bare hand in a silver-grey hoodie sleeve lifting {{product.visual}} by its strap or handle against the low setting sun, still closed, logo facing the viewer",
         "home": "a flashback wipe to her small bedroom at dawn, painted in softer faded colours: {{product.visual}} in its place under a shaft of window light, her bare hand resting on it",
         "consumable": "a young woman's bare hand in a silver-grey hoodie sleeve raising one sealed {{product.visual}} high against the low setting sun, label facing the viewer"
@@ -437,8 +437,8 @@
       "product_action": {
         "ingested": "a young woman's bare thumb cracking open {{product.visual}} (ring pull, cap or wrapper), the burst exploding outward from the opening",
         "applied": "a young woman's bare fingers flipping open or pressing {{product.visual}}, the burst exploding outward from its nozzle or opening",
-        "worn": "a young woman's bare hands pulling tight the laces, strap or fastening of {{product.visual}} as it goes on, the burst exploding outward from it",
-        "handheld": "a young woman's bare thumb clicking on {{product.visual}}, the burst exploding outward from its switch, light or lens",
+        "worn": "a young woman's bare hands pulling tight the laces, strap, zip or fastening of {{product.visual}} as it goes on, the burst exploding outward from it",
+        "handheld": "a young woman's bare thumb clicking, switching or snapping {{product.visual}} into action, the burst exploding outward from the point where it comes alive",
         "carried": "a young woman's bare hand ripping open the zip or flap of {{product.visual}}, light and the burst spilling out of the opening",
         "home": "in the flashback bedroom, a young woman's bare hand switching on or settling onto {{product.visual}}, the burst exploding outward from it",
         "consumable": "a young woman's bare fingers tearing open one {{product.visual}}, the burst exploding out of the tear"
@@ -468,10 +468,10 @@
       ],
       "product_role": "in_use",
       "product_action": {
-        "ingested": "standing at the top of the skate bowl at sunset, holding {{product.visual}} open at chest height in one hand after a sip, upright, label facing the viewer",
+        "ingested": "standing at the top of the skate bowl at sunset, holding {{product.visual}} open at chest height in one hand after a sip or a bite, upright, label facing the viewer",
         "applied": "standing at the top of the skate bowl at sunset, having just applied {{product.visual}}, holding it at chest height in one hand, label facing the viewer, the aura starting on her skin where she applied it",
         "worn": "standing at the top of the skate bowl at sunset, wearing {{product.visual}}, the aura sparking from it first, one hand touching it",
-        "handheld": "standing at the top of the skate bowl at sunset, holding {{product.visual}} switched on at chest height in one hand, logo facing the viewer",
+        "handheld": "standing at the top of the skate bowl at sunset, holding {{product.visual}} in use at chest height in one hand (switched on, clicked in or snapped on), logo facing the viewer",
         "carried": "standing at the top of the skate bowl at sunset, {{product.visual}} slung on her back or at her hip, one hand on the strap, logo facing the viewer",
         "home": "in the flashback bedroom at dawn, sitting on or beside {{product.visual}}, the aura rising as the memory of every early morning floods back",
         "consumable": "standing at the top of the skate bowl at sunset, holding the opened pack of {{product.visual}} at chest height in one hand, label facing the viewer, having just used one"
@@ -842,9 +842,9 @@
       "L7": "Wiiings without sugar."
     },
     "actions": {
-      "S04": "a young woman's bare hand in a silver-grey hoodie sleeve raising {{product.visual}} high against the low setting sun, upright and closed, label facing the viewer, condensation sparkling",
+      "S04": "a young woman's bare hand in a silver-grey hoodie sleeve raising {{product.visual}} high against the low setting sun, upright and closed, label facing the viewer, condensation sparkling if it is chilled",
       "S05": "a young woman's bare thumb cracking open {{product.visual}} (ring pull, cap or wrapper), the burst exploding outward from the opening",
-      "S06": "standing at the top of the skate bowl at sunset, holding {{product.visual}} open at chest height in one hand after a sip, upright, label facing the viewer",
+      "S06": "standing at the top of the skate bowl at sunset, holding {{product.visual}} open at chest height in one hand after a sip or a bite, upright, label facing the viewer",
       "S11": "{{product.visual}} standing upright and open on the steel coping edge of the skate bowl, label facing the viewer, condensation sparkling"
     }
   }

@@ -414,7 +414,7 @@
       ],
       "product_role": "reveal",
       "product_action": {
-        "ingested": "pulling open the door of the silver fridge, cool white fridge light on her face, {{product.visual}} standing on the door shelf",
+        "ingested": "pulling open the door of the silver fridge, cool white fridge light on her face, {{product.visual}} chilled on the door shelf",
         "applied": "turning to the small round mirror above the brass hook rack by the front door, where {{product.visual}} sits on the narrow shelf beneath it",
         "worn": "kicking off her work flats by the front door and reaching toward the low shoe rack and hook rack, where {{product.visual}} is waiting",
         "handheld": "pulling open the kitchen junk drawer, where {{product.visual}} sits on top of the tangle of tape rolls and batteries",
@@ -479,7 +479,7 @@
       ],
       "product_role": "in_use",
       "product_action": {
-        "ingested": "at the white kitchen counter, holding {{product.visual}} at chest height with the label facing camera, just lowered from a sip, a small rallying grin",
+        "ingested": "at the white kitchen counter, holding {{product.visual}} at chest height with the label facing camera, just after a first sip or bite, a small rallying grin",
         "applied": "at the small mirror by the front door, applying {{product.visual}} with two quick practised moves, then holding it at chest height with the label facing camera, a small rallying grin",
         "worn": "by the front door, now wearing {{product.visual}}, giving it one quick tug or adjust so it sits right, a small rallying grin",
         "handheld": "at the white kitchen counter, switching on or snapping open {{product.visual}}, then holding it at chest height with the logo facing camera, a small rallying grin",
@@ -868,9 +868,9 @@
       "L6": "Wiiings without sugar."
     },
     "actions": {
-      "S04": "pulling open the door of the silver fridge, cool white fridge light on her face, {{product.visual}} standing on the door shelf",
+      "S04": "pulling open the door of the silver fridge, cool white fridge light on her face, {{product.visual}} chilled on the door shelf",
       "S05": "a woman's hand with short natural nails and a silver thumb ring taking {{product.visual}} off a white fridge door shelf, label facing camera, cold condensation drops, lit by the cool fridge light, a carton of eggs and a plain glass bottle of water blurred beside it",
-      "S06": "at the white kitchen counter, holding {{product.visual}} at chest height with the label facing camera, just lowered from a sip, a small rallying grin",
+      "S06": "at the white kitchen counter, holding {{product.visual}} at chest height with the label facing camera, just after a first sip or bite, a small rallying grin",
       "S10": "{{product.visual}} standing upright on the white stone kitchen counter beside the finished cake, label facing camera, condensation drops"
     }
   }

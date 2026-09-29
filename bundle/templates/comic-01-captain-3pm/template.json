@@ -493,13 +493,13 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb opening it with a small ink spray of droplets, label facing the viewer",
-        "applied": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb flicking the cap open, label facing the viewer",
+        "ingested": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb opening it (a pop and an ink spray of droplets for a beverage, a torn wrapper edge for food), label facing the viewer",
+        "applied": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb flicking or unscrewing the cap open, label facing the viewer",
         "worn": "a man's two hands, rolled white shirt cuffs at the edges, holding {{product.visual}} up high like a new costume piece, turned so its best side and details face the viewer",
         "handheld": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, gripping {{product.visual}} raised like a trophy, ink light rays bursting off it, logo facing the viewer",
         "carried": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} up high by its handle or strap like a trophy, logo facing the viewer",
         "home": "a man's hand, rolled white shirt cuff at the edge, pressed on {{product.visual}} as he switches it on or tests it, the product at its true size and lit by radiating ink light rays, its best side to the viewer",
-        "consumable": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding one {{product.visual}} raised like a trophy, fresh out of its pack, label facing the viewer"
+        "consumable": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding one piece from the pack of {{product.visual}} raised like a trophy, fresh out, label facing the viewer"
       }
     },
     {
@@ -527,13 +527,13 @@
       ],
       "product_role": "in_use",
       "product_action": {
-        "ingested": "holding {{product.visual}} up beside his face in the foreground, open and upright, label facing the viewer, about a third of the frame height",
+        "ingested": "holding {{product.visual}} up beside his face in the foreground, open, label facing the viewer, about a third of the frame height, just after a first taste",
         "applied": "dabbing {{product.visual}} on his cheek just below the mask, then holding it up beside his face with the label facing the viewer",
         "worn": "wearing {{product.visual}} with his office outfit and cape, chest out, showing it off to the reader",
         "handheld": "holding {{product.visual}} up beside his face in the foreground, logo facing the viewer, the badge glowing as if charged by it",
         "carried": "slinging {{product.visual}} over one shoulder like a utility belt, logo facing the viewer",
         "home": "standing tall beside {{product.visual}} in the break nook by the window, one hand resting on it, the whole product in the panel",
-        "consumable": "using one {{product.visual}}, then holding the pack up beside his face with the label facing the viewer"
+        "consumable": "using one piece from the pack of {{product.visual}}, then holding the pack up beside his face with the label facing the viewer"
       }
     },
     {
@@ -612,7 +612,7 @@
       ],
       "product_role": "background",
       "product_action": {
-        "ingested": "{{product.visual}} standing open and upright beside his keyboard in the foreground, label facing the viewer",
+        "ingested": "{{product.visual}} open beside his keyboard in the foreground (upright, or propped at an angle if it is flat), label facing the viewer",
         "applied": "{{product.visual}} standing upright beside his keyboard in the foreground, cap on, label facing the viewer",
         "worn": "Gord wearing {{product.visual}}, clearly visible as he leans back (feet up on the desk corner if it is footwear)",
         "handheld": "{{product.visual}} resting beside his keyboard in the foreground, logo facing the viewer",
@@ -644,7 +644,7 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "{{product.visual}} standing open and upright on the office desk, label facing the viewer",
+        "ingested": "{{product.visual}} standing upright on the office desk (propped at an angle if it is flat), open, label facing the viewer",
         "applied": "{{product.visual}} standing upright on the office desk, label facing the viewer",
         "worn": "{{product.visual}} laid out or standing neatly on the office desk, its best side to the viewer",
         "handheld": "{{product.visual}} resting on the office desk, logo facing the viewer",
@@ -874,6 +874,7 @@
     }
   ],
   "qa": [
+    "where an action offers choices in parentheses (a beverage or food, footwear or a garment, large or small pieces), keep only the one that fits this product and delete the rest before prompting",
     "the product in S04, S05, S06, S09 and S10 keeps its shape, colours and label from the product image, inked but never redrawn",
     "Gord identical across S01, S02, S06, S07, S08, S09 against the character sheet; the Slump against its sheet",
     "no lettering drawn by the model anywhere; every balloon, caption box, SFX word and title is added in post",
@@ -933,10 +934,10 @@
     },
     "actions": {
       "S04": "a man's hand in a white short-sleeve shirt opening the door of the small sky-blue desk fridge under the desk, where {{product.visual}} stands upright and closed on the single shelf",
-      "S05": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb opening it with a small ink spray of droplets, label facing the viewer",
-      "S06": "holding {{product.visual}} up beside his face in the foreground, open and upright, label facing the viewer, about a third of the frame height",
-      "S09": "{{product.visual}} standing open and upright beside his keyboard in the foreground, label facing the viewer",
-      "S10": "{{product.visual}} standing open and upright on the office desk, label facing the viewer"
+      "S05": "a man's bare forearm and fist, the rolled white shirt cuff at the edge, holding {{product.visual}} upright and raised like a trophy, his thumb opening it (a pop and an ink spray of droplets for a beverage, a torn wrapper edge for food), label facing the viewer",
+      "S06": "holding {{product.visual}} up beside his face in the foreground, open, label facing the viewer, about a third of the frame height, just after a first taste",
+      "S09": "{{product.visual}} open beside his keyboard in the foreground (upright, or propped at an angle if it is flat), label facing the viewer",
+      "S10": "{{product.visual}} standing upright on the office desk (propped at an angle if it is flat), open, label facing the viewer"
     },
     "post_text": {
       "sfx_word": "KSSHHK!",

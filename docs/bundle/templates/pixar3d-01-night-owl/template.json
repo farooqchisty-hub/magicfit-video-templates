@@ -459,7 +459,7 @@
       ],
       "product_role": "hero",
       "product_action": {
-        "ingested": "lifting {{product.visual}} upright out of the small wooden ice crate with both wings, the product reaching up to her chin, ice chips sliding off, condensation on it",
+        "ingested": "lifting {{product.visual}} upright out of the small wooden ice crate with both wings (chilled in the ice, or resting on top of it if it is a snack), the product reaching up to her chin, ice chips sliding off, condensation on it",
         "applied": "tugging {{product.visual}} upright out of the straw in the wooden supply crate with both wings, the product about as tall as her chin, label to camera",
         "worn": "hauling {{product.visual}} out of the straw in the wooden supply crate, comically big for a 30 cm owl, spilling over her wings, its best side to camera",
         "handheld": "heaving {{product.visual}} out of the straw in the wooden supply crate and hugging it upright against her chest with both wings, logo to camera",
@@ -492,10 +492,10 @@
       ],
       "product_role": "in_use",
       "product_action": {
-        "ingested": "holding {{product.visual}} opened in both wings at chest height, just lowered from a sip, the product reaching up to her chin, label to camera",
+        "ingested": "holding {{product.visual}} opened in both wings at chest height, just after a sip or a bite, the product reaching up to her chin, label to camera",
         "applied": "dabbing a little of {{product.visual}} onto her cheek feathers with one wing tip, then hugging it upright at chest height with the label to camera",
         "worn": "wearing {{product.visual}}, a comically oversized fit on a 30 cm owl (wrapped round her like a cloak, perched on her like a crown, or peered through like a window), puffing up proudly",
-        "handheld": "switching on or clicking {{product.visual}} with both wings, then holding it upright at chest height with the logo to camera",
+        "handheld": "using {{product.visual}} for a moment with both wings (switching it on, clicking it, snapping it onto something), then holding it upright at chest height with the logo to camera",
         "carried": "standing beside {{product.visual}}, now open on the stool with her night supplies neatly inside, one wing resting on it, logo to camera",
         "home": "perched on or beside {{product.visual}}, switched on or settled into, its light or comfort on her face",
         "consumable": "using one {{product.visual}} with a practised flick of her wing, then holding the pack upright at chest height with the label to camera"
@@ -816,8 +816,8 @@
       "L7": "Wiiings without sugar."
     },
     "actions": {
-      "S05": "lifting {{product.visual}} upright out of the small wooden ice crate with both wings, the product reaching up to her chin, ice chips sliding off, condensation on it",
-      "S06": "holding {{product.visual}} opened in both wings at chest height, just lowered from a sip, the product reaching up to her chin, label to camera",
+      "S05": "lifting {{product.visual}} upright out of the small wooden ice crate with both wings (chilled in the ice, or resting on top of it if it is a snack), the product reaching up to her chin, ice chips sliding off, condensation on it",
+      "S06": "holding {{product.visual}} opened in both wings at chest height, just after a sip or a bite, the product reaching up to her chin, label to camera",
       "S10": "{{product.visual}} standing upright on the white painted gallery ledge, label to camera, droplets on it"
     }
   }

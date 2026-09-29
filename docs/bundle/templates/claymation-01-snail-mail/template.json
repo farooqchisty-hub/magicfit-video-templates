@@ -1,0 +1,823 @@
+{
+  "id": "claymation-01-snail-mail",
+  "style": "claymation",
+  "title": "Snail Mail",
+  "version": "1.0",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "logline": "The Puddleton Parcel Dash: the fastest couriers in town against one old snail with a letter to deliver. He cannot outrun them, so he out-thinks them, with {{product.name}}.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "the towering real product with a clay straw down to the snail is the concept's best gag"
+      ],
+      "applied": [
+        "good",
+        "a dab on a bottle-cap dish polishes his shell to a gleam; reads well for balms, polishes and skincare"
+      ],
+      "worn": [
+        "stretch",
+        "a clay snail cannot wear a human-size item; the product becomes a roadside landmark he nestles into"
+      ],
+      "handheld": [
+        "good",
+        "he nudges the gadget on with his head and its light or click wakes him up"
+      ],
+      "carried": [
+        "good",
+        "the open pocket is a burrow at snail height, though the bag plays no part in the dash"
+      ],
+      "home": [
+        "stretch",
+        "tabletop-size pieces (lamps, candles, cushions, mugs) stand at the set edge; large furniture only rises behind the table as a blurred mountain"
+      ],
+      "consumable": [
+        "good",
+        "one piece on a bottle-cap dish at the refreshment stand"
+      ]
+    },
+    "avoid": [
+      "products for children (the clay look must not pull a child audience toward an adult product)",
+      "alcohol",
+      "products that only make sense shown on a human body (apparel fit, makeup looks): the cast are clay animals",
+      "weapons, including toy or starter pistols"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "Puddleton is a clay town that sits on the far end of a craft table. Everything in it was made from something else: matchboxes, bottle caps, buttons, spools, felt and foil.",
+      "The Parcel Dash runs once a year from the top of Crumb Hill to the old post-office mailbox at the bottom. The prize is a gold foil medal on embroidery thread.",
+      "Gus has delivered Puddleton's post for 40 years and has never won the Dash. His cap has a repair stitch where it tore in last year's race.",
+      "Blaze has won three years running on bead-wheel skates and wears the three bottle-cap medals round his neck.",
+      "Pip calls every race from a matchbox booth bolted to a paper-clip lamp post."
+    ],
+    "materials_rule": "Every object is a recognisable craft material in miniature: matchboxes, bottle caps, buttons, thimbles, cotton reels, corrugated card, felt, pipe cleaners, toothpicks, sequins, wool, sponge, paper straws, foil, hole-punch confetti. Visible fingerprints, glue shine and tool marks.",
+    "locations": {
+      "street": {
+        "foreground": [
+          "cotton-reel bollards along the kerb",
+          "a button manhole cover in the road",
+          "a toothpick fence strung with wool rope",
+          "a thimble planter of pipe-cleaner flowers",
+          "crumpled tissue-paper leaves in the gutter"
+        ],
+        "midground": [
+          "poster-paint lane stripes on the paper road, one lane per racer",
+          "a matchbox grandstand of clay beetles and a mouse family waving tiny felt flags",
+          "a bottle-cap bicycle leaning on a sponge tree",
+          "a stamp-sized strand of fabric bunting"
+        ],
+        "background": [
+          "cardboard houses with painted windows and scrap-fabric curtains",
+          "a washing line of tiny knitted socks between two chimneys made of pencil stubs",
+          "cotton-wool clouds on visible wires",
+          "a brush-stroked painted sky",
+          "the corrugated foil drainpipe running down Crumb Hill"
+        ]
+      },
+      "drainpipe": {
+        "foreground": [
+          "crinkled kitchen foil walls",
+          "sequin rivets along the seams",
+          "a lost button on the floor of the pipe"
+        ],
+        "midground": [
+          "a clear glue slime trail left by Gus"
+        ],
+        "background": [
+          "the bright round exit onto the paper road and the red mailbox"
+        ]
+      }
+    },
+    "personal_props": {
+      "gus": [
+        "a green felt satchel with a brass-button clasp",
+        "a cream envelope sealed with a red wax blob",
+        "a clay-red courier cap with a visible white repair stitch",
+        "a pocket watch made from a watch battery on a thread chain"
+      ],
+      "pip": [
+        "headphones made of two buttons and a pipe-cleaner band",
+        "a silver bead microphone on a wire",
+        "a clipboard made from a postage-stamp-sized card with pencil scribbles"
+      ],
+      "blaze": [
+        "white clay roller skates with red bead wheels",
+        "an orange terry-towel sweatband",
+        "three bottle-cap medals on string round his neck"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "medal",
+        "name": "The Parcel Dash medal",
+        "prop_prompt": "Claymation prop reference sheet on a plain mid-grey background: a tiny handmade race medal made from a gold foil-wrapped button with a thumbprint dent, hung on a loop of red and cream embroidery thread, shown front and back at macro scale. No letters or numbers. Visible craft textures, warm softbox light.",
+        "asset": "assets/medal.jpg"
+      },
+      {
+        "id": "booth",
+        "name": "Pip's matchbox commentary booth",
+        "prop_prompt": "Claymation prop reference sheet on a plain mid-grey background: a commentary booth made from a half-open matchbox bolted to a bent paper-clip lamp post, a tiny felt awning, a strip of washi-tape trim, a string of three bead lights, a toothpick ladder leaning against the post. No letters or logos. Visible craft textures, warm softbox light.",
+        "asset": "assets/booth.jpg"
+      },
+      {
+        "id": "podium",
+        "name": "The bottle-cap podium",
+        "prop_prompt": "Claymation prop reference sheet on a plain mid-grey background: a three-step winners' podium made from stacked metal bottle caps (three caps high, two, one), crinkle edges, painted white and gold, on a round felt mat scattered with hole-punch paper confetti. No letters or logos. Visible craft textures, warm softbox light.",
+        "asset": "assets/podium.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Puddleton Post",
+        "mark": "a cream envelope shape with a red wax dot",
+        "colors": "green and cream",
+        "appears_on": "Gus's satchel, the mailbox door, the post-office flag",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Parcel Dash",
+        "mark": "a red and gold chequered pennant",
+        "colors": "clay red and gold",
+        "appears_on": "bunting, the start banner, the medal ribbon",
+        "text_in_post": "race title card only"
+      }
+    ],
+    "wear_and_time": "Race morning, bright table-lamp sun. The set is well used: fingerprints on every surface, a little dust, glue shine at joins, a pencil line where the road was measured out.",
+    "sound_world": [
+      "soft clay squelch footsteps",
+      "paper and card rustles",
+      "foil crinkle inside the drainpipe",
+      "button clicks and bead rattles",
+      "a crowd of tiny squeaks and cheers",
+      "the product's own sound (a click, a zip, a hum, a slurp), enormous in a tiny world"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "a tiny cardboard refreshment stand with a felt awning",
+        "a long red and white striped clay straw bent down from the product's top to snail height"
+      ],
+      "applied": [
+        "a tiny cardboard pit-stop stand with a felt awning",
+        "a bottle-cap dish holding a small dab of the product's contents"
+      ],
+      "worn": [
+        "a tiny cardboard pit-stop stand with a felt awning beside the product"
+      ],
+      "handheld": [
+        "a tiny cardboard pit-stop stand with a felt awning beside the product"
+      ],
+      "carried": [
+        "a tiny cardboard pit-stop stand with a felt awning beside the open product"
+      ],
+      "home": [
+        "the edge of the tabletop set beside the road (large pieces rise behind the table like a mountain)"
+      ],
+      "consumable": [
+        "a tiny cardboard refreshment stand with a felt awning",
+        "a bottle-cap dish holding one piece of the product"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "gus",
+      "name": "Gus",
+      "role": "veteran courier, a clay garden snail",
+      "look": "clay garden snail about 4 cm tall, soft grey-green body, a chunky brown and cream spiral shell, long eyestalks with shiny black bead eyes, a tiny clay-red courier cap, a green and cream satchel strapped across the shell holding one plain cream envelope, a slow knowing half smile",
+      "voice": "man, 70s, slow warm Southern American drawl, unhurried and wry",
+      "card_prompt": "Character turnaround sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side full-body views of the same claymation puppet. Gus: a garden snail made of plasticine, soft grey-green body, chunky brown and cream spiral shell, long eyestalks with shiny black bead eyes, a tiny clay-red courier cap, a green and cream satchel strapped across the shell holding one plain cream envelope, a slow knowing half smile. Visible thumbprints and tool marks, matte clay. No text or letters anywhere.",
+      "asset": "assets/gus.jpg"
+    },
+    {
+      "id": "pip",
+      "name": "Pip Whitlow",
+      "role": "race announcer, a clay pigeon",
+      "look": "plump clay pigeon, dove-grey body with an iridescent purple and green clay neck, orange bead eyes, oversized round headphones, a tiny tweed waistcoat, holding a silver clay microphone",
+      "voice": "woman, 30s, Black American, fast, bright sportscaster energy, big disbelief",
+      "card_prompt": "Character turnaround sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side full-body views of the same claymation puppet. Pip: a plump pigeon made of plasticine, dove-grey body, iridescent purple and green clay neck feathers, orange bead eyes, oversized round headphones, a tiny tweed waistcoat, holding a silver clay microphone, excited open beak. Visible thumbprints and tool marks, matte clay. No text or letters anywhere.",
+      "asset": "assets/pip.jpg"
+    },
+    {
+      "id": "blaze",
+      "name": "Blaze",
+      "role": "the favourite, a flashy clay jackrabbit courier (no lines)",
+      "look": "lanky clay jackrabbit, tan with long upright ears, cocky grin, orange sweatband, white clay roller skates with red wheels, a plain orange parcel under one arm",
+      "voice": "none (reacts with pants and a squeak)",
+      "card_prompt": "Character turnaround sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side full-body views of the same claymation puppet. Blaze: a lanky jackrabbit made of plasticine, tan body, long upright ears, cocky grin, orange sweatband, white clay roller skates with red wheels, a plain orange parcel under one arm. Visible thumbprints and tool marks, matte clay. No text or letters anywhere.",
+      "asset": "assets/blaze.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "street",
+      "name": "Puddleton high street and start line",
+      "plate_prompt": "Claymation stop-motion still, upright vertical 9:16 composition, level horizon: a handmade miniature town street on a tabletop, sky-blue and silver cardboard houses with painted windows, a cream paper road with a chalk start line, blank clay-red and gold bunting strung between houses, green felt hedges, cotton-wool clouds on wires against a painted pale blue sky, a matchbox commentary booth on a lamp post, the street sloping down a hill to a small plain red mailbox far below, a corrugated silver drainpipe running down the hill beside the road. Warm tabletop softbox light, macro lens. No characters, no readable text, no logos.",
+      "asset": "assets/street.jpg"
+    },
+    {
+      "id": "drainpipe",
+      "name": "The drainpipe shortcut",
+      "plate_prompt": "Claymation stop-motion still, upright vertical 9:16 composition: the inside of a corrugated silver drainpipe on a handmade miniature set, a spiralling tunnel of crinkled foil and card lit warmly from the far end where a bright circle opens onto a cream paper road and a small plain red mailbox. Matte handmade textures, warm tabletop light, macro lens. No characters, no text.",
+      "asset": "assets/drainpipe.jpg"
+    }
+  ],
+  "asset_urls": {
+    "gus": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/gus.jpg",
+    "pip": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/pip.jpg",
+    "blaze": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/blaze.jpg",
+    "street": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/street.jpg",
+    "drainpipe": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/drainpipe.jpg",
+    "medal": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/medal.jpg",
+    "booth": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/booth.jpg",
+    "podium": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/claymation-01-snail-mail/assets/podium.jpg"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "The announcer pigeon does a double take: a snail is racing."
+    },
+    {
+      "id": "setup",
+      "t": "3-8",
+      "summary": "The start line, the flag drops, everyone blurs away; Gus has moved a thumb-width and is not worried."
+    },
+    {
+      "id": "product",
+      "t": "8-14",
+      "summary": "At a roadside pit stop the real product towers over him; he uses it his way (head, shell, eyestalks) and his eyestalks snap sharp. The product line."
+    },
+    {
+      "id": "build",
+      "t": "14-21",
+      "summary": "He spots the drainpipe, tucks into his shell and rockets down the hill through the pipe."
+    },
+    {
+      "id": "payoff",
+      "t": "21-26",
+      "summary": "He pops out at the mailbox and posts the letter first as the rabbit skids in behind him."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "Gus on the bottle-cap podium with a medal, the real product beside him. Tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.5",
+      "speaker": "pip",
+      "on_camera": true,
+      "line_intent": "Hook: someone in the world cannot believe the hero is even trying.",
+      "delivery": "fast sportscaster patter that screeches to a stop, double take",
+      "shot": "S01",
+      "max_words": 9,
+      "fixed_line": "And in lane four... a snail? Seriously?"
+    },
+    {
+      "id": "L2",
+      "t": "6.4-8.2",
+      "speaker": "gus",
+      "on_camera": true,
+      "line_intent": "The hero's philosophy in 4 to 6 words: speed loses to the quality the product gives him, the same benefit L3 names (sharp, comfortable, steady, prepared), said as wisdom, not a boast. No brand name.",
+      "delivery": "slow drawl, dust settling around him, not bothered at all",
+      "shot": "S04",
+      "max_words": 6,
+      "rules": "must echo the L3 benefit and claim nothing beyond it"
+    },
+    {
+      "id": "L3",
+      "t": "11.4-13.6",
+      "speaker": "gus",
+      "on_camera": true,
+      "line_intent": "Product line: say {{product.name}} (or its short spoken form) and the ONE benefit from product.benefits that lets a slow courier out-think fast ones (focus, comfort, grip, protection, calm).",
+      "delivery": "after the product moment, eyestalks snapping upright, a satisfied drawl",
+      "shot": "S06",
+      "max_words": 8,
+      "rules": "benefit comes only from product.benefits, reworded no further than person and tense; brand spelled phonetically in the video prompt using product.phonetic"
+    },
+    {
+      "id": "L4",
+      "t": "17.6-19.2",
+      "speaker": "pip",
+      "on_camera": false,
+      "line_intent": "The world notices the hero's smart move.",
+      "delivery": "shrieking with delight",
+      "shot": "S08",
+      "max_words": 6,
+      "fixed_line": "He's taking the drainpipe!"
+    },
+    {
+      "id": "L5",
+      "t": "22.6-23.8",
+      "speaker": "pip",
+      "on_camera": false,
+      "line_intent": "Payoff: the result, called by the world.",
+      "delivery": "full sportscaster roar",
+      "shot": "S09",
+      "max_words": 6,
+      "fixed_line": "The snail wins it!"
+    },
+    {
+      "id": "L6",
+      "t": "24.4-25.4",
+      "speaker": "gus",
+      "on_camera": true,
+      "line_intent": "The hero's button: two understated words.",
+      "delivery": "dry, a tip of the cap",
+      "shot": "S09",
+      "max_words": 4,
+      "fixed_line": "Special delivery."
+    },
+    {
+      "id": "L7",
+      "t": "27.6-29.4",
+      "speaker": "gus",
+      "on_camera": false,
+      "line_intent": "Tagline: product.tagline if the page has one, otherwise a 3 to 5 word drawled line about winning by being clever, not fast.",
+      "delivery": "slow warm drawl voiceover",
+      "shot": "S10",
+      "max_words": 6
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.7,
+      "beat": "hook",
+      "framing": "medium",
+      "camera": "locked off, then a 3-frame stepped crash zoom on the double take",
+      "action": "Pip the pigeon in her matchbox commentary booth, microphone up, patter cut short as she leans out and stares down at the start line in disbelief.",
+      "product_state": "absent",
+      "audio": "crowd murmur, clay squeaks, dialogue",
+      "caption": "And in lane four... a snail? Seriously?",
+      "refs": [
+        "pip",
+        "street",
+        "booth"
+      ],
+      "keyframe_prompt": "Medium close-up, camera right at the booth: Pip, the clay pigeon from the character sheet, fills the upper two thirds of the frame, big and close to the lens, sitting in a tiny matchbox commentary booth on top of a lamp post, oversized headphones on, holding her silver clay microphone, leaning out over the booth's edge and staring down in comic disbelief, eyes bulging, beak wide open. Far below and out of focus, the handmade clay street from the location reference with blank clay-red and gold bunting and cotton-wool clouds. Visible thumbprints, matte plasticine, warm tabletop key, macro lens shallow depth of field.",
+      "dressing": [
+        "the matchbox booth with its felt awning and bead lights",
+        "Pip's button headphones",
+        "the stamp-sized clipboard",
+        "bunting behind"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 2.7,
+      "t1": 4.4,
+      "beat": "setup",
+      "framing": "low wide",
+      "camera": "locked off at character height",
+      "action": "The start line: Blaze the jackrabbit crouched on roller skates, a clay beetle on a bottle-cap bicycle, and tiny Gus in lane four with his cap and satchel.",
+      "product_state": "absent",
+      "audio": "revving squeaks, a clay crowd cheering",
+      "caption": "",
+      "refs": [
+        "gus",
+        "blaze",
+        "street"
+      ],
+      "keyframe_prompt": "Low wide shot at character height on the chalk start line of the handmade clay street from the location reference: Blaze, the clay jackrabbit from his character sheet, crouched on white roller skates with red wheels, cocky grin; a small clay beetle on a bicycle with bottle-cap wheels; and in the next lane Gus, the tiny clay snail from his character sheet, with his clay-red cap and green and cream satchel, calm half smile. All wheels on the ground, normal gravity. Blank bunting overhead. Upright vertical composition, level horizon. Visible thumbprints, matte plasticine.",
+      "dressing": [
+        "poster-paint lane stripes",
+        "Blaze's bottle-cap medals",
+        "a clay beetle on a bottle-cap bicycle",
+        "Gus's cap with the repair stitch",
+        "the matchbox grandstand of cheering beetles"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 4.4,
+      "t1": 6.2,
+      "beat": "setup",
+      "framing": "wide",
+      "camera": "locked off",
+      "action": "The clay starter's flag drops; every racer shoots off as a clay smear of colour and a puff of cotton dust; Gus is left at the line.",
+      "product_state": "absent",
+      "audio": "flag whoosh (registers the start), whooshes, skates rattling",
+      "caption": "",
+      "refs": [
+        "gus",
+        "street"
+      ],
+      "keyframe_prompt": "Wide shot of the chalk start line on the handmade clay street from the location reference just after the start: the other racers are gone down the road as long streaky clay smears of tan, orange and blue with puffs of cotton-wool dust hanging in the air, and Gus, the tiny clay snail from the character sheet, is left almost exactly on the start line, cap slightly blown back. A chunky clay checkered starter's flag on a lollipop-stick pole has just swung down in the foreground. No guns or weapons anywhere. Upright vertical composition, level horizon. Stop-motion smear motion, matte plasticine, thumbprints.",
+      "dressing": [
+        "cotton-reel bollards",
+        "hole-punch confetti in the air",
+        "the toothpick fence with wool rope"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S04",
+      "t0": 6.2,
+      "t1": 8.4,
+      "beat": "setup",
+      "framing": "close-up",
+      "camera": "locked off, macro",
+      "action": "Gus in close-up as the cotton dust settles, completely unbothered, one eyestalk raised.",
+      "product_state": "absent",
+      "audio": "dust settling, a slow squelch, dialogue",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "gus"
+      ],
+      "keyframe_prompt": "Macro close-up of Gus, the clay snail from the character sheet, at the chalk start line as cotton-wool dust settles around him, completely unbothered, one eyestalk raised higher than the other, a slow knowing half smile, clay-red courier cap, green and cream satchel with a plain cream envelope. Visible thumbprints and tool marks on the clay, shallow depth of field, blurred sky-blue cardboard houses behind, warm tabletop key light.",
+      "dressing": [
+        "the red wax seal on his envelope",
+        "the watch-battery pocket watch on its thread chain",
+        "the repair stitch on his cap",
+        "crumpled tissue leaves in the gutter"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S05",
+      "t0": 8.4,
+      "t1": 10.8,
+      "beat": "product",
+      "framing": "low angle wide",
+      "camera": "slow motion-control tilt up",
+      "action": "At a tiny cardboard pit stop by the road, the real product towers over Gus like a water tower, label to camera; he looks up at it in awe.",
+      "product_state": "hero, upright or set at its best angle, label facing camera, towering over the snail",
+      "audio": "a cardboard sign creaking, a slow squelch, the product's own first sound",
+      "caption": "",
+      "refs": [
+        "product",
+        "gus",
+        "street"
+      ],
+      "keyframe_prompt": "Low angle shot on the handmade clay street from the location reference: {{action}}. The product is exactly the product reference, a real printed object standing on the miniature clay set, not made of clay, label or logo facing camera and undistorted, towering over the tiny scene like a building, lit by the same warm tabletop key with a soft contact shadow on the paper road. Nothing covers its front label. Gus, the tiny clay snail from the character sheet (soft grey-green body, brown and cream spiral shell, clay-red cap, green and cream satchel, no arms, a snail's body only). Matte plasticine characters, visible thumbprints.",
+      "dressing": [
+        "a cardboard pit-stop stand with a felt awning",
+        "a thimble planter of pipe-cleaner flowers",
+        "cotton-reel bollards along the kerb"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "{{product.visual}}, the real full-size product, not made of clay, opened and standing upright beside a tiny cardboard refreshment stand, a long red and white striped clay straw hanging from its top down to Gus (food: a crumb of it broken off onto a bottle-cap dish at its base), who looks up at it in awe; the straw does not cover the front label",
+        "applied": "{{product.visual}}, the real full-size product, not made of clay, standing upright beside a tiny cardboard pit-stop stand with its cap off, a small glossy dab of its contents set out on a bottle-cap dish at its base, Gus looking up at it in awe",
+        "worn": "{{product.visual}}, the real full-size product, not made of clay, set at the roadside beside a tiny cardboard pit-stop stand like a monument, its best side to camera, Gus looking up at it in awe",
+        "handheld": "{{product.visual}}, the real full-size product, not made of clay, standing or lying beside a tiny cardboard pit-stop stand, towering over Gus, who looks up at it in awe",
+        "carried": "{{product.visual}}, the real full-size product, not made of clay, standing open at the roadside beside a tiny cardboard pit-stop stand, its open pocket like a cave entrance at snail height, Gus looking up at it in awe",
+        "home": "{{product.visual}}, the real full-size product, not made of clay, at the edge of the tabletop set beside the road (large pieces rise behind the table like a mountain), towering over a tiny cardboard pit-stop stand, Gus looking up at it in awe",
+        "consumable": "a pack of {{product.visual}}, the real full-size product, not made of clay, opened and standing upright beside a tiny cardboard refreshment stand, one piece set out on a bottle-cap dish at its base for Gus, who looks up in awe"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 10.8,
+      "t1": 14.0,
+      "beat": "product",
+      "framing": "medium",
+      "camera": "locked off",
+      "action": "Gus uses the product his way (with his head, shell or eyestalks); his eyestalks snap straight and his eyes go sharp; he says the product line, the product beside him with the label to camera.",
+      "product_state": "in use or just used, beside him, label to camera",
+      "audio": "the product's own use sound at tiny scale, a springy clay boing of the eyestalks, dialogue",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "gus",
+        "product"
+      ],
+      "keyframe_prompt": "Medium shot: Gus, the tiny clay snail from the character sheet (soft grey-green body, brown and cream spiral shell, clay-red cap, green and cream satchel, no arms, a snail's body only), beside the exact real product from the product reference, a real object standing on the miniature clay set, not made of clay, label or logo facing camera and undistorted, towering above him like a building: {{action}}. Cap pushed back. Blurred sky-blue cardboard houses behind. Matte plasticine with thumbprints, warm tabletop key light. The product is real, not clay.",
+      "dressing": [
+        "the brass-button clasp on his satchel",
+        "the button manhole cover",
+        "the sponge tree behind"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "Gus has just let go of the red and white striped clay straw from {{product.visual}} (food: just finished the crumb on the bottle-cap dish), his eyestalks now standing perfectly straight and alert, black bead eyes sharp and focused, a satisfied grin",
+        "applied": "Gus has just slid his shell through the dab of {{product.visual}} on the bottle-cap dish, his shell now gleaming, eyestalks standing perfectly straight and alert, a satisfied grin, the product towering beside him label to camera",
+        "worn": "Gus nestled snugly against {{product.visual}} (in the curve of a shoe, in the fold of a hood, under a cuff, through the loop of a strap), eyestalks now standing perfectly straight and alert, a satisfied grin, the product's logo to camera",
+        "handheld": "Gus has just nudged {{product.visual}} on with his head (a button pressed, a light glowing, a lid popped, a case snapped shut), eyestalks now standing perfectly straight and alert, a satisfied grin, logo to camera",
+        "carried": "Gus poking his head out of the open pocket of {{product.visual}}, eyestalks now standing perfectly straight and alert, a satisfied grin, logo to camera",
+        "home": "Gus basking at the foot of {{product.visual}} in its glow, warmth or softness, eyestalks now standing perfectly straight and alert, a satisfied grin",
+        "consumable": "Gus has just used the piece on the bottle-cap dish, taken from the pack of {{product.visual}}, eyestalks now standing perfectly straight and alert, a satisfied grin, the pack towering behind him label to camera"
+      }
+    },
+    {
+      "id": "S07",
+      "t0": 14.0,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "over the shoulder",
+      "camera": "locked off, rack focus from his eyestalks to the drainpipe",
+      "action": "From behind Gus's eyestalks: the long hill road where the racers are stuck in a tangle at a hairpin bend, and beside it the silver drainpipe running straight down to the mailbox. He narrows his eyes.",
+      "product_state": "absent",
+      "audio": "distant crash and squeaks from the pile-up, a thoughtful hmm",
+      "caption": "",
+      "refs": [
+        "gus",
+        "street"
+      ],
+      "keyframe_prompt": "Over-the-shoulder shot from behind the two eyestalks of Gus, the clay snail from the character sheet, looking down the long winding hill road of the handmade clay town from the location reference: far below, the other clay racers are tangled in a funny pile-up at a hairpin bend, and right beside Gus the corrugated silver drainpipe runs straight down the hill to a small plain red mailbox. Upright vertical composition, level horizon. Matte plasticine, felt hedges, cotton-wool clouds.",
+      "dressing": [
+        "the washing line of knitted socks",
+        "the pencil-stub chimneys",
+        "racers tangled at the hairpin with a tipped bottle-cap bicycle"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 20.6,
+      "beat": "build",
+      "framing": "inside the pipe",
+      "camera": "locked off, stepped frames",
+      "action": "Gus tucked into his shell rolls and spirals down the crinkled foil drainpipe toward the bright exit, a clay smear trailing behind him.",
+      "product_state": "absent",
+      "audio": "rattling tumble, a joyful whoop echoing, dialogue",
+      "caption": "He's taking the drainpipe!",
+      "refs": [
+        "gus",
+        "drainpipe"
+      ],
+      "keyframe_prompt": "Inside the corrugated silver drainpipe from the location reference: Gus's brown and cream spiral shell, the clay snail from the character sheet tucked inside with just his clay-red cap poking out, rolls fast toward the bright circular exit, a streaky clay smear of brown and cream trailing behind him as stop-motion motion blur, the envelope satchel strapped tight. Crinkled foil and card textures, warm light from the far end. Matte plasticine, thumbprints.",
+      "dressing": [
+        "sequin rivets along the foil",
+        "a lost button on the pipe floor",
+        "the glue slime trail behind him"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 20.6,
+      "t1": 26.0,
+      "beat": "payoff",
+      "framing": "low wide",
+      "camera": "locked off",
+      "action": "Gus pops out of the pipe, slides the cream envelope into the plain red mailbox slot; Blaze skids in behind on his skates, panting, ears drooping; paper confetti falls.",
+      "product_state": "absent",
+      "audio": "envelope thunk into the box, skate skid, crowd roar, dialogue",
+      "caption": "The snail wins it! / Special delivery.",
+      "refs": [
+        "gus",
+        "blaze",
+        "street"
+      ],
+      "keyframe_prompt": "Low wide shot at the bottom of the hill on the handmade clay street from the location reference: Gus, the small clay snail from his character sheet (soft grey-green body, brown and cream spiral shell, clay-red cap, green and cream satchel, no arms, a snail's body only), stretched up at the foot of a plain red clay mailbox with no letters on it, nudging a plain cream envelope into the low slot with his head, one eyestalk winking. Behind him Blaze, the lanky tan clay jackrabbit from his character sheet, three times taller than the snail, skids in on white roller skates with red wheels, panting, long ears drooping in shock, wheels on the ground. Punched paper confetti falling, the drainpipe exit beside them. Upright vertical composition, level horizon. Matte plasticine, thumbprints.",
+      "dressing": [
+        "the red mailbox with the envelope mark",
+        "hole-punch confetti",
+        "Blaze's bead-wheel skates skidding",
+        "the mouse family waving felt flags"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S10",
+      "t0": 26.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium wide",
+      "camera": "slow motion-control push-in",
+      "action": "The winners' podium made of stacked bottle caps: Gus on the top step with a gold clay medal, the real product beside the podium, label to camera, confetti still drifting. Tagline and pack shot.",
+      "product_state": "hero, beside the podium, label to camera",
+      "audio": "crowd cheering fades, a banjo button",
+      "caption": "{{line.L7}}",
+      "refs": [
+        "product",
+        "gus",
+        "street",
+        "podium",
+        "medal"
+      ],
+      "keyframe_prompt": "Medium wide shot on the handmade clay street: a winners' podium made of three stacked plain bottle caps, Gus, the clay snail from the character sheet, proudly on the top step wearing a gold clay medal and his clay-red cap, and {{action}}. The product is exactly the product reference, a real object, not made of clay, label facing camera and undistorted, lit by the warm tabletop key with a soft contact shadow. Punched paper confetti drifting, blank bunting, cotton-wool clouds and clean pale blue painted sky above for a title. Upright vertical composition, level horizon. Matte plasticine, thumbprints.",
+      "dressing": [
+        "the gold foil button medal on embroidery thread",
+        "the bottle-cap podium on its felt mat",
+        "confetti on the mat"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "right beside the podium, {{product.visual}}, the real full-size product, not made of clay, standing upright and opened (the striped clay straw still in it for a beverage, propped on end if it is flat), towering over the podium",
+        "applied": "right beside the podium, {{product.visual}}, the real full-size product, not made of clay, standing upright with its cap back on, towering over the podium",
+        "worn": "right beside the podium, {{product.visual}}, the real full-size product, not made of clay, set neatly with its best side and logo to camera, towering over the podium",
+        "handheld": "right beside the podium, {{product.visual}}, the real full-size product, not made of clay, standing upright, logo to camera, towering over the podium",
+        "carried": "right beside the podium, {{product.visual}}, the real full-size product, not made of clay, standing upright, logo to camera, towering over the podium",
+        "home": "right behind the podium at the edge of the set, {{product.visual}}, the real full-size product, not made of clay, best side to camera, towering over the podium (large pieces rise behind the table like a mountain)",
+        "consumable": "right beside the podium, the pack of {{product.visual}}, the real full-size product, not made of clay, standing upright, label to camera, towering over the podium"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.4,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "pip card",
+        "gus card",
+        "blaze card",
+        "street plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 claymation stop-motion on a handmade miniature clay town, animated on twos at 12 fps with slight frame-to-frame clay boil, no motion blur, visible thumbprints, warm tabletop light. Shot 1 (0 to 2.7 s): @Image1 (Pip, a clay pigeon announcer with headphones) in a matchbox booth, fast patter that stops dead as she leans out and stares down, stepped crash zoom: \"And in lane four... a snail? Seriously?\" Shot 2 (2.7 to 4.4 s): low wide on the chalk start line, @Image3 (Blaze, a clay jackrabbit on roller skates) crouched next to @Image2 (Gus, a tiny clay snail with a red cap and satchel). Shot 3 (4.4 to 6.2 s): a flag drops from a clay starter's flag, all racers shoot away as streaky clay smears and cotton dust puffs, Gus stays at the line. Shot 4 (6.2 to 9 s): macro close-up of Gus as the dust settles, one eyestalk raised, slow drawl: \"{{line.L2}}\" Native sound: cork pop, clay squeaks, skates, crowd. No music. No text on screen, banners blank."
+    },
+    {
+      "id": "U2",
+      "t0": 8.4,
+      "t1": 14.0,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "gus card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 claymation stop-motion, animated on twos at 12 fps, matte plasticine with thumbprints, warm tabletop light. Shot 1 (0 to 2.4 s): slow tilt up {{action.S05}}; the product is exactly @Image1, a real object standing on the clay street, not clay, towering over @Image2 (Gus, the tiny clay snail, no arms) like a water tower, label to camera, undistorted. Shot 2 (2.4 to 6 s): {{action.S06}}, and he says in a satisfied drawl: \"{{line.L3}}\" (say the brand as {{product.phonetic}}). Keep the product's shape, colours and label exactly as @Image1; the product does not move or change. Native sound: the product's own sound at tiny scale, a springy eyestalk boing. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 14.0,
+      "t1": 26.0,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 12,
+      "exact_risk": false,
+      "refs": [
+        "gus card",
+        "blaze card",
+        "street plate",
+        "drainpipe plate",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 claymation stop-motion on a handmade clay town, animated on twos at 12 fps, clay smears for speed, no real motion blur. Shot 1 (0 to 2.6 s): over the shoulder of @Image1 (Gus, the clay snail), rack focus down the hill: the other racers tangled in a pile-up at a hairpin bend, the silver drainpipe beside him running straight down; he narrows his eyes, hmm. Shot 2 (2.6 to 6.6 s): inside the foil drainpipe, Gus tucked into his shell rolls and spirals toward the bright exit, trailing a brown clay smear, a joyful echoing whoop; a woman announcer's voice off screen shrieks: \"He's taking the drainpipe!\" Shot 3 (6.6 to 12 s): low wide at the bottom of the hill, Gus pops out, stretches up and slides a cream envelope into a plain red mailbox; @Image2 (Blaze, the clay jackrabbit on skates) skids in behind, panting, ears drooping; confetti falls; the announcer roars: \"The snail wins it!\" Gus tips his cap, dry: \"Special delivery.\" Wheels on the ground, normal gravity. Native sound: rattling tumble, envelope thunk, skate skid, crowd. No music. No text, mailbox blank."
+    },
+    {
+      "id": "U4",
+      "t0": 26.0,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "gus card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 claymation stop-motion pack shot, animated on twos at 12 fps. Slow motion-control push-in on a bottle-cap winners' podium on the clay street: @Image2 (Gus, the clay snail) on the top step in a gold clay medal, bobbing proudly, and {{action.S10}}; the product is exactly @Image1, a real object, not clay, label to camera, with a soft contact shadow. Paper confetti drifts. The product does not move or change shape. Clean pale blue painted sky above the product. Native sound: cheering crowd fading. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "line-up",
+      "t0": 0,
+      "t1": 8.4,
+      "brief": "Jaunty plucked banjo and woodblock in G major, 120 bpm, ragtime bounce, stops dead for the cork pop, then one lazy clarinet note for Gus."
+    },
+    {
+      "section": "refreshment",
+      "t0": 8.4,
+      "t1": 14.0,
+      "brief": "Sparse: a soft ukulele vamp under the product moment, a bright xylophone run as his eyestalks snap straight."
+    },
+    {
+      "section": "dash",
+      "t0": 14.0,
+      "t1": 26.0,
+      "brief": "The banjo theme at double time with brushed snare, tuba and a spiralling clarinet run down the drainpipe, a big brassy hit on the envelope going in."
+    },
+    {
+      "section": "podium",
+      "t0": 26.0,
+      "t1": 30,
+      "brief": "The theme resolves on a warm banjo and tuba button, one final woodblock clop."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 4.5,
+      "sound": "cork pop from the starter's flag",
+      "why": "the race start must register, it sets up the joke"
+    },
+    {
+      "t": 11.6,
+      "sound": "the product's own use sound at tiny scale (a straw slurp, a cap click, a zip, a glow hum) and a springy eyestalk boing",
+      "why": "the product moment must land as the turn; only added if native sound is weak"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "pip",
+      "plan": "native voice from U1, then her U1 vocal stem as voice reference for her off-camera calls in U3"
+    },
+    {
+      "speaker": "gus",
+      "plan": "native voice from U1, then his U1 stem as voice reference for U2, U3 and the U4 tagline voiceover"
+    }
+  ],
+  "captions": {
+    "font": "Cooper Black",
+    "size": "5.4% of frame height",
+    "color": "#FFF6E0 (cream)",
+    "active_word": "#E8413C (clay red), others cream",
+    "shadow": "hard 0 4px 0 #3B2A1E offset (a cut-paper drop shadow), no blur",
+    "box": false,
+    "position": "centre, 69% down the frame, clear of the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "motion": "captions animate on twos (12 fps) with a 1 px random jitter per frame so the type boils like the clay"
+  },
+  "post_text": [
+    {
+      "t0": 27.2,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{line.L7}}",
+      "style": "Cooper Black, cream with a hard dark-brown cut-paper drop shadow, centred in the sky above the product, steps on at 12 fps with 1 px boil; sub is product.tagline when the page has one, else the L7 line"
+    }
+  ],
+  "qa": [
+    "where an action offers choices in parentheses (a beverage or food, footwear or a garment, large or small pieces), keep only the one that fits this product and delete the rest before prompting",
+    "the product in S05, S06 and S10 is the real object from the product image, never sculpted in clay, and towers over the cast like a building",
+    "Gus has no arms in every shot and acts with his head, shell or eyestalks; his colours match the cast card",
+    "stop-motion on twos at 12 fps with clay boil in every unit, no smooth motion or motion blur",
+    "every banner, mailbox and sign blank; no guns or starter pistols",
+    "L2 echoes the L3 benefit; L3 benefit is verbatim from product.benefits"
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "brand_phonetic": "Red Bull (RED BULL, two words, even stress)",
+      "tagline": "Wiiings without sugar",
+      "size": "250 ml can",
+      "archetype": "ingested",
+      "scale": "hand",
+      "look": "slim 250 ml can split diagonally into sky blue and brushed silver halves, covered in condensation drops; red 'Red Bull' wordmark across the middle; two red charging bulls facing each other in front of a gold sun; 'SUGARFREE' in widely spaced red capitals below; red band at the top reading 'WITHOUT SUGAR'; small 'With Taurine. Vitalizes body and mind' strip at the bottom",
+      "image": "https://www.redbull.com/energydrink/v1/resources/storyblok/images/f/287059/528x1348/f66a744989/in_sf_250ml_sugarfree_country_rgb__cold_closed_front_com_full.png",
+      "facts": {
+        "caffeine_mg": 75,
+        "taurine_mg": 1000,
+        "b_vitamins": "niacin, B2, B6, B12",
+        "sweeteners": "sucralose, acesulfame K"
+      },
+      "allowed_claims": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "forbidden": [
+        "calorie numbers (not on page)",
+        "health, weight-loss or medical claims",
+        "showing children drinking it",
+        "more than 2 cans in one sitting"
+      ],
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ],
+      "warnings": "Not recommended for children, pregnant or lactating women, or people sensitive to caffeine. Max 500 ml per day.",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "phonetic": "RED BULL SHUG-er-free"
+    },
+    "lines": {
+      "L1": "And in lane four... a snail? Seriously?",
+      "L2": "Fast is fine. Sharp is faster.",
+      "L3": "Red Bull Sugarfree. Keeps me sharp.",
+      "L4": "He's taking the drainpipe!",
+      "L5": "The snail wins it!",
+      "L6": "Special delivery.",
+      "L7": "Wiiings without sugar."
+    },
+    "actions": {
+      "S05": "{{product.visual}}, the real full-size product, not made of clay, opened and standing upright beside a tiny cardboard refreshment stand, a long red and white striped clay straw hanging from its top down to Gus (food: a crumb of it broken off onto a bottle-cap dish at its base), who looks up at it in awe; the straw does not cover the front label",
+      "S06": "Gus has just let go of the red and white striped clay straw from {{product.visual}} (food: just finished the crumb on the bottle-cap dish), his eyestalks now standing perfectly straight and alert, black bead eyes sharp and focused, a satisfied grin",
+      "S10": "right beside the podium, {{product.visual}}, the real full-size product, not made of clay, standing upright and opened (the striped clay straw still in it for a beverage, propped on end if it is flat), towering over the podium"
+    }
+  }
+}
