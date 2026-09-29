@@ -1,0 +1,554 @@
+{
+  "id": "text_message-01-surprise-thread",
+  "style": "text_message",
+  "title": "The Surprise Thread",
+  "logline": "5pm, two hours before a surprise 30th: the group chat is on fire, the decor and the cake are still in the bag, and the friend who promised to do both just walked in from work running on empty. Her reply to the thread is {product}.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "Leah's small apartment in Toronto on a Friday, 5pm to 7pm, and the group chat 'Jules turns 30' that is planning his surprise party there. One quick cutaway to Omar in his parked car.",
+    "palette": "Built from the can: white and silver kitchen, sky-blue and silver balloons, outgoing chat bubbles in sky blue #6EC1E4; the payoff adds warm string-light amber.",
+    "fictional_brands": [
+      "the chat app is generic and unnamed (no app name, no logo, a clean neutral UI built in code)",
+      "Jules turns 30 (the group chat name, post only)"
+    ],
+    "rules": "Every phone screen in the live action is dark and blank; all UI, bubbles, names and notifications are rendered in code. Balloons, garland and cake carry no writing. The only real brand is the product."
+  },
+  "cast": [
+    {
+      "id": "leah",
+      "name": "Leah Marsh",
+      "role": "the friend who promised to do decor and cake",
+      "look": "woman, 31, white American, shoulder-length copper-red curly hair, light freckles, small silver stud earrings, charcoal work blazer over a white T-shirt, black jeans",
+      "voice": "bright, quick, a little breathless, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Leah Marsh: 31, white American, shoulder-length copper-red curly hair, light freckles, small silver stud earrings, charcoal blazer over a plain white T-shirt, lively tired-but-game expression. Photoreal, consistent identity across all three views. No text."
+    },
+    {
+      "id": "omar",
+      "name": "Omar Haddad",
+      "role": "the party organiser in the group chat",
+      "look": "man, 33, Lebanese American, short dark hair with a neat full beard, olive bomber jacket over a grey hoodie",
+      "voice": "fast, warm, mock-panicked, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Omar Haddad: 33, Lebanese American, short dark hair, neat full dark beard, olive bomber jacket over a plain grey hoodie, expressive friendly face. Photoreal, consistent identity across all three views. No text, no logos."
+    },
+    {
+      "id": "jules",
+      "name": "Jules Mensah",
+      "role": "the birthday friend",
+      "look": "man, 30, Black Canadian, close-cropped hair, clean-shaven, big easy smile, navy overshirt over a white tee",
+      "voice": "deep, delighted, laughing, Canadian",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Jules Mensah: 30, Black Canadian, close-cropped hair, clean-shaven, big warm smile, navy overshirt over a plain white T-shirt. Photoreal, consistent identity across all three views. No text, no logos."
+    }
+  ],
+  "locations": [
+    {
+      "id": "apartment",
+      "name": "Leah's apartment kitchen and living room",
+      "plate_prompt": "Candid smartphone photo, vertical 9:16, upright vertical composition, level horizon: a small bright Toronto apartment, an open white kitchen with a silver fridge and a white stone counter in the foreground, a cosy living room behind it with a grey sofa, bare walls and a large window with late afternoon light, a front door on the right. Tidy, lived-in, no decorations yet. No people, no readable text, no logos, no posters."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "she grabs the drink from the fridge, cracks it, and replies 'on it'",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "she applies the product at the bathroom mirror (face mist, balm, hair product) and replies 'on it'",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "she swaps her work shoes for the product (sneakers, socks, comfy layer) and replies 'on it'",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "she grabs the gadget (earbuds, speaker, glue gun, balloon pump) and replies 'on it'",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "she unzips the bag that has everything in it and replies 'on it'",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "the home product does the heavy lifting (the lights, the speaker, the sofa that seats everyone)",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "she opens the pack that makes the job fast (frosting, decor kit, snacks) and replies 'on it'",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.2",
+      "summary": "A phone buzzing face-up on a counter; notification banners stack in: guests at 7, is Leah still on decor and cake, Jules left work early."
+    },
+    {
+      "id": "setup",
+      "t": "2.2-9.4",
+      "summary": "Leah walks in from work and reads it; her reply: running on empty. Omar sends a voice note from his car. She types 'hold on' and opens the fridge."
+    },
+    {
+      "id": "product",
+      "t": "9.4-14.8",
+      "summary": "The can from the fridge door, the crack, the sip, the line. Her reply lands: ok. i'm on it."
+    },
+    {
+      "id": "build",
+      "t": "14.8-20",
+      "summary": "Montage with ticks firing into the chat: balloons done, cake done, lights done. Omar: who ARE you."
+    },
+    {
+      "id": "payoff",
+      "t": "20-24.5",
+      "summary": "String lights, the door opens, everyone jumps out; Jules can't believe it."
+    },
+    {
+      "id": "cta",
+      "t": "24.5-30",
+      "summary": "She sends one last photo to the thread: the can by the cake. Caption: wiiings without sugar."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "2.6-4.6",
+      "speaker": "leah",
+      "on_camera": true,
+      "line_intent": "Setup: the hero reads the ask out loud and feels the size of it.",
+      "line": "Decor AND cake. Tonight.",
+      "delivery": "reading off the phone, deflating, half a laugh",
+      "shot": "S02"
+    },
+    {
+      "id": "L2",
+      "t": "5.3-7.2",
+      "speaker": "omar",
+      "on_camera": true,
+      "line_intent": "Raise the stakes with a countdown from someone counting on her.",
+      "line": "Two hours, Leah. You good?",
+      "delivery": "voice note, fast, mock-panicked, phone held flat near his mouth",
+      "shot": "S03"
+    },
+    {
+      "id": "L3",
+      "t": "12.2-14.6",
+      "speaker": "leah",
+      "on_camera": true,
+      "line_intent": "Product line: the hero names the product and the benefit she needs right now, allowed claim only.",
+      "line": "Red Bull Sugarfree. Okay. Focus.",
+      "delivery": "to herself after the sip, rallying, a small grin",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S06"
+    },
+    {
+      "id": "L4",
+      "t": "21.2-21.9",
+      "speaker": "leah",
+      "on_camera": true,
+      "line_intent": "Payoff: the plan works.",
+      "line": "Surprise!",
+      "delivery": "shouted together with Omar and a friend, jumping out",
+      "shot": "S09"
+    },
+    {
+      "id": "L5",
+      "t": "22.4-23.8",
+      "speaker": "jules",
+      "on_camera": true,
+      "line_intent": "Payoff: the person it was for credits the hero.",
+      "line": "You did all this?",
+      "delivery": "laughing, stunned, hand on his head",
+      "shot": "S09"
+    },
+    {
+      "id": "L6",
+      "t": "27.2-29.4",
+      "speaker": "leah",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm voiceover, smiling, party noise under it",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.2,
+      "beat": "hook",
+      "framing": "top-down close-up",
+      "camera": "locked off, overhead",
+      "action": "A plain black phone lies face-up on a white stone counter beside a set of keys, buzzing, its dark screen glowing softly; notification banners stack in over it (post).",
+      "product_state": "absent",
+      "audio": "phone buzz three times, apartment room tone",
+      "caption": "",
+      "refs": [
+        "apartment"
+      ],
+      "keyframe_prompt": "Top-down close-up of a plain black smartphone with no logo lying face-up on a white stone kitchen counter, the screen dark and completely blank with only a faint soft glow, no interface, no icons, no text, the whole screen and its four corners clearly visible, a set of house keys and a folded work lanyard with a blank card beside it, late afternoon window light. The phone fills the middle of the frame with clean counter around it."
+    },
+    {
+      "id": "S02",
+      "t0": 2.2,
+      "t1": 5.0,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "handheld, eye level",
+      "action": "Leah, just in from work, tote bag still on her shoulder, reads the phone and deflates; on the counter a bag of plain balloons and a plain box of cake mix wait.",
+      "product_state": "absent",
+      "audio": "tote bag drops, dialogue",
+      "caption": "Decor AND cake. Tonight.",
+      "refs": [
+        "leah",
+        "apartment"
+      ],
+      "keyframe_prompt": "Medium shot of Leah, the woman from the character sheet, standing at the white kitchen counter in the apartment from the location reference, still in her charcoal blazer with a canvas tote bag on her shoulder, holding a plain black phone at chest height with the screen tilted away from camera, reading it and deflating with a half laugh. On the counter in front of her: an unopened clear bag of plain sky-blue and silver balloons and a plain white box of cake mix with no printing. Late afternoon window light, soft screen glow on her face."
+    },
+    {
+      "id": "S03",
+      "t0": 5.0,
+      "t1": 7.4,
+      "beat": "setup",
+      "framing": "medium close-up through the side window",
+      "camera": "handheld",
+      "action": "Omar in the driver's seat of his parked car records a voice note, phone held flat below his mouth, a bag of party supplies on the passenger seat.",
+      "product_state": "absent",
+      "audio": "car interior hush, dialogue",
+      "caption": "Two hours, Leah. You good?",
+      "refs": [
+        "omar"
+      ],
+      "keyframe_prompt": "Medium close-up of Omar, the man from the character sheet, sitting in the driver's seat of a parked car in a parking lot at golden hour, olive bomber jacket, holding a plain black phone flat just below his mouth recording a voice note, the screen facing up and away from camera and dark, a paper bag of party supplies with no printing on the passenger seat, mock-panicked expression. Upright vertical composition, level horizon, car is stationary. No logos on the steering wheel or dashboard. The sun visor is folded up flat with no stickers or labels; no warning labels anywhere in the car."
+    },
+    {
+      "id": "S04",
+      "t0": 7.4,
+      "t1": 9.4,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "handheld, follows her",
+      "action": "Leah thumbs a quick reply, sets the phone down and pulls the fridge door open; cool fridge light hits her face.",
+      "product_state": "about to enter (inside the fridge door)",
+      "audio": "fridge seal pops, hum",
+      "caption": "",
+      "refs": [
+        "leah",
+        "apartment"
+      ],
+      "keyframe_prompt": "Medium shot of Leah, the woman from the character sheet, in her charcoal blazer, pulling open the door of the silver fridge in the apartment kitchen from the location reference, cool white fridge light on her face, a determined look, a plain black phone face-down in her other hand. The inside of the fridge is mostly out of view, just white shelves and cool light."
+    },
+    {
+      "id": "S05",
+      "t0": 9.4,
+      "t1": 11.6,
+      "beat": "product",
+      "framing": "macro insert",
+      "camera": "locked off",
+      "action": "Her hand takes the can from the fridge door shelf; cold condensation on the label.",
+      "product_state": "hero, upright, label to camera",
+      "audio": "fridge hum, can scrapes the shelf",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Macro insert inside a fridge door: a woman's hand with short natural nails taking the exact can from the product reference off a white fridge door shelf, label facing camera, upright and undistorted, cold condensation drops, lit by the cool fridge light as the brightest object in frame, a carton of eggs and a plain glass bottle of water blurred beside it. No other cans. One single continuous photograph: no inset images, no picture-in-picture, no phone in frame."
+    },
+    {
+      "id": "S06",
+      "t0": 11.6,
+      "t1": 14.8,
+      "beat": "product",
+      "framing": "medium close-up",
+      "camera": "handheld, slight push-in",
+      "action": "At the counter she cracks the can, takes a sip, lowers it to chest height and says the line to herself; she pockets the phone and rolls up her sleeves.",
+      "product_state": "in hand at chest height, label readable after the sip",
+      "audio": "can crack (registers the moment), dialogue",
+      "caption": "Red Bull Sugarfree. Okay. Focus.",
+      "refs": [
+        "leah",
+        "product",
+        "apartment"
+      ],
+      "keyframe_prompt": "Medium close-up of Leah, the woman from the character sheet, at the white kitchen counter in the apartment, blazer off and sleeves of her white T-shirt pushed up, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, just lowered from a sip, a small rallying grin, late afternoon window light, an unopened plain clear plastic bag of sky-blue and silver balloons with no printing and no label blurred on the counter behind."
+    },
+    {
+      "id": "S07",
+      "t0": 14.8,
+      "t1": 17.4,
+      "beat": "build",
+      "framing": "medium wide",
+      "camera": "handheld",
+      "action": "Montage one: on a step stool in the living room she tapes up a blank paper garland while a cluster of sky-blue and silver balloons floats beside her.",
+      "product_state": "absent",
+      "audio": "tape, balloon squeak, upbeat score",
+      "caption": "",
+      "refs": [
+        "leah",
+        "apartment"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon. Medium wide shot of Leah, the woman from the character sheet, in her white T-shirt and black jeans, standing on a small step stool in the living room from the location reference, taping up a plain white paper garland with no writing along the wall, a cluster of plain sky-blue and silver balloons tied to the sofa beside her, focused and fast, early evening light."
+    },
+    {
+      "id": "S08",
+      "t0": 17.4,
+      "t1": 20.0,
+      "beat": "build",
+      "framing": "close-up",
+      "camera": "locked off, overhead three-quarter",
+      "action": "Montage two: she sweeps white frosting smooth on a round cake and scatters sky-blue sprinkles; string lights flick on behind.",
+      "product_state": "absent",
+      "audio": "spatula scrape, lights click on",
+      "caption": "",
+      "refs": [
+        "leah",
+        "apartment"
+      ],
+      "keyframe_prompt": "Close-up from a high three-quarter angle: Leah's hands, the woman from the character sheet, smoothing white frosting on a round layer cake with an offset spatula on the white kitchen counter, a scatter of sky-blue and silver sprinkles, the cake has no writing and no candles yet, warm string lights just switched on and blurred in the background."
+    },
+    {
+      "id": "S09",
+      "t0": 20.0,
+      "t1": 24.5,
+      "beat": "payoff",
+      "framing": "wide from behind the door",
+      "camera": "handheld, eye level",
+      "action": "Lights off, the door opens, Jules steps in; Leah, Omar and a friend jump up from behind the sofa under the string lights and balloons; Jules laughs in disbelief.",
+      "product_state": "absent",
+      "audio": "door, shout, laughter, party poppers",
+      "caption": "Surprise! / You did all this?",
+      "refs": [
+        "jules",
+        "leah",
+        "omar",
+        "apartment"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon. Wide shot in the decorated living room from the location reference at night, warm string lights, plain sky-blue and silver balloons and a blank white paper garland: Jules, the man from the third character sheet, has just stepped through the front door on the right, hand on his head, laughing in disbelief. Leah, the woman from the first character sheet, Omar, the man from the second character sheet, and a young woman friend jump up from behind the grey sofa with arms raised and party poppers bursting confetti. Nobody holds a drink. Joyful, candid."
+    },
+    {
+      "id": "S10",
+      "t0": 24.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert, the photo she sends",
+      "camera": "handheld phone photo, then held",
+      "action": "The can stands on the counter beside the finished cake and confetti under warm party bokeh; the frame shrinks into a photo bubble sent to the thread (post), then the caption bubble and the endcard.",
+      "product_state": "hero, upright on the counter, label to camera",
+      "audio": "party chatter, photo shutter, sent swoosh",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "apartment"
+      ],
+      "keyframe_prompt": "Candid photo, as if taken on a phone, of the exact can from the product reference standing upright on the white stone kitchen counter, label facing camera and undistorted, condensation drops, beside the finished round white frosted cake with sky-blue sprinkles and no writing, a few pieces of silver confetti on the counter, behind it only warm string-light bokeh on a plain wall and two plain sky-blue balloons with no print; no garland, no banner, no bunting in view. The can is the brightest and sharpest object in frame. Clean empty counter and soft background in the upper third for a chat bubble. No phone, hands or people in the frame."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 9.4,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 10,
+      "exact_risk": false,
+      "refs": [
+        "leah card",
+        "omar card",
+        "apartment plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone footage, natural handheld phone-camera look, realistic late afternoon light. Every phone screen is dark and blank with no interface, icons or text. Shot 1 (0 to 2.2 s): locked overhead close-up of a plain black phone lying face-up on a white stone counter, buzzing three times, the dark screen glowing faintly. Shot 2 (2.2 to 5 s): @Image1 (Leah, copper-red curls, charcoal blazer, tote bag on her shoulder) in the kitchen of @Image3 picks up the phone, screen tilted away, reads it and deflates: \"Decor AND cake. Tonight.\" Shot 3 (5 to 7.4 s): @Image2 (Omar, beard, olive bomber) in the driver's seat of a parked car records a voice note, phone held flat below his mouth: \"Two hours, Leah. You good?\" Shot 4 (7.4 to 10 s): Leah thumbs a quick reply, then pulls the silver fridge door open, cool light on her face. Native sound: phone buzz, tote bag, car interior hush, fridge seal. No music. No text on screen."
+    },
+    {
+      "id": "U2",
+      "t0": 9.4,
+      "t1": 14.8,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "leah card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone footage. Shot 1 (0 to 2.2 s): locked macro insert inside a fridge door, a woman's hand takes the exact can from @Image1 off the door shelf, label to camera, upright and undistorted, cold condensation. Shot 2 (2.2 to 6 s): medium close-up of @Image2 (Leah) at the kitchen counter, sleeves pushed up, she cracks the can, takes one sip, lowers it to chest height with the label readable, and says to herself with a rallying grin: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Okay. Focus.\" Keep the can's shape, colours, wordmark and bulls exactly as @Image1. Native sound: fridge hum, the can crack, her voice. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 14.8,
+      "t1": 24.5,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 10,
+      "exact_risk": false,
+      "refs": [
+        "leah card",
+        "omar card",
+        "jules card",
+        "apartment plate",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone footage, early evening turning to night. Shot 1 (0 to 2.6 s): @Image1 (Leah) on a step stool in the living room of @Image4 tapes up a plain white paper garland with no writing, plain sky-blue and silver balloons beside her. Shot 2 (2.6 to 5.2 s): high three-quarter close-up of her hands smoothing white frosting on a round cake and scattering sky-blue sprinkles, no writing on the cake, warm string lights click on behind. Shot 3 (5.2 to 10 s): wide in the dark decorated living room, the front door on the right opens and @Image3 (Jules, navy overshirt) steps in; Leah, @Image2 (Omar) and a young woman friend jump up from behind the sofa shouting \"Surprise!\" with party poppers; Jules laughs, hand on his head: \"You did all this?\" Nobody holds a drink. Upright, level horizon. Native sound: tape, spatula, lights clicking, door, shout, laughter, poppers. No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 24.5,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid phone-photo look, held almost still with a tiny handheld drift: the exact can from @Image1 standing upright on a white stone kitchen counter beside a white frosted cake with sky-blue sprinkles and no writing, silver confetti, label to camera, condensation, warm string-light bokeh and blurred party guests moving behind. The can does not move or change. Keep the upper third soft and empty. Native sound: party chatter and laughter in the next room, a phone shutter click. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "the thread",
+      "t0": 0,
+      "t1": 9.4,
+      "brief": "Sparse, curious plucked synth and finger snaps, 112 bpm in F major, leaves space for buzzes and pops, a small tension riser under the fridge door."
+    },
+    {
+      "section": "on it",
+      "t0": 9.4,
+      "t1": 20,
+      "brief": "Drops in fully on the can crack: bouncy upbeat indie-pop with claps and a bass line, each montage tick lands on a beat."
+    },
+    {
+      "section": "surprise and send",
+      "t0": 20,
+      "t1": 30,
+      "brief": "Cuts to silence for one beat as the door opens, explodes on Surprise with a big chorus lift, then settles warm under the photo message and tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0.3,
+      "sound": "notification buzz and soft ding per banner (0.3, 0.9, 1.5 s)",
+      "why": "the hook is the notification stack; each banner must land"
+    },
+    {
+      "t": 5.1,
+      "sound": "voice-note start blip",
+      "why": "tells the viewer Omar's line is a voice note in the thread"
+    },
+    {
+      "t": 11.8,
+      "sound": "can crack and fizz",
+      "why": "the product moment must register; only added if the native crack is weak"
+    },
+    {
+      "t": 14.4,
+      "sound": "sent swoosh",
+      "why": "her reply is the turn of the story"
+    },
+    {
+      "t": 25.2,
+      "sound": "phone shutter click then sent swoosh",
+      "why": "the CTA photo being sent to the thread"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "leah",
+      "plan": "native in U1, then her U1 vocal stem as voice reference for U2, U3 and the tagline"
+    },
+    {
+      "speaker": "omar",
+      "plan": "native in U1 (voice note, light phone-mic EQ in post); shout in U3 uses his U1 stem"
+    },
+    {
+      "speaker": "jules",
+      "plan": "native in U3"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0.3,
+      "t1": 2.2,
+      "text": "Notification banners over the phone in S01, dropping from the top and stacking: 0.3 s 'Omar: guests at 7. he suspects NOTHING', 0.9 s 'Omar: leah you still on decor + cake??', 1.5 s 'Maya: jules left work EARLY 👀'",
+      "sub": "each banner shows a blank circular avatar and the chat name 'Jules turns 30 🤫'",
+      "style": "frosted translucent white banners, 20px radius, Inter SemiBold sender and Inter Regular message, drop in over 6 frames with a slight overshoot, pinned to the phone screen with a 2D track"
+    },
+    {
+      "t0": 2.2,
+      "t1": 5.0,
+      "text": "Chat panel in the lower 45% of frame, header 'Jules turns 30 🤫'. The three messages as incoming grey bubbles; typing dots from Leah at 3.6 s; 4.4 s Leah (outgoing, sky blue): 'just got home. running on empty'",
+      "sub": "",
+      "style": "full-width chat card over the live action with an 85% white background, bubbles per caption_look.chat_ui, panel scrolls up 1 bubble at a time"
+    },
+    {
+      "t0": 5.0,
+      "t1": 7.4,
+      "text": "Omar voice-note bubble (incoming): waveform with play head, duration '0:02'",
+      "sub": "",
+      "style": "grey incoming bubble with a small blank avatar, play head moves with his spoken line; spoken caption shown separately at 30% down the frame"
+    },
+    {
+      "t0": 7.8,
+      "t1": 9.4,
+      "text": "Leah (outgoing): 'hold on'",
+      "sub": "",
+      "style": "single sky-blue bubble sliding in bottom right over the fridge shot"
+    },
+    {
+      "t0": 14.2,
+      "t1": 14.8,
+      "text": "Leah (outgoing): 'ok. i'm on it'",
+      "sub": "'Seen by 4' receipt under it at 14.6 s",
+      "style": "sky-blue bubble pops in with a 4 frame scale bounce, sent swoosh"
+    },
+    {
+      "t0": 14.8,
+      "t1": 20.0,
+      "text": "Montage bubbles in a compact panel at the top 30% of frame: 15.2 s Omar 'status??', 16.2 s Leah 'balloons ✅', 17.8 s Leah 'cake ✅', 18.9 s Leah 'lights ✅', 19.5 s Omar 'who ARE you'",
+      "sub": "",
+      "style": "each bubble on screen at least 0.8 s before the next; only the first and last bubble get a pop sound"
+    },
+    {
+      "t0": 20.0,
+      "t1": 20.8,
+      "text": "Notification banner: 'Maya: HE'S HERE'",
+      "sub": "",
+      "style": "single banner drops over the dark room as the door opens, then clears"
+    },
+    {
+      "t0": 24.8,
+      "t1": 30,
+      "text": "The S10 frame shrinks into a rounded photo bubble sent by Leah in the chat; 26.0 s Leah bubble 'wiiings without sugar 🪽'; 26.8 s Omar 'LEGEND'; 27.4 s endcard 'Red Bull Sugarfree' with 'Wiiings without sugar' beneath, over the full-frame can",
+      "sub": "Wiiings without sugar",
+      "style": "photo bubble scales from full frame to a 70% width bubble in 10 frames then back to full frame at 27.4 s for the endcard; endcard Inter Tight Bold white centred in the empty upper third"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (tagline form)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

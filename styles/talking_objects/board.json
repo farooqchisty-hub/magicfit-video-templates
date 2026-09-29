@@ -1,0 +1,584 @@
+{
+  "id": "talking_objects-01-fridge-politics",
+  "style": "talking_objects",
+  "title": "Fridge Politics",
+  "logline": "Midnight on shelf two: the fridge is holding an election. The cola promises more sugar, the juice says it's basically breakfast, and the quiet silver candidate is {product}. Then a real voter opens the door.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "Inside an ordinary North American family fridge at midnight, shelf two, set up as a tiny election debate: bottle-cap podiums, a butter dish moderator, an egg carton audience, a jar of pickles and a mustard bottle in the back row. The fridge door is the edge of the world; a night-shift nurse is the only voter who counts.",
+    "palette": "Neutral fridge white and cool bulb blue; each candidate owns one loud colour (cola purple and gold, juice orange, butter yellow); the product owns sky blue and silver, the only cool colour among the candidates.",
+    "fictional_brands": [
+      "Fizzwell Cola (clear straight-sided glass bottle of dark fizzy cola, plain purple label with one gold star, no letters; deliberately NOT a contour bottle or a red label, which would read as a real market leader)",
+      "Brightbloom Orange Juice (carton, plain orange panel with a simple orange-slice drawing, no letters)"
+    ],
+    "rules": "All other labels, jars and notes are blank. Only one can of the product exists in the fridge. Objects move and talk only while the door is shut; when a human looks, they freeze like ordinary objects. The can's face follows the style's face placement rule: eyes on the lid peeking over the rim, label untouched, the pull tab is its mouth, no arms."
+  },
+  "cast": [
+    {
+      "id": "fizz",
+      "name": "Buck Fizzwell",
+      "role": "the cola candidate, a glass cola bottle",
+      "look": "clear glass straight-sided bottle full of dark fizzy cola with rising bubbles with a gold metal cap, a plain purple label with a single gold star and no letters; face on the label: bushy white animated eyebrows, a big toothy politician grin, glossy eyes; thin black noodle arms that point and fist-pump",
+      "voice": "man, 60s, booming Boston Irish American politician, backslapping",
+      "card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Buck Fizzwell: a clear glass straight-sided bottle full of dark fizzy cola with rising bubbles with a gold metal cap and a plain purple label with a single gold star, no letters, with an expressive 3D animated face on the label: bushy white eyebrows, glossy eyes with catchlights, a big toothy politician grin, thin black noodle arms giving a thumbs up. Photoreal glass and condensation. No text or letters anywhere."
+    },
+    {
+      "id": "juice",
+      "name": "Brenda Brightbloom",
+      "role": "the juice candidate, an orange juice carton",
+      "look": "tall gable-top orange juice carton, plain orange panel with a simple orange-slice drawing and no letters; face on the front panel: long animated eyelashes, rosy cheeks, a sweet but smug smile; thin white noodle arms clasped politely",
+      "voice": "woman, 50s, sugary-sweet Midwestern PTA-president voice",
+      "card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Brenda Brightbloom: a tall gable-top orange juice carton with a plain orange panel and a simple orange-slice drawing, no letters, with an expressive 3D animated face on the front panel: long eyelashes, glossy eyes with catchlights, rosy cheeks, a sweet but smug smile, thin white noodle arms clasped politely. Photoreal carton with slight condensation. No text or letters anywhere."
+    },
+    {
+      "id": "pat",
+      "name": "Moderator Pat",
+      "role": "debate moderator, a block of butter in a glass butter dish",
+      "look": "a pale yellow stick of butter sitting in a clear glass butter dish with the lid tipped back like a hat; face on the butter: small rectangular reading glasses, calm serious eyes, a neat straight mouth",
+      "voice": "man, 30s, Korean American, smooth evening-news anchor, deadpan",
+      "card_prompt": "Character sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and side views of the same character. Moderator Pat: a pale yellow stick of butter in a clear glass butter dish with the glass lid tipped back like a hat, with an expressive 3D animated face on the butter: small rectangular reading glasses, calm serious glossy eyes, a neat straight mouth, a news-anchor expression. Photoreal butter and glass. No text or letters anywhere."
+    },
+    {
+      "id": "marisol",
+      "name": "Marisol Vega",
+      "role": "the voter, a night-shift nurse",
+      "look": "woman, 44, Mexican American, dark hair in a messy bun, warm brown eyes with tired shadows, small gold hoop earrings, navy scrubs with a plain lanyard and blank badge",
+      "voice": "woman, 40s, low, tired, dry humour, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Marisol Vega: 44, Mexican American, dark hair in a messy bun, warm brown eyes with tired shadows, small gold hoop earrings, navy scrubs with a plain lanyard and a blank badge, tired but amused expression. Photoreal, neutral soft studio light, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "fridge",
+      "name": "Shelf two at midnight",
+      "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary white family refrigerator at night seen at shelf height, a glass shelf with three upturned bottle caps set out in a row like tiny debate podiums, an open egg carton of white eggs to one side like an audience, a clear glass butter dish, a pickle jar and a mustard bottle with blank labels in the soft-focus back, frost on the back wall, cold white-blue fridge bulb light from the top back, condensation on the glass shelf. No characters with faces, no readable text, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "the product is a candidate in the fridge and the voter takes it for her shift",
+      "scale": "object among objects"
+    },
+    "applied": {
+      "moment": "the election is held in the bathroom cabinet; the voter reaches for the product before work",
+      "scale": "object among objects"
+    },
+    "worn": {
+      "moment": "the election is held in the wardrobe or shoe rack; the voter pulls the product on",
+      "scale": "object among objects"
+    },
+    "handheld": {
+      "moment": "the election is held in the junk drawer or desk; the voter grabs the product on her way out",
+      "scale": "object among objects"
+    },
+    "carried": {
+      "moment": "the election is held on the coat hooks by the door; the voter picks the product up",
+      "scale": "object among objects"
+    },
+    "home": {
+      "moment": "the election is held in the living room among the furniture; the voter sinks into or switches on the product",
+      "scale": "room, the human is still a giant"
+    },
+    "consumable": {
+      "moment": "the election is held in the pantry or cupboard; the voter takes the product for the day",
+      "scale": "object among objects"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "The fridge light clicks on and a cola bottle with a politician's grin is mid-stump speech on a bottle-cap podium."
+    },
+    {
+      "id": "setup",
+      "t": "3-9",
+      "summary": "The juice carton makes her pitch; the butter-dish moderator calls on the third candidate; the silver can slides into place."
+    },
+    {
+      "id": "product",
+      "t": "9-15",
+      "summary": "The can's calm pitch, label to camera: the brand line and the benefit. The cola scoffs."
+    },
+    {
+      "id": "build",
+      "t": "15-22",
+      "summary": "The door swings open: everyone freezes. A tired nurse looks in, says why she needs it, and her hand reaches past the cola and juice for the can."
+    },
+    {
+      "id": "payoff",
+      "t": "22-26",
+      "summary": "Door shut: the eggs erupt, the moderator calls it, the cola asks for a recount."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "The can on the counter by her keys, heading to the night shift, gives a wink. Tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.7",
+      "speaker": "fizz",
+      "on_camera": true,
+      "line_intent": "Hook: the loudest rival pitches the exact thing the product is proud not to have.",
+      "line": "My fellow leftovers! More sugar for everyone!",
+      "delivery": "booming stump-speech, fist pump, crowd-baiting",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "2.9-4.8",
+      "speaker": "juice",
+      "on_camera": true,
+      "line_intent": "The second rival's pitch: the wholesome-sounding alternative, played for a laugh.",
+      "line": "Vote for me. I'm basically breakfast.",
+      "delivery": "sugary-sweet, a little smug, fluttering lashes",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "5.2-6.6",
+      "speaker": "pat",
+      "on_camera": true,
+      "line_intent": "The moderator hands the floor to the product.",
+      "line": "And the silver can?",
+      "delivery": "deadpan news anchor, peering over his glasses",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "9.4-12.4",
+      "speaker": "can",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and its one benefit, calm and confident, from an allowed claim only.",
+      "line": "Red Bull Sugarfree. Same benefits. No sugar.",
+      "delivery": "cool, dry, unbothered, woman in her 30s, the pull tab flapping as she talks",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S05"
+    },
+    {
+      "id": "L5",
+      "t": "13.0-14.8",
+      "speaker": "fizz",
+      "on_camera": true,
+      "line_intent": "The rival dismisses the product; sets up the reversal.",
+      "line": "Ha! Nobody picks the quiet one.",
+      "delivery": "scoffing belly laugh",
+      "shot": "S06"
+    },
+    {
+      "id": "L6",
+      "t": "16.8-18.8",
+      "speaker": "marisol",
+      "on_camera": true,
+      "line_intent": "The real user states the need in her own words (the use moment).",
+      "line": "Long shift. I need to focus.",
+      "delivery": "tired, to herself, rubbing her eye",
+      "claim": "Caffeine helps to improve concentration (the need, not a promise)",
+      "shot": "S08"
+    },
+    {
+      "id": "L7",
+      "t": "22.8-24.4",
+      "speaker": "pat",
+      "on_camera": true,
+      "line_intent": "Payoff: the world declares the product the winner.",
+      "line": "The people have spoken!",
+      "delivery": "losing his anchor cool, delighted",
+      "shot": "S10"
+    },
+    {
+      "id": "L8",
+      "t": "25.0-25.7",
+      "speaker": "fizz",
+      "on_camera": true,
+      "line_intent": "Button: the rival's sore-loser joke.",
+      "line": "Recount?",
+      "delivery": "small, deflated, to the juice",
+      "shot": "S10"
+    },
+    {
+      "id": "L9",
+      "t": "27.4-29.4",
+      "speaker": "can",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "cool, a smile in the voice, after a wink",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S11"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.8,
+      "beat": "hook",
+      "framing": "medium close-up",
+      "camera": "the fridge light clicks on, then a slow push-in",
+      "action": "Buck Fizzwell the cola bottle stands on an upturned bottle cap like a podium, noodle arm raised in a fist pump, mid stump speech.",
+      "product_state": "absent",
+      "audio": "fridge light click, hum, dialogue, egg murmurs",
+      "caption": "My fellow leftovers! More sugar for everyone!",
+      "refs": [
+        "fizz",
+        "fridge"
+      ],
+      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Buck Fizzwell, the cola bottle from the character sheet, standing on an upturned bottle cap like a podium on the glass shelf, his animated face on the plain red label mid-shout with a huge toothy politician grin and bushy white eyebrows raised, one thin black noodle arm raised in a fist pump, condensation on the glass, cold white-blue fridge light from above. Eggs in an open carton blurred in the foreground like an audience. The cola bottle's purple label has only a single gold star, no letters."
+    },
+    {
+      "id": "S02",
+      "t0": 2.8,
+      "t1": 5.0,
+      "beat": "setup",
+      "framing": "medium close-up",
+      "camera": "locked off",
+      "action": "Brenda Brightbloom the juice carton at the next podium, lashes fluttering, noodle hands clasped, smug.",
+      "product_state": "absent",
+      "audio": "fridge hum, dialogue",
+      "caption": "Vote for me. I'm basically breakfast.",
+      "refs": [
+        "juice",
+        "fridge"
+      ],
+      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Brenda Brightbloom, the orange juice carton from the character sheet, standing behind an upturned bottle cap podium on the glass shelf, her animated face on the plain orange panel fluttering long eyelashes with a sweet smug smile, thin white noodle arms clasped politely, cold fridge light, frost on the back wall. The carton has only a simple orange-slice drawing, no letters."
+    },
+    {
+      "id": "S03",
+      "t0": 5.0,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "locked off",
+      "action": "Moderator Pat, the butter in his glass dish, peers over his glasses; the egg-carton audience turns to look.",
+      "product_state": "absent",
+      "audio": "egg murmurs, dialogue",
+      "caption": "And the silver can?",
+      "refs": [
+        "pat",
+        "fridge"
+      ],
+      "keyframe_prompt": "Medium shot inside the fridge from the location reference: Moderator Pat, the stick of butter in a clear glass butter dish from the character sheet, the glass lid tipped back like a hat, peering over small rectangular reading glasses with a deadpan news-anchor face, turning toward screen right. Beside him an open carton of white eggs, each egg with simple dot eyes, all turned the same way to look. Cold fridge light, condensation."
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.0,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "locked off, slightly above the rim",
+      "action": "The silver can slides into the third podium spot with a puff of cold mist, its eyes rising over the rim.",
+      "product_state": "entering, upright, label to camera",
+      "audio": "a cool glassy slide, a puff of mist",
+      "caption": "",
+      "refs": [
+        "product",
+        "fridge"
+      ],
+      "keyframe_prompt": "Medium shot inside the fridge from the location reference, camera slightly above the can's rim: the exact can from the product reference slides upright into place on the glass shelf beside an upturned bottle cap, trailing a puff of cold mist, front label facing camera, fully visible and undistorted, condensation beads. Its face is only two small glossy animated eyes peeking up over the top rim, sitting on the silver lid either side of the pull tab, cool and confident; no face, mouth or arms on the label. It is the only can in the fridge. Cold white-blue fridge light with a clean rim on the can."
+    },
+    {
+      "id": "S05",
+      "t0": 9.0,
+      "t1": 12.8,
+      "beat": "product",
+      "framing": "close-up",
+      "camera": "slow push-in, 15 degrees above the rim",
+      "action": "Hero close-up: the can at its podium, label to camera, eyes over the rim, the pull tab flapping as it talks, calm.",
+      "product_state": "hero, upright, closed, label facing camera",
+      "audio": "fridge hum, dialogue, a single egg gasp",
+      "caption": "Red Bull Sugarfree. Same benefits. No sugar.",
+      "refs": [
+        "product",
+        "fridge",
+        "fizz",
+        "juice"
+      ],
+      "keyframe_prompt": "Hero close-up inside the fridge from the location reference, camera only 10 to 15 degrees above the rim so the can's full slim height and its lid both show: the exact can from the product reference standing upright on the glass shelf, front label facing camera, fully visible and undistorted, frosty condensation beads, crisp cool rim light. Its face is only two small glossy animated eyes with catchlights peeking up over the top rim, sitting on the silver lid either side of the pull tab, with tiny floating brows in a calm confident look; the pull tab is slightly lifted like a mouth mid-word. No face, mouth or arms on the label. Out of focus in the background only the purple-labelled clear cola bottle and the orange juice carton from their character sheets, with no letters; no other bottles or cartons. The can is the brightest object in frame."
+    },
+    {
+      "id": "S06",
+      "t0": 12.8,
+      "t1": 15.0,
+      "beat": "product",
+      "framing": "medium close-up",
+      "camera": "locked off",
+      "action": "Buck Fizzwell throws his head back in a scoffing belly laugh, arms on his label like hips.",
+      "product_state": "absent",
+      "audio": "belly laugh, dialogue",
+      "caption": "Ha! Nobody picks the quiet one.",
+      "refs": [
+        "fizz",
+        "fridge"
+      ],
+      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Buck Fizzwell, the cola bottle from the character sheet, on his bottle-cap podium, tilting back in a scoffing belly laugh, eyes squeezed shut, mouth wide open, noodle arms on his sides like hands on hips, bubbles fizzing up inside the dark cola, cold fridge light. The cola bottle's purple label has only a single gold star, no letters."
+    },
+    {
+      "id": "S07",
+      "t0": 15.0,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "wide shelf",
+      "camera": "fast whip then locked",
+      "action": "The door swings open: warm kitchen light floods in and every object freezes into an ordinary object, faces neutral and still.",
+      "product_state": "background, upright, label to camera",
+      "audio": "door seal pop, a blast of kitchen room tone, silence from the shelf",
+      "caption": "",
+      "refs": [
+        "fridge",
+        "fizz",
+        "juice",
+        "product"
+      ],
+      "keyframe_prompt": "Wide shot of the whole shelf inside the fridge from the location reference at the instant the door opens: bright warm kitchen light floods in from the left, the cola bottle from its character sheet, the orange juice carton from its character sheet and the exact can from the product reference stand in a row on their bottle-cap podiums, all frozen still like ordinary objects, faces neutral and motionless, arms dropped flat; the can's two small eyes on its lid are fixed and still, its label facing camera and undistorted, the only can in the fridge. Eggs frozen in their carton. Labels have no letters except the product's."
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 19.4,
+      "beat": "build",
+      "framing": "medium close-up from inside the fridge",
+      "camera": "low POV from the shelf looking out and up",
+      "action": "From the shelf's point of view: Marisol in navy scrubs, lit by the fridge, tired, rubbing one eye, looking in.",
+      "product_state": "absent",
+      "audio": "fridge hum, dialogue",
+      "caption": "Long shift. I need to focus.",
+      "refs": [
+        "marisol"
+      ],
+      "keyframe_prompt": "Low point-of-view shot from inside a refrigerator looking out and up past the edge of a glass shelf: Marisol, the woman from the character sheet, in navy scrubs with a plain lanyard, dark hair in a messy bun, leaning into the open fridge at midnight, her face lit cool white by the fridge light, rubbing one tired eye with the back of her hand, a dark kitchen behind her. Photoreal. The shelf edge in the foreground is empty glass with only a blurred jar lid at the very bottom corner; no cans, no bottles and no faces anywhere in this shot."
+    },
+    {
+      "id": "S09",
+      "t0": 19.4,
+      "t1": 22.6,
+      "beat": "build",
+      "framing": "insert",
+      "camera": "locked off",
+      "action": "Her hand reaches past the frozen cola and juice and closes around the can, lifting it upright with the label to camera.",
+      "product_state": "in hand, upright, closed, label facing camera",
+      "audio": "a cold glassy clink, fridge hum",
+      "caption": "",
+      "refs": [
+        "product",
+        "fizz",
+        "juice",
+        "fridge"
+      ],
+      "keyframe_prompt": "Insert shot inside the fridge from the location reference: a woman's hand with short nails and a navy scrubs sleeve reaches in past the frozen cola bottle and orange juice carton from their character sheets and closes around the exact can from the product reference, lifting it upright off the glass shelf, front label facing camera, fully visible and undistorted, fingers around the back of the can. The can's two small eyes on its lid are wide with a hint of delight. The cola and juice stand frozen, faces neutral. Warm kitchen light from outside, cool fridge light inside. Only one can of the product."
+    },
+    {
+      "id": "S10",
+      "t0": 22.6,
+      "t1": 26.0,
+      "beat": "payoff",
+      "framing": "medium wide",
+      "camera": "the door shuts to dark, the fridge light clicks back on, locked off",
+      "action": "Door shut, the gap where the can stood; the eggs erupt cheering, Pat throws his lid up like a hat, the cola turns to the juice deflated.",
+      "product_state": "absent (the empty podium where it stood)",
+      "audio": "door thud, light click, eggs cheering, dialogue",
+      "caption": "The people have spoken! / Recount?",
+      "refs": [
+        "pat",
+        "fizz",
+        "juice",
+        "fridge"
+      ],
+      "keyframe_prompt": "Medium wide shot inside the fridge from the location reference after the door has closed, cold fridge light: an empty upturned bottle-cap podium in the middle where the can stood; Moderator Pat, the butter in the glass dish from his character sheet, cheering with his glass lid flipped up in the air like a thrown hat; the white eggs in their open carton cheering with simple dot eyes and open mouths; on the left the cola bottle from its character sheet turned toward the orange juice carton from its character sheet with a deflated sheepish face, the juice rolling her eyes. Labels have only simple shapes, no letters."
+    },
+    {
+      "id": "S11",
+      "t0": 26.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert",
+      "camera": "slow push-in, slightly above the rim",
+      "action": "Kitchen counter by the front door at night: the can stands beside her keys and blank ID lanyard, label to camera, and gives one slow wink. Tagline and pack shot.",
+      "product_state": "hero, upright, closed, label facing camera",
+      "audio": "keys jingle off screen, a door opening to the night, score button",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Pack shot on a kitchen counter by the front door at night: the exact can from the product reference standing upright, front label facing camera, fully visible and undistorted, fresh condensation beads, beside a set of house keys and a plain lanyard with a blank ID badge, warm hallway light and a cool blue window behind, camera slightly above the rim. The can's face is only two small glossy animated eyes on its silver lid peeking over the rim, one eye closed in a slow wink; no face, mouth or arms on the label. The can is the brightest object in frame, clean dark space above it for a title."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 9.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "fizz card",
+        "juice card",
+        "pat card",
+        "fridge plate",
+        "product can official",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal macro inside a fridge at midnight, everyday objects with expressive 3D animated faces, cold white-blue fridge light, condensation. Shot 1 (0 to 2.8 s): the fridge light clicks on; @Image1 (Buck Fizzwell, a cola bottle with a politician's face) on a bottle-cap podium, fist-pumping with a noodle arm, booming: \"My fellow leftovers! More sugar for everyone!\" Shot 2 (2.8 to 5 s): @Image2 (Brenda, an orange juice carton with lashes) at the next podium, sweetly smug: \"Vote for me. I'm basically breakfast.\" Shot 3 (5 to 7 s): @Image3 (Pat, butter in a glass dish with reading glasses), deadpan, as the eggs turn to look: \"And the silver can?\" Shot 4 (7 to 9 s): the exact can from @Image5 slides upright into the third spot with a puff of cold mist, label to camera; its only face is two small eyes rising over the top rim on the lid, no face on the label. Native sound: fridge hum, light click, egg murmurs. No music. No text, labels blank except the product."
+    },
+    {
+      "id": "U2",
+      "t0": 9.0,
+      "t1": 15.0,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "fizz card",
+        "fridge plate",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal macro inside a fridge. Shot 1 (0 to 3.8 s): slow push-in, camera slightly above the rim, on the exact can from @Image1 standing upright on the glass shelf, label to camera, frosty, undistorted. Its face is only two small glossy eyes on the silver lid peeking over the rim; the pull tab flaps like a mouth as it says, cool and dry (a woman's voice): \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Same benefits. No sugar.\" The label never moves, bends or grows a face. Shot 2 (3.8 to 6 s): @Image2 (the cola bottle) tilts back in a scoffing belly laugh: \"Ha! Nobody picks the quiet one.\" Keep the can's shape, colours, wordmark, bulls and gold sun exactly as @Image1. Native sound: fridge hum, one egg gasp, laugh. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 15.0,
+      "t1": 26.0,
+      "shots": [
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "marisol card",
+        "fizz card",
+        "juice card",
+        "pat card",
+        "fridge plate",
+        "product can official",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal. Shot 1 (0 to 1.6 s): the fridge door swings open, warm kitchen light floods the shelf and every object freezes like an ordinary object, faces neutral and still. Shot 2 (1.6 to 4.4 s): low POV from the shelf looking out: @Image1 (Marisol, a tired nurse in navy scrubs) leans in, rubs her eye, to herself: \"Long shift. I need to focus.\" Shot 3 (4.4 to 7.6 s): insert, her hand reaches past the frozen @Image2 (cola bottle) and @Image3 (juice carton) and lifts the exact can from @Image6 off the shelf, label to camera, undistorted; its lid eyes widen with delight. Shot 4 (7.6 to 11 s): door thuds shut, dark, the fridge light clicks back on; the eggs erupt cheering, @Image4 (Pat, butter in a glass dish) flips his lid up like a hat: \"The people have spoken!\" The cola turns to the juice, deflated: \"Recount?\" Objects only move while the door is closed. Native sound: door seal pop, kitchen room tone, clink, door thud, cheering. No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 26.0,
+      "t1": 30,
+      "shots": [
+        "S11"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S11 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal pack shot on a kitchen counter by the front door at night. Slow push-in, camera slightly above the rim, on the exact can from @Image1 standing upright beside house keys and a lanyard with a blank badge, label to camera, condensation, undistorted. Its only face is two small glossy eyes on the silver lid peeking over the rim; one eye gives a single slow wink. The can does not move, bend or grow a face on the label. Clean dark space above the can. Native sound: keys jingling off screen, a door opening to night crickets. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "campaign",
+      "t0": 0,
+      "t1": 9.0,
+      "brief": "Mock election fanfare: snare roll and pompous brass in B flat, 108 bpm, a little honky and small like a school band, ducking under each line."
+    },
+    {
+      "section": "the quiet one",
+      "t0": 9.0,
+      "t1": 15.0,
+      "brief": "The brass drops out; a cool muted vibraphone and upright bass groove under the can's line, then a tuba raspberry on the cola's laugh."
+    },
+    {
+      "section": "the vote",
+      "t0": 15.0,
+      "t1": 26.0,
+      "brief": "Hard stop to silence on the door opening (the freeze), a single held high string note while she chooses, then the full fanfare explodes on the door shut and a sad trombone for the recount."
+    },
+    {
+      "section": "button",
+      "t0": 26.0,
+      "t1": 30,
+      "brief": "The vibraphone groove returns, resolves on one warm chord under the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0.1,
+      "sound": "fridge light click",
+      "why": "the premise starts on the light; the click is the hook's first beat"
+    },
+    {
+      "t": 15.0,
+      "sound": "fridge door seal pop",
+      "why": "the freeze gag only works if the viewer registers the door"
+    },
+    {
+      "t": 22.6,
+      "sound": "door thud and egg crowd cheer",
+      "why": "the payoff cue"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "fizz",
+      "plan": "native voice in U1, then his U1 stem as voice reference for U2 and U3"
+    },
+    {
+      "speaker": "juice",
+      "plan": "native in U1 only"
+    },
+    {
+      "speaker": "pat",
+      "plan": "native in U1, U1 stem as reference for his U3 line"
+    },
+    {
+      "speaker": "can",
+      "plan": "cast a designed voice (woman, 30s, cool and dry) for the U2 line with TTS or native generation, then reuse it as the reference for the U4 tagline so the product sounds like the same character"
+    },
+    {
+      "speaker": "marisol",
+      "plan": "native in U3"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 27.2,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Poppins ExtraBold, white on a rounded sky-blue #2A9BD8 pill, centred in the dark space above the can, slides up 12 px and fades in over 8 frames"
+    },
+    {
+      "t0": 0.4,
+      "t1": 9.0,
+      "text": "Speaker name tags (Cola, Juice, Moderator) above each first caption",
+      "sub": "",
+      "style": "tiny Poppins SemiBold tag in the speaker's colour, per caption_look"
+    }
+  ],
+  "claims_used": [
+    "Same benefits of the original Energy Drink, without sugar",
+    "Caffeine helps to improve concentration (voiced as the user's need, not as a promise)"
+  ],
+  "cost_estimate": {
+    "seconds": 31,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.37,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

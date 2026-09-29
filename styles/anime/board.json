@@ -1,0 +1,538 @@
+{
+  "id": "anime-01-rookie-arc",
+  "style": "anime",
+  "title": "Rookie Arc",
+  "logline": "Final of the Harbor Cup skate tournament at sunset. A rookie has fallen twice, the three-time champion is laughing, and she has one run left. Her power-up is {product}.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "The fictional Harbor Cup, a street and bowl skateboarding tournament at the fictional Pier Nine Bowl on the waterfront of the fictional city of Port Kessel, at sunset, painted in anime style.",
+    "palette": "Sunset magenta, orange and deep violet sky; the hero and her power-up aura in sky blue and silver (from the can); the rival in charcoal and crimson.",
+    "fictional_brands": [
+      "Harbor Cup (the tournament; banners are blank solid sky blue in frame, the name appears only in post)",
+      "Pier Nine Bowl (the venue)",
+      "Kestrel Decks (Mika's board, plain sky-blue deck in frame, never lettered by the model)"
+    ],
+    "rules": "Every banner, scoreboard, jersey and deck is blank or solid colour. No lettering from the model; tournament name, name cards and SFX are added in post."
+  },
+  "cast": [
+    {
+      "id": "mika",
+      "name": "Mika Santos",
+      "role": "the rookie, hero",
+      "look": "woman, 22, Filipino American, black hair in a high ponytail with one sky-blue streak, big determined brown eyes, small white bandage on her left cheek, oversized silver-grey hoodie, black cargo shorts, sky-blue knee pads",
+      "voice": "bright, a little raspy, gets steel in it after the power-up, American",
+      "card_prompt": "Character model sheet on a plain pale grey background, three views side by side at the same scale: front, three-quarter and profile of the same young woman, full body. Mika Santos: 22, Filipino American, black hair in a high ponytail with one sky-blue streak, big determined brown eyes with bright highlights, small white bandage on her left cheek, oversized silver-grey hoodie with no print, black cargo shorts, sky-blue knee pads, plain white sneakers, holding a plain sky-blue skateboard with four wheels and no graphics. Determined underdog expression. Consistent design across all three views. No text."
+    },
+    {
+      "id": "dax",
+      "name": "Dax Holloway",
+      "role": "three-time champion, rival",
+      "look": "man, 25, Black American with deep brown skin, tall, silver-bleached undercut swept to one side, sharp amber eyes, smirk, black hoodie with crimson sleeves, crimson wristband, charcoal skateboard",
+      "voice": "smooth, lazy, cocky, American",
+      "card_prompt": "Character model sheet on a plain pale grey background, three views side by side at the same scale: front, three-quarter and profile of the same young man, full body. Dax Holloway: 25, Black American man with deep brown skin and a strong jaw, tall and lean, silver-bleached undercut swept to one side, sharp amber eyes, confident smirk, black hoodie with crimson sleeves and no print, crimson wristband, charcoal trousers, carrying a plain charcoal skateboard with four wheels and no graphics. Classic cocky anime rival. Consistent design across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "bowl",
+      "name": "Pier Nine Bowl at sunset",
+      "plate_prompt": "2D anime background art, vertical 9:16, upright vertical composition, level horizon: a concrete skate bowl on a harbour pier at golden-hour sunset, smooth curved walls with a steel coping edge, a crowd of simple silhouetted spectators behind a railing, blank solid sky-blue banners with no writing, harbour cranes and the sea behind, huge magenta and orange sky with a low sun and drawn light shafts. Hand-painted background art, cel shading, no people in the bowl, no text, no letters, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "she cracks and drinks it at the top of the bowl before her last run; the crack is the power-up",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "she applies it at the edge of the bowl (sunscreen, grip wax, balm) and the aura starts on her skin",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "she puts it on before the run (shoes, gloves, glasses, helmet) and the transformation sparks from it",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "she clicks, switches on or snaps it (earbuds, tool, gadget) and the power-up begins",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "she unzips it (backpack, case) and the glow spills out",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "a flashback to her room: the thing she trains with or sleeps on every night powers the memory",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "she tears the pack or refill open at the top of the bowl and the aura bursts out",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.4",
+      "summary": "Dramatic still of the rival, speed lines behind him, taunting the rookie."
+    },
+    {
+      "id": "setup",
+      "t": "2.4-7.0",
+      "summary": "The rookie on the concrete after her second fall, one run left; she refuses to quit."
+    },
+    {
+      "id": "product",
+      "t": "7.0-14.2",
+      "summary": "The power-up: the can held to the sun, the crack as a transformation cue, the aura, the brand line."
+    },
+    {
+      "id": "build",
+      "t": "14.2-20.4",
+      "summary": "She drops in with speed lines and launches the biggest air of the day over the rival's head."
+    },
+    {
+      "id": "payoff",
+      "t": "20.4-26.4",
+      "summary": "Dramatic still of the rival's shock, then she lands clean and the crowd erupts."
+    },
+    {
+      "id": "cta",
+      "t": "26.4-30",
+      "summary": "Painted pack shot of the can on the bowl's coping at sunset, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.2",
+      "speaker": "dax",
+      "on_camera": true,
+      "line_intent": "Hook: the rival dismisses the hero in one line, so the viewer instantly takes her side.",
+      "line": "Rookie. You'll never land it.",
+      "delivery": "lazy, cocky, looking down at her",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "2.8-4.4",
+      "speaker": "mika",
+      "on_camera": true,
+      "line_intent": "State the stakes: the hero is losing and has one chance left.",
+      "line": "Two falls. One run left.",
+      "delivery": "breathing hard, to herself, eyes down",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "5.2-6.6",
+      "speaker": "mika",
+      "on_camera": true,
+      "line_intent": "The hero refuses to quit and reaches for her edge.",
+      "line": "Not today.",
+      "delivery": "quiet, jaw set, steel coming into the voice",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "11.4-14.0",
+      "speaker": "mika",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and the one benefit the comeback needs, using an allowed claim only.",
+      "line": "Red Bull Sugarfree. Locked in, no sugar.",
+      "delivery": "calm and powerful after the sip, eyes glowing, a half smile",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Caffeine helps to improve concentration and increase alertness; without sugar",
+      "shot": "S06"
+    },
+    {
+      "id": "L5",
+      "t": "20.8-22.6",
+      "speaker": "dax",
+      "on_camera": true,
+      "line_intent": "The rival's reaction proves the power-up worked.",
+      "line": "No way. She's a rookie?",
+      "delivery": "stunned whisper, sweat drop",
+      "shot": "S09"
+    },
+    {
+      "id": "L6",
+      "t": "24.2-25.4",
+      "speaker": "mika",
+      "on_camera": true,
+      "line_intent": "Payoff: the hero's status has changed, in two words.",
+      "line": "Not anymore.",
+      "delivery": "cool, grinning, fist raised",
+      "shot": "S10"
+    },
+    {
+      "id": "L7",
+      "t": "27.4-29.4",
+      "speaker": "mika",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm, confident voiceover",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S11"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.4,
+      "beat": "hook",
+      "framing": "low-angle medium close-up, dramatic still",
+      "camera": "snap push-in, then freeze",
+      "action": "Dax stands on the bowl's coping above camera, board under his foot, smirking down, radial crimson speed lines exploding behind him against the sunset.",
+      "product_state": "absent",
+      "audio": "crowd murmur, a sharp shing on his eye glint, dialogue",
+      "caption": "Rookie. You'll never land it.",
+      "refs": [
+        "dax",
+        "bowl"
+      ],
+      "keyframe_prompt": "Dramatic still, low angle looking up at Dax, the young man from the character sheet (Black American with deep brown skin, silver-bleached undercut, amber eyes, black hoodie with crimson sleeves), standing on the steel coping edge of the skate bowl from the location reference, one foot on a plain charcoal skateboard with four wheels, smirking down at the viewer, a glint in one eye, radial crimson and black speed lines bursting behind him over the magenta sunset sky. Upright vertical composition, level horizon. No text, no speech bubbles."
+    },
+    {
+      "id": "S02",
+      "t0": 2.4,
+      "t1": 4.6,
+      "beat": "setup",
+      "framing": "high-angle wide",
+      "camera": "slow crane down",
+      "action": "Mika sits on the concrete at the bottom of the bowl after a fall, her sky-blue board flipped upside down beside her, the crowd silhouetted above.",
+      "product_state": "absent",
+      "audio": "board clatter settling, crowd groan, dialogue",
+      "caption": "Two falls. One run left.",
+      "refs": [
+        "mika",
+        "bowl"
+      ],
+      "keyframe_prompt": "High-angle wide shot looking down into the skate bowl from the location reference at sunset: Mika, the young woman from the character sheet (black high ponytail with one sky-blue streak, bandage on her left cheek, oversized silver-grey hoodie, sky-blue knee pads), sitting on the concrete at the bottom of the bowl after a fall, breathing hard, looking down, her plain sky-blue skateboard flipped upside down beside her showing exactly four wheels, silhouetted crowd at the railing above, long sunset shadows. Upright vertical composition, level horizon. No text."
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "extreme close-up",
+      "camera": "fast push-in on the eyes",
+      "action": "Mika's eyes snap up, determined, sunset reflected in them; her hand pulls the zip of the small backpack beside her.",
+      "product_state": "about to enter (inside the backpack, not visible)",
+      "audio": "wind, heartbeat thump, zip, dialogue",
+      "caption": "Not today.",
+      "refs": [
+        "mika"
+      ],
+      "keyframe_prompt": "Extreme close-up anime shot of Mika, the young woman from the character sheet: her big brown eyes snapping up in fierce determination with bright specular highlights and the sunset reflected in them, bandage on her left cheek, a sky-blue streak in her black hair blowing across the frame, soft horizontal speed lines at the edges. No text."
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.2,
+      "beat": "product",
+      "framing": "low-angle medium insert",
+      "camera": "locked, lens flare slides across",
+      "action": "Her hand raises the can against the low sun like a relic, condensation sparkling, label facing camera.",
+      "product_state": "hero, closed, upright, label facing camera",
+      "audio": "rising whoosh, a single bright chime",
+      "caption": "",
+      "refs": [
+        "product",
+        "mika"
+      ],
+      "keyframe_prompt": "Low-angle anime insert: a young woman's hand in a silver-grey hoodie sleeve raising the exact can from the product reference high against the low setting sun, the can upright, closed and undistorted with its label facing the viewer, drawn with clean cel shading and sparkling condensation, the label copied exactly from the product reference: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls facing each other in front of a gold sun, SUGARFREE in spaced red capitals. A drawn lens flare and light shafts around it, magenta and orange sky. The can is the sharpest, brightest object in the frame. No other text."
+    },
+    {
+      "id": "S05",
+      "t0": 9.2,
+      "t1": 11.2,
+      "beat": "product",
+      "framing": "macro insert, impact frame",
+      "camera": "locked, one-frame flash",
+      "action": "Her thumb cracks the ring pull; a burst of sky-blue and silver energy lines explodes outward from the opening like a power-up.",
+      "product_state": "opening, ring pull lifting, upright",
+      "audio": "can crack and fizz (the power-up cue), deep boom",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Anime macro insert of the top of the exact can from the product reference, upright, held in a young woman's bare hand with a silver-grey hoodie sleeve, no gloves, her thumb lifting the ring pull, a burst of fine sky-blue and silver radial energy lines and sparkles exploding outward from the opening, white impact flash, the upper label of the can with the red Red Bull wordmark still visible and undistorted, drawn with clean cel shading. Dramatic power-up moment. No text, no sound effect lettering."
+    },
+    {
+      "id": "S06",
+      "t0": 11.2,
+      "t1": 14.2,
+      "beat": "product",
+      "framing": "medium close-up",
+      "camera": "slow orbit around her",
+      "action": "Transformation: a sky-blue and silver aura rises around Mika, her ponytail lifts, her eyes glow blue; she lowers the can to chest height after the sip and says the line.",
+      "product_state": "open, in hand at chest height, label readable",
+      "audio": "aura hum, wind, dialogue",
+      "caption": "Red Bull Sugarfree. Locked in, no sugar.",
+      "refs": [
+        "mika",
+        "product"
+      ],
+      "keyframe_prompt": "Anime transformation shot, medium close-up of Mika, the young woman from the character sheet (black high ponytail with one sky-blue streak lifting in the wind, bandage on her left cheek, silver-grey hoodie), standing at the top of the skate bowl at sunset, a glowing sky-blue and silver energy aura rising around her body, her eyes glowing with blue light, a confident half smile. She holds the exact can from the product reference at chest height in one hand, open, upright, label facing the viewer and undistorted, drawn in clean cel shading, the can stays sharp and outside the glow. Magenta sunset sky behind. No text."
+    },
+    {
+      "id": "S07",
+      "t0": 14.2,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "extreme low angle",
+      "camera": "whip down with the drop-in",
+      "action": "Mika drops into the bowl, board nose pointing down the wall, radial speed lines, the aura trailing behind her like a comet tail.",
+      "product_state": "absent",
+      "audio": "wheels roaring on concrete, crowd rising",
+      "caption": "",
+      "refs": [
+        "mika",
+        "bowl"
+      ],
+      "keyframe_prompt": "Extreme low-angle dynamic anime shot from the bottom of the skate bowl: Mika, the young woman from the character sheet (black ponytail with a sky-blue streak, silver-grey hoodie, sky-blue knee pads), dropping in down the curved concrete wall toward the camera, riding a plain sky-blue skateboard with exactly four wheels, a sky-blue and silver aura trail behind her like a comet tail, strong radial speed lines, sunset sky above the bowl rim. Normal gravity, her feet on the board. No text."
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 20.4,
+      "beat": "build",
+      "framing": "wide silhouette",
+      "camera": "slow-motion sakuga pan following the air",
+      "action": "The biggest air of the day: Mika silhouetted against the giant low sun, grabbing her board, sailing high over Dax, who stands on the deck looking up.",
+      "product_state": "absent",
+      "audio": "wind rush, silence under the peak, then the crowd",
+      "caption": "",
+      "refs": [
+        "mika",
+        "dax",
+        "bowl"
+      ],
+      "keyframe_prompt": "Wide anime sakuga key visual, upright vertical composition, level horizon: Mika, the young woman from the character sheet, flying very high above the skate bowl in a huge air, filling the upper half of the frame, one hand grabbing her plain sky-blue skateboard, her ponytail streaming, silhouetted against a giant low orange sun that fills the frame behind her with a sky-blue aura outline, below her on the deck of the bowl Dax, the young man from the character sheet (deep brown skin, silver hair) in a black hoodie with crimson sleeves, small in frame, looking up at her. Sweeping magenta and violet sky, drawn light rays, silhouetted crowd. No text."
+    },
+    {
+      "id": "S09",
+      "t0": 20.4,
+      "t1": 23.0,
+      "beat": "payoff",
+      "framing": "close-up, dramatic still",
+      "camera": "freeze frame with a shake",
+      "action": "Dax frozen in shock, jaw dropped, a sweat drop on his temple, his smirk gone; flat monochrome crimson background.",
+      "product_state": "absent",
+      "audio": "record-scratch silence, dialogue",
+      "caption": "No way. She's a rookie?",
+      "refs": [
+        "dax"
+      ],
+      "keyframe_prompt": "Anime dramatic still, close-up of Dax, the young man from the character sheet (Black American with deep brown skin, silver-bleached undercut, amber eyes, black hoodie with crimson sleeves), frozen in comic shock, eyes wide with tiny pupils, jaw dropped, a single large sweat drop on his temple, drawn over a flat crimson background with pale diagonal hatching lines, limited palette. No text."
+    },
+    {
+      "id": "S10",
+      "t0": 23.0,
+      "t1": 26.4,
+      "beat": "payoff",
+      "framing": "medium, low angle",
+      "camera": "push-in, sparkles",
+      "action": "Mika lands clean on the deck, board under her feet, fist raised; the silhouetted crowd erupts behind her.",
+      "product_state": "absent",
+      "audio": "wheels landing, crowd erupts, dialogue",
+      "caption": "Not anymore.",
+      "refs": [
+        "mika",
+        "bowl"
+      ],
+      "keyframe_prompt": "Low-angle medium anime shot of Mika, the young woman from the character sheet (black ponytail with a sky-blue streak, bandage on her left cheek, silver-grey hoodie, sky-blue knee pads), standing on the deck of the skate bowl with one foot on her plain sky-blue skateboard, fist raised high, grinning, confident, sparkles in the air, the silhouetted crowd cheering behind her with blank solid sky-blue banners, sunset sky. Upright vertical composition, level horizon. No text."
+    },
+    {
+      "id": "S11",
+      "t0": 26.4,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert, pack shot",
+      "camera": "slow painted parallax push",
+      "action": "The open can stands on the steel coping of the bowl at sunset, sparkles drifting, the empty sky above for the title.",
+      "product_state": "hero, open, upright on the coping, label to camera",
+      "audio": "crowd fading, harbour wind, theme resolves",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "bowl"
+      ],
+      "keyframe_prompt": "Anime painted pack shot: the exact can from the product reference standing upright on the steel coping edge of the skate bowl from the location reference, label facing the viewer and undistorted, drawn with clean cel shading and sparkling condensation, label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Golden rim light from the low sun, a few sky-blue sparkles drifting, harbour and magenta sky behind, softly out of focus. Large empty sky in the top third of the frame for a title. Upright vertical composition, level horizon. No other text."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 7,
+      "exact_risk": false,
+      "refs": [
+        "dax card",
+        "mika card",
+        "bowl plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 2D anime, cel shading, hand-painted sunset background, skate tournament at a harbour bowl. Shot 1 (0 to 2.4 s): low-angle dramatic still of @Image1 (Dax) on the bowl's coping, a snap push-in then a freeze, crimson speed lines behind him, he smirks down and says lazily: \"Rookie. You'll never land it.\" Shot 2 (2.4 to 4.6 s): high-angle wide, slow crane down to @Image2 (Mika) sitting at the bottom of the bowl after a fall, board upside down beside her, she breathes hard and says to herself: \"Two falls. One run left.\" Shot 3 (4.6 to 7 s): fast push-in on Mika's eyes as they snap up, determined, she says quietly: \"Not today.\" Limited animation, held poses, anime timing. Native sound: crowd murmur, board clatter, wind, a heartbeat thump. No music. No text, no speech bubbles."
+    },
+    {
+      "id": "U2",
+      "t0": 7.0,
+      "t1": 14.2,
+      "shots": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "mika card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 2D anime power-up sequence at sunset. Shot 1 (0 to 2.2 s): locked low-angle insert, a hand raises the exact can from @Image1 against the low sun, closed, label to camera, a drawn lens flare slides across. Shot 2 (2.2 to 4.2 s): macro insert, the thumb cracks the ring pull and sky-blue and silver energy lines burst out of the opening with a white impact flash. Shot 3 (4.2 to 8 s): slow orbit around @Image2 (Mika) as a sky-blue aura rises around her, ponytail lifting, eyes glowing blue; she lowers the open can to chest height with the label readable and says calmly: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Locked in, no sugar.\" The can is drawn in cel shading but keeps the shape, colours, red wordmark, two red bulls, gold sun and SUGARFREE exactly as @Image1, and stays sharp outside the glow. Native sound: rising whoosh, the can crack and fizz, deep boom, aura hum. No music. No text."
+    },
+    {
+      "id": "U3",
+      "t0": 14.2,
+      "t1": 26.4,
+      "shots": [
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "mika card",
+        "dax card",
+        "bowl plate",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 2D anime action sequence at a harbour skate bowl, sunset. Shot 1 (0 to 2.4 s): extreme low angle, @Image1 (Mika) drops into the bowl toward camera on a plain sky-blue skateboard with four wheels, radial speed lines, a sky-blue aura trail. Shot 2 (2.4 to 6.2 s): sakuga moment, slow-motion wide as she launches a huge air, grabbing the board, silhouetted against a giant orange sun, sailing high over @Image2 (Dax) who looks up from the deck. Shot 3 (6.2 to 8.8 s): dramatic still of Dax frozen in shock on a flat crimson background, a sweat drop, he whispers: \"No way. She's a rookie?\" Shot 4 (8.8 to 13 s): Mika lands clean on the deck, board under her feet, raises a fist and grins: \"Not anymore.\" The crowd erupts. Normal gravity, the board stays one rigid deck with four wheels. Native sound: wheels roaring on concrete, wind rush, a beat of silence at the peak, the crowd. No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 26.4,
+      "t1": 30,
+      "shots": [
+        "S11"
+      ],
+      "len_s": 4,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S11 keyframe as first frame"
+      ],
+      "prompt": "9:16 2D anime painted pack shot. Slow parallax push toward the exact can from @Image1 standing upright and open on the steel coping of a skate bowl at sunset, label to camera, drawn in cel shading with sparkling condensation, golden rim light, a few sky-blue sparkles drifting past, the harbour and magenta sky softly behind. The can does not move or change shape. Keep the top third of the frame as empty sky. Native sound: distant crowd, harbour wind. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "underdog",
+      "t0": 0,
+      "t1": 7.0,
+      "brief": "J-rock style opening theme intro: a lone clean electric guitar riff over a muted kick, tense and wistful, in E minor, 150 bpm half-time feel; drops out under each line."
+    },
+    {
+      "section": "power-up",
+      "t0": 7.0,
+      "t1": 14.2,
+      "brief": "A riser and a snare roll build under the can, a full-band hit exactly on the crack, then driving drums and overdriven guitars kick in at full tempo."
+    },
+    {
+      "section": "final run",
+      "t0": 14.2,
+      "t1": 26.4,
+      "brief": "The chorus: soaring lead guitar melody, double-time drums, a cut to near-silence at the peak of the air, a huge return on the landing."
+    },
+    {
+      "section": "ending card",
+      "t0": 26.4,
+      "t1": 30,
+      "brief": "The riff resolves to E major, a final power chord that rings out, like an ending theme sting."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 9.4,
+      "sound": "can crack and fizz layered with a deep anime boom",
+      "why": "the crack is the power-up cue and must register over the music hit"
+    },
+    {
+      "t": 1.0,
+      "sound": "crystalline shing on Dax's eye glint",
+      "why": "classic rival cue that sells the anime grammar in the hook"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "mika",
+      "plan": "native voice from U1, then her U1 vocal stem as voice reference for U2, U3 and the tagline voiceover"
+    },
+    {
+      "speaker": "dax",
+      "plan": "native in U1, his U1 stem as voice reference for the U3 whisper"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0.4,
+      "t1": 2.2,
+      "text": "DAX HOLLOWAY",
+      "sub": "3x Harbor Cup champion",
+      "style": "anime name card: white Noto Sans Black on a crimson slanted bar sliding in from the left, lower left third"
+    },
+    {
+      "t0": 2.6,
+      "t1": 4.4,
+      "text": "MIKA SANTOS",
+      "sub": "Rookie",
+      "style": "anime name card: white Noto Sans Black on a sky-blue slanted bar sliding in from the left, lower left third"
+    },
+    {
+      "t0": 9.3,
+      "t1": 10.6,
+      "text": "KSSHH!",
+      "sub": "",
+      "style": "hand-drawn brush SFX lettering, white with a sky-blue outline, tilted 10 degrees, bursting from the can opening"
+    },
+    {
+      "t0": 20.5,
+      "t1": 22.8,
+      "text": "!?",
+      "sub": "",
+      "style": "brush lettering beside Dax's head, white with a black outline"
+    },
+    {
+      "t0": 27.2,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Noto Sans Black, white with a sky-blue glow, centred in the empty sky above the can, slams in with a 4 frame scale bounce"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (tagline form)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

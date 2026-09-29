@@ -1,0 +1,59 @@
+{
+  "key": "text_message",
+  "name": "Text-message / group chat",
+  "definition": "A 30 second story told mainly through a phone conversation: chat bubbles, typing dots, notification stacks and a sent photo, intercut with short live-action shots of the people typing and the thing they are planning. The chat carries the plot and the jokes; the live action proves it happened. The product arrives as a move in the conversation and pays off as the photo that ends it.",
+  "why_it_sells": "It looks like the feed itself, so it gets read instead of skipped (text-message formats are reported at 2 to 3x the CTR of polished creative). Reading is active attention: the viewer pulls the story in at their own speed, and a group chat is a social proof machine with no testimonial claims needed. It sells when every bubble is short, the stakes are visible within two bubbles, and the product is the reply that changes the thread.",
+  "visual_grammar": "Two layers. Layer 1, the chat: a clean generic messaging UI built in code, full-width over the live action or pinned to the phone screen, incoming bubbles light grey on the left with the sender's name above, outgoing bubbles in the product's accent colour on the right, typing dots before every incoming bubble, notification banners that drop from the top and stack. Layer 2, live action: natural handheld phone-camera realism, people glancing down at phones, reacting, doing. Phones in the live action have dark blank screens or a soft glow with no UI, screens kept flat and unoccluded with visible corners so the UI can be tracked in. The final product shot is also the photo that gets sent into the chat.",
+  "camera": "Handheld but steady, 26 to 35mm phone-camera feel at eye level for people; over-the-shoulder and top-down on phones so the screen is a clean trackable rectangle; locked macro for the product; the chat UI itself never moves except to scroll up as bubbles arrive.",
+  "light": "Real, slightly imperfect everyday light: late afternoon window light in a kitchen, overhead store light, then warm party practicals (string lights) for the payoff. Phone screens add a soft cool glow on faces.",
+  "texture": "Native smartphone footage: mild sharpening, a touch of noise in the shadows, no film grain, no cinematic letterbox. The UI layer is perfectly crisp in contrast.",
+  "palette_rule": "The outgoing bubble colour and the chat accent are the product's main colour (sky blue #6EC1E4 here) so every message the hero sends is quietly on-brand; incoming bubbles are neutral grey; the live-action world echoes the product's secondary colour (silver, white) and saves warm colour for the payoff.",
+  "pacing": "Hook in under 2 seconds with a buzzing phone and a notification stack that states the stakes. Reading time rule: each bubble stays fully on screen at least 0.6 s plus 0.25 s per word, and never more than 3 new bubbles per 2 seconds; typing dots run 0.5 to 0.9 s before incoming bubbles. Cut to live action every 2 to 3 seconds so the chat breathes. The product moment is a live-action insert held at least 1.5 s, followed by the hero's sent reply. Montage of done-ticks in the build, a spoken payoff, then the photo message as the CTA.",
+  "sound": "Native room sound and short spoken lines from the generations. Added UI sounds are the backbone: a soft pop per incoming bubble, a lighter swoosh per sent bubble, a buzz for notifications, all kept quiet under a light upbeat score that ducks for speech. Only the most important UI moments get a sound (never a pop on every bubble in the montage, just the first and last).",
+  "caption_look": {
+    "font": "Inter SemiBold",
+    "size": "4.4% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF full opacity, other words 70%",
+    "shadow": "soft 0 2px 6px rgba(0,0,0,.55)",
+    "box": false,
+    "position": "centre, 30% down the frame when the chat panel sits in the lower half; 72% down when the chat is at the top; never overlapping bubbles",
+    "max_words_on_screen": 4,
+    "chat_ui": "bubbles Inter Medium 3.6% of frame height, 22px radius, max width 72% of frame, sender name 2.4% grey above incoming bubbles, outgoing #6EC1E4 with white text, incoming #E9E9EB with #111 text, group header with a blank circular avatar and the chat name, read receipt 'Seen' in 2.2% grey",
+    "voice_notes": "spoken voice notes show as a waveform bubble with a play head that moves while the line plays, plus the normal spoken caption"
+  },
+  "model_vocab": [
+    "candid smartphone photo",
+    "natural handheld phone-camera look",
+    "over-the-shoulder view of a phone with a dark blank screen",
+    "soft screen glow on the face",
+    "everyday realistic light",
+    "top-down view of a phone lying on a counter",
+    "authentic, unposed"
+  ],
+  "failure_modes": [
+    "the model draws fake UI, emoji or gibberish text on phone screens: always say the phone screen is dark and blank with no interface, icons or text, and keep the screen tilted slightly away",
+    "fingers cover the screen and break the screen track: say the thumb rests at the bottom edge and the screen's four corners are visible",
+    "phones come out with a real manufacturer logo or camera bump branding: say a plain black phone with no logo, back not visible",
+    "notification text drawn by the model: the lock screen is blank, notifications are post only",
+    "party props grow printed words (banners, balloons, cake writing): say plain balloons, a blank paper garland, a cake with no writing",
+    "too many bubbles at once are unreadable at phone speed: max 6 words per bubble, max 3 new bubbles per 2 seconds",
+    "the product disappears or becomes a generic can in the fridge: keep a locked insert and pass the product reference",
+    "a surprise-party crowd holding drinks invites extra cans: only the hero holds the product, everyone else holds nothing or party poppers",
+    "the product reference sheet can be pasted in as an inset panel in the corner of an insert: say one single continuous photograph, no inset images, no picture-in-picture",
+    "packaged props like balloon bags get printed brand words ('Balloons'): say plain clear bag with no printing and no label",
+    "'phone photo of' puts a phone in the photo: say 'as if taken on a phone' and no phone or hands in frame",
+    "car interiors bring sun-visor warning stickers with garbled text: say the visor is folded flat with no stickers or labels",
+    "garlands and foil balloons in the background pick up garbled letters: keep them out of product shots or say plain with no print"
+  ],
+  "negatives": [
+    "no user interface, icons, emoji or text on any phone screen",
+    "no real brands, logos or app names except the product",
+    "no readable text on banners, balloons, cakes or signs",
+    "no phone manufacturer logos",
+    "no extra fingers",
+    "no more than one can per person"
+  ],
+  "prompt_prefix": "Candid smartphone photo, vertical 9:16 frame, natural handheld phone-camera look, realistic everyday light, authentic unposed moment, any phone in frame has a dark blank screen with no interface.",
+  "asset_style": "Natural soft window light, realistic smartphone photo."
+}

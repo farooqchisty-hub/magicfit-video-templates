@@ -1,0 +1,527 @@
+{
+  "id": "how_its_made-01-no-sugar-inside",
+  "style": "how_its_made",
+  "title": "No Sugar Inside",
+  "logline": "2am at a truck stop, a long-haul driver cracks a can. It tastes sweet, but there is no sugar in it. The camera dives inside {product} to show what is actually in there.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "A stylized 3D night truck stop on an empty North American highway: one diner-style canopy of light, a big rig cab, then a neutral pale grey-blue void inside the can where the cutaways and exploded views happen.",
+    "palette": "Night navy and sodium orange outside; inside, the pale grey-blue void with one glow colour per ingredient: amber for caffeine, four candy colours for the B vitamins (coral, lime, violet, cyan), pearl white for taurine, soft pink and mint for the two sweeteners. The can keeps its real sky blue, silver and red.",
+    "fictional_brands": [
+      "Delgado Freight (painted on the cab door as a plain shape in post, never by the model)",
+      "Mile 212 Stop (the truck stop, sign blank in the model, name optional in post)"
+    ],
+    "rules": "Every sign, screen and door panel is blank. All ingredient names, numbers and callouts are added in post."
+  },
+  "cast": [
+    {
+      "id": "rosa",
+      "name": "Rosa Delgado",
+      "role": "long-haul trucker on a late drive (non-speaking; the narrator talks)",
+      "look": "stylized 3D woman, 46, Mexican American, warm brown skin, dark hair with grey streaks in a low ponytail, laugh lines, red and navy flannel shirt over a grey tee, trucker cap in plain navy with no logo",
+      "voice": "non-speaking; one satisfied 'mm' and a laugh",
+      "card_prompt": "Stylized 3D character identity sheet on a plain pale grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders of the same woman. Rosa Delgado: 46, Mexican American, warm brown skin, dark hair with grey streaks in a low ponytail, laugh lines, friendly tired eyes, red and navy flannel shirt over a grey tee, plain navy trucker cap with no logo. Consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "truckstop",
+      "name": "Mile 212 truck stop at 2am",
+      "plate_prompt": "Stylized 3D animation render, vertical 9:16, upright composition with level horizon: a lonely truck stop at 2am on an empty highway, a glowing canopy of warm sodium light over the fuel island, a big rig with a plain red cab seen from the front three-quarter parked under it, dark navy sky with stars, empty road stretching away. Soft rounded forms, clean lighting. All signs blank, no people, no text, no brands."
+    },
+    {
+      "id": "void",
+      "name": "Inside the can: explainer void",
+      "plate_prompt": "Stylized 3D animation render, vertical 9:16: a seamless pale grey-blue studio void with a soft gradient floor and gentle three-point light, a single softly glowing circular platform in the centre, lots of empty space. Clean, calm, premium explainer look. No objects, no text."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "the camera dives into the opening and the drink's ingredients float out one by one",
+      "scale": "cutaway, can scale to molecule scale"
+    },
+    "applied": {
+      "moment": "the tube or bottle is sliced in half and the formula's actives float out one by one",
+      "scale": "cutaway, hand scale to micro"
+    },
+    "worn": {
+      "moment": "the garment or shoe peels apart into its layers, each material explained in turn",
+      "scale": "exploded view, body scale"
+    },
+    "handheld": {
+      "moment": "the gadget's shell goes x-ray and its parts float out in an exploded view",
+      "scale": "exploded view, hand scale"
+    },
+    "carried": {
+      "moment": "the bag's walls go transparent to show its compartments, frame and fabrics",
+      "scale": "cutaway, hand to lap"
+    },
+    "home": {
+      "moment": "the object goes x-ray in the room to show how it works inside",
+      "scale": "cutaway, room scale"
+    },
+    "consumable": {
+      "moment": "the refill is sliced open and its contents are explained piece by piece",
+      "scale": "cutaway, hand scale"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "A sliced can in a void; a sugar cube drops toward it and bounces off. The narrator: it tastes sweet, but there is no sugar in it."
+    },
+    {
+      "id": "setup",
+      "t": "3-8.4",
+      "summary": "2am at a truck stop, Rosa cracks the can in her cab; the camera dives in through the opening."
+    },
+    {
+      "id": "product",
+      "t": "8.4-21.6",
+      "summary": "The x-ray tour: caffeine, then the four B vitamins, then taurine, then the two sweeteners, while the sugar cube stays locked outside the glass."
+    },
+    {
+      "id": "build",
+      "t": "21.6-25",
+      "summary": "Pull back out: the whole can reassembles, label to camera. The brand line."
+    },
+    {
+      "id": "payoff",
+      "t": "25-27.4",
+      "summary": "Rosa back on the dark highway, alert, dawn on the horizon."
+    },
+    {
+      "id": "cta",
+      "t": "27.4-30",
+      "summary": "The can on a turntable in the void, half x-ray, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.2-2.9",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "Hook: a surprising true fact about the product that creates a 'wait, how?' gap.",
+      "line": "This tastes sweet. But there's no sugar in it.",
+      "delivery": "fast, curious, friendly, a little conspiratorial",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "3.4-5.6",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "Promise the explanation and set the scene.",
+      "line": "So what's actually in there? Let's go inside.",
+      "delivery": "quick, playful, lifting on 'inside'",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "8.6-11.4",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "First part of the mechanism, the headline benefit, with an allowed claim only.",
+      "line": "First, caffeine. It helps improve concentration and alertness.",
+      "delivery": "clear, a beat on 'caffeine'",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S04"
+    },
+    {
+      "id": "L4",
+      "t": "11.7-15.3",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "Second part of the mechanism with an allowed claim only.",
+      "line": "Then B vitamins: niacin, B2, B6, B12. They help reduce tiredness.",
+      "delivery": "rapid list, ticking each one, then slower on the benefit",
+      "phonetic": "B two, B six, B twelve",
+      "claim": "B-group vitamins contribute to the reduction of tiredness and fatigue",
+      "shot": "S05"
+    },
+    {
+      "id": "L5",
+      "t": "15.6-17.4",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "A fact from the product page, no claim attached.",
+      "line": "Plus a thousand milligrams of taurine.",
+      "delivery": "matter of fact, quick",
+      "shot": "S06"
+    },
+    {
+      "id": "L6",
+      "t": "17.8-21.4",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "Pay off the hook: answer the surprising question.",
+      "line": "And the sweet? Sucralose and acesulfame K. Not sugar.",
+      "delivery": "the reveal, a small grin, punch on 'not sugar'",
+      "phonetic": "SOO-kra-lohs, ay-SESS-ul-faym KAY",
+      "shot": "S07"
+    },
+    {
+      "id": "L7",
+      "t": "22.0-24.8",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "Product line: name the product and its point of difference.",
+      "line": "Red Bull Sugarfree. Same benefits, without sugar.",
+      "delivery": "warm and certain, slower than the rest",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S08"
+    },
+    {
+      "id": "L8",
+      "t": "27.7-29.6",
+      "speaker": "narrator",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "smiling, stretched vowel",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 3.0,
+      "beat": "hook",
+      "framing": "centred medium on the void",
+      "camera": "slow orbit, snap zoom at the bounce",
+      "action": "The can stands in the void sliced cleanly in half lengthways, its liquid glowing inside; a big white sugar cube tumbles toward the open cross-section and bounces off an invisible glass wall.",
+      "product_state": "cutaway, upright, front half intact with label to camera, back half open",
+      "audio": "whoosh, glassy bonk, the cube skittering away",
+      "caption": "This tastes sweet. But there's no sugar in it.",
+      "refs": [
+        "product",
+        "void"
+      ],
+      "keyframe_prompt": "In the pale grey-blue void from the location plate, the exact can from the product reference stands upright on the glowing platform, rendered realistic with its full label facing camera and undistorted, with a clean vertical cutaway slice removed from its right side so glowing pale golden liquid shows behind a clear glass-like wall. To the upper right, clearly separated from the can by empty space, a large stylized white sugar cube is caught mid bounce, flying away from the can, with a small curved motion arc and a soft ripple on the glass where it hit. The cube does not touch or enter the can. No letters or numbers anywhere except the can's own label."
+    },
+    {
+      "id": "S02",
+      "t0": 3.0,
+      "t1": 5.8,
+      "beat": "setup",
+      "framing": "medium in the cab",
+      "camera": "slow push-in",
+      "action": "2am in the cab at the truck stop: Rosa, cap on, cracks the can open, a little mist puffs out; the canopy light glows through the windshield.",
+      "product_state": "just opened, in hand at chest height, label to camera",
+      "audio": "can crack, soft cab hum, a truck passing outside",
+      "caption": "So what's actually in there? Let's go inside.",
+      "refs": [
+        "rosa",
+        "product",
+        "truckstop"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: inside the cab of a big rig at night, Rosa, the woman from the character sheet, in her plain navy cap and red and navy flannel, sitting in the driver's seat and cracking open the exact can from the product reference at chest height, a small puff of mist from the opening, label facing camera and undistorted; warm sodium light from the truck stop canopy through the windshield, navy night outside. Dashboard screens blank. The can is realistic and exact inside the stylized world."
+    },
+    {
+      "id": "S03",
+      "t0": 5.8,
+      "t1": 8.4,
+      "beat": "setup",
+      "framing": "extreme close-up diving into the opening",
+      "camera": "fast push-in through the opening",
+      "action": "The camera rushes into the can's opening; the metal walls turn translucent like glass and the world opens into the glowing liquid.",
+      "product_state": "open, top of can filling the frame",
+      "audio": "deep whoosh, bubble rush, a glassy shimmer",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: extreme close-up top-down on the top of the exact can from the product reference, the red ring pull lifted, the opening large in the centre of frame, and the silver walls of the can turning translucent like frosted glass so a glowing pale golden liquid full of bubbles is visible inside, a sense of the camera about to fly in. Red rim band visible at the edge. No letters generated except the can's own printing."
+    },
+    {
+      "id": "S04",
+      "t0": 8.4,
+      "t1": 11.6,
+      "beat": "product",
+      "framing": "centred on one molecule",
+      "camera": "orbit with snap zoom",
+      "action": "Inside the glowing liquid: an amber ball-and-stick molecule model spins into the centre and glows brighter; empty space around it for the post label.",
+      "product_state": "inside the can (liquid world)",
+      "audio": "soft blip as it arrives, low hum, bubbles",
+      "caption": "First, caffeine. It helps improve concentration and alertness.",
+      "refs": [
+        "void"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden sparkling liquid with soft bubbles drifting, a single glossy amber ball-and-stick molecule model, two joined rings with small spheres attached, floating centred in the frame and glowing warmly, with lots of empty space above and below it. Clean soft light. No letters, numbers or formulas anywhere."
+    },
+    {
+      "id": "S05",
+      "t0": 11.6,
+      "t1": 15.4,
+      "beat": "product",
+      "framing": "centred group",
+      "camera": "slow orbit",
+      "action": "Four small glossy molecule models in coral, lime, violet and cyan pop in one after another and orbit each other in a ring.",
+      "product_state": "inside the can (liquid world)",
+      "audio": "four rising blips, one per vitamin, a soft chime",
+      "caption": "Then B vitamins: niacin, B2, B6, B12. They help reduce tiredness.",
+      "refs": [
+        "void"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden sparkling liquid, four small glossy ball-and-stick molecule models, one coral, one lime green, one violet, one cyan, arranged in an evenly spaced ring orbiting the centre of the frame, each with a soft matching glow, empty space around each for labels. No letters, numbers or formulas anywhere."
+    },
+    {
+      "id": "S06",
+      "t0": 15.4,
+      "t1": 17.6,
+      "beat": "product",
+      "framing": "centred close",
+      "camera": "push-in",
+      "action": "A small cluster of pearl white crystals drifts in and dissolves into sparkling swirls.",
+      "product_state": "inside the can (liquid world)",
+      "audio": "crystalline tinkle, fizzing dissolve",
+      "caption": "Plus a thousand milligrams of taurine.",
+      "refs": [
+        "void"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden liquid, a small cluster of pearl white faceted crystals in the centre of frame dissolving into spiralling sparkling white swirls and tiny bubbles, soft light, empty space around it. No letters, numbers or formulas anywhere."
+    },
+    {
+      "id": "S07",
+      "t0": 17.6,
+      "t1": 21.6,
+      "beat": "product",
+      "framing": "two-shot of molecules against the can wall",
+      "camera": "slow pull back",
+      "action": "A soft pink and a mint molecule model glow side by side inside the liquid; beyond the glass wall of the can, the white sugar cube from the hook presses its face against the glass and is kept out.",
+      "product_state": "inside the can, translucent wall visible",
+      "audio": "two sweet chimes, a muffled knock of the cube on the glass",
+      "caption": "And the sweet? Sucralose and acesulfame K. Not sugar.",
+      "refs": [
+        "void"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden liquid, two glossy ball-and-stick molecule models side by side in the centre, one soft pink and one mint green, glowing; to the right the curved clear glass-like wall of the can interior, and on the other side of that wall outside in the pale grey-blue void a large stylized white sugar cube pressed against the glass, shut out. No faces on the cube, no letters, numbers or formulas anywhere."
+    },
+    {
+      "id": "S08",
+      "t0": 21.6,
+      "t1": 25.0,
+      "beat": "build",
+      "framing": "centred hero",
+      "camera": "fast pull back, then hold",
+      "action": "The camera flies back out; the can reassembles from its x-ray state into the solid, exact can standing on the platform, label to camera.",
+      "product_state": "hero, closed solid form, upright, label square to camera, held 2.5 s",
+      "audio": "reverse whoosh, a satisfying metallic click as it seals, soft bass hit",
+      "caption": "Red Bull Sugarfree. Same benefits, without sugar.",
+      "refs": [
+        "product",
+        "void"
+      ],
+      "keyframe_prompt": "The exact can from the product reference, rendered realistic and complete, standing upright on the softly glowing circular platform in the pale grey-blue void from the location plate, label square to camera and perfectly undistorted: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls with the gold sun, SUGARFREE in spaced red capitals, the red WITHOUT SUGAR band. Faint fading x-ray glow lines around its edges as if it just reassembled. Condensation droplets. Premium, centred, empty space above."
+    },
+    {
+      "id": "S09",
+      "t0": 25.0,
+      "t1": 27.4,
+      "beat": "payoff",
+      "framing": "from behind the truck",
+      "camera": "low tracking behind",
+      "action": "The big rig pulls away from the truck stop down the empty highway toward a thin line of dawn; in the side mirror Rosa is smiling and awake.",
+      "product_state": "absent",
+      "audio": "diesel rumble, air brake release, a short happy horn",
+      "caption": "",
+      "refs": [
+        "rosa",
+        "truckstop"
+      ],
+      "keyframe_prompt": "Stylized 3D animation render, from low behind a big rig with a plain red cab and blank trailer driving away down an empty straight highway at night toward a thin orange line of dawn on the horizon, all wheels on the road, the side mirror showing Rosa, the woman from the character sheet, smiling and alert in her navy cap. Upright vertical composition, level horizon, the road runs from bottom to the centre of the frame. All signs blank."
+    },
+    {
+      "id": "S10",
+      "t0": 27.4,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "centred pack shot",
+      "camera": "slow turntable rotation 15 degrees, label stays readable",
+      "action": "The can on the platform in the void, one side peeled into a clean x-ray cutaway showing the glowing liquid, the four coloured vitamin molecules and the amber caffeine orbiting it; space above for the tagline.",
+      "product_state": "hero, upright, label to camera, cutaway on the right edge only",
+      "audio": "final soft chime, underscore button",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "void"
+      ],
+      "keyframe_prompt": "The exact can from the product reference, realistic, upright on the glowing platform in the pale grey-blue void, label facing camera and undistorted across its front, only the far right edge of the can cut away to show a sliver of glowing pale golden liquid, and small glossy molecule models (one amber, one coral, one lime, one violet, one cyan) orbiting around the can in a loose ring. Large empty space in the upper third for a title. No letters or numbers anywhere except the can's own label."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.4,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "product can official",
+        "rosa card",
+        "truckstop plate",
+        "void plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer animation, soft rounded forms, clean studio light; the can is always rendered realistic and exact. Shot 1 (0 to 3 s): in the pale grey-blue void of @Image4, the exact can from @Image1 stands upright cut away along one side to show glowing liquid behind a clear wall; a big white sugar cube tumbles in and bounces off the clear wall, snap zoom on the bounce. Shot 2 (3 to 5.8 s): inside a big rig cab at 2am at the truck stop of @Image3, @Image2 (Rosa) cracks the can open at chest height, label to camera, a small puff of mist. Shot 3 (5.8 to 9 s): fast push-in into the can's opening, the silver walls turn translucent like glass and we fly into glowing golden liquid full of bubbles. Native sound: whoosh, glassy bonk, cube skittering, can crack, cab hum, bubble rush. No speech (narration added in post). No music. No letters or numbers anywhere except the can's own label."
+    },
+    {
+      "id": "U2",
+      "t0": 8.4,
+      "t1": 21.6,
+      "shots": [
+        "S04",
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "len_s": 14,
+      "exact_risk": false,
+      "refs": [
+        "void plate",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer inside a glowing pale golden sparkling liquid, continuous camera travel, one idea at a time, centred. Shot 1 (0 to 3.2 s): a glossy amber ball-and-stick molecule with two joined rings spins into centre and glows, snap zoom. Shot 2 (3.2 to 7 s): four small glossy molecule models pop in one after another, coral, lime, violet, cyan, and orbit in a ring. Shot 3 (7 to 9.2 s): a cluster of pearl white crystals dissolves into sparkling swirls. Shot 4 (9.2 to 14 s): a soft pink and a mint molecule glow side by side; slow pull back reveals the clear curved wall of the can and outside it, in the void of @Image1, the white sugar cube pressed against the glass, shut out. Keep empty space around each object. Native sound: blips on each arrival, four rising blips, crystalline tinkle, fizz, two sweet chimes, a muffled knock on glass. No speech. No music. No letters, numbers or formulas."
+    },
+    {
+      "id": "U3",
+      "t0": 21.6,
+      "t1": 25.0,
+      "shots": [
+        "S08"
+      ],
+      "len_s": 4,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "void plate",
+        "S08 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer. Fast pull back out of the liquid; the x-ray walls solidify and the exact can from @Image1 reassembles into its complete realistic form standing upright on the glowing platform in the void of @Image2, label square to camera and undistorted, faint glow lines fading; then hold still. Keep its shape, colours, wordmark and bulls exactly as @Image1. Native sound: reverse whoosh, a satisfying metallic seal click, soft bass hit. No speech (narration added in post). No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 25.0,
+      "t1": 30,
+      "shots": [
+        "S09",
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "rosa card",
+        "truckstop plate",
+        "void plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D explainer. Shot 1 (0 to 2.4 s): low behind a big rig with a plain red cab pulling away down an empty straight highway toward a thin orange line of dawn, wheels on the road, upright frame, level horizon; @Image2 (Rosa) smiling and alert in the side mirror. Shot 2 (2.4 to 5 s): the exact can from @Image1 upright on the glowing platform in the void of @Image4, label to camera, only its far right edge cut away to show glowing liquid, small amber, coral, lime, violet and cyan molecules orbiting it, slow 15 degree turntable move, empty space above. Native sound: diesel rumble, air brake release, a short horn, a final soft chime. No speech. No music. No text except the can's own label."
+    }
+  ],
+  "music": [
+    {
+      "section": "curious",
+      "t0": 0,
+      "t1": 8.4,
+      "brief": "Plucky pizzicato synth and soft finger snaps, 110 bpm, a question-mark motif on the hook, drops out for the can crack."
+    },
+    {
+      "section": "tour",
+      "t0": 8.4,
+      "t1": 21.6,
+      "brief": "Same motif with light marimba and a soft kick, a small rising arpeggio on each new ingredient, ducked 8 dB under narration."
+    },
+    {
+      "section": "reveal",
+      "t0": 21.6,
+      "t1": 30,
+      "brief": "Brief lift and a warm chord on the reassembled can, a bright button on the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 1.6,
+      "sound": "glassy bonk of the sugar cube bouncing off",
+      "why": "the visual gag is the hook; the sound sells it"
+    },
+    {
+      "t": 3.8,
+      "sound": "can crack",
+      "why": "the product moment in the human world must register"
+    },
+    {
+      "t": 22.4,
+      "sound": "metallic seal click as the can reassembles",
+      "why": "marks the return to the real product for the brand line"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "narrator",
+      "plan": "one fast, friendly, curious narrator (American, mid-tenor, 1.1x pace) as a single TTS track in post; units carry no speech; the brand line with the phonetic RED BULL SHUG-er-free lands over the short exact risk unit U3; ingredient names use the phonetics in the script"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 8.8,
+      "t1": 11.6,
+      "text": "CAFFEINE",
+      "sub": "",
+      "style": "white rounded pill label with black Montserrat Bold text and a thin leader line to the amber molecule"
+    },
+    {
+      "t0": 12.0,
+      "t1": 15.4,
+      "text": "NIACIN / B2 / B6 / B12",
+      "sub": "",
+      "style": "four small pills, one per coloured molecule, each popping in on its blip"
+    },
+    {
+      "t0": 15.6,
+      "t1": 17.6,
+      "text": "TAURINE 1000 mg",
+      "sub": "",
+      "style": "pill label beside the crystals"
+    },
+    {
+      "t0": 18.0,
+      "t1": 21.6,
+      "text": "SUCRALOSE / ACESULFAME K",
+      "sub": "",
+      "style": "two pills on the pink and mint molecules; a small red 'NO' stamp shape next to the sugar cube outside the wall"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Montserrat ExtraBold white with black stroke in the empty space above the can, pop in 3 frames"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "B-group vitamins contribute to the reduction of tiredness and fatigue",
+    "Same benefits of the original Energy Drink, without sugar",
+    "Facts from the product page: 1000 mg taurine; niacin, B2, B6, B12; sweetened with sucralose and acesulfame K"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "16 to 24",
+    "music_usd": 1.0
+  }
+}

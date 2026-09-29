@@ -1,0 +1,60 @@
+{
+  "key": "street_interview",
+  "name": "Street interview",
+  "definition": "A host with a handheld mic stops real-looking strangers in a public place and asks one simple question or runs one tiny test. The answers, reactions and the reveal do the selling; the host only asks, reveals and moves on.",
+  "why_it_sells": "Social proof from people who look unscripted, delivered in the grammar of a format viewers already watch for fun. StreetTalk reports over $100M attributable revenue and AI street interviews are reported at 4.5x ROAS as paid ads. The engine is surprise: a confident wrong answer, then a genuine reaction to the reveal. Dies instantly if it looks staged or polished.",
+  "visual_grammar": "Run and gun. One handheld camera at eye level, the host's mic hand and the subject both in frame, subject framed chest-up on the right third, host's shoulder or mic arm entering from the left edge. Busy real background slightly out of focus (people walking, trees, buildings). Jump cuts between answers, every new person gets a fresh framing so it reads as a series. The branded mic flag is the only designed object; the product is shown as the test object, hidden and then revealed.",
+  "camera": "Handheld on a 24 to 35mm lens at eye level, small constant sway, quick reframes and snap zooms (10 to 20% punch-in) on reactions, never a tripod, never a dolly. Mic always in frame when someone speaks. One insert close-up for the reveal, still handheld.",
+  "light": "Available daylight only: bright overcast or late-afternoon sun, faces a little uneven, no beauty light, occasional lens flare. Skin looks real: pores, flyaway hair, squint in the sun.",
+  "texture": "Phone or mirrorless camera look: crisp, slightly over-sharpened, a bit of rolling-shutter wobble, natural motion blur on fast moves, no film grain, no cinematic grade. Colours true to life, slightly punchy like a creator's preset.",
+  "palette_rule": "Keep the location's own colours (grass green, brick, denim, sky). Put the product's colours on exactly one designed object, the host's mic flag (here sky blue with a silver band), so the brand colour is present in every frame without branding the world.",
+  "pacing": "Hook in the first second: the host's question spoken straight into the lens, the test object visible. Answers at 2 to 3 seconds each, cut on the last word, no dead air. The reveal is the held beat (at least 1.5 s). Reactions are rapid jump cuts. End on the host with a quick sign-off and a hand-off to the next person, so it feels like one clip from a longer series.",
+  "sound": "Lav or handheld mic dialogue, close and dry, with loud real ambience: crowd chatter, footsteps, a distant bus, birds, wind bumps on the mic. Laughter from bystanders off screen. No score under the answers; at most a light trending-style beat under the reveal and end card, added in post.",
+  "caption_look": {
+    "font": "Montserrat ExtraBold, all caps",
+    "size": "5.8% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFD23F yellow on the word being spoken",
+    "shadow": "hard black stroke 4px plus soft drop shadow",
+    "box": false,
+    "position": "centre, 60% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "speaker_label": "first time each person speaks, a small white-on-black name and year tag top left, e.g. 'TYLER, SENIOR', rendered in post",
+    "question_card": "the host's question stays pinned at the top in a white rounded box with black text for the first 10 seconds"
+  },
+  "model_vocab": [
+    "candid handheld street interview",
+    "shot on a phone, eye level",
+    "handheld microphone with a foam windscreen and a blank cube mic flag",
+    "natural daylight, uneven light on faces",
+    "real skin texture, flyaway hair",
+    "busy out-of-focus background of passers-by",
+    "genuine surprised reaction, mouth open",
+    "snap zoom"
+  ],
+  "failure_modes": [
+    "interviews come back looking like polished commercials: say 'candid, shot on a phone, available light, not posed' and keep backgrounds busy",
+    "mic flags and t-shirts grow fake logos or letters: ask for a plain sky-blue cube mic flag with no text and plain clothes with no prints",
+    "the host and the subject both hold microphones: say the host holds the only microphone",
+    "sample cups get printed brand logos: say plain white unmarked paper cups",
+    "the hidden can shows its label through the sleeve: say the can is completely wrapped in a plain brown kraft paper sleeve, only the silver top rim visible",
+    "background passers-by carry branded cups or bags: say passers-by carry nothing branded",
+    "campus settings make subjects look like teenagers: state ages 21 and over and give them adult cues (a laptop bag, a lanyard, stubble)",
+    "the reveal moment shows two cans: say exactly one can in the frame",
+    "'shot on a phone' makes the model burn in camera interface overlays (REC dot, timecode, battery icon, date stamp): add 'no camera interface overlay, no REC indicator, no timestamp' to every keyframe",
+    "'sleeve slid down' reveals only half the label: say the sleeve is completely removed and crumpled in the other hand, the whole can uncovered top to bottom",
+    "a render that runs while a cast card has failed invents a new face: re-roll every shot that referenced the missing card once the card exists"
+  ],
+  "negatives": [
+    "no real brands, logos or sponsor names except the product",
+    "no university names, crests or readable signs",
+    "no readable text generated by the model, mic flag and signs are blank",
+    "no children or anyone who looks under 21 drinking",
+    "no studio lighting, no tripod look, no cinematic grade",
+    "no taste or health claims beyond the allowed claims",
+    "no extra fingers",
+    "no more than one can per person",
+    "no camera interface overlay, no REC indicator, no timecode or date stamp"
+  ],
+  "prompt_prefix": "Candid handheld street interview frame, vertical 9:16, shot on a phone at eye level, natural daylight, real skin texture, busy slightly out-of-focus public background, social video look, not a polished commercial."
+}

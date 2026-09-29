@@ -6,14 +6,14 @@ CAN=json.load(open(f"{ROOT}/product/red-bull-sugarfree.json"))["image"]
 def run(key,only=None,force=False):
     d=f"{ROOT}/styles/{key}"; st=json.load(open(f"{d}/style.json")); b=json.load(open(f"{d}/board.json"))
     os.makedirs(f"{d}/img",exist_ok=True)
-    def g(prompt,refs,name,size="9:16"):
+    def g(prompt,refs,name,size="9:16",asset=False):
         out=f"{d}/img/{name}.png"
-        if os.path.exists(out+".url") and not force: return name,open(out+".url").read()
+        if os.path.exists(out+".url") and not (force and (not only or name in only)): return name,open(out+".url").read()
         try: return name,gen(prompt,refs,out,size=size,tag=f"{key}/{name}")
         except Exception as e: return name,"ERR "+str(e)[:200]
     urls={}
-    assets=[(c["card_prompt"]+" "+st.get("asset_style",""),[],c["id"],"16:9") for c in b.get("cast",[])]
-    assets+=[(l["plate_prompt"],[],l["id"],"9:16") for l in b.get("locations",[])]
+    assets=[(c["card_prompt"]+" "+st.get("asset_style",""),[],c["id"],"16:9",True) for c in b.get("cast",[])]
+    assets+=[(l["plate_prompt"],[],l["id"],"9:16",True) for l in b.get("locations",[])]
     with cf.ThreadPoolExecutor(8) as ex:
         for n,u in ex.map(lambda a:g(*a),assets): urls[n]=u; print(n,u[:60])
     neg="Avoid: "+"; ".join(st.get("negatives",[]))

@@ -1,0 +1,60 @@
+{
+  "key": "ugc",
+  "name": "UGC creator testimonial",
+  "definition": "One real-looking creator talks straight into their own phone's front camera about why the product works for them, in the exact place and moment they use it. Jump cuts, no crew, no polish: the proof is that it looks like a post, not an ad.",
+  "why_it_sells": "The number one Instagram and TikTok ad format in 2026 (reported CTR 2.5 to 4 percent). It borrows peer trust: a person like the viewer, in a place like the viewer's, saying the thing a friend would say. The risk is polish: a 16B-impression study found ads that look AI-made lose CTR, so every frame must pass as an unedited phone clip.",
+  "visual_grammar": "Front-camera selfie at arm's length, face in the upper half of the frame with headroom cropped tight, eyes on the lens (not the screen). One real location per video, lived-in and a little messy. The product enters the frame by being held up to the lens, close and slightly too near, then sits in shot on the desk. B-roll is the creator flipping to the rear camera for a 1 to 3 s handheld insert. Jump cuts between takes change framing slightly (punch-in 10 to 20 percent) but never the location or light.",
+  "camera": "Phone front camera, about 24mm equivalent wide-angle, handheld with small natural wobble and one-handed reframes; propped-phone locked shots for any time-passage beat; rear-camera inserts close and handheld. No dolly, no gimbal, no crane, no rack-focus, no shallow cinema bokeh: phone depth of field keeps the background mostly readable (but blank).",
+  "light": "Whatever the location gives: laptop-screen glow on the face, overhead fluorescents, a desk lamp. Slightly underexposed or blown in spots, auto white balance a touch off, no rim light, no key light setup.",
+  "texture": "Phone sensor noise in the shadows, mild over-sharpening and HDR tone mapping typical of phone video, real skin with pores, under-eye shadows and flyaway hair, no retouching, no film grain, no halation, no colour grade.",
+  "palette_rule": "No designed palette: the location's own colours, dulled by phone auto exposure. The product should be the only saturated object in its frames, so keep wardrobe and set muted (greys, oatmeal, faded navy).",
+  "pacing": "Text hook plus a spoken hook in the first 1.5 s, jump cut every 1.5 to 3.5 s, the product up to the lens by second 5, a held product beat of at least 2 s with the brand name, one propped time-lapse to prove the claim over time, then a direct-to-lens CTA. No breath of stillness: UGC never slows down.",
+  "sound": "Only the phone's own mic: voice slightly roomy, library or room tone, keyboard clicks, the can crack. Dialogue carries the whole ad. No score; at most a faint lo-fi bed at very low level added in post, the way creators add a trending sound.",
+  "caption_look": {
+    "font": "Montserrat ExtraBold (TikTok creator-caption look)",
+    "size": "6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFE24A, the word currently spoken, no scaling pop",
+    "shadow": "hard 5px black stroke plus 0 3px 0 rgba(0,0,0,.5)",
+    "box": false,
+    "position": "centre, 60% down the frame, clear of the chin and of the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "case": "sentence case, no end punctuation",
+    "hook_text": "native TikTok-style white rounded box with black text, top 18% of frame, 0 to 3 s only, written like a post title in lower case",
+    "stickers": "one timestamp sticker in the platform's own style for time passage, rendered in post"
+  },
+  "model_vocab": [
+    "unedited smartphone front-camera selfie video frame",
+    "shot on a phone held at arm's length",
+    "slight wide-angle phone lens distortion at the frame edges",
+    "phone sensor noise and HDR tone mapping",
+    "natural skin texture, no makeup retouching",
+    "amateur framing, head slightly cut off at the top",
+    "casual, candid, filmed by herself",
+    "not cinematic, no bokeh, no colour grade"
+  ],
+  "failure_modes": [
+    "the model draws the phone in her hand when we are meant to be looking through it: say the phone is not visible because we are seeing through its front camera",
+    "images come back as polished portraits with bokeh and rim light, which reads as AI and kills clicks: ask for phone noise, flat room light, amateur framing and 'not cinematic'",
+    "laptop screens and index cards grow readable text: show the laptop from behind or as a plain glow, cards blank with faint pencil lines only",
+    "the can held close to a wide front lens bulges or bends: keep it 30 cm or more from the lens, upright, label flat to camera",
+    "library shelves sprout readable book spines and signs: say spines are plain coloured with no lettering and signs are blank",
+    "a second can appears on the desk in later shots: say one can only, the same opened can",
+    "cast card reads as a glossy headshot: add phone-photo realism to the card prompt so identity matches the selfie frames",
+    "mirror flip: a front camera shows text mirrored in real life, so keep the can's label unmirrored and exactly as the reference",
+    "hands hold the can with too many or fused fingers at close range: say one hand, four fingers wrapped behind the can, thumb in front on the silver side",
+    "casting drifts pale: 'Mexican American' alone came back reading as a light-skinned European woman; state skin tone plainly ('clearly warm tan-brown skin, not pale') on the card, and everything downstream follows the card",
+    "night scenes drift to daylight once a window is in frame: say every window is pitch black and name the only light sources",
+    "when the can shares the frame with the face, the model spends its attention on the can and swaps the face for a generic one or turns her to profile: restate the card's key identity traits inline and say face straight on to the lens"
+  ],
+  "negatives": [
+    "no real brands, logos or signage except the product",
+    "no readable text generated by the model anywhere in the frame",
+    "no visible phone in hand when the frame is the phone's own view",
+    "no studio lighting, no cinematic bokeh, no colour grade",
+    "no extra fingers",
+    "no more than one can in the scene"
+  ],
+  "asset_style": "Casual phone-photo realism: natural room light, slight sensor noise, real skin texture with pores, no retouching, not a studio headshot.",
+  "prompt_prefix": "Unedited smartphone video frame, vertical 9:16, filmed by the creator herself on her own phone, slight wide-angle phone lens, phone sensor noise, flat available light, real skin texture, amateur candid framing, not cinematic, no colour grade."
+}

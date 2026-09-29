@@ -1,0 +1,547 @@
+{
+  "id": "lifestyle_montage-01-the-wall",
+  "style": "lifestyle_montage",
+  "title": "The Wall",
+  "logline": "Three people, one day, three walls: a baker at 5am, an architecture student at 2pm, a climber at 7pm. Each hits theirs, each reaches for {product}, each gets over it, all cut to one beat.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "One day in a fictional mid-sized North American city: a small neighbourhood bakery before dawn, a university architecture studio in the afternoon, a bouldering gym at sunset, and a rooftop at blue hour.",
+    "palette": "Blue dawn, white midday, amber sunset, deep blue dusk; each location carries one sky-blue or silver echo of the can (a denim apron, a silver desk lamp, a blue climbing hold), warm gold as the shared accent.",
+    "fictional_brands": [
+      "Hearth and Rye (the bakery, named in the plan only, never shown as readable text)",
+      "Kestrel Bouldering (the gym, no visible signage)"
+    ],
+    "rules": "Every other sign, screen, bag, poster and wall is blank or out of focus. No real logos on clothing or gear."
+  },
+  "cast": [
+    {
+      "id": "marisol",
+      "name": "Marisol Reyes",
+      "role": "baker on the early shift",
+      "look": "woman, 34, Mexican American, dark brown hair in a low bun under a plain navy bandana, warm brown eyes, small gold hoop earrings, sky-blue denim apron over a white t-shirt, flour on her forearms",
+      "voice": "no lines",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Marisol Reyes: 34, Mexican American, dark brown hair in a low bun under a plain navy bandana, warm brown eyes, small gold hoop earrings, sky-blue denim apron over a white t-shirt, a dusting of flour on her forearms, tired but good-humoured expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos."
+    },
+    {
+      "id": "theo",
+      "name": "Theo Lindqvist",
+      "role": "architecture student on deadline day",
+      "look": "man, 26, white American, tall and lanky, wavy light-brown hair, round tortoiseshell glasses, light stubble, heather-grey hoodie with the sleeves pushed up, a pencil behind one ear",
+      "voice": "no lines",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Theo Lindqvist: 26, white American, lanky, wavy light-brown hair, round tortoiseshell glasses, light stubble, heather-grey hoodie with the sleeves pushed up and no logos, a pencil tucked behind one ear, sleep-deprived but amused expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text."
+    },
+    {
+      "id": "keisha",
+      "name": "Keisha Monroe",
+      "role": "climber on her last set, and the narrator",
+      "look": "woman, 41, Black American, short natural coils, strong shoulders, a thin silver chain, burnt-orange racerback tank top, chalk on her hands and forearms",
+      "voice": "narrator: warm, dry, close to the mic, a smile in it, unhurried, American, speaks in short plain phrases",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Keisha Monroe: 41, Black American, short natural coils, strong athletic shoulders, a thin silver chain, burnt-orange racerback tank top with no logos, white chalk on her hands, determined relaxed expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "bakery",
+      "name": "Hearth and Rye bakery, 5am",
+      "plate_prompt": "Candid lifestyle film still, vertical 9:16, upright vertical composition, level horizon: the back kitchen of a small neighbourhood bakery before dawn, a long floured steel workbench in the foreground, a rack of proofing dough, a deck oven glowing warm orange, a steamed-up window showing deep blue dawn, a sky-blue enamel bowl on the bench, flour hanging in the window light. No people, no readable text, no logos, no signs."
+    },
+    {
+      "id": "studio",
+      "name": "Architecture studio, 2pm",
+      "plate_prompt": "Candid lifestyle film still, vertical 9:16, upright vertical composition, level horizon: a university architecture studio in bright afternoon daylight, a long shared desk covered in white foam-board building models, cutting mats, scalpels, rolls of tracing paper, a silver desk lamp, tall industrial windows, pinned sketches on the wall that are only abstract lines. No people, no readable text, no logos."
+    },
+    {
+      "id": "gym",
+      "name": "Kestrel Bouldering, 7pm",
+      "plate_prompt": "Candid lifestyle film still, vertical 9:16, upright vertical composition, level horizon: an indoor bouldering gym at sunset, a tall grey overhanging climbing wall studded with colourful holds including a line of sky-blue holds, thick blue crash mats on the floor, amber sunset light pouring through high windows, chalk dust hanging in the light beams. No people, no readable text, no logos, no signs."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "each person drinks it at the moment they hit their wall",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "each person applies it at their wall moment (lip balm at the bench, hand cream at the desk, sunscreen or chalk balm at the gym)",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "the one thing each person puts on to get over the wall (headphones, shoes, glasses, a jacket)",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "the tool each person picks up at the wall (earbuds, a better pen, a bottle, a phone accessory)",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "the bag each person unzips at the wall to pull out what gets them through",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "the one thing at home or at their workspace that resets them (chair, lamp, speaker, kettle), switched on at the wall",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "the refill or pack each person reaches for from a shelf or pocket at the wall",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2",
+      "summary": "A floury hand slams dough flat in a dark bakery, flour bursting through dawn light. The narrator names the idea: every day has a wall."
+    },
+    {
+      "id": "setup",
+      "t": "2-8",
+      "summary": "Three people hit three walls on three downbeats: the baker at 5am, the student at 2pm, the climber at 7pm staring up at a literal wall."
+    },
+    {
+      "id": "product",
+      "t": "8-12",
+      "summary": "The music drops out: the can cracks in the bakery in macro, then the student sips and sits up. Brand line and the one benefit."
+    },
+    {
+      "id": "build",
+      "t": "12-20",
+      "summary": "The drop: bread out of the oven, the last roof glued onto the model, the climber tops out in a burst of chalk, one per bar."
+    },
+    {
+      "id": "payoff",
+      "t": "20-24",
+      "summary": "The climber sits on the mat with her can, grinning up at the wall she just beat."
+    },
+    {
+      "id": "cta",
+      "t": "24-30",
+      "summary": "Blue hour on a rooftop, the can on the ledge as the city lights come on. Get over it. Tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.2-1.8",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "Hook: state the universal problem the montage will repeat, in five words or fewer.",
+      "line": "Every day has a wall.",
+      "delivery": "dry, close, a knowing half-smile, in the gap before the kick drum",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "2.3-3.2",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "Label the first person's version of the problem in two words.",
+      "line": "Early shift.",
+      "delivery": "flat, on the beat, like a caption read aloud",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "4.3-5.0",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "Label the second person's version of the problem in one word.",
+      "line": "Deadline.",
+      "delivery": "flat, on the beat",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "6.3-7.1",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "Label the third person's version of the problem in two words; this one is the narrator's own.",
+      "line": "Last set.",
+      "delivery": "a touch warmer, she is talking about herself",
+      "shot": "S04"
+    },
+    {
+      "id": "L5",
+      "t": "8.4-9.8",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "Product line: name the product in the silence after the music cuts.",
+      "line": "Red Bull Sugarfree.",
+      "delivery": "clear and unhurried in the silence, right after the can crack",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "shot": "S05"
+    },
+    {
+      "id": "L6",
+      "t": "10.2-11.8",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "The one benefit that gets people over their wall, using an allowed claim only.",
+      "line": "Helps you concentrate. No sugar.",
+      "delivery": "matter-of-fact, landing 'No sugar' just before the drop",
+      "claim": "Caffeine helps to improve concentration and increase alertness; same benefits without sugar",
+      "shot": "S06"
+    },
+    {
+      "id": "L7",
+      "t": "20.4-22.0",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "Payoff: widen the idea to the viewer's own version of the problem.",
+      "line": "Whatever your wall is,",
+      "delivery": "breathing a little from the climb, warm",
+      "shot": "S10"
+    },
+    {
+      "id": "L8",
+      "t": "24.6-25.6",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "CTA with a wink: the problem word turned into the instruction.",
+      "line": "get over it.",
+      "delivery": "playful, a smile you can hear",
+      "shot": "S11"
+    },
+    {
+      "id": "L9",
+      "t": "27.4-29.2",
+      "speaker": "keisha",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm, unhurried, over the last held chord",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S11"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2,
+      "beat": "hook",
+      "framing": "close-up on hands, slightly low",
+      "camera": "handheld, lands on the slam",
+      "action": "Marisol's floury hands slam a ball of dough flat on the steel bench; a burst of flour lifts through the blue dawn window light.",
+      "product_state": "absent",
+      "audio": "dough slap on the first downbeat, oven hum",
+      "caption": "Every day has a wall.",
+      "refs": [
+        "marisol",
+        "bakery"
+      ],
+      "keyframe_prompt": "Close-up, slightly low angle, of the floury hands and forearms of Marisol, the woman from the character sheet, slamming a ball of dough flat onto a floured steel workbench in the bakery from the location plate; a burst of flour lifts into the air, backlit by deep blue dawn light from the steamed window behind, the orange glow of the deck oven on one side. Her sky-blue denim apron and the edge of her face are visible at the top of frame, eyes heavy. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S02",
+      "t0": 2,
+      "t1": 4,
+      "beat": "setup",
+      "framing": "medium, centred at mid-chest",
+      "camera": "handheld, still",
+      "action": "Marisol leans both hands on the bench, eyes closing, a yawn she cannot stop; the oven glows behind her.",
+      "product_state": "absent",
+      "audio": "oven hum, a long exhale",
+      "caption": "EARLY SHIFT.",
+      "refs": [
+        "marisol",
+        "bakery"
+      ],
+      "keyframe_prompt": "Medium shot, centred at mid-chest, of Marisol, the woman from the character sheet, in the bakery from the location plate before dawn, leaning both floury hands on the steel bench, mid-yawn with her eyes closing, navy bandana and sky-blue denim apron, deep blue dawn window light on one side of her face and warm orange oven glow on the other. Unposed, not looking at camera. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S03",
+      "t0": 4,
+      "t1": 6,
+      "beat": "setup",
+      "framing": "medium, centred at mid-chest (rhymes with S02)",
+      "camera": "handheld, still",
+      "action": "Theo slumps with his forehead on the desk beside a half-built white foam model, pencil still behind his ear, bright afternoon light.",
+      "product_state": "absent",
+      "audio": "studio murmur, a thud of forehead on desk on the downbeat",
+      "caption": "DEADLINE.",
+      "refs": [
+        "theo",
+        "studio"
+      ],
+      "keyframe_prompt": "Medium shot, centred at mid-chest, of Theo, the man from the character sheet, in the architecture studio from the location plate at 2pm, his forehead resting on the desk in defeat beside a half-built white foam-board building model with its roof missing, round tortoiseshell glasses pushed up, pencil behind his ear, heather-grey hoodie, bright white daylight from tall windows, a silver desk lamp. The foam model is plain white with no writing. Unposed. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S04",
+      "t0": 6,
+      "t1": 8,
+      "beat": "setup",
+      "framing": "medium from behind and below, centred (rhymes with S02 and S03)",
+      "camera": "handheld, slow tilt up the wall",
+      "action": "Keisha stands on the crash mat, chalking her hands, staring up at the steep overhanging wall that has beaten her all night.",
+      "product_state": "absent",
+      "audio": "chalk clap on the downbeat, gym echo",
+      "caption": "LAST SET.",
+      "refs": [
+        "keisha",
+        "gym"
+      ],
+      "keyframe_prompt": "Medium shot from slightly behind and below Keisha, the woman from the character sheet, standing on a blue crash mat in the bouldering gym from the location plate at sunset, clapping chalk off her hands, looking up at the tall grey overhanging climbing wall towering above her, her face in three-quarter profile, tired and determined, burnt-orange tank top, amber sunset light through high windows, chalk dust in the beams. The wall is vertical and fills the upper frame. Upright vertical composition, level horizon, normal gravity."
+    },
+    {
+      "id": "S05",
+      "t0": 8,
+      "t1": 10,
+      "beat": "product",
+      "framing": "macro insert",
+      "camera": "locked off",
+      "action": "In the silence after the music cuts, Marisol's floury fingers crack the can on the steel bench; a puff of cold vapour, flour dust in the dawn light.",
+      "product_state": "hero, upright on the bench, label facing camera, being opened",
+      "audio": "can crack and fizz in silence (registers the moment)",
+      "caption": "Red Bull Sugarfree.",
+      "refs": [
+        "product",
+        "bakery"
+      ],
+      "keyframe_prompt": "Macro insert, locked off: the exact can from the product reference standing upright on a floured steel bakery workbench, label facing camera, straight and undistorted, cold condensation droplets on it, the small slender hand of a woman with short nails and flour dust on her knuckles, one fingertip lifting the tab from the front of the can so a small puff of cold vapour rises; a few flour particles float in blue dawn window light, the orange oven glow blurred behind. One can only, the can is the brightest and sharpest object in the frame. Upright vertical composition."
+    },
+    {
+      "id": "S06",
+      "t0": 10,
+      "t1": 12,
+      "beat": "product",
+      "framing": "medium close-up",
+      "camera": "handheld, small push-in",
+      "action": "Theo, head up now, takes a sip from his can at the desk and lowers it, label to camera, eyes already on the model.",
+      "product_state": "in hand at chest height, label readable after the sip",
+      "audio": "a sip, studio murmur",
+      "caption": "Helps you concentrate. No sugar.",
+      "refs": [
+        "theo",
+        "product",
+        "studio"
+      ],
+      "keyframe_prompt": "Medium close-up of Theo, the man from the character sheet, sitting upright at the architecture studio desk from the location plate in bright afternoon light, holding the exact can from the product reference at chest height just after a sip, label facing camera and undistorted, his eyes already focused on the white foam-board model in front of him, glasses on, pencil behind his ear, a hint of a smile. One can only. Unposed, not looking at camera. Upright vertical composition."
+    },
+    {
+      "id": "S07",
+      "t0": 12,
+      "t1": 14,
+      "beat": "build",
+      "framing": "medium wide",
+      "camera": "handheld whip into frame on the drop",
+      "action": "The drop: Marisol pulls a tray of golden loaves out of the deck oven; the window behind her has gone from blue to first sunrise gold.",
+      "product_state": "absent (her open can stands blurred on the bench in the background)",
+      "audio": "oven door, tray slide on the drop",
+      "caption": "",
+      "refs": [
+        "marisol",
+        "bakery"
+      ],
+      "keyframe_prompt": "Medium wide shot in the bakery from the location plate at sunrise: Marisol, the woman from the character sheet, wide awake and grinning, pulling a long wooden peel of golden-brown loaves out of the glowing deck oven, steam rising, the window behind her now glowing with first gold sunrise light, sky-blue denim apron and navy bandana, flour on her forearms. Mid-action, energetic, not looking at camera. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S08",
+      "t0": 14,
+      "t1": 16,
+      "beat": "build",
+      "framing": "close-up",
+      "camera": "handheld, fast push on the placement",
+      "action": "Theo sets the last white roof piece onto the foam model with tweezers and it clicks into place; he pushes his glasses up.",
+      "product_state": "absent",
+      "audio": "a small click on the downbeat",
+      "caption": "",
+      "refs": [
+        "theo",
+        "studio"
+      ],
+      "keyframe_prompt": "Close-up in the architecture studio from the location plate: Theo, the man from the character sheet, leaning in with total concentration, placing the final small white roof piece onto a finished white foam-board building model with a pair of tweezers, his face lit by the silver desk lamp and bright afternoon window light, glasses on, pencil behind his ear. The model is plain white with no writing. Upright vertical composition."
+    },
+    {
+      "id": "S09",
+      "t0": 16,
+      "t1": 20,
+      "beat": "build",
+      "framing": "low angle wide up the wall",
+      "camera": "gimbal float up, half-bar stutter at the top-out",
+      "action": "Keisha makes the final dynamic reach on the overhang and slaps the top hold; a cloud of chalk bursts off her hand into the sunset beams.",
+      "product_state": "absent",
+      "audio": "hand slap on the hold on the downbeat, a shout of effort",
+      "caption": "",
+      "refs": [
+        "keisha",
+        "gym"
+      ],
+      "keyframe_prompt": "Low angle wide shot looking up the tall grey overhanging climbing wall from the location plate: Keisha, the woman from the character sheet, near the top of the wall, one hand slapping a big sky-blue top hold, her other hand and feet on smaller holds, body stretched, a cloud of white chalk bursting off her hand into amber sunset light beams from the high windows. The wall is vertical, she hangs by her hands with normal gravity, the floor and crash mats are at the bottom of frame. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S10",
+      "t0": 20,
+      "t1": 24,
+      "beat": "payoff",
+      "framing": "medium, centred at mid-chest (the rhyme resolved)",
+      "camera": "handheld, still",
+      "action": "Keisha sits on the crash mat, breathing hard, her can in one chalky hand, grinning up at the wall she just beat.",
+      "product_state": "in hand, label to camera",
+      "audio": "breath, gym echo, music lifts",
+      "caption": "Whatever your wall is,",
+      "refs": [
+        "keisha",
+        "product",
+        "gym"
+      ],
+      "keyframe_prompt": "Medium shot, centred at mid-chest, of Keisha, the woman from the character sheet, sitting on a thick blue crash mat in the bouldering gym from the location plate, breathing hard, forearms dusted with chalk, holding the exact can from the product reference loosely in one hand on her knee with the label facing camera and undistorted, grinning up at the climbing wall above her, amber sunset light on her face. One can only. Unposed. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S11",
+      "t0": 24,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert, can in lower third",
+      "camera": "slow push-in on a gimbal",
+      "action": "Blue hour on a rooftop: the can stands on a concrete ledge as city windows light up behind it. Tagline and pack shot.",
+      "product_state": "hero, upright on the ledge, label to camera",
+      "audio": "distant city, the music thins to one held chord",
+      "caption": "get over it. Wiiings without sugar.",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "The exact can from the product reference standing upright on a weathered concrete rooftop ledge at blue hour, label facing camera and undistorted, condensation droplets catching the last warm light, placed in the lower third of the frame; behind it a softly blurred generic city skyline of plain towers with warm windows starting to light up and no signs, logos or landmarks, a deep blue dusk sky with one gold band on the horizon. Premium pack shot, the can is the brightest and sharpest object. Clean empty sky above the can for a title. One can only. Upright vertical composition, level horizon. The can stands on its own on the ledge: no hands, no arms, no people anywhere in the frame."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "marisol card",
+        "theo card",
+        "keisha card",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid lifestyle montage, documentary handheld, natural light, light 16mm grain, four shots, hard cuts exactly every 2 seconds. Shot 1 (0 to 2 s): close-up of the floury hands of @Image1 (Marisol, navy bandana, sky-blue denim apron) slamming dough flat on a steel bakery bench before dawn, a burst of flour through blue window light. Shot 2 (2 to 4 s): medium shot of @Image1 leaning on the bench, eyes closing, a yawn she cannot stop, orange oven glow behind. Shot 3 (4 to 6 s): medium shot of @Image2 (Theo, round tortoiseshell glasses, grey hoodie) dropping his forehead onto a desk beside a half-built plain white foam architecture model in bright afternoon light. Shot 4 (6 to 9 s): from slightly behind and below, @Image3 (Keisha, short natural coils, burnt-orange tank top) claps chalk off her hands and looks up at a tall overhanging climbing wall in amber sunset light; the wall is vertical, normal gravity. Each person appears only in their own shots. Unposed, nobody looks at the camera. Native sound: dough slap, oven hum, a thud, a chalk clap. No music, no dialogue, no text on screen, no logos."
+    },
+    {
+      "id": "U2",
+      "t0": 8,
+      "t1": 12,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "theo card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid lifestyle. Shot 1 (0 to 2 s): locked-off macro, the exact can from @Image1 stands upright on a floured steel bakery bench in blue dawn light, label to camera, straight and undistorted; floury fingertips pull back the tab, a crack, a small puff of cold vapour. Shot 2 (2 to 5 s): medium close-up of @Image2 (Theo) at a bright studio desk, he takes one sip from the same design of can and lowers it to chest height with the label readable, eyes already on his white foam model, a hint of a smile. One can per person. Keep the can's shape, colours, wordmark and two bulls exactly as @Image1. Native sound: the can crack and fizz, a sip, studio murmur. No music, no dialogue, no text on screen."
+    },
+    {
+      "id": "U3",
+      "t0": 12,
+      "t1": 24,
+      "shots": [
+        "S07",
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "len_s": 12,
+      "exact_risk": false,
+      "refs": [
+        "marisol card",
+        "theo card",
+        "keisha card",
+        "S09 keyframe as reference",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid lifestyle montage, energetic handheld, cuts on the beat. Shot 1 (0 to 2 s): @Image1 (Marisol) pulls a wooden peel of golden loaves out of a glowing deck oven, steam, the bakery window now sunrise gold, she is grinning. Shot 2 (2 to 4 s): close-up, @Image2 (Theo) places the final white roof piece on a plain white foam model with tweezers, it clicks in, he pushes up his glasses. Shot 3 (4 to 8 s): low angle up a tall overhanging climbing wall at sunset, @Image3 (Keisha) makes a final dynamic reach and slaps a big sky-blue top hold, a cloud of chalk bursts off her hand into the light beams; she hangs by her hands, normal gravity, the wall stays vertical. Shot 4 (8 to 12 s): @Image3 sits on a blue crash mat breathing hard, holding one can like the product loosely on her knee, label to camera, grinning up at the wall. Each person appears only in their own shots. Native sound: oven door, a click, a slap and a shout of effort, breathing. No music, no dialogue, no text on screen, no logos."
+    },
+    {
+      "id": "U4",
+      "t0": 24,
+      "t1": 30,
+      "shots": [
+        "S11"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S11 keyframe as first frame"
+      ],
+      "prompt": "9:16 premium pack shot at blue hour. Slow gimbal push-in on the exact can from @Image1 standing upright on a weathered concrete rooftop ledge, label to camera, condensation droplets, the can in the lower third; behind it a blurred generic skyline of plain towers whose windows light up one by one, no signs or landmarks, deep blue sky with a gold band on the horizon. The can does not move or change shape. Keep clean empty sky above the can. Native sound: distant city, a breeze. No music, no dialogue, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "walls",
+      "t0": 0,
+      "t1": 8,
+      "brief": "120 bpm, one bar per shot (a cut every 2 s on the downbeat). Muted indie-electronic groove in A minor: a dry kick on 1 and 3, a filtered plucked synth riff, clapped snare on 2 and 4 that lands with the dough slap, the thud and the chalk clap. Each bar leaves a half-beat gap at the top for the narrator's word."
+    },
+    {
+      "section": "drop out",
+      "t0": 8,
+      "t1": 12,
+      "brief": "Everything cuts to silence on the downbeat of bar 5 so the can crack lands alone, then a single rising riser and a reversed cymbal swell under 'Helps you concentrate. No sugar.' that peaks exactly at 12.0 s."
+    },
+    {
+      "section": "drop",
+      "t0": 12,
+      "t1": 20,
+      "brief": "Full drop at 12.0 s, key lifts to A major: four-on-the-floor kick, big open clap, bright synth lead playing the riff an octave up, one cut per bar; a half-bar stutter (two 8th-note hits) at 18.0 s lands on the hand slapping the top hold."
+    },
+    {
+      "section": "glow",
+      "t0": 20,
+      "t1": 30,
+      "brief": "Drums fall away to a warm pad and the plucked riff at half volume, leaving room for the narrator; a final soft kick at 24.0 s under 'get over it', then one held A major chord from 26 s that rings out past the last frame."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 8.1,
+      "sound": "can crack and fizz, dry and close",
+      "why": "the product moment lands in the music's silence and must be crisp; only added if the native crack is weak"
+    },
+    {
+      "t": 18.0,
+      "sound": "hand slap on the hold with a chalk puff whoosh",
+      "why": "the payoff hit must sync exactly with the stutter in the music"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "keisha",
+      "plan": "voiceover recorded separately (TTS with the narrator voice brief, or a voice-clone of a native Keisha breath line from U3), dry and close, placed in the music gaps; the generations carry no dialogue"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 26.4,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Archivo Black, white, centred in the empty sky above the can, pops in on the 26.0 s downbeat with a 4 frame scale, 'Wiiings' in #7CC6F0"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (as 'No sugar' and the tagline)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

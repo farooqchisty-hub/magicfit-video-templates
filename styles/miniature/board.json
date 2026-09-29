@@ -1,0 +1,520 @@
+{
+  "id": "miniature-01-night-build",
+  "style": "miniature",
+  "title": "Night Build",
+  "logline": "2am in a tiny model town. The review is at nine, the whole crew has fallen asleep on the job, and the foreman calls in the big one: {product}. Then the camera pulls back.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "Riverside Commons, a fictional 1:87 scale architectural model of a small town square with houses, a clock-less civic hall, trees and a river, built on the desk of an architecture grad student at the fictional Kellerman School of Architecture. The tiny figurines are alive; she is the giant who works with them.",
+    "palette": "Chalky sky blue, silver-grey card and white buildings (echoing the can), warm amber window lights, orange hi-vis vests on the tiny crew; the real desk is warm wood and a green cutting mat.",
+    "fictional_brands": [
+      "Riverside Commons (the model project)",
+      "Kellerman School of Architecture (her school)",
+      "Oakbridge Model Supply (the glue bottle and figurine box, shown with blank labels in frame)"
+    ],
+    "rules": "Every building front, sign and label in the model is blank. The only real brand is the can, which is always full-size and photographically exact."
+  },
+  "cast": [
+    {
+      "id": "sal",
+      "name": "Sal Moreno",
+      "role": "the tiny foreman figurine",
+      "look": "a 2 cm tall hand-painted 1:87 figurine of a Latino man in his 60s, grey walrus mustache, white hard hat, orange hi-vis vest over a blue work shirt, tan trousers, holding a tiny red megaphone, on a small card base",
+      "voice": "gravelly, warm, bossy in a loving way, Mexican American, natural adult voice",
+      "card_prompt": "Macro product photograph of a model railway figurine on a plain white card base against a pale grey background, three views side by side at the same scale: front, three-quarter and profile of the same 2 cm tall hand-painted 1:87 scale plastic figurine. Sal Moreno: a Latino man in his 60s with a grey walrus mustache and a friendly squint, white hard hat, orange hi-vis vest over a blue work shirt, tan work trousers, brown boots, holding a tiny red megaphone. Visible brushstrokes and slightly imperfect paint, glossy dot eyes. Consistent across all three views. No text."
+    },
+    {
+      "id": "amara",
+      "name": "Amara Cole",
+      "role": "architecture grad student, the giant",
+      "look": "woman, 27, Black American, short natural hair with a pencil tucked into it, round tortoiseshell glasses, oversized olive knit sweater with the sleeves pushed up, small gold hoop earrings",
+      "voice": "soft, warm, tired but amused, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Amara Cole: 27, Black American, short natural hair with a pencil tucked into it, round tortoiseshell glasses, warm brown eyes, small gold hoop earrings, oversized olive knit sweater with the sleeves pushed up, focused and amused expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "town",
+      "name": "Riverside Commons model at night",
+      "plate_prompt": "Tilt-shift macro photograph, vertical 9:16, upright vertical composition, level horizon: a handmade 1:87 scale architectural model of a small town square at night, white card and chalky sky-blue balsa buildings with blank fronts and tiny windows mostly dark, a civic hall with a plain round window and no clock, flocked foam trees, a resin river with a little bridge, a paved central square left empty, tiny street lamps, a few 2 cm painted figurines in orange hi-vis vests asleep on benches and scaffolding. The model sits on a green cutting mat lit by cool blue night light. One continuous photograph, tilt-shift blur gradually softening toward the top and bottom edges. No signs, no letters, no logos, no text."
+    },
+    {
+      "id": "desk",
+      "name": "Amara's studio desk at 2am",
+      "plate_prompt": "Photoreal wide shot, vertical 9:16, upright vertical composition, level horizon: an architecture student's desk in a dark studio at 2am, a large handmade white and sky-blue card model of a small town square on a green cutting mat, an angled desk lamp throwing a warm pool of light, a craft knife, a steel ruler, a glue bottle and a small box with blank labels, sketches with only loose lines pinned to the wall, a dark window with city lights. No people, no cans, no letters, no logos, no text."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "the giant can lands in the square, the tiny crew cracks it open with ropes, and the lights come on; after the reveal she drinks from it",
+      "scale": "giant in the tiny world, hand in the real one"
+    },
+    "applied": {
+      "moment": "a giant tube or jar lands in the square and the tiny crew rolls it out like paint across the town, which wakes it up",
+      "scale": "giant in the tiny world, hand in the real one"
+    },
+    "worn": {
+      "moment": "the giant shoe, watch or glasses lands in the square and becomes the tiny crew's new building or vehicle",
+      "scale": "giant in the tiny world, body in the real one"
+    },
+    "handheld": {
+      "moment": "the giant gadget lands in the square and the tiny crew switches it on; its light or sound wakes the town",
+      "scale": "giant in the tiny world, hand in the real one"
+    },
+    "carried": {
+      "moment": "the giant bag is set down in the square and the tiny crew unzips it like a warehouse door",
+      "scale": "giant in the tiny world, lap in the real one"
+    },
+    "home": {
+      "moment": "the tiny town is built on or around the real product (lamp, chair, pillow) which becomes its sun, hill or roof",
+      "scale": "the product is the landscape"
+    },
+    "consumable": {
+      "moment": "the tiny crew unpacks the giant refill or pack with a crane and distributes it through the town",
+      "scale": "giant in the tiny world, hand in the real one"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.6",
+      "summary": "Macro close on the tiny foreman on a dark rooftop, megaphone up, deadline in one line."
+    },
+    {
+      "id": "setup",
+      "t": "2.6-7.0",
+      "summary": "The tiny crew asleep all over the unfinished model; the foreman calls in the big one."
+    },
+    {
+      "id": "product",
+      "t": "7.0-14.2",
+      "summary": "A giant hand sets the full-size can in the square like a monument; the crew cracks it open with ropes; the brand line."
+    },
+    {
+      "id": "build",
+      "t": "14.2-20.6",
+      "summary": "The town lights up and the crew builds; the camera pulls back to reveal the student at her desk, who picks up the same can and drinks."
+    },
+    {
+      "id": "payoff",
+      "t": "20.6-25.0",
+      "summary": "9am: the finished model at the review, the jury applauds, the foreman gives a thumbs up."
+    },
+    {
+      "id": "cta",
+      "t": "25.0-30",
+      "summary": "Morning light on the desk: the can standing in the finished square, tiny crew resting around it, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.5",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "Hook: a surprising character states a deadline the viewer instantly feels.",
+      "line": "Review's at nine. This town's asleep.",
+      "delivery": "gravelly, exasperated, into the megaphone",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "5.0-6.6",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "The call for help that brings the product in.",
+      "line": "Bring in the big one!",
+      "delivery": "shouted up at the sky, megaphone raised",
+      "shot": "S03"
+    },
+    {
+      "id": "L3",
+      "t": "11.6-14.0",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and the benefit the tiny world needs, using an allowed claim only.",
+      "line": "Red Bull Sugarfree. Wide awake, no sugar.",
+      "delivery": "proud, like unveiling a monument, hand on the can",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Caffeine helps to improve concentration and increase alertness; without sugar",
+      "shot": "S06"
+    },
+    {
+      "id": "L4",
+      "t": "18.6-20.4",
+      "speaker": "amara",
+      "on_camera": true,
+      "line_intent": "The reveal: the real person joins the tiny crew as one team.",
+      "line": "Okay, team. One more street.",
+      "delivery": "soft, amused, leaning over the model with the can",
+      "shot": "S08"
+    },
+    {
+      "id": "L5",
+      "t": "22.6-24.6",
+      "speaker": "sal",
+      "on_camera": true,
+      "line_intent": "Payoff: the deadline is beaten, said by the character who set it.",
+      "line": "Nine a.m. Nailed it.",
+      "delivery": "satisfied, thumbs up to the lens",
+      "shot": "S09"
+    },
+    {
+      "id": "L6",
+      "t": "27.2-29.2",
+      "speaker": "amara",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm, smiling voiceover",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.6,
+      "beat": "hook",
+      "framing": "macro close-up at figurine eye level",
+      "camera": "slow probe-lens push-in",
+      "action": "Sal stands on the edge of a dark card rooftop, megaphone raised, the sleeping tiny town blurred behind him in blue night light.",
+      "product_state": "absent",
+      "audio": "quiet night hum, tiny megaphone click, dialogue",
+      "caption": "Review's at nine. This town's asleep.",
+      "refs": [
+        "sal",
+        "town"
+      ],
+      "keyframe_prompt": "Macro close-up at figurine eye level: Sal, the 2 cm hand-painted foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, tiny red megaphone), standing on the edge of a white card rooftop of the miniature town from the location reference, megaphone raised to his mouth, the dark sleeping town behind him out of focus with a few warm window lights, cool blue night light. Visible paint texture on the figurine. No signs, no text."
+    },
+    {
+      "id": "S02",
+      "t0": 2.6,
+      "t1": 4.6,
+      "beat": "setup",
+      "framing": "high-angle tilt-shift wide",
+      "camera": "slow motion-control slide",
+      "action": "The tiny crew asleep all over the unfinished model: one slumped on scaffolding, two on a bench, one curled in a wheelbarrow; half-built houses with bare card walls.",
+      "product_state": "absent",
+      "audio": "tiny snores, a creak of card",
+      "caption": "",
+      "refs": [
+        "town"
+      ],
+      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference at night: several 2 cm hand-painted figurines in orange hi-vis vests and white hard hats asleep on the job, one slumped on balsa scaffolding against a half-built card house, two asleep on a bench, one curled up in a tiny wheelbarrow, bare unfinished card walls, windows dark, the empty paved square in the centre. Cool blue night light, tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Upright vertical composition, level horizon. No signs, no text."
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "low angle from the square",
+      "camera": "locked, tilt up",
+      "action": "Sal in the empty square shouts up at the sky; a giant warm shadow falls over him as something enormous descends.",
+      "product_state": "about to enter (its shadow falls over the square)",
+      "audio": "megaphone, rushing air, dialogue",
+      "caption": "Bring in the big one!",
+      "refs": [
+        "sal",
+        "town"
+      ],
+      "keyframe_prompt": "Low-angle macro shot from ground level in the paved square of the miniature town from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), shouting up at the sky through his tiny red megaphone, a huge soft shadow falling across him and the square from above as something enormous descends out of frame, blurred card buildings around him. No signs, no text."
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.4,
+      "beat": "product",
+      "framing": "low-angle tilt-shift wide",
+      "camera": "slow crane up the can",
+      "action": "A giant real adult hand sets the full-size can down in the centre of the square; it towers over the tiny houses like a skyscraper while the woken figurines stare up.",
+      "product_state": "hero, closed, upright, label facing camera",
+      "audio": "a deep thud like a landing monument, tiny gasps",
+      "caption": "",
+      "refs": [
+        "product",
+        "town"
+      ],
+      "keyframe_prompt": "Low-angle tilt-shift macro photograph in the miniature town square from the location reference: the exact can from the product reference, a real full-size can, standing upright and closed in the centre of the square and towering over the tiny white and sky-blue card houses like a skyscraper, label facing the viewer and undistorted, a normal-size adult hand with dark brown skin just letting go of the top of the can, several 2 cm hand-painted figurines in orange hi-vis vests around its base staring up in awe. Warm desk-lamp light catching the can, condensation drops. The whole can is in sharp focus and fully visible from base to lid in one continuous photograph. Only one can in the scene. Upright vertical composition, level horizon. No signs, no other text."
+    },
+    {
+      "id": "S05",
+      "t0": 9.4,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "macro at the top of the can",
+      "camera": "locked",
+      "action": "On the lid of the can, three tiny crew members heave on a rope tied to the ring pull; it cracks open and a burst of cold mist rises like a geyser.",
+      "product_state": "opening, ring pull lifting, upright",
+      "audio": "tiny heave-ho, can crack like thunder, fizz",
+      "caption": "",
+      "refs": [
+        "product",
+        "sal"
+      ],
+      "keyframe_prompt": "Macro photograph of the silver top of the exact can from the product reference, a real full-size can: three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid, leaning back and heaving on a thin rope tied to the red ring pull, which is lifting open, a burst of cold white mist rising from the opening like a geyser, the red band and the top of the red Red Bull wordmark visible on the side of the can and undistorted, the dark blurred miniature town far below. Only one can. No other text."
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 14.2,
+      "beat": "product",
+      "framing": "low-angle macro medium",
+      "camera": "slow slide around the base",
+      "action": "Sal stands at the base of the open can with one hand on it like a monument, megaphone lowered, and says the line; the label rises above him.",
+      "product_state": "open, upright in the square, label readable",
+      "audio": "fizz settling, a tiny cheer, dialogue",
+      "caption": "Red Bull Sugarfree. Wide awake, no sugar.",
+      "refs": [
+        "sal",
+        "product",
+        "town"
+      ],
+      "keyframe_prompt": "Low-angle macro shot at figurine eye level in the miniature town square from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, red megaphone lowered), standing proudly at the base of the exact can from the product reference with one tiny hand resting on it, the real full-size can open and upright, rising above him like a monument with its label facing the viewer and undistorted: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Warm light, cold droplets on the can, blurred card houses. Only one can. No other text."
+    },
+    {
+      "id": "S07",
+      "t0": 14.2,
+      "t1": 17.0,
+      "beat": "build",
+      "framing": "high-angle tilt-shift wide",
+      "camera": "motion-control slide, stop-motion figures",
+      "action": "Every window in the tiny town switches on warm amber; the crew is awake, a toy crane swings a roof into place, figurines carry card walls.",
+      "product_state": "open, upright in the square, small in the background",
+      "audio": "tiny hammering, crane whirr, bustle",
+      "caption": "",
+      "refs": [
+        "town",
+        "product"
+      ],
+      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference, now busy: every tiny window glowing warm amber, 2 cm hand-painted figurines in orange hi-vis vests awake and working, carrying white card walls, hammering, a small toy crane swinging a sky-blue card roof into place, and the exact can from the product reference, a real full-size can, standing open in the centre of the square towering over it all with its label facing the viewer. Tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Only one can. Upright vertical composition, level horizon. No signs, no text."
+    },
+    {
+      "id": "S08",
+      "t0": 17.0,
+      "t1": 20.6,
+      "beat": "build",
+      "framing": "pull-back to human-scale medium",
+      "camera": "one continuous pull-back and rise",
+      "action": "Reveal: the camera pulls back and up to show the town is a model on Amara's desk at 2am; she lifts the same can out of the square, takes a sip, and speaks to the tiny crew.",
+      "product_state": "open, in her hand at chin height after a sip, label readable",
+      "audio": "room tone, desk lamp buzz, dialogue",
+      "caption": "Okay, team. One more street.",
+      "refs": [
+        "amara",
+        "desk",
+        "product"
+      ],
+      "keyframe_prompt": "Photoreal medium shot at a studio desk at 2am from the location reference: Amara, the woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), leaning over a large handmade white and sky-blue card model of a town square with tiny glowing windows and tiny figurines in orange vests, holding the exact can from the product reference open at chin height just after a sip, label facing the viewer and undistorted, warm desk lamp light on her face and the can, amused tired smile. The empty paved square in the model where the can stood. Only one can in the scene. Upright vertical composition, level horizon. No text."
+    },
+    {
+      "id": "S09",
+      "t0": 20.6,
+      "t1": 25.0,
+      "beat": "payoff",
+      "framing": "macro foreground, human-scale background",
+      "camera": "slow push past Sal",
+      "action": "9am in a bright review room: the finished model on a white plinth, Sal in the foreground giving a thumbs up to the lens; behind, out of focus, Amara presents and blurred jurors applaud.",
+      "product_state": "absent",
+      "audio": "applause, morning room tone, dialogue",
+      "caption": "Nine a.m. Nailed it.",
+      "refs": [
+        "sal",
+        "amara",
+        "town"
+      ],
+      "keyframe_prompt": "Macro photograph in a bright morning review room: in sharp focus in the foreground, Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), standing on the edge of the finished miniature town model from the location reference and giving a thumbs up to the lens, the model finished with every building complete and trees in place; behind him, slightly soft but clearly recognisable, Amara, the Black American woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), presenting with a proud smile to a few blurred jurors who are applauding, big bright windows. No can in this shot. No text."
+    },
+    {
+      "id": "S10",
+      "t0": 25.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "tilt-shift medium, pack shot",
+      "camera": "slow motion-control push",
+      "action": "Morning sun through the studio window: the can stands in the finished square of the model, the tiny crew resting and picnicking around its base; clean space above for the tagline.",
+      "product_state": "hero, open, upright in the square, label to camera",
+      "audio": "birds outside, tiny contented sigh, score resolves",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "town"
+      ],
+      "keyframe_prompt": "Tilt-shift macro pack shot in soft golden morning window light: the exact can from the product reference, a real full-size can, standing upright and open in the centre of the finished miniature town square from the location reference, label facing the viewer and undistorted with condensation drops, towering over completed white and sky-blue card houses and flocked trees, 2 cm hand-painted figurines in orange hi-vis vests resting around its base, one lying back on the paving, two sharing a tiny picnic. The can is the brightest object in the frame and sits in the band of sharp focus. Large softly blurred empty area in the top third for a title. Only one can. Upright vertical composition, level horizon. No signs, no other text."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 7,
+      "exact_risk": false,
+      "refs": [
+        "sal card",
+        "town plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 tilt-shift macro footage of a handmade 1:87 miniature town at night, hand-painted 2 cm figurines that move in stepped stop-motion while the camera glides smoothly. Shot 1 (0 to 2.6 s): probe-lens push-in on @Image1 (Sal, the foreman figurine) on a card rooftop, megaphone up, he says in a gravelly voice: \"Review's at nine. This town's asleep.\" Shot 2 (2.6 to 4.6 s): high-angle tilt-shift slide over the town from @Image2, tiny crew asleep on scaffolding, a bench and in a wheelbarrow. Shot 3 (4.6 to 7 s): low angle in the empty square, Sal shouts up through the megaphone: \"Bring in the big one!\" and a huge soft shadow falls across him. Natural adult voice, close-miked, not sped up. Native sound: tiny snores, card creaks, rushing air. No music. No text, no signs."
+    },
+    {
+      "id": "U2",
+      "t0": 7.0,
+      "t1": 14.2,
+      "shots": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "sal card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 tilt-shift macro, handmade miniature town. Shot 1 (0 to 2.4 s): a normal-size adult hand sets the exact can from @Image1, a real full-size can, upright in the centre of the tiny square, towering over the card houses like a skyscraper, label to camera; the tiny figurines stare up. Shot 2 (2.4 to 4.4 s): macro on the lid, three tiny crew figurines heave on a rope tied to the ring pull, it cracks open and cold mist bursts up like a geyser. Shot 3 (4.4 to 8 s): low angle at the base, @Image2 (Sal) rests a hand on the open can like a monument and says proudly: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Wide awake, no sugar.\" The can is photographically exact, keeps its shape, colours, red wordmark, two red bulls, gold sun and SUGARFREE as @Image1, and never shrinks. Only one can. Native sound: a deep monument thud, tiny gasps, a heave-ho, the can crack like thunder, fizz. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 14.2,
+      "t1": 25.0,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "town plate",
+        "amara card",
+        "desk plate",
+        "sal card",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 miniature to human scale. Shot 1 (0 to 2.8 s): high-angle tilt-shift slide over @Image1 (the model town), every tiny window switches on warm amber, the figurines wake and build in stop-motion, a toy crane swings a roof in, the open can towers in the square. Shot 2 (2.8 to 6.4 s): one continuous pull-back and rise reveals the town is a card model on a desk at 2am; @Image2 (Amara) lifts the same open can out of the square, takes a sip, lowers it to chin height with the label readable and says softly: \"Okay, team. One more street.\" Shot 3 (6.4 to 11 s): a bright review room at 9am, the finished model on a plinth, @Image4 (Sal) in sharp macro foreground gives a thumbs up to the lens and says: \"Nine a.m. Nailed it.\" while Amara presents out of focus and blurred jurors applaud. The desk and model match @Image3. Only one can. Native sound: tiny hammering, crane whirr, desk lamp buzz, applause. No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 25.0,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "town plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 tilt-shift macro pack shot in golden morning window light. Slow motion-control push toward the exact can from @Image1, a real full-size can, standing open and upright in the centre of the finished miniature square from @Image2, label to camera, condensation drops, tiny painted figurines resting and picnicking around its base, one waving slowly in stop-motion. The can does not move or change shape. Keep the top third as soft empty blur. Native sound: birds outside the window, a tiny contented sigh. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "night",
+      "t0": 0,
+      "t1": 7.0,
+      "brief": "Sparse pizzicato strings and a music-box celesta in a sleepy lullaby waltz, D major, 84 bpm, leaving room for the tiny voice."
+    },
+    {
+      "section": "the big one",
+      "t0": 7.0,
+      "t1": 14.2,
+      "brief": "A timpani roll and a tiny brass fanfare as the can lands, a glockenspiel sparkle on the crack, then the waltz switches to a brisk 4/4."
+    },
+    {
+      "section": "build and reveal",
+      "t0": 14.2,
+      "t1": 25.0,
+      "brief": "Busy plucked strings and brushed snare like a workshop montage, opening into full warm strings on the pull-back reveal and a small triumphant lift for 9am."
+    },
+    {
+      "section": "morning",
+      "t0": 25.0,
+      "t1": 30,
+      "brief": "The lullaby melody returns in daylight on celesta and warm strings, resolving on a gentle held chord."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 10.2,
+      "sound": "can crack sweetened as thunder at tiny scale, then fizz",
+      "why": "the product moment must register and sell the scale gag"
+    },
+    {
+      "t": 8.0,
+      "sound": "deep monument thud as the can lands",
+      "why": "tells the ear the can is enormous in this world"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "sal",
+      "plan": "native voice from U1, then his U1 vocal stem as voice reference for U2 and U3; natural adult pitch, never chipmunked"
+    },
+    {
+      "speaker": "amara",
+      "plan": "native in U3, her U3 stem as voice reference for the tagline voiceover"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0.2,
+      "t1": 2.4,
+      "text": "Riverside Commons, 2:00 a.m.",
+      "sub": "",
+      "style": "small cream model-shop tag with a hairline border, Recoleta, top left, as if pinned into the model"
+    },
+    {
+      "t0": 17.2,
+      "t1": 18.4,
+      "text": "1:87",
+      "sub": "",
+      "style": "handwritten-style scale tag, cream label, next to the model as the pull-back starts"
+    },
+    {
+      "t0": 18.4,
+      "t1": 19.8,
+      "text": "1:1",
+      "sub": "",
+      "style": "the same tag flips to 1:1 when Amara comes into frame"
+    },
+    {
+      "t0": 20.8,
+      "t1": 22.4,
+      "text": "Final review, 9:00 a.m.",
+      "sub": "",
+      "style": "cream model-shop tag, top left"
+    },
+    {
+      "t0": 26.8,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Recoleta SemiBold, deep navy on a cream rounded label, centred in the soft blur above the can, fades up 8 frames"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (tagline form)"
+  ],
+  "cost_estimate": {
+    "seconds": 31,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.37,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

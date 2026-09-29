@@ -1,0 +1,58 @@
+{
+  "key": "anime",
+  "name": "Anime / manga",
+  "definition": "A 30 second anime episode compressed into one arc: an underdog, a rival who looks down on them, a power-up transformation and a final move. The product is the power-up item, the thing that flips the episode from defeat to comeback.",
+  "why_it_sells": "Anime grammar gives the product a job everyone already understands: the power-up. Viewers raised on shonen arcs read the can crack as the transformation cue instantly, and the look breaks the feed pattern of live-action ads. Listed among the fastest-growing AI animation ad styles in 2026 practitioner posts; it is a variety lever on a proven underdog script, not a replacement for it.",
+  "visual_grammar": "Cel-shaded characters with clean ink linework and two-tone shadows over lush hand-painted background art. Big expressive eyes with specular highlights, dramatic low and high angles, radial speed lines behind emotion beats, impact frames (a single high-contrast inverted frame) on hits, dramatic stills where the frame freezes with a flat limited palette and a strong silhouette. The rival is always framed higher than the hero until the payoff, when the hierarchy flips. The product is drawn with the same cel shading but keeps its exact label, like a hero prop in a key visual.",
+  "camera": "Anime camera language, not live-action: fast push-ins on eyes, whip pans with smear frames, parallax pans across layered backgrounds, a slow rotating orbit for the power-up, and freeze-frame dramatic stills for the rival's taunt and the hero's reaction. Hold the product in a locked insert with a lens flare glint. One sakuga moment per film (the final trick), everything else on held poses with limited animation.",
+  "light": "Golden-hour sunset with a saturated magenta and orange sky, rim light on every character, bloom on highlights, and the power-up lighting everything from within in sky blue and silver. Lens flares and light shafts are drawn, not photographic.",
+  "texture": "Clean digital cel paint with a subtle paper grain on the background art, crisp line art, soft glow compositing, no film grain, no photoreal skin.",
+  "palette_rule": "Sky blue and silver belong to the hero and to the power-up aura (they come from the can), the rival owns charcoal and crimson, and the world is painted in sunset magenta, orange and deep violet so both read against it.",
+  "pacing": "Hook in under 2 seconds with the rival's taunt as a dramatic still. Cut every 1.5 to 3 seconds. The can crack is a two-beat power-up: a held macro insert of at least 1.5 s, then the transformation. The final trick gets the longest single shot, then a freeze-frame on the rival's shock, then a calm, painted pack shot.",
+  "sound": "Native sound from the generations: skateboard wheels on concrete, crowd roar, wind. Anime-specific sound design matters: a rising whoosh into the power-up, a sharp crystalline shing on the eye glint, a deep boom on the impact frame. Score is a J-rock style opening theme (electric guitars, fast drums), generated per movement and stitched at picture cuts.",
+  "caption_look": {
+    "font": "Noto Sans Black",
+    "size": "5% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#8FD3FF (sky blue) for the word being spoken, others white",
+    "shadow": "3px solid black outline plus hard 0 4px 0 rgba(0,0,0,.45) drop, fansub style",
+    "position": "centre, 72% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 5,
+    "box": false,
+    "sfx_lettering": "Onomatopoeia (KSSHH on the crack, SHING on the eye glint, BOOM on the impact frame) is added in post as hand-drawn brush lettering in white with a sky-blue outline, tilted 8 to 12 degrees, never by the model",
+    "name_cards": "Character name cards (MIKA SANTOS / ROOKIE, DAX HOLLOWAY / 3x CHAMPION) slide in from the left in post on each character's first appearance"
+  },
+  "model_vocab": [
+    "anime key visual",
+    "cel shading with two-tone shadows",
+    "clean ink line art",
+    "hand-painted background art",
+    "radial speed lines",
+    "impact frame",
+    "dramatic still",
+    "sakuga",
+    "golden-hour sunset sky",
+    "glowing energy aura"
+  ],
+  "failure_modes": [
+    "the model adds Japanese or English lettering, SFX and speech bubbles on its own: say no text, no letters, no speech bubbles, no sound effect lettering anywhere",
+    "the can turns into a generic anime soda can or loses the bulls: say it is drawn with clean cel shading but the label, red wordmark, two red bulls, gold sun and SUGARFREE are copied exactly from the product reference",
+    "the photoreal product reference can pull the whole frame photoreal: repeat that the entire frame including the hands is 2D anime illustration",
+    "character design drifts between shots (eye colour, hair streak, bandage): pass the character sheet and restate the three identifiers every time",
+    "skateboards grow extra wheels or bend: say a plain skateboard deck with exactly four wheels and no graphics",
+    "crowd banners pick up readable real words: say banners are blank solid colour",
+    "aura effects swallow the product: keep the can outside the glow or state it stays sharp and fully visible",
+    "the model lightens darker-skinned characters toward pale anime defaults: state the skin tone explicitly (deep brown skin) in the card and in every shot of that character",
+    "an unowned hand in a product insert gets random gloves: say whose hand it is, bare, with the character's sleeve"
+  ],
+  "negatives": [
+    "no real brands, logos or sponsor names except the product",
+    "no readable text, letters, katakana, kanji or speech bubbles generated by the model",
+    "no photorealistic rendering, no 3D CGI look",
+    "no extra fingers",
+    "no graphics on skateboards or clothing",
+    "no children"
+  ],
+  "prompt_prefix": "2D anime key visual, vertical 9:16 frame, cel shading with two-tone shadows, clean ink line art, hand-painted background art, golden-hour sunset palette of magenta, orange and violet, bloom on highlights. Entirely hand-drawn anime illustration, not photoreal.",
+  "asset_style": "Drawn as a 2D anime character model sheet: cel shading, clean ink line art, flat pale grey background, no text, no labels."
+}

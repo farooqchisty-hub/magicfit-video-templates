@@ -1,0 +1,58 @@
+{
+  "key": "talking_objects",
+  "name": "Talking objects",
+  "definition": "A 30 second comedy sketch in which everyday objects are the cast: photoreal items in a real place, each with an expressive animated face and a big personality that comes from what it is. The product is a character too, with a strict face placement rule that keeps its label untouched. Humans are giants who only appear at the edge of the world, and every object freezes when a human looks.",
+  "why_it_sells": "Instant, wordless premise (the fridge is alive) that stops the scroll in one frame, and a built-in way to dramatise the product's difference: rivals become characters whose flaw is their product category (the sugary soda literally campaigns on sugar), so the comparison is a joke instead of an attack. It works for any physical product because every product lives among other objects.",
+  "visual_grammar": "Photoreal macro world at the objects' scale: real materials, real condensation, real clutter, shot like product photography. Faces are sculpted and 3D animated (glossy eyes with catchlights, flexible brows, a mouth that moves) and sit where the object's own shape suggests a face. Thin noodle arms only where they do not hide a label. Each character's personality is its category (cola: loud, sweet, old-school; juice: wholesome, a little smug; butter: smooth moderator). The human world is out of focus, huge and bright.",
+  "camera": "Macro lens at object height, 35 to 50mm equivalent at that scale. Locked-off two-shots and singles like a TV debate, slow push-ins on the zingers, a fast whip for the freeze. The human is seen from the objects' point of view (from inside the fridge looking out and up).",
+  "light": "Motivated by the place: here the cold white-blue fridge bulb from the back and top, soft and slightly underexposed when the door is shut (the characters' night), then a blast of warm kitchen light when the door opens. The product gets a clean cool key and rim so its aluminium and condensation sparkle.",
+  "texture": "Photoreal: frost, condensation beads, glass reflections, the slightly grubby realism of a lived-in fridge (a crumb, a ring stain). Faces are clean, glossy, stylized 3D animation, integrated with correct light and reflections so they feel part of the object.",
+  "palette_rule": "The fridge is neutral white and cool blue so the characters carry the colour: each rival owns one loud colour (cola purple, juice orange, butter yellow) and the product owns its own two colours (sky blue and silver), the only cool colour among the candidates, so it reads as the calm one.",
+  "pacing": "Premise in the first second (a face on an object talking), a joke every 3 to 4 s, rival lines short and punchy, the product's line calmer and held at least 2 s on the label, one freeze beat for the human, then the reaction button and CTA.",
+  "sound": "Native sound from the generations: fridge hum, glass clinks, condensation drips, big character voices. A mock election score (snare rolls, a brassy campaign fanfare, a tuba for the loser) stitched across units. Added sound only for the door opening, the fridge light click and the cheer.",
+  "caption_look": {
+    "font": "Poppins ExtraBold",
+    "size": "5.2% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFFFFF, other words 75%",
+    "box": "rounded pill box behind each line in the speaker's colour: cola #5B2A86, juice #F28C1B, butter #E9C23A with dark text, can #2A9BD8, human #333333",
+    "speaker_tag": "tiny name tag above the pill for the first line of each speaker (e.g. 'Cola'), 2.6% height",
+    "shadow": "none (the pill carries it)",
+    "position": "centre, 70% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 4
+  },
+  "face_placement_rule": "Rivals and extras (fictional products): the face sits on the front of the object, eyes and mouth over their blank label. The PRODUCT: the front label is never covered, warped or overlaid. Its eyes are two small glossy animated eyes that peek up over the top rim, sitting on the silver lid either side of the pull tab, visible from the front just above the rim; brows are tiny floating arcs above them. No mouth on the label: when the can talks, its pull tab flaps like a mouth and the can gives a small hop or lean on key words. No arms on the product. Camera for the product's close-ups is 10 to 20 degrees above the rim so the lid and eyes read while the label faces camera.",
+  "model_vocab": [
+    "photoreal macro product photography",
+    "anthropomorphic everyday objects",
+    "expressive 3D animated faces integrated into the object",
+    "glossy cartoon eyes with catchlights",
+    "noodle arms",
+    "inside a refrigerator, cold white-blue fridge light",
+    "condensation and frost",
+    "shallow depth of field at object scale"
+  ],
+  "failure_modes": [
+    "the model paints a face over the can's label or bends the label into a mouth: state the face placement rule in every can prompt ('eyes on the silver lid peeking over the rim, label untouched, no face on the label')",
+    "the rivals get real-looking brand labels or invented text: say 'plain label with only a simple wave or fruit shape, no letters'",
+    "extra copies of the product appear on the shelf: say 'only one can of the product in the fridge'",
+    "objects change size between shots: state relative sizes (the cola bottle is taller than the can, the juice carton is the tallest)",
+    "the human's face or hand is distorted at the fridge scale: keep her at the frame edge, out of focus behind the objects, or a clean hand-only insert",
+    "faces float off the object or look pasted on: say 'the face is part of the object, lit by the same fridge light, with matching reflections'",
+    "when the door opens the characters keep emoting: in the freeze shot say 'faces neutral and still, eyes open and fixed, like ordinary objects'",
+    "eggs multiply faces into a crowd of garbled mush: give eggs simple dot eyes and open mouths only",
+    "a generic cola drawn as a contour bottle with a red label and white wave reads as a real market leader's trade dress, and the model then adds that brand's script to background bottles: give rivals an off-category colour and silhouette (here a stubby straight bottle with a purple label) and list the only allowed background objects; but a brown or amber bottle reads as beer, which must never appear in a caffeine ad: rival drinks stay in clear glass that shows what they hold",
+    "a human shot 'from inside the fridge' sprouted an extra silver can with a human face on the shelf: in human shots say 'no cans, no bottles and no faces in this shot'",
+    "a high camera on the product makes the slim can look squat and fat: keep product close-ups only 10 to 15 degrees above the rim and say 'full slim height'"
+  ],
+  "negatives": [
+    "no real brands or logos except the product",
+    "no readable text generated by the model on any label, jar or note",
+    "no face, mouth or arms on the product's label",
+    "no more than one can of the product in any shot",
+    "no extra fingers on the human hand",
+    "no children"
+  ],
+  "prompt_prefix": "Photoreal macro product photography, vertical 9:16 frame, everyday objects come alive with expressive 3D animated faces integrated into the objects, shallow depth of field at object scale, real materials, condensation and reflections.",
+  "asset_style": "Photoreal object with an integrated expressive 3D animated face, macro product photography lighting, character sheet quality."
+}

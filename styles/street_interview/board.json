@@ -1,0 +1,572 @@
+{
+  "id": "street_interview-01-can-you-tell",
+  "style": "street_interview",
+  "title": "Can You Tell?",
+  "logline": "A street host runs a blind sip test on a college quad: sugar or no sugar? Everyone, including a chemistry professor, says sugar. The sleeve comes off: it's {product}.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "The main quad of a fictional North American college on a bright autumn afternoon between classes: brick buildings, big maples turning orange, students and staff crossing the lawn, benches, a stone path.",
+    "palette": "Real campus colours: grass green, red brick, orange leaves, denim. The product colours live only on the host's sky-blue and silver mic flag.",
+    "fictional_brands": [
+      "Quad Talk (the host's street interview channel, on the mic flag and the end card, added in post)"
+    ],
+    "rules": "No college name, crest or readable sign anywhere. Clothes are plain with no prints. Sample cups are plain white. Every other sign is blank."
+  },
+  "cast": [
+    {
+      "id": "bea",
+      "name": "Bea Santos",
+      "role": "street interview host",
+      "look": "woman, 26, Filipino American, long straight black hair in a high ponytail, big expressive dark eyes, small nose stud, cropped cream corduroy jacket over a plain black tee, holds a handheld mic with a black foam windscreen and a plain sky-blue cube mic flag",
+      "voice": "quick, bright, playful, American, a laugh always close",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Bea Santos: 26, Filipino American, long straight black hair in a high ponytail, big expressive dark eyes, small nose stud, cropped cream corduroy jacket over a plain black tee. Playful grin. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos."
+    },
+    {
+      "id": "tyler",
+      "name": "Tyler Novak",
+      "role": "interviewee 1, engineering senior",
+      "look": "man, 22, white American, messy sandy-brown hair, light stubble, freckles, olive green hoodie with no print, a laptop backpack strap over one shoulder",
+      "voice": "confident, easygoing, Midwestern",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same young adult man. Tyler Novak: 22, white American, messy sandy-brown hair, light stubble, freckles, olive green hoodie with no print, a black backpack strap over one shoulder. Confident easy smile. Clearly an adult college senior. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos."
+    },
+    {
+      "id": "mei",
+      "name": "Mei Chen",
+      "role": "interviewee 2, grad student",
+      "look": "woman, 24, Chinese American, chin-length black bob with blunt bangs, thin gold wire glasses, oversized denim jacket over a mustard knit, a canvas tote with no print",
+      "voice": "sharp, animated, West Coast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same young adult woman. Mei Chen: 24, Chinese American, chin-length black bob with blunt bangs, thin gold wire glasses, oversized denim jacket over a mustard knit sweater. Animated, sceptical expression. Clearly an adult grad student. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos."
+    },
+    {
+      "id": "hal",
+      "name": "Dr. Harold Greene",
+      "role": "interviewee 3, chemistry professor",
+      "look": "man, 61, Black American, short white hair and a neat white beard, half-moon reading glasses, brown tweed jacket with elbow patches over a light blue oxford shirt, a leather satchel",
+      "voice": "deep, measured, amused, Southern American lilt",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Dr. Harold Greene: 61, Black American, short white hair and a neat white beard, half-moon reading glasses, brown tweed jacket with elbow patches over a light blue oxford shirt. Amused, professorial expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos."
+    }
+  ],
+  "locations": [
+    {
+      "id": "quad",
+      "name": "College quad in autumn",
+      "plate_prompt": "Candid phone photo, vertical 9:16, upright vertical composition, level horizon: the main quad of a North American college on a bright autumn afternoon, red brick buildings with white trim, big maples with orange leaves, a green lawn crossed by a stone path, benches, a few adult students walking in the distance slightly out of focus. No readable signs, no crests, no names, no real brands, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "blind sip from a plain sample cup poured from the sleeved can, then the sleeve comes off",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "blind test on the back of the hand (a lotion, balm or sunscreen from a sleeved tube): guess the thing it's missing, then the sleeve comes off",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "they try it on without seeing the label (glasses, a jacket, shoes) and guess the price or what's missing, then the reveal",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "they use the sleeved gadget for five seconds (earbuds, a bottle, a tool) and guess, then the reveal",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "they lift the covered bag or case and guess the weight or price, then the cover comes off",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "they sit on or switch on the covered item set up on the quad (a chair, a lamp, a blanket) and guess, then the cover comes off",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "they taste or smell a sample from the unmarked refill pack and guess, then the pack is revealed",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.4",
+      "summary": "Bea straight into the lens on the quad, sleeved can and sample cups in hand: sugar or no sugar?"
+    },
+    {
+      "id": "answers",
+      "t": "2.4-10.6",
+      "summary": "Three quick blind sips, three confident answers: sugar. The chemistry professor is the most certain."
+    },
+    {
+      "id": "reveal",
+      "t": "10.6-15.6",
+      "summary": "Bea slides the kraft sleeve off the can: Red Bull Sugarfree, made without sugar. Tyler's jaw drops."
+    },
+    {
+      "id": "proof",
+      "t": "15.6-23",
+      "summary": "Mei checks what it means; Bea gives the allowed claim. The professor takes a can for his 8am."
+    },
+    {
+      "id": "payoff",
+      "t": "23-26",
+      "summary": "A line of people has formed behind them wanting to try."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "Bea holds the can next to the mic flag, tagline, and calls the next person in."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.2",
+      "speaker": "bea",
+      "on_camera": true,
+      "line_intent": "Hook: the host states the tiny test in one breath, straight to the viewer.",
+      "line": "Blind test. Sugar or no sugar?",
+      "delivery": "fast, bright, eyebrows up, straight into the lens",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "3.2-4.6",
+      "speaker": "tyler",
+      "on_camera": true,
+      "line_intent": "First confident wrong answer, the one the viewer would give.",
+      "line": "Sugar. A hundred percent.",
+      "delivery": "instant, cocky, still swallowing",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "5.8-7.2",
+      "speaker": "mei",
+      "on_camera": true,
+      "line_intent": "Second confident answer, with a vivid reaction.",
+      "line": "Oh, that's loaded. Sugar.",
+      "delivery": "eyes wide, pointing at the cup",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "8.4-10.2",
+      "speaker": "hal",
+      "on_camera": true,
+      "line_intent": "The expert gets it wrong too, raising the stakes of the reveal.",
+      "line": "Sugar, obviously. I teach chemistry.",
+      "delivery": "slow, amused, total authority, a small tap of the cup",
+      "shot": "S04"
+    },
+    {
+      "id": "L5",
+      "t": "11.4-13.6",
+      "speaker": "bea",
+      "on_camera": true,
+      "line_intent": "The reveal: name the product and its one defining difference.",
+      "line": "It's Red Bull Sugarfree. Made without sugar.",
+      "delivery": "gleeful, drawn out, sliding the sleeve off",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S05"
+    },
+    {
+      "id": "L6",
+      "t": "14.0-14.8",
+      "speaker": "tyler",
+      "on_camera": true,
+      "line_intent": "Genuine reaction to the reveal.",
+      "line": "No way.",
+      "delivery": "jaw drops, laughs",
+      "shot": "S06"
+    },
+    {
+      "id": "L7",
+      "t": "15.8-17.6",
+      "speaker": "mei",
+      "on_camera": true,
+      "line_intent": "The sceptic checks the catch.",
+      "line": "Wait, same stuff, just no sugar?",
+      "delivery": "narrowed eyes, half laughing",
+      "shot": "S07"
+    },
+    {
+      "id": "L8",
+      "t": "17.8-19.2",
+      "speaker": "bea",
+      "on_camera": true,
+      "line_intent": "Host answers with the allowed benefit claim, nothing more.",
+      "line": "Same benefits. No sugar.",
+      "delivery": "matter of fact, a wink",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S07"
+    },
+    {
+      "id": "L9",
+      "t": "20.0-22.6",
+      "speaker": "hal",
+      "on_camera": true,
+      "line_intent": "The expert converts and names his own use moment.",
+      "line": "Keeps me sharp for my eight a.m.",
+      "delivery": "tucking the can into his jacket, mock serious",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S08"
+    },
+    {
+      "id": "L10",
+      "t": "27.0-29.4",
+      "speaker": "bea",
+      "on_camera": true,
+      "line_intent": "Sign-off: tagline in the brand's words, then back into the format.",
+      "line": "Wiiings without sugar. Next!",
+      "delivery": "to camera, can up by the mic flag, then turning to wave the next person in",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.4,
+      "beat": "hook",
+      "framing": "medium close-up, host to lens",
+      "camera": "handheld selfie-distance, slight sway",
+      "action": "Bea on the quad talks straight to camera, mic in one hand, the kraft-sleeved can and a stack of small white sample cups in the other.",
+      "product_state": "hidden in a plain kraft sleeve, only the silver rim visible",
+      "audio": "crowd chatter, birds, wind bump on the mic, dialogue",
+      "caption": "Blind test. Sugar or no sugar?",
+      "refs": [
+        "bea",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid medium close-up of Bea, the woman from the character sheet, on the autumn college quad from the location plate, talking straight into the lens with eyebrows raised and a playful grin. In one hand she holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text. In her other hand she holds a slim drink can completely wrapped in a plain brown kraft paper sleeve, only its silver top rim showing, and a small stack of plain white unmarked paper sample cups. Orange maples and brick buildings out of focus behind her, a few adult students walking. Bright natural daylight. Clean area at the top of the frame for a question card."
+    },
+    {
+      "id": "S02",
+      "t0": 2.4,
+      "t1": 5.0,
+      "beat": "answers",
+      "framing": "medium, subject right third",
+      "camera": "handheld, snap zoom on the answer",
+      "action": "Tyler sips from a small white cup and answers instantly, Bea's mic in frame from the left.",
+      "product_state": "absent (sample cup only)",
+      "audio": "sip, crowd, dialogue",
+      "caption": "Sugar. A hundred percent.",
+      "refs": [
+        "tyler",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid handheld street interview frame: Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, framed chest-up on the right third, lowering a small plain white paper sample cup from his lips and answering with cocky certainty, one finger raised. From the left edge of the frame, a woman's hand in a cream corduroy sleeve holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text toward him. Orange maples, brick and passers-by out of focus behind. Natural daylight."
+    },
+    {
+      "id": "S03",
+      "t0": 5.0,
+      "t1": 7.6,
+      "beat": "answers",
+      "framing": "medium close-up, subject left third",
+      "camera": "handheld, reframe on the point",
+      "action": "Mei sips, eyes go wide, she points at the cup and calls it.",
+      "product_state": "absent (sample cup only)",
+      "audio": "sip, laughter off screen, dialogue",
+      "caption": "Oh, that's loaded. Sugar.",
+      "refs": [
+        "mei",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid handheld street interview frame: Mei, the young woman from the character sheet, on a stone path on the autumn college quad, framed chest-up on the left third, eyes wide behind her gold glasses, pointing at the small plain white paper sample cup in her other hand, mouth open mid-word. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text enters from the right edge. A bench and orange leaves out of focus behind. Natural daylight, slight lens flare."
+    },
+    {
+      "id": "S04",
+      "t0": 7.6,
+      "t1": 10.6,
+      "beat": "answers",
+      "framing": "medium",
+      "camera": "handheld, slow punch-in",
+      "action": "Dr. Greene sips, considers, and delivers his verdict with total authority, tapping the cup.",
+      "product_state": "absent (sample cup only)",
+      "audio": "crowd, a distant bell, dialogue",
+      "caption": "Sugar, obviously. I teach chemistry.",
+      "refs": [
+        "hal",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid handheld street interview frame: Dr. Harold Greene, the man from the character sheet, standing in front of a red brick building on the autumn college quad, framed chest-up, a leather satchel on his shoulder, holding a small plain white paper sample cup, peering over his half-moon glasses with amused total authority, mid-sentence. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text held toward him from the left edge. Natural afternoon daylight, real skin texture."
+    },
+    {
+      "id": "S05",
+      "t0": 10.6,
+      "t1": 13.8,
+      "beat": "reveal",
+      "framing": "close-up insert",
+      "camera": "handheld, pull focus from sleeve to label",
+      "action": "Bea slides the kraft sleeve down and off the can; the label is revealed and held to camera next to the mic flag.",
+      "product_state": "hero reveal, upright in hand, label to camera, held 2 s",
+      "audio": "paper slide, a gasp off screen, dialogue",
+      "caption": "It's Red Bull Sugarfree. Made without sugar.",
+      "refs": [
+        "product",
+        "bea"
+      ],
+      "keyframe_prompt": "Handheld close-up insert on the autumn college quad: a woman's hand in a cream corduroy sleeve holds the exact can from the product reference upright to camera, the whole can fully uncovered from top to bottom with its complete label facing camera and undistorted: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls and a gold sun, SUGARFREE in red below. The brown kraft paper sleeve has been completely removed and is crumpled in her other hand at the bottom edge of frame, not touching the can. Beside the can, slightly out of focus, a handheld microphone with a plain sky-blue cube mic flag with no text. Orange leaves and green lawn bokeh behind. Exactly one can in the frame. Natural daylight, the can is the sharpest object."
+    },
+    {
+      "id": "S06",
+      "t0": 13.8,
+      "t1": 15.6,
+      "beat": "reveal",
+      "framing": "close-up",
+      "camera": "handheld snap zoom",
+      "action": "Tyler's jaw drops, hands on his head, laughing.",
+      "product_state": "absent",
+      "audio": "laughter, dialogue",
+      "caption": "No way.",
+      "refs": [
+        "tyler",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid handheld close-up of Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, jaw dropped in genuine surprise, both hands on top of his messy hair, starting to laugh, eyes on something just off camera. Slight motion blur from a snap zoom. Orange maples out of focus. Natural daylight, real skin texture."
+    },
+    {
+      "id": "S07",
+      "t0": 15.6,
+      "t1": 19.6,
+      "beat": "proof",
+      "framing": "two-shot",
+      "camera": "handheld, swings between them",
+      "action": "Mei narrows her eyes and checks the catch; Bea, can in hand, answers with a wink.",
+      "product_state": "in Bea's hand, label half to camera",
+      "audio": "crowd, dialogue",
+      "caption": "Wait, same stuff, just no sugar? Same benefits. No sugar.",
+      "refs": [
+        "mei",
+        "bea",
+        "product",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid handheld two-shot on the autumn college quad: Mei, the young woman from her character sheet, on the right with narrowed sceptical eyes behind gold glasses and a half laugh, and Bea, the host from her character sheet, on the left holding a handheld microphone with a plain sky-blue cube mic flag with no text and holding the exact can from the product reference upright in her other hand, label turned toward camera and undistorted, winking. Brick and orange leaves behind. Natural daylight. Exactly one can in the frame."
+    },
+    {
+      "id": "S08",
+      "t0": 19.6,
+      "t1": 23.0,
+      "beat": "proof",
+      "framing": "medium",
+      "camera": "handheld",
+      "action": "Bea hands Dr. Greene a fresh closed can; he tucks it into his tweed jacket's inside pocket with mock seriousness.",
+      "product_state": "his one can, closed, label visible as he tucks it away",
+      "audio": "crowd, dialogue, laughter",
+      "caption": "Keeps me sharp for my eight a.m.",
+      "refs": [
+        "hal",
+        "product",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid handheld medium shot on the autumn college quad: Dr. Harold Greene, the man from the character sheet, in his brown tweed jacket, mock-serious, tucking the exact can from the product reference into the inside pocket of his jacket, the can's label still visible and undistorted as it goes in, a wry smile over his half-moon glasses. A handheld microphone with a plain sky-blue cube mic flag with no text enters from the left edge. Brick building behind. Natural daylight. Exactly one can in the frame."
+    },
+    {
+      "id": "S09",
+      "t0": 23.0,
+      "t1": 26.0,
+      "beat": "payoff",
+      "framing": "wide",
+      "camera": "handheld, turns to reveal the line",
+      "action": "The camera swings round: a line of eight or nine adult students and staff has formed on the path behind Bea, waving to be next.",
+      "product_state": "absent",
+      "audio": "crowd building, 'me next', laughter",
+      "caption": "",
+      "refs": [
+        "bea",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid handheld wide shot on the autumn college quad, upright vertical composition, level horizon: Bea, the host from the character sheet, in the foreground turning to look back with a delighted laugh, holding her microphone with a plain sky-blue cube mic flag with no text, and behind her on the stone path a line of eight or nine adults (students in their twenties and a couple of staff) of mixed genders and ethnicities, waving and grinning to be next, plain clothes with no prints or logos, nobody holding cans. Orange maples and brick buildings, bright afternoon sun."
+    },
+    {
+      "id": "S10",
+      "t0": 26.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium close-up, host to lens",
+      "camera": "handheld, steadies for the sign-off",
+      "action": "Bea holds the can up next to the mic flag, says the tagline to camera, then turns to wave the next person in.",
+      "product_state": "hero, upright in hand beside the mic flag, label to camera",
+      "audio": "crowd, dialogue, light beat in post",
+      "caption": "Wiiings without sugar. Next!",
+      "refs": [
+        "bea",
+        "product",
+        "quad"
+      ],
+      "keyframe_prompt": "Candid medium close-up of Bea, the host from the character sheet, on the autumn college quad, talking straight into the lens with a big grin, holding the exact can from the product reference upright beside her face with the label facing camera and undistorted, and in her other hand a microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text right next to the can. The blurred line of people behind her. Bright natural daylight. Exactly one can in the frame. Clean area in the upper third for the channel card."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 10.6,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "bea card",
+        "tyler card",
+        "mei card",
+        "hal card",
+        "quad plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid street interview on an autumn college quad, handheld phone camera at eye level, natural daylight, jump cuts. Shot 1 (0 to 2.4 s): @Image1 (Bea) straight into the lens, holding a mic with a plain sky-blue cube flag and a drink can hidden in a plain kraft paper sleeve plus small white cups, fast and bright: \"Blind test. Sugar or no sugar?\" Shot 2 (2.4 to 5 s): @Image2 (Tyler) sips from a small white cup, cocky: \"Sugar. A hundred percent.\" Shot 3 (5 to 7.6 s): @Image3 (Mei) sips, eyes wide, points at the cup: \"Oh, that's loaded. Sugar.\" Shot 4 (7.6 to 11 s): @Image4 (Dr. Greene) sips, peers over his glasses, amused and certain: \"Sugar, obviously. I teach chemistry.\" The host holds the only microphone, always in frame. Native sound: crowd chatter, birds, wind bumps on the mic, close dry dialogue. No music. No text on screen, no logos, no readable signs."
+    },
+    {
+      "id": "U2",
+      "t0": 10.6,
+      "t1": 15.6,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "bea card",
+        "tyler card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid handheld. Shot 1 (0 to 3.2 s): close-up, a woman's hand slides a plain kraft paper sleeve down off the exact can from @Image1, then holds the can upright to camera with the label readable beside a sky-blue mic flag; @Image2 (Bea), off screen then leaning into frame, gleeful: \"It's Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Made without sugar.\" Shot 2 (3.2 to 5 s): snap zoom on @Image3 (Tyler), jaw drops, hands on his head, laughing: \"No way.\" Keep the can's shape, colours, wordmark and bulls exactly as @Image1. Exactly one can. Native sound: paper sliding, a gasp, laughter, crowd. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 15.6,
+      "t1": 26.0,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "mei card",
+        "bea card",
+        "hal card",
+        "product can official",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid street interview, handheld phone camera, autumn college quad, natural daylight. Shot 1 (0 to 4 s): two-shot, @Image1 (Mei) narrows her eyes, half laughing: \"Wait, same stuff, just no sugar?\" @Image2 (Bea), holding the can from @Image4 and the mic, winks: \"Same benefits. No sugar.\" Shot 2 (4 to 7.4 s): Bea hands @Image3 (Dr. Greene) one closed can; he tucks it into his tweed jacket's inside pocket, mock serious: \"Keeps me sharp for my eight a.m.\" Shot 3 (7.4 to 10.4 s): the camera swings round to reveal a line of adults on the path behind Bea, waving to be next; Bea laughs. Only one can per person. Native sound: crowd, laughter, 'me next'. No music. No logos, no readable signs."
+    },
+    {
+      "id": "U4",
+      "t0": 26.0,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "bea card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid handheld, college quad in autumn daylight. Medium close-up of @Image2 (Bea) straight into the lens, holding the exact can from @Image1 upright beside her face, label to camera and unchanged, a mic with a plain sky-blue cube flag next to it; big grin: \"Wiiings (said WINGS, vowel stretched) without sugar.\" Then she turns and waves someone in: \"Next!\" The can keeps its exact shape and label. Native sound: crowd, dialogue. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "answers",
+      "t0": 0,
+      "t1": 10.6,
+      "brief": "No score: raw street ambience only, the format's authenticity lives here."
+    },
+    {
+      "section": "reveal",
+      "t0": 10.6,
+      "t1": 26.0,
+      "brief": "A light trending-style lo-fi hip hop beat, 92 bpm, muted drums and a plucky synth, enters on the sleeve slide and sits well under dialogue."
+    },
+    {
+      "section": "sign-off",
+      "t0": 26.0,
+      "t1": 30,
+      "brief": "The same beat with a short riser and a clean stop on 'Next!'"
+    }
+  ],
+  "sfx": [
+    {
+      "t": 11.0,
+      "sound": "paper sleeve sliding off, then a soft whoosh",
+      "why": "the reveal is the product moment and must register even with the crowd noise"
+    },
+    {
+      "t": 29.4,
+      "sound": "a short record-stop or tape stop",
+      "why": "sells the 'next clip' cut that makes it feel like a series"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "bea",
+      "plan": "native voice in U1; her U1 vocal stem as voice reference for U2, U3 and U4"
+    },
+    {
+      "speaker": "tyler",
+      "plan": "native in U1; his U1 stem as reference for 'No way' in U2"
+    },
+    {
+      "speaker": "mei",
+      "plan": "native in U1; her U1 stem as reference for her U3 line"
+    },
+    {
+      "speaker": "hal",
+      "plan": "native in U1; his U1 stem as reference for his U3 line"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 10.6,
+      "text": "SUGAR OR NO SUGAR?",
+      "sub": "",
+      "style": "question card pinned at the top: white rounded box, black Montserrat ExtraBold, pops on at 0.2 s"
+    },
+    {
+      "t0": 0,
+      "t1": 30,
+      "text": "QUAD TALK",
+      "sub": "",
+      "style": "fictional channel logo composited onto the blank sky-blue mic flag in every shot, white Montserrat ExtraBold on sky blue, tracked to the flag"
+    },
+    {
+      "t0": 2.4,
+      "t1": 10.6,
+      "text": "TYLER, SENIOR / MEI, GRAD STUDENT / DR. GREENE, CHEMISTRY",
+      "sub": "",
+      "style": "one name tag per person on their first answer, small white on black, top left under the question card"
+    },
+    {
+      "t0": 27.0,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Montserrat ExtraBold white with black stroke in the clean upper third, pops on per word"
+    }
+  ],
+  "claims_used": [
+    "Same benefits of the original Energy Drink, without sugar",
+    "Caffeine helps to improve concentration and increase alertness"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}
