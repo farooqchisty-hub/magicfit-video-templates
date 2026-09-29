@@ -1,0 +1,531 @@
+{
+  "id": "unboxing-01-the-drop",
+  "style": "unboxing",
+  "title": "The Drop",
+  "logline": "The night before their first big tournament, a cold box lands at an esports team house. The captain opens it on camera, the squad gets its first taste of {product}, and three scrims later nobody is tired.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "The shared team house of the fictional esports team Kestrel Six, a rented suburban house turned gaming house: a living room with a sagging grey couch, a coffee table, and three gaming stations along the wall, 10pm the night before the fictional Coldharbor Invitational, then 1am during practice scrims.",
+    "palette": "Magenta and cyan RGB strips against warm overhead light; neutral packaging (kraft cardboard, silver insulated liner, white foam) so the silver and sky-blue can is the only hero colour when it comes out.",
+    "fictional_brands": [
+      "Kestrel Six (esports team, plain sky-blue jerseys, a simple bird silhouette on the chest, no lettering)",
+      "Coldharbor Invitational (tournament, never shown as text)"
+    ],
+    "rules": "The box is plain kraft with one plain sky-blue sticker, no courier labels or text. Monitors show only abstract blurred colour, no game UI. Keyboards, headsets and chairs have no logos. Each person holds exactly one can. All cast are adults (21 to 23)."
+  },
+  "cast": [
+    {
+      "id": "kiara",
+      "name": "Kiara Banks",
+      "role": "team captain, opens the box",
+      "look": "woman, 23, Black American, deep brown skin, shoulder-length box braids pulled half up, bright wide smile, small silver nose stud, plain sky-blue team jersey with a simple white bird silhouette on the chest and no lettering, black over-ear headset around her neck",
+      "voice": "confident, quick, loud-laugh energy, captain's voice, American Midwest",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Kiara Banks: 23, Black American, deep brown skin, shoulder-length box braids pulled half up, bright wide smile, small silver nose stud, plain sky-blue team jersey with a simple white bird silhouette on the chest and no lettering, plain black over-ear headset around her neck with no logos. Confident, excited adult. Consistent identity across all three views. No text."
+    },
+    {
+      "id": "owen",
+      "name": "Owen Fitzgerald",
+      "role": "teammate on the couch, the skeptic",
+      "look": "man, 22, white American, pale freckled skin, messy copper-red hair, thin wire glasses, patchy red stubble, grey hoodie over the plain sky-blue team jersey, black headset pushed back on his head",
+      "voice": "nasal, dry, deadpan, cracks when excited, American Northeast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Owen Fitzgerald: 22, white American, pale freckled skin, messy copper-red hair, thin wire glasses, patchy red stubble, plain grey hoodie over a plain sky-blue jersey with no lettering, plain black headset pushed back on his head. Deadpan, skeptical adult expression. Consistent identity across all three views. No text."
+    },
+    {
+      "id": "noor",
+      "name": "Noor Haddad",
+      "role": "teammate, the hype one",
+      "look": "woman, 21, Lebanese American, olive skin, long dark wavy hair in a high ponytail, thick dark brows, gold hoop earrings, oversized plain sky-blue team jersey with a simple white bird silhouette and no lettering",
+      "voice": "bright, fast, quick to laugh, American West Coast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Noor Haddad: 21, Lebanese American, olive skin, long dark wavy hair in a high ponytail, thick dark brows, gold hoop earrings, oversized plain sky-blue team jersey with a simple white bird silhouette on the chest and no lettering. Bright, excited adult expression. Consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "teamhouse",
+      "name": "Kestrel Six team house living room",
+      "plate_prompt": "Candid smartphone photo, vertical 9:16, upright composition, level horizon: the living room of a rented suburban house turned esports gaming house at 10pm: a sagging grey couch and a low wooden coffee table in the foreground, three gaming desks along the back wall with ultrawide monitors showing only abstract blurred colour, plain black keyboards and headsets, gaming chairs, magenta and cyan RGB light strips along the ceiling and desks, warm overhead light, lived-in clutter: cables, a pizza box with no print, hoodies on chairs, a plain sky-blue banner with a simple white bird silhouette and no lettering on the wall. Phone noise, no people, no readable text, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "cans lifted from the cold box, cracked together and sipped for first reactions",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "tubes or jars lifted from the box and tried on the back of a hand or face in front of the group (skincare, balm, hair product)",
+      "scale": "face or hand"
+    },
+    "worn": {
+      "moment": "each teammate pulls theirs from the box and puts it on right there (jersey, hoodie, glasses, headset, sneakers)",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "the device is lifted out of its foam slot, switched on and passed around (controller, mouse, earbuds, gadget)",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "the bag comes out of the box and gets unzipped and packed on the coffee table (backpack, gear case, sleeve)",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "the item is unpacked and set up at the stations or in the room (chair, lamp, desk mat, speaker)",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "packs come out of the box and each teammate opens one and tries it (snack, gum, hydration mix)",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.2",
+      "summary": "A frosty box hauled through the front door at night toward the lens; the captain names the stakes: tournament tomorrow, and it just landed."
+    },
+    {
+      "id": "anticipation",
+      "t": "2.2-6.2",
+      "summary": "The box hits the coffee table, the skeptic asks why it's cold, top-down tape rip and a puff of cold air."
+    },
+    {
+      "id": "reveal",
+      "t": "6.2-11.6",
+      "summary": "POV from inside the box up at three faces; the captain lifts one can to the lens and names it."
+    },
+    {
+      "id": "first-try",
+      "t": "11.6-18.2",
+      "summary": "Three cans crack together, then fast first-sip reactions, one face per shot."
+    },
+    {
+      "id": "payoff",
+      "t": "18.2-24.6",
+      "summary": "1am practice: the squad still sharp, Owen jumps up after a third straight win."
+    },
+    {
+      "id": "cta",
+      "t": "24.6-30",
+      "summary": "Kiara at her station holds her can to the lens: get yours before game day, and the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.1",
+      "speaker": "kiara",
+      "on_camera": true,
+      "line_intent": "Hook: name the high-stakes moment and announce the package arrival.",
+      "line": "Tournament's tomorrow. And it just landed.",
+      "delivery": "breathless grin, hauling the box, loud enough for the house",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "2.5-3.9",
+      "speaker": "owen",
+      "on_camera": true,
+      "line_intent": "Curiosity: a sensory detail of the package that makes the viewer want it opened.",
+      "line": "Is that cold? Why is it cold?",
+      "delivery": "deadpan then genuinely curious, leaning off the couch",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "4.3-5.5",
+      "speaker": "kiara",
+      "on_camera": false,
+      "line_intent": "The open: build the reveal.",
+      "line": "Okay. Moment of truth.",
+      "delivery": "low and dramatic, hands on the tear strip",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "6.6-7.9",
+      "speaker": "noor",
+      "on_camera": true,
+      "line_intent": "First sight: an unscripted-sounding reaction to what is inside.",
+      "line": "Oh, it's the silver ones.",
+      "delivery": "delighted gasp, peering into the box",
+      "shot": "S04"
+    },
+    {
+      "id": "L5",
+      "t": "8.5-11.4",
+      "speaker": "kiara",
+      "on_camera": true,
+      "line_intent": "Product line: name the product clearly while it is held to the lens, with the one allowed benefit.",
+      "line": "Red Bull Sugarfree. Same benefits as the original. No sugar.",
+      "delivery": "clear, proud, a touch slower on the name, like presenting a trophy",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S05"
+    },
+    {
+      "id": "L6",
+      "t": "14.3-15.4",
+      "speaker": "owen",
+      "on_camera": true,
+      "line_intent": "First reaction from the skeptic: a short honest verdict.",
+      "line": "Okay, that's good.",
+      "delivery": "surprised, grudging, nodding slowly",
+      "shot": "S07"
+    },
+    {
+      "id": "L7",
+      "t": "16.0-17.9",
+      "speaker": "noor",
+      "on_camera": true,
+      "line_intent": "The benefit as a reaction, tied to the task ahead.",
+      "line": "Alert. Focused. Queue us up.",
+      "delivery": "fast, hyped, already pulling her headset on",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S08"
+    },
+    {
+      "id": "L8",
+      "t": "22.4-23.8",
+      "speaker": "owen",
+      "on_camera": true,
+      "line_intent": "Payoff: proof in the world, the win.",
+      "line": "GG. That's three straight.",
+      "delivery": "voice cracking with excitement, standing, hands on head",
+      "phonetic": "GG said as 'jee jee'",
+      "shot": "S09"
+    },
+    {
+      "id": "L9",
+      "t": "25.4-29.6",
+      "speaker": "kiara",
+      "on_camera": true,
+      "line_intent": "In-world CTA from the person who opened it, then the tagline.",
+      "line": "Get yours before game day. Wiiings without sugar.",
+      "delivery": "direct to lens, captain's grin, raises the can on the tagline",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.2,
+      "beat": "hook",
+      "framing": "medium close-up, box close to lens",
+      "camera": "handheld phone, backing away as she walks in",
+      "action": "Kiara hauls a frosty plain kraft box through the front door at night straight toward the lens, grinning.",
+      "product_state": "absent (inside the sealed box)",
+      "audio": "door bang, cardboard creak, her voice",
+      "caption": "Tournament's tomorrow. And it just landed",
+      "refs": [
+        "kiara"
+      ],
+      "keyframe_prompt": "Handheld phone shot at night in the front hallway of a suburban house: Kiara, the woman from the character sheet, in her plain sky-blue team jersey, walks straight toward the camera carrying a medium plain kraft cardboard box in both arms, the box close to the lens and slightly frosted with a few cold water beads, one plain sky-blue square sticker on it with no text, the dark open front door and porch light behind her. Big breathless grin, mid-sentence, eyes on the lens. Warm hallway light mixed with a magenta RGB glow from the room ahead. No courier labels, no barcodes, no readable text, no logos. Phone noise, candid."
+    },
+    {
+      "id": "S02",
+      "t0": 2.2,
+      "t1": 4.0,
+      "beat": "anticipation",
+      "framing": "medium, living room",
+      "camera": "handheld, whip pan from the box to Owen",
+      "action": "The box thuds onto the coffee table; Owen, headset pushed back, leans off the couch and points at it.",
+      "product_state": "absent (inside the sealed box)",
+      "audio": "box thud on wood, couch creak, dialogue",
+      "caption": "Is that cold? Why is it cold?",
+      "refs": [
+        "owen",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone shot in the gaming-house living room from the location reference at 10pm: Owen, the man from the character sheet, grey hoodie over his sky-blue jersey, black headset pushed back on his copper-red hair, leans forward off the sagging grey couch pointing at a plain kraft cardboard box that has just landed on the wooden coffee table in the foreground, a faint wisp of cold vapour at the box's seam, beads of condensation on the cardboard. Deadpan curious face mid-question. Magenta and cyan RGB light behind, monitors showing only abstract blurred colour. No text on the box, no logos, phone noise, candid."
+    },
+    {
+      "id": "S03",
+      "t0": 4.0,
+      "t1": 6.2,
+      "beat": "anticipation",
+      "framing": "straight top-down on the box",
+      "camera": "handheld phone held overhead",
+      "action": "Top-down: two hands with silver rings pull the tear strip across the box lid; a puff of cold vapour escapes the seam.",
+      "product_state": "absent (inside the box)",
+      "audio": "tape rip (ASMR, loud), hiss of cold air",
+      "caption": "Okay. Moment of truth",
+      "refs": [
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Straight top-down overhead phone view of a plain kraft cardboard box on a wooden coffee table, the box edges parallel to the frame edges: two hands with deep brown skin and thin silver rings rip a tear strip across the top of the box, a small puff of white cold vapour escaping from the opening seam, condensation beads on the cardboard, one plain sky-blue square sticker with no text. Edges of other people's knees and a couch at the frame edges, magenta and cyan RGB spill on the table. No labels, no barcodes, no readable text, no logos."
+    },
+    {
+      "id": "S04",
+      "t0": 6.2,
+      "t1": 8.2,
+      "beat": "reveal",
+      "framing": "low POV from inside the box",
+      "camera": "phone set inside the box, looking up",
+      "action": "From inside the box: the four flaps open, cold vapour drifts, three faces lean in over the edge lit by the cold white glow; can tops in white foam slots at the bottom of frame.",
+      "product_state": "tops of several cans in foam slots at the bottom edge of frame",
+      "audio": "cardboard flaps, cold hiss, gasp, dialogue",
+      "caption": "Oh, it's the silver ones",
+      "refs": [
+        "kiara",
+        "owen",
+        "noor",
+        "product"
+      ],
+      "keyframe_prompt": "Low POV from inside an open cardboard box looking straight up: the four open kraft flaps and a silver insulated liner frame the shot, soft white cold vapour drifting, and three adult faces lean over the edge looking down into the box, lit from below by a cold white glow: Kiara, the woman from the first character sheet, grinning in the centre; Owen, the man from the second character sheet, with wire glasses, to one side; Noor, the woman from the third character sheet, with a high dark ponytail and gold hoops, mouth open in a delighted gasp. A dark ceiling with magenta and cyan RGB strips above them. At the very bottom edge of the frame, the silver tops and red ring tabs of cans exactly like the product reference sit in white foam slots. No readable text, no logos."
+    },
+    {
+      "id": "S05",
+      "t0": 8.2,
+      "t1": 11.6,
+      "beat": "reveal",
+      "framing": "close-up, can to the lens",
+      "camera": "handheld, steady on the can",
+      "action": "Kiara lifts one can out of the foam and holds it to the lens beside her face, label forward, cold vapour curling off it.",
+      "product_state": "hero, unopened, upright, label to lens, held still for 3 s",
+      "audio": "foam squeak, dialogue",
+      "caption": "Red Bull Sugarfree. Same benefits as the original. No sugar",
+      "refs": [
+        "kiara",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone close-up in the gaming-house living room: Kiara, the woman from the character sheet, holds the exact can from the product reference up toward the lens beside her face, about 40 cm from the camera, unopened, upright, label flat to camera and undistorted, frost and condensation beads on it, a thin curl of cold vapour, one hand with four fingers behind the can and thumb in front. Proud grin, mid-sentence. The can is lit by the cold white glow of the open box below so its sky-blue and silver stay true; magenta and cyan RGB light on her braids and the background, monitors with abstract blurred colour. Exactly one can in frame. No readable text except the can's own label, no other logos."
+    },
+    {
+      "id": "S06",
+      "t0": 11.6,
+      "t1": 14.0,
+      "beat": "first-try",
+      "framing": "medium close-up on three hands",
+      "camera": "handheld, slightly low",
+      "action": "Three hands, three cans, cracked open together over the coffee table with a little spray of fizz.",
+      "product_state": "three cans, one in each person's hand, tabs just opened, labels mostly to camera",
+      "audio": "three can cracks in near sync (registers the moment), laughter",
+      "caption": "",
+      "refs": [
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone medium close-up, slightly low, over the wooden coffee table: three different adult hands (one deep brown with silver rings, one pale and freckled, one olive with a gold bracelet) each holding exactly one can exactly like the product reference, upright and undistorted, labels mostly facing camera, all three cracking the ring tabs open at the same moment with a tiny spray of fizz, the open kraft box with a silver liner blurred below. Magenta and cyan RGB glow in the background, the cans lit by a warm overhead light so their sky-blue and silver stay true. No readable text except the cans' own labels, no other logos."
+    },
+    {
+      "id": "S07",
+      "t0": 14.0,
+      "t1": 15.8,
+      "beat": "first-try",
+      "framing": "reaction close-up",
+      "camera": "handheld, whip pan in",
+      "action": "Owen lowers the can from his first sip, eyebrows up, grudging nod.",
+      "product_state": "in hand, opened, lowered to chin, label partly visible",
+      "audio": "dialogue, room laughter",
+      "caption": "Okay, that's good",
+      "refs": [
+        "owen",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone reaction shot, head and chest, of Owen, the man from the character sheet (copper-red messy hair, wire glasses, freckles, grey hoodie over a sky-blue jersey, black headset pushed back), sitting normally on the grey couch in the gaming-house living room, his body and shoulders fully visible and in natural proportion. He holds the exact can from the product reference in his own right hand at chin height, just lowered from his first sip, opened, upright, label partly toward camera and undistorted, eyebrows raised in grudging surprise, a slow approving nod. Magenta and cyan RGB light on his hair, monitors with abstract blurred colour behind. The coffee table is out of frame. Exactly one can in the whole frame. No readable text except the can's label, no logos."
+    },
+    {
+      "id": "S08",
+      "t0": 15.8,
+      "t1": 18.2,
+      "beat": "first-try",
+      "framing": "reaction close-up",
+      "camera": "handheld, whip pan across",
+      "action": "Noor, can in one hand, pulls her headset on with the other and points at the stations.",
+      "product_state": "in hand, opened, at chest height",
+      "audio": "dialogue, chair roll",
+      "caption": "Alert. Focused. Queue us up",
+      "refs": [
+        "noor",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone reaction close-up of Noor, the woman from the character sheet, in the gaming-house living room, holding the exact can from the product reference at chest height in one hand, opened, upright, label toward camera and undistorted, while pulling a plain black over-ear headset onto her head with the other hand, bright hyped expression, mouth open mid-word, high dark ponytail swinging. Magenta and cyan RGB light behind, gaming stations with abstract blurred colour on the monitors. Exactly one can. No readable text except the can's label, no logos."
+    },
+    {
+      "id": "S09",
+      "t0": 18.2,
+      "t1": 24.6,
+      "beat": "payoff",
+      "framing": "wide over the shoulders at the three stations",
+      "camera": "handheld from behind the couch, then whip to Owen",
+      "action": "1am practice: three players at their stations, monitors bright with abstract colour, one can on each desk; Owen jumps up, hands on his head, celebrating a third straight win.",
+      "product_state": "one can on each desk, small in frame",
+      "audio": "keyboard clatter, mouse clicks, whoops, dialogue",
+      "caption": "GG. That's three straight",
+      "refs": [
+        "kiara",
+        "owen",
+        "noor",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: handheld phone shot from behind the couch at 1am in the gaming-house living room: three adults at three gaming desks along the wall, their backs mostly to camera, monitors glowing with abstract blurred bright colour and no interface or text. Owen, the man from the second character sheet, has jumped up from his chair in the middle with both hands on his head in celebration, mouth open in a whoop; Kiara, the woman from the first character sheet, on the left, turning to him laughing; Noor, the woman from the third character sheet, on the right, fists raised. On each desk stands exactly one silver and sky-blue can like the product, small in frame. Magenta and cyan RGB strips, a dark window. No readable text, no logos on keyboards, headsets or chairs."
+    },
+    {
+      "id": "S10",
+      "t0": 24.6,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium close-up at her station",
+      "camera": "handheld, settles still",
+      "action": "Kiara spins her chair to the lens, headset around her neck, and holds her can up for the CTA and tagline. End card in post.",
+      "product_state": "hero, upright, label to lens, held still for the tagline",
+      "audio": "chair creak, teammates cheering behind, dialogue",
+      "caption": "Get yours before game day. Wiiings without sugar",
+      "refs": [
+        "kiara",
+        "product",
+        "teamhouse"
+      ],
+      "keyframe_prompt": "Handheld phone medium close-up of Kiara, the woman from the character sheet, at her gaming desk at 1am, having spun her chair to face the camera, plain black headset around her neck, captain's grin, holding the exact can from the product reference up toward the lens at shoulder height, opened, upright, label flat to camera and undistorted, one hand with four fingers behind the can and thumb in front. The can is lit by a warm desk lamp so its sky-blue and silver stay true; behind her a monitor glowing with abstract blurred colour and teammates blurred mid-cheer. Clean uncluttered area in the lower third of the frame for an end card added later. Exactly one can in her hand. No readable text except the can's label, no logos."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.2,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "kiara card",
+        "owen card",
+        "noor card",
+        "teamhouse plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone unboxing video filmed handheld by a friend in an esports gaming house at 10pm, magenta and cyan RGB light, phone noise, not cinematic. Shot 1 (0 to 2.2 s): @Image1 (Kiara) hauls a frosty plain kraft box with no labels through the front door straight toward the lens, grinning, breathless: \"Tournament's tomorrow. And it just landed.\" Whip pan. Shot 2 (2.2 to 4 s): the box thuds onto the coffee table in the living room from @Image4; @Image2 (Owen) leans off the couch, points, deadpan then curious: \"Is that cold? Why is it cold?\" Hard cut. Shot 3 (4 to 6.2 s): straight top-down, Kiara's hands rip the tear strip across the lid, a puff of cold vapour; her voice, low and dramatic: \"Okay. Moment of truth.\" Hard cut. Shot 4 (6.2 to 9 s): low POV from inside the box, the flaps fold open, vapour drifts, Kiara, Owen and @Image3 (Noor) lean over the edge lit by a cold white glow; Noor gasps: \"Oh, it's the silver ones.\" Native sound: door, box thud, loud tape rip, hiss of cold air, cardboard flaps, overlapping voices. No music. No text on screen, no labels on the box, no logos."
+    },
+    {
+      "id": "U2",
+      "t0": 8.2,
+      "t1": 11.6,
+      "shots": [
+        "S05"
+      ],
+      "len_s": 4,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "kiara card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone unboxing video in a gaming house, RGB light. Handheld close-up: @Image2 (Kiara) lifts the exact can from @Image1 out of white foam and holds it still toward the lens beside her face, unopened, upright, label flat to camera, frost on it and a thin curl of cold vapour, and says clearly and proudly, a touch slower on the name: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Same benefits as the original. No sugar.\" Keep the can's shape, colours, wordmark, two red bulls and gold sun exactly as @Image1; it is lit by white light so the colours stay true. One can only. Native sound: foam squeak, her voice, a teammate's 'ooh'. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 11.6,
+      "t1": 24.6,
+      "shots": [
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "owen card",
+        "noor card",
+        "kiara card",
+        "product can official",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone video in an esports gaming house, magenta and cyan RGB light, phone noise, fast handheld whip pans. Shot 1 (0 to 2.4 s): three adult hands each holding exactly one can like @Image4 crack them open together over the coffee table, fizz, laughter. Whip pan. Shot 2 (2.4 to 4.2 s): reaction close-up of @Image1 (Owen) lowering his can from a first sip, eyebrows up, grudging: \"Okay, that's good.\" Whip pan. Shot 3 (4.2 to 6.6 s): @Image2 (Noor) holds her can at chest height and pulls her headset on, fast and hyped: \"Alert. Focused. Queue us up.\" Hard cut. Shot 4 (6.6 to 13 s): 1am, from behind the couch, the three at their gaming desks, monitors glowing with abstract colour and no interface, one can on each desk; keyboards clatter; Owen jumps up with both hands on his head, voice cracking: \"GG. That's three straight.\" @Image3 (Kiara) turns to him laughing, Noor raises her fists. Each person has exactly one can. Native sound: can cracks, laughter, keyboard and mouse clicks, whoops. No music. No logos, no readable screens."
+    },
+    {
+      "id": "U4",
+      "t0": 24.6,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "kiara card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 candid smartphone video at 1am in a gaming house. Handheld medium close-up that settles still: @Image2 (Kiara) spins her gaming chair to face the lens, headset around her neck, and holds the exact can from @Image1 up toward the camera at shoulder height, label flat to the lens, lit by a warm desk lamp so the colours stay true; teammates blurred and cheering behind. She says directly, grinning: \"Get yours before game day.\" then raises the can a little: \"Wiiings without sugar (WINGS, vowel stretched slightly).\" The can does not bend, warp or change: keep its shape, colours, wordmark, two red bulls and gold sun exactly as @Image1. Keep the lower third clean. Native sound: chair creak, cheering, her voice. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "hype bed",
+      "t0": 0,
+      "t1": 30,
+      "brief": "Optional creator-style hype bed: a bouncy trap beat at 140 bpm with an 808 and a plucked synth hook, kept low under the voices; hard drop-out for the tape rip (4.0 to 6.2 s) and under the brand line (8.2 to 11.6 s), slams back in on the triple can crack at 11.6 s, and rides the win at 22.4 s."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 4.6,
+      "sound": "tape rip, close and crisp",
+      "why": "the unboxing ASMR moment the format is built on; only added if the native rip is weak"
+    },
+    {
+      "t": 11.8,
+      "sound": "three can cracks in near sync",
+      "why": "the product moment must register; only added if the native cracks are weak"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "kiara",
+      "plan": "native in U1; her U1 vocal stem as voice reference for U2, U3 and U4"
+    },
+    {
+      "speaker": "owen",
+      "plan": "native in U1; U1 stem as reference for his U3 lines"
+    },
+    {
+      "speaker": "noor",
+      "plan": "native in U1; U1 stem as reference for her U3 line"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 2.4,
+      "text": "the night before the invitational",
+      "style": "creator hook text, white Poppins Bold on a black 62% rounded box, lower case, top 16% of frame, pops on at frame 1"
+    },
+    {
+      "t0": 18.2,
+      "t1": 20.4,
+      "text": "1:04 am",
+      "style": "small white Poppins Medium on a translucent dark pill, upper right, marks the time jump"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "end card in the clean lower third: Poppins Bold white on a sky-blue rounded box, pops on 6 frames"
+    }
+  ],
+  "claims_used": [
+    "Same benefits of the original Energy Drink, without sugar",
+    "Caffeine helps to improve concentration and increase alertness",
+    "Wiiings without sugar (tagline)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "18 to 28",
+    "music_usd": 0
+  }
+}

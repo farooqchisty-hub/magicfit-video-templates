@@ -1,0 +1,458 @@
+{
+  "id": "asmr-01-five-am",
+  "style": "asmr",
+  "title": "Five A.M.",
+  "logline": "Five in the morning, a silent kitchen, the first quiet minutes before a long study session. Every sound of the ritual with {product}, from frost to the crack to the fizz, heard up close.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "A dark walnut kitchen counter with a slate top at 5am, a window of cool blue pre-dawn light to one side, one warm under-cabinet light, a notebook and pencil waiting at the end of the counter.",
+    "palette": "Dark walnut, black slate and cool pre-dawn blue, so the can's sky blue, silver and red carry all the colour; the warm under-cabinet light is the one accent.",
+    "fictional_brands": [
+      "Aldercroft (the plain notebook, blank cover)"
+    ],
+    "rules": "No packaging, appliances or labels in frame except the product. The notebook page shows only unreadable pencil scribble shapes."
+  },
+  "cast": [
+    {
+      "id": "imani",
+      "name": "Imani Brooks",
+      "role": "grad student, only hands, lips and chin seen (whisper voice)",
+      "look": "woman, 27, Black American, deep brown skin, short natural hair, small gold stud earrings, oversized oatmeal knit sweater with sleeves pushed up, short natural unpainted nails",
+      "voice": "soft close whisper, warm, American, unhurried",
+      "card_prompt": "Character identity sheet on a plain dark grey background, three panels side by side at the same scale: a front head-and-shoulders portrait, a close crop of the lower face (lips and chin) in soft light, and her two hands resting palm down showing short natural unpainted nails. Imani Brooks: 27, Black American, deep brown skin, short natural hair, small gold stud earrings, oversized oatmeal knit sweater with the sleeves pushed up, calm soft expression. Neutral soft studio light, photoreal, consistent identity across all panels. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "counter",
+      "name": "The 5am counter",
+      "plate_prompt": "Photoreal vertical 9:16 location plate: a dark walnut kitchen counter with a black slate top at 5am, cool blue pre-dawn light from a window on the left, one warm under-cabinet light strip glowing at the back, a small black stone bowl of crushed ice, an empty tall clear glass, and at the far end a closed notebook with a blank cover and a pencil. Very clean, calm, minimal. No people, no packaging, no readable text, no brands."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "the crack, the fizz and the pour over ice, then the first sip",
+      "scale": "macro, hand"
+    },
+    "applied": {
+      "moment": "the cap twist, the pump, the product spreading on skin, the sound of it absorbing",
+      "scale": "macro, hand"
+    },
+    "worn": {
+      "moment": "the zip, the fabric brush, the clasp click, the sound of it settling on",
+      "scale": "macro, body"
+    },
+    "handheld": {
+      "moment": "the case snap, the button click, the power-on chime, the tactile grip",
+      "scale": "macro, hand"
+    },
+    "carried": {
+      "moment": "the zip opening, the leather creak, the magnetic flap snapping shut",
+      "scale": "macro, hand to lap"
+    },
+    "home": {
+      "moment": "the switch click, the fabric fluff, the warm hum as it comes on",
+      "scale": "macro, room"
+    },
+    "consumable": {
+      "moment": "the refill clicking into place, the seal peel, the first pour",
+      "scale": "macro, hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.2",
+      "summary": "Silence, then a fingertip drags a slow squeaking line through the frost on the can. A whisper: listen."
+    },
+    {
+      "id": "setup",
+      "t": "2.2-7",
+      "summary": "The ritual: a steel scoop through crushed ice, the can settled into the ice, two soft taps on the full can."
+    },
+    {
+      "id": "product",
+      "t": "7-13.6",
+      "summary": "The hero sound: a nail under the tab, half a second of silence, the crack, the mist, the fizz up close."
+    },
+    {
+      "id": "build",
+      "t": "13.6-19.4",
+      "summary": "The pour over clear ice, cubes crackling, bubbles rising in slow motion."
+    },
+    {
+      "id": "payoff",
+      "t": "19.4-26",
+      "summary": "One sip, a soft exhale, the brand whispered; then the pencil starts scratching: the study session begins."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "The can alone on the slate, one drop rolling down; the tagline whispered."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.6-1.8",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "Hook: invite the viewer to lean in and listen.",
+      "line": "Shh. Listen.",
+      "delivery": "barely there whisper, close to the mic, a smile in it",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "20.2-22.2",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "Product line: name the product in a whisper, nothing else.",
+      "line": "Red Bull Sugarfree.",
+      "delivery": "soft whisper after the exhale, each word placed",
+      "phonetic": "RED BULL SHUG-er-free, three clear whispered words",
+      "shot": "S09"
+    },
+    {
+      "id": "L3",
+      "t": "23.0-25.0",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "The one benefit this moment needs, using an allowed claim only.",
+      "line": "Stay sharp. No sugar.",
+      "delivery": "whisper, slightly brighter, as the pencil starts",
+      "claim": "Caffeine helps to improve concentration and increase alertness; same benefits without sugar",
+      "shot": "S10"
+    },
+    {
+      "id": "L4",
+      "t": "27.2-29.4",
+      "speaker": "imani",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "slow whisper, stretched vowel, trailing off",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S11"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.2,
+      "beat": "hook",
+      "framing": "extreme macro, side of the can",
+      "camera": "locked off",
+      "action": "A single fingertip drags slowly down through the frost and condensation on the silver half of the can, leaving a clean line; beads merge and run.",
+      "product_state": "closed, upright, cold, frosted; silver half and part of the red wordmark in frame",
+      "audio": "near silence, then the slow wet squeak of skin on cold aluminium, one drop tapping the slate",
+      "caption": "shh. listen.",
+      "refs": [
+        "imani",
+        "product"
+      ],
+      "keyframe_prompt": "Extreme macro side view of the exact can from the product reference, closed and upright on dark slate, its sky blue and brushed silver diagonal split clearly visible with the sky blue half as strong saturated blue, covered in a light even mist of condensation beads (not thick frost, the colours stay vivid); one fingertip of the woman from the character sheet, deep brown skin, short natural nail, drags slowly down through the beads on the silver half leaving a clean glossy line; the red Red Bull wordmark, the two red bulls and gold sun crisp under the droplets. One hand, one fingertip. Dark background with warm bokeh."
+    },
+    {
+      "id": "S02",
+      "t0": 2.2,
+      "t1": 4.6,
+      "beat": "setup",
+      "framing": "macro top-down",
+      "camera": "locked off",
+      "action": "A small steel scoop plunges into a black stone bowl of crushed ice and lifts; crystals tumble off the edge.",
+      "product_state": "absent",
+      "audio": "crisp crunch of the scoop biting ice, glassy tinkle of crystals falling back",
+      "caption": "",
+      "refs": [
+        "counter"
+      ],
+      "keyframe_prompt": "Macro top-down of the small black stone bowl of crushed ice from the location plate, a small polished steel scoop lifting a heap of glittering crushed ice, crystals tumbling off its edge in mid air, backlit so every crystal sparkles, dark slate around the bowl. No hands visible except the scoop handle at the frame edge."
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "macro side-on",
+      "camera": "slow slider right",
+      "action": "The can nested upright in the bowl of crushed ice; a fingertip taps it twice on the blue half.",
+      "product_state": "closed, upright in ice, full label to camera",
+      "audio": "ice squeaking as the can settles, two dull full-can taps, a faint hum of cold",
+      "caption": "",
+      "refs": [
+        "imani",
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Macro side-on shot of the exact can from the product reference nested upright in the black stone bowl of crushed ice from the location plate, the full label facing camera and crisp: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls with the gold sun, SUGARFREE in spaced red capitals, red WITHOUT SUGAR band at the top, all under beads of condensation. One fingertip of the woman from the character sheet about to tap the blue half. Dark background, warm bokeh, cool blue side light."
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.4,
+      "beat": "product",
+      "framing": "extreme macro top-down on the lid",
+      "camera": "locked off",
+      "action": "A short natural fingernail slides under the red ring pull on the frosted lid and rests there.",
+      "product_state": "closed, tab about to lift, lid in frame",
+      "audio": "tiny click of nail on metal, then half a second of silence",
+      "caption": "",
+      "refs": [
+        "imani",
+        "product"
+      ],
+      "keyframe_prompt": "Camera directly overhead looking straight down at the exact can from the product reference standing upright on dark black slate, so only its round silver lid is seen as a circle filling most of the frame: beaded condensation on the lid, the red ring pull tab in the centre, a sliver of the red rim band around the edge. A fingertip of the woman from the character sheet with a short natural nail is slid under the red tab, about to lift it. One finger. Dark slate all around the lid, crisp glittering droplets."
+    },
+    {
+      "id": "S05",
+      "t0": 9.4,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "extreme macro side-on at the opening",
+      "camera": "locked off, high frame rate look",
+      "action": "The tab lifts, the seal breaks, a tiny puff of cold mist escapes the opening and droplets jump off the lid.",
+      "product_state": "just opened, upright, top third of the can with the red band in frame, held 2 s",
+      "audio": "THE hero sound: sharp crack of the seal, a pressurised hiss, droplets pattering",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Extreme macro side-on at the top of the exact can from the product reference at the instant it opens: the red ring pull lifted, a small puff of white cold mist escaping from the opening, tiny droplets leaping off the silver lid in slow motion, the red WITHOUT SUGAR band and the top of the blue and silver label crisp below. Backlit mist, dark background."
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 13.6,
+      "beat": "product",
+      "framing": "extreme macro into the opening",
+      "camera": "slow rack focus from lid to fizz",
+      "action": "Looking into the opening: fine bubbles fizzing and popping at the surface of the pale golden liquid.",
+      "product_state": "open, upright, seen from above",
+      "audio": "close-mic fizz, a fine crackle of tiny bubbles popping",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Extreme macro looking down into the opening of the exact can from the product reference: the silver lid edge and lifted red tab in soft focus, and in sharp focus inside the opening the surface of a pale golden sparkling liquid covered in fine fizzing bubbles popping, droplets on the lid. Dark, glittering, intimate."
+    },
+    {
+      "id": "S07",
+      "t0": 13.6,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "macro side-on",
+      "camera": "locked off, slow motion on liquid",
+      "action": "The can tilts in from frame top and pours a pale golden stream into a tall glass of clear ice; cubes shift and crackle.",
+      "product_state": "tilted 45 degrees pouring, label to camera",
+      "audio": "liquid pour, ice cracking and shifting, a rising fizz",
+      "caption": "",
+      "refs": [
+        "imani",
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Macro side-on: the hand of the woman from the character sheet tilts the exact can from the product reference at 45 degrees from the top of frame, label facing camera and undistorted, pouring a pale golden sparkling stream into the tall clear glass from the location plate, which is full of clear ice cubes; bubbles and splashes frozen in slow motion, backlit. One hand, one can, one glass. Dark slate and warm bokeh."
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 19.4,
+      "beat": "build",
+      "framing": "extreme macro through the glass",
+      "camera": "locked off, slow motion",
+      "action": "Through the glass wall: bubbles stream up past clear ice; a thin crack runs across one cube.",
+      "product_state": "absent (drink in glass)",
+      "audio": "the thermal crack of ice, bubbles rising and ticking against the glass",
+      "caption": "",
+      "refs": [
+        "counter"
+      ],
+      "keyframe_prompt": "Extreme macro through the side of the tall clear glass: streams of tiny bubbles rising through pale golden sparkling liquid past crystal clear ice cubes, a fine white crack running through one cube, condensation on the outside of the glass, backlit warm glow, dark background."
+    },
+    {
+      "id": "S09",
+      "t0": 19.4,
+      "t1": 22.6,
+      "beat": "payoff",
+      "framing": "close-up, lips and chin only",
+      "camera": "locked off",
+      "action": "Imani, seen from the nose down in her oatmeal sweater, takes one small sip from the glass, lowers it and exhales softly; the open can stands beside the glass on the slate, label to camera.",
+      "product_state": "open, upright on the counter beside the glass, label to camera",
+      "audio": "a soft sip, ice clinking on the glass, a quiet exhale, the whisper",
+      "caption": "red bull sugarfree.",
+      "refs": [
+        "imani",
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Close-up cropped from the nose down of the woman from the character sheet, deep brown skin, small gold stud earring, oversized oatmeal knit sweater, lowering the tall glass of pale golden drink and ice from her lips after a small sip, a calm soft expression; on the dark slate counter in front of her, in sharp focus, the exact can from the product reference stands upright and open, label facing camera and undistorted. Cool pre-dawn window light and a warm under-cabinet glow."
+    },
+    {
+      "id": "S10",
+      "t0": 22.6,
+      "t1": 26.0,
+      "beat": "payoff",
+      "framing": "macro top-down",
+      "camera": "slow slider forward",
+      "action": "Her pencil touches the notebook page and starts writing in fast, even strokes; the glass sweats at the edge of frame.",
+      "product_state": "absent",
+      "audio": "pencil graphite scratching on paper, a page corner lifting, ice settling",
+      "caption": "stay sharp. no sugar.",
+      "refs": [
+        "imani",
+        "counter"
+      ],
+      "keyframe_prompt": "Macro top-down of an open notebook on the dark walnut counter: the hand of the woman from the character sheet writing with a pencil, the page covered in soft grey unreadable pencil scribble shapes (no real letters or words), graphite dust, the base of the sweating glass of pale golden drink at the edge of frame. Warm light."
+    },
+    {
+      "id": "S11",
+      "t0": 26.0,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium macro pack shot",
+      "camera": "locked off, one slow rack focus",
+      "action": "The can alone and upright on the slate, a single drop of condensation rolls down the label; empty dark space above for the tagline.",
+      "product_state": "hero, open, upright, full label to camera",
+      "audio": "one drop running and tapping the slate, room tone, the whisper; optional faint pad",
+      "caption": "wiiings without sugar.",
+      "refs": [
+        "product",
+        "counter"
+      ],
+      "keyframe_prompt": "Pack shot: the exact can from the product reference standing alone and upright on the black slate counter, full label facing camera and undistorted, beaded with condensation, one large drop rolling down the silver half, a soft low side light and thin backlight, cool pre-dawn blue and warm bokeh behind. Large empty dark space in the upper third for a title. Nothing else on the counter."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 7,
+      "exact_risk": false,
+      "refs": [
+        "product can official",
+        "imani card",
+        "counter plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR macro film, dark walnut and slate kitchen at 5am, ultra-crisp 100mm macro, soft low side light. Shot 1 (0 to 2.2 s): extreme macro, one fingertip of @Image2 drags slowly down through the frost on the silver half of the exact can from @Image1, leaving a clean line, beads merging. Shot 2 (2.2 to 4.6 s): top-down, a steel scoop plunges into the stone bowl of crushed ice from @Image3 and lifts, crystals tumbling. Shot 3 (4.6 to 7 s): slow slider, the can nested upright in the ice, full label to camera, a fingertip taps it twice. The can keeps its exact shape and label. Native close-mic sound: silence floor, the wet squeak of skin on cold aluminium, a drop on slate, the crunch of the scoop, ice tinkling, two dull taps. No speech. No music. No text."
+    },
+    {
+      "id": "U2",
+      "t0": 7.0,
+      "t1": 19.4,
+      "shots": [
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "product can official",
+        "imani card",
+        "counter plate",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR macro film, dark background, backlit droplets. Shot 1 (0 to 2.4 s): extreme macro top-down, a short natural nail of @Image2 slides under the red tab of the exact can from @Image1, stillness. Shot 2 (2.4 to 4.4 s): side-on at the opening, the tab lifts, the seal cracks, a small puff of cold mist, droplets jump, slow motion. Shot 3 (4.4 to 6.6 s): looking into the opening, fine bubbles fizzing on pale golden liquid, slow rack focus. Shot 4 (6.6 to 9.6 s): the can tilts in from above and pours a pale golden stream into a tall glass of clear ice, label to camera, slow motion. Shot 5 (9.6 to 13 s): through the glass, bubbles rising past ice, a crack runs through a cube. One can, one glass. Native close-mic sound: nail click, half a second of silence, the sharp crack and hiss, the fizz crackle, the pour, ice cracking and shifting, bubbles ticking on glass. No speech. No music. No text."
+    },
+    {
+      "id": "U3",
+      "t0": 19.4,
+      "t1": 22.6,
+      "shots": [
+        "S09"
+      ],
+      "len_s": 4,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "imani card",
+        "counter plate",
+        "S09 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR close-up, pre-dawn window light and a warm under-cabinet glow. @Image2 seen only from the nose down in an oatmeal sweater lowers a tall glass of pale golden drink from her lips after one small sip and exhales softly; in sharp focus in front of her the exact can from @Image1 stands upright and open on the slate, label facing camera and undistorted, it does not move. Native close-mic sound: a soft sip, ice clinking, a quiet exhale. No speech (the whisper is added in post). No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 22.6,
+      "t1": 30,
+      "shots": [
+        "S10",
+        "S11"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "imani card",
+        "counter plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 ASMR macro. Shot 1 (0 to 3.4 s): top-down, the hand of @Image2 starts writing in a notebook with a pencil in fast even strokes, the marks are soft unreadable scribble shapes, the sweating glass at the frame edge. Shot 2 (3.4 to 8 s): locked pack shot, the exact can from @Image1 alone and upright on the black slate, full label to camera, one drop of condensation rolls down the silver half; one slow rack focus; empty dark space above the can. The can does not move or change. Native close-mic sound: pencil graphite scratching, a page corner lifting, ice settling, one drop tapping the slate, room tone. No speech. No music. No text."
+    }
+  ],
+  "music": [
+    {
+      "section": "silence",
+      "t0": 0,
+      "t1": 26.0,
+      "brief": "No music. The foley is the score: room tone floor at about minus 50 dB so every sound sits in space."
+    },
+    {
+      "section": "afterglow",
+      "t0": 26.0,
+      "t1": 30,
+      "brief": "Optional: one barely audible warm synth pad chord (F major, soft attack) under the tagline, mixed below the drop sound, rings out past the last frame."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 10.0,
+      "sound": "can crack and hiss, close-mic",
+      "why": "the hero sound of the whole ad; layer a clean recorded crack if the native one is soft or late"
+    },
+    {
+      "t": 17.6,
+      "sound": "thermal ice crack",
+      "why": "the second signature trigger that pays off the pour; add if the native crack does not register"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "imani",
+      "plan": "close breathy whisper as one TTS track in post (units carry no speech); brand line uses the phonetic RED BULL SHUG-er-free and sits over the short exact risk unit U3; whispers never overlap a hero sound"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 26.6,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Inter Light, #F4F1EA, lowercase tagline under a small uppercase product name with 0.2em tracking, centred in the empty dark space above the can, 10 frame fade"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness (as 'stay sharp')",
+    "Same benefits of the original Energy Drink, without sugar (as 'no sugar' and the tagline)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "18 to 26",
+    "music_usd": 0.3
+  }
+}

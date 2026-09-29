@@ -29,7 +29,7 @@
     {
       "id": "carrel",
       "name": "Library study carrel at 2am",
-      "plate_prompt": "Unedited smartphone photo, vertical 9:16, upright composition, level horizon: an empty wooden study carrel on the quiet floor of a university library at 2am, seen from where the student sits. An open laptop from behind on the desk, a closed thermos-free desk with yellow highlighters, a stack of blank index cards with faint pencil lines, a textbook with a plain cover, a small desk lamp. Behind: rows of shelves with plain coloured book spines and no lettering, greenish overhead fluorescent tubes, a tall dark window. Carpet, a bit messy, lived in. Phone sensor noise, flat light, no people, no readable text, no logos."
+      "plate_prompt": "Unedited smartphone photo, vertical 9:16, upright composition, level horizon: an empty pale wooden study carrel on the quiet floor of a university library at 2am, seen from where the student sits, genuinely messy and lived in after a week of finals. On the desk an open laptop seen from behind, a big round planet sticker covering the centre of its lid, highlighters, index cards, a cookie tin and a textbook. Behind: rows of steel shelves with plain coloured book spines and no lettering, greenish overhead fluorescent tubes, a tall pitch black window. Detail is densest on the shelves and carrel walls, and the centre of the desk where she sits stays clear. Phone sensor noise, flat light, no people in the foreground, no readable text, no logos."
     }
   ],
   "adaptation": {
@@ -60,6 +60,10 @@
     "consumable": {
       "moment": "the pack she pulls from her bag every study night and uses on camera (snack, gum, supplement, refill)",
       "scale": "hand"
+    },
+    "product_adjacent_props": {
+      "moment": "the cookie tin, highlighters and index cards are her world and stay; only the product's own resting spot changes (the can by her elbow becomes the balm on the desk, the earbuds on the cards)",
+      "scale": "swap per product"
     }
   },
   "beats": [
@@ -186,7 +190,13 @@
         "dani",
         "carrel"
       ],
-      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, filming herself at arm's length at a library study carrel at 2am: her face fills the upper half of the frame, top of her messy claw-clip hair slightly cut off, gold-rimmed glasses catching the cold blue glow of a laptop screen below frame, leaning in toward the lens mid-whisper with a small smug smile, eyes looking straight into the lens. Behind her: greenish overhead fluorescent tubes and dim rows of shelves with plain unlettered spines, matching the carrel location reference. The phone is not visible because we are seeing through its front camera. Empty clean area at the top of the frame for a text box added later. Phone sensor noise, flat unflattering light, real skin texture, not cinematic."
+      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, filming herself at arm's length at a library study carrel at 2am: her face fills the upper half of the frame, top of her messy claw-clip hair slightly cut off, gold-rimmed glasses catching the cold blue glow of a laptop screen below frame, leaning in toward the lens mid-whisper with a small smug smile, eyes looking straight into the lens. Behind her: greenish overhead fluorescent tubes and dim rows of shelves with plain unlettered spines, matching the carrel location reference. The phone is not visible because we are seeing through its front camera. Empty clean area at the top of the frame for a text box added later. Phone sensor noise, flat unflattering light, real skin texture, not cinematic.",
+      "dressing": [
+        "the cold blue laptop glow from below",
+        "the bent-neck clip lamp with a pink hair tie behind her shoulder",
+        "the dead fluorescent tube among the lit ones",
+        "plain unlettered spines on the shelves behind"
+      ]
     },
     {
       "id": "S02",
@@ -203,7 +213,13 @@
         "dani",
         "carrel"
       ],
-      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the same library carrel at 2am, slightly wider than a close-up: head and shoulders plus one hand raised beside her face doing a flat chopping 'never again' gesture, eyes rolled up in mock disgust, oatmeal hoodie, glasses, claw-clip hair. Fluorescent tubes and plain dark shelves behind. No drink or bottle anywhere in frame. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, amateur framing, not cinematic."
+      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the same library carrel at 2am, slightly wider than a close-up: head and shoulders plus one hand raised beside her face doing a flat chopping 'never again' gesture, eyes rolled up in mock disgust, oatmeal hoodie, glasses, claw-clip hair. Fluorescent tubes and plain dark shelves behind. No drink or bottle anywhere in frame. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, amateur framing, not cinematic.",
+      "dressing": [
+        "the highlighter smudge on her hoodie cuff",
+        "the carrel wall with the small pencil cat doodle behind her",
+        "the student asleep with his hood up two carrels back",
+        "the flickering fluorescent tube"
+      ]
     },
     {
       "id": "S03",
@@ -221,7 +237,13 @@
         "carrel",
         "product"
       ],
-      "keyframe_prompt": "Front-camera selfie of Dani, the woman from the character sheet, at the library carrel at 2am, holding the exact can from the product reference up beside her cheek about 35 cm from the lens, unopened, upright and undistorted, label flat to camera, cold condensation on it, one hand with four fingers wrapped behind the can and her thumb in front on the silver side. Bright, showing-a-friend smile, eyebrows up. Fluorescent tubes and plain shelves behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, not cinematic."
+      "keyframe_prompt": "Front-camera selfie, face straight on to the lens and fully in frame, of Dani, the exact woman from the character sheet (Latina, warm tan-brown skin, soft round face, messy dark top bun in a tortoiseshell claw clip, thin gold-rimmed round glasses, small gold hoops, oversized oatmeal hoodie over a grey tee), at the library carrel at 2am, holding the exact can from the product reference up beside her cheek about 35 cm from the lens, unopened, upright and undistorted, label flat to camera, cold condensation on it, one hand with four fingers wrapped behind the can and her thumb in front on the silver side. Bright, showing-a-friend smile, eyebrows up. Fluorescent tubes and plain shelves behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, not cinematic. Any book cart in view is plain metal with no sign, card or label.",
+      "dressing": [
+        "the clear tape wrap on the left arm of her glasses",
+        "her grandmother's silver band on her thumb against the can",
+        "the bent-neck clip lamp beside her",
+        "plain unlettered spines and the book return cart behind"
+      ]
     },
     {
       "id": "S04",
@@ -236,9 +258,18 @@
       "caption": "",
       "refs": [
         "carrel",
-        "product"
+        "product",
+        "flashcards",
+        "cookie_tin"
       ],
-      "keyframe_prompt": "Handheld rear-camera phone shot looking down at 45 degrees onto a cluttered library carrel desk at 2am: the exact can from the product reference stands upright in the centre, label facing camera and undistorted, condensation beads on it, a woman's hand with short unpainted nails pulling the ring tab open with a tiny spray of fizz. Around it: yellow highlighters, a stack of blank index cards with faint pencil lines and no readable writing, the edge of a laptop, a textbook with a plain cover. Laptop glow and fluorescent light, slightly underexposed, phone noise. Exactly one can. No readable text anywhere except the can's own label."
+      "keyframe_prompt": "Handheld rear-camera phone shot looking down at 45 degrees onto a cluttered library carrel desk at 2am: the exact can from the product reference stands upright in the centre, label facing camera and undistorted, condensation beads on it, a woman's hand with short unpainted nails pulling the ring tab open with a tiny spray of fizz. Around it: yellow highlighters, a stack of blank index cards with faint pencil lines and no readable writing, the edge of a laptop, a textbook with a plain cover. Laptop glow and fluorescent light, slightly underexposed, phone noise. Exactly one can. No readable text anywhere except the can's own label.",
+      "dressing": [
+        "the red rubber-banded stack of index cards with pencil-drawn hexagon rings",
+        "the dented pale blue cookie tin with the lid ajar and powdered sugar on the desk",
+        "three plain unprinted yellow highlighters, one missing its cap",
+        "the half-built molecular model ring",
+        "pencil shavings and a crumpled plain foil wrapper"
+      ]
     },
     {
       "id": "S05",
@@ -256,7 +287,13 @@
         "product",
         "carrel"
       ],
-      "keyframe_prompt": "Front-camera selfie close-up, face straight on to the lens, of Dani, the exact woman from the character sheet (Latina, warm tan-brown skin, soft round face, messy dark top bun, round gold wire glasses, oatmeal hoodie over a grey tee), at the library carrel at 2am, having just lowered the exact can from the product reference from a sip: she holds the opened can steady at chin height about 35 cm from the lens, upright, label flat to camera and undistorted, lips just parted mid-word, a small satisfied nod. Glasses, claw-clip hair, oatmeal hoodie, laptop glow on her face, fluorescent tubes behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, real skin, not cinematic."
+      "keyframe_prompt": "Front-camera selfie close-up, face straight on to the lens, of Dani, the exact woman from the character sheet (Latina, warm tan-brown skin, soft round face, messy dark top bun, round gold wire glasses, oatmeal hoodie over a grey tee), at the library carrel at 2am, having just lowered the exact can from the product reference from a sip: she holds the opened can steady at chin height about 35 cm from the lens, upright, label flat to camera and undistorted, lips just parted mid-word, a small satisfied nod. Glasses, claw-clip hair, oatmeal hoodie, laptop glow on her face, fluorescent tubes behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, real skin, not cinematic.",
+      "dressing": [
+        "the blank lab badge on its cracked reel clipped to her hoodie",
+        "the tortoiseshell claw clip in her hair",
+        "the carrel wall with pencil doodles and curling masking tape behind her",
+        "the fluorescent tubes, one dead"
+      ]
     },
     {
       "id": "S06",
@@ -274,7 +311,13 @@
         "product",
         "carrel"
       ],
-      "keyframe_prompt": "Front-camera selfie medium shot of Dani, the woman from the character sheet, at the library carrel at 2am, phone held a little lower and wider: head, shoulders and the desk visible, she taps an open textbook with plain grey blocks of text and no readable words with a yellow highlighter, sincere calm expression looking into the lens. The exact can from the product reference stands upright on the desk in the lower right corner, opened, label toward the lens and undistorted. Fluorescent tubes and plain shelves behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone noise, flat light, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow."
+      "keyframe_prompt": "Front-camera selfie medium shot of Dani, the woman from the character sheet, at the library carrel at 2am, phone held a little lower and wider: head, shoulders and the desk visible, she taps an open textbook with plain grey blocks of text and no readable words with a yellow highlighter, sincere calm expression looking into the lens. The exact can from the product reference stands upright on the desk in the lower right corner, opened, label toward the lens and undistorted. Fluorescent tubes and plain shelves behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone noise, flat light, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow.",
+      "dressing": [
+        "the textbook with a cracked spine and coloured paper tabs",
+        "the cookie tin at the edge of the desk",
+        "the tangled white charging cable",
+        "the olive backpack with the plush avocado keychain on the next chair"
+      ]
     },
     {
       "id": "S07",
@@ -292,7 +335,13 @@
         "product",
         "carrel"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon: a phone propped on the carrel shelf films Dani, the woman from the character sheet, from the front and slightly above at her library study carrel at 2am: she is bent over the desk writing on a blank index card, a growing stack of cards on one side, laptop open, the exact can from the product reference standing upright beside her elbow, small in frame but with its silver and sky-blue label still recognisable. Empty study carrels and plain shelves stretch behind her under fluorescent tubes, a tall black window in the background. Slight motion blur on her hand like a time-lapse frame. Exactly one can. Phone noise, flat light, no readable text, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow."
+      "keyframe_prompt": "Upright vertical composition, level horizon: a phone propped on the carrel shelf films Dani, the woman from the character sheet, from the front and slightly above at her library study carrel at 2am: she is bent over the desk writing on a blank index card, a growing stack of cards on one side, laptop open, the exact can from the product reference standing upright beside her elbow, small in frame but with its silver and sky-blue label still recognisable. Empty study carrels and plain shelves stretch behind her under fluorescent tubes, a tall black window in the background. Slight motion blur on her hand like a time-lapse frame. Exactly one can. Phone noise, flat light, no readable text, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow. This is a clean camera frame with no phone interface: no status bar, no clock, no battery or signal icons. Any book cart in view is plain metal with no sign, card or label.",
+      "dressing": [
+        "a second pile of finished index cards growing on the left",
+        "the laptop lid seen from behind with its big planet sticker dead centre",
+        "the student asleep two carrels down with his hood up",
+        "the book return cart and the pitch black window"
+      ]
     },
     {
       "id": "S08",
@@ -310,7 +359,13 @@
         "product",
         "carrel"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon: the same propped-phone angle of Dani, the woman from the character sheet, at her library study carrel, but hours later at dawn: the tall window behind her is now pale blue with first light, the fluorescent tubes look weaker, she leans back stretching both arms above her head, a tall neat stack of blank index cards beside the laptop, the exact can from the product reference standing upright in the same spot by her elbow, label recognisable. Empty carrels and plain shelves behind. Exactly one can. Phone noise, no readable text, not cinematic."
+      "keyframe_prompt": "Upright vertical composition, level horizon: the same propped-phone angle of Dani, the woman from the character sheet, at her library study carrel, but hours later at dawn: the tall window behind her is now pale blue with first light, the fluorescent tubes look weaker, she leans back stretching both arms above her head, a tall neat stack of blank index cards beside the laptop, the exact can from the product reference standing upright in the same spot by her elbow, label recognisable. Empty carrels and plain shelves behind. Exactly one can. Phone noise, no readable text, not cinematic. This is a clean camera frame with no phone interface: no status bar, no clock, no battery or signal icons.",
+      "dressing": [
+        "the finished card pile now tall and the rubber-banded stack almost gone",
+        "the plain pale blue cookie tin, now empty with only sugar dust, decorated only with an embossed flower pattern, no printed pictures, no barcode",
+        "the backpack slid to the floor",
+        "frost in the corners of the pale blue window"
+      ]
     },
     {
       "id": "S09",
@@ -327,7 +382,13 @@
         "dani",
         "carrel"
       ],
-      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, at the library carrel at dawn: cool pale-blue window light now on one side of her face, glasses pushed up, a few more flyaways, tired but proud soft laugh, fanning a thick stack of blank index cards beside her cheek (cards have faint pencil lines only, no readable writing). A pale blue dawn window and plain shelves behind. The phone is not visible because we are seeing through its front camera. Phone sensor noise, real skin, not cinematic."
+      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, at the library carrel at dawn: cool pale-blue window light now on one side of her face, glasses pushed up, a few more flyaways, tired but proud soft laugh, fanning a thick stack of blank index cards beside her cheek (cards have faint pencil lines only, no readable writing). A pale blue dawn window and plain shelves behind. The phone is not visible because we are seeing through its front camera. Phone sensor noise, real skin, not cinematic.",
+      "dressing": [
+        "her flyaways multiplied and the claw clip slipping",
+        "frost in the corners of the pale blue dawn window behind her",
+        "the carrel wall pencil cat doodle",
+        "the dead fluorescent tube"
+      ]
     },
     {
       "id": "S10",
@@ -345,7 +406,13 @@
         "product",
         "carrel"
       ],
-      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the library carrel at dawn, grinning straight into the lens and holding the exact can from the product reference out toward the camera beside her face, about 35 cm from the lens, upright, label flat to camera and undistorted, one hand with four fingers behind the can and thumb in front. Pale blue dawn window light, plain shelves behind. Clean uncluttered area in the lower third of the frame for a sticker added later. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone noise, real skin, not cinematic."
+      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the library carrel at dawn, grinning straight into the lens and holding the exact can from the product reference out toward the camera beside her face, about 35 cm from the lens, upright, label flat to camera and undistorted, one hand with four fingers behind the can and thumb in front. Pale blue dawn window light, plain shelves behind. Clean uncluttered area in the lower third of the frame for a sticker added later. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone noise, real skin, not cinematic.",
+      "dressing": [
+        "the silver band on her thumb against the can",
+        "the finished card stack on the desk edge",
+        "pale blue dawn window with frost in the corners",
+        "the book return cart, now empty"
+      ]
     }
   ],
   "units": [
@@ -480,5 +547,101 @@
     "first_pass_usd": 8.37,
     "with_retakes_usd": "18 to 26",
     "music_usd": 0
+  },
+  "world_bible": {
+    "lore": [
+      "Dani Ortiz is a second-year chemistry PhD student at Eastbrook University. Her cumulative organic exam is at 9am in a basement lecture room, and a fail means a retake in May.",
+      "Carrel 31 on the Harlow Hall quiet floor has been hers since first year. She pencilled a tiny sleeping cat on its side wall during her first finals and adds one whisker every term; there are four now.",
+      "Her deck is 212 hand-drawn reaction cards, one mechanism per card, held with a red rubber band. The plan is to get through all of them before the window goes light.",
+      "Her grandmother in San Diego mails a dented tin of homemade powdered-sugar cookies every finals week. It arrived Tuesday; it is half empty.",
+      "She posts study-with-me videos to about 4,000 followers from a phone propped on two library books and a hair tie, and one student two carrels down has been asleep since midnight."
+    ],
+    "locations": {
+      "carrel": {
+        "foreground": [
+          "a fat stack of white index cards held with a red rubber band, pencil-drawn hexagon rings and curved arrows on the top card, corners soft and grey from shuffling",
+          "three plain yellow highlighters with blank unprinted barrels, one missing its cap, one with a chewed end",
+          "a dented plain pale blue cookie tin decorated only with an embossed flower pattern and no printing, lid ajar, wax paper and powdered-sugar dust spilling onto the desk",
+          "a tangled white charging cable running off the desk edge to a power strip taped under the carrel",
+          "a half-built molecular model kit: black and white plastic balls on grey sticks in a six-sided ring",
+          "a crumpled plain silver foil wrapper with no printing and a scatter of pencil shavings"
+        ],
+        "midground": [
+          "the pale wooden carrel walls, scuffed and covered in years of faint pencil doodles, with a small pencil sketch of a sleeping cat and a curling strip of old masking tape",
+          "a clip-on desk lamp with a bent neck and a pink hair tie looped around it",
+          "a plain silver laptop seen from behind, a big round drawn sticker of a ringed planet stuck dead centre on the lid, with smaller drawn stickers of a cactus and a small frog around it, nothing else on the lid",
+          "a thick textbook with a cracked spine and a plain cover, bristling with coloured paper tabs",
+          "an olive-green backpack slumped on the next chair with a carabiner and a small plush avocado keychain",
+          "a pair of clear lab safety goggles resting on the backpack"
+        ],
+        "background": [
+          "steel shelving with plain unlettered book spines in faded reds, greens and browns, and a half-loaded book cart with no sign or label on it",
+          "greenish fluorescent tubes, one of them dead and dark, one faintly flickering",
+          "a student asleep two carrels down with his hood up and his head on his folded arms",
+          "a tall window reflecting the ceiling tubes, pitch black at 2am",
+          "a round wall clock with plain tick marks and no numbers",
+          "worn blue-grey carpet tiles with an old coffee stain"
+        ]
+      }
+    },
+    "personal_props": {
+      "dani": [
+        "thin gold-rimmed round glasses with a wrap of clear tape on the left arm where it snapped in first year",
+        "a tortoiseshell claw clip with one chipped tooth",
+        "her grandmother's worn silver band on her right thumb",
+        "a blank white lab badge on a retractable reel clipped to her hoodie pocket, the reel cracked",
+        "a yellow highlighter smudge on the cuff of her oatmeal hoodie"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "flashcards",
+        "name": "The 212-card mechanism deck",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a thick stack of plain white index cards held with a red rubber band, corners soft and grey from handling, the top card showing only pencil drawings of hexagon molecule rings and curved arrows with smudges and eraser marks, plus a second view of the stack fanned out. No letters, words or numbers anywhere. Photoreal, shot like a real phone photo in flat light."
+      },
+      {
+        "id": "cookie_tin",
+        "name": "Grandma's cookie tin",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a round pale blue metal cookie tin with a raised flower pattern embossed on the lid, a dent on one side and small rust spots on the rim, lid ajar, inside wax paper and round crumbly cookies dusted thickly with powdered sugar, sugar dust on the grey surface. No letters or logos anywhere. Photoreal, flat phone-photo light."
+      },
+      {
+        "id": "laptop",
+        "name": "Dani's sticker laptop",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: the closed lid and the open back of a plain silver laptop with no logo, the lid with a big round hand-drawn style ringed planet sticker dead centre on the lid and smaller cartoon stickers around it (a green cactus, a small smiling frog, a coffee cup, a star), some stickers peeling at the corners, a scuff on one edge. Stickers are drawings only, no letters or words. Photoreal, flat phone-photo light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Eastbrook University",
+        "mark": "a simple shield outline with three wavy horizontal lines",
+        "colors": "faded navy on oatmeal",
+        "appears_on": "the crest shape on her hoodie, her lab badge reel",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Harlow Hall Library",
+        "mark": "none, the building is anonymous",
+        "colors": "pale oak, blue-grey carpet",
+        "appears_on": "nowhere; every sign is blank",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Dani's study channel",
+        "mark": "a small drawn beaker with a star",
+        "colors": "white on the platform sticker",
+        "appears_on": "only the creator end sticker",
+        "text_in_post": "her handle on the end sticker if the platform shows it"
+      }
+    ],
+    "wear_and_time": "Mid December, 2:07am to about 6:10am on the last night of finals week. The tin is half empty, one highlighter has lost its cap, the lamp neck is bent from being yanked, the backpack has slid off its chair, and a second pile of finished cards grows on the left while the rubber-banded stack shrinks. By dawn there is frost in the window corners, her flyaways have multiplied and the fluorescent light looks weak against the blue window.",
+    "sound_world": [
+      "the fluorescent tubes buzzing, one ticking as it flickers",
+      "index cards riffling and slapping onto the done pile",
+      "a highlighter squeaking across a page",
+      "the cookie tin lid clinking",
+      "the radiator knocking under the window",
+      "the student two carrels down breathing slowly in his sleep",
+      "the can's ring tab cracking and fizzing"
+    ]
   }
 }

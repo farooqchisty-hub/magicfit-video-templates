@@ -10,7 +10,7 @@
     "setting": "The shared team house of the fictional esports team Kestrel Six, a rented suburban house turned gaming house: a living room with a sagging grey couch, a coffee table, and three gaming stations along the wall, 10pm the night before the fictional Coldharbor Invitational, then 1am during practice scrims.",
     "palette": "Magenta and cyan RGB strips against warm overhead light; neutral packaging (kraft cardboard, silver insulated liner, white foam) so the silver and sky-blue can is the only hero colour when it comes out.",
     "fictional_brands": [
-      "Kestrel Six (esports team, plain sky-blue jerseys, a simple bird silhouette on the chest, no lettering)",
+      "Kestrel Six (esports team, plain sky-blue jerseys and banner; the mark is an angular white falcon head built from three triangles, never a round songbird; no lettering)",
       "Coldharbor Invitational (tournament, never shown as text)"
     ],
     "rules": "The box is plain kraft with one plain sky-blue sticker, no courier labels or text. Monitors show only abstract blurred colour, no game UI. Keyboards, headsets and chairs have no logos. Each person holds exactly one can. All cast are adults (21 to 23)."
@@ -45,7 +45,7 @@
     {
       "id": "teamhouse",
       "name": "Kestrel Six team house living room",
-      "plate_prompt": "Candid smartphone photo, vertical 9:16, upright composition, level horizon: the living room of a rented suburban house turned esports gaming house at 10pm: a sagging grey couch and a low wooden coffee table in the foreground, three gaming desks along the back wall with ultrawide monitors showing only abstract blurred colour, plain black keyboards and headsets, gaming chairs, magenta and cyan RGB light strips along the ceiling and desks, warm overhead light, lived-in clutter: cables, a pizza box with no print, hoodies on chairs, a plain sky-blue banner with a simple white bird silhouette and no lettering on the wall. Phone noise, no people, no readable text, no logos."
+      "plate_prompt": "Candid smartphone photo, vertical 9:16, upright composition, level horizon: the living room of a rented suburban house turned esports gaming house at 10pm: a sagging grey couch and a low wooden coffee table in the foreground, three gaming desks along the back wall with ultrawide monitors showing only abstract blurred colour, plain black keyboards and headsets, gaming chairs, magenta and cyan RGB light strips along the ceiling and desks, warm overhead light, real three-roommate clutter everywhere but every object is unbranded: plain white sneakers with no logos, stickers that are only simple drawn shapes, no boxed figures or merchandise, a plain sky-blue banner on the wall showing only a white angular falcon head in profile built from three sharp triangles, hooked beak facing right, no lettering. The space in front of the couch stays readable; clutter is densest on the desks, walls and shelves. Phone noise, no people, no readable text, no logos."
     }
   ],
   "adaptation": {
@@ -76,6 +76,10 @@
     "consumable": {
       "moment": "packs come out of the box and each teammate opens one and tries it (snack, gum, hydration mix)",
       "scale": "hand"
+    },
+    "product_adjacent_props": {
+      "moment": "the cold box's silver liner and round foam slots fit cans; for other products the box keeps its kraft shell and sky-blue sticker but the insert becomes tissue, crinkle paper or shaped foam for the item",
+      "scale": "swap per product"
     }
   },
   "beats": [
@@ -220,9 +224,16 @@
       "audio": "door bang, cardboard creak, her voice",
       "caption": "Tournament's tomorrow. And it just landed",
       "refs": [
-        "kiara"
+        "kiara",
+        "coldbox"
       ],
-      "keyframe_prompt": "Handheld phone shot at night in the front hallway of a suburban house: Kiara, the woman from the character sheet, in her plain sky-blue team jersey, walks straight toward the camera carrying a medium plain kraft cardboard box in both arms, the box close to the lens and slightly frosted with a few cold water beads, one plain sky-blue square sticker on it with no text, the dark open front door and porch light behind her. Big breathless grin, mid-sentence, eyes on the lens. Warm hallway light mixed with a magenta RGB glow from the room ahead. No courier labels, no barcodes, no readable text, no logos. Phone noise, candid."
+      "keyframe_prompt": "Handheld phone shot at night in the front hallway of a suburban house: Kiara, the woman from the character sheet, in her plain sky-blue team jersey, walks straight toward the camera carrying the plain kraft cardboard box from the prop reference in both arms, the box close to the lens and slightly frosted with a few cold water beads, one plain sky-blue square sticker on it with no text, the dark open front door and porch light behind her. Big breathless grin, mid-sentence, eyes on the lens. Warm hallway light mixed with a magenta RGB glow from the room ahead. No courier labels, no barcodes, no readable text, no logos. Phone noise, candid.",
+      "dressing": [
+        "beads of condensation on the kraft box and its one sky-blue sticker",
+        "the black neoprene brace on her right wrist",
+        "a pile of sneakers in the hallway behind her",
+        "the porch light through the open door"
+      ]
     },
     {
       "id": "S02",
@@ -239,7 +250,13 @@
         "owen",
         "teamhouse"
       ],
-      "keyframe_prompt": "Handheld phone shot in the gaming-house living room from the location reference at 10pm: Owen, the man from the character sheet, grey hoodie over his sky-blue jersey, black headset pushed back on his copper-red hair, leans forward off the sagging grey couch pointing at a plain kraft cardboard box that has just landed on the wooden coffee table in the foreground, a faint wisp of cold vapour at the box's seam, beads of condensation on the cardboard. Deadpan curious face mid-question. Magenta and cyan RGB light behind, monitors showing only abstract blurred colour. No text on the box, no logos, phone noise, candid."
+      "keyframe_prompt": "Handheld phone shot in the gaming-house living room from the location reference at 10pm: Owen, the man from the character sheet, grey hoodie over his sky-blue jersey, black headset pushed back on his copper-red hair, leans forward off the sagging grey couch pointing at a plain kraft cardboard box that has just landed on the wooden coffee table in the foreground, a faint wisp of cold vapour at the box's seam, beads of condensation on the cardboard. Deadpan curious face mid-question. Magenta and cyan RGB light behind, monitors showing only abstract blurred colour. No text on the box, no logos, phone noise, candid.",
+      "dressing": [
+        "the greasy open pizza box with two crusts on the coffee table",
+        "the mustard knit throw bunched on the couch arm",
+        "the torn thumbhole in his hoodie cuff",
+        "the strategy whiteboard with marker map sketches behind him"
+      ]
     },
     {
       "id": "S03",
@@ -253,9 +270,16 @@
       "audio": "tape rip (ASMR, loud), hiss of cold air",
       "caption": "Okay. Moment of truth",
       "refs": [
-        "teamhouse"
+        "teamhouse",
+        "coldbox"
       ],
-      "keyframe_prompt": "Straight top-down overhead phone view of a plain kraft cardboard box on a wooden coffee table, the box edges parallel to the frame edges: two hands with deep brown skin and thin silver rings rip a tear strip across the top of the box, a small puff of white cold vapour escaping from the opening seam, condensation beads on the cardboard, one plain sky-blue square sticker with no text. Edges of other people's knees and a couch at the frame edges, magenta and cyan RGB spill on the table. No labels, no barcodes, no readable text, no logos."
+      "keyframe_prompt": "Straight top-down overhead phone view of the plain kraft cardboard box from the prop reference on a pine coffee table, the box edges parallel to the frame edges: two hands with deep brown skin and thin silver rings rip a tear strip across the top of the box, a small puff of white cold vapour escaping from the opening seam, condensation beads on the cardboard, one plain sky-blue square sticker with no text. Edges of other people's knees and a couch at the frame edges, magenta and cyan RGB spill on the table. No labels, no barcodes, no readable text, no logos.",
+      "dressing": [
+        "the pale cup rings and old scorch mark on the coffee table",
+        "her thin silver rings",
+        "a tangle of game controllers at the edge of the table",
+        "the roll of silver duct tape and orange-handled scissors"
+      ]
     },
     {
       "id": "S04",
@@ -274,7 +298,13 @@
         "noor",
         "product"
       ],
-      "keyframe_prompt": "Low POV from inside an open cardboard box looking straight up: the four open kraft flaps and a silver insulated liner frame the shot, soft white cold vapour drifting, and three adult faces lean over the edge looking down into the box, lit from below by a cold white glow: Kiara, the woman from the first character sheet, grinning in the centre; Owen, the man from the second character sheet, with wire glasses, to one side; Noor, the woman from the third character sheet, with a high dark ponytail and gold hoops, mouth open in a delighted gasp. A dark ceiling with magenta and cyan RGB strips above them. At the very bottom edge of the frame, the silver tops and red ring tabs of cans exactly like the product reference sit in white foam slots. No readable text, no logos."
+      "keyframe_prompt": "Low POV from inside an open cardboard box looking straight up: the four open kraft flaps and a silver insulated liner frame the shot, soft white cold vapour drifting, and three adult faces lean over the edge looking down into the box, lit from below by a cold white glow: Kiara, the woman from the first character sheet, grinning in the centre; Owen, the man from the second character sheet, with wire glasses, to one side; Noor, the woman from the third character sheet, with a high dark ponytail and gold hoops, mouth open in a delighted gasp. A dark ceiling with magenta and cyan RGB strips above them. At the very bottom edge of the frame, the silver tops and red ring tabs of cans exactly like the product reference sit in white foam slots. No readable text, no logos.",
+      "dressing": [
+        "the crinkled silver insulated liner",
+        "white foam slots",
+        "the one dead section of RGB strip on the ceiling",
+        "Owen's scratched right lens and Noor's bent gold hoop"
+      ]
     },
     {
       "id": "S05",
@@ -292,7 +322,13 @@
         "product",
         "teamhouse"
       ],
-      "keyframe_prompt": "Handheld phone close-up in the gaming-house living room: Kiara, the woman from the character sheet, holds the exact can from the product reference up toward the lens beside her face, about 40 cm from the camera, unopened, upright, label flat to camera and undistorted, frost and condensation beads on it, a thin curl of cold vapour, one hand with four fingers behind the can and thumb in front. Proud grin, mid-sentence. The can is lit by the cold white glow of the open box below so its sky-blue and silver stay true; magenta and cyan RGB light on her braids and the background, monitors with abstract blurred colour. Exactly one can in frame. No readable text except the can's own label, no other logos."
+      "keyframe_prompt": "Handheld phone close-up in the gaming-house living room: Kiara, the woman from the character sheet, holds the exact can from the product reference up toward the lens beside her face, about 40 cm from the camera, unopened, upright, label flat to camera and undistorted, frost and condensation beads on it, a thin curl of cold vapour, one hand with four fingers behind the can and thumb in front. Proud grin, mid-sentence. The can is lit by the cold white glow of the open box below so its sky-blue and silver stay true; magenta and cyan RGB light on her braids and the background, monitors with abstract blurred colour. Exactly one can in frame. No readable text except the can's own label, no other logos.",
+      "dressing": [
+        "the sky-blue bead at the end of one braid",
+        "her thin silver rings against the can",
+        "the crooked sky-blue banner with the angular white falcon-head mark behind her",
+        "the whiteboard of marker sketches blurred in the background"
+      ]
     },
     {
       "id": "S06",
@@ -307,9 +343,15 @@
       "caption": "",
       "refs": [
         "product",
-        "teamhouse"
+        "teamhouse",
+        "coldbox"
       ],
-      "keyframe_prompt": "Handheld phone medium close-up, slightly low, over the wooden coffee table: three different adult hands (one deep brown with silver rings, one pale and freckled, one olive with a gold bracelet) each holding exactly one can exactly like the product reference, upright and undistorted, labels mostly facing camera, all three cracking the ring tabs open at the same moment with a tiny spray of fizz, the open kraft box with a silver liner blurred below. Magenta and cyan RGB glow in the background, the cans lit by a warm overhead light so their sky-blue and silver stay true. No readable text except the cans' own labels, no other logos."
+      "keyframe_prompt": "Handheld phone medium close-up, slightly low, over the wooden coffee table: three different adult hands (one deep brown with silver rings, one pale and freckled, one olive with a gold bracelet) each holding exactly one can exactly like the product reference, upright and undistorted, labels mostly facing camera, all three cracking the ring tabs open at the same moment with a tiny spray of fizz, the open kraft box with a silver liner blurred below. Magenta and cyan RGB glow in the background, the cans lit by a warm overhead light so their sky-blue and silver stay true. No readable text except the cans' own labels, no other logos.",
+      "dressing": [
+        "the open kraft box with the silver liner and foam slots below",
+        "one deep brown hand with silver rings and a wrist brace, one pale freckled hand with a torn hoodie cuff, one olive hand with chipped sky-blue nails and a gold bird-charm bracelet",
+        "paper plates and the pizza box at the edge of frame"
+      ]
     },
     {
       "id": "S07",
@@ -327,7 +369,13 @@
         "product",
         "teamhouse"
       ],
-      "keyframe_prompt": "Handheld phone reaction shot, head and chest, of Owen, the man from the character sheet (copper-red messy hair, wire glasses, freckles, grey hoodie over a sky-blue jersey, black headset pushed back), sitting normally on the grey couch in the gaming-house living room, his body and shoulders fully visible and in natural proportion. He holds the exact can from the product reference in his own right hand at chin height, just lowered from his first sip, opened, upright, label partly toward camera and undistorted, eyebrows raised in grudging surprise, a slow approving nod. Magenta and cyan RGB light on his hair, monitors with abstract blurred colour behind. The coffee table is out of frame. Exactly one can in the whole frame. No readable text except the can's label, no logos."
+      "keyframe_prompt": "Handheld phone reaction shot, head and chest, of Owen, the man from the character sheet (copper-red messy hair, wire glasses, freckles, grey hoodie over a plain sky-blue jersey with no lettering, numbers or mesh sports print, only a small white falcon-head mark, black headset pushed back), sitting normally on the grey couch in the gaming-house living room, his body and shoulders fully visible and in natural proportion. He holds the exact can from the product reference in his own right hand at chin height, just lowered from his first sip, opened, upright, label partly toward camera and undistorted, eyebrows raised in grudging surprise, a slow approving nod. Magenta and cyan RGB light on his hair, monitors with abstract blurred colour behind. The coffee table is out of frame. Exactly one can in the whole frame. No readable text except the can's label, no logos. The can is held down at chin height, away from his lips, and his whole mouth is clearly visible.",
+      "dressing": [
+        "the precision screwdriver tucked behind his right ear",
+        "the dented couch cushion under him",
+        "the mustard throw on the couch arm",
+        "the PC tower with the velcro-strapped side panel behind him"
+      ]
     },
     {
       "id": "S08",
@@ -345,7 +393,13 @@
         "product",
         "teamhouse"
       ],
-      "keyframe_prompt": "Handheld phone reaction close-up of Noor, the woman from the character sheet, in the gaming-house living room, holding the exact can from the product reference at chest height in one hand, opened, upright, label toward camera and undistorted, while pulling a plain black over-ear headset onto her head with the other hand, bright hyped expression, mouth open mid-word, high dark ponytail swinging. Magenta and cyan RGB light behind, gaming stations with abstract blurred colour on the monitors. Exactly one can. No readable text except the can's label, no logos."
+      "keyframe_prompt": "Handheld phone reaction close-up of Noor, the woman from the character sheet, in the gaming-house living room, holding the exact can from the product reference at chest height in one hand, opened, upright, label toward camera and undistorted, while pulling a plain black over-ear headset onto her head with the other hand, bright hyped expression, mouth open mid-word, high dark ponytail swinging. Magenta and cyan RGB light behind, gaming stations with abstract blurred colour on the monitors. Exactly one can. No readable text except the can's label, no logos.",
+      "dressing": [
+        "the plush kestrel sitting on top of her monitor",
+        "her ring light glowing",
+        "chipped sky-blue nail polish on the hand holding the can",
+        "the black velvet scrunchie in her ponytail"
+      ]
     },
     {
       "id": "S09",
@@ -364,7 +418,14 @@
         "noor",
         "teamhouse"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon: handheld phone shot from behind the couch at 1am in the gaming-house living room: three adults at three gaming desks along the wall, their backs mostly to camera, monitors glowing with abstract blurred bright colour and no interface or text. Owen, the man from the second character sheet, has jumped up from his chair in the middle with both hands on his head in celebration, mouth open in a whoop; Kiara, the woman from the first character sheet, on the left, turning to him laughing; Noor, the woman from the third character sheet, on the right, fists raised. On each desk stands exactly one silver and sky-blue can like the product, small in frame. Magenta and cyan RGB strips, a dark window. No readable text, no logos on keyboards, headsets or chairs."
+      "keyframe_prompt": "Upright vertical composition, level horizon: handheld phone shot from behind the couch at 1am in the gaming-house living room: three adults at three gaming desks along the wall, their backs mostly to camera, monitors glowing with abstract blurred bright colour and no interface or text. Owen, the man from the second character sheet, has jumped up from his chair in the middle with both hands on his head in celebration, mouth open in a whoop; Kiara, the woman from the first character sheet, on the left, turning to him laughing; Noor, the woman from the third character sheet, on the right, fists raised. On each desk stands exactly one silver and sky-blue can like the product, small in frame. Magenta and cyan RGB strips, a dark window. No readable text, no logos on keyboards, headsets or chairs.",
+      "dressing": [
+        "the empty cold box on the coffee table with foam pulled half out",
+        "the tower with the velcro-strapped side panel",
+        "the plush kestrel on Noor's monitor",
+        "the mini fridge covered in cartoon stickers",
+        "the gaming chair armrest wrapped in electrical tape"
+      ]
     },
     {
       "id": "S10",
@@ -382,7 +443,13 @@
         "product",
         "teamhouse"
       ],
-      "keyframe_prompt": "Handheld phone medium close-up of Kiara, the woman from the character sheet, at her gaming desk at 1am, having spun her chair to face the camera, plain black headset around her neck, captain's grin, holding the exact can from the product reference up toward the lens at shoulder height, opened, upright, label flat to camera and undistorted, one hand with four fingers behind the can and thumb in front. The can is lit by a warm desk lamp so its sky-blue and silver stay true; behind her a monitor glowing with abstract blurred colour and teammates blurred mid-cheer. Clean uncluttered area in the lower third of the frame for an end card added later. Exactly one can in her hand. No readable text except the can's label, no logos."
+      "keyframe_prompt": "Handheld phone medium close-up of Kiara, the woman from the character sheet, at her gaming desk at 1am, having spun her chair to face the camera, plain black headset around her neck, captain's grin, holding the exact can from the product reference up toward the lens at shoulder height, opened, upright, label flat to camera and undistorted, one hand with four fingers behind the can and thumb in front. The can is lit by a warm desk lamp so its sky-blue and silver stay true; behind her a monitor glowing with abstract blurred colour and teammates blurred mid-cheer. Clean uncluttered area in the lower third of the frame for an end card added later. Exactly one can in her hand. No readable text except the can's label, no logos.",
+      "dressing": [
+        "the black neoprene wrist brace",
+        "her pocket notebook of map diagrams open on the desk",
+        "a blank snowflake-in-hexagon lanyard pass hanging from her monitor",
+        "a mechanical keyboard with one keycap missing"
+      ]
     }
   ],
   "units": [
@@ -527,5 +594,104 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "18 to 28",
     "music_usd": 0
+  },
+  "world_bible": {
+    "lore": [
+      "Kestrel Six is a three-player arena team founded 14 months ago. Kiara, Owen and Noor split the rent on a tired split-level in suburban Columbus, Ohio, and the landlord does not know about the 40 feet of RGB strip.",
+      "The Coldharbor Invitational is their first live LAN event: 16 teams, a 25,000 dollar prize pool, and they got in as the 16th seed off the last qualifier, on a tiebreak.",
+      "Owen built all three PCs out of used parts; his own tower's side panel has been held on with velcro strips since it fell off in March.",
+      "Noor streams practice to about 900 regulars every night. A fist-sized plush kestrel a viewer mailed her sits on top of her monitor and has been on stream for every win.",
+      "Their part-time coach Dez promised a cold box of scrim fuel if they qualified. He dropped it on the porch at 10:07pm and drove off honking twice."
+    ],
+    "locations": {
+      "teamhouse": {
+        "foreground": [
+          "a low pine coffee table covered in pale overlapping cup rings and one old scorch mark",
+          "a greasy open pizza box with no print, two crusts left, a stack of paper plates",
+          "a tangle of three game controllers and a charging dock with one blinking light",
+          "a mechanical keyboard with one keycap missing, the bare switch showing",
+          "a pair of orange-handled scissors and a half-used roll of silver duct tape"
+        ],
+        "midground": [
+          "a sagging grey couch with a mustard knit throw bunched on one arm and a permanently dented cushion",
+          "a whiteboard on a wobbly easel covered in marker sketches of map outlines, arrows and circles, no words or letters at all",
+          "three gaming desks with ultrawide monitors showing only abstract blurred colour, one PC tower's side panel held on with black velcro strips",
+          "Noor's desk with a round ring light and a small plush kestrel bird sitting on top of her monitor",
+          "a mini fridge beside the desks, its plain white door covered in simple drawn stickers (stars, lightning bolts, little ghosts) with no words, nothing standing on top of it",
+          "a gaming chair with its armrest wrapped in black electrical tape",
+          "a snake of power strips and zip-tied cables under the desks"
+        ],
+        "background": [
+          "magenta and cyan RGB strips along the ceiling edge, one short section dead and dark",
+          "the plain sky-blue team banner showing only a white angular falcon head in profile built from three sharp triangles, hooked beak facing right, pinned slightly crooked with thumbtacks",
+          "a hallway with a pile of plain white sneakers with no logos or stripes, and an overflowing laundry basket",
+          "a window with one bent blind slat and an orange streetlight beyond",
+          "a shelf of small plain gold plastic trophy cups, all blank with no plaques, boxes or figures"
+        ]
+      }
+    },
+    "personal_props": {
+      "kiara": [
+        "thin silver rings on three fingers, one on her thumb worn flat",
+        "a single sky-blue bead at the end of one braid",
+        "a black neoprene wrist brace on her right wrist, fuzzy at the edges",
+        "a pocket notebook of hand-drawn map diagrams with a pen clipped to the cover"
+      ],
+      "owen": [
+        "a tiny precision screwdriver tucked behind his right ear",
+        "a torn thumbhole in the left cuff of his grey hoodie",
+        "a chewed pen cap he turns between his fingers",
+        "a scratch across the right lens of his wire glasses"
+      ],
+      "noor": [
+        "chipped sky-blue nail polish",
+        "a thin gold chain bracelet with a small bird charm",
+        "a black velvet scrunchie holding her high ponytail",
+        "gold hoop earrings, one slightly bent"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "coldbox",
+        "name": "Dez's cold box",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two unlabelled views side by side: a medium plain kraft cardboard shipping box with slightly crushed corners and beads of condensation, one plain sky-blue square sticker on the lid, a torn tear strip; and the same box open showing a crinkled silver insulated liner, white foam insert with round slots, wisps of cold vapour. No labels, barcodes, letters or text anywhere. No captions or view labels on the sheet. Photoreal, candid phone-photo light."
+      },
+      {
+        "id": "whiteboard",
+        "name": "The strategy whiteboard",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a whiteboard on a wobbly aluminium easel, covered in hand-drawn marker map outlines, arrows, circles and three coloured dots in blue, red and green, half wiped in one corner, a marker tray with three capped markers and an eraser. No letters, words or numbers anywhere. No captions or view labels on the sheet. Photoreal, candid phone-photo light."
+      },
+      {
+        "id": "kestrel_plush",
+        "name": "Noor's lucky kestrel",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, front and side views: a fist-sized soft plush toy of a small falcon, sky-blue and white with rusty brown wing tips, black bead eyes, one seam slightly split under the wing, fur a little matted from handling. No tags, letters or text. No captions or view labels on the sheet. Photoreal, candid phone-photo light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Kestrel Six",
+        "mark": "a white angular falcon head in profile built from three sharp triangles, hooked beak facing right (never a round songbird)",
+        "colors": "sky blue and white",
+        "appears_on": "team jerseys (chest), the wall banner, the sticker on the cold box",
+        "text_in_post": "none; the team name only appears in the creator hook text"
+      },
+      {
+        "name": "Coldharbor Invitational",
+        "mark": "a white snowflake inside a hexagon",
+        "colors": "ice white on navy",
+        "appears_on": "a blank lanyard pass on Kiara's desk",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "Thursday 10:12pm, two days before the event, then 1:04am during scrims. The pizza has gone cold, one RGB section has been dead for weeks, the couch cushion is dented where Owen always sits, laundry has been ignored all week, and by 1am the box sits open and empty on the table with its foam and liner pulled half out. The only drinks in the house besides the product are plain water bottles.",
+    "sound_world": [
+      "packing tape and the tear strip ripping",
+      "foam squeaking as cans are pulled out",
+      "cold vapour hissing faintly from the liner",
+      "mechanical keyboards clattering",
+      "three PC fans whirring",
+      "couch springs creaking",
+      "ring tabs cracking in quick succession"
+    ]
   }
 }

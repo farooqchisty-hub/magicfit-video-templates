@@ -44,7 +44,7 @@
     {
       "id": "skyline",
       "name": "Brightwater City skyline",
-      "plate_prompt": "Modern American comic book splash panel, vertical 9:16, upright vertical composition, level horizon, bold black ink line art, flat colours with Ben-Day halftone dots, off-white newsprint texture: a sunny art-deco city skyline in the afternoon, a tall stepped tower with a spire in the centre, bridges, a river, golden yellow sky with a halftone sunburst. No people, no signage, no letters, no logos, no text anywhere."
+      "plate_prompt": "Modern American comic book splash panel, vertical 9:16, upright vertical composition, level horizon, bold black ink line art, flat colours with Ben-Day halftone dots, off-white newsprint texture: a sunny art-deco city skyline in the afternoon, an invented skyline with no recognisable real landmarks: in the centre Pemberton Tower, a wide stepped ziggurat tower with a fan-shaped sunburst crown and a short needle spire that does not resemble any real building, a single-pylon cable-stayed bridge, a river, golden yellow sky with a halftone sunburst. No people, no signage, no letters, no logos, no text anywhere."
     }
   ],
   "adaptation": {
@@ -208,9 +208,17 @@
       "caption": "By noon, I'm unstoppable.",
       "refs": [
         "gord",
-        "skyline"
+        "skyline",
+        "girder"
       ],
-      "keyframe_prompt": "Comic book cover splash panel, low angle: Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge), flying high above the sunny art-deco city from the skyline reference, holding a long steel girder over his head with both arms, cape snapping, heroic grin, a golden yellow halftone sunburst radiating behind him. The top quarter of the panel is a clean flat golden sky with nothing in it, left empty for a title. Upright vertical composition, level horizon. No letters, no numbers, no text."
+      "keyframe_prompt": "Comic book cover splash panel, low angle: Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge), flying high above the sunny art-deco city from the skyline reference, holding a long steel girder over his head with both arms, cape snapping, heroic grin, a golden yellow halftone sunburst radiating behind him. The top quarter of the panel is a clean flat golden sky with nothing in it, left empty for a title. Upright vertical composition, level horizon. No letters, no numbers, no text.",
+      "dressing": [
+        "the rivets and bent end of the red steel girder",
+        "art-deco eagle gargoyles on a cornice below",
+        "a rooftop wooden water tower",
+        "the needle spire of Pemberton Tower",
+        "a paddle ferry's white wake on the river far below"
+      ]
     },
     {
       "id": "S02",
@@ -227,7 +235,14 @@
         "gord",
         "office"
       ],
-      "keyframe_prompt": "Comic panel, medium shot in the office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), slumped face down on his desk with one cheek squashed on the keyboard, arms dangling, his sky-blue cape hanging limp over the office chair, the colours of the panel washed out to grey and olive with only faint blue left in the cape, a plain round wall clock behind him with its hands pointing at three and simple tick marks and no numerals, monitor showing abstract grey bars. Clean flat grey wall area in the upper left, empty. No letters, no numbers, no text."
+      "keyframe_prompt": "Comic panel, medium shot in the office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), slumped face down on his desk with one cheek squashed on the keyboard, arms dangling, his sky-blue cape hanging limp over the office chair, the colours of the panel washed out to grey and olive with only faint blue left in the cape, a plain round wall clock behind him with its hands pointing at three and simple tick marks and no numerals, monitor showing abstract grey bars. Clean flat grey wall area in the upper left, empty. No letters, no numbers, no text.",
+      "dressing": [
+        "the chipped mug with a drawn lightning bolt and a cold coffee ring",
+        "the stress ball squashed flat",
+        "the safety pin on the limp cape collar",
+        "blank memos on the cork board",
+        "the rubber plant with one yellow leaf"
+      ]
     },
     {
       "id": "S03",
@@ -244,7 +259,14 @@
         "slump",
         "skyline"
       ],
-      "keyframe_prompt": "Wide comic panel: The Slump, the fog villain from the character sheet (huge grey and olive fog blob, heavy-lidded sleepy yellow eyes, wide yawning mouth, drooping arms dripping like wet clay, limp grey necktie), oozing over the top of the tall stepped tower from the skyline reference, its drips sliding down the building onto the streets, the whole city drained to desaturated grey and olive, heavy spot blacks. Clean flat grey sky area in the upper right, empty. Upright vertical composition, level horizon. No letters, no text."
+      "keyframe_prompt": "Wide comic panel: The Slump, the fog villain from the character sheet (huge grey and olive fog blob, heavy-lidded sleepy yellow eyes, wide yawning mouth, drooping arms dripping like wet clay, limp grey necktie), oozing over the top of the tall stepped tower from the skyline reference, its drips sliding down the building onto the streets, the whole city drained to desaturated grey and olive, heavy spot blacks. Clean flat grey sky area in the upper right, empty. Upright vertical composition, level horizon. No letters, no text.",
+      "dressing": [
+        "the Slump's orbiting paper clips and staples",
+        "its limp grey necktie",
+        "grey drips sliding down Pemberton Tower's sunburst crown",
+        "the cable-stayed bridge sagging grey",
+        "the elevated train stopped on its viaduct"
+      ]
     },
     {
       "id": "S04",
@@ -262,7 +284,14 @@
         "office",
         "product"
       ],
-      "keyframe_prompt": "Comic panel, close shot under an office desk: a man's hand in a white short-sleeve shirt opening the door of a small desk fridge, a sky-blue glow and ink light rays spilling out, inside on the single shelf stands one exact can from the product reference, upright and closed, label facing the viewer, inked in comic style with its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. The masked hero's determined face from the character sheet leaning into the top of the frame. Clean flat dark area in the lower left, empty. No other letters, no text."
+      "keyframe_prompt": "Comic panel, close shot under an office desk: a man's hand in a white short-sleeve shirt opening the door of a small desk fridge, a sky-blue glow and ink light rays spilling out, inside on the single shelf stands one exact can from the product reference, upright and closed, label facing the viewer, inked in comic style with its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. The masked hero's determined face from the character sheet leaning into the top of the frame. Clean flat dark area in the lower left, empty. No other letters, no text.",
+      "dressing": [
+        "the drawn gold star sticker on the fridge door",
+        "the dented fridge corner",
+        "the chrome handle",
+        "the duct-tape patch on the chair armrest",
+        "a blank manila folder fallen to the carpet"
+      ]
     },
     {
       "id": "S05",
@@ -278,7 +307,12 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Comic hero insert panel: a man's fist holding the exact can from the product reference upright and raised like a trophy, his thumb cracking the ring pull open with a small spray of fizz, label facing the viewer and undistorted, inked in comic style with light halftone on the can and its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls facing each other in front of a gold sun, SUGARFREE in spaced red capitals. Behind it a radiating sky-blue and golden yellow halftone sunburst. The can is the brightest object in the panel. Clean flat sunburst area at the top right, empty. No other letters, no sound effect words, no text."
+      "keyframe_prompt": "Comic hero insert panel: a man's bare forearm and fist, with the rolled white short-sleeve shirt cuff just visible at the edge, holding the exact can from the product reference upright and raised like a trophy, his thumb cracking the ring pull open with a small spray of fizz, label facing the viewer and undistorted, inked in comic style with light halftone on the can and its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls facing each other in front of a gold sun, SUGARFREE in spaced red capitals. Behind it a radiating sky-blue and golden yellow halftone sunburst. The can is the brightest object in the panel. Clean flat sunburst area at the top right, empty. No other letters, no sound effect words, no text. No armour, no gauntlet, no metal sleeve.",
+      "dressing": [
+        "the scratched silver badge on the shirt pocket at the edge of frame",
+        "coarse halftone sunburst rays",
+        "ink droplets of fizz"
+      ]
     },
     {
       "id": "S06",
@@ -296,7 +330,13 @@
         "product",
         "office"
       ],
-      "keyframe_prompt": "Comic panel, medium close-up from the chest up: Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge now glowing), standing tall in the office, cape lifting in a sudden wind, colour flooding back into the panel in bright blue, gold and white. He holds the exact can from the product reference up beside his face in the foreground, large in the panel (about a third of the frame height), open, upright, label facing the viewer and undistorted, inked in comic style with light halftone and its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls in front of a gold sun, SUGARFREE in spaced red capitals. He looks straight at the reader with a heroic grin. Clean flat window-sky area in the upper right, empty. No clock, no letters, no numbers, no text."
+      "keyframe_prompt": "Comic panel, medium close-up from the chest up: Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge now glowing), standing tall in the office, cape lifting in a sudden wind, colour flooding back into the panel in bright blue, gold and white. He holds the exact can from the product reference up beside his face in the foreground, large in the panel (about a third of the frame height), open, upright, label facing the viewer and undistorted, inked in comic style with light halftone and its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls in front of a gold sun, SUGARFREE in spaced red capitals. He looks straight at the reader with a heroic grin. Clean flat window-sky area in the upper right, empty. No clock, no letters, no numbers, no text.",
+      "dressing": [
+        "the badge glowing with ink light rays",
+        "the safety pin at the cape collar",
+        "blank memos lifting off the cork board in the wind",
+        "the water cooler bubble"
+      ]
     },
     {
       "id": "S07",
@@ -313,7 +353,13 @@
         "gord",
         "office"
       ],
-      "keyframe_prompt": "Dynamic diagonal comic action panel with strong foreshortening: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape), flying fist first out through an open floor-to-ceiling office window toward the viewer, cape streaming behind, blank papers flying, bold ink speed lines, the sunny city skyline below. Clean flat sky area in the upper left, empty. No letters, no text."
+      "keyframe_prompt": "One single dynamic diagonal comic action panel filling the whole frame, no sub-panels, no inset boxes, no dividers, seen from outside the tower in mid air: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape), bursting out of a shattered floor-to-ceiling office window high on the tower, flying fist first toward the viewer with strong foreshortening, cape streaming behind, glass shards and blank papers flying, bold ink speed lines; behind him through the broken window the office with desks and a water cooler; below him the sunny art-deco city streets far down. No clock. Clean flat sky area in the upper left, empty. No letters, no text.",
+      "dressing": [
+        "the window cleaner's cradle swinging on its cables beside the window",
+        "blank manila folders tumbling out of the window",
+        "art-deco eagle gargoyles on the tower cornice below",
+        "glass shards catching sunlight"
+      ]
     },
     {
       "id": "S08",
@@ -331,7 +377,14 @@
         "slump",
         "skyline"
       ],
-      "keyframe_prompt": "Full comic splash panel: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape, glowing silver badge), punching straight through the centre of The Slump, the fog villain from the character sheet, whose grey and olive body bursts apart into chunky fog fragments, its sleepy eyes wide in shock, golden yellow light blasting through the hole in a red and yellow ink burst shape, the art-deco city below turning bright and colourful again. Clean flat burst area in the lower right, empty. Upright vertical composition, level horizon. No letters, no sound effect words, no text."
+      "keyframe_prompt": "Full comic splash panel: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape, glowing silver badge), punching straight through the centre of The Slump, the fog villain from the character sheet, whose grey and olive body bursts apart into chunky fog fragments, its sleepy eyes wide in shock, golden yellow light blasting through the hole in a red and yellow ink burst shape, the art-deco city below turning bright and colourful again. Clean flat burst area in the lower right, empty. Upright vertical composition, level horizon. No letters, no sound effect words, no text.",
+      "dressing": [
+        "paper clips and staples flying out of the burst",
+        "the limp grey necktie torn loose",
+        "Pemberton Tower's sunburst crown lit gold again",
+        "the blimp with plain sides",
+        "ink spot-black debris shapes"
+      ]
     },
     {
       "id": "S09",
@@ -349,7 +402,14 @@
         "office",
         "product"
       ],
-      "keyframe_prompt": "Comic panel, medium shot in the bright sunny office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), sitting back at his desk loosening his tie with a satisfied grin, his sky-blue cape tucked over the back of his chair, the monitor showing abstract colourful bars, no clock anywhere in the panel, one exact can from the product reference standing open and upright beside his keyboard in the foreground, clearly visible with its label facing the viewer, inked in comic style. Warm sunlight through the window. Clean flat wall area in the upper left, empty. No letters, no numbers, no text."
+      "keyframe_prompt": "Comic panel, medium shot in the bright sunny office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), sitting back at his desk loosening his tie with a satisfied grin, his sky-blue cape tucked over the back of his chair, the monitor showing abstract colourful bars, no clock anywhere in the panel, one exact can from the product reference standing open and upright beside his keyboard in the foreground, clearly visible with its label facing the viewer, inked in comic style. Warm sunlight through the window. Clean flat wall area in the upper left, empty. No letters, no numbers, no text.",
+      "dressing": [
+        "the chipped lightning-bolt mug",
+        "the rubber plant standing upright again",
+        "the spare cape on the coat stand",
+        "the stress ball back to round",
+        "blue sky and birds as ink ticks through the window"
+      ]
     },
     {
       "id": "S10",
@@ -364,9 +424,15 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "office"
+        "office",
+        "fridge"
       ],
-      "keyframe_prompt": "Final comic panel, pack shot: the exact can from the product reference standing upright on an office desk, label facing the viewer and undistorted, inked in comic style with light halftone and bold white highlights, label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Behind it a radiating sky-blue and golden yellow halftone sunburst, the corner of a sky-blue cape draped at the edge of the frame. The top third of the panel is a clean flat sunburst area left empty for a title, and a clean flat strip along the bottom is empty. The can is the brightest object in the panel. No other letters, no text."
+      "keyframe_prompt": "Final comic panel, pack shot: the exact can from the product reference standing upright on an office desk, label facing the viewer and undistorted, inked in comic style with light halftone and bold white highlights, label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Behind it a radiating sky-blue and golden yellow halftone sunburst, the corner of a sky-blue cape draped at the edge of the frame. The top third of the panel is a clean flat sunburst area left empty for a title, and a clean flat strip along the bottom is empty. The can is the brightest object in the panel. No other letters, no text.",
+      "dressing": [
+        "the sky-blue desk fridge door open at the edge of frame with its gold star sticker",
+        "the corner of the sky-blue cape with its safety pin",
+        "the chipped lightning-bolt mug"
+      ]
     }
   ],
   "units": [
@@ -585,5 +651,128 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Captain 3pm is a 32-page monthly comic printed on cheap newsprint by the fictional Harbourlight Comics. This is issue #2; issue #1 ended with the Slump escaping into the air vents of Pemberton Tower.",
+      "By day Gord Pike processes claims at desk 41-17 on the 41st floor of Pemberton Tower. He has saved Brightwater City 212 times, every single save before three in the afternoon.",
+      "The Slump first rose out of the Brightwater harbour fog in 1987, the year the city moved to open-plan offices. It feeds on yawns and gets bigger every hour after lunch.",
+      "Gord's cape was sewn by his daughter from an old sky-blue bedsheet; the collar is held on by a safety pin since the Slump tore it in issue #1.",
+      "The desk fridge under desk 41-17 is the only one on the floor that anyone is afraid to open. It has a hand-drawn gold star sticker on the door."
+    ],
+    "materials_rule": "Every object is drawn, not photographed: confident black brush ink with a thick outer contour and thin interior hatching, flat colour fills, Ben-Day halftone dots for every shadow and gradient (fine dots on skin and the can, coarse dots on walls and sky), solid spot blacks in the deepest shadows, slight CMYK misregistration where colour meets line, on slightly yellowed off-white newsprint with faint paper grain. The whole image is one single panel inside a thick hand-inked black border with slightly wobbly ruled edges and a thin white gutter; action may break the border. No lettering, balloons or sound effect words anywhere.",
+    "locations": {
+      "office": {
+        "foreground": [
+          "a wire in-tray stacked with blank manila folders pinched by a big black binder clip",
+          "a chipped white coffee mug with a hand-drawn lightning bolt on it and a brown coffee ring on the desk",
+          "a sky-blue stress ball squashed flat with a thumbprint dent",
+          "a rolling office chair with a split armrest patched with grey duct tape",
+          "the small sky-blue desk fridge under the nearest desk with a chrome handle and a drawn gold star sticker on the door"
+        ],
+        "midground": [
+          "rows of beige desks with chunky monitors showing only abstract coloured bars",
+          "a water cooler with a big blue bottle and a single bubble rising",
+          "a potted rubber plant with one yellowed drooping leaf",
+          "a cork board of blank white memos held by red, yellow and blue pushpins",
+          "a bentwood coat stand with a spare sky-blue cape on a wire hanger",
+          "a plain round wall clock with hands and simple tick marks and no numerals"
+        ],
+        "background": [
+          "a floor-to-ceiling window with a thin black mullion grid",
+          "an invented art-deco skyline of stepped towers with sunburst crowns, no real landmarks",
+          "a window cleaner's cradle hanging on two cables outside the glass",
+          "a small blimp with plain unmarked sides drifting past",
+          "a flock of birds drawn as tiny ink ticks"
+        ]
+      },
+      "skyline": {
+        "foreground": [
+          "a rooftop wooden water tower with iron hoops and a conical lid",
+          "art-deco stone eagle gargoyles on a cornice, cracked and pigeon-streaked",
+          "a rooftop pigeon coop of chicken wire and planks",
+          "a rusty fire-escape ladder climbing a brick wall"
+        ],
+        "midground": [
+          "Pemberton Tower, a tall stepped art-deco tower with a sunburst crown and a needle spire",
+          "a single-pylon cable-stayed bridge with fanned cables over the river",
+          "an elevated train on a curved steel viaduct",
+          "rows of brownstone rooftops with chimney pots and television aerials"
+        ],
+        "background": [
+          "a wide river with a small paddle ferry leaving a white wake",
+          "low blue hills drawn with a single ink line",
+          "a golden yellow sky with a radiating coarse halftone sunburst",
+          "a zeppelin mooring mast on the tallest distant tower",
+          "small puffy clouds outlined in ink with flat white fill"
+        ]
+      }
+    },
+    "personal_props": {
+      "gord": [
+        "the plain silver circular badge with a lightning bolt, a scratch across one edge from issue #1",
+        "a navy tie with a small dark coffee blot near the tip",
+        "a sky-blue cape with a big steel safety pin holding the collar",
+        "a plain wristwatch with a cracked glass face and no numerals",
+        "an office lanyard with a blank white badge card"
+      ],
+      "slump": [
+        "a limp grey necktie with a loosened sagging knot hanging from its chest",
+        "a cloud of paper clips and staples orbiting its body like flies",
+        "a sagging grey office chair it drags behind it by one arm",
+        "a trail of grey drip puddles wherever it passes"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "fridge",
+        "name": "The fridge under desk 41-17",
+        "prop_prompt": "Comic book prop reference sheet on a plain mid-grey background: the same small sky-blue desk fridge drawn twice side by side, once closed and once with the door swung open showing one empty wire shelf and a soft blue glow; rounded corners, a chrome pull handle, a dented lower corner, a hand-drawn gold star sticker on the door. Bold black ink line art, flat colours, Ben-Day halftone shading. No view labels, no captions, no letters, no numbers, no logos anywhere on the sheet."
+      },
+      {
+        "id": "girder",
+        "name": "The rescue girder",
+        "prop_prompt": "Comic book prop reference sheet on a plain mid-grey background: a long red-painted steel I-beam girder with rows of round rivets, one bent end, chipped paint showing grey steel and a dangling snapped cable, shown in side view only. Bold black ink line art, flat colours, Ben-Day halftone shading, spot blacks. No letters, no numbers, no logos."
+      },
+      {
+        "id": "badge",
+        "name": "Captain 3pm's badge",
+        "prop_prompt": "Comic book prop reference sheet on a plain mid-grey background: the same plain silver circular chest badge with a raised gold lightning bolt and a scratch across one edge, drawn twice side by side, once dull and once glowing with radiating ink light rays. Bold black ink line art, flat colours, Ben-Day halftone shading. One single panel, no dividers, no view labels, no captions, no letters, no numbers, no logos anywhere on the sheet."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Captain 3pm",
+        "mark": "a silver circle with a gold lightning bolt",
+        "colors": "sky blue, silver and golden yellow",
+        "appears_on": "Gord's badge, his coffee mug (bolt only), the cover sunburst",
+        "text_in_post": "the comic title on the cover panel S01 and the end card only"
+      },
+      {
+        "name": "Pemberton Tower",
+        "mark": "a stepped tower silhouette with a sunburst crown",
+        "colors": "cream and gold",
+        "appears_on": "the tower itself in the skyline, the blank badge card shape",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Harbourlight Comics",
+        "mark": "a small lighthouse in a circle",
+        "colors": "red on newsprint",
+        "appears_on": "cover corner box (added in post only)",
+        "text_in_post": "issue number and price box on the cover only"
+      }
+    ],
+    "wear_and_time": "A Thursday, the page starts at 2:59pm and runs to about 3:10pm. Bright sunny afternoon outside, the office washed grey by the Slump until the product. Used: a half-drunk coffee gone cold, a squashed stress ball, a shredded morning of blank memos. Out of place: a sky-blue cape hanging on the office coat stand, and the Slump's grey drips on the carpet.",
+    "sound_world": [
+      "the heavy thunk of a forehead meeting a keyboard",
+      "the tick of the plain wall clock",
+      "the suck and chrome clunk of the desk fridge door",
+      "the crack and hiss of the can",
+      "cape snap in the wind through an open window",
+      "wet fog tearing apart around a punch",
+      "papers fluttering off desks",
+      "a page turn rustle of newsprint"
+    ]
   }
 }

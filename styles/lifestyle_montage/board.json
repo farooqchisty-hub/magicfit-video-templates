@@ -86,6 +86,10 @@
     "consumable": {
       "moment": "the refill or pack each person reaches for from a shelf or pocket at the wall",
       "scale": "hand"
+    },
+    "swap_props": {
+      "moment": "The bowl, the thesis model and the chalk bag belong to the people, not the product, so they stay for every product; only the product moments swap.",
+      "scale": "props only"
     }
   },
   "beats": [
@@ -229,9 +233,16 @@
       "caption": "Every day has a wall.",
       "refs": [
         "marisol",
-        "bakery"
+        "bakery",
+        "bowl"
       ],
-      "keyframe_prompt": "Close-up, slightly low angle, of the floury hands and forearms of Marisol, the woman from the character sheet, slamming a ball of dough flat onto a floured steel workbench in the bakery from the location plate; a burst of flour lifts into the air, backlit by deep blue dawn light from the steamed window behind, the orange glow of the deck oven on one side. Her sky-blue denim apron and the edge of her face are visible at the top of frame, eyes heavy. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Close-up, slightly low angle, of the floury hands and forearms of Marisol, the woman from the character sheet, slamming a ball of dough flat onto a floured steel workbench in the bakery from the location plate; a burst of flour lifts into the air, backlit by deep blue dawn light from the steamed window behind, the orange glow of the deck oven on one side. Her sky-blue denim apron and the edge of her face are visible at the top of frame, eyes heavy. Upright vertical composition, level horizon.",
+      "dressing": [
+        "the chipped sky-blue enamel bowl of rising dough under linen",
+        "dough scraps stuck along the bench edge",
+        "long wooden peels with scorched ends hanging behind",
+        "the chalk tally slate on its hook, soft in the background"
+      ]
     },
     {
       "id": "S02",
@@ -248,7 +259,13 @@
         "marisol",
         "bakery"
       ],
-      "keyframe_prompt": "Medium shot, centred at mid-chest, of Marisol, the woman from the character sheet, in the bakery from the location plate before dawn, leaning both floury hands on the steel bench, mid-yawn with her eyes closing, navy bandana and sky-blue denim apron, deep blue dawn window light on one side of her face and warm orange oven glow on the other. Unposed, not looking at camera. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Medium shot, centred at mid-chest, of Marisol, the woman from the character sheet, in the bakery from the location plate before dawn, leaning both floury hands on the steel bench, mid-yawn with her eyes closing, navy bandana and sky-blue denim apron, deep blue dawn window light on one side of her face and warm orange oven glow on the other. Unposed, not looking at camera. Upright vertical composition, level horizon.",
+      "dressing": [
+        "her grandmother's small gold hoop earrings",
+        "the scraper with the cracked sky-blue handle under her hand",
+        "the rolling rack of proofing baskets behind her",
+        "the steamed-up blue dawn window"
+      ]
     },
     {
       "id": "S03",
@@ -263,9 +280,17 @@
       "caption": "DEADLINE.",
       "refs": [
         "theo",
-        "studio"
+        "studio",
+        "thesis_model"
       ],
-      "keyframe_prompt": "Medium shot, centred at mid-chest, of Theo, the man from the character sheet, in the architecture studio from the location plate at 2pm, his forehead resting on the desk in defeat beside a half-built white foam-board building model with its roof missing, round tortoiseshell glasses pushed up, pencil behind his ear, heather-grey hoodie, bright white daylight from tall windows, a silver desk lamp. The foam model is plain white with no writing. Unposed. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Medium shot, centred at mid-chest, of Theo, the man from the character sheet, in the architecture studio from the location plate at 2pm, his forehead resting on the desk in defeat beside a half-built white foam-board building model with its roof missing, round tortoiseshell glasses pushed up, pencil behind his ear, heather-grey hoodie, bright white daylight from tall windows, a silver desk lamp. The foam model is plain white with no writing. Unposed. Upright vertical composition, level horizon. His head is down: his forehead rests flat on the desk surface with his face hidden, his arms limp at his sides, a picture of defeat, not working.",
+      "dressing": [
+        "one roof piece lying beside the model",
+        "a crushed coffee cup stuffed with pencil shavings",
+        "the half-eaten tub of cold noodles",
+        "the tape on one hinge of his glasses",
+        "a rolled sleeping bag under the next desk, soft in the background"
+      ]
     },
     {
       "id": "S04",
@@ -280,9 +305,17 @@
       "caption": "LAST SET.",
       "refs": [
         "keisha",
-        "gym"
+        "gym",
+        "chalk_bag"
       ],
-      "keyframe_prompt": "Medium shot from slightly behind and below Keisha, the woman from the character sheet, standing on a blue crash mat in the bouldering gym from the location plate at sunset, clapping chalk off her hands, looking up at the tall grey overhanging climbing wall towering above her, her face in three-quarter profile, tired and determined, burnt-orange tank top, amber sunset light through high windows, chalk dust in the beams. The wall is vertical and fills the upper frame. Upright vertical composition, level horizon, normal gravity."
+      "keyframe_prompt": "Medium shot from slightly behind and below Keisha, the woman from the character sheet, standing on a blue crash mat in the bouldering gym from the location plate at sunset, clapping chalk off her hands, looking up at the tall grey overhanging climbing wall towering above her, her face in three-quarter profile, tired and determined, burnt-orange tank top, amber sunset light through high windows, chalk dust in the beams. The wall is vertical and fills the upper frame. Upright vertical composition, level horizon, normal gravity.",
+      "dressing": [
+        "the faded orange chalk bag on her waist cord",
+        "white tape wrapped on two of her fingers",
+        "the line of sky-blue holds marked with blue tape strips high on the wall",
+        "tape-patched blue crash mats",
+        "the brick wall and bare bulbs behind"
+      ]
     },
     {
       "id": "S05",
@@ -297,9 +330,15 @@
       "caption": "Red Bull Sugarfree.",
       "refs": [
         "product",
-        "bakery"
+        "bakery",
+        "bowl"
       ],
-      "keyframe_prompt": "Macro insert, locked off: the exact can from the product reference standing upright on a floured steel bakery workbench, label facing camera, straight and undistorted, cold condensation droplets on it, the small slender hand of a woman with short nails and flour dust on her knuckles, one fingertip lifting the tab from the front of the can so a small puff of cold vapour rises; a few flour particles float in blue dawn window light, the orange oven glow blurred behind. One can only, the can is the brightest and sharpest object in the frame. Upright vertical composition."
+      "keyframe_prompt": "Macro insert, locked off: the exact can from the product reference standing upright on a floured steel bakery workbench, label facing camera, straight and undistorted, cold condensation droplets on it, the small slender hand of a woman with short nails and flour dust on her knuckles, one fingertip lifting the tab from the front of the can so a small puff of cold vapour rises; a few flour particles float in blue dawn window light, the orange oven glow blurred behind. One can only, the can is the brightest and sharpest object in the frame. Upright vertical composition.",
+      "dressing": [
+        "the chipped sky-blue enamel bowl out of focus behind the can",
+        "a floury handprint on the bench edge",
+        "the chalk tally slate soft in the background"
+      ]
     },
     {
       "id": "S06",
@@ -317,7 +356,13 @@
         "product",
         "studio"
       ],
-      "keyframe_prompt": "Medium close-up of Theo, the man from the character sheet, sitting upright at the architecture studio desk from the location plate in bright afternoon light, holding the exact can from the product reference at chest height just after a sip, label facing camera and undistorted, his eyes already focused on the white foam-board model in front of him, glasses on, pencil behind his ear, a hint of a smile. One can only. Unposed, not looking at camera. Upright vertical composition."
+      "keyframe_prompt": "Medium close-up of Theo, the man from the character sheet, sitting upright at the architecture studio desk from the location plate in bright afternoon light, holding the exact can from the product reference at chest height just after a sip, label facing camera and undistorted, his eyes already focused on the white foam-board model in front of him, glasses on, pencil behind his ear, a hint of a smile. One can only. Unposed, not looking at camera. Upright vertical composition.",
+      "dressing": [
+        "the white library model in front of him",
+        "the silver desk lamp with a bent neck",
+        "yellow tracing paper weighted with a tape dispenser",
+        "a thread of glue hanging off the glue gun tip"
+      ]
     },
     {
       "id": "S07",
@@ -334,7 +379,13 @@
         "marisol",
         "bakery"
       ],
-      "keyframe_prompt": "Medium wide shot in the bakery from the location plate at sunrise: Marisol, the woman from the character sheet, wide awake and grinning, pulling a long wooden peel of golden-brown loaves out of the glowing deck oven, steam rising, the window behind her now glowing with first gold sunrise light, sky-blue denim apron and navy bandana, flour on her forearms. Mid-action, energetic, not looking at camera. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Medium wide shot in the bakery from the location plate at sunrise: Marisol, the woman from the character sheet, wide awake and grinning, pulling a long wooden peel of golden-brown loaves out of the glowing deck oven, steam rising, the window behind her now glowing with first gold sunrise light, sky-blue denim apron and navy bandana, flour on her forearms. Mid-action, energetic, not looking at camera. Upright vertical composition, level horizon.",
+      "dressing": [
+        "long wooden peels with scorched ends",
+        "the speed rack of proofing baskets",
+        "a row of mismatched mugs above the sink",
+        "first gold sunrise in the steamed window"
+      ]
     },
     {
       "id": "S08",
@@ -349,9 +400,16 @@
       "caption": "",
       "refs": [
         "theo",
-        "studio"
+        "studio",
+        "thesis_model"
       ],
-      "keyframe_prompt": "Close-up in the architecture studio from the location plate: Theo, the man from the character sheet, leaning in with total concentration, placing the final small white roof piece onto a finished white foam-board building model with a pair of tweezers, his face lit by the silver desk lamp and bright afternoon window light, glasses on, pencil behind his ear. The model is plain white with no writing. Upright vertical composition."
+      "keyframe_prompt": "Close-up in the architecture studio from the location plate: Theo, the man from the character sheet, leaning in with total concentration, placing the final small white roof piece onto a finished white foam-board building model with a pair of tweezers, his face lit by the silver desk lamp and bright afternoon window light, glasses on, pencil behind his ear. The model is plain white with no writing. Upright vertical composition.",
+      "dressing": [
+        "his fine steel tweezers with a bent tip",
+        "tiny twisted-wire trees around the model",
+        "the steel ruler with blue tape",
+        "pinned soft tonal sketches behind"
+      ]
     },
     {
       "id": "S09",
@@ -366,9 +424,17 @@
       "caption": "",
       "refs": [
         "keisha",
-        "gym"
+        "gym",
+        "chalk_bag"
       ],
-      "keyframe_prompt": "Low angle wide shot looking up the tall grey overhanging climbing wall from the location plate: Keisha, the woman from the character sheet, near the top of the wall, one hand slapping a big sky-blue top hold, her other hand and feet on smaller holds, body stretched, a cloud of white chalk bursting off her hand into amber sunset light beams from the high windows. The wall is vertical, she hangs by her hands with normal gravity, the floor and crash mats are at the bottom of frame. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Low angle wide shot looking up the tall grey overhanging climbing wall from the location plate: Keisha, the woman from the character sheet, near the top of the wall, one hand slapping a big sky-blue top hold, her other hand and feet on smaller holds, body stretched, a cloud of white chalk bursting off her hand into amber sunset light beams from the high windows. The wall is vertical, she hangs by her hands with normal gravity, the floor and crash mats are at the bottom of frame. Upright vertical composition, level horizon.",
+      "dressing": [
+        "the orange chalk bag swinging at her waist",
+        "chalk handprints smeared around the sky-blue holds",
+        "the string of bare warm bulbs",
+        "high warehouse windows full of amber sunset",
+        "tape-patched crash mats far below"
+      ]
     },
     {
       "id": "S10",
@@ -386,7 +452,13 @@
         "product",
         "gym"
       ],
-      "keyframe_prompt": "Medium shot, centred at mid-chest, of Keisha, the woman from the character sheet, sitting on a thick blue crash mat in the bouldering gym from the location plate, breathing hard, forearms dusted with chalk, holding the exact can from the product reference loosely in one hand on her knee with the label facing camera and undistorted, grinning up at the climbing wall above her, amber sunset light on her face. One can only. Unposed. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Medium shot, centred at mid-chest, of Keisha, the woman from the character sheet, sitting on a thick blue crash mat in the bouldering gym from the location plate, breathing hard, forearms dusted with chalk, holding the exact can from the product reference loosely in one hand on her knee with the label facing camera and undistorted, grinning up at the climbing wall above her, amber sunset light on her face. One can only. Unposed. Upright vertical composition, level horizon.",
+      "dressing": [
+        "her silver mountain pendant",
+        "white tape on two fingers",
+        "her worn climbing shoes with peeling toes beside her on the mat",
+        "the orange chalk bucket with handprints"
+      ]
     },
     {
       "id": "S11",
@@ -402,7 +474,12 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "The exact can from the product reference standing upright on a weathered concrete rooftop ledge at blue hour, label facing camera and undistorted, condensation droplets catching the last warm light, placed in the lower third of the frame; behind it a softly blurred generic city skyline of plain towers with warm windows starting to light up and no signs, logos or landmarks, a deep blue dusk sky with one gold band on the horizon. Premium pack shot, the can is the brightest and sharpest object. Clean empty sky above the can for a title. One can only. Upright vertical composition, level horizon. The can stands on its own on the ledge: no hands, no arms, no people anywhere in the frame."
+      "keyframe_prompt": "The exact can from the product reference standing upright on a weathered concrete rooftop ledge at blue hour, label facing camera and undistorted, condensation droplets catching the last warm light, placed in the lower third of the frame; behind it a softly blurred generic city skyline of plain towers with warm windows starting to light up and no signs, logos or landmarks, a deep blue dusk sky with one gold band on the horizon. Premium pack shot, the can is the brightest and sharpest object. Clean empty sky above the can for a title. One can only. Upright vertical composition, level horizon. The can stands on its own on the ledge: no hands, no arms, no people anywhere in the frame.",
+      "dressing": [
+        "a weathered concrete ledge with a small lichen patch",
+        "one tiny scatter of flour dust and a curl of chalk dust on the ledge beside the can",
+        "plain towers with warm windows starting to light up"
+      ]
     }
   ],
   "units": [
@@ -543,5 +620,147 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Hearth and Rye opened in 2019 in a former laundromat on Calder Street. Marisol bought it from her old boss with a 60 thousand dollar loan, and on Tuesdays she bakes all 140 loaves alone before the 7am open.",
+      "Theo is a fourth-year architecture student. His thesis model, a 1 to 200 scale public library for his hometown in northern Minnesota, is due at the 4pm crit and at 2pm it still has no roof. He has been awake for 26 hours.",
+      "Keisha took up bouldering after her divorce three years ago. The sky-blue problem on the big overhang, which the regulars call the Blue Line, has beaten her 23 times.",
+      "Kestrel Bouldering is a converted 1920s brick rail warehouse. The setters strip and reset the overhang every Wednesday morning, so tonight is her last chance at the Blue Line.",
+      "All three live within a mile of each other in Calder Heights and never meet; the rooftop at the end is the view all three of them share."
+    ],
+    "locations": {
+      "bakery": {
+        "foreground": [
+          "a long steel bench dusted with flour, dough scraps stuck along one edge",
+          "a scalloped steel bench scraper with a cracked sky-blue handle",
+          "a chipped sky-blue enamel bowl of rising dough under a damp linen cloth",
+          "a flour-caked steel scoop resting in a white flour bin",
+          "a floury handprint on the edge of the bench"
+        ],
+        "midground": [
+          "a rolling speed rack of linen-lined proofing baskets holding round loaves",
+          "a black deck oven with an orange glow behind a scratched window",
+          "a small slate on a hook with chalk tally marks counting batches",
+          "a plain paper flour sack slumped against a bench leg",
+          "long wooden peels hanging on hooks, the ends scorched dark",
+          "a battered transistor radio on a shelf with a bent antenna"
+        ],
+        "background": [
+          "a steamed-up window showing deep blue dawn and one streetlight",
+          "a row of mismatched mugs on hooks above a steel sink",
+          "a faded instant photo of the opening day pinned by the door, faces tiny and blurred",
+          "a mop in a yellow bucket by the back door"
+        ]
+      },
+      "studio": {
+        "foreground": [
+          "a green self-healing cutting mat covered in scalpel scratches",
+          "a steel ruler with a strip of blue tape at one end",
+          "a scatter of white foam-board offcuts and a jar lid of used scalpel blades",
+          "a crushed paper coffee cup stuffed with pencil shavings"
+        ],
+        "midground": [
+          "the white foam-board library model with tiny twisted-wire trees and tiny white foam figures",
+          "a silver articulated desk lamp with a bent neck",
+          "rolls of yellow tracing paper, one unrolled and weighted with a tape dispenser",
+          "a plastic tub of half-eaten cold noodles with a fork in it",
+          "a hot glue gun on its stand with a thread of glue hanging off the tip"
+        ],
+        "background": [
+          "pinned abstract line sketches and site photos that are only soft tonal blurs",
+          "tall steel-framed industrial windows full of white afternoon light",
+          "a classmate's desk with another model under a white sheet",
+          "a rolled sleeping bag shoved under a desk",
+          "a small whiteboard corner covered in chalk tally marks"
+        ]
+      },
+      "gym": {
+        "foreground": [
+          "thick blue crash mats with silver tape patches over split seams",
+          "a faded orange canvas chalk bucket with white handprints on it",
+          "a worn pair of climbing shoes with rubber peeling at the toes",
+          "a black foam roller left on the mat"
+        ],
+        "midground": [
+          "the grey overhang wall with a line of sky-blue holds, each marked by a small strip of blue tape",
+          "a long-handled brush leaning against the wall",
+          "a wooden bench heaped with jackets and one forgotten water bottle",
+          "a pale wooden hangboard mounted above the bench",
+          "chalk handprints smeared on the wall around the holds"
+        ],
+        "background": [
+          "high steel-framed warehouse windows full of amber sunset",
+          "original red brick with old iron rail hooks",
+          "a string of bare warm bulbs sagging across the ceiling",
+          "chalk dust hanging in the light beams"
+        ]
+      }
+    },
+    "personal_props": {
+      "marisol": [
+        "small gold hoop earrings that were her grandmother's",
+        "the scalloped bench scraper with a cracked sky-blue handle she has had since culinary school",
+        "a navy bandana with a faded paisley pattern gone soft from washing",
+        "a burn mark healed pale on her left forearm from the oven door"
+      ],
+      "theo": [
+        "round tortoiseshell glasses with a strip of clear tape on one hinge",
+        "a pencil behind his ear, chewed flat at the end",
+        "fine steel tweezers with a bent tip",
+        "a heather-grey hoodie with a frayed cuff and a fleck of blue paint",
+        "a knurled steel scalpel he spins between his fingers"
+      ],
+      "keisha": [
+        "a thin silver chain with a tiny mountain pendant",
+        "a faded orange chalk bag on a frayed waist cord",
+        "white climbing tape wrapped around two fingers of her right hand",
+        "a scratched steel water bottle with a fern drawing sticker"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "bowl",
+        "name": "Marisol's enamel bowl",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a wide sky-blue enamel mixing bowl with a dark blue rim, chips in the enamel showing black metal underneath, a small dent on one side, a damp cream linen cloth draped half over it with pale risen dough showing. No letters or logos. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      },
+      {
+        "id": "thesis_model",
+        "name": "Theo's library model",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: an architecture student's white foam-board building model of a small modern library at 1 to 200 scale, clean white walls and a long glass-like clear plastic facade, tiny twisted-wire trees and tiny plain white human figures on a white base board, the roof missing so the empty floors are visible, one roof piece lying beside it. Plain white with no writing, letters or numbers. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      },
+      {
+        "id": "chalk_bag",
+        "name": "Keisha's chalk bag",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a faded burnt-orange canvas climbing chalk bag with a fleece-lined opening, white chalk handprints smeared on its sides, a frayed drawstring, a brush tucked into a side loop and a worn black waist cord. No letters or logos. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Hearth and Rye",
+        "mark": "a single wheat ear inside a circle",
+        "colors": "cream and sky blue",
+        "appears_on": "the linen proofing cloths as a faded stamp shape, never on the apron",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Kestrel Bouldering",
+        "mark": "a sharp triangle shaped like a folded wing",
+        "colors": "burnt orange and charcoal",
+        "appears_on": "the chalk bucket and the wall volumes, as the shape only",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "One Tuesday in late October. 4:52am in the bakery: the first batch is in, the bench is a flour mess and the radio is on low. 2:10pm in the studio: 26 hours awake, noodles going cold, the glue gun still plugged in. 7:04pm at the gym: reset day is tomorrow, chalk on everything, someone has forgotten a jacket and a water bottle. 7:40pm on the rooftop: blue hour, first frost forecast. Out of place: a floury handprint on the bench edge, a sleeping bag under a studio desk.",
+    "sound_world": [
+      "dough slapping flat on steel",
+      "the deck oven door clanking shut",
+      "a transistor radio murmuring low",
+      "a scalpel scoring foam board",
+      "tweezers clicking on a roof piece",
+      "chalk clapped off hands",
+      "the dull thump of a body landing on the crash mats",
+      "the crack and hiss of the can"
+    ]
   }
 }

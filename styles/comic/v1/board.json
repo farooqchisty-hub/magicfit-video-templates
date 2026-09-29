@@ -1,0 +1,589 @@
+{
+  "id": "comic-01-captain-3pm",
+  "style": "comic",
+  "title": "Captain 3pm",
+  "logline": "Captain 3pm is the strongest man in Brightwater City until three o'clock, when the Slump rolls in and his powers run out. Then comes issue #2, and {product}.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "The fictional comic book Captain 3pm, set in the fictional Brightwater City: a sunny art-deco skyline and the open-plan office on the 41st floor of the fictional Pemberton Tower, where the hero works a desk job between rescues. Told as a printed comic page with a motion camera.",
+    "palette": "Hero in sky blue and silver (from the can) with golden yellow sunbursts; the Slump and everything it touches in desaturated grey and olive; red for impacts. Colour floods back after the product.",
+    "fictional_brands": [
+      "Captain 3pm (the comic title, lettered in post only)",
+      "Brightwater City (the city)",
+      "Pemberton Tower (his office building)",
+      "The Slump (the villain)"
+    ],
+    "rules": "No lettering from the model anywhere: titles, balloons, caption boxes, clock numerals and SFX are all added in post. Office monitors show abstract coloured bars only."
+  },
+  "cast": [
+    {
+      "id": "gord",
+      "name": "Gord Pike (Captain 3pm)",
+      "role": "hero, office worker by day",
+      "look": "man, 42, white American, sandy blond hair thinning at the temples, square jaw with light stubble, broad shoulders and a slight dad belly, sky-blue domino mask, white short-sleeve office shirt, navy tie, sky-blue cape, plain silver circular badge with a lightning bolt on the shirt pocket",
+      "voice": "big, warm, old-radio heroic, self-aware, American",
+      "card_prompt": "Comic book character turnaround on plain off-white paper, three views side by side at the same scale: front, three-quarter and profile of the same man, full body. Gord Pike, known as Captain 3pm: 42, white American, sandy blond hair thinning at the temples, square jaw with light stubble, broad shoulders and a slight dad belly, a sky-blue domino mask, white short-sleeve office shirt, navy tie, sky-blue cape fastened at the collar, a plain silver circular badge with a lightning bolt on the shirt pocket, grey office trousers, brown shoes. Heroic but slightly goofy. No letters or numbers on the badge. Consistent design across all three views. No text."
+    },
+    {
+      "id": "slump",
+      "name": "The Slump",
+      "role": "villain, the afternoon slump made flesh",
+      "look": "a huge amorphous grey and olive fog creature, heavy-lidded sleepy yellow eyes, a wide yawning mouth, drooping arms that drip like wet clay, a limp grey necktie hanging from its chest",
+      "voice": "slow, low, yawning, syrupy",
+      "card_prompt": "Comic book villain turnaround on plain off-white paper, three views side by side at the same scale: front, three-quarter and profile of the same creature. The Slump: a huge amorphous blob made of heavy grey and olive fog, heavy-lidded sleepy yellow eyes, a wide yawning mouth, two drooping arms that drip like wet clay, a limp grey necktie hanging from its chest, the bottom trailing off into mist. Funny and menacing at once. Consistent design across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "office",
+      "name": "41st floor, Pemberton Tower",
+      "plate_prompt": "Modern American comic book panel, vertical 9:16, upright vertical composition, level horizon, bold black ink line art, flat colours with Ben-Day halftone dots, off-white newsprint texture: an open-plan office on a high floor with a floor-to-ceiling window over a sunny art-deco city skyline, rows of desks, computer monitors showing only abstract coloured bars, a plain round wall clock with hands and simple tick marks and no numerals, potted plants, a small desk fridge under the nearest desk. No people, no letters, no numbers, no logos, no text anywhere."
+    },
+    {
+      "id": "skyline",
+      "name": "Brightwater City skyline",
+      "plate_prompt": "Modern American comic book splash panel, vertical 9:16, upright vertical composition, level horizon, bold black ink line art, flat colours with Ben-Day halftone dots, off-white newsprint texture: a sunny art-deco city skyline in the afternoon, a tall stepped tower with a spire in the centre, bridges, a river, golden yellow sky with a halftone sunburst. No people, no signage, no letters, no logos, no text anywhere."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "on the issue #2 page turn he takes it from his desk fridge, cracks it and drinks; the panel floods with colour",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "he applies it in the office restroom mirror and his costume colours ink back in",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "the new gear he puts on in issue #2 (shoes, glasses, jacket, watch) restores the powers",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "the gadget he pulls from his desk drawer (earbuds, bottle, tool) charges his emblem",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "the bag or case he unzips under his desk glows like a utility belt",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "issue #2 opens in his apartment: the thing he sleeps on or comes home to is the origin of the new power",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "the pack or refill in his desk drawer he reaches for at 2:59",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.4",
+      "summary": "Cover splash: Captain 3pm holding a falling steel beam above the city at noon."
+    },
+    {
+      "id": "setup",
+      "t": "2.4-7.0",
+      "summary": "Three o'clock: he slumps at his desk, the colour drains, the Slump looms over the tower."
+    },
+    {
+      "id": "product",
+      "t": "7.0-14.4",
+      "summary": "Page flip to issue #2: the can from his desk fridge, the crack, colour floods back, the brand line."
+    },
+    {
+      "id": "build",
+      "t": "14.4-21.0",
+      "summary": "He flies out of the window and punches through the Slump in a full splash panel."
+    },
+    {
+      "id": "payoff",
+      "t": "21.0-24.6",
+      "summary": "Five past three, the city sunny again, he is back at his desk, finishing the afternoon."
+    },
+    {
+      "id": "cta",
+      "t": "24.6-30",
+      "summary": "Final panel: the can on his desk in a halftone sunburst, tagline and next-issue box."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.2",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "Hook: the hero's best self, stated as a brag the viewer suspects will not last.",
+      "line": "By noon, I'm unstoppable.",
+      "delivery": "big old-radio heroic narration, chest out",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "2.8-4.6",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "The problem everyone recognises, landed as a joke.",
+      "line": "By three? Not so much.",
+      "delivery": "deflated, face on the desk, comic timing",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "5.2-6.8",
+      "speaker": "slump",
+      "on_camera": true,
+      "line_intent": "The problem, personified as the villain, taunts the hero.",
+      "line": "Nap time, Captain.",
+      "delivery": "slow, syrupy, a yawn in the middle",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "7.6-8.8",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "The turn: the hero refuses the old ending as the new issue begins.",
+      "line": "Not this issue.",
+      "delivery": "quiet, determined, a grin starting",
+      "shot": "S04"
+    },
+    {
+      "id": "L5",
+      "t": "11.6-14.2",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and the benefit that defeats this villain, using an allowed claim only.",
+      "line": "Red Bull Sugarfree. Less tired, no sugar.",
+      "delivery": "heroic, restored, straight to the reader",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "B-group vitamins contribute to the reduction of tiredness and fatigue; without sugar",
+      "shot": "S06"
+    },
+    {
+      "id": "L6",
+      "t": "18.6-20.2",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "The hit line: the problem is beaten.",
+      "line": "Afternoon's cancelled.",
+      "delivery": "shouted mid-punch, joyful",
+      "shot": "S08"
+    },
+    {
+      "id": "L7",
+      "t": "22.0-24.0",
+      "speaker": "gord",
+      "on_camera": true,
+      "line_intent": "Payoff: the win lands back in real life, with a wink.",
+      "line": "Three oh five. Back to work.",
+      "delivery": "casual, pleased, loosening his tie",
+      "shot": "S09"
+    },
+    {
+      "id": "L8",
+      "t": "26.8-28.8",
+      "speaker": "gord",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm heroic voiceover, like the end of a radio serial",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.4,
+      "beat": "hook",
+      "framing": "cover splash panel, low angle",
+      "camera": "push-in across the cover, 2.5D parallax",
+      "action": "Captain 3pm hovers above the city at noon holding a falling steel beam over his head, cape snapping, a golden halftone sunburst behind; the top of the page is clean for the title.",
+      "product_state": "absent",
+      "audio": "wind, cape flap, distant crowd cheer, dialogue",
+      "caption": "By noon, I'm unstoppable.",
+      "refs": [
+        "gord",
+        "skyline"
+      ],
+      "keyframe_prompt": "Comic book cover splash panel, low angle: Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge), flying high above the sunny art-deco city from the skyline reference, holding a long steel girder over his head with both arms, cape snapping, heroic grin, a golden yellow halftone sunburst radiating behind him. The top quarter of the panel is a clean flat golden sky with nothing in it, left empty for a title. Upright vertical composition, level horizon. No letters, no numbers, no text."
+    },
+    {
+      "id": "S02",
+      "t0": 2.4,
+      "t1": 4.8,
+      "beat": "setup",
+      "framing": "medium panel",
+      "camera": "slide down through the gutter into the next panel",
+      "action": "Three o'clock: Gord face down on his office desk, cape limp over the chair, the panel's colour draining to grey, a plain wall clock behind with its hands at three.",
+      "product_state": "absent",
+      "audio": "office hum, a long sigh, clock tick, dialogue",
+      "caption": "By three? Not so much.",
+      "refs": [
+        "gord",
+        "office"
+      ],
+      "keyframe_prompt": "Comic panel, medium shot in the office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), slumped face down on his desk with one cheek squashed on the keyboard, arms dangling, his sky-blue cape hanging limp over the office chair, the colours of the panel washed out to grey and olive with only faint blue left in the cape, a plain round wall clock behind him with its hands pointing at three and simple tick marks and no numerals, monitor showing abstract grey bars. Clean flat grey wall area in the upper left, empty. No letters, no numbers, no text."
+    },
+    {
+      "id": "S03",
+      "t0": 4.8,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "wide panel",
+      "camera": "slow pan up the tower to the villain",
+      "action": "The Slump, a colossal grey fog creature, oozes over the top of the office tower, yawning, drooping arms dripping onto the streets; the city goes grey beneath it.",
+      "product_state": "absent",
+      "audio": "a deep rumbling yawn, wind dropping, dialogue",
+      "caption": "Nap time, Captain.",
+      "refs": [
+        "slump",
+        "skyline"
+      ],
+      "keyframe_prompt": "Wide comic panel: The Slump, the fog villain from the character sheet (huge grey and olive fog blob, heavy-lidded sleepy yellow eyes, wide yawning mouth, drooping arms dripping like wet clay, limp grey necktie), oozing over the top of the tall stepped tower from the skyline reference, its drips sliding down the building onto the streets, the whole city drained to desaturated grey and olive, heavy spot blacks. Clean flat grey sky area in the upper right, empty. Upright vertical composition, level horizon. No letters, no text."
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 9.0,
+      "beat": "product",
+      "framing": "close panel",
+      "camera": "page flip, then push-in",
+      "action": "A paper page flip to issue #2; in the first panel Gord's hand opens the small desk fridge and a sky-blue glow spills out around the can inside.",
+      "product_state": "about to enter, closed, upright inside the desk fridge",
+      "audio": "paper page flip, fridge door, dialogue",
+      "caption": "Not this issue.",
+      "refs": [
+        "gord",
+        "office",
+        "product"
+      ],
+      "keyframe_prompt": "Comic panel, close shot under an office desk: a man's hand in a white short-sleeve shirt opening the door of a small desk fridge, a sky-blue glow and ink light rays spilling out, inside on the single shelf stands one exact can from the product reference, upright and closed, label facing the viewer, inked in comic style with its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. The masked hero's determined face from the character sheet leaning into the top of the frame. Clean flat dark area in the lower left, empty. No other letters, no text."
+    },
+    {
+      "id": "S05",
+      "t0": 9.0,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "hero insert panel",
+      "camera": "locked, slow push",
+      "action": "The can held up heroically in his fist against a sky-blue and yellow halftone sunburst, the ring pull cracking open, condensation drawn as white highlights.",
+      "product_state": "opening, ring pull lifting, upright, label facing camera",
+      "audio": "can crack and fizz (registers the moment), brass stab",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Comic hero insert panel: a man's fist holding the exact can from the product reference upright and raised like a trophy, his thumb cracking the ring pull open with a small spray of fizz, label facing the viewer and undistorted, inked in comic style with light halftone on the can and its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls facing each other in front of a gold sun, SUGARFREE in spaced red capitals. Behind it a radiating sky-blue and golden yellow halftone sunburst. The can is the brightest object in the panel. Clean flat sunburst area at the top right, empty. No other letters, no sound effect words, no text."
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 14.4,
+      "beat": "product",
+      "framing": "medium close-up panel",
+      "camera": "push-in, colour floods back across the panel",
+      "action": "Gord stands tall beside his desk, cape lifting, the badge glowing, colour flooding back into the office, the open can at chest height; he says the line straight to the reader.",
+      "product_state": "open, in hand at chest height, label readable",
+      "audio": "rising brass, cape whip, dialogue",
+      "caption": "Red Bull Sugarfree. Less tired, no sugar.",
+      "refs": [
+        "gord",
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Comic panel, medium close-up from the chest up: Gord, the masked hero from the character sheet (sandy thinning hair, sky-blue domino mask, white short-sleeve shirt, navy tie, sky-blue cape, plain silver lightning-bolt badge now glowing), standing tall in the office, cape lifting in a sudden wind, colour flooding back into the panel in bright blue, gold and white. He holds the exact can from the product reference up beside his face in the foreground, large in the panel (about a third of the frame height), open, upright, label facing the viewer and undistorted, inked in comic style with light halftone and its label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls in front of a gold sun, SUGARFREE in spaced red capitals. He looks straight at the reader with a heroic grin. Clean flat window-sky area in the upper right, empty. No clock, no letters, no numbers, no text."
+    },
+    {
+      "id": "S07",
+      "t0": 14.4,
+      "t1": 17.2,
+      "beat": "build",
+      "framing": "diagonal action panel",
+      "camera": "whip through the panel with parallax",
+      "action": "Captain 3pm bursts out through the open office window, fist first, cape streaming, ink speed lines, papers flying behind him.",
+      "product_state": "absent",
+      "audio": "whoosh, papers, wind",
+      "caption": "",
+      "refs": [
+        "gord",
+        "office"
+      ],
+      "keyframe_prompt": "Dynamic diagonal comic action panel with strong foreshortening: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape), flying fist first out through an open floor-to-ceiling office window toward the viewer, cape streaming behind, blank papers flying, bold ink speed lines, the sunny city skyline below. Clean flat sky area in the upper left, empty. No letters, no text."
+    },
+    {
+      "id": "S08",
+      "t0": 17.2,
+      "t1": 21.0,
+      "beat": "build",
+      "framing": "full splash panel",
+      "camera": "slow push into the impact, shake on the hit",
+      "action": "The punch: Captain 3pm drives his fist through the centre of the Slump, which bursts apart into grey fog chunks; golden light blasts through the hole and the city below turns bright again.",
+      "product_state": "absent",
+      "audio": "huge punch impact, fog bursting, dialogue",
+      "caption": "Afternoon's cancelled.",
+      "refs": [
+        "gord",
+        "slump",
+        "skyline"
+      ],
+      "keyframe_prompt": "Full comic splash panel: Gord, the masked hero from the character sheet (sky-blue domino mask, white shirt, navy tie, sky-blue cape, glowing silver badge), punching straight through the centre of The Slump, the fog villain from the character sheet, whose grey and olive body bursts apart into chunky fog fragments, its sleepy eyes wide in shock, golden yellow light blasting through the hole in a red and yellow ink burst shape, the art-deco city below turning bright and colourful again. Clean flat burst area in the lower right, empty. Upright vertical composition, level horizon. No letters, no sound effect words, no text."
+    },
+    {
+      "id": "S09",
+      "t0": 21.0,
+      "t1": 24.6,
+      "beat": "payoff",
+      "framing": "medium panel",
+      "camera": "slide through the gutter, gentle push",
+      "action": "Five past three: Gord back at his desk in the bright office, cape tucked over the chair, loosening his tie with a satisfied grin, the open can beside his keyboard, sunlight through the window; the time comes from the caption box in post.",
+      "product_state": "open, standing on the desk beside the keyboard, label to camera",
+      "audio": "office hum, birds outside, dialogue",
+      "caption": "Three oh five. Back to work.",
+      "refs": [
+        "gord",
+        "office",
+        "product"
+      ],
+      "keyframe_prompt": "Comic panel, medium shot in the bright sunny office from the location reference: Gord, the masked hero from the character sheet (sky-blue domino mask, white short-sleeve shirt, navy tie), sitting back at his desk loosening his tie with a satisfied grin, his sky-blue cape tucked over the back of his chair, the monitor showing abstract colourful bars, no clock anywhere in the panel, one exact can from the product reference standing open and upright beside his keyboard in the foreground, clearly visible with its label facing the viewer, inked in comic style. Warm sunlight through the window. Clean flat wall area in the upper left, empty. No letters, no numbers, no text."
+    },
+    {
+      "id": "S10",
+      "t0": 24.6,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "final panel, pack shot",
+      "camera": "slow push, halftone sunburst rotating slowly",
+      "action": "Final panel of the issue: the can stands on the desk in front of a sky-blue and gold halftone sunburst, the cape draped at the edge of frame; clean space for the tagline and the next-issue box.",
+      "product_state": "hero, open, upright on the desk, label to camera",
+      "audio": "march resolves, page settles",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Final comic panel, pack shot: the exact can from the product reference standing upright on an office desk, label facing the viewer and undistorted, inked in comic style with light halftone and bold white highlights, label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Behind it a radiating sky-blue and golden yellow halftone sunburst, the corner of a sky-blue cape draped at the edge of the frame. The top third of the panel is a clean flat sunburst area left empty for a title, and a clean flat strip along the bottom is empty. The can is the brightest object in the panel. No other letters, no text."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 7,
+      "exact_risk": false,
+      "refs": [
+        "gord card",
+        "slump card",
+        "skyline plate",
+        "office plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic, printed comic art with bold inks, Ben-Day halftone and newsprint texture, panel borders visible, limited puppet-like character motion while the camera moves through the page. Shot 1 (0 to 2.4 s): push-in across a cover splash, @Image1 (Captain 3pm) holds a steel girder above a sunny city, cape snapping, and says in a big heroic voice: \"By noon, I'm unstoppable.\" Shot 2 (2.4 to 4.8 s): the camera slides down through the white gutter into the next panel, he is face down on his office desk, colour drained to grey, and says, deflated: \"By three? Not so much.\" Shot 3 (4.8 to 7 s): pan up the tower to @Image2 (The Slump), a colossal grey fog creature oozing over the top, who yawns slowly: \"Nap time, Captain.\" Keep clean empty areas for lettering added later. Native sound: wind, cape flap, office hum, a long sigh, a deep rumbling yawn. No music. No letters or text anywhere."
+    },
+    {
+      "id": "U2",
+      "t0": 7.0,
+      "t1": 14.4,
+      "shots": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "gord card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic, bold inks and halftone. Shot 1 (0 to 2 s): a paper page flips to reveal a new page; in its first panel a hand opens a small desk fridge, sky-blue light spills around the exact can from @Image1 inside, and @Image2 (Captain 3pm) says quietly: \"Not this issue.\" Shot 2 (2 to 4.4 s): locked hero panel, his fist raises the can against a sky-blue and yellow halftone sunburst and cracks the ring pull. Shot 3 (4.4 to 8 s): push-in as colour floods back into the office, cape lifting, badge glowing, he holds the open can at chest height with the label readable and says to the reader: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Less tired, no sugar.\" The can is inked in comic style but keeps the shape, colours, red wordmark, two red bulls, gold sun and SUGARFREE exactly as @Image1. Native sound: paper page flip, fridge door, the can crack and fizz, cape whip. No music. No letters or text."
+    },
+    {
+      "id": "U3",
+      "t0": 14.4,
+      "t1": 24.6,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "gord card",
+        "slump card",
+        "skyline plate",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic action, bold inks, halftone, speed lines, 2.5D parallax. Shot 1 (0 to 2.8 s): @Image1 (Captain 3pm) bursts out of the office window fist first, cape streaming, papers flying. Shot 2 (2.8 to 6.6 s): full splash panel, he punches through the centre of @Image2 (The Slump), which bursts into chunks of grey fog as golden light blasts through and the city turns bright; he shouts with joy mid-punch: \"Afternoon's cancelled.\" Shot 3 (6.6 to 11 s): the camera slides through the gutter to a calm panel, he is back at his desk in the sunny office, cape over the chair, loosening his tie, an open silver and blue can beside the keyboard, and says casually: \"Three oh five. Back to work.\" Keep clean empty areas for lettering. Native sound: whoosh, a huge punch impact, fog bursting, office hum, birds. No music. No letters or text."
+    },
+    {
+      "id": "U4",
+      "t0": 24.6,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 motion comic final panel. Slow push toward the exact can from @Image1 standing open and upright on an office desk, label to camera, inked in comic style with bold white highlights, a sky-blue and golden halftone sunburst rotating slowly behind it, the corner of a sky-blue cape at the edge of frame. The can does not move or change shape. Keep the top third and a bottom strip as clean empty areas. Native sound: soft office ambience, a page settling. No music, no letters or text."
+    }
+  ],
+  "music": [
+    {
+      "section": "cover",
+      "t0": 0,
+      "t1": 2.4,
+      "brief": "Brassy retro superhero march fanfare, bright trumpets and snare, B flat major, 120 bpm."
+    },
+    {
+      "section": "slump",
+      "t0": 2.4,
+      "t1": 7.0,
+      "brief": "The same fanfare slows down like a record losing power, a droopy trombone slide, tuba and a lazy clock tick."
+    },
+    {
+      "section": "issue two",
+      "t0": 7.0,
+      "t1": 24.6,
+      "brief": "Snare roll on the page flip, a brass stab exactly on the can crack, then the full march at double energy with timpani under the punch and a playful pizzicato tag for back to work."
+    },
+    {
+      "section": "final panel",
+      "t0": 24.6,
+      "t1": 30,
+      "brief": "The fanfare theme resolves on a big held major chord with a cymbal swell, like a serial's closing sting."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 7.0,
+      "sound": "paper page flip",
+      "why": "the issue change is the story hinge and must read as a page turning"
+    },
+    {
+      "t": 9.8,
+      "sound": "can crack and fizz",
+      "why": "the product moment must register; paired with the KSSHHK lettering"
+    },
+    {
+      "t": 18.2,
+      "sound": "big punch impact",
+      "why": "sells the KA-POW splash"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "gord",
+      "plan": "native voice from U1, then his U1 vocal stem as voice reference for U2, U3 and the tagline voiceover"
+    },
+    {
+      "speaker": "slump",
+      "plan": "native in U1, pitched down 2 semitones with a slight slow-down in post if the native read is not heavy enough"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 2.4,
+      "text": "CAPTAIN 3PM",
+      "sub": "#1",
+      "style": "comic cover masthead in the clean top area: heavy display face, sky-blue fill, black outline, silver 3D extrude; issue number in a small yellow corner box"
+    },
+    {
+      "t0": 0.3,
+      "t1": 6.8,
+      "text": "Speech balloons for L1, L2 and L3",
+      "sub": "",
+      "style": "round white balloons for Gord with tails to his mouth, a wobbly drippy grey balloon for the Slump, placed in each panel's clean area"
+    },
+    {
+      "t0": 2.4,
+      "t1": 4.8,
+      "text": "3:00 PM.",
+      "sub": "",
+      "style": "yellow rectangular narration caption box at the panel top"
+    },
+    {
+      "t0": 7.0,
+      "t1": 9.0,
+      "text": "ISSUE #2",
+      "sub": "",
+      "style": "masthead-style tag on the new page as it flips, yellow box, black lettering"
+    },
+    {
+      "t0": 9.6,
+      "t1": 11.0,
+      "text": "KSSHHK!",
+      "sub": "",
+      "style": "SFX: heavy display face, yellow to red fill, black outline, 3D drop, 3 frame scale pop, bursting from the can top"
+    },
+    {
+      "t0": 14.6,
+      "t1": 16.6,
+      "text": "WHOOSH!",
+      "sub": "",
+      "style": "SFX along the speed lines, sky-blue fill, black outline"
+    },
+    {
+      "t0": 17.6,
+      "t1": 20.4,
+      "text": "KA-POW!",
+      "sub": "",
+      "style": "SFX in the clean burst area, red and yellow, largest lettering in the film, with a 2 frame shake"
+    },
+    {
+      "t0": 11.6,
+      "t1": 24.2,
+      "text": "Speech balloons for L4 to L7",
+      "sub": "",
+      "style": "round white balloons, a jagged burst balloon for L6"
+    },
+    {
+      "t0": 21.0,
+      "t1": 24.6,
+      "text": "3:05 PM.",
+      "sub": "",
+      "style": "yellow narration caption box at the panel top"
+    },
+    {
+      "t0": 26.4,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "comic masthead face, white with a black outline, centred in the clean sunburst area above the can"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "NEXT ISSUE: every afternoon at 3.",
+      "sub": "",
+      "style": "yellow next-issue box in the clean bottom strip, black comic lettering"
+    }
+  ],
+  "claims_used": [
+    "B-group vitamins contribute to the reduction of tiredness and fatigue",
+    "Same benefits of the original Energy Drink, without sugar (tagline form)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

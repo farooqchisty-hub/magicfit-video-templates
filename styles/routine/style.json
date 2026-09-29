@@ -43,7 +43,10 @@
     "the product step reads as an ad break if it is suddenly cinematic: keep the same tripod height, light and grade as the steps around it",
     "bedside hooks come back with a digital clock showing readable model-drawn digits and a visible tripod: say no clock, no numbered screens, and that we are seeing through the tripod camera; the time goes on in post",
     "POV prompts that ask for motion blur come back as a sharp inset between blurred side panels (twice in a row): ask for a uniformly sharp full-bleed frame with no motion blur, and add the motion in the video unit instead",
-    "mountain-town windows default to a city skyline: name what the window shows (pines, ridge, no city)"
+    "mountain-town windows default to a city skyline: name what the window shows (pines, ridge, no city)",
+    "multi-view prop sheets that name the views in brackets come back with the view names printed as captions: describe the views without naming them as labels and say no captions on the sheet",
+    "once a prop reference of the shoes is attached, the shoe comes back empty on the floor while he ties it: say his foot is inside the shoe",
+    "naming the tripod in a keyframe prompt draws it into frame even with 'no tripod visible': describe the camera position (nightstand height) and never use the word"
   ],
   "negatives": [
     "no real brands, logos or signage except the product",
@@ -51,7 +54,8 @@
     "no logos on shoes, clothing, headlamp or bottles",
     "no extra fingers",
     "no more than one can in the scene",
-    "no cinematic haze, film grain or anamorphic flares"
+    "no cinematic haze, film grain or anamorphic flares",
+    "no caption labels on reference sheets"
   ],
   "prompt_prefix": "Creator routine video frame, vertical 9:16, shot by the creator on a tripod-mounted phone, 24mm, clean crisp creator-video grade, real small space, motivated warm practical light, sharp action, no film grain."
 }

@@ -45,7 +45,11 @@
     "asking for 'a clean empty band for captions' renders a literal white bar across the frame: never ask for caption space in problem shots, captions sit on chips anyway",
     "a greyscale instruction placed late in a long prompt gets ignored and the frame comes back in colour: open the prompt with 'Black and white greyscale photograph, fully desaturated' and list the coloured items as grey",
     "'medium close-up at her desk' comes back as a wide room shot with the monitor blocking her: say 'fills the frame from the top of her head to mid-chest, nothing between camera and her'",
-    "'just lowered from a sip' still renders the can at her lips, covering the mouth on a dialogue frame: say the can is lowered away from her face and her mouth is visible mid-word"
+    "'just lowered from a sip' still renders the can at her lips, covering the mouth on a dialogue frame: say the can is lowered away from her face and her mouth is visible mid-word",
+    "a design studio full of desks defaults to all-in-one computers with a fruit logo on the back: specify plain black-framed monitors on simple stands with plain matte black backs",
+    "dressing items named with their real colours (red pushpins, a coloured swatch deck, a green cutting mat) leak colour into the grey problem shots, and a coloured can in frame pulls the scarf back to red: in grey shots name every prop as grey and say her scarf is grey",
+    "adding a prop reference to an over-the-shoulder insert widens it into a room shot: say tight, close to her shoulder, hand and tablet filling the lower half",
+    "'a tally' on the fridge gets the word printed as a heading: describe only rows of tiny drawn faces, no words"
   ],
   "negatives": [
     "no real brands, logos or sponsor names except the product",
@@ -54,7 +58,8 @@
     "no health, weight, calorie or medical imagery (no scales, no pills, no doctors)",
     "no crash-and-cure exaggeration such as collapsing or fainting",
     "no extra fingers",
-    "no more than one can per person"
+    "no more than one can per person",
+    "no fruit logo or any maker's logo on computers, monitors or tablets"
   ],
   "prompt_prefix": "Photoreal commercial film still for a problem-and-solution ad, vertical 9:16 frame, clean digital cinema look, deliberate colour grading that separates a grey problem world from a full-colour solution world."
 }

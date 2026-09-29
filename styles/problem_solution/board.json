@@ -37,7 +37,7 @@
     {
       "id": "studio",
       "name": "Fieldnote Studio loft",
-      "plate_prompt": "Photoreal film still, vertical 9:16, upright vertical composition, level horizon: an empty small design studio in a converted brick loft on a weekday afternoon, long shared wooden desks with large monitors showing only abstract colour blocks, big steel-framed windows, potted plants, paper mockups pinned to a cork wall as blank colour swatches, a plain round wall clock with hands and tick marks but no numbers, a small stainless office fridge in the corner. No people, no readable text, no real brands, no logos."
+      "plate_prompt": "Photoreal film still, vertical 9:16, upright vertical composition, level horizon: an empty small working design studio, well used and full of nine people's things, in a converted brick loft on a weekday afternoon, long shared wooden desks with large plain black-framed monitors on simple black stands, their backs plain matte black with no logos, showing only abstract colour blocks, big steel-framed windows, potted plants, paper mockups pinned to a cork wall as blank colour swatches, a plain round wall clock with hands and tick marks but no numbers, a small stainless office fridge in the corner. Detail is densest on the walls, shelves and back desks; the front desk stays readable. No people, no readable text, no real brands, no logos."
     }
   ],
   "adaptation": {
@@ -68,6 +68,10 @@
     "consumable": {
       "moment": "she tears open the refill or pack from the studio kitchen and colour spreads from the pack",
       "scale": "hand"
+    },
+    "product_adjacent_props": {
+      "moment": "the fridge shelf around the product and the spot on her desk where it lands are generic; the swatch deck, clock, bell and pothos belong to the studio and stay",
+      "scale": "swap per product"
     }
   },
   "beats": [
@@ -193,7 +197,13 @@
         "carmen",
         "studio"
       ],
-      "keyframe_prompt": "Black and white greyscale photograph, fully desaturated, no colour anywhere. Tight medium close-up portrait from a camera at eye level just across the desk, nothing between the camera and her: Carmen, the woman from the character sheet, fills the frame from the top of her head to mid-chest, slumped with her chin resting on her fist, heavy eyelids, talking to camera with a deadpan expression. Directly behind her head on the brick wall, a plain round clock with no numbers, its hands pointing to three o'clock. Flat overcast fluorescent light, lifted blacks, no highlights in her eyes. Her scarf, sweater, skin and the bricks are all shades of grey. No monitor in the foreground."
+      "keyframe_prompt": "Black and white greyscale photograph, fully desaturated, no colour anywhere. Tight medium close-up portrait from a camera at eye level just across the desk, nothing between the camera and her: Carmen, the woman from the character sheet, fills the frame from the top of her head to mid-chest, slumped with her chin resting on her fist, heavy eyelids, talking to camera with a deadpan expression. Directly behind her head on the brick wall, a plain round clock with no numbers, its hands pointing to three o'clock. Flat overcast fluorescent light, lifted blacks, no highlights in her eyes. Her scarf, sweater, skin and the bricks are all shades of grey. No monitor in the foreground.",
+      "dressing": [
+        "the white mug of cold coffee with a skin on top at her elbow",
+        "a tower of blank pastel sticky notes on the edge of the desk",
+        "the frayed corner of her scarf",
+        "faded patches of old white paint on the brick behind the clock"
+      ]
     },
     {
       "id": "S02",
@@ -208,9 +218,17 @@
       "caption": "Every click takes a year.",
       "refs": [
         "carmen",
-        "studio"
+        "studio",
+        "swatch_deck"
       ],
-      "keyframe_prompt": "Over-the-shoulder insert at the desk of Carmen, the woman from the character sheet, her oatmeal knit sleeve and hand dragging a stylus across a plain black drawing tablet in slow motion, motion-blurred. On the large monitor, only abstract grey rectangles and blank placeholder bars, no readable text, no interface words. Beside the keyboard, a plain white mug of cold coffee with a skin on the surface, a drooping plant. The whole image is desaturated greyscale, flat fluorescent light, heavy and airless."
+      "keyframe_prompt": "Tight over-the-shoulder insert, close to her right shoulder, her hand, stylus and tablet filling the lower half of the frame and the monitor the upper half, at the desk of Carmen, the woman from the character sheet, her oatmeal knit sleeve and hand dragging a stylus across a plain black drawing tablet in slow motion, motion-blurred. On the large monitor, only abstract grey rectangles and blank placeholder bars, no readable text, no interface words. Beside the keyboard, a plain white mug of cold coffee with a skin on the surface, a drooping plant. The whole image is desaturated greyscale, flat fluorescent light, heavy and airless. Every object in the frame, including the swatch deck, cutting mat, pushpins, plants and her scarf, is rendered in shades of grey: zero colour anywhere.",
+      "dressing": [
+        "the chewed stylus and the graphite smudge on the side of her hand",
+        "the cold coffee mug with a brown drip down its side",
+        "the glass jar of worn markers and stubby pencils",
+        "the pothos leaves drooping over the monitor",
+        "the fanned swatch deck lying by the keyboard"
+      ]
     },
     {
       "id": "S03",
@@ -228,7 +246,13 @@
         "carmen",
         "studio"
       ],
-      "keyframe_prompt": "Medium wide shot in the design studio from the location plate, upright vertical composition, level horizon. Walt, the man from the character sheet, leans over a low desk divider toward Carmen, the woman from her character sheet, who sits slumped in the foreground. A single sheet of blank paper is frozen in mid-air falling from the desk. In the background a coworker in a grey hoodie is caught mid-yawn, arms stretched. Everything is suspended as if in slow motion. The entire image is desaturated black and white greyscale, flat overcast light."
+      "keyframe_prompt": "Medium wide shot in the design studio from the location plate, upright vertical composition, level horizon. Walt, the man from the character sheet, leans over a low desk divider toward Carmen, the woman from her character sheet, who sits slumped in the foreground. A single sheet of blank paper is frozen in mid-air falling from the desk. In the background a coworker in a grey hoodie is caught mid-yawn, arms stretched. Everything is suspended as if in slow motion. The entire image is desaturated black and white greyscale, flat overcast light. Every object in the frame, including the swatch deck, cutting mat, pushpins, plants and her scarf, is rendered in shades of grey: zero colour anywhere.",
+      "dressing": [
+        "a cork wall of curling paper mockups with pushpins",
+        "Walt's paper cup of espresso in his hand",
+        "the steel rolling cart of paper stock samples",
+        "the road bike hanging on the wall"
+      ]
     },
     {
       "id": "S04",
@@ -245,7 +269,13 @@
         "carmen",
         "product"
       ],
-      "keyframe_prompt": "View from inside a small office fridge looking out as Carmen, the woman from the character sheet, opens the door, her tired face lit by the fridge light. On the middle shelf, standing upright with its label facing camera, is the exact can from the product reference in its full true colours: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls and a gold sun, SUGARFREE in red. Everything else, the woman, the fridge, plain unlabelled grey food boxes on the other shelves, is black and white greyscale. The can is the only coloured object in the entire frame."
+      "keyframe_prompt": "View from inside a small office fridge looking out as Carmen, the woman from the character sheet, opens the door, her tired face lit by the fridge light. On the middle shelf, standing upright with its label facing camera, is the exact can from the product reference in its full true colours: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls and a gold sun, SUGARFREE in red. Everything else, the woman, her face and skin, her scarf (grey, not red), her sweater, the fridge, plain unlabelled grey food boxes on the other shelves, is black and white greyscale. The can is the only coloured object in the entire frame. Only the can has colour; if anything else has colour, the shot fails.",
+      "dressing": [
+        "the edge of the fridge door marked with rows of tiny drawn sleeping faces only, no words or letters",
+        "plain unlabelled grey takeout boxes and a lidded glass container",
+        "a half-used plain jar on the door shelf",
+        "the hair elastic on her wrist on the door handle"
+      ]
     },
     {
       "id": "S05",
@@ -262,7 +292,12 @@
         "product",
         "carmen"
       ],
-      "keyframe_prompt": "Macro insert: a woman's hand in an oatmeal knit sleeve holding the exact can from the product reference upright, label facing camera and undistorted, thumb just cracking the tab with a tiny burst of fine mist. The can is in full true colours, sky blue and brushed silver, red wordmark, gold sun. A soft gradient wave of colour is spreading outward from the can: her fingers and wrist near the can are warm natural skin tone, and further up her sleeve and the desk behind still fade into black and white greyscale. The can is the brightest object in frame."
+      "keyframe_prompt": "Macro insert: a woman's hand in an oatmeal knit sleeve holding the exact can from the product reference upright, label facing camera and undistorted, thumb just cracking the tab with a tiny burst of fine mist. The can is in full true colours, sky blue and brushed silver, red wordmark, gold sun. A soft gradient wave of colour is spreading outward from the can: her fingers and wrist near the can are warm natural skin tone, and further up her sleeve and the desk behind still fade into black and white greyscale. The can is the brightest object in frame.",
+      "dressing": [
+        "the hair elastic on her wrist",
+        "the green cutting mat with grid lines under the can",
+        "the fanned swatch deck on the desk behind"
+      ]
     },
     {
       "id": "S06",
@@ -280,7 +315,13 @@
         "product",
         "studio"
       ],
-      "keyframe_prompt": "Close-up, head and chest filling the frame: Carmen, the woman from the character sheet, sitting upright at her desk in the design studio, in full rich colour: warm golden window light from the side, catchlights in her bright eyes, her red scarf vivid, looking straight into the camera with a quick grin, mouth open mid-word. She holds the exact can from the product reference in her fingertips at chest height, large in the frame, label facing camera fully visible and undistorted, fingers only at the top and bottom edges of the can, not covering the wordmark or the bulls. Behind her, softly out of focus, the brick wall, plants and sky-blue and silver paper mockups on the cork board. Saturated, crisp, true blacks."
+      "keyframe_prompt": "Close-up, head and chest filling the frame: Carmen, the woman from the character sheet, sitting upright at her desk in the design studio, in full rich colour: warm golden window light from the side, catchlights in her bright eyes, her red scarf vivid, looking straight into the camera with a quick grin, mouth open mid-word. She holds the exact can from the product reference in her fingertips at chest height, large in the frame, label facing camera fully visible and undistorted, fingers only at the top and bottom edges of the can, not covering the wordmark or the bulls. Behind her, softly out of focus, the brick wall, plants and sky-blue and silver paper mockups on the cork board. Saturated, crisp, true blacks.",
+      "dressing": [
+        "the red scarf with a frayed corner",
+        "the tortoiseshell clip in her hair",
+        "the long pothos spilling behind her",
+        "the cork wall of sky-blue and silver mockups with red pushpins"
+      ]
     },
     {
       "id": "S07",
@@ -298,7 +339,13 @@
         "studio",
         "product"
       ],
-      "keyframe_prompt": "Low-angle wide shot, upright vertical composition, level horizon: Carmen, the woman from the character sheet, leans into her large monitor in the sunlit design studio, stylus moving fast with slight motion blur, energetic upright posture. The monitor shows bright abstract sky-blue, silver and red colour blocks snapping into a clean layout, no readable text. The exact can from the product reference stands upright on the desk beside her drawing tablet, label facing camera. Full saturated colour, warm directional window light, dynamic diagonal frame."
+      "keyframe_prompt": "Low-angle wide shot, upright vertical composition, level horizon: Carmen, the woman from the character sheet, leans into her large monitor in the sunlit design studio, stylus moving fast with slight motion blur, energetic upright posture. The monitor shows bright abstract sky-blue, silver and red colour blocks snapping into a clean layout, no readable text. The exact can from the product reference stands upright on the desk beside her drawing tablet, label facing camera. Full saturated colour, warm directional window light, dynamic diagonal frame.",
+      "dressing": [
+        "the tower of pastel sticky notes along the monitor edge",
+        "the glass jar of markers and pencils",
+        "the swatch deck fanned open on the desk",
+        "the steel-framed windows with one taped cracked pane"
+      ]
     },
     {
       "id": "S08",
@@ -316,7 +363,13 @@
         "walt",
         "studio"
       ],
-      "keyframe_prompt": "Medium two-shot in the sunlit design studio: Carmen, the woman from her character sheet, sits upright and confident facing a large wall screen showing a finished abstract layout of sky-blue, silver and red colour blocks and a grid of small blank video-call tiles with soft silhouettes, no readable text. Walt, the man from his character sheet, stands behind her chair with arms folded, giving the smallest approving nod over his tortoiseshell glasses. Warm golden window light, full saturated colour."
+      "keyframe_prompt": "Medium two-shot in the sunlit design studio: Carmen, the woman from her character sheet, sits upright and confident facing a large wall screen showing a finished abstract layout of sky-blue, silver and red colour blocks and a grid of small blank video-call tiles with soft silhouettes, no readable text. Walt, the man from his character sheet, stands behind her chair with arms folded, giving the smallest approving nod over his tortoiseshell glasses. Warm golden window light, full saturated colour.",
+      "dressing": [
+        "a small brass counter bell on the high shelf behind them",
+        "Walt's glasses on their black cord",
+        "the ink stain on his jacket pocket and the mechanical pencil",
+        "Walt's scarred oak drafting table with its green gooseneck lamp"
+      ]
     },
     {
       "id": "S09",
@@ -334,7 +387,12 @@
         "studio",
         "product"
       ],
-      "keyframe_prompt": "A vertical 9:16 frame divided horizontally into two equal halves by a thin clean white line. Top half: Carmen, the woman from the character sheet, slumped at her desk with her chin on her fist, heavy-lidded, the whole top half in desaturated black and white greyscale with flat fluorescent light. Bottom half: the same woman, same oatmeal sweater and red scarf, same desk, same camera angle, sitting upright and smiling, in full warm saturated colour, holding the exact can from the product reference upright with its label facing camera. Both halves perfectly matched in framing. No text."
+      "keyframe_prompt": "A vertical 9:16 frame divided horizontally into two equal halves by a thin clean white line. Top half: Carmen, the woman from the character sheet, slumped at her desk with her chin on her fist, heavy-lidded, the whole top half in desaturated black and white greyscale with flat fluorescent light. Bottom half: the same woman, same oatmeal sweater and red scarf, same desk, same camera angle, sitting upright and smiling, in full warm saturated colour, holding the exact can from the product reference upright with its label facing camera. Both halves perfectly matched in framing. No text.",
+      "dressing": [
+        "the cold coffee mug in both halves",
+        "the pothos over the monitor, drooping in the top half and lifted in the bottom half",
+        "the cork wall of mockups behind her"
+      ]
     },
     {
       "id": "S10",
@@ -349,9 +407,16 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "studio"
+        "studio",
+        "clock"
       ],
-      "keyframe_prompt": "Premium pack shot: the exact can from the product reference standing upright on a light wooden desk in the sunlit design studio, label facing camera and undistorted, cold droplets on the can, warm golden window light rim-lighting it, the can is the brightest object in frame. Behind it, softly out of focus, a drawing tablet, sky-blue and silver paper mockups as blank colour swatches, a green plant, and a plain round wall clock with no numbers. Full saturated colour. Clean empty space above the can for a title. No text."
+      "keyframe_prompt": "Premium pack shot: the exact can from the product reference standing upright on a light wooden desk in the sunlit design studio, label facing camera and undistorted, cold droplets on the can, warm golden window light rim-lighting it, the can is the brightest object in frame. Behind it, softly out of focus, a drawing tablet, sky-blue and silver paper mockups as blank colour swatches, a green plant, and the plain round wall clock from the prop reference with no numbers. Full saturated colour. Clean empty space above the can for a title. No text.",
+      "dressing": [
+        "the fanned swatch deck beside the can",
+        "the green cutting mat with grid lines",
+        "the chewed stylus resting on the drawing tablet",
+        "the plain round clock with a hairline crack in its glass"
+      ]
     }
   ],
   "units": [
@@ -502,5 +567,100 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Fieldnote Studio is nine people on the fourth floor of a 1911 button factory in Pittsburgh. The freight elevator still has its brass scissor gate and still gets stuck between floors.",
+      "Walt Brennan founded the studio in 1998 on the same oak drafting table he works at now. He rings a small brass counter bell on the shelf every time a client signs off, and it has not rung since August.",
+      "Carmen Reyes has been there six years. At 3:10pm she presents the rebrand for Harbor and Pine, a family seafood grocer with 14 stores and the studio's biggest account.",
+      "The studio fridge carries a hand-drawn tally of lost afternoons in grey marker: little sleeping faces, 23 of them this quarter.",
+      "The trailing pothos on Carmen's monitor was rescued from the lobby bin in her first week and now reaches the floor."
+    ],
+    "locations": {
+      "studio": {
+        "foreground": [
+          "a fanned paper colour-swatch deck with blank chips in blues, reds and sands, held by a brass rivet",
+          "a green self-healing cutting mat with grid lines and a steel ruler, scored with years of cuts",
+          "a glass jar crammed with worn markers, stubby pencils and a chewed stylus",
+          "a white mug of cold coffee with a skin on top and a brown drip down its side",
+          "a tower of blank pastel sticky notes stuck along the edge of the monitor"
+        ],
+        "midground": [
+          "a cork wall pinned with rows of paper mockups as blank colour swatches and thumbnail blocks, red pushpins, a few pages curling",
+          "Walt's scarred oak drafting table with a green gooseneck lamp and a roll of tracing paper",
+          "a long trailing pothos spilling over Carmen's monitor and down to the floor",
+          "a steel rolling cart of paper stock samples in stacked colours",
+          "a road bike hanging on a wall hook by its front wheel",
+          "a small brass counter bell on a high shelf beside a row of plain-spined design books",
+          "a low shelf with a record player and a stack of plain-sleeved records"
+        ],
+        "background": [
+          "tall steel-framed factory windows, one cracked pane patched with clear tape",
+          "exposed brick with faded patches of old white paint and a few rusted iron hooks",
+          "exposed ductwork and black enamel pendant lamps",
+          "the plain round wall clock with hands and tick marks and no numbers",
+          "a small stainless office fridge with a hand-drawn tally of little sleeping faces in grey marker",
+          "the brass scissor gate of the old freight elevator at the far end"
+        ]
+      }
+    },
+    "personal_props": {
+      "carmen": [
+        "her mother's thin red silk scarf, frayed at one corner",
+        "a tortoiseshell hair clip holding her half-up hair",
+        "a stylus with small tooth marks near the end",
+        "a hair elastic worn on her left wrist",
+        "a small graphite smudge on the side of her right hand"
+      ],
+      "walt": [
+        "round tortoiseshell glasses on a thin black cord",
+        "a navy chore jacket with an old ink stain at the chest pocket",
+        "a steel mechanical pencil clipped in that pocket",
+        "a small paper cup of espresso he never finishes"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "clock",
+        "name": "The studio clock",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a plain round wall clock with a thin black steel rim, a slightly yellowed white face with only tick marks and no numbers or words, black hands pointing to three o'clock, a hairline crack across the glass at the lower left, a little dust on the rim. Photoreal studio light."
+      },
+      {
+        "id": "bell",
+        "name": "Walt's sign-off bell",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a small brass counter bell on a black round base, the brass dome worn bright at the push button and tarnished at the edges, a tiny dent on one side. No letters, logos or text anywhere. Photoreal studio light."
+      },
+      {
+        "id": "swatch_deck",
+        "name": "Carmen's swatch deck",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a fanned paper colour-swatch deck of long narrow cards held at one end by a brass rivet, chips in sky blues, silvers, reds, sands and greens, corners dog-eared and slightly grubby from years of handling, and the same deck closed. Chips are pure colour with no numbers, names, letters or text. Photoreal studio light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Fieldnote Studio",
+        "mark": "a single line-drawn leaf",
+        "colors": "black line on clear glass",
+        "appears_on": "the glass door to the studio",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Harbor and Pine",
+        "mark": "a small wave under a pine tree",
+        "colors": "sky blue, silver and red",
+        "appears_on": "the abstract colour-block layouts on her monitor and the call screen",
+        "text_in_post": "none; the client exists only as colour blocks"
+      }
+    ],
+    "wear_and_time": "A Tuesday in late October, 3:00pm to 3:12pm. Overcast in the grey world, then low gold sun breaking through the factory windows once colour returns. The coffee has gone cold with a skin on it, the pothos needs water, sticky notes have multiplied round her monitor, the cork wall is three rounds of revisions deep, the bell is dusty from two quiet months, and the fridge tally is one face away from a new row.",
+    "sound_world": [
+      "the wall clock ticking loud in the grey silence",
+      "radiator pipes knocking",
+      "the stylus scratching slowly, then fast",
+      "the fridge seal unsticking and the compressor hum",
+      "the ring tab cracking with a fine hiss",
+      "the freight elevator gate clanking somewhere below",
+      "one bright ding of the brass bell"
+    ]
   }
 }

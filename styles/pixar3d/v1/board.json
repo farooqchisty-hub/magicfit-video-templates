@@ -1,0 +1,499 @@
+{
+  "id": "pixar3d-01-night-owl",
+  "style": "pixar3d",
+  "title": "The Night Owl",
+  "logline": "The foggiest night of the year, and the lighthouse keeper is a tiny old owl who cannot keep her eyes open. A ferry is feeling its way toward the rocks. {product} keeps the light on.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "Point Hollow, a fictional rocky island lighthouse off a stylized New England coast, one foggy night until sunrise. Inside: a cosy round lamp room with a giant brass and glass lens, a knitted blanket on a stool, a small wooden ice crate. Outside: black rocks, rolling fog, and the little night ferry Marigold with warm cabin windows.",
+    "palette": "Colour script built from the can: sky blue fog and silver moonlight for the problem, warm amber lamp light as the character accent, and the can's gold sun as the sunrise payoff.",
+    "fictional_brands": [
+      "Point Hollow Light (the lighthouse, white tower with a sky-blue band, no lettering)",
+      "Marigold (the night ferry, cream hull with a sky-blue stripe, the name is spoken only, never painted)"
+    ],
+    "rules": "Every hull, sign, crate and chart is blank. The can is the only real brand and the only photoreal object. The owl is an adult elder; no children in the story."
+  },
+  "cast": [
+    {
+      "id": "mabel",
+      "name": "Mabel",
+      "role": "lighthouse keeper, a tiny elderly barn owl",
+      "look": "small round barn owl about 30 cm tall, heart-shaped cream face, huge amber eyes, speckled honey-brown wings, tiny round wire spectacles on her beak, a hand-knitted sky-blue scarf, slightly scruffy head feathers",
+      "voice": "woman, 70s, warm and a little creaky, coastal Maine accent, sincere",
+      "card_prompt": "Character turnaround sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile full-body views of the same character. Mabel: a small round elderly barn owl, heart-shaped cream face, huge amber eyes with catchlights, speckled honey-brown wings, tiny round wire spectacles perched on her beak, a hand-knitted sky-blue scarf, slightly scruffy head feathers, warm kind expression. Stylized 3D animated feature film character, appealing proportions, not a realistic bird. Soft studio light, consistent identity across all three views. No text."
+    },
+    {
+      "id": "teo",
+      "name": "Captain Teo Reyes",
+      "role": "skipper of the night ferry Marigold",
+      "look": "stylized animated human man, 40s, Latino American, broad friendly face, thick black moustache, bushy eyebrows, yellow oilskin coat over a navy knit sweater, a battered navy captain's cap with no badge",
+      "voice": "man, 40s, warm baritone, Latino American, New England fisherman steadiness",
+      "card_prompt": "Character turnaround sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders views of the same man. Captain Teo Reyes: 40s, Latino American, broad friendly face, thick black moustache, bushy eyebrows, yellow oilskin coat over a navy knit sweater, battered navy captain's cap with no badge or letters. Stylized animated human in a 3D feature film style, appealing proportions, not photoreal. Soft studio light, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "lamp_room",
+      "name": "Point Hollow lamp room",
+      "plate_prompt": "Stylized 3D animated feature film still, vertical 9:16, the round lamp room at the top of a lighthouse at night: a giant faceted brass and glass lens in the centre glowing faintly amber, a brass hand crank with a wooden handle, curved windows full of blue fog, a small wooden stool with a knitted sky-blue blanket, a small wooden crate of ice on a low shelf, an old radio handset on a hook, cosy warm lamp light against cool blue night. No characters, no readable text, no logos."
+    },
+    {
+      "id": "lighthouse",
+      "name": "Point Hollow at sea",
+      "plate_prompt": "Stylized 3D animated feature film still, upright vertical 9:16 composition, level horizon: a white lighthouse with a sky-blue band on black rocks rising out of thick rolling blue fog at night, silver moonlight, a small cream night ferry with a sky-blue stripe and warm glowing cabin windows far off on the dark sea, plain hull with no name or numbers. No people, no readable text, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "she drinks it in the lamp room to stay awake for the ship",
+      "scale": "the can reaches up to her chin; held in both wings"
+    },
+    "applied": {
+      "moment": "she dabs it on in the lamp-room mirror to wake herself up (balm, face mist, eye cream)",
+      "scale": "wing tip"
+    },
+    "worn": {
+      "moment": "the one thing she puts on to face the night (glasses, headlamp, scarf, socks)",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "the gadget she grabs to find the ship (torch, earbuds, radio, tracker)",
+      "scale": "both wings"
+    },
+    "carried": {
+      "moment": "the bag she opens on the stool for the long night",
+      "scale": "bigger than her, a gag"
+    },
+    "home": {
+      "moment": "the thing in the lamp room that keeps her going (lamp, chair, kettle, blanket, speaker)",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "the refill she pulls from the ice crate every stormy night",
+      "scale": "both wings"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "Mabel's huge eyes droop shut as the lamp behind her flickers; she tells herself to stay awake."
+    },
+    {
+      "id": "setup",
+      "t": "3-8",
+      "summary": "Outside, the beam is dying in the fog while the ferry creeps toward the rocks; the captain radios in; Mabel jolts awake."
+    },
+    {
+      "id": "product",
+      "t": "8-14",
+      "summary": "She lifts the can out of the ice crate (up to her chin), cracks it, sips, and her eyes pop wide. The brand line."
+    },
+    {
+      "id": "build",
+      "t": "14-22",
+      "summary": "She throws her whole body on the crank, the lens roars to full blaze, the beam slices the fog and the ferry turns away from the rocks."
+    },
+    {
+      "id": "payoff",
+      "t": "22-27",
+      "summary": "The ferry passes safely below, passengers wave lanterns, Mabel waves back from the gallery."
+    },
+    {
+      "id": "cta",
+      "t": "27-30",
+      "summary": "Sunrise: the can on the gallery ledge, Mabel finally asleep in her blanket beside it. Tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.4-2.6",
+      "speaker": "mabel",
+      "on_camera": true,
+      "line_intent": "Hook: the hero admits the one thing she must not fail at tonight.",
+      "line": "Stay awake, Mabel. One more ship.",
+      "delivery": "mumbled, eyes closing, patting her own cheek with a wing",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "4.8-6.8",
+      "speaker": "teo",
+      "on_camera": true,
+      "line_intent": "Raise the stakes: someone depends on her right now.",
+      "line": "Point Hollow, we can't see a thing. You there?",
+      "delivery": "steady but worried, over a crackly radio",
+      "shot": "S03"
+    },
+    {
+      "id": "L3",
+      "t": "7.1-8.1",
+      "speaker": "mabel",
+      "on_camera": true,
+      "line_intent": "The jolt: she snaps back and commits.",
+      "line": "I'm here! I'm here!",
+      "delivery": "startled awake, feathers everywhere, grabbing the handset",
+      "shot": "S04"
+    },
+    {
+      "id": "L4",
+      "t": "11.2-13.6",
+      "speaker": "mabel",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and the one benefit this story needs, from an allowed claim only.",
+      "line": "Red Bull Sugarfree. Wide awake, no sugar.",
+      "delivery": "bright and delighted after the sip, a little wink",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Caffeine helps to increase alertness; without sugar",
+      "shot": "S06"
+    },
+    {
+      "id": "L5",
+      "t": "18.4-20.0",
+      "speaker": "teo",
+      "on_camera": false,
+      "line_intent": "The world responds to the hero's comeback.",
+      "line": "I see your light! Turning now.",
+      "delivery": "relieved, laughing, radio crackle",
+      "shot": "S08"
+    },
+    {
+      "id": "L6",
+      "t": "23.6-24.8",
+      "speaker": "mabel",
+      "on_camera": true,
+      "line_intent": "Payoff: the win in a few warm words.",
+      "line": "Safe home, Marigold.",
+      "delivery": "soft and proud, waving",
+      "shot": "S09"
+    },
+    {
+      "id": "L7",
+      "t": "27.6-29.4",
+      "speaker": "mabel",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "sleepy whispered voiceover, smiling",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.8,
+      "beat": "hook",
+      "framing": "close-up",
+      "camera": "slow push-in",
+      "action": "Mabel's huge amber eyes droop half shut behind her spectacles, her head nods, the lens behind her flickers amber and dims.",
+      "product_state": "absent",
+      "audio": "wind on the glass, a fizzing flicker from the lamp, dialogue",
+      "caption": "Stay awake, Mabel. One more ship.",
+      "refs": [
+        "mabel",
+        "lamp_room"
+      ],
+      "keyframe_prompt": "Close-up of Mabel, the owl from the character sheet, in the lamp room from the location reference, her huge amber eyes drooping half shut behind her tiny wire spectacles, head nodding forward, one wing tip patting her own cheek to stay awake, her sky-blue scarf slipping. Behind her the giant brass and glass lens flickers dim amber, blue fog presses on the windows. Warm amber key on her face, cool blue rim. Sleepy, funny, endearing."
+    },
+    {
+      "id": "S02",
+      "t0": 2.8,
+      "t1": 4.6,
+      "beat": "setup",
+      "framing": "wide",
+      "camera": "slow crane down",
+      "action": "The lighthouse on the rocks in rolling fog, its beam weak and stuttering; far off the ferry's warm windows creep closer to the rocks.",
+      "product_state": "absent",
+      "audio": "deep foghorn, waves on rocks",
+      "caption": "",
+      "refs": [
+        "lighthouse"
+      ],
+      "keyframe_prompt": "Wide shot of the lighthouse from the location reference on black rocks in thick rolling blue fog at night, its beam weak, thin and stuttering into the fog, silver moonlight, the small cream night ferry with a sky-blue stripe and glowing cabin windows creeping toward the rocks in the distance, plain hull with no name or numbers. Tense and beautiful. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 7.0,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "locked off, gentle rock with the boat",
+      "action": "Captain Teo at the ferry's wheel, radio handset to his mouth, fog pressing white against the bridge windows.",
+      "product_state": "absent",
+      "audio": "engine throb, creaking wheel, radio, dialogue",
+      "caption": "Point Hollow, we can't see a thing. You there?",
+      "refs": [
+        "teo"
+      ],
+      "keyframe_prompt": "Medium shot of Captain Teo, the man from the character sheet, a stylized animated human, standing at the wooden wheel on the small bridge of a night ferry, a coiled-cord radio handset held to his mouth, worried eyebrows, yellow oilskin wet at the shoulders, the bridge windows solid with white-blue fog, warm cabin lamp on his face, green glow of a plain instrument panel with no readable text. Stylized 3D feature film style."
+    },
+    {
+      "id": "S04",
+      "t0": 7.0,
+      "t1": 8.4,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "quick whip pan onto her",
+      "action": "Mabel jolts awake, feathers puffed out in every direction, spectacles askew, snatching the radio handset off its hook.",
+      "product_state": "absent",
+      "audio": "radio crackle, feather flurry, dialogue",
+      "caption": "I'm here! I'm here!",
+      "refs": [
+        "mabel",
+        "lamp_room"
+      ],
+      "keyframe_prompt": "Medium shot of Mabel, the owl from the character sheet, in the lamp room from the location reference, startled wide awake mid-jump, every feather puffed out, spectacles knocked askew, a few loose feathers floating in the air, both wings grabbing an old radio handset off its hook on the wall, beak open mid-shout. Dim flickering lens behind her. Big squash and stretch comedic pose."
+    },
+    {
+      "id": "S05",
+      "t0": 8.4,
+      "t1": 10.8,
+      "beat": "product",
+      "framing": "insert",
+      "camera": "locked off, slight push-in",
+      "action": "Mabel lifts the can out of the little ice crate with both wings; it is as tall as her body. Label to camera, ice chips sliding off.",
+      "product_state": "hero, upright, label facing camera, reaching up to the owl's chin",
+      "audio": "ice clinking",
+      "caption": "",
+      "refs": [
+        "product",
+        "mabel",
+        "lamp_room"
+      ],
+      "keyframe_prompt": "Insert shot in the lamp room: Mabel, the small owl from the character sheet, lifts the exact can from the product reference upright out of a small wooden crate of ice, the can reaches up to her chin, her wing tips wrapped around the back and sides of the can so the front label is fully visible and undistorted. The can is a photoreal printed aluminium object with condensation and ice chips, lit by the warm lamp light with a crisp specular rim, the brightest and most real object in frame. Mabel stands beside the can, fully visible, with her heart-shaped cream face, huge amber eyes, tiny wire spectacles and honey-brown speckled wings exactly as on the character sheet, looking at it with wide hopeful eyes. Stylized 3D animated world, only the can is photoreal."
+    },
+    {
+      "id": "S06",
+      "t0": 10.8,
+      "t1": 14.0,
+      "beat": "product",
+      "framing": "medium close-up",
+      "camera": "slow push-in",
+      "action": "She cracks the can, takes one sip, and her eyes pop fully open and sparkle, feathers fluffing smooth; she lowers the can with the label to camera and says the line.",
+      "product_state": "opened, held in both wings at chest height, label to camera",
+      "audio": "can crack (registers the moment), a happy hoot, dialogue",
+      "caption": "Red Bull Sugarfree. Wide awake, no sugar.",
+      "refs": [
+        "mabel",
+        "product",
+        "lamp_room"
+      ],
+      "keyframe_prompt": "Medium close-up of Mabel, the owl from the character sheet, in the lamp room, holding the exact can from the product reference in both wings at chest height, just lowered from a sip, the can reaches up to her chin, front label fully visible and undistorted, a photoreal printed aluminium can lit by the warm lamp. Her huge amber eyes are now wide open and sparkling behind straightened spectacles, feathers smooth and fluffed, a delighted grin and a little wink. Stylized 3D animated world, only the can is photoreal."
+    },
+    {
+      "id": "S07",
+      "t0": 14.0,
+      "t1": 17.4,
+      "beat": "build",
+      "framing": "wide inside the lamp room",
+      "camera": "low angle, orbit",
+      "action": "Mabel throws her whole body on the brass crank, round and round; the giant lens spins up and blazes gold.",
+      "product_state": "absent",
+      "audio": "gears ratcheting, a deep whoomph as the lamp roars to full",
+      "caption": "",
+      "refs": [
+        "mabel",
+        "lamp_room"
+      ],
+      "keyframe_prompt": "Low angle wide shot inside the lamp room from the location reference: tiny Mabel, the owl from the character sheet, hanging her whole body off the wooden handle of the big brass crank, feet off the floor, scarf flying, determined face, while the giant faceted lens above her blazes to full brilliant gold and throws rays of light through the fog outside the windows. Heroic, funny, dynamic."
+    },
+    {
+      "id": "S08",
+      "t0": 17.4,
+      "t1": 21.4,
+      "beat": "build",
+      "framing": "wide",
+      "camera": "tracking along the beam",
+      "action": "The blazing beam slices through the fog and lights up the rocks; the ferry swings away and turns safely.",
+      "product_state": "absent",
+      "audio": "foghorn answered, engines reversing, radio",
+      "caption": "I see your light! Turning now.",
+      "refs": [
+        "lighthouse"
+      ],
+      "keyframe_prompt": "Wide shot at sea: a blazing golden lighthouse beam from the lighthouse in the location reference slices through thick blue fog and lights up jagged black rocks, the small cream night ferry with a sky-blue stripe and warm windows turning away from the rocks just in time, white wake curving behind it, plain hull with no name or numbers. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S09",
+      "t0": 21.4,
+      "t1": 26.6,
+      "beat": "payoff",
+      "framing": "high wide over her shoulder",
+      "camera": "slow crane out",
+      "action": "From the gallery balcony, Mabel waves a wing as the ferry passes below, tiny passengers on deck waving lanterns up at her; the fog is thinning and the first blue of dawn shows.",
+      "product_state": "absent",
+      "audio": "distant cheering, a happy double toot of the horn, dialogue",
+      "caption": "Safe home, Marigold.",
+      "refs": [
+        "mabel",
+        "lighthouse"
+      ],
+      "keyframe_prompt": "High shot over the shoulder of Mabel, the owl from the character sheet, standing on the railing of the lighthouse gallery balcony, waving one wing, the golden beam above her, looking down at the small cream night ferry with a sky-blue stripe passing safely below, tiny stylized passengers on its deck waving glowing lanterns up at her, fog thinning, the first pale blue of dawn on the horizon, plain hull with no name or numbers. Warm, proud, emotional. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S10",
+      "t0": 26.6,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert",
+      "camera": "slow push-in",
+      "action": "Sunrise on the gallery: the opened can stands on the ledge, label to camera; Mabel is fast asleep beside it on her stool, wrapped in her blanket, spectacles on her forehead. Tagline and pack shot.",
+      "product_state": "hero, upright on the gallery ledge, label to camera",
+      "audio": "gulls, gentle waves, a tiny owl snore, score resolves",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "mabel"
+      ],
+      "keyframe_prompt": "Sunrise pack shot on a lighthouse gallery ledge: the exact can from the product reference stands upright on the white painted ledge, label facing camera and undistorted, a photoreal printed aluminium can with droplets, rim-lit by a big golden sunrise over a calm sea. Beside it, Mabel, the owl from the character sheet, is fast asleep on a small stool wrapped in her knitted sky-blue blanket, spectacles pushed up on her forehead, smiling. The can is the brightest, most real object in frame. Clean empty sky above the can for a title. Upright vertical composition, level horizon. Stylized 3D animated world, only the can is photoreal."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.4,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "mabel card",
+        "teo card",
+        "lamp_room plate",
+        "lighthouse plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D animated feature film look, foggy night at a lighthouse, cool blue fog and warm amber lamp light, big expressive eyes, clean render. Shot 1 (0 to 2.8 s): close-up of @Image1 (Mabel, a tiny elderly owl in spectacles) in the lamp room, her eyes droop shut and her head nods while the lens behind her flickers; she mumbles, patting her cheek with a wing: \"Stay awake, Mabel. One more ship.\" Shot 2 (2.8 to 4.6 s): wide exterior, the lighthouse on rocks in rolling fog, its beam weak and stuttering, a small ferry's warm windows creeping toward the rocks, a deep foghorn. Shot 3 (4.6 to 7 s): @Image2 (Captain Teo, stylized animated human) at the ferry wheel, fog on the windows, into a radio handset, worried: \"Point Hollow, we can't see a thing. You there?\" Shot 4 (7 to 9 s): quick whip pan to Mabel jolting awake, feathers puffed, spectacles askew, grabbing the radio: \"I'm here! I'm here!\" Squash and stretch, comic timing. Native sound: wind, waves, foghorn, radio crackle, feather flurry. No music. No text on screen. Hulls have no names."
+    },
+    {
+      "id": "U2",
+      "t0": 8.4,
+      "t1": 14.0,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "mabel card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D animated feature film look, warm lamp room. Shot 1 (0 to 2.4 s): locked insert, @Image2 (Mabel, the tiny owl) lifts the exact can from @Image1 out of a small ice crate with both wings; the can reaches up to her chin, her wing tips stay around the back and sides so the front label is fully visible, upright and undistorted. The can is a real photoreal printed aluminium object lit by the lamp; everything else is animated. Shot 2 (2.4 to 6 s): medium close-up, she cracks the can, takes one sip, her eyes pop wide open and sparkle, feathers fluff smooth, she lowers the can to chest height with the label to camera and says brightly with a wink: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Wide awake, no sugar.\" Keep the can's shape, colours, wordmark, bulls and gold sun exactly as @Image1; the can never bends. Native sound: ice, the can crack, a happy hoot. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 14.0,
+      "t1": 26.6,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "mabel card",
+        "lamp_room plate",
+        "lighthouse plate",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 stylized 3D animated feature film look, the night turns to dawn. Shot 1 (0 to 3.4 s): low orbiting wide in the lamp room, @Image1 (Mabel, the tiny owl) hangs her whole body off the brass crank and cranks round and round, the giant lens spins up and blazes gold with a deep whoomph. Shot 2 (3.4 to 7.4 s): wide at sea, upright and level, the golden beam slices the fog and lights the rocks; the small cream ferry with a sky-blue stripe swings away and turns to safety; a man's voice over a crackly radio, relieved and laughing: \"I see your light! Turning now.\" Shot 3 (7.4 to 13 s): high shot over Mabel's shoulder on the gallery railing, she waves a wing as the ferry passes below with tiny passengers waving lanterns, fog thinning to first dawn blue; she says softly, proud: \"Safe home, Marigold.\" The ferry moves forward along its heading, no sideways sliding. Native sound: gears, lamp whoomph, foghorn, distant cheers. No music. No text, hulls have no names."
+    },
+    {
+      "id": "U4",
+      "t0": 26.6,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "mabel card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 sunrise pack shot, stylized 3D animated world with one photoreal object. Slow push-in on the exact can from @Image1 standing upright on a white lighthouse gallery ledge, label to camera, droplets, golden sunrise rim light over a calm sea. Beside it @Image2 (Mabel, the tiny owl) sleeps on a stool wrapped in a knitted blanket, her chest rising and falling, a tiny snore. The can does not move or change shape. Clean empty sky above the can. Native sound: gulls, waves, the owl's snore. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "lullaby",
+      "t0": 0,
+      "t1": 8.4,
+      "brief": "A sleepy celeste and music-box lullaby in F major, 72 bpm, with a low cello note that keeps dragging it flat as her eyes close; a pizzicato sting on the jolt awake."
+    },
+    {
+      "section": "spark",
+      "t0": 8.4,
+      "t1": 14.0,
+      "brief": "The lullaby melody pops into a bright staccato pizzicato version at 110 bpm on the can crack, playful, leaving room for her line."
+    },
+    {
+      "section": "triumph",
+      "t0": 14.0,
+      "t1": 26.6,
+      "brief": "Full orchestral lift of the same melody: strings and French horns swell as the lens blazes, a heroic brass statement as the ferry turns, then warm strings under the wave."
+    },
+    {
+      "section": "button",
+      "t0": 26.6,
+      "t1": 30,
+      "brief": "Back to the celeste lullaby, soft and resolved, a final glockenspiel twinkle on the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 11.0,
+      "sound": "can crack and fizz",
+      "why": "the product moment must register; only added if the native crack is weak"
+    },
+    {
+      "t": 15.2,
+      "sound": "deep whoomph as the lamp roars to full",
+      "why": "the story's turn must land as a physical event"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "mabel",
+      "plan": "native voice from U1, then her U1 vocal stem as voice reference for U2, U3 and the whispered U4 tagline"
+    },
+    {
+      "speaker": "teo",
+      "plan": "native in U1 through a radio filter; his U3 radio line uses the U1 stem as reference with the same filter"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 27.4,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Nunito Black, white with a 3px deep navy outline, centred in the empty sky above the can, pops in from 90% scale over 6 frames"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness (as 'wide awake')",
+    "Same benefits of the original Energy Drink, without sugar (as 'no sugar' and the tagline)"
+  ],
+  "cost_estimate": {
+    "seconds": 33,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.91,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

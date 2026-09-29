@@ -1,0 +1,57 @@
+{
+  "key": "routine",
+  "name": "Creator routine / tutorial",
+  "definition": "A creator walks the viewer through their routine (morning routine, GRWM, prep, how-to) as a fast numbered sequence of satisfying little actions, each one a clean shot with its own sound. The product is one step in the sequence, placed where it earns its spot.",
+  "why_it_sells": "The top D2C format by Meta spend. The step count is a built-in retention device (viewers stay to see step 8), every step is a tiny ASMR payoff, and putting the product inside a routine sells a habit, not a purchase: the viewer copies the whole routine and the product comes with it.",
+  "visual_grammar": "Every step is one action in one tidy shot, framed so the action reads instantly at phone size: top-down for hands on surfaces, floor-level for feet, mirror or tripod medium for the body, macro for textures. Match cuts on motion carry step to step (a hand leaves one frame, enters the next). Spaces are clean, warm and a little aspirational but real (small apartment, not a showroom). The product step gets two shots: the reach and the use. A numbered step sticker on every step, added in post.",
+  "camera": "Creator-owned kit: a phone or small mirrorless camera on a mini tripod or clamp, 24mm to 28mm, mostly locked off; one handheld POV walking shot outdoors. Top-down from a counter arm, low floor-level for feet, one mirror shot. Clean focus, moderate depth of field (background soft but recognisable). No drones, no cranes, no dolly moves.",
+  "light": "Motivated and pretty: warm under-cabinet and lamp light inside against deep blue-hour window light, then the payoff in real golden sunrise. The fridge light is the product's key light. Clean exposure, no crushed blacks.",
+  "texture": "Crisp creator-video look: clean, slightly warm grade, lifted blacks, gentle contrast, a little phone-camera sharpening, no film grain, no halation. Skin real, not retouched.",
+  "palette_rule": "Pick a warm neutral home palette (oak, cream, black accents) so the product is the coolest object indoors, then let the outdoor payoff echo the product's colours (blue dawn sky, silver light).",
+  "pacing": "Spoken hook on camera in the first 2 s, then one step every 1.6 to 2.4 s, cut on the beat of the music bed. The product step slows to about 4.5 s across two shots (reach, then use) so it is held and remembered. The final step is the longest (the reward) at 5 to 6 s, then a still CTA shot.",
+  "sound": "Close-mic ASMR foley for every step, loud and crisp (alarm tap, bare feet on wood, water pour, lace pull, fridge seal, can crack, headlamp click, door, gravel, wind). A whispered close-mic voiceover names each step. A light music bed with a clear pulse, added in post under everything, so units generate with native foley only and no music.",
+  "caption_look": {
+    "font": "Inter Bold",
+    "size": "4.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "none: the whole short line appears at once, it is a label not a karaoke caption",
+    "shadow": "soft 0 2px 10px rgba(0,0,0,.55)",
+    "box": false,
+    "position": "centre, 72% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 5,
+    "step_sticker": "large numeral in Inter Black, 11% of frame height, white, inside a 1.6 px white outline circle, upper left at 8% from the top and sides, with a small '/8' after it at 40% size; ticks on with a 4 frame scale from 90 to 100 percent on each step cut",
+    "timestamp": "4:58 AM in small Inter Medium caps under the step sticker for the hook only"
+  },
+  "model_vocab": [
+    "creator morning routine video frame",
+    "aesthetic but real small apartment",
+    "locked-off tripod shot",
+    "top-down overhead shot of hands",
+    "floor-level shot",
+    "warm under-cabinet light against blue-hour window",
+    "clean crisp creator-video grade",
+    "ASMR close-up"
+  ],
+  "failure_modes": [
+    "steps blur together because two actions share a frame: one action per shot, name the single action and the body part in the prompt",
+    "top-down counter shots come back tilted at a random angle: say 'straight top-down overhead view, counter edge parallel to the bottom of the frame'",
+    "the fridge fills with generic bottles and branded packs: say the fridge door holds one can like the product, glass jars of homemade food and plain unlabelled cartons only",
+    "the headlamp or running vest grows a logo or readable text: say plain black with no text or logos",
+    "mirror shots double his body or flip the can label: keep the can out of every mirror shot",
+    "phone alarm screen shows readable model text: phone lies face down or the screen is a plain glow, the time is added in post",
+    "outdoor wide shots come back rotated: say upright vertical composition, level horizon, runner standing on the ground",
+    "the product step reads as an ad break if it is suddenly cinematic: keep the same tripod height, light and grade as the steps around it",
+    "bedside hooks come back with a digital clock showing readable model-drawn digits and a visible tripod: say no clock, no numbered screens, and that we are seeing through the tripod camera; the time goes on in post",
+    "POV prompts that ask for motion blur come back as a sharp inset between blurred side panels (twice in a row): ask for a uniformly sharp full-bleed frame with no motion blur, and add the motion in the video unit instead",
+    "mountain-town windows default to a city skyline: name what the window shows (pines, ridge, no city)"
+  ],
+  "negatives": [
+    "no real brands, logos or signage except the product",
+    "no readable text generated by the model anywhere in the frame",
+    "no logos on shoes, clothing, headlamp or bottles",
+    "no extra fingers",
+    "no more than one can in the scene",
+    "no cinematic haze, film grain or anamorphic flares"
+  ],
+  "prompt_prefix": "Creator routine video frame, vertical 9:16, shot by the creator on a tripod-mounted phone, 24mm, clean crisp creator-video grade, real small space, motivated warm practical light, sharp action, no film grain."
+}

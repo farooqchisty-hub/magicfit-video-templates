@@ -1,0 +1,509 @@
+{
+  "id": "skit-01-sugar-police",
+  "style": "skit",
+  "title": "Sugar Police",
+  "logline": "The Sugar Police raid an open-plan office, confiscating muffins desk by desk, until the officer's detector reaches the one desk that passes inspection: {product} gets a salute.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "A bright open-plan office at the fictional logistics company Pellwick & Co on an ordinary Tuesday, mid-morning. A uniformed officer of the fictional Sugar Enforcement Unit conducts a completely serious raid.",
+    "palette": "Built from the can: sky-blue carpet tiles and chairs, brushed silver desks and white walls; the officer's red armband is the single loud accent.",
+    "fictional_brands": [
+      "Pellwick & Co (the office, never shown as text)",
+      "Sugar Enforcement Unit (the officer's unit, never shown as text; the badge and armband stay blank)"
+    ],
+    "rules": "Every sign, monitor, badge, box and food item is blank: no writing on cakes, no printed pastry boxes, monitors show only soft abstract shapes. The only real brand is the product."
+  },
+  "cast": [
+    {
+      "id": "dolores",
+      "name": "Officer Dolores Vega",
+      "role": "the Sugar Police officer, the absurd character played dead straight",
+      "look": "woman, 48, Mexican American, dark hair in a tight low bun, strong eyebrows, mirrored aviator sunglasses, navy police-style uniform over a sky-blue shirt, peaked navy cap, plain silver badge with no engraving, red armband with no writing, holds a matte black handheld detector wand",
+      "voice": "clipped, flat, total authority, American, like a TV cop reading a warrant",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Dolores Vega: 48, Mexican American, dark hair in a tight low bun under a peaked navy cap, strong eyebrows, mirrored aviator sunglasses, stern deadpan expression, navy police-style uniform jacket over a sky-blue collared shirt, a plain silver badge with no engraving, a red armband with no writing. Photoreal, consistent identity across all three views. No text, no letters, no insignia."
+    },
+    {
+      "id": "theo",
+      "name": "Theo Park",
+      "role": "the calm office worker, the straight man",
+      "look": "man, 31, Korean American, neat black hair with a side part, round tortoiseshell glasses, white oxford shirt with sleeves rolled, sky-blue knit tie, over-ear headphones around his neck, unflappable",
+      "voice": "mild, dry, completely unbothered, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Theo Park: 31, Korean American, neat black hair with a side part, round tortoiseshell glasses, white oxford shirt with sleeves rolled, sky-blue knit tie, matte grey over-ear headphones resting around his neck with no logos, calm deadpan expression. Photoreal, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "office",
+      "name": "Pellwick & Co open-plan office",
+      "plate_prompt": "Sitcom comedy sketch still, vertical 9:16, upright vertical composition, level horizon: a bright open-plan office seen down the central aisle, rows of brushed silver desks, sky-blue office chairs and sky-blue carpet tiles, white walls, monitors showing only soft abstract blue shapes, a pair of frosted glass double doors at the far end, a small break area on one side with a plain pink frosted cake with no writing on a table. Even high-key fluorescent light. No people, no readable text, no signs, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "the detector scans the drink on his desk and goes quiet; the officer salutes it",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "the detector scans the tube or jar on the desk (balm, sunscreen, hand cream); the officer salutes it",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "the detector sweeps his body, stops at the item he is wearing (sneakers, watch, glasses) and goes quiet; salute",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "the gadget in his hand passes the scan (earbuds, bottle, charger); salute",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "she searches his bag and finds only the product inside, neatly packed; salute",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "the raid moves to a living room; the detector passes the one item in the room (chair, lamp, blanket); salute",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "she opens his desk drawer expecting contraband and finds the product's refill pack; salute",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.2",
+      "summary": "Glass doors burst open: a uniformed officer with a detector wand announces a Sugar Police raid."
+    },
+    {
+      "id": "setup",
+      "t": "2.2-8.4",
+      "summary": "Rule of three: the office freezes mid-bite, Gary is made to drop his muffin, she marches down the aisle with an armful of confiscated pastries."
+    },
+    {
+      "id": "product",
+      "t": "8.4-15.2",
+      "summary": "She reaches Theo's desk. The detector hovers over his can and goes quiet with a soft green light. He names it."
+    },
+    {
+      "id": "turn",
+      "t": "15.2-18.6",
+      "summary": "She lowers her sunglasses and salutes the can."
+    },
+    {
+      "id": "payoff",
+      "t": "18.6-24.4",
+      "summary": "The detector shrieks: she dives across the break table at a birthday cake while Theo sips, unbothered, in the foreground."
+    },
+    {
+      "id": "cta",
+      "t": "24.4-30",
+      "summary": "The can on his desk; a red CLEARED stamp slams down beside it; tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.0",
+      "speaker": "dolores",
+      "on_camera": true,
+      "line_intent": "Hook: the absurd authority announces the premise in one breath.",
+      "line": "Sugar Police. Nobody move.",
+      "delivery": "flat, loud, total authority, wand raised",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "4.0-5.6",
+      "speaker": "dolores",
+      "on_camera": true,
+      "line_intent": "Escalation one: the premise is enforced on an ordinary person over something small.",
+      "line": "Drop the muffin, Gary.",
+      "delivery": "calm, cold, like a hostage negotiator",
+      "shot": "S03"
+    },
+    {
+      "id": "L3",
+      "t": "8.6-9.8",
+      "speaker": "dolores",
+      "on_camera": true,
+      "line_intent": "Set up the punchline: the authority reaches the hero and suspects the product.",
+      "line": "And what's this?",
+      "delivery": "slow, suspicious, leaning in",
+      "shot": "S05"
+    },
+    {
+      "id": "L4",
+      "t": "12.3-14.9",
+      "speaker": "theo",
+      "on_camera": true,
+      "line_intent": "Product line: the calm hero names the product and the one benefit that beats the premise, allowed claim only.",
+      "line": "Red Bull Sugarfree. Helps me focus. No sugar.",
+      "delivery": "mild, matter-of-fact, not looking up from his screen until the last two words",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Caffeine helps to improve concentration and increase alertness; without sugar",
+      "shot": "S07"
+    },
+    {
+      "id": "L5",
+      "t": "17.0-18.3",
+      "speaker": "dolores",
+      "on_camera": true,
+      "line_intent": "Turn: the authority approves the product, the premise flips into respect.",
+      "line": "Carry on, citizen.",
+      "delivery": "quiet, grave, mid-salute",
+      "shot": "S08"
+    },
+    {
+      "id": "L6",
+      "t": "19.4-20.6",
+      "speaker": "dolores",
+      "on_camera": true,
+      "line_intent": "Payoff button: the premise snaps back somewhere else, the hero is untouched.",
+      "line": "Is that frosting?!",
+      "delivery": "sudden bark, whipping round",
+      "shot": "S09"
+    },
+    {
+      "id": "L7",
+      "t": "27.2-29.4",
+      "speaker": "theo",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "dry voiceover, the faintest smile in it",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.2,
+      "beat": "hook",
+      "framing": "medium full, symmetrical",
+      "camera": "locked off down the aisle",
+      "action": "The frosted glass double doors at the end of the office burst open; Officer Dolores Vega strides in, wand raised like a badge, and makes the announcement.",
+      "product_state": "absent",
+      "audio": "doors bang, office murmur cuts dead, dialogue",
+      "caption": "SUGAR POLICE. NOBODY MOVE.",
+      "refs": [
+        "dolores",
+        "office"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon. Medium full shot, camera at chest height close to her: Dolores, the woman from the character sheet, fills the frame from her knees to the top of her peaked cap, centred, striding straight toward the lens in her navy police-style uniform and mirrored aviator sunglasses, holding a matte black handheld detector wand raised in front of her chest like a badge, red armband with no writing, plain silver badge. Directly behind her the frosted glass double doors of the bright office from the location reference are still swinging open. Her figure takes up most of the frame height. Deadpan, totally serious. The wand has one small round light and no screen."
+    },
+    {
+      "id": "S02",
+      "t0": 2.2,
+      "t1": 3.8,
+      "beat": "setup",
+      "framing": "medium group tableau",
+      "camera": "locked off",
+      "action": "Comedic freeze: three office workers stop dead mid-crime, one mid-bite into a doughnut, one sliding a chocolate bar into a drawer, one with a cookie halfway to her mouth.",
+      "product_state": "absent",
+      "audio": "total silence except the fluorescent hum",
+      "caption": "",
+      "refs": [
+        "office"
+      ],
+      "keyframe_prompt": "Medium group tableau in the bright open-plan office from the location reference, three office workers at silver desks frozen mid-action and staring at camera in guilt: a young white man mid-bite into a glazed doughnut, a Black woman in her forties sliding a chocolate bar into a desk drawer, an older East Asian woman with a cookie halfway to her mouth. Everyone completely still like a paused video, deadpan wide eyes. All food is plain with no wrappers showing text. Sky-blue chairs, monitors with abstract shapes only."
+    },
+    {
+      "id": "S03",
+      "t0": 3.8,
+      "t1": 6.0,
+      "beat": "setup",
+      "framing": "medium two-shot",
+      "camera": "locked off",
+      "action": "Dolores points the wand at Gary, a sheepish man holding a blueberry muffin; the wand blinks red; she gives the order and he lowers the muffin into the bin.",
+      "product_state": "absent",
+      "audio": "wand beeps red, dialogue, muffin thuds into the bin",
+      "caption": "DROP THE MUFFIN, GARY.",
+      "refs": [
+        "dolores",
+        "office"
+      ],
+      "keyframe_prompt": "Medium two-shot in the bright office from the location reference: Dolores, the woman from the character sheet, in her navy uniform, cap and mirrored aviators, points the matte black detector wand at Gary, a sheepish white man in his fifties with a grey moustache and a mustard cardigan who holds a blueberry muffin at chest height over a small grey office bin. The round light on the tip of the wand glows red. Dolores is stone-faced; Gary looks devastated. Plain muffin, no wrapper text."
+    },
+    {
+      "id": "S04",
+      "t0": 6.0,
+      "t1": 8.4,
+      "beat": "setup",
+      "framing": "medium wide, head-on",
+      "camera": "locked off, she walks toward the lens",
+      "action": "Escalation two: Dolores marches down the aisle toward camera, one arm stacked high with confiscated plain pastry boxes, the other sweeping the wand across desks.",
+      "product_state": "absent",
+      "audio": "boots on carpet, wand clicks, parody cop funk",
+      "caption": "",
+      "refs": [
+        "dolores",
+        "office"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon. Medium wide head-on shot down the office aisle from the location reference: Dolores, the woman from the character sheet, marches toward camera in her navy uniform, cap and mirrored aviators, one arm carrying a tall wobbling stack of plain white pastry boxes with no printing, a paper bag of confiscated doughnuts on top, the other arm sweeping the matte black detector wand across the desks. Office workers shrink in their sky-blue chairs on both sides. Serious, methodical."
+    },
+    {
+      "id": "S05",
+      "t0": 8.4,
+      "t1": 10.2,
+      "beat": "product",
+      "framing": "medium, low angle from desk height",
+      "camera": "locked off",
+      "action": "She arrives at Theo's desk and looms over him; he keeps typing, calm; his can stands on the desk; she drops the pastry boxes and leans in with the wand.",
+      "product_state": "on the desk beside his keyboard, upright, label toward camera",
+      "audio": "boxes set down, keyboard clicks, dialogue",
+      "caption": "AND WHAT'S THIS?",
+      "refs": [
+        "dolores",
+        "theo",
+        "office",
+        "product"
+      ],
+      "keyframe_prompt": "Medium shot from desk height: Theo, the man from the second character sheet, sits calmly at his silver desk typing, headphones around his neck, glasses on, while Dolores, the woman from the first character sheet, in her navy uniform and mirrored aviators, looms over him from behind the monitor, leaning in suspiciously with the matte black detector wand. On the desk in the foreground stands the exact can from the product reference, upright, label facing camera, undistorted. The monitor faces away from camera. Bright office behind them."
+    },
+    {
+      "id": "S06",
+      "t0": 10.2,
+      "t1": 12.0,
+      "beat": "product",
+      "framing": "macro insert",
+      "camera": "locked off",
+      "action": "The wand tip hovers an inch above the can; its round light turns soft green; the wand goes quiet.",
+      "product_state": "hero, upright on the desk, label to camera, condensation",
+      "audio": "the wand's single soft approval chime, then silence",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Macro insert on a brushed silver office desk: the exact can from the product reference stands upright, label facing camera and undistorted, fine condensation drops, cleanly lit as the brightest object in frame. The tip of a matte black handheld detector wand hovers just above the can from the top of frame, its small round light glowing soft green. Behind it only an empty, softly blurred sky-blue office wall and chairs with no people. No screen on the wand, no text anywhere except the can's own label. Reproduce the word SUGARFREE on the can exactly as on the product reference."
+    },
+    {
+      "id": "S07",
+      "t0": 12.0,
+      "t1": 15.2,
+      "beat": "product",
+      "framing": "close-up",
+      "camera": "locked off",
+      "action": "Theo lifts the can to chest height, label to camera, and names it without drama, looking up at her only on the last words.",
+      "product_state": "in hand at chest height, label readable",
+      "audio": "room tone, dialogue",
+      "caption": "RED BULL SUGARFREE. HELPS ME FOCUS.",
+      "refs": [
+        "theo",
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Close-up of Theo, the man from the character sheet, at his desk in the bright office, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, his other hand resting on the keyboard, glasses on, headphones around his neck, looking up with a mild, completely unbothered expression. Clean even light, the can lit slightly brighter than everything else."
+    },
+    {
+      "id": "S08",
+      "t0": 15.2,
+      "t1": 18.6,
+      "beat": "turn",
+      "framing": "medium, Dolores centre frame",
+      "camera": "locked off",
+      "action": "Dolores lowers her sunglasses, looks at the can, straightens, and snaps a crisp formal salute toward it; Theo gives a small nod.",
+      "product_state": "in Theo's hand at the edge of frame, label toward her",
+      "audio": "a single snare hit on the salute, dialogue",
+      "caption": "CARRY ON, CITIZEN.",
+      "refs": [
+        "dolores",
+        "theo",
+        "office",
+        "product"
+      ],
+      "keyframe_prompt": "Medium shot in the bright office: Dolores, the woman from the first character sheet, stands at attention in her navy uniform and peaked cap, aviator sunglasses lowered to the tip of her nose, giving a crisp formal salute with her right hand, face grave and respectful, the matte black detector wand held at her side. In the lower foreground at the edge of frame, Theo, the man from the second character sheet, seen from behind his shoulder, holds up the exact can from the product reference, label visible and undistorted. Symmetrical, deadpan."
+    },
+    {
+      "id": "S09",
+      "t0": 18.6,
+      "t1": 24.4,
+      "beat": "payoff",
+      "framing": "deep two-plane wide",
+      "camera": "locked off, then a fast whip to the cake and back",
+      "action": "The wand shrieks red; in the background Dolores dives headfirst across the break table at a pink birthday cake while co-workers scatter; in the sharp foreground Theo takes a calm sip, unbothered.",
+      "product_state": "in Theo's hand at his lips, label toward camera",
+      "audio": "wand alarm shriek, crash, dialogue, Theo's calm sip",
+      "caption": "IS THAT FROSTING?!",
+      "refs": [
+        "theo",
+        "dolores",
+        "office",
+        "product"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon, normal gravity. Deep two-plane shot: in the sharp foreground Theo, the man from the second character sheet, sits at his desk calmly sipping from the exact can from the product reference, label toward camera and undistorted, eyes half closed, unbothered. In the background of the bright office, Dolores, the woman from the first character sheet, in her navy uniform and cap, is diving forward headfirst over a break-room table toward a plain pink frosted birthday cake with no writing, seen from the front at a three-quarter angle, the detector wand in her outstretched hand glowing red, two co-workers jumping back. Comedic chaos behind, total calm in front."
+    },
+    {
+      "id": "S10",
+      "t0": 24.4,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert",
+      "camera": "locked off, gentle push-in",
+      "action": "The can stands on Theo's tidy desk next to his keyboard; a red CLEARED stamp slams down in the empty space beside it (post); tagline and pack shot.",
+      "product_state": "hero, upright on the desk, label to camera",
+      "audio": "stamp thump, cop funk sting, room tone",
+      "caption": "WIIINGS WITHOUT SUGAR.",
+      "refs": [
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Premium pack shot, close and low on a tidy brushed silver office desk: the exact can from the product reference stands upright in the left half of the frame, large, filling about half the frame height, label facing camera and undistorted, condensation drops, the brightest and cleanest object in frame, matte grey headphones lying beside it, behind it an empty softly blurred sky-blue office with no people at all. Large empty clean desk surface to the right of the can and empty soft background above it for a title. No other text, no paper with writing."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.4,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "dolores card",
+        "office plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 sitcom comedy sketch, bright high-key office light, crisp digital, locked-off tripod shots, everyone completely deadpan. Shot 1 (0 to 2.2 s): wide symmetrical shot down the office aisle of @Image2, frosted glass doors burst open and @Image1 (Dolores, navy police-style uniform, peaked cap, mirrored aviators, red armband with no writing) strides in with a matte black detector wand raised and says flatly and loudly: \"Sugar Police. Nobody move.\" Shot 2 (2.2 to 3.8 s): three office workers freeze mid-bite with a doughnut, a chocolate bar and a cookie, staring at camera, perfectly still. Shot 3 (3.8 to 6 s): @Image1 points the wand at a sheepish man in a mustard cardigan holding a blueberry muffin, the wand light blinks red with a beep, she says coldly: \"Drop the muffin, Gary.\" He lowers it into a grey bin. Shot 4 (6 to 9 s): @Image1 marches toward camera down the aisle with a tall stack of plain white pastry boxes under one arm, sweeping the wand across desks. Native sound: doors banging, office murmur cutting dead, fluorescent hum, wand beeps, boots on carpet. No music. No text on screen, no writing on food, badges or boxes."
+    },
+    {
+      "id": "U2",
+      "t0": 8.4,
+      "t1": 15.2,
+      "shots": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "len_s": 7,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "theo card",
+        "dolores card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 sitcom comedy sketch, bright office, locked-off shots, deadpan. Shot 1 (0 to 1.8 s): @Image2 (Theo, glasses, sky-blue tie, headphones on neck) types calmly at his silver desk while @Image3 (Dolores in navy uniform and aviators) looms over him with a matte black detector wand and says slowly: \"And what's this?\" The exact can from @Image1 stands upright on his desk. Shot 2 (1.8 to 3.6 s): locked macro insert, the wand tip hovers above the exact can from @Image1, its round light turns soft green with one gentle chime, then silence. Shot 3 (3.6 to 7 s): close-up of @Image2 lifting the can to chest height, label to camera, saying mildly: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Helps me focus. No sugar.\" Keep the can's shape, colours, wordmark and bulls exactly as @Image1. Native sound: keyboard clicks, the chime, room tone. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 15.2,
+      "t1": 24.4,
+      "shots": [
+        "S08",
+        "S09"
+      ],
+      "len_s": 10,
+      "exact_risk": false,
+      "refs": [
+        "dolores card",
+        "theo card",
+        "product can official",
+        "S08 keyframe as first frame"
+      ],
+      "prompt": "9:16 sitcom comedy sketch, bright office, locked-off camera. Shot 1 (0 to 3.4 s): @Image1 (Dolores, navy uniform, peaked cap) slowly lowers her aviator sunglasses, looks at the can in @Image2's (Theo's) hand, straightens and snaps a crisp formal salute, gravely: \"Carry on, citizen.\" Theo gives one small nod. Shot 2 (3.4 to 10 s): deep two-plane shot, Theo in the sharp foreground at his desk; behind him the detector wand suddenly shrieks and glows red, Dolores whips round and barks: \"Is that frosting?!\", then dives headfirst across a break-room table toward a plain pink frosted cake with no writing while two co-workers jump back; in the foreground Theo calmly takes one sip from the exact can from @Image3, label toward camera, unbothered. Normal gravity, level horizon, the dive moves away from camera. Native sound: snare-like salute snap, alarm shriek, crash, the calm sip. No music. No text."
+    },
+    {
+      "id": "U4",
+      "t0": 24.4,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 clean pack shot. Locked-off with a very slow push-in onto the exact can from @Image1 standing upright on a tidy brushed silver office desk, label to camera, condensation drops, the brightest object in frame, matte grey headphones and a keyboard edge beside it, a blurred bright sky-blue office behind where a co-worker walks past out of focus. The can does not move or change. Keep the desk surface to the right of the can and the space above it empty. Native sound: soft office room tone. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "raid",
+      "t0": 0,
+      "t1": 10.2,
+      "brief": "70s cop-show parody: tight wah guitar, clavinet and stabbing brass, 104 bpm in E minor, drops out completely under each spoken line and punches back in between them."
+    },
+    {
+      "section": "inspection",
+      "t0": 10.2,
+      "t1": 18.6,
+      "brief": "Music cuts dead on the green chime; a single suspended bass note under Theo's line; one heroic brass fanfare hit on the salute."
+    },
+    {
+      "section": "chaos and button",
+      "t0": 18.6,
+      "t1": 30,
+      "brief": "Full cop-funk chase riff under the dive, then a hard stop on the stamp and a two-bar brass button that resolves under the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 4.1,
+      "sound": "short red-alert beep from the wand",
+      "why": "the viewer must learn what the detector does before it scans the product"
+    },
+    {
+      "t": 10.6,
+      "sound": "soft rising approval chime",
+      "why": "the punchline of the product moment; the contrast with the beep is the joke"
+    },
+    {
+      "t": 19.0,
+      "sound": "loud alarm shriek",
+      "why": "triggers the payoff gag"
+    },
+    {
+      "t": 25.4,
+      "sound": "rubber stamp thump",
+      "why": "lands the CLEARED stamp CTA"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "dolores",
+      "plan": "native voice in U1, then her U1 vocal stem as voice reference for U2 and U3"
+    },
+    {
+      "speaker": "theo",
+      "plan": "native in U2; the tagline voiceover uses his U2 stem as voice reference, recorded dry"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 25.4,
+      "t1": 30,
+      "text": "CLEARED",
+      "sub": "",
+      "style": "red rubber-stamp mark, Archivo Black in a double-ruled rectangle rotated 8 degrees, slams in at 130% scale and settles to 100% over 5 frames in the empty desk space right of the can, slight ink texture"
+    },
+    {
+      "t0": 26.6,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Archivo Black white with a hard black outline, centred in the empty space above the can, pops in with a 4 frame bounce"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (tagline form)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

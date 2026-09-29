@@ -37,7 +37,7 @@
     {
       "id": "office",
       "name": "Pellwick & Co open-plan office",
-      "plate_prompt": "Sitcom comedy sketch still, vertical 9:16, upright vertical composition, level horizon: a bright open-plan office seen down the central aisle, rows of brushed silver desks, sky-blue office chairs and sky-blue carpet tiles, white walls, monitors showing only soft abstract blue shapes, a pair of frosted glass double doors at the far end, a small break area on one side with a plain pink frosted cake with no writing on a table. Even high-key fluorescent light. No people, no readable text, no signs, no logos."
+      "plate_prompt": "Photoreal live-action sitcom comedy sketch still shot on a real cinema camera (a real photograph, not an illustration, not a drawing, not a 3D render), vertical 9:16, upright vertical composition, level horizon: a bright open-plan office seen from standing height straight down a long, clear central aisle with the floor open in the foreground, rows of brushed silver desks, sky-blue office chairs and sky-blue carpet tiles, white walls, monitors showing only soft abstract blue shapes, a pair of frosted glass double doors at the far end, a small break area on one side with a plain pink frosted cake with no writing on a table. Even high-key fluorescent light. No people, no readable text, no signs, no logos."
     }
   ],
   "adaptation": {
@@ -191,9 +191,16 @@
       "caption": "SUGAR POLICE. NOBODY MOVE.",
       "refs": [
         "dolores",
-        "office"
+        "office",
+        "wand"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon. Medium full shot, camera at chest height close to her: Dolores, the woman from the character sheet, fills the frame from her knees to the top of her peaked cap, centred, striding straight toward the lens in her navy police-style uniform and mirrored aviator sunglasses, holding a matte black handheld detector wand raised in front of her chest like a badge, red armband with no writing, plain silver badge. Directly behind her the frosted glass double doors of the bright office from the location reference are still swinging open. Her figure takes up most of the frame height. Deadpan, totally serious. The wand has one small round light and no screen."
+      "keyframe_prompt": "Upright vertical composition, level horizon. Medium full shot, camera at chest height close to her: Dolores, the woman from the character sheet, fills the frame from her knees to the top of her peaked cap, centred, striding straight toward the lens in her navy police-style uniform and mirrored aviator sunglasses, holding a matte black handheld detector wand raised in front of her chest like a badge, red armband with no writing, plain silver badge. Directly behind her the frosted glass double doors of the bright office from the location reference are still swinging open. Her figure takes up most of the frame height, nothing between her and the lens, the aisle floor in front of her clear. Deadpan, totally serious. The wand has one small round light and no screen.",
+      "dressing": [
+        "the red tape on the wand grip",
+        "the scratch across her left aviator lens",
+        "the etched pelican on the frosted doors swinging behind her",
+        "sky-blue chairs and a sagging balloon cluster far behind"
+      ]
     },
     {
       "id": "S02",
@@ -209,7 +216,14 @@
       "refs": [
         "office"
       ],
-      "keyframe_prompt": "Medium group tableau in the bright open-plan office from the location reference, three office workers at silver desks frozen mid-action and staring at camera in guilt: a young white man mid-bite into a glazed doughnut, a Black woman in her forties sliding a chocolate bar into a desk drawer, an older East Asian woman with a cookie halfway to her mouth. Everyone completely still like a paused video, deadpan wide eyes. All food is plain with no wrappers showing text. Sky-blue chairs, monitors with abstract shapes only."
+      "keyframe_prompt": "Medium group tableau in the bright open-plan office from the location reference, three office workers at silver desks frozen mid-action and staring at camera in guilt: a young white man mid-bite into a glazed doughnut, a Black woman in her forties sliding a chocolate bar into a desk drawer, an older East Asian woman with a cookie halfway to her mouth. Everyone completely still like a paused video, deadpan wide eyes. All food is plain with no wrappers showing text. Sky-blue chairs, monitors with abstract shapes only. Camera at standing eye height in the open aisle: nothing in the foreground between the lens and the three workers, no monitor or desk edge blocking the lower frame; the three guilty faces are the clear subject.",
+      "dressing": [
+        "a fringe of blank sticky notes on a monitor",
+        "a mustard cardigan over a chair back",
+        "the fruit magnets on the filing cabinet",
+        "the whiteboard of coloured arrows and boxes",
+        "the jammed printer page"
+      ]
     },
     {
       "id": "S03",
@@ -224,9 +238,17 @@
       "caption": "DROP THE MUFFIN, GARY.",
       "refs": [
         "dolores",
-        "office"
+        "office",
+        "wand"
       ],
-      "keyframe_prompt": "Medium two-shot in the bright office from the location reference: Dolores, the woman from the character sheet, in her navy uniform, cap and mirrored aviators, points the matte black detector wand at Gary, a sheepish white man in his fifties with a grey moustache and a mustard cardigan who holds a blueberry muffin at chest height over a small grey office bin. The round light on the tip of the wand glows red. Dolores is stone-faced; Gary looks devastated. Plain muffin, no wrapper text."
+      "keyframe_prompt": "Medium two-shot in the bright office from the location reference: Dolores, the woman from the character sheet, in her navy uniform, cap and mirrored aviators, points the matte black detector wand at Gary, a sheepish white man in his fifties with a grey moustache and a mustard cardigan who holds a blueberry muffin at chest height over a small grey office bin. The round light on the tip of the wand glows red. Dolores is stone-faced; Gary looks devastated. Plain muffin, no wrapper text.",
+      "dressing": [
+        "the red tape on the wand grip",
+        "a round red dot sticker ready on her fingertip",
+        "Gary's mug of pens",
+        "the spider plant on his desk corner",
+        "the water cooler with paper cones behind"
+      ]
     },
     {
       "id": "S04",
@@ -241,9 +263,17 @@
       "caption": "",
       "refs": [
         "dolores",
-        "office"
+        "office",
+        "tub"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon. Medium wide head-on shot down the office aisle from the location reference: Dolores, the woman from the character sheet, marches toward camera in her navy uniform, cap and mirrored aviators, one arm carrying a tall wobbling stack of plain white pastry boxes with no printing, a paper bag of confiscated doughnuts on top, the other arm sweeping the matte black detector wand across the desks. Office workers shrink in their sky-blue chairs on both sides. Serious, methodical."
+      "keyframe_prompt": "Upright vertical composition, level horizon. Medium wide head-on shot down the office aisle from the location reference: Dolores, the woman from the character sheet, marches toward camera in her navy uniform, cap and mirrored aviators, one arm hugging the clear red-lidded evidence tub from the prop reference, crammed with confiscated muffins and doughnuts, with a wobbling stack of plain white pastry boxes with no printing balanced on its lid, the other arm sweeping the matte black detector wand across the desks. Office workers shrink in their sky-blue chairs on both sides. Serious, methodical.",
+      "dressing": [
+        "round red dot stickers on every confiscated box",
+        "workers clutching their mugs",
+        "the clip-on fan with its sky-blue ribbon",
+        "the framed abstract route map behind",
+        "the sagging pink and silver balloons"
+      ]
     },
     {
       "id": "S05",
@@ -262,7 +292,13 @@
         "office",
         "product"
       ],
-      "keyframe_prompt": "Medium shot from desk height: Theo, the man from the second character sheet, sits calmly at his silver desk typing, headphones around his neck, glasses on, while Dolores, the woman from the first character sheet, in her navy uniform and mirrored aviators, looms over him from behind the monitor, leaning in suspiciously with the matte black detector wand. On the desk in the foreground stands the exact can from the product reference, upright, label facing camera, undistorted. The monitor faces away from camera. Bright office behind them."
+      "keyframe_prompt": "Medium shot from desk height: Theo, the man from the second character sheet, sits calmly at his silver desk typing, headphones around his neck, glasses on, while Dolores, the woman from the first character sheet, in her navy uniform and mirrored aviators, looms over him from behind the monitor, leaning in suspiciously with the matte black detector wand. On the desk in the foreground stands the exact can from the product reference, upright, label facing camera, undistorted. The monitor faces away from camera. Bright office behind them.",
+      "dressing": [
+        "the bonsai juniper on Theo's desk",
+        "the round cork coaster under the can",
+        "the tiny rubber duck on his monitor",
+        "the sky-blue keycaps on his keyboard"
+      ]
     },
     {
       "id": "S06",
@@ -276,9 +312,15 @@
       "audio": "the wand's single soft approval chime, then silence",
       "caption": "",
       "refs": [
-        "product"
+        "product",
+        "wand"
       ],
-      "keyframe_prompt": "Macro insert on a brushed silver office desk: the exact can from the product reference stands upright, label facing camera and undistorted, fine condensation drops, cleanly lit as the brightest object in frame. The tip of a matte black handheld detector wand hovers just above the can from the top of frame, its small round light glowing soft green. Behind it only an empty, softly blurred sky-blue office wall and chairs with no people. No screen on the wand, no text anywhere except the can's own label. Reproduce the word SUGARFREE on the can exactly as on the product reference."
+      "keyframe_prompt": "Macro insert on a brushed silver office desk: the exact can from the product reference stands upright, label facing camera and undistorted, fine condensation drops, cleanly lit as the brightest object in frame. The tip of a matte black handheld detector wand hovers just above the can from the top of frame, its small round light glowing soft green. Behind it only an empty, softly blurred sky-blue office wall and chairs with no people. No screen on the wand, no text anywhere except the can's own label. Reproduce the word SUGARFREE on the can exactly as on the product reference.",
+      "dressing": [
+        "the round cork coaster under the can",
+        "the red tape on the wand grip",
+        "the edge of the bonsai pot"
+      ]
     },
     {
       "id": "S07",
@@ -296,7 +338,13 @@
         "product",
         "office"
       ],
-      "keyframe_prompt": "Close-up of Theo, the man from the character sheet, at his desk in the bright office, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, his other hand resting on the keyboard, glasses on, headphones around his neck, looking up with a mild, completely unbothered expression. Clean even light, the can lit slightly brighter than everything else."
+      "keyframe_prompt": "Close-up of Theo, the man from the character sheet, at his desk in the bright office, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, his other hand resting on the keyboard, glasses on, headphones around his neck, looking up with a mild, completely unbothered expression. Clean even light, the can lit slightly brighter than everything else.",
+      "dressing": [
+        "the sky-blue tape on his headphone band",
+        "the bonsai juniper",
+        "the rubber duck on his monitor",
+        "the half-down blinds and pale city behind"
+      ]
     },
     {
       "id": "S08",
@@ -315,7 +363,13 @@
         "office",
         "product"
       ],
-      "keyframe_prompt": "Medium shot in the bright office: Dolores, the woman from the first character sheet, stands at attention in her navy uniform and peaked cap, aviator sunglasses lowered to the tip of her nose, giving a crisp formal salute with her right hand, face grave and respectful, the matte black detector wand held at her side. In the lower foreground at the edge of frame, Theo, the man from the second character sheet, seen from behind his shoulder, holds up the exact can from the product reference, label visible and undistorted. Symmetrical, deadpan."
+      "keyframe_prompt": "Medium shot in the bright office: Dolores, the woman from the first character sheet, stands at attention in her navy uniform and peaked cap, aviator sunglasses lowered to the tip of her nose, giving a crisp formal salute with her right hand, face grave and respectful, the matte black detector wand held at her side. In the lower foreground at the edge of frame, Theo, the man from the second character sheet, seen from behind his shoulder, holds up the exact can from the product reference, label visible and undistorted. Symmetrical, deadpan.",
+      "dressing": [
+        "the silver whistle on her navy lanyard",
+        "the pocket notepad in her breast pocket",
+        "the bonsai juniper in the foreground",
+        "the plain-faced wall clock behind"
+      ]
     },
     {
       "id": "S09",
@@ -334,7 +388,13 @@
         "office",
         "product"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon, normal gravity. Deep two-plane shot: in the sharp foreground Theo, the man from the second character sheet, sits at his desk calmly sipping from the exact can from the product reference, label toward camera and undistorted, eyes half closed, unbothered. In the background of the bright office, Dolores, the woman from the first character sheet, in her navy uniform and cap, is diving forward headfirst over a break-room table toward a plain pink frosted birthday cake with no writing, seen from the front at a three-quarter angle, the detector wand in her outstretched hand glowing red, two co-workers jumping back. Comedic chaos behind, total calm in front."
+      "keyframe_prompt": "Upright vertical composition, level horizon, normal gravity. Deep two-plane shot: in the sharp foreground Theo, the man from the second character sheet, sits at his desk calmly sipping from the exact can from the product reference, label toward camera and undistorted, eyes half closed, unbothered. In the background of the bright office, Dolores, the woman from the first character sheet, in her navy uniform and cap, is diving forward headfirst over a break-room table toward a plain pink frosted birthday cake with no writing, seen from the front at a three-quarter angle, the detector wand in her outstretched hand glowing red, two co-workers jumping back. Comedic chaos behind, total calm in front.",
+      "dressing": [
+        "the pink and silver balloons bobbing over the cake",
+        "a spilled stack of paper plates",
+        "the cork coaster on Theo's desk",
+        "the rubber duck on his monitor"
+      ]
     },
     {
       "id": "S10",
@@ -351,7 +411,13 @@
         "product",
         "office"
       ],
-      "keyframe_prompt": "Premium pack shot, close and low on a tidy brushed silver office desk: the exact can from the product reference stands upright in the left half of the frame, large, filling about half the frame height, label facing camera and undistorted, condensation drops, the brightest and cleanest object in frame, matte grey headphones lying beside it, behind it an empty softly blurred sky-blue office with no people at all. Large empty clean desk surface to the right of the can and empty soft background above it for a title. No other text, no paper with writing."
+      "keyframe_prompt": "Premium pack shot, close and low on a tidy brushed silver office desk: the exact can from the product reference stands upright in the left half of the frame, large, filling about half the frame height, label facing camera and undistorted, condensation drops, the brightest and cleanest object in frame, matte grey headphones lying beside it, behind it an empty softly blurred sky-blue office with no people at all. Large empty clean desk surface to the right of the can and empty soft background above it for a title. No other text, no paper with writing.",
+      "dressing": [
+        "the round cork coaster under the can",
+        "the bonsai juniper blurred at the edge",
+        "the plain sky-blue keycaps",
+        "hanging pothos in soft bokeh"
+      ]
     }
   ],
   "units": [
@@ -505,5 +571,101 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Pellwick & Co is a mid-sized freight logistics firm; the third floor is the 22-person dispatch team, who move about 4,000 pallets a week and run on snacks.",
+      "Gary in dispatch has brought blueberry muffins every Tuesday for seven years. Today is also Brenda from accounts' 50th, and her pink cake with seven candles is waiting in the break area.",
+      "Officer Dolores Vega has served 19 years with the Sugar Enforcement Unit: 1,208 confiscations, zero warnings, and she has never once saluted anything on a desk.",
+      "Theo runs route planning from the desk by the window. He keeps a bonsai juniper, a spotless keyboard and one can on a coaster; he has never been flagged.",
+      "The raid starts at 10:42am, eighteen minutes before the cake."
+    ],
+    "locations": {
+      "office": {
+        "foreground": [
+          "a clear sky-blue carpet tile aisle running away from camera, one paper water cone dropped on it",
+          "the corner of a silver desk at the lower left edge with a potted spider plant spilling over it"
+        ],
+        "midground": [
+          "silver desks either side of the aisle, one monitor bezel fringed with pastel blank sticky notes",
+          "a mug of pens, a spare pair of reading glasses and a white clip-on desk fan with a sky-blue ribbon on the nearer desks",
+          "a tangle of charger cables with a strip of coloured tape on each plug",
+          "sky-blue rolling chairs at slightly different heights, one with a mustard cardigan over its back",
+          "a grey filing cabinet with fridge magnets shaped like fruit and a snake plant on top",
+          "a whiteboard of coloured marker boxes, arrows and dots, no words",
+          "a water cooler with a stack of paper cones and a sky-blue bottle",
+          "a printer with a jammed page sticking half out",
+          "a cluster of pink and silver balloons tied to a chair in the break area, one already sagging"
+        ],
+        "background": [
+          "the frosted glass double doors at the far end with an etched pelican shape",
+          "a round wall clock with a plain face and black hands",
+          "a shelf of binders with plain coloured spines",
+          "a large framed abstract route map of coloured lines and dots with no labels",
+          "tall windows with white blinds half down and pale city buildings beyond",
+          "hanging pothos in white pots along a ceiling track"
+        ]
+      }
+    },
+    "personal_props": {
+      "dolores": [
+        "the matte black detector wand with one round light, a strip of red tape wound round the grip and a scuffed belt clip",
+        "mirrored aviators with a fine scratch across the left lens",
+        "a pocket notepad of pencil tally marks tucked in her breast pocket",
+        "a silver whistle on a navy lanyard",
+        "a duty belt pouch of round red dot stickers for tagging confiscations"
+      ],
+      "theo": [
+        "matte grey over-ear headphones with a strip of sky-blue tape on the band",
+        "a small bonsai juniper in a shallow grey pot",
+        "a white keyboard with plain sky-blue keycaps and no legends",
+        "a round cork coaster under the can",
+        "a tiny yellow rubber duck on top of his monitor"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "wand",
+        "name": "The sugar detector",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a matte black handheld detector wand the length of a forearm, a flat paddle head with a single small round light at the tip, a ribbed rubber grip wound with a strip of red tape, a scuffed silver belt clip, shown front and side views with the light glowing red in one and soft green in the other. No screen, no letters, numbers or logos anywhere. No view labels, captions, rulers or scale bars on the sheet."
+      },
+      {
+        "id": "tub",
+        "name": "The evidence tub",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a clear plastic storage tub with a bright red snap lid, a band of red and white striped tape across it, crammed with confiscated treats: plain blueberry muffins, glazed doughnuts in a plain paper bag, cookies and a slice of pink cake on a paper plate, each tagged with a round red dot sticker. No wrappers with text, no letters, numbers or logos anywhere. No view labels, captions, rulers or scale bars on the sheet."
+      },
+      {
+        "id": "cake",
+        "name": "Brenda's birthday cake",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a round two-layer cake with smooth pink frosting, a piped white border, sky-blue sprinkles and seven thin striped candles, unlit, on a silver foil cake board, a plastic cake knife beside it. No writing on the cake, no letters, numbers or logos anywhere. No view labels, captions, rulers or scale bars on the sheet."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Pellwick & Co",
+        "mark": "a simple pelican silhouette",
+        "colors": "navy and sky blue",
+        "appears_on": "the etching on the frosted doors, lanyards, the mugs in the break area",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Sugar Enforcement Unit",
+        "mark": "a sugar cube inside a red circle with a diagonal bar",
+        "colors": "navy and signal red",
+        "appears_on": "the armband, the evidence tub tape, the red dot stickers",
+        "text_in_post": "unit name on the opening title card only"
+      }
+    ],
+    "wear_and_time": "10:42am on an ordinary Tuesday. The office is mid-morning busy: half-drunk coffees on desks, a cardigan on a chair, crumbs on keyboards, the printer jammed, and the birthday balloons already starting to sag. Only Theo's desk is perfectly tidy.",
+    "sound_world": [
+      "the detector's rising hum and a harsh double beep on sugar",
+      "a soft single chime when the light turns green",
+      "frosted glass doors whooshing and bumping shut",
+      "chair casters rolling fast over carpet tiles",
+      "a muffin thudding into a plastic bin",
+      "a paper bag crinkling",
+      "Theo's steady keyboard clacking",
+      "the heel snap of the salute"
+    ]
   }
 }

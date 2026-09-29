@@ -1,0 +1,60 @@
+{
+  "key": "comic",
+  "name": "Comic book / motion comic",
+  "definition": "A printed comic book brought to life: inked panels on paper, halftone colour, and a camera that travels through the page from panel to panel. The story is told in issues, and the product arrives on the page turn that starts the next issue.",
+  "why_it_sells": "Comics compress a problem, a villain and a victory into panels the eye reads in a second, so a relatable pain (the afternoon slump) can be turned into a literal villain and beaten on screen. The printed-page texture and the page-turn device stop the scroll, and the panel-by-panel reading gives natural beats for captions. Illustrated and animated ads are the breakout AI format of 2026; the comic variant stands out because almost nobody runs it.",
+  "visual_grammar": "Modern American comic art: bold confident black inks with varied line weight, spot blacks, flat cel colour overprinted with visible Ben-Day halftone dots, slight CMYK misregistration on the edges, off-white newsprint paper with a faint fibre texture. Every keyframe is a panel with a thick black border and a white gutter; the page edge can show. Dynamic foreshortening on action panels, a splash panel for the big hit, speed lines and burst shapes drawn as ink. Each panel leaves one clean flat area (sky, wall, gutter-side negative space) where balloons and SFX lettering are placed in post. The villain is a visual metaphor for the problem the product solves.",
+  "camera": "Motion comic camera: pans across a panel, push-ins into a single panel, a slide through the gutter into the next panel, a page flip for the issue change, and 2.5D parallax where foreground, character and background layers separate slightly. Characters move with limited, puppet-like motion (a blink, a cape ripple, an arm swing); the camera does most of the work. The product panel is locked with a slow push.",
+  "light": "Comic lighting is graphic: hard rim light drawn as a colour shape, heavy spot-black shadows, a halftone sunburst behind heroic moments, and a sickly grey-green wash on everything the villain touches.",
+  "texture": "Newsprint paper grain, halftone dot screen visible at close range, slightly off-register colour plates, ink bleed on thick lines. No gradients that look digital, no photoreal skin, no 3D.",
+  "palette_rule": "The hero owns the product's colours (sky-blue cape, silver emblem) so the can reads as his power source; the villain and the slumped world are desaturated grey and olive; primary comic accents (golden yellow bursts, red for impact) carry the action. After the product, colour floods back into the panels.",
+  "pacing": "Hook in under 2 seconds on a heroic splash with the title in post. One panel every 2 to 3 seconds, with the camera always moving between panels. The villain beat drops the colour. The page turn to the next issue is the hinge before the product; the product panel holds at least 1.5 s; the action splash is the longest beat; end on a calm final panel with a next-issue box.",
+  "sound": "Native sound from the generations: office room tone, city wind, cape flaps, the villain's low groan. Comic-specific: a real paper page-flip at the issue change, punchy foley under every SFX word (the SFX lettering is also heard). Score is a brassy retro superhero march, generated per movement and stitched at picture cuts.",
+  "caption_look": {
+    "font": "Comic lettering face (a Wild Words style hand-letter font, all caps)",
+    "size": "4.2% of frame height inside balloons",
+    "color": "#111111 text in white balloons with a 3px black outline and a tail to the speaker",
+    "active_word": "the word being spoken is set in bold italic, as comic letterers stress words",
+    "shadow": "none; balloons have a hard 3px black outline",
+    "position": "inside the clean area each keyframe leaves for it, never over faces or the product; narration in yellow rectangular caption boxes at panel tops",
+    "max_words_on_screen": 7,
+    "box": true,
+    "sfx_lettering": "SFX (KSSHHK, WHOOSH, KA-POW) in a heavy display face with a yellow to red fill, black outline and a 3D drop, animated with a 3 frame scale pop",
+    "balloon_types": "round white balloons for speech, a wobbly grey balloon with drippy edges for the villain, a jagged burst balloon for shouts",
+    "rule": "every word of lettering is rendered in code in post; keyframes contain no letters at all"
+  },
+  "model_vocab": [
+    "modern American comic book panel",
+    "bold black ink line art with varied line weight",
+    "Ben-Day halftone dots",
+    "CMYK misregistration",
+    "off-white newsprint paper texture",
+    "spot blacks",
+    "dynamic foreshortening",
+    "splash panel",
+    "thick black panel border and white gutter",
+    "ink speed lines and burst shapes"
+  ],
+  "failure_modes": [
+    "the model fills balloons and SFX bursts with gibberish letters: never ask it for balloons or SFX; ask for a clean flat empty area of sky or wall instead and draw balloons in post",
+    "a panel border with multiple sub-panels invites the model to invent tiny text in every panel: one panel per keyframe, border around the whole frame",
+    "the hero's chest emblem turns into a letter or a number: describe it as a plain silver circle with a lightning bolt, no letters or numbers",
+    "clock faces sprout numerals that come back garbled: say a plain clock with hands and simple tick marks, no numerals",
+    "the can gets inked into a generic soda or its bulls vanish under the halftone: say the can is inked in comic style but its label, red wordmark, two red bulls, gold sun and SUGARFREE are copied exactly from the product reference, halftone lighter on the can",
+    "the photoreal product reference pulls the panel toward a photo: restate that the whole panel including hands is hand-inked comic art",
+    "office screens show fake spreadsheets with pseudo-text: say the monitor shows only abstract coloured bars",
+    "clock hands come back at the wrong time (asked for five past three, got five o'clock): only show a clock when the time is a simple hour, otherwise leave the clock out and give the time in a caption box",
+    "a product held at arm's length in a medium panel shrinks and its label turns to mush: on the brand-line panel, bring the can into the foreground at about a third of the frame height",
+    "character cards pick up a name label (THE SLUMP): say no name label; crop it off before the card is used as a video reference",
+    "'sunny city skyline' drifts to recognisable real towers: say an invented art-deco skyline with no recognisable real landmarks"
+  ],
+  "negatives": [
+    "no real brands, logos or sponsor names except the product",
+    "no letters, words, numbers or lettering of any kind generated by the model, no speech balloons, no sound effect words",
+    "no photorealism, no 3D render look",
+    "no extra fingers",
+    "no real comic publisher marks or trade dress"
+  ],
+  "prompt_prefix": "Modern American comic book panel, vertical 9:16 frame with a thick black panel border and a thin white gutter, bold black ink line art with varied line weight, flat colours with visible Ben-Day halftone dots, slight CMYK misregistration, off-white newsprint paper texture. Hand-inked comic art, not photoreal.",
+  "asset_style": "Drawn as a comic book character turnaround: bold black ink line art, flat colours with light halftone dots, plain off-white paper background, no text, no labels."
+}

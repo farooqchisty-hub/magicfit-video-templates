@@ -53,7 +53,7 @@
     {
       "id": "fridge",
       "name": "Shelf two at midnight",
-      "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary white family refrigerator at night seen at shelf height, a glass shelf with three upturned bottle caps set out in a row like tiny debate podiums, an open egg carton of white eggs to one side like an audience, a clear glass butter dish, a pickle jar and a mustard bottle with blank labels in the soft-focus back, frost on the back wall, cold white-blue fridge bulb light from the top back, condensation on the glass shelf. No characters with faces, no readable text, no logos."
+      "plate_prompt": "Photoreal macro product photography, vertical 9:16: the inside of an ordinary white family refrigerator at night seen at shelf height, a glass shelf with three upturned bottle caps set out in a row like tiny debate podiums, an open egg carton of white eggs to one side like an audience, a clear glass butter dish, a pickle jar and a mustard bottle with blank labels in the soft-focus back, frost on the back wall, cold white-blue fridge bulb light from the top back, condensation on the glass shelf. The bottle caps, eggs and all other objects are plain inanimate objects with no eyes, no faces and no arms. No characters, no readable text, no logos."
     }
   ],
   "adaptation": {
@@ -228,9 +228,16 @@
       "caption": "My fellow leftovers! More sugar for everyone!",
       "refs": [
         "fizz",
-        "fridge"
+        "fridge",
+        "podium"
       ],
-      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Buck Fizzwell, the cola bottle from the character sheet, standing on an upturned bottle cap like a podium on the glass shelf, his animated face on the plain red label mid-shout with a huge toothy politician grin and bushy white eyebrows raised, one thin black noodle arm raised in a fist pump, condensation on the glass, cold white-blue fridge light from above. Eggs in an open carton blurred in the foreground like an audience. The cola bottle's purple label has only a single gold star, no letters."
+      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Buck Fizzwell, the cola bottle from the character sheet, standing on an upturned bottle cap like a podium on the glass shelf, his animated face on the plain red label mid-shout with a huge toothy politician grin and bushy white eyebrows raised, one thin black noodle arm raised in a fist pump, condensation on the glass, cold white-blue fridge light from above. Eggs in an open carton blurred in the foreground like an audience. The cola bottle's purple label has only a single gold star, no letters.",
+      "dressing": [
+        "the toothpick flag with a plain purple triangle",
+        "the red rubber-band sash across his label",
+        "the crinkled foil stage mat under his bottle-cap podium",
+        "the egg carton with one empty cup blurred in the foreground"
+      ]
     },
     {
       "id": "S02",
@@ -245,9 +252,16 @@
       "caption": "Vote for me. I'm basically breakfast.",
       "refs": [
         "juice",
-        "fridge"
+        "fridge",
+        "podium"
       ],
-      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Brenda Brightbloom, the orange juice carton from the character sheet, standing behind an upturned bottle cap podium on the glass shelf, her animated face on the plain orange panel fluttering long eyelashes with a sweet smug smile, thin white noodle arms clasped politely, cold fridge light, frost on the back wall. The carton has only a simple orange-slice drawing, no letters."
+      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Brenda Brightbloom, the orange juice carton from the character sheet, standing behind an upturned bottle cap podium on the glass shelf, her animated face on the plain orange panel fluttering long eyelashes with a sweet smug smile, thin white noodle arms clasped politely, cold fridge light, frost on the back wall. The carton has only a simple orange-slice drawing, no letters.",
+      "dressing": [
+        "the green twist-tie bow on her gable top",
+        "the bendy paper straw tucked behind her spout",
+        "half a lemon on a saucer behind her",
+        "frost on the back wall"
+      ]
     },
     {
       "id": "S03",
@@ -262,9 +276,16 @@
       "caption": "And the silver can?",
       "refs": [
         "pat",
-        "fridge"
+        "fridge",
+        "eggs"
       ],
-      "keyframe_prompt": "Medium shot inside the fridge from the location reference: Moderator Pat, the stick of butter in a clear glass butter dish from the character sheet, the glass lid tipped back like a hat, peering over small rectangular reading glasses with a deadpan news-anchor face, turning toward screen right. Beside him an open carton of white eggs, each egg with simple dot eyes, all turned the same way to look. Cold fridge light, condensation."
+      "keyframe_prompt": "Medium shot inside the fridge from the location reference: Moderator Pat, the stick of butter in a clear glass butter dish from the character sheet, the glass lid tipped back like a hat, peering over small rectangular reading glasses with a deadpan news-anchor face, turning toward screen right. Beside him an open carton of white eggs, each egg with simple dot eyes, all turned the same way to look. Cold fridge light, condensation.",
+      "dressing": [
+        "the butter knife across two sugar cubes as his desk",
+        "an upturned thimble bell",
+        "the empty egg cup in the front row",
+        "the pickle jar with a dented lid in the back"
+      ]
     },
     {
       "id": "S04",
@@ -279,9 +300,16 @@
       "caption": "",
       "refs": [
         "product",
-        "fridge"
+        "fridge",
+        "podium"
       ],
-      "keyframe_prompt": "Medium shot inside the fridge from the location reference, camera slightly above the can's rim: the exact can from the product reference slides upright into place on the glass shelf beside an upturned bottle cap, trailing a puff of cold mist, front label facing camera, fully visible and undistorted, condensation beads. Its face is only two small glossy animated eyes peeking up over the top rim, sitting on the silver lid either side of the pull tab, cool and confident; no face, mouth or arms on the label. It is the only can in the fridge. Cold white-blue fridge light with a clean rim on the can."
+      "keyframe_prompt": "Medium shot inside the fridge from the location reference, camera slightly above the can's rim: the exact can from the product reference slides upright into place on the glass shelf beside an upturned bottle cap, trailing a puff of cold mist, front label facing camera, fully visible and undistorted, condensation beads. Its face is only two small glossy animated eyes peeking up over the top rim, sitting on the silver lid either side of the pull tab, cool and confident; no face, mouth or arms on the label. It is the only can in the fridge. Cold white-blue fridge light with a clean rim on the can.",
+      "dressing": [
+        "the crinkled foil stage mat",
+        "a puff of cold mist on wet glass",
+        "a green twist tie on the shelf",
+        "the cracked bulb cover glowing above"
+      ]
     },
     {
       "id": "S05",
@@ -300,7 +328,12 @@
         "fizz",
         "juice"
       ],
-      "keyframe_prompt": "Hero close-up inside the fridge from the location reference, camera only 10 to 15 degrees above the rim so the can's full slim height and its lid both show: the exact can from the product reference standing upright on the glass shelf, front label facing camera, fully visible and undistorted, frosty condensation beads, crisp cool rim light. Its face is only two small glossy animated eyes with catchlights peeking up over the top rim, sitting on the silver lid either side of the pull tab, with tiny floating brows in a calm confident look; the pull tab is slightly lifted like a mouth mid-word. No face, mouth or arms on the label. Out of focus in the background only the purple-labelled clear cola bottle and the orange juice carton from their character sheets, with no letters; no other bottles or cartons. The can is the brightest object in frame."
+      "keyframe_prompt": "Hero close-up inside the fridge from the location reference, camera only 10 to 15 degrees above the rim so the can's full slim height and its lid both show: the exact can from the product reference standing upright on the glass shelf, front label facing camera, fully visible and undistorted, frosty condensation beads, crisp cool rim light. Its face is only two small glossy animated eyes with catchlights peeking up over the top rim, sitting on the silver lid either side of the pull tab, with tiny floating brows in a calm confident look; the pull tab is slightly lifted like a mouth mid-word. No face, mouth or arms on the label. Out of focus in the background only the purple-labelled clear cola bottle and the orange juice carton from their character sheets, with no letters; no other bottles or cartons. The can is the brightest object in frame.",
+      "dressing": [
+        "condensation puddle on the shelf edge",
+        "the dried amber drip on the frosted back wall",
+        "the cilantro with a blue rubber band softly blurred"
+      ]
     },
     {
       "id": "S06",
@@ -317,7 +350,13 @@
         "fizz",
         "fridge"
       ],
-      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Buck Fizzwell, the cola bottle from the character sheet, on his bottle-cap podium, tilting back in a scoffing belly laugh, eyes squeezed shut, mouth wide open, noodle arms on his sides like hands on hips, bubbles fizzing up inside the dark cola, cold fridge light. The cola bottle's purple label has only a single gold star, no letters."
+      "keyframe_prompt": "Medium close-up inside the fridge from the location reference: Buck Fizzwell, the cola bottle from the character sheet, on his bottle-cap podium, tilting back in a scoffing belly laugh, eyes squeezed shut, mouth wide open, noodle arms on his sides like hands on hips, bubbles fizzing up inside the dark cola, cold fridge light. The cola bottle's purple label has only a single gold star, no letters.",
+      "dressing": [
+        "his bent crown cap",
+        "bubbles racing up inside him",
+        "the toothpick flag waving",
+        "the mustard bottle with a crusted cap behind"
+      ]
     },
     {
       "id": "S07",
@@ -336,7 +375,13 @@
         "juice",
         "product"
       ],
-      "keyframe_prompt": "Wide shot of the whole shelf inside the fridge from the location reference at the instant the door opens: bright warm kitchen light floods in from the left, the cola bottle from its character sheet, the orange juice carton from its character sheet and the exact can from the product reference stand in a row on their bottle-cap podiums, all frozen still like ordinary objects, faces neutral and motionless, arms dropped flat; the can's two small eyes on its lid are fixed and still, its label facing camera and undistorted, the only can in the fridge. Eggs frozen in their carton. Labels have no letters except the product's."
+      "keyframe_prompt": "Wide shot of the whole shelf inside the fridge from the location reference at the instant the door opens: bright warm kitchen light floods in from the left, the cola bottle from its character sheet, the orange juice carton from its character sheet and the exact can from the product reference stand in a row on their bottle-cap podiums, all frozen still like ordinary objects, faces neutral and motionless, arms dropped flat; the can's two small eyes on its lid are fixed and still, its label facing camera and undistorted, the only can in the fridge. Eggs frozen in their carton. Labels have no letters except the product's. The light from the open door is a strong warm golden-orange kitchen glow washing over everything from the left, clearly warmer than the fridge light. Every face has its mouth closed in a flat neutral line, no smiles, eyebrows level.",
+      "dressing": [
+        "the three bottle-cap podiums on foil mats",
+        "the egg carton audience frozen",
+        "the ramekin of rice under cling film",
+        "a stray frozen pea on the shelf edge"
+      ]
     },
     {
       "id": "S08",
@@ -352,7 +397,12 @@
       "refs": [
         "marisol"
       ],
-      "keyframe_prompt": "Low point-of-view shot from inside a refrigerator looking out and up past the edge of a glass shelf: Marisol, the woman from the character sheet, in navy scrubs with a plain lanyard, dark hair in a messy bun, leaning into the open fridge at midnight, her face lit cool white by the fridge light, rubbing one tired eye with the back of her hand, a dark kitchen behind her. Photoreal. The shelf edge in the foreground is empty glass with only a blurred jar lid at the very bottom corner; no cans, no bottles and no faces anywhere in this shot."
+      "keyframe_prompt": "Low point-of-view shot from inside a refrigerator looking out and up past the edge of a glass shelf: Marisol, the woman from the character sheet, in navy scrubs with a plain lanyard, dark hair in a messy bun, leaning into the open fridge at midnight, her face lit cool white by the fridge light, rubbing one tired eye with the back of her hand, a dark kitchen behind her. Photoreal. The shelf edge in the foreground is empty glass with only a blurred jar lid at the very bottom corner; no cans, no bottles and no faces anywhere in this shot.",
+      "dressing": [
+        "the tiny red enamel heart pin on her lanyard",
+        "the claw clip in her bun",
+        "the dark kitchen with a stove clock glow and a pair of work clogs by the back door"
+      ]
     },
     {
       "id": "S09",
@@ -371,7 +421,12 @@
         "juice",
         "fridge"
       ],
-      "keyframe_prompt": "Insert shot inside the fridge from the location reference: a woman's hand with short nails and a navy scrubs sleeve reaches in past the frozen cola bottle and orange juice carton from their character sheets and closes around the exact can from the product reference, lifting it upright off the glass shelf, front label facing camera, fully visible and undistorted, fingers around the back of the can. The can's two small eyes on its lid are wide with a hint of delight. The cola and juice stand frozen, faces neutral. Warm kitchen light from outside, cool fridge light inside. Only one can of the product."
+      "keyframe_prompt": "Insert shot inside the fridge from the location reference: a woman's hand with short nails and a navy scrubs sleeve reaches in past the frozen cola bottle and orange juice carton from their character sheets and closes around the exact can from the product reference, lifting it upright off the glass shelf, front label facing camera, fully visible and undistorted, fingers around the back of the can. The can's two small eyes on its lid are wide with a hint of delight. The cola and juice stand frozen, faces neutral. Warm kitchen light from outside, cool fridge light inside. Only one can of the product.",
+      "dressing": [
+        "her plain black watch with a cracked strap",
+        "the navy scrubs cuff",
+        "the twist tie and puddle on the shelf"
+      ]
     },
     {
       "id": "S10",
@@ -390,7 +445,13 @@
         "juice",
         "fridge"
       ],
-      "keyframe_prompt": "Medium wide shot inside the fridge from the location reference after the door has closed, cold fridge light: an empty upturned bottle-cap podium in the middle where the can stood; Moderator Pat, the butter in the glass dish from his character sheet, cheering with his glass lid flipped up in the air like a thrown hat; the white eggs in their open carton cheering with simple dot eyes and open mouths; on the left the cola bottle from its character sheet turned toward the orange juice carton from its character sheet with a deflated sheepish face, the juice rolling her eyes. Labels have only simple shapes, no letters."
+      "keyframe_prompt": "Medium wide shot inside the fridge from the location reference after the door has closed, cold fridge light: an empty upturned bottle-cap podium in the middle where the can stood; Moderator Pat, the butter in the glass dish from his character sheet, cheering with his glass lid flipped up in the air like a thrown hat; the white eggs in their open carton cheering with simple dot eyes and open mouths; on the left the cola bottle from its character sheet turned toward the orange juice carton from its character sheet with a deflated sheepish face, the juice rolling her eyes. Labels have only simple shapes, no letters.",
+      "dressing": [
+        "the empty bottle-cap podium on its foil mat",
+        "the thimble bell knocked over",
+        "the empty egg cup",
+        "the cracked bulb cover flickering"
+      ]
     },
     {
       "id": "S11",
@@ -406,7 +467,13 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Pack shot on a kitchen counter by the front door at night: the exact can from the product reference standing upright, front label facing camera, fully visible and undistorted, fresh condensation beads, beside a set of house keys and a plain lanyard with a blank ID badge, warm hallway light and a cool blue window behind, camera slightly above the rim. The can's face is only two small glossy animated eyes on its silver lid peeking over the rim, one eye closed in a slow wink; no face, mouth or arms on the label. The can is the brightest object in frame, clean dark space above it for a title."
+      "keyframe_prompt": "Pack shot on a kitchen counter by the front door at night: the exact can from the product reference standing upright, front label facing camera, fully visible and undistorted, fresh condensation beads, beside a set of house keys and a plain lanyard with a blank ID badge, warm hallway light and a cool blue window behind, camera slightly above the rim. The can's face is only two small glossy animated eyes on its silver lid peeking over the rim, one eye closed in a slow wink; no face, mouth or arms on the label. The can is the brightest object in frame, clean dark space above it for a title.",
+      "dressing": [
+        "house keys with a small rubber cactus keychain",
+        "the plain lanyard with a blank badge and red heart pin",
+        "a folded pair of navy scrub pants on the counter edge",
+        "a small plain lunch bag zipped half open"
+      ]
     }
   ],
   "units": [
@@ -580,5 +647,106 @@
     "first_pass_usd": 8.37,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "The fridge belongs to Marisol Vega in a small house in San Antonio; it was bought second-hand in 2014 and its door seal is tired, so frost builds on the back wall.",
+      "Shelf two has held an election every night since the fridge arrived. Whoever the voter picks goes with her; everyone else waits another night.",
+      "Buck Fizzwell has won nine elections in a row, mostly at weekend barbecues, and has never once been picked for a work night.",
+      "The egg-carton audience is eleven eggs; the twelfth went into this morning's omelette, and its empty cup sits in the front row.",
+      "Marisol starts a twelve-hour night shift at 12:30am at the fictional St. Aldric Hospital. Whoever she picks tonight rides in her bag until dawn."
+    ],
+    "materials_rule": "Everything is a real grocery or kitchen object shot as photoreal macro product photography; the only stylization is the faces (glossy animated eyes and mouths that sit on the object's surface and catch the same fridge light) and the rivals' thin noodle arms. Debate furniture is improvised from real fridge and kitchen odds and ends: metal bottle caps, crinkled foil, toothpicks, rubber bands, twist ties, sugar cubes, a butter knife. Faces exist only on the named characters and the egg audience in the shots where they act: location plates and prop sheets show plain objects with no eyes. Every surface carries real condensation, frost, smears and crumbs.",
+    "locations": {
+      "fridge": {
+        "foreground": [
+          "beads of condensation and a small puddle along the front edge of the glass shelf",
+          "a green paper twist tie curled on the glass",
+          "each upturned metal bottle-cap podium standing on a round of crinkled foil like a tiny stage mat",
+          "a single stray frozen pea near the shelf edge"
+        ],
+        "midground": [
+          "the open grey paper-pulp egg carton of white eggs with one empty cup in the front row",
+          "the clear glass butter dish on a folded paper napkin",
+          "half a lemon cut side down on a small white saucer",
+          "a glass ramekin of leftover rice under wrinkled cling film",
+          "a bunch of cilantro held with a blue rubber band"
+        ],
+        "background": [
+          "a pickle jar with a blank label and a dent in its gold lid",
+          "a mustard squeeze bottle with a crusted yellow cap and a blank label",
+          "frost furring the ridged white back wall",
+          "a plastic takeout container on the upper shelf with a blank strip of masking tape",
+          "a dried amber drip of old juice on the back wall",
+          "the fridge bulb cover with a hairline crack, glowing cold white-blue"
+        ]
+      }
+    },
+    "personal_props": {
+      "fizz": [
+        "a gold metal crown cap with one crimp bent from a bad fall off the door shelf",
+        "a toothpick flag with a tiny plain purple paper triangle he waves",
+        "a red rubber band worn across his label like a campaign sash",
+        "bubbles inside him that rise faster whenever he exaggerates"
+      ],
+      "juice": [
+        "a green twist-tie bow on her gable top",
+        "a bendy paper straw tucked behind her spout like a pen behind an ear",
+        "a faint crease on her side from being squashed behind the milk"
+      ],
+      "pat": [
+        "a glass lid he wears tipped back like a hat, with one fingerprint smudge on it",
+        "small rectangular reading glasses",
+        "a butter knife laid across two sugar cubes as his desk",
+        "an upturned thimble he taps like a bell for order"
+      ],
+      "marisol": [
+        "navy scrubs with a plain pen with a sky-blue cap clipped in the chest pocket",
+        "a plain lanyard with a blank white badge and a tiny red enamel heart pin",
+        "a plain black wristwatch with a cracked strap",
+        "a claw hair clip holding her messy bun",
+        "house keys with a small rubber cactus keychain"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "podium",
+        "name": "The bottle-cap debate podiums",
+        "prop_prompt": "Photoreal macro product photography prop reference sheet on a plain mid-grey background showing exactly three objects in a single row and nothing else: three plain upturned silver metal bottle caps with crimped edges and no printing, each standing on a small round of crinkled kitchen foil like a stage mat, a toothpick stuck upright beside each one with a tiny coloured bead on top like a microphone. Cold blue-white light, condensation beads. These are plain inanimate objects: no eyes, no faces, no arms or legs, no eggs, no other props. No letters, no logos. No captions, no labels, no annotation text anywhere on the sheet."
+      },
+      {
+        "id": "eggs",
+        "name": "The egg-carton audience",
+        "prop_prompt": "Photoreal macro product photography prop reference sheet on a plain mid-grey background: an open grey paper-pulp egg carton holding eleven plain white eggs and one empty cup in the front row, each egg with only two simple black dot eyes; the carton lid is torn slightly at one hinge. Front and three-quarter views, cold blue-white fridge light. No letters, no stamps, no logos. No captions, no labels, no annotation text anywhere on the sheet."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Fizzwell Cola",
+        "mark": "a single gold star",
+        "colors": "purple and gold",
+        "appears_on": "Buck's plain purple label, his toothpick flag",
+        "text_in_post": "the speaker tag Cola only"
+      },
+      {
+        "name": "Brightbloom Orange Juice",
+        "mark": "a simple orange-slice drawing",
+        "colors": "orange and white",
+        "appears_on": "Brenda's front panel",
+        "text_in_post": "the speaker tag Juice only"
+      }
+    ],
+    "wear_and_time": "A Tuesday, 12:04am. The door was last opened at 6pm. Frost has built up on the back wall because the seal is tired, the bulb flickers now and then, one egg is gone, a drip of old juice has dried on the back wall, and the shelf is wet from the rice put away warm.",
+    "sound_world": [
+      "the fridge compressor's low hum under everything",
+      "the faint buzz of the fridge bulb",
+      "bubbles fizzing up inside the cola",
+      "a glass lid clinking as Pat tips it",
+      "a thimble tapped like a bell",
+      "tiny squeaky cheers from the egg carton",
+      "the door seal's suction pop and a wash of kitchen sound",
+      "the can sliding with a squeak on wet glass and a hiss of cold mist"
+    ],
+    "product_adjacent_props": "The podiums, egg audience and butter moderator are product-agnostic; for non-fridge products the same furniture moves to the bathroom cabinet or the desk drawer (bottle caps become jar lids, eggs become cotton buds in their tub)."
   }
 }

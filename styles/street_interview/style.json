@@ -43,7 +43,11 @@
     "the reveal moment shows two cans: say exactly one can in the frame",
     "'shot on a phone' makes the model burn in camera interface overlays (REC dot, timecode, battery icon, date stamp): add 'no camera interface overlay, no REC indicator, no timestamp' to every keyframe",
     "'sleeve slid down' reveals only half the label: say the sleeve is completely removed and crumpled in the other hand, the whole can uncovered top to bottom",
-    "a render that runs while a cast card has failed invents a new face: re-roll every shot that referenced the missing card once the card exists"
+    "a render that runs while a cast card has failed invents a new face: re-roll every shot that referenced the missing card once the card exists",
+    "naming a prop by its purpose (a sugar tally board) gets the purpose printed on it as chalk words: describe the look only (a small A-frame chalkboard of chalk tick marks)",
+    "a hexagon or benzene lapel pin comes back as a six-pointed star: describe a ball-and-stick molecule pin instead",
+    "a prop reference added to the host's opening close-up pulled her face off the cast card: keep her face shots to cast card and location, describe the mic in text",
+    "asking for a clean area for a card can draw a literal white box into the sky: ask for plain open sky with nothing drawn there"
   ],
   "negatives": [
     "no real brands, logos or sponsor names except the product",

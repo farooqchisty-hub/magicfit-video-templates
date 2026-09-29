@@ -194,7 +194,13 @@
         "dax",
         "bowl"
       ],
-      "keyframe_prompt": "Dramatic still, low angle looking up at Dax, the young man from the character sheet (Black American with deep brown skin, silver-bleached undercut, amber eyes, black hoodie with crimson sleeves), standing on the steel coping edge of the skate bowl from the location reference, one foot on a plain charcoal skateboard with four wheels, smirking down at the viewer, a glint in one eye, radial crimson and black speed lines bursting behind him over the magenta sunset sky. Upright vertical composition, level horizon. No text, no speech bubbles."
+      "keyframe_prompt": "Dramatic still, low angle looking up at Dax, the young man from the character sheet (Black American with deep brown skin, silver-bleached undercut, amber eyes, black hoodie with crimson sleeves), standing on the steel coping edge of the skate bowl from the location reference, one foot on a plain charcoal skateboard with four wheels, smirking down at the viewer, a glint in one eye, radial crimson and black speed lines bursting behind him over the magenta sunset sky. Upright vertical composition, level horizon. No text, no speech bubbles.",
+      "dressing": [
+        "three crimson tape stripes on the tail of his charcoal board",
+        "his crimson wristband and thin silver chain",
+        "the steel coping edge scarred with grind marks",
+        "sky-blue and crimson pennants flapping behind"
+      ]
     },
     {
       "id": "S02",
@@ -209,9 +215,16 @@
       "caption": "Two falls. One run left.",
       "refs": [
         "mika",
-        "bowl"
+        "bowl",
+        "deck"
       ],
-      "keyframe_prompt": "High-angle wide shot looking down into the skate bowl from the location reference at sunset: Mika, the young woman from the character sheet (black high ponytail with one sky-blue streak, bandage on her left cheek, oversized silver-grey hoodie, sky-blue knee pads), sitting on the concrete at the bottom of the bowl after a fall, breathing hard, looking down, her plain sky-blue skateboard flipped upside down beside her showing exactly four wheels, silhouetted crowd at the railing above, long sunset shadows. Upright vertical composition, level horizon. No text."
+      "keyframe_prompt": "High-angle wide shot looking down into the skate bowl from the location reference at sunset: Mika, the young woman from the character sheet (black high ponytail with one sky-blue streak, bandage on her left cheek, oversized silver-grey hoodie, sky-blue knee pads), sitting on the concrete at the bottom of the bowl after a fall, breathing hard, looking down, her plain sky-blue skateboard flipped upside down beside her showing exactly four wheels, silhouetted crowd at the railing above, long sunset shadows. Upright vertical composition, level horizon. No text.",
+      "dressing": [
+        "black wheel skid marks sweeping round the bowl walls",
+        "the rusted crimson mooring bollard in the deep end",
+        "her upside-down deck with a grey tape strip and a silver star on the grip",
+        "sticker-covered railing posts with the silhouetted crowd"
+      ]
     },
     {
       "id": "S03",
@@ -227,7 +240,12 @@
       "refs": [
         "mika"
       ],
-      "keyframe_prompt": "Extreme close-up anime shot of Mika, the young woman from the character sheet: her big brown eyes snapping up in fierce determination with bright specular highlights and the sunset reflected in them, bandage on her left cheek, a sky-blue streak in her black hair blowing across the frame, soft horizontal speed lines at the edges. No text."
+      "keyframe_prompt": "Extreme close-up anime shot of Mika, the young woman from the character sheet: her big brown eyes snapping up in fierce determination with bright specular highlights and the sunset reflected in them, bandage on her left cheek, a sky-blue streak in her black hair blowing across the frame, soft horizontal speed lines at the edges. No text.",
+      "dressing": [
+        "a tiny silver bird charm swinging on her backpack zip",
+        "a stray strand of sky-blue hair",
+        "painted light shafts behind"
+      ]
     },
     {
       "id": "S04",
@@ -244,7 +262,12 @@
         "product",
         "mika"
       ],
-      "keyframe_prompt": "Low-angle anime insert: a young woman's hand in a silver-grey hoodie sleeve raising the exact can from the product reference high against the low setting sun, the can upright, closed and undistorted with its label facing the viewer, drawn with clean cel shading and sparkling condensation, the label copied exactly from the product reference: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls facing each other in front of a gold sun, SUGARFREE in spaced red capitals. A drawn lens flare and light shafts around it, magenta and orange sky. The can is the sharpest, brightest object in the frame. No other text."
+      "keyframe_prompt": "Low-angle anime insert: a young woman's hand in a silver-grey hoodie sleeve raising the exact can from the product reference high against the low setting sun, the can upright, closed and undistorted with its label facing the viewer, drawn with clean cel shading and sparkling condensation, the label copied exactly from the product reference: sky blue and silver diagonal split, red Red Bull wordmark, two red charging bulls facing each other in front of a gold sun, SUGARFREE in spaced red capitals. A drawn lens flare and light shafts around it, magenta and orange sky. The can is the sharpest, brightest object in the frame. No other text.",
+      "dressing": [
+        "painted lens flare",
+        "gantry cranes silhouetted far behind",
+        "a strand of pennants in the corner"
+      ]
     },
     {
       "id": "S05",
@@ -260,7 +283,11 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Anime macro insert of the top of the exact can from the product reference, upright, held in a young woman's bare hand with a silver-grey hoodie sleeve, no gloves, her thumb lifting the ring pull, a burst of fine sky-blue and silver radial energy lines and sparkles exploding outward from the opening, white impact flash, the upper label of the can with the red Red Bull wordmark still visible and undistorted, drawn with clean cel shading. Dramatic power-up moment. No text, no sound effect lettering."
+      "keyframe_prompt": "Anime macro insert of the top of the exact can from the product reference, upright, held in a young woman's bare hand with a silver-grey hoodie sleeve, no gloves, her thumb lifting the ring pull, a burst of fine sky-blue and silver radial energy lines and sparkles exploding outward from the opening, white impact flash, the upper label of the can with the red Red Bull wordmark still visible and undistorted, drawn with clean cel shading. Dramatic power-up moment. No text, no sound effect lettering.",
+      "dressing": [
+        "her frayed silver-grey hoodie cuff",
+        "sparkling condensation drops flying"
+      ]
     },
     {
       "id": "S06",
@@ -277,7 +304,12 @@
         "mika",
         "product"
       ],
-      "keyframe_prompt": "Anime transformation shot, medium close-up of Mika, the young woman from the character sheet (black high ponytail with one sky-blue streak lifting in the wind, bandage on her left cheek, silver-grey hoodie), standing at the top of the skate bowl at sunset, a glowing sky-blue and silver energy aura rising around her body, her eyes glowing with blue light, a confident half smile. She holds the exact can from the product reference at chest height in one hand, open, upright, label facing the viewer and undistorted, drawn in clean cel shading, the can stays sharp and outside the glow. Magenta sunset sky behind. No text."
+      "keyframe_prompt": "Anime transformation shot, medium close-up of Mika, the young woman from the character sheet (black high ponytail with one sky-blue streak lifting in the wind, bandage on her left cheek, silver-grey hoodie), standing at the top of the skate bowl at sunset, a glowing sky-blue and silver energy aura rising around her body, her eyes glowing with blue light, a confident half smile. She holds the exact can from the product reference at chest height in one hand, open, upright, label facing the viewer and undistorted, drawn in clean cel shading, the can stays sharp and outside the glow. Magenta sunset sky behind. No text.",
+      "dressing": [
+        "the champion wall of painted skater silhouettes behind",
+        "unlit paper lanterns along the pier",
+        "her scuffed sky-blue knee pads"
+      ]
     },
     {
       "id": "S07",
@@ -292,9 +324,16 @@
       "caption": "",
       "refs": [
         "mika",
-        "bowl"
+        "bowl",
+        "deck"
       ],
-      "keyframe_prompt": "Extreme low-angle dynamic anime shot from the bottom of the skate bowl: Mika, the young woman from the character sheet (black ponytail with a sky-blue streak, silver-grey hoodie, sky-blue knee pads), dropping in down the curved concrete wall toward the camera, riding a plain sky-blue skateboard with exactly four wheels, a sky-blue and silver aura trail behind her like a comet tail, strong radial speed lines, sunset sky above the bowl rim. Normal gravity, her feet on the board. No text."
+      "keyframe_prompt": "Extreme low-angle dynamic anime shot from the bottom of the skate bowl: Mika, the young woman from the character sheet (black ponytail with a sky-blue streak, silver-grey hoodie, sky-blue knee pads), dropping in down the curved concrete wall toward the camera, riding a plain sky-blue skateboard with exactly four wheels, a sky-blue and silver aura trail behind her like a comet tail, strong radial speed lines, sunset sky above the bowl rim. Normal gravity, her feet on the board. No text.",
+      "dressing": [
+        "grind streaks and skid marks on the concrete wall",
+        "the patched crack in the deck",
+        "grey tape on her right shoe toe",
+        "the gantry cranes above the rim"
+      ]
     },
     {
       "id": "S08",
@@ -312,7 +351,13 @@
         "dax",
         "bowl"
       ],
-      "keyframe_prompt": "Wide anime sakuga key visual, upright vertical composition, level horizon: Mika, the young woman from the character sheet, flying very high above the skate bowl in a huge air, filling the upper half of the frame, one hand grabbing her plain sky-blue skateboard, her ponytail streaming, silhouetted against a giant low orange sun that fills the frame behind her with a sky-blue aura outline, below her on the deck of the bowl Dax, the young man from the character sheet (deep brown skin, silver hair) in a black hoodie with crimson sleeves, small in frame, looking up at her. Sweeping magenta and violet sky, drawn light rays, silhouetted crowd. No text."
+      "keyframe_prompt": "Wide anime sakuga key visual, upright vertical composition, level horizon: Mika, the young woman from the character sheet, flying very high above the skate bowl in a huge air, filling the upper half of the frame, one hand grabbing her plain sky-blue skateboard, her ponytail streaming, silhouetted against a giant low orange sun that fills the frame behind her with a sky-blue aura outline, below her on the deck of the bowl Dax, the young man from the character sheet (deep brown skin, silver hair) in a black hoodie with crimson sleeves, small in frame, looking up at her. Sweeping magenta and violet sky, drawn light rays, silhouetted crowd. No text.",
+      "dressing": [
+        "the gantry cranes and stacked containers against the sun",
+        "the judges' tent below",
+        "a gull flaring away",
+        "the pennant strand"
+      ]
     },
     {
       "id": "S09",
@@ -328,7 +373,11 @@
       "refs": [
         "dax"
       ],
-      "keyframe_prompt": "Anime dramatic still, close-up of Dax, the young man from the character sheet (Black American with deep brown skin, silver-bleached undercut, amber eyes, black hoodie with crimson sleeves), frozen in comic shock, eyes wide with tiny pupils, jaw dropped, a single large sweat drop on his temple, drawn over a flat crimson background with pale diagonal hatching lines, limited palette. No text."
+      "keyframe_prompt": "Anime dramatic still, close-up of Dax, the young man from the character sheet (Black American with deep brown skin, silver-bleached undercut, amber eyes, black hoodie with crimson sleeves), frozen in comic shock, eyes wide with tiny pupils, jaw dropped, a single large sweat drop on his temple, drawn over a flat crimson background with pale diagonal hatching lines, limited palette. No text. Full-bleed image to all four edges: no panel border, no white frame, no manga panel layout.",
+      "dressing": [
+        "a drop of sweat",
+        "pale diagonal hatching"
+      ]
     },
     {
       "id": "S10",
@@ -343,9 +392,16 @@
       "caption": "Not anymore.",
       "refs": [
         "mika",
-        "bowl"
+        "bowl",
+        "deck"
       ],
-      "keyframe_prompt": "Low-angle medium anime shot of Mika, the young woman from the character sheet (black ponytail with a sky-blue streak, bandage on her left cheek, silver-grey hoodie, sky-blue knee pads), standing on the deck of the skate bowl with one foot on her plain sky-blue skateboard, fist raised high, grinning, confident, sparkles in the air, the silhouetted crowd cheering behind her with blank solid sky-blue banners, sunset sky. Upright vertical composition, level horizon. No text."
+      "keyframe_prompt": "Low-angle medium anime shot of Mika, the young woman from the character sheet (black ponytail with a sky-blue streak, bandage on her left cheek, silver-grey hoodie, sky-blue knee pads), standing on the deck of the skate bowl with one foot on her plain sky-blue skateboard, fist raised high, grinning, confident, sparkles in the air, the silhouetted crowd cheering behind her with blank solid sky-blue banners, sunset sky. Upright vertical composition, level horizon. No text.",
+      "dressing": [
+        "the judges' tent with three silhouetted judges standing",
+        "the broken board propped on the railing",
+        "sticker-covered railing posts",
+        "the paper lanterns flicking on along the pier"
+      ]
     },
     {
       "id": "S11",
@@ -360,9 +416,16 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "bowl"
+        "bowl",
+        "trophy"
       ],
-      "keyframe_prompt": "Anime painted pack shot: the exact can from the product reference standing upright on the steel coping edge of the skate bowl from the location reference, label facing the viewer and undistorted, drawn with clean cel shading and sparkling condensation, label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Golden rim light from the low sun, a few sky-blue sparkles drifting, harbour and magenta sky behind, softly out of focus. Large empty sky in the top third of the frame for a title. Upright vertical composition, level horizon. No other text."
+      "keyframe_prompt": "Anime painted pack shot: the exact can from the product reference standing upright on the steel coping edge of the skate bowl from the location reference, label facing the viewer and undistorted, drawn with clean cel shading and sparkling condensation, label copied exactly: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Golden rim light from the low sun, a few sky-blue sparkles drifting, harbour and magenta sky behind, softly out of focus. Large empty sky in the top third of the frame for a title. Upright vertical composition, level horizon. No other text.",
+      "dressing": [
+        "grind marks and chipped sky-blue paint on the coping",
+        "the anchor trophy on the judges' table softly out of focus",
+        "the first floodlight tower switching on",
+        "a crushed paper cup at the deck edge"
+      ]
     }
   ],
   "units": [
@@ -534,5 +597,102 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Pier Nine Bowl was poured eleven years ago inside the old fish-market loading dock on the Port Kessel waterfront; a rusted iron mooring bollard was left standing in the deep end and every local skates around it.",
+      "The Harbor Cup is in its eleventh year. The winner gets a painted silhouette on the pier's champion wall; Dax already has three.",
+      "Dax marks every title with a crimson tape stripe on the tail of his board: three stripes.",
+      "Mika has skated the pier every dawn for two years, before the dock workers arrive. The bandage on her cheek is from yesterday's semi-final slam.",
+      "She has fallen twice in the final. She has one run left, forty-five seconds, and the sun will be down in fifteen minutes."
+    ],
+    "materials_rule": "2D anime background art: hand-painted backgrounds with visible gouache brush texture and hard-edged cel-shaded characters and props. Concrete is painted with cracks, stains, wheel scuffs and grind marks; metal has one sharp specular stripe; paint is chipped in drawn flecks; stickers are solid colour shapes (stars, circles, lightning bolts) with no writing. Light shafts, lens flares and sparkles are painted. Nothing is photoreal except the can's label, copied exactly.",
+    "locations": {
+      "bowl": {
+        "foreground": [
+          "the steel coping edge scarred with grind marks and flecks of chipped sky-blue paint",
+          "a crack in the concrete deck patched with a darker grey seam of new cement",
+          "a crushed paper cup and a few pebbles by the deck edge",
+          "a strand of sky-blue and crimson triangle pennants flapping on a rope"
+        ],
+        "midground": [
+          "black wheel skid marks and grind streaks sweeping around the curved bowl walls",
+          "a rusted iron mooring bollard painted crimson, left standing in the deep end",
+          "railing posts covered in solid-colour sticker shapes, stars, circles and lightning bolts, no writing",
+          "a white judges' tent with a folding table and three silhouetted judges",
+          "the pier's champion wall of painted skater silhouettes in sky blue and crimson",
+          "a cracked skateboard from an earlier fall propped against the railing"
+        ],
+        "background": [
+          "orange-red harbour gantry cranes with small blinking red lights",
+          "stacked shipping containers in faded teal, rust and cream",
+          "a string of paper lanterns along the pier, not yet lit",
+          "a gull perched on a tall floodlight tower that is still switched off",
+          "a distant ferris wheel on the far shore",
+          "the low sun over the sea with painted light shafts"
+        ]
+      }
+    },
+    "personal_props": {
+      "mika": [
+        "a plain sky-blue deck with a chipped nose, a strip of grey tape on the tail and a hand-drawn silver star on the black grip",
+        "frayed sky-blue shoelaces, and grey tape wrapped over the worn toe of her right shoe",
+        "the small white bandage on her left cheek",
+        "a small canvas backpack with a tiny silver bird charm on the zip",
+        "sky-blue knee pads scuffed white"
+      ],
+      "dax": [
+        "a charcoal board with three crimson tape stripes on the tail",
+        "a crimson wristband",
+        "a thin silver chain necklace",
+        "black shoes with crimson laces, spotless"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "deck",
+        "name": "Mika's sky-blue deck",
+        "prop_prompt": "2D anime prop reference sheet on a plain mid-grey background, clean cel shading: a plain sky-blue skateboard deck with a chipped nose and a strip of grey tape on the tail, black grip tape on top with one hand-drawn silver star doodle, exactly four white wheels on silver trucks, shown top view, underside view and side view. The underside has only a small silver bird silhouette with swept wings. No letters, no numbers, no logos. No captions, no labels, no annotation text anywhere on the sheet."
+      },
+      {
+        "id": "trophy",
+        "name": "The Harbor Cup trophy",
+        "prop_prompt": "2D anime prop reference sheet on a plain mid-grey background, clean cel shading: a silver trophy shaped like a ship's anchor rising out of a curling sky-blue glass wave, on a round dark wooden base with a thin silver band; shown front and three-quarter views with one sharp specular stripe on the metal. No letters, no numbers, no engraving, no logos. No captions, no labels, no annotation text anywhere on the sheet."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Harbor Cup",
+        "mark": "an anchor inside a circle of one curling wave",
+        "colors": "sky blue and white",
+        "appears_on": "the trophy, the judges' tent flap, the solid banners as a small white shape",
+        "text_in_post": "the tournament title and name cards"
+      },
+      {
+        "name": "Kestrel Decks",
+        "mark": "a small silver bird silhouette with swept wings",
+        "colors": "sky blue and silver",
+        "appears_on": "the underside of Mika's deck and her backpack charm",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Pier Nine Bowl",
+        "mark": "a ring buoy shape",
+        "colors": "crimson and white",
+        "appears_on": "painted on the bowl wall by the stairs",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "Late September, 6:48pm, the last fifteen minutes of sun; a salt breeze off the water. The bowl deck is dusty from a full day of runs, the floodlights are not on yet, a broken board from an earlier fall leans on the railing, empty paper cups pile by the judges' table.",
+    "sound_world": [
+      "urethane wheels roaring around the concrete",
+      "the steel coping grind screech",
+      "the tail snap pop of an ollie",
+      "the crowd drumming their feet on the metal bleachers",
+      "a harbour horn low in the distance",
+      "gulls and the pennants snapping in the wind",
+      "the can crack and a rising shimmer of fizz"
+    ],
+    "product_adjacent_props": "The deck, knee pads and pier furniture are product-agnostic; the power-up moment works for any product (a crack, a spray, a click, a zip) with the same aura."
   }
 }

@@ -29,7 +29,7 @@
     {
       "id": "desk",
       "name": "Nia's desk at Brooks Studio",
-      "plate_prompt": "Clean commercial photo, vertical 9:16, upright vertical composition, level horizon, eye-level locked-off 35mm view: a pale oak architect's desk in a converted warehouse studio, facing camera, with a closed silver laptop, a large blank drafting pad, a pencil cup, a small white foam architectural model of a house, a tall window with soft daylight to one side, exposed brick behind. The desk sits around the vertical centre of one seamless photograph with brick wall above and floor below; no borders or panels. No people, no readable text, no logos."
+      "plate_prompt": "Clean commercial photo, vertical 9:16, upright vertical composition, level horizon, eye-level locked-off 35mm view: a pale oak architect's desk in a converted warehouse studio, facing camera, with a closed silver laptop with a completely plain, bare, unmarked lid, a large blank drafting pad, a pencil cup, a small white foam architectural model of a house, a tall window with soft daylight to one side, exposed brick behind. The desk sits around the vertical centre of one seamless photograph with brick wall above and floor below; no borders or panels. No people, no readable text, no logos."
     },
     {
       "id": "meeting",
@@ -199,9 +199,17 @@
       "caption": "",
       "refs": [
         "nia",
-        "desk"
+        "desk",
+        "pink_can"
       ],
-      "keyframe_prompt": "Waist-up medium shot, camera about one metre away so she fills the width of the frame: Nia, the woman from the character sheet, sitting at the pale oak desk from the location reference, in her white linen shirt with sleeves rolled and gold-rim glasses, warm yellowish tungsten light, the desk cluttered with crumpled plain snack wrappers and a half-eaten glazed pastry. She has just opened a plain candy-pink drink can with no label, no text and no logo, and a small spurt of sticky pink foam has splashed onto her shirt cuff and the drafting pad; she flinches back, annoyed. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame."
+      "keyframe_prompt": "Head-on and centred: she sits squarely facing the lens behind the desk, the camera one metre in front of the desk at her eye level, her shoulders filling most of the frame width, the desk front edge running straight across the lower quarter of the frame (not seen from the side, no angled desk, no chair or floor visible). Waist-up medium shot, camera about one metre away so she fills the width of the frame: Nia, the woman from the character sheet, sitting at a pale oak desk like the one in the location reference, seen close: the desk top runs along the bottom of the frame and the desk legs are not visible, in her white linen shirt with sleeves rolled and gold-rim glasses, warm yellowish tungsten light, the desk cluttered with crumpled plain snack wrappers and a half-eaten glazed pastry. She has just opened a plain candy-pink drink can with no label, no text and no logo, and a small spurt of sticky pink foam has splashed onto her shirt cuff and the drafting pad; she flinches back, annoyed. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame.",
+      "dressing": [
+        "the blue coffee tin pencil cup knocked on its side, pencils rolled across the pad",
+        "the small white foam house model with its glued roof ridge",
+        "the black anglepoise lamp",
+        "crumpled plain snack wrappers and a half-eaten glazed pastry",
+        "the cork strip of pinned pencil sketches on the brick"
+      ]
     },
     {
       "id": "S02",
@@ -219,7 +227,14 @@
         "desk",
         "product"
       ],
-      "keyframe_prompt": "Waist-up medium shot, framed exactly like a matching shot of the same desk, camera about one metre away so she fills the width of the frame: Nia, the woman from the character sheet, sitting at a pale oak desk like the one in the location reference, seen close: the desk top runs along the bottom of the frame and the desk legs are not visible,, in her white linen shirt with sleeves rolled and gold-rim glasses, in cool clean window daylight, the desk tidy with the drafting pad, pencil cup and white foam model neatly arranged. She holds the exact can from the product reference, just opened, at chest height with the label facing camera and undistorted, and looks straight into the lens with a small dry smile. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame."
+      "keyframe_prompt": "Waist-up medium shot, framed exactly like a matching shot of the same desk, camera about one metre away so she fills the width of the frame: Nia, the woman from the character sheet, sitting at a pale oak desk like the one in the location reference, seen close: the desk top runs along the bottom of the frame and the desk legs are not visible,, in her white linen shirt with sleeves rolled and gold-rim glasses, in cool clean window daylight, the desk tidy with the drafting pad, pencil cup and white foam model neatly arranged. She holds the exact can from the product reference, just opened, at chest height with the label facing camera and undistorted, and looks straight into the lens with a small dry smile. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame.",
+      "dressing": [
+        "the blue coffee tin pencil cup upright with six sharpened pencils",
+        "the small white foam house model with its glued roof ridge",
+        "the black anglepoise lamp",
+        "the triangular aluminium scale ruler on the pad",
+        "the cork strip of pinned pencil sketches on the brick"
+      ]
     },
     {
       "id": "S03",
@@ -234,9 +249,17 @@
       "caption": "Why is everything sticky?",
       "refs": [
         "nia",
-        "desk"
+        "desk",
+        "pink_can"
       ],
-      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, at the cluttered pale oak desk from the location reference in warm yellowish tungsten light, a faint pink stain on her white shirt cuff, grimacing as she peels the fingertips of one hand off the keys of an open silver laptop that has a sticky pink film on it, her other hand holding a crumpled paper napkin. The plain candy-pink can with no label stands beside a sticky pink ring on the drafting pad, pastry crumbs everywhere. The laptop screen faces away from camera. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines."
+      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, at the cluttered pale oak desk from the location reference in warm yellowish tungsten light, a faint pink stain on her white shirt cuff, grimacing as she peels the fingertips of one hand off the keys of an open silver laptop that has a sticky pink film on it, her other hand holding a crumpled paper napkin. The plain candy-pink can with no label stands beside a sticky pink ring on the drafting pad, pastry crumbs everywhere. The laptop screen faces away from camera. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines.",
+      "dressing": [
+        "the blue coffee tin pencil cup on its side",
+        "the triangular scale ruler smeared with pink",
+        "pastry crumbs across the yellow trace paper",
+        "the black anglepoise lamp",
+        "the cork strip of pinned sketches behind"
+      ]
     },
     {
       "id": "S04",
@@ -254,7 +277,14 @@
         "desk",
         "product"
       ],
-      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, at the tidy pale oak desk from the location reference in cool clean daylight, clean white linen shirt, sketching quickly and confidently with a pencil on the large drafting pad, clean loose architectural lines with no words or numbers, flicking her eyes up to the lens with a small smile. The exact can from the product reference stands upright on the desk corner, label facing camera and undistorted, the brightest object in frame. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines."
+      "keyframe_prompt": "Medium close-up framed exactly like its matching sugar-way shot, camera about 70 centimetres away, head-on: she fills most of the frame width from the chest up. Nia, the woman from the character sheet, at a tidy pale oak desk like the one in the location reference, seen close: the desk top runs along the bottom of the frame and the desk legs are not visible, in cool clean daylight, clean white linen shirt, sketching quickly and confidently with a pencil on the large drafting pad, clean loose architectural lines with no words or numbers, flicking her eyes up to the lens with a small smile. The exact can from the product reference stands upright on the desk corner, label facing camera and undistorted, the brightest object in frame. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines.",
+      "dressing": [
+        "the blue coffee tin pencil cup upright with sharpened pencils",
+        "the triangular scale ruler",
+        "the half-unrolled yellow trace paper under a river stone",
+        "the black anglepoise lamp",
+        "the cork strip of pinned sketches behind"
+      ]
     },
     {
       "id": "S05",
@@ -269,9 +299,17 @@
       "caption": "Is it three already?",
       "refs": [
         "nia",
-        "meeting"
+        "meeting",
+        "pink_can"
       ],
-      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, sitting slumped at the near end of the long pale oak meeting table from the location reference in dull warm tungsten light, faint pink stain on her white shirt cuff, chin propped on one hand, mid-yawn with eyes half closed, ordinary afternoon tiredness, a plain candy-pink can with no label and a small plate of pastry crumbs in front of her, the white foam building model behind, the blank whiteboard on the brick wall. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame."
+      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, sitting slumped at the near end of the long pale oak meeting table from the location reference in dull warm tungsten light, faint pink stain on her white shirt cuff, chin propped on one hand, mid-yawn with eyes half closed, ordinary afternoon tiredness, a plain candy-pink can with no label and a small plate of pastry crumbs in front of her, the white foam building model behind, the blank whiteboard on the brick wall. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame.",
+      "dressing": [
+        "the white foam apartment building model on its birch plywood base",
+        "the glass water carafe and tumblers",
+        "the wicker basket of rolled drawings",
+        "a small plate of pastry crumbs and a crumpled napkin",
+        "the jade plant on the window sill"
+      ]
     },
     {
       "id": "S06",
@@ -289,7 +327,14 @@
         "meeting",
         "product"
       ],
-      "keyframe_prompt": "Medium shot at the long pale oak meeting table from the location reference in cool clean daylight: Nia, the woman from the character sheet, in her clean white linen shirt and gold-rim glasses, stands at the head of the table presenting the white foam architectural model with one open hand, energetic and sharp, mid-sentence. Two colleagues sit at the near end seen from behind, the backs of their heads soft. The exact can from the product reference stands upright on the table beside the model, label facing camera and undistorted. Blank whiteboard behind. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines."
+      "keyframe_prompt": "Medium shot at the long pale oak meeting table from the location reference in cool clean daylight: Nia, the woman from the character sheet, in her clean white linen shirt and gold-rim glasses, stands at the head of the table presenting the white foam architectural model with one open hand, energetic and sharp, mid-sentence. Two colleagues sit at the near end seen from behind, the backs of their heads soft. The exact can from the product reference stands upright on the table beside the model, label facing camera and undistorted. Blank whiteboard behind. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines.",
+      "dressing": [
+        "the white foam apartment building model on its birch plywood base",
+        "the glass water carafe and tumblers",
+        "the wicker basket of rolled drawings",
+        "material sample boards leaning on a table leg",
+        "the jade plant on the window sill"
+      ]
     },
     {
       "id": "S07",
@@ -307,7 +352,13 @@
         "product",
         "desk"
       ],
-      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, standing by the tall studio window in cool clean daylight, clean white linen shirt and gold-rim glasses, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, talking warmly to the lens with a confident smile, the tidy oak desk and white foam model softly out of focus behind her. The can is the brightest object in frame."
+      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, standing by the tall studio window in cool clean daylight, clean white linen shirt and gold-rim glasses, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, talking warmly to the lens with a confident smile, the tidy oak desk and white foam model softly out of focus behind her. The can is the brightest object in frame.",
+      "dressing": [
+        "the jade plant in its terracotta pot on the sill",
+        "the graphite smudge on the side of her hand",
+        "the stubby pencil behind her ear",
+        "the blurred desk with the blue coffee tin and foam house behind her"
+      ]
     },
     {
       "id": "S08",
@@ -322,9 +373,17 @@
       "caption": "Okay. Fine.",
       "refs": [
         "nia",
-        "desk"
+        "desk",
+        "pink_can"
       ],
-      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, at the cluttered pale oak desk from the location reference in warm yellowish tungsten light, pink stain on her white shirt cuff, glasses slightly askew, staring flatly and straight into the lens with a resigned deadpan look, holding a plain candy-pink can with no label out over a small wire waste bin beside the desk, about to drop it in. Snack wrappers and crumbs on the desk. Comedic, deadpan, ordinary."
+      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, at the same cluttered pale oak desk from the location reference, the tall steel-framed window to one side and exposed brick behind in warm yellowish tungsten light, pink stain on her white shirt cuff, glasses slightly askew, staring flatly and straight into the lens with a resigned deadpan look, holding a plain candy-pink can with no label out over a small wire waste bin beside the desk, about to drop it in. Snack wrappers and crumbs on the desk. Comedic, deadpan, ordinary.",
+      "dressing": [
+        "the blue coffee tin pencil cup on its side",
+        "the small white foam house model",
+        "the black anglepoise lamp",
+        "crumpled wrappers and crumbs",
+        "the tall steel-framed window and the cork strip of sketches behind"
+      ]
     },
     {
       "id": "S09",
@@ -339,9 +398,15 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "desk"
+        "desk",
+        "model"
       ],
-      "keyframe_prompt": "Close premium pack shot, camera about 40 centimetres from the can at desk height: the exact can from the product reference stands upright on a pale oak desk, filling about 40% of the frame height, label facing camera and undistorted, fine condensation drops, warm low golden-hour sun from a window on the left rim-lighting it, the corner of a finished white foam architectural model beside it, softly blurred brick wall behind with empty space above the can for a title. The desk legs and floor are not visible. No people, no hands, no faces. No text anywhere except the can's own label."
+      "keyframe_prompt": "Close premium pack shot, camera about 40 centimetres from the can at desk height: the exact can from the product reference stands upright on a pale oak desk, filling about 40% of the frame height, label facing camera and undistorted, fine condensation drops, warm low golden-hour sun from a window on the left rim-lighting it, the corner of a finished white foam architectural model beside it, softly blurred brick wall behind with empty space above the can for a title. The desk legs and floor are not visible. No people, no hands, no faces. No text anywhere except the can's own label.",
+      "dressing": [
+        "the Ferrante apartment model on its birch plywood base",
+        "the blue coffee tin pencil cup with sharpened pencils",
+        "the jade plant on the sill catching the low sun"
+      ]
     }
   ],
   "units": [
@@ -504,5 +569,107 @@
     "first_pass_usd": 8.91,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Brooks Studio is Nia's four-person architecture practice, three years old, on the second floor of a 1920s printing warehouse in Chicago. The floor still has bolt holes where the presses stood.",
+      "Today, Monday, at 3pm, she pitches a six-storey apartment building to the Ferrante family. The white foam model on the meeting table took the team eleven nights.",
+      "The little foam house on her desk is the first model she ever built, in her second year of college; its roof has been glued back on twice.",
+      "Her pencil cup is her grandfather's old blue coffee tin; it always holds six sharpened pencils and a soft drafting brush.",
+      "Both halves are the same room, the same objects, the same woman on the same Monday. Only the drink changes, and with it the light, the crumbs and the stains."
+    ],
+    "locations": {
+      "desk": {
+        "foreground": [
+          "a triangular aluminium architect's scale ruler lying across the drafting pad",
+          "her grandfather's faded blue coffee tin pencil cup with six sharpened pencils and a soft drafting brush",
+          "a half-unrolled roll of yellow trace paper held flat by a smooth river stone",
+          "the small white foam house model with a pitched roof and a visible glue seam on the ridge"
+        ],
+        "midground": [
+          "a black anglepoise desk lamp with a slightly chipped arm",
+          "a closed silver laptop with a completely plain, bare, unmarked lid",
+          "a jade plant in a terracotta pot on the deep window sill",
+          "a grey steel flat-file cabinet with brass pull handles beside the desk",
+          "a white wire waste bin by the desk leg"
+        ],
+        "background": [
+          "exposed brick with patches of ghost white paint and old bolt holes",
+          "a cork strip pinned with loose pencil sketches of rooflines and floor plans, no words",
+          "a tall steel-framed window with a cracked-then-repaired corner pane",
+          "a shelf of material samples: a cork square, a pale concrete tile, a slice of oak and a green felt swatch",
+          "a white enamel pendant lamp hanging on a long black cord"
+        ]
+      },
+      "meeting": {
+        "foreground": [
+          "the near end of the long pale oak table with two woven-seat oak chairs",
+          "a glass water carafe and two tumblers on a cork coaster"
+        ],
+        "midground": [
+          "the large white foam model of a six-storey apartment building on a birch plywood base, tiny foam trees around it",
+          "a wicker basket of rolled drawings at the table's side",
+          "material sample boards leaning against a table leg: brick, zinc and oak swatches"
+        ],
+        "background": [
+          "a blank whiteboard on the brick wall with a single magnet holding up a small pencil sketch",
+          "tall steel-framed windows with the jade plant on the sill",
+          "black steel roof beams and a white ventilation duct overhead",
+          "a row of three white enamel pendant lamps"
+        ]
+      }
+    },
+    "personal_props": {
+      "nia": [
+        "thin gold-rim glasses with one arm a little loose, which she pushes up with a knuckle",
+        "a slim silver watch with a worn leather-look steel mesh strap",
+        "a white linen shirt with the sleeves rolled twice, a graphite smudge on the side of her right hand",
+        "a short stubby pencil tucked behind her ear",
+        "small gold hoop earrings"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "pink_can",
+        "name": "The rival can",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: one plain slim drink can in a flat candy-pink colour with no label, no text, no logo and no pattern at all, a small dent near the base, a sticky pink drip running down one side from the open tab, a faint sticky ring on the grey surface under it, shown front view and three-quarter view. Never red, blue or silver. No letters, numbers or logos anywhere."
+      },
+      {
+        "id": "model",
+        "name": "The Ferrante model",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a white foam-board architectural model of a six-storey apartment building with recessed balconies and a stepped roof terrace, on a square birch plywood base with tiny white foam trees and two tiny white scale figures, crisp cut edges and a few pencil guide marks on the base. No letters, numbers or logos anywhere."
+      },
+      {
+        "id": "tin",
+        "name": "Grandpa's pencil tin",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: an old cylindrical coffee tin with faded, worn cornflower-blue paint and bare metal showing at the rim, the paper label long gone, holding six sharpened yellow drafting pencils and a soft-bristled drafting brush with a wooden handle. No letters, numbers or logos anywhere."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Brooks Studio",
+        "mark": "a small square folded along one diagonal, like a paper corner",
+        "colors": "white and pale oak",
+        "appears_on": "the plywood base of the Ferrante model (a tiny etched corner mark), the end card",
+        "text_in_post": "none"
+      },
+      {
+        "name": "the rival",
+        "mark": "none: a plain candy-pink can",
+        "colors": "candy pink",
+        "appears_on": "the sugar-way pane only",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "One Monday, 9am to 3pm, lived twice in the same room with the same objects in the same places. The sugar way: warm tungsten, wrappers, crumbs, a pink sticky ring on the drafting pad, the pencil tin knocked over, a stained cuff. The sugarfree way: cool window daylight, everything where it belongs, pencils upright in the tin, a clean cuff. The golden-hour pack shot at the end belongs to the sugarfree day.",
+    "sound_world": [
+      "the pencil scratching fast on the drafting pad",
+      "a sticky fizz and splatter as the pink can opens, against a clean crisp crack",
+      "fingertips peeling off sticky laptop keys",
+      "pencils rolling out of the knocked-over tin",
+      "the soft creak of a woven-seat chair",
+      "a can dropping into a wire bin with a hollow clank",
+      "street traffic hum through the tall window"
+    ]
   }
 }

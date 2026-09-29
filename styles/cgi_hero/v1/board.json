@@ -1,0 +1,465 @@
+{
+  "id": "cgi_hero-01-stampede",
+  "style": "cgi_hero",
+  "title": "Stampede",
+  "logline": "Dawn in a sleeping city. A six storey {product} drops into the plaza fountain, and two giant red bulls charge off it down the avenue, switching the whole city on as they run.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "Calloway, a fictional North American harbour city: a stone civic plaza with a round fountain, glass towers, a long straight avenue running down to a waterfront, 6am on a still autumn morning. Streetlights still on, windows dark.",
+    "palette": "Built from the can: dawn sky blue and glass silver for the whole city, the can's red and gold as the only saturated colours (the bulls, the sunrise at the end of the avenue).",
+    "fictional_brands": [
+      "Calloway (city)",
+      "Harbor Line (the tram whose plain silver cars appear in the background, no logo)",
+      "Kettle & Oar (a corner cafe, only shown as a blank awning)"
+    ],
+    "rules": "Every storefront sign, billboard, bus stop and screen is blank. The only readable brand anywhere is the product, and only on the can itself. The billboard in the final shot is a blank white panel for post text."
+  },
+  "cast": [
+    {
+      "id": "jae",
+      "name": "Jae Park",
+      "role": "early morning runner, the one human who sees it happen (non-speaking)",
+      "look": "man, 32, Korean American, short black undercut hair, light stubble, athletic build, charcoal running jacket and black shorts, plain white wireless earbuds, no logos",
+      "voice": "non-speaking; breath and one laugh only",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Jae Park: 32, Korean American, short black undercut hair, light stubble, athletic, warm alert eyes, charcoal running jacket with no logos, plain white wireless earbuds. Neutral soft studio light, photoreal, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "plaza",
+      "name": "Calloway civic plaza at dawn",
+      "plate_prompt": "Photoreal vertical 9:16 location plate, upright composition with level horizon: an empty stone civic plaza at 6am in a North American harbour city, a large round fountain in the centre, glass office towers on both sides reflecting a pale blue dawn sky, streetlights still glowing, pigeons on the paving, a long straight avenue leading away behind the fountain toward a distant waterfront. All storefront signs and billboards blank. No people, no readable text, no real brands."
+    },
+    {
+      "id": "avenue",
+      "name": "The avenue to the waterfront",
+      "plate_prompt": "Photoreal vertical 9:16 location plate, upright composition with level horizon, drone view looking straight down a long straight city avenue at dawn, glass towers lining both sides with dark windows, streetlights on, a plain silver tram on rails, the avenue ending at a harbour waterfront where the sun is just below the horizon. All signs blank. No people, no readable text, no real brands."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "the giant drink lands in the fountain and the city wakes as its energy runs down the avenue",
+      "scale": "giant, six storeys"
+    },
+    "applied": {
+      "moment": "a giant tube or jar lands in the plaza and a wave of its texture rolls down the avenue, polishing every surface it touches",
+      "scale": "giant, six storeys"
+    },
+    "worn": {
+      "moment": "a giant shoe, jacket or watch drops into the plaza and the city's statues and mannequins all turn to wear it",
+      "scale": "giant, building scale"
+    },
+    "handheld": {
+      "moment": "a giant gadget lands and powers up, and its signal wave lights every window down the avenue",
+      "scale": "giant, six storeys"
+    },
+    "carried": {
+      "moment": "a giant bag lands and unzips, and what is inside spills out and runs through the streets",
+      "scale": "giant, six storeys"
+    },
+    "home": {
+      "moment": "a giant lamp, chair or appliance lands in the plaza and the whole block switches into its comfort, lights on, heat haze, steam",
+      "scale": "giant, building scale"
+    },
+    "consumable": {
+      "moment": "a giant refill pack lands and pours into the fountain, and the fountain feeds the whole avenue",
+      "scale": "giant, six storeys"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3.6",
+      "summary": "A sleeping city at dawn. Something enormous falls out of the sky and lands in the plaza fountain with a boom."
+    },
+    {
+      "id": "setup",
+      "t": "3.6-5.6",
+      "summary": "One early runner stops dead, earbud out, and looks up at it."
+    },
+    {
+      "id": "product",
+      "t": "5.6-11",
+      "summary": "The reveal orbit: a six storey can dripping car-sized drops, label square to camera. Then two giant red bulls step out of a burst of gold light at its base."
+    },
+    {
+      "id": "build",
+      "t": "11-20.5",
+      "summary": "The bulls charge down the avenue. Every streetlight, window and tram lights up in their wake; the runner sprints beside them, laughing."
+    },
+    {
+      "id": "payoff",
+      "t": "20.5-24.5",
+      "summary": "At the waterfront the bulls leap into the rising sun and the whole skyline is switched on."
+    },
+    {
+      "id": "cta",
+      "t": "24.5-30",
+      "summary": "The giant can stands in the now busy plaza; the runner holds a normal can at its base. Brand line, tagline, blank billboard filled in post."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.4-2.6",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Hook: a playful question that frames the stunt as the answer to a morning problem.",
+      "line": "Somebody order a wake-up call?",
+      "delivery": "deep, warm, amused, trailer narrator but unhurried",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "8.8-10.8",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Turn the stunt into the product's energy: the product brings something to life.",
+      "line": "Big morning? Bring the herd.",
+      "delivery": "a grin in the voice, building",
+      "shot": "S05"
+    },
+    {
+      "id": "L3",
+      "t": "14.8-17.4",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "The functional benefit in one line, using an allowed claim only.",
+      "line": "Caffeine helps you stay alert and focused.",
+      "delivery": "confident, rhythmic, riding the hooves",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S07"
+    },
+    {
+      "id": "L4",
+      "t": "25.0-27.4",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Product line: name the product and its point of difference.",
+      "line": "Red Bull Sugarfree. Same wings, no sugar.",
+      "delivery": "slower, landing each word, satisfied",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S10"
+    },
+    {
+      "id": "L5",
+      "t": "27.8-29.6",
+      "speaker": "vo",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm, smiling, stretched vowel",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 1.8,
+      "beat": "hook",
+      "framing": "extreme wide, street level looking up",
+      "camera": "handheld drift, slight tilt up",
+      "action": "The empty plaza at dawn, pigeons on the paving; a huge silver and blue cylinder falls out of the pale sky toward the fountain, motion blurred at its edges.",
+      "product_state": "falling, upright, label facing camera, motion blur on edges only",
+      "audio": "city hush, distant gulls, a rising whistle of air",
+      "caption": "Somebody order a wake-up call?",
+      "refs": [
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Extreme wide low angle from street level in the empty civic plaza from the location plate at dawn, pigeons on the stone paving in the foreground, glass towers either side, and high in the pale blue sky the exact can from the product reference, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only. One single can. Upright vertical composition, level horizon, towers vertical. All signs blank."
+    },
+    {
+      "id": "S02",
+      "t0": 1.8,
+      "t1": 3.6,
+      "beat": "hook",
+      "framing": "wide",
+      "camera": "locked off with 4 frames of impact shake",
+      "action": "The can lands upright in the fountain: a ring of water explodes outward, pigeons burst into the air, a shockwave ripples the paving puddles.",
+      "product_state": "just landed, upright in the fountain, intact, label to camera",
+      "audio": "sub boom, water crash, glass rattling in tower windows, car alarms chirp far off",
+      "caption": "",
+      "refs": [
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Wide shot of the plaza from the location plate at dawn: the exact can from the product reference, six storeys tall, has just landed perfectly upright in the centre of the round fountain, intact and undented, label square to camera, a huge crown of fountain water exploding outward around its base, a flock of pigeons bursting into the air in the foreground, puddles on the paving rippling. Upright vertical composition, level horizon. One single can. All signs blank."
+    },
+    {
+      "id": "S03",
+      "t0": 3.6,
+      "t1": 5.6,
+      "beat": "setup",
+      "framing": "medium, runner in foreground, can towering behind",
+      "camera": "slow push-in",
+      "action": "Jae, mid run, stops dead, pulls one earbud out and stares up; mist from the splash drifts past him.",
+      "product_state": "background, upright in the fountain, out of focus but recognisable",
+      "audio": "his breath, water raining down, one pigeon wing flap",
+      "caption": "",
+      "refs": [
+        "jae",
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Medium shot of Jae, the man from the character sheet, in his charcoal running jacket, stopped mid run on the plaza paving, pulling one white earbud out, staring up in awe, fine water mist drifting past him in the dawn light; behind him, soft focus, the exact can from the product reference stands six storeys tall and upright in the fountain, label facing camera. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it."
+    },
+    {
+      "id": "S04",
+      "t0": 5.6,
+      "t1": 8.6,
+      "beat": "product",
+      "framing": "low hero angle",
+      "camera": "slow locked orbit 20 degrees left, label stays square to camera",
+      "action": "The reveal: the six storey can, cold and dripping; condensation drops the size of cars roll down the label and fall into the fountain; golden sunrise rim light on its edge.",
+      "product_state": "hero, upright, label square to camera, droplets, held 3 s",
+      "audio": "deep metallic creak of cold aluminium, heavy drips hitting water like rain on a drum",
+      "caption": "",
+      "refs": [
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Low hero angle from the fountain rim looking up at the exact can from the product reference, six storeys tall, standing upright in the fountain, label square to camera and perfectly undistorted: the sky blue and brushed silver diagonal split, the red Red Bull wordmark, the two red bulls and gold sun, SUGARFREE in spaced red capitals, the red WITHOUT SUGAR band at the top. Condensation droplets as large as cars rolling down its side and falling into the water, a hard golden rim light on its edge, glass towers reflecting it. The can is the sharpest and brightest object in frame. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S05",
+      "t0": 8.6,
+      "t1": 11.0,
+      "beat": "product",
+      "framing": "wide, fountain base",
+      "camera": "locked off, slight push",
+      "action": "A burst of gold light at the base of the can; two giant glossy red bulls, three storeys high, step out of it onto the plaza, hooves cracking the paving, breath steaming. The printed bulls on the label stay exactly where they are.",
+      "product_state": "upright behind the bulls, label intact with its own two small bulls",
+      "audio": "low rumble, stone cracking under hooves, bull snort, steam hiss",
+      "caption": "Big morning? Bring the herd.",
+      "refs": [
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Wide shot at the base of the exact can from the product reference, six storeys tall and upright in the fountain, its printed label intact and still showing its own two small red bulls and gold sun. In front of it, stepping out of a burst of warm gold light onto the plaza, two giant photoreal bulls with glossy deep red hides, each three storeys tall, horns forward, heads low in the charging pose of the logo, breath steaming in the cold dawn air, stone paving cracking under their hooves. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it."
+    },
+    {
+      "id": "S06",
+      "t0": 11.0,
+      "t1": 14.5,
+      "beat": "build",
+      "framing": "low head-on",
+      "camera": "low tracking backward ahead of them",
+      "action": "The two bulls charge head-on toward camera down the avenue; streetlights flare and the dark shop windows light up warm as they pass.",
+      "product_state": "absent",
+      "audio": "thunder of hooves, streetlights buzzing on one by one, a car alarm",
+      "caption": "",
+      "refs": [
+        "avenue"
+      ],
+      "keyframe_prompt": "Low head-on shot at street level in the middle of the avenue from the location plate at dawn: two giant glossy red bulls, three storeys tall, charging straight toward the camera side by side, heads low, dust and steam behind them; on both sides the dark shop windows and streetlights are switching on warm yellow in a wave that follows them. All four legs of each bull on the ground or mid gallop, normal gravity. Upright vertical composition, level horizon. All signs blank."
+    },
+    {
+      "id": "S07",
+      "t0": 14.5,
+      "t1": 17.5,
+      "beat": "build",
+      "framing": "drone top-down",
+      "camera": "drone moving forward with them",
+      "action": "From above: the two red bulls gallop down the avenue and a wave of light spreads out through the grid behind them, tower by tower, the tram lights up.",
+      "product_state": "absent",
+      "audio": "hooves from altitude, wind, a tram bell",
+      "caption": "Caffeine helps you stay alert and focused.",
+      "refs": [
+        "avenue"
+      ],
+      "keyframe_prompt": "Drone shot looking straight down the long avenue from the location plate from high above at dawn: two giant red bulls galloping down the centre of the avenue toward the waterfront, and behind them a wave of warm light switching on through the city, windows lit in the towers they have passed, dark ahead of them, a plain silver tram lit up. Upright vertical composition, the avenue runs from bottom to top of the frame. All signs blank."
+    },
+    {
+      "id": "S08",
+      "t0": 17.5,
+      "t1": 20.5,
+      "beat": "build",
+      "framing": "medium tracking side by side",
+      "camera": "tracking alongside, handheld",
+      "action": "Jae sprints on the pavement next to a galloping bull's front leg, laughing, keeping pace; lit windows streak past.",
+      "product_state": "absent",
+      "audio": "his laugh and breath, hooves, wind",
+      "caption": "",
+      "refs": [
+        "jae"
+      ],
+      "keyframe_prompt": "Tracking medium shot on a city pavement at dawn: Jae, the man from the character sheet, sprinting and laughing, arms pumping, and filling the right half of the frame the huge red foreleg and shoulder of a giant glossy red bull galloping beside him, lit shop windows with blank signs streaking past in motion blur. He runs forward in the same direction as the bull. Upright vertical composition, level horizon."
+    },
+    {
+      "id": "S09",
+      "t0": 20.5,
+      "t1": 24.5,
+      "beat": "payoff",
+      "framing": "extreme wide from behind",
+      "camera": "slow crane up",
+      "action": "At the waterfront the two bulls leap off the end of the pier toward the rising sun and dissolve into gold light; the whole skyline behind is now lit.",
+      "product_state": "absent",
+      "audio": "hooves stop, a whoosh, then gulls and a city waking: traffic, a tram bell",
+      "caption": "",
+      "refs": [],
+      "keyframe_prompt": "One single seamless photograph, not a collage, no inset panels or frames: shot from behind at the city end of a long harbour pier at sunrise, the two giant glossy red bulls mid leap off the far end of the pier toward a huge rising gold sun on the horizon, their outlines dissolving into gold light over calm water, and the lit city skyline wrapping around the harbour on both sides. Upright vertical composition, level horizon over the water."
+    },
+    {
+      "id": "S10",
+      "t0": 24.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "wide, low",
+      "camera": "slow push-in then hold",
+      "action": "The plaza, now full morning: commuters walk around the base of the six storey can in the fountain. Jae stands in the foreground holding a normal size can, grinning up at the giant one. A blank billboard on a tower waits for post text.",
+      "product_state": "hero giant can upright in fountain, label to camera; one normal can in Jae's hand, label to camera",
+      "audio": "busy morning plaza, fountain water, a tram bell",
+      "caption": "Red Bull Sugarfree. Same wings, no sugar. Wiiings without sugar.",
+      "refs": [
+        "jae",
+        "product",
+        "plaza"
+      ],
+      "keyframe_prompt": "Wide low shot of the plaza from the location plate in bright morning light: the exact can from the product reference, six storeys tall, upright in the fountain with its label square to camera and undistorted, commuters in coats walking around its base; in the foreground Jae, the man from the character sheet, in his charcoal running jacket, holding one normal size version of the same can at chest height with its label facing camera, grinning up at the giant can. A large blank white billboard panel on the glass tower in the upper third, empty for a title. Upright vertical composition, level horizon. All other signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 5.6,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 6,
+      "exact_risk": false,
+      "refs": [
+        "product can official",
+        "plaza plate",
+        "jae card",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal fake out of home CGI, dawn in a North American city plaza, cool blue grade, handheld street footage feel, upright frame with level horizon. Shot 1 (0 to 1.8 s): street level looking up past pigeons, the exact can from @Image1, scaled to six storeys, falls straight down out of the pale sky toward the fountain of @Image2, upright, label facing camera. Shot 2 (1.8 to 3.6 s): it lands upright and intact in the fountain, a crown of water explodes outward, pigeons burst into the air, 4 frames of camera shake. Shot 3 (3.6 to 6 s): slow push-in on @Image3 (Jae), a runner who stops dead, pulls out an earbud and stares up as mist drifts past. The can never dents, tilts or changes. Native sound: city hush, rising air whistle, sub boom, water crash, window glass rattle, pigeon wings, runner's breath. No speech. No music. All signs blank, no text."
+    },
+    {
+      "id": "U2",
+      "t0": 5.6,
+      "t1": 11.0,
+      "shots": [
+        "S04",
+        "S05"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "plaza plate",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal CGI hero. Shot 1 (0 to 3 s): low angle, slow 20 degree orbit around the exact can from @Image1, six storeys tall, upright in the fountain of @Image2, label square to camera and undistorted, car-sized condensation drops rolling down and falling into the water, golden rim light. Shot 2 (3 to 6 s): a burst of gold light at the base, two giant glossy red bulls, three storeys tall, step out of the light onto the plaza, hooves cracking the stone, breath steaming, heads lowering to charge. The printed label keeps its own two small bulls; the can does not move or change. Native sound: cold aluminium creak, heavy drips on water, low rumble, cracking stone, bull snort. No speech. No music. No text."
+    },
+    {
+      "id": "U3",
+      "t0": 11.0,
+      "t1": 24.5,
+      "shots": [
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 14,
+      "exact_risk": false,
+      "refs": [
+        "avenue plate",
+        "jae card",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal CGI chase at dawn, upright frame, level horizon. Shot 1 (0 to 3.5 s): low head-on, two giant glossy red bulls charge toward camera down the avenue of @Image1, streetlights and shop windows switching on warm as they pass. Shot 2 (3.5 to 6.5 s): drone top-down moving with them, a wave of light spreading through the towers behind them, a plain silver tram lights up. Shot 3 (6.5 to 9.5 s): tracking beside them, @Image2 (Jae) sprints on the pavement next to a bull's foreleg, laughing, same direction of travel. Shot 4 (9.5 to 14 s): extreme wide from behind, the bulls leap off the end of a harbour pier into a huge rising sun and dissolve into gold light while the whole skyline is now lit. Bulls gallop forward only, normal gravity, no extra legs. Native sound: thundering hooves, streetlights buzzing on, wind, tram bell, a laugh, whoosh, gulls. No speech. No music. All signs blank, no text."
+    },
+    {
+      "id": "U4",
+      "t0": 24.5,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "jae card",
+        "plaza plate",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 photoreal CGI pack shot, bright morning. Slow push-in then hold on the plaza of @Image3: the exact can from @Image1, six storeys tall, upright in the fountain, label square to camera, commuters walking around its base; in the foreground @Image2 (Jae) holds one normal size can of the same design at chest height, label to camera, and grins up at the giant one. A blank white billboard on the tower stays empty. Neither can moves or changes. Native sound: busy morning plaza, fountain water, footsteps, a tram bell. No speech. No music. No text."
+    }
+  ],
+  "music": [
+    {
+      "section": "hush and drop",
+      "t0": 0,
+      "t1": 5.6,
+      "brief": "Near silence, one high sustained string note rising with the falling can, cut to nothing on the impact so the boom lands in silence, then a single low piano note."
+    },
+    {
+      "section": "reveal",
+      "t0": 5.6,
+      "t1": 11.0,
+      "brief": "Slow brass swell in C minor under the orbit, taiko hits on each hoof as the bulls step out."
+    },
+    {
+      "section": "stampede",
+      "t0": 11.0,
+      "t1": 24.5,
+      "brief": "Driving 128 bpm trailer percussion with galloping 6/8 toms, brass ostinato, lifting a step at the drone shot, peak at the leap into the sun."
+    },
+    {
+      "section": "morning",
+      "t0": 24.5,
+      "t1": 30,
+      "brief": "Resolves to C major, bright brass chord and a light shaker, ring out past the last frame under the VO."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 2.0,
+      "sound": "sub boom and water crash of the landing",
+      "why": "the hook lives on this hit; reinforce if the native boom is thin"
+    },
+    {
+      "t": 9.2,
+      "sound": "first hoof strike on stone",
+      "why": "sells the bulls as physical and marks the product turning into energy"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "vo",
+      "plan": "one deep warm male narrator recorded as a single TTS track in post over all units (units are generated with no speech); brand line uses the phonetic RED BULL SHUG-er-free and lands over the short exact risk unit U4"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 25.0,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Archivo Black white, set into the blank billboard on the tower with perspective match and a slight bloom, fades up 8 frames at 25.0 s; tagline slides up under it at 27.8 s"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (as 'same wings, no sugar' and the tagline)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

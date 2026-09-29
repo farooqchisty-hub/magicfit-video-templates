@@ -30,7 +30,7 @@
     {
       "id": "plaza",
       "name": "Calloway civic plaza at dawn",
-      "plate_prompt": "Photoreal vertical 9:16 location plate, upright composition with level horizon: an empty stone civic plaza at 6am in a North American harbour city, a large round fountain in the centre, glass office towers on both sides reflecting a pale blue dawn sky, streetlights still glowing, pigeons on the paving, a long straight avenue leading away behind the fountain toward a distant waterfront. All storefront signs and billboards blank. No people, no readable text, no real brands."
+      "plate_prompt": "Photoreal vertical 9:16 location plate, upright composition with level horizon: an empty stone civic plaza at 6am in a North American harbour city, in the middle distance a very wide, low round granite fountain basin about 30 metres across with a knee-high rim, no statue and no tiered centrepiece, only an open shallow pool with low jets, glass office towers on both sides reflecting a pale blue dawn sky, streetlights still glowing, pigeons on the paving, a long straight avenue leading away behind the fountain toward a distant waterfront. All storefront signs and billboards blank. No people, no readable text, no real brands."
     },
     {
       "id": "avenue",
@@ -172,7 +172,13 @@
         "product",
         "plaza"
       ],
-      "keyframe_prompt": "Extreme wide low angle from street level in the empty civic plaza from the location plate at dawn, pigeons on the stone paving in the foreground, glass towers either side, and high in the pale blue sky the exact can from the product reference, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only. One single can. Upright vertical composition, level horizon, towers vertical. All signs blank."
+      "keyframe_prompt": "Extreme wide low angle from street level in the empty civic plaza from the location plate at dawn, pigeons on the stone paving in the foreground, glass towers either side, and high in the pale blue sky the exact can from the product reference, scaled up to the height of a six storey building, falling straight down toward the round fountain, perfectly upright with its label facing the camera, slight motion blur on its edges only. The can has not landed yet: it hangs in the sky above the rooftops, its base higher than the tops of the glass towers, and the wide low fountain below is still calm and empty with nothing in it. One single can. Upright vertical composition, level horizon, towers vertical. All signs blank. Scale is critical: the can's lid is level with the sixth-floor windows of the glass tower beside it, it dwarfs the lamp posts, the plane trees and the striped cafe awning,.",
+      "dressing": [
+        "pigeons on wet granite setts in the foreground",
+        "a green cast-iron bench with a plain white paper cup",
+        "glowing globe lamp posts",
+        "the tower crane's red light"
+      ]
     },
     {
       "id": "S02",
@@ -189,7 +195,13 @@
         "product",
         "plaza"
       ],
-      "keyframe_prompt": "Wide shot of the plaza from the location plate at dawn: the exact can from the product reference, six storeys tall, has just landed perfectly upright in the centre of the round fountain, intact and undented, label square to camera, a huge crown of fountain water exploding outward around its base, a flock of pigeons bursting into the air in the foreground, puddles on the paving rippling. Upright vertical composition, level horizon. One single can. All signs blank."
+      "keyframe_prompt": "Wide shot of the plaza from the location plate at dawn: the exact can from the product reference, six storeys tall, has just landed perfectly upright in the centre of the round fountain, intact and undented, label square to camera, a huge crown of fountain water exploding outward around its base, a flock of pigeons bursting into the air in the foreground, puddles on the paving rippling. Upright vertical composition, level horizon. One single can. All signs blank. Scale is critical: the can's lid is level with the sixth-floor windows of the glass tower beside it, it dwarfs the lamp posts, the plane trees and the striped cafe awning, and the fountain basin is only a ring around its base.",
+      "dressing": [
+        "the bronze dolphin spouts with green verdigris around the rim",
+        "pigeons bursting off the paving",
+        "a dropped croissant",
+        "yellow plane leaves floating in the rippling puddles"
+      ]
     },
     {
       "id": "S03",
@@ -207,7 +219,13 @@
         "product",
         "plaza"
       ],
-      "keyframe_prompt": "Medium shot of Jae, the man from the character sheet, in his charcoal running jacket, stopped mid run on the plaza paving, pulling one white earbud out, staring up in awe, fine water mist drifting past him in the dawn light; behind him, soft focus, the exact can from the product reference stands six storeys tall and upright in the fountain, label facing camera. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it."
+      "keyframe_prompt": "Medium shot of Jae, the man from the character sheet, in his charcoal running jacket, stopped mid run on the plaza paving, pulling one white earbud out, staring up in awe, fine water mist drifting past him in the dawn light; behind him, soft focus, the exact can from the product reference stands six storeys tall and upright in the fountain, label facing camera. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it.",
+      "dressing": [
+        "his slightly bent white earbud tip",
+        "the worn reflective stripe on his jacket",
+        "Kettle & Oar's green and cream striped awning with stacked chairs behind",
+        "water mist in the lamp glow"
+      ]
     },
     {
       "id": "S04",
@@ -221,10 +239,15 @@
       "audio": "deep metallic creak of cold aluminium, heavy drips hitting water like rain on a drum",
       "caption": "",
       "refs": [
-        "product",
-        "plaza"
+        "product"
       ],
-      "keyframe_prompt": "Low hero angle from the fountain rim looking up at the exact can from the product reference, six storeys tall, standing upright in the fountain, label square to camera and perfectly undistorted: the sky blue and brushed silver diagonal split, the red Red Bull wordmark, the two red bulls and gold sun, SUGARFREE in spaced red capitals, the red WITHOUT SUGAR band at the top. Condensation droplets as large as cars rolling down its side and falling into the water, a hard golden rim light on its edge, glass towers reflecting it. The can is the sharpest and brightest object in frame. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Extreme low worm's-eye hero angle from the wet granite rim of a wide low city fountain at dawn, the lens almost touching the water, looking steeply up at the exact can from the product reference, six storeys tall, standing upright in the fountain, label square to camera and perfectly undistorted: the sky blue and brushed silver diagonal split, the red Red Bull wordmark, the two red bulls and gold sun, SUGARFREE in spaced red capitals, the red WITHOUT SUGAR band at the top. Condensation droplets as large as cars rolling down its side and falling into the water, a hard golden rim light on its edge, glass towers reflecting it. The can is the sharpest and brightest object in frame. Upright vertical composition, level horizon. Around it, tiny by comparison, cast-iron globe lamp posts and yellow plane trees, and glass towers converging toward a pale blue dawn sky.",
+      "dressing": [
+        "the carved granite rim in the foreground",
+        "verdigris streaks on a bronze dolphin spout",
+        "glass towers reflecting the can",
+        "a gull crossing the sky"
+      ]
     },
     {
       "id": "S05",
@@ -239,9 +262,16 @@
       "caption": "Big morning? Bring the herd.",
       "refs": [
         "product",
-        "plaza"
+        "plaza",
+        "bull"
       ],
-      "keyframe_prompt": "Wide shot at the base of the exact can from the product reference, six storeys tall and upright in the fountain, its printed label intact and still showing its own two small red bulls and gold sun. In front of it, stepping out of a burst of warm gold light onto the plaza, two giant photoreal bulls with glossy deep red hides, each three storeys tall, horns forward, heads low in the charging pose of the logo, breath steaming in the cold dawn air, stone paving cracking under their hooves. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it."
+      "keyframe_prompt": "Wide shot at the base of the exact can from the product reference, six storeys tall and upright in the fountain, its printed label intact and still showing its own two small red bulls and gold sun. In front of it, stepping out of a burst of warm gold light onto the plaza, two giant photoreal bulls with glossy deep red hides, each three storeys tall, horns forward, heads low in the charging pose of the logo, breath steaming in the cold dawn air, stone paving cracking under their hooves. Upright vertical composition, level horizon. All signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it.",
+      "dressing": [
+        "cracked granite setts under the hooves",
+        "the bronze dolphin spouts",
+        "steam from the bulls' nostrils",
+        "the street sweeper cart knocked on its side at the edge"
+      ]
     },
     {
       "id": "S06",
@@ -255,9 +285,16 @@
       "audio": "thunder of hooves, streetlights buzzing on one by one, a car alarm",
       "caption": "",
       "refs": [
-        "avenue"
+        "avenue",
+        "bull"
       ],
-      "keyframe_prompt": "Low head-on shot at street level in the middle of the avenue from the location plate at dawn: two giant glossy red bulls, three storeys tall, charging straight toward the camera side by side, heads low, dust and steam behind them; on both sides the dark shop windows and streetlights are switching on warm yellow in a wave that follows them. All four legs of each bull on the ground or mid gallop, normal gravity. Upright vertical composition, level horizon. All signs blank."
+      "keyframe_prompt": "Low head-on shot at street level in the middle of the avenue from the location plate at dawn: two giant bright crimson glossy bulls, three storeys tall, charging straight toward the camera side by side and close, their heads and horns filling the lower half of the frame, only a few metres from the lens, heads low, dust and steam behind them; on both sides the dark shop windows and streetlights are switching on warm yellow in a wave that follows them. All four legs of each bull on the ground or mid gallop, normal gravity. Upright vertical composition, level horizon. All signs blank.",
+      "dressing": [
+        "a manhole venting steam",
+        "fallen yellow leaves whipped up behind the bulls",
+        "blank bus shelters lighting up",
+        "overhead tram wires"
+      ]
     },
     {
       "id": "S07",
@@ -271,9 +308,17 @@
       "audio": "hooves from altitude, wind, a tram bell",
       "caption": "Caffeine helps you stay alert and focused.",
       "refs": [
-        "avenue"
+        "avenue",
+        "bull",
+        "tram"
       ],
-      "keyframe_prompt": "Drone shot looking straight down the long avenue from the location plate from high above at dawn: two giant red bulls galloping down the centre of the avenue toward the waterfront, and behind them a wave of warm light switching on through the city, windows lit in the towers they have passed, dark ahead of them, a plain silver tram lit up. Upright vertical composition, the avenue runs from bottom to top of the frame. All signs blank."
+      "keyframe_prompt": "Drone shot looking straight down the long avenue from the location plate from high above at dawn: two giant red bulls galloping down the centre of the avenue toward the waterfront, and behind them a wave of warm light switching on through the city, windows lit in the towers they have passed, dark ahead of them, a plain silver tram lit up. Upright vertical composition, the avenue runs from bottom to top of the frame. All signs blank.",
+      "dressing": [
+        "the plain silver tram with a sky-blue window band lit up",
+        "rows of autumn plane trees",
+        "the lighthouse and container cranes at the waterfront",
+        "overhead tram wires"
+      ]
     },
     {
       "id": "S08",
@@ -287,9 +332,16 @@
       "audio": "his laugh and breath, hooves, wind",
       "caption": "",
       "refs": [
-        "jae"
+        "jae",
+        "bull"
       ],
-      "keyframe_prompt": "Tracking medium shot on a city pavement at dawn: Jae, the man from the character sheet, sprinting and laughing, arms pumping, and filling the right half of the frame the huge red foreleg and shoulder of a giant glossy red bull galloping beside him, lit shop windows with blank signs streaking past in motion blur. He runs forward in the same direction as the bull. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Tracking medium shot on a city pavement at dawn: Jae, the man from the character sheet, sprinting and laughing, arms pumping, and filling the whole right half of the frame, cropped by the frame edge, the huge foreleg and shoulder of a giant bright crimson glossy bull three storeys tall galloping beside him; Jae's head only reaches the bull's knee, lit shop windows with blank signs streaking past in motion blur. He runs forward in the same direction as the bull. Upright vertical composition, level horizon.",
+      "dressing": [
+        "the house key on his shoelace",
+        "wet grit-marked shoes mid stride",
+        "blank bus shelter panels streaking past",
+        "yellow leaves spinning in the bull's wake"
+      ]
     },
     {
       "id": "S09",
@@ -302,8 +354,16 @@
       "product_state": "absent",
       "audio": "hooves stop, a whoosh, then gulls and a city waking: traffic, a tram bell",
       "caption": "",
-      "refs": [],
-      "keyframe_prompt": "One single seamless photograph, not a collage, no inset panels or frames: shot from behind at the city end of a long harbour pier at sunrise, the two giant glossy red bulls mid leap off the far end of the pier toward a huge rising gold sun on the horizon, their outlines dissolving into gold light over calm water, and the lit city skyline wrapping around the harbour on both sides. Upright vertical composition, level horizon over the water."
+      "refs": [
+        "bull"
+      ],
+      "keyframe_prompt": "One single seamless photograph, not a collage, no inset panels or frames: shot from behind at the city end of a long harbour pier at sunrise, the two giant glossy red bulls mid leap off the far end of the pier toward a huge rising gold sun on the horizon, their outlines dissolving into gold light over calm water, and the lit city skyline wrapping around the harbour on both sides. Upright vertical composition, level horizon over the water.",
+      "dressing": [
+        "the ferry's deck lights at the end pier",
+        "container cranes silhouetted",
+        "gulls scattering",
+        "the lit city wrapping the harbour"
+      ]
     },
     {
       "id": "S10",
@@ -321,7 +381,13 @@
         "product",
         "plaza"
       ],
-      "keyframe_prompt": "Wide low shot of the plaza from the location plate in bright morning light: the exact can from the product reference, six storeys tall, upright in the fountain with its label square to camera and undistorted, commuters in coats walking around its base; in the foreground Jae, the man from the character sheet, in his charcoal running jacket, holding one normal size version of the same can at chest height with its label facing camera, grinning up at the giant can. A large blank white billboard panel on the glass tower in the upper third, empty for a title. Upright vertical composition, level horizon. All other signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it."
+      "keyframe_prompt": "Wide low shot of the plaza from the location plate in bright morning light: the exact can from the product reference, six storeys tall, upright in the fountain with its label square to camera and undistorted, commuters in coats walking around its base; in the foreground Jae, the man from the character sheet, in his charcoal running jacket, holding one normal size version of the same can at chest height with its label facing camera, grinning up at the giant can. A large blank white billboard panel on the glass tower in the upper third, empty for a title. Upright vertical composition, level horizon. All other signs blank. Its base sits down inside the fountain basin with water lapping around the bottom rim and a contact shadow; it does not float. It is taller than the fountain by far, as tall as the six storey buildings beside it. Scale is critical: the can's lid is level with the sixth-floor windows of the glass tower beside it, it dwarfs the lamp posts, the plane trees and the striped cafe awning, and the fountain basin is only a ring around its base.",
+      "dressing": [
+        "commuters with paper coffee cups and scarves",
+        "Kettle & Oar's awning now open with chairs out",
+        "pigeons settled back on the fountain rim",
+        "bright yellow plane trees"
+      ]
     }
   ],
   "units": [
@@ -461,5 +527,118 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Calloway is a fictional harbour city of 1.4 million on a cold northern bay. Founders' Plaza sits at the top of Ferris Avenue, a dead-straight 2 km run down to the ferry piers.",
+      "The Founders' Fountain was carved in 1911 from grey granite: a round basin 30 metres across with four bronze dolphin spouts, green with verdigris, restored last spring.",
+      "It is 6:04am on a Tuesday in late October. The first Harbor Line tram of the day leaves the plaza at 6:10; the street sweeper has just passed and the paving is still wet.",
+      "Jae Park runs the same 8 km loop at this hour every weekday, plaza to piers and back, and has never once seen the city switch on before him.",
+      "Kettle & Oar, the corner cafe on the plaza, opens at 6:30; its chairs are still stacked and chained under the striped awning."
+    ],
+    "locations": {
+      "plaza": {
+        "foreground": [
+          "wet grey granite paving setts with a thin film of fountain spray and a few fallen yellow plane-tree leaves",
+          "pigeons pecking at a dropped croissant beside a green cast-iron bench",
+          "a forgotten plain white paper coffee cup on the bench arm",
+          "a brass drinking fountain on a stone pedestal, polished where hands touch it"
+        ],
+        "midground": [
+          "the wide low granite fountain basin with four small bronze dolphin spouts on its rim, streaked green with verdigris, and an open empty pool in the middle",
+          "cast-iron lamp posts with glowing white globe lamps still on",
+          "a parked municipal street sweeper cart with a push broom and a green bin, no markings",
+          "Kettle & Oar's plain green and cream striped awning with bistro chairs stacked and chained underneath",
+          "a row of plane trees in autumn yellow along the plaza edge"
+        ],
+        "background": [
+          "glass office towers mirroring a pale blue dawn sky, windows dark",
+          "a tower crane on a construction site with a small red aircraft light blinking",
+          "the long straight avenue leaving the plaza with tram rails glinting down its centre",
+          "a thin line of harbour water and cranes at the far end of the avenue",
+          "a few seagulls high against the dawn"
+        ]
+      },
+      "avenue": {
+        "foreground": [
+          "twin tram rails set in wet granite glinting with dawn light",
+          "a round cast-iron manhole cover venting a curl of steam",
+          "fallen yellow plane-tree leaves in the gutter"
+        ],
+        "midground": [
+          "a plain silver Harbor Line tram with no logo, interior lights on, empty",
+          "blank glass bus shelters with empty poster frames",
+          "rows of plane trees in autumn yellow along both pavements",
+          "an unmarked white delivery van parked with hazard lights blinking",
+          "overhead tram wires strung between tall poles"
+        ],
+        "background": [
+          "glass towers lining both sides with dark windows",
+          "a harbour waterfront with container cranes and a small red and white lighthouse",
+          "the sun just below the horizon, the sky gold at the bottom and pale blue above",
+          "a ferry at the end pier with its deck lights on"
+        ]
+      }
+    },
+    "personal_props": {
+      "jae": [
+        "plain white wireless earbuds, one silicone tip slightly bent from being stuffed in a pocket",
+        "a charcoal running jacket with a worn reflective stripe across the back",
+        "a single house key tied to his shoelace",
+        "a plain black sports watch with a blank dark face",
+        "grey running shoes with wet, grit-marked soles"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "fountain",
+        "name": "The Founders' Fountain",
+        "prop_prompt": "Photoreal architectural prop reference on a plain mid-grey background, three-quarter view and top view: a large round grey granite fountain basin with a thick carved rim, four bronze dolphin water spouts streaked green with verdigris around the edge, water in the basin, worn and chipped stone where people sit, a small drain grate. No statue in the centre, empty middle. No letters, no plaques with writing, no logos. Soft even studio light."
+      },
+      {
+        "id": "bull",
+        "name": "The giant charging bull",
+        "prop_prompt": "Photoreal computer-generated creature reference sheet on a plain mid-grey background, side view and three-quarter front view of the same animal: a huge muscular bull with a bright saturated crimson red hide, glossy like wet lacquer with sharp white specular highlights (the same vivid red as the bulls on the can, not brown), forward-curving pale horns, head lowered in a charging pose, steam from its nostrils, dark hooves, all four hooves on the ground. A real animal, not a logo, not a drawing. No letters, no logos."
+      },
+      {
+        "id": "tram",
+        "name": "The Harbor Line tram",
+        "prop_prompt": "Photoreal vehicle prop reference on a plain mid-grey background, side view: a modern single-car city tram in plain brushed silver with a pale sky-blue window band, a pantograph on the roof, warm interior lights, rain streaks on the windows, completely unmarked with no numbers, no logos and no route display. Soft even studio light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Calloway",
+        "mark": "a simple wave under a bridge arch",
+        "colors": "navy and silver",
+        "appears_on": "lamp post banners (shown blank or with the mark only)",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Harbor Line",
+        "mark": "a pale sky-blue band along the tram windows",
+        "colors": "silver and pale sky blue",
+        "appears_on": "the tram only",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Kettle & Oar",
+        "mark": "green and cream awning stripes",
+        "colors": "green and cream",
+        "appears_on": "the corner cafe awning",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "6:04am on a still, cold late-October Tuesday, just before sunrise; breath and manhole steam visible. The street sweeper has just been through so the granite is wet. Used: a cold coffee cup left on a bench, stacked cafe chairs. Out of place: a dropped croissant the pigeons found, one lamp post globe flickering.",
+    "sound_world": [
+      "pigeon wings clattering up off wet stone",
+      "a deep metallic boom and a wall of fountain water",
+      "an earbud popped out, then total city silence",
+      "hooves on granite like thunder, stone cracking",
+      "bull breath snorts in cold air",
+      "a chain of relay clicks and buzzing as shop lights switch on",
+      "the tram bell and overhead wire hum",
+      "gulls and the harbour at sunrise"
+    ]
   }
 }

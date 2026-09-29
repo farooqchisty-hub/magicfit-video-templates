@@ -1,0 +1,60 @@
+{
+  "key": "problem_solution",
+  "name": "Problem to solution (before and after)",
+  "definition": "A 30 second ad in three acts: name one everyday pain the viewer recognises in the first second, agitate it until it is almost unbearable, then show the product ending it on screen. The problem and the solution are two visibly different worlds, and the product is the hinge between them.",
+  "why_it_sells": "Recognition before persuasion: the viewer sees their own bad moment and keeps watching to see it fixed. Longest-running format on Meta (median 68 days live) and repeatedly called the highest-performing cold-traffic format for DTC. It only works if the pain is specific and the fix is shown, not claimed, so the claims ceiling applies hard: the product solves only what the allowed claims say it solves.",
+  "visual_grammar": "Two visual states that never mix except at the hinge. PROBLEM state: desaturated to near-monochrome (10 to 15% saturation), cool grey, flat overcast light, heavy symmetrical frames with the subject small or slumped, objects visibly sagging or slowed (curling paper, drooping plant, cold drink with a skin). SOLUTION state: full saturation built from the product colours, warm key light, dynamic diagonal frames, the subject large and upright. THE HINGE: the product is the first object shown in full colour inside the grey world, and colour spreads outward from it. Close with a top and bottom before/after split frame so the change reads in one glance.",
+  "camera": "Problem: locked off or glacial push-ins on a long lens (85 to 135mm), frames centred and airless, visual slow motion (speed ramps to 30 to 40%) on everything except the speaker's mouth. Hinge: locked macro on the product, one rack focus. Solution: handheld energy, a whip pan or speed ramp back to 100% on the first action after the product, wider lenses (28 to 35mm), low angles that make the subject tall.",
+  "light": "Problem: soft top-down fluorescent or overcast window light, no contrast, cool 6500K, no highlights in the eyes. Solution: warm directional key (3800K) from a window or practical, catchlights in the eyes, the product rim-lit as the brightest object.",
+  "texture": "Clean digital, slightly soft in the problem state (a touch of diffusion and lifted blacks, like a tired eye), crisp and punchy in the solution state (true blacks, micro-contrast). No film grain gimmicks; the contrast between the two states is the texture.",
+  "palette_rule": "Problem world: every colour pulled to grey except the product, which appears in its true colours at the hinge. Solution world: rebuild the palette from the product's colours (here sky blue and brushed silver with red accents), so the fix literally looks like the product.",
+  "pacing": "Hook in under 2 seconds: a specific pain named in words and shown in picture at once. Agitate for 5 to 7 seconds with slow, long shots that make the viewer feel the drag. The hinge is the one held beat (at least 1.5 s) on the product. After it, cutting doubles in speed. Payoff shows the pain's opposite, then a before/after split, then the CTA with a breath of stillness.",
+  "sound": "Problem: muffled, low-passed room tone, slowed and pitched-down office sounds (a yawn stretched, a keyboard clack dragging), a ticking clock. Hinge: the can crack is crisp and loud, the first full-bandwidth sound in the ad, and the room tone snaps back to normal speed on it. Solution: bright, full-range native sound. Score: a heavy, detuned drone in the problem, a bright up-tempo track that starts on the crack.",
+  "caption_look": {
+    "font": "Archivo Black for problem words, Archivo SemiBold for the rest",
+    "size": "5.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "problem state: active word on a flat grey #6E6E6E chip; solution state: active word on a sky-blue #3BA4DC chip",
+    "shadow": "none; words sit on chips for legibility on grey",
+    "box": "rounded 6px chip behind the active word only",
+    "position": "centre, 64% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "problem_captions_motion": "problem-state captions type on slowly, one word per 0.3 s",
+    "solution_captions_motion": "solution-state captions pop on per word with a 4 frame scale bounce"
+  },
+  "model_vocab": [
+    "desaturated near-monochrome grey world",
+    "only the product in full colour",
+    "colour spreading outward from the object",
+    "flat overcast fluorescent light",
+    "visual slow motion, suspended in mid-air",
+    "warm directional key light, catchlights in the eyes",
+    "top and bottom before and after split frame",
+    "speed ramp",
+    "slumped posture versus upright posture"
+  ],
+  "failure_modes": [
+    "the model tints the whole frame instead of leaving the world grey: say 'the entire scene is black and white greyscale except the can, which is in full true colour'",
+    "the grey world makes the can grey too: name the can colours explicitly in every hinge prompt (sky blue, brushed silver, red wordmark, gold sun)",
+    "colour-spread shots come back as a hard half-and-half cut: describe a soft gradient wave moving outward from the can",
+    "before/after split frames come back as two different people: pass the character sheet and say 'the same woman in both halves, same clothes, same desk'",
+    "monitors and whiteboards grow fake UI text: ask for abstract colour blocks and blank grey placeholder bars only",
+    "wall clocks get readable numerals or fake brand names: ask for a plain clock face with hands and tick marks only, no numbers",
+    "problem shots look merely sad instead of slowed: add a physical slow-motion cue (paper suspended mid-fall, coffee pouring in a frozen ribbon)",
+    "office fridges fill with generic branded bottles: say the fridge holds only plain unlabelled grey food boxes and the one product can",
+    "asking for 'a clean empty band for captions' renders a literal white bar across the frame: never ask for caption space in problem shots, captions sit on chips anyway",
+    "a greyscale instruction placed late in a long prompt gets ignored and the frame comes back in colour: open the prompt with 'Black and white greyscale photograph, fully desaturated' and list the coloured items as grey",
+    "'medium close-up at her desk' comes back as a wide room shot with the monitor blocking her: say 'fills the frame from the top of her head to mid-chest, nothing between camera and her'",
+    "'just lowered from a sip' still renders the can at her lips, covering the mouth on a dialogue frame: say the can is lowered away from her face and her mouth is visible mid-word"
+  ],
+  "negatives": [
+    "no real brands, logos or sponsor names except the product",
+    "no readable text generated by the model: screens, notes and whiteboards are blank shapes",
+    "no numerals on clocks",
+    "no health, weight, calorie or medical imagery (no scales, no pills, no doctors)",
+    "no crash-and-cure exaggeration such as collapsing or fainting",
+    "no extra fingers",
+    "no more than one can per person"
+  ],
+  "prompt_prefix": "Photoreal commercial film still for a problem-and-solution ad, vertical 9:16 frame, clean digital cinema look, deliberate colour grading that separates a grey problem world from a full-colour solution world."
+}

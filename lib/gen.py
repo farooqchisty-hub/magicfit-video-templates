@@ -6,12 +6,17 @@ def _call(args,timeout=180):
     r=subprocess.run(["treg","call",*args],capture_output=True,text=True,timeout=timeout)
     try: return json.loads(r.stdout)
     except Exception: raise RuntimeError(f"treg: {r.stdout[:400]} {r.stderr[:400]}")
-def gen(prompt,refs=(),out="out.png",size="9:16",res="2K",tries=4,tag=""):
+def gen(prompt,refs=(),out="out.png",size="9:16",res="2K",tries=4,tag="",model="nbpro"):
+    ep="reapi.image-gen.gemini-3-pro-image"
     body={"model":"gemini-3-pro-image-preview","prompt":prompt,"size":size,"resolution":res}
+    if model=="gpt25":
+        ep="reapi.image-gen.gpt-image-2-5"
+        px={"9:16":"1024x1536","16:9":"1536x1024","1:1":"1024x1024"}.get(size,"1024x1536")
+        body={"model":"gpt-image-2.5-flare-official","prompt":prompt,"size":px,"quality":"high","n":1}
     if refs: body["image_urls"]=list(refs)
     last=None
     for t in range(tries):
-        try: j=_call(["reapi.image-gen.gemini-3-pro-image","--method","POST","--data",json.dumps(body)])
+        try: j=_call([ep,"--method","POST","--data",json.dumps(body)])
         except Exception as e: last={"err":str(e)}; time.sleep(15); continue
         tid=j.get("id")
         if not tid: last=j; time.sleep(15); continue

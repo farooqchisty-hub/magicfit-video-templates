@@ -198,7 +198,13 @@
         "mabel",
         "lamp_room"
       ],
-      "keyframe_prompt": "Close-up of Mabel, the owl from the character sheet, in the lamp room from the location reference, her huge amber eyes drooping half shut behind her tiny wire spectacles, head nodding forward, one wing tip patting her own cheek to stay awake, her sky-blue scarf slipping. Behind her the giant brass and glass lens flickers dim amber, blue fog presses on the windows. Warm amber key on her face, cool blue rim. Sleepy, funny, endearing."
+      "keyframe_prompt": "Close-up of Mabel, the owl from the character sheet, in the lamp room from the location reference, her huge amber eyes drooping half shut behind her tiny wire spectacles, head nodding forward, one wing tip patting her own cheek to stay awake, her sky-blue scarf slipping. Behind her the giant brass and glass lens flickers dim amber, blue fog presses on the windows. Warm amber key on her face, cool blue rim. Sleepy, funny, endearing.",
+      "dressing": [
+        "the curved wall of chalk tally marks in bundles of five",
+        "her wire spectacles mended with copper wire",
+        "the dropped-stitch hole in her sky-blue scarf",
+        "the patched cracked window pane"
+      ]
     },
     {
       "id": "S02",
@@ -212,9 +218,16 @@
       "audio": "deep foghorn, waves on rocks",
       "caption": "",
       "refs": [
-        "lighthouse"
+        "lighthouse",
+        "ferry"
       ],
-      "keyframe_prompt": "Wide shot of the lighthouse from the location reference on black rocks in thick rolling blue fog at night, its beam weak, thin and stuttering into the fog, silver moonlight, the small cream night ferry with a sky-blue stripe and glowing cabin windows creeping toward the rocks in the distance, plain hull with no name or numbers. Tense and beautiful. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Wide shot of the lighthouse from the location reference on black rocks in thick rolling blue fog at night, its beam weak, thin and stuttering into the fog, silver moonlight, the small cream night ferry with a sky-blue stripe and glowing cabin windows creeping toward the rocks in the distance, plain hull with no name or numbers. Tense and beautiful. Upright vertical composition, level horizon.",
+      "dressing": [
+        "jagged black rocks crusted with barnacles and orange sea stars",
+        "the rope pulley line to the wooden jetty",
+        "the bell buoy tilting in the swell",
+        "the fish weathervane on the lantern roof"
+      ]
     },
     {
       "id": "S03",
@@ -230,7 +243,13 @@
       "refs": [
         "teo"
       ],
-      "keyframe_prompt": "Medium shot of Captain Teo, the man from the character sheet, a stylized animated human, standing at the wooden wheel on the small bridge of a night ferry, a coiled-cord radio handset held to his mouth, worried eyebrows, yellow oilskin wet at the shoulders, the bridge windows solid with white-blue fog, warm cabin lamp on his face, green glow of a plain instrument panel with no readable text. Stylized 3D feature film style."
+      "keyframe_prompt": "Medium shot of Captain Teo, the man from the character sheet, a stylized animated human, standing at the wooden wheel on the small bridge of a night ferry, a coiled-cord radio handset held to his mouth, worried eyebrows, yellow oilskin wet at the shoulders, the bridge windows solid with white-blue fog, warm cabin lamp on his face, green glow of a plain instrument panel with no readable text. Stylized 3D feature film style. No cans, bottles or drink packaging anywhere on the bridge; the shelves hold only the thermos, a coil of rope and a brass lamp.",
+      "dressing": [
+        "a dented green thermos on the chart shelf",
+        "a small brass compass on a leather cord round his neck",
+        "the mismatched brown button on his yellow oilskin",
+        "fog-streaked bridge windows with a rubber wiper"
+      ]
     },
     {
       "id": "S04",
@@ -245,9 +264,16 @@
       "caption": "I'm here! I'm here!",
       "refs": [
         "mabel",
-        "lamp_room"
+        "lamp_room",
+        "radio"
       ],
-      "keyframe_prompt": "Medium shot of Mabel, the owl from the character sheet, in the lamp room from the location reference, startled wide awake mid-jump, every feather puffed out, spectacles knocked askew, a few loose feathers floating in the air, both wings grabbing an old radio handset off its hook on the wall, beak open mid-shout. Dim flickering lens behind her. Big squash and stretch comedic pose."
+      "keyframe_prompt": "Medium shot of Mabel, the owl from the character sheet, in the lamp room from the location reference, startled wide awake mid-jump, every feather puffed out, spectacles knocked askew, a few loose feathers floating in the air, both wings grabbing an old radio handset off its hook on the wall, beak open mid-shout. Dim flickering lens behind her. Big squash and stretch comedic pose.",
+      "dressing": [
+        "loose feathers floating",
+        "the enamel teacup knocked over and rolling",
+        "the chalk tally wall behind",
+        "the pair of tiny felted slippers flying off"
+      ]
     },
     {
       "id": "S05",
@@ -265,7 +291,13 @@
         "mabel",
         "lamp_room"
       ],
-      "keyframe_prompt": "Insert shot in the lamp room: Mabel, the small owl from the character sheet, lifts the exact can from the product reference upright out of a small wooden crate of ice, the can reaches up to her chin, her wing tips wrapped around the back and sides of the can so the front label is fully visible and undistorted. The can is a photoreal printed aluminium object with condensation and ice chips, lit by the warm lamp light with a crisp specular rim, the brightest and most real object in frame. Mabel stands beside the can, fully visible, with her heart-shaped cream face, huge amber eyes, tiny wire spectacles and honey-brown speckled wings exactly as on the character sheet, looking at it with wide hopeful eyes. Stylized 3D animated world, only the can is photoreal."
+      "keyframe_prompt": "Insert shot in the lamp room: Mabel, the small owl from the character sheet, lifts the exact can from the product reference upright out of a small wooden crate of ice, the can reaches up to her chin, her wing tips wrapped around the back and sides of the can so the front label is fully visible and undistorted. The can is a photoreal printed aluminium object with condensation and ice chips, lit by the warm lamp light with a crisp specular rim, the brightest and most real object in frame. Mabel stands beside the can, fully visible, with her heart-shaped cream face, huge amber eyes, tiny wire spectacles and honey-brown speckled wings exactly as on the character sheet, looking at it with wide hopeful eyes. Stylized 3D animated world, only the can is photoreal. Scale check: Mabel stands on the floor beside the crate and the top of the can is level with her chin, never above her head. She is lifting it up out of the ice in the crate, ice chips sliding off. Composition: the open wooden ice crate sits on the floorboards in the lower middle of the frame; Mabel stands on the same floorboards right behind it, and the can is half out of the ice, its bottom still in the crate, so the can top is at her chin height. Camera at her eye level, close enough that she and the can fill the lower two thirds.",
+      "dressing": [
+        "the slatted wooden ice crate with rope handles",
+        "melting ice chips puddling on the shelf",
+        "the brass oil can",
+        "the drying mittens on a line in the soft background"
+      ]
     },
     {
       "id": "S06",
@@ -283,7 +315,12 @@
         "product",
         "lamp_room"
       ],
-      "keyframe_prompt": "Medium close-up of Mabel, the owl from the character sheet, in the lamp room, holding the exact can from the product reference in both wings at chest height, just lowered from a sip, the can reaches up to her chin, front label fully visible and undistorted, a photoreal printed aluminium can lit by the warm lamp. Her huge amber eyes are now wide open and sparkling behind straightened spectacles, feathers smooth and fluffed, a delighted grin and a little wink. Stylized 3D animated world, only the can is photoreal."
+      "keyframe_prompt": "Medium close-up of Mabel, the owl from the character sheet, in the lamp room, holding the exact can from the product reference in both wings at chest height, just lowered from a sip, the can reaches up to her chin, front label fully visible and undistorted, a photoreal printed aluminium can lit by the warm lamp. Her huge amber eyes are now wide open and sparkling behind straightened spectacles, feathers smooth and fluffed, a delighted grin and a little wink. Stylized 3D animated world, only the can is photoreal. Keep her exact barn owl colouring from the character sheet: pale heart-shaped cream face disc, honey-brown speckled wings. Behind her only the plaster wall with short white chalk strokes in bundles of five; no chalkboard, no numbers, no words, no floor lamp.",
+      "dressing": [
+        "the knitted blanket on the mended stool behind her",
+        "the chalk tally wall softly out of focus",
+        "her copper-mended spectacles now straight"
+      ]
     },
     {
       "id": "S07",
@@ -298,9 +335,17 @@
       "caption": "",
       "refs": [
         "mabel",
-        "lamp_room"
+        "lamp_room",
+        "lens"
       ],
-      "keyframe_prompt": "Low angle wide shot inside the lamp room from the location reference: tiny Mabel, the owl from the character sheet, hanging her whole body off the wooden handle of the big brass crank, feet off the floor, scarf flying, determined face, while the giant faceted lens above her blazes to full brilliant gold and throws rays of light through the fog outside the windows. Heroic, funny, dynamic."
+      "keyframe_prompt": "Low angle wide shot inside the lamp room from the location reference: tiny Mabel, the owl from the character sheet, hanging her whole body off the wooden handle of the big brass crank, feet off the floor, scarf flying, determined face, while the giant faceted lens above her blazes to full brilliant gold and throws rays of light through the fog outside the windows. Heroic, funny, dynamic.",
+      "dressing": [
+        "the brass polished bright only as high as she can reach",
+        "the pale worn wooden crank handle",
+        "the iron spiral stair rail through the floor hatch",
+        "the chalk tally wall lit gold",
+        "the small oval portrait of an older owl by the stairs"
+      ]
     },
     {
       "id": "S08",
@@ -314,9 +359,16 @@
       "audio": "foghorn answered, engines reversing, radio",
       "caption": "I see your light! Turning now.",
       "refs": [
-        "lighthouse"
+        "lighthouse",
+        "ferry"
       ],
-      "keyframe_prompt": "Wide shot at sea: a blazing golden lighthouse beam from the lighthouse in the location reference slices through thick blue fog and lights up jagged black rocks, the small cream night ferry with a sky-blue stripe and warm windows turning away from the rocks just in time, white wake curving behind it, plain hull with no name or numbers. Upright vertical composition, level horizon."
+      "keyframe_prompt": "Wide shot at sea: a blazing golden lighthouse beam from the lighthouse in the location reference slices through thick blue fog and lights up jagged black rocks, the small cream night ferry with a sky-blue stripe and warm windows turning away from the rocks just in time, white wake curving behind it, plain hull with no name or numbers. Upright vertical composition, level horizon. Only one ferry in the whole frame. No cans, bottles or litter on the rocks.",
+      "dressing": [
+        "jagged black rocks with kelp strands",
+        "the Marigold's orange life ring on the rail",
+        "a curving white wake",
+        "the bell buoy lit gold by the beam"
+      ]
     },
     {
       "id": "S09",
@@ -331,9 +383,16 @@
       "caption": "Safe home, Marigold.",
       "refs": [
         "mabel",
-        "lighthouse"
+        "lighthouse",
+        "ferry"
       ],
-      "keyframe_prompt": "High shot over the shoulder of Mabel, the owl from the character sheet, standing on the railing of the lighthouse gallery balcony, waving one wing, the golden beam above her, looking down at the small cream night ferry with a sky-blue stripe passing safely below, tiny stylized passengers on its deck waving glowing lanterns up at her, fog thinning, the first pale blue of dawn on the horizon, plain hull with no name or numbers. Warm, proud, emotional. Upright vertical composition, level horizon."
+      "keyframe_prompt": "High shot over the shoulder of Mabel, the owl from the character sheet, standing on the railing of the lighthouse gallery balcony, waving one wing, the golden beam above her, looking down at the small cream night ferry with a sky-blue stripe passing safely below, tiny stylized passengers on its deck waving glowing lanterns up at her, fog thinning, the first pale blue of dawn on the horizon, plain hull with no name or numbers. Warm, proud, emotional. Upright vertical composition, level horizon.",
+      "dressing": [
+        "the rope pulley basket hanging off the gallery rail",
+        "the Marigold's funnel with an orange flower shape",
+        "tiny passengers holding glowing lanterns",
+        "gulls waking on a rock"
+      ]
     },
     {
       "id": "S10",
@@ -350,7 +409,13 @@
         "product",
         "mabel"
       ],
-      "keyframe_prompt": "Sunrise pack shot on a lighthouse gallery ledge: the exact can from the product reference stands upright on the white painted ledge, label facing camera and undistorted, a photoreal printed aluminium can with droplets, rim-lit by a big golden sunrise over a calm sea. Beside it, Mabel, the owl from the character sheet, is fast asleep on a small stool wrapped in her knitted sky-blue blanket, spectacles pushed up on her forehead, smiling. The can is the brightest, most real object in frame. Clean empty sky above the can for a title. Upright vertical composition, level horizon. Stylized 3D animated world, only the can is photoreal."
+      "keyframe_prompt": "Sunrise pack shot on a lighthouse gallery ledge: the exact can from the product reference stands upright on the white painted ledge, label facing camera and undistorted, a photoreal printed aluminium can with droplets, rim-lit by a big golden sunrise over a calm sea. Beside it, Mabel, the owl from the character sheet, is fast asleep on a small stool wrapped in her knitted sky-blue blanket, spectacles pushed up on her forehead, smiling. The can is the brightest, most real object in frame. Clean empty sky above the can for a title. Upright vertical composition, level horizon. Stylized 3D animated world, only the can is photoreal.",
+      "dressing": [
+        "the chalk stub beside the can",
+        "a fresh tiny chalk tally mark on the white ledge wall",
+        "the knitted blanket with big stitches",
+        "her felted slippers on her feet"
+      ]
     }
   ],
   "units": [
@@ -495,5 +560,120 @@
     "first_pass_usd": 8.91,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Mabel has kept Point Hollow Light for 52 years, and her mother kept it before her; a portrait of her mother in a keeper's cap hangs by the stairs.",
+      "Point Hollow is a lump of black rock three miles off the fishing town of Grey Harbor. The lens must be wound by hand every hour or it slows and dims.",
+      "Every ship she sees safely past gets one chalk tally mark on the curved lamp-room wall; after 52 years the marks climb higher than she can reach, so the newest ones are tiny and low.",
+      "Captain Teo Reyes has run the Marigold, the last ferry of the night, for 18 years. Every Sunday he sends a crate of ice and groceries up to the gallery on a rope pulley, and they have never met face to face.",
+      "Tonight is the thickest fog in forty years, and the Marigold is carrying twelve passengers home from the harvest fair."
+    ],
+    "materials_rule": "Stylized 3D feature film craftsmanship: every object is slightly chunky with soft bevelled edges and pushed proportions (oversized rivets, fat rope, rounded brass, thick glass), hand-painted texture maps with visible brush grain, warm subsurface glow through wood, wool and feathers, edge wear painted as lighter scuffs, knitwear with big readable stitches. Nothing is photoreal except the product can.",
+    "locations": {
+      "lamp_room": {
+        "foreground": [
+          "a three-legged wooden stool with one leg mended in twine, a knitted sky-blue blanket slumped over it",
+          "a chipped enamel teacup of cold tea on a cracked saucer",
+          "a pair of tiny grey felted slippers kicked off by the stool",
+          "a small slatted wooden ice crate with rope handles on a low shelf, ice chips melting into a puddle",
+          "a brass oil can with a long curved spout, dented at the base"
+        ],
+        "midground": [
+          "the giant faceted brass and glass lens on its round turntable, brass polished bright only as high as an owl can reach and dull above",
+          "the brass hand crank with a wooden handle worn pale and smooth",
+          "an old rounded radio set with two big dials and a coiled-cord handset on a hook",
+          "the curved plaster wall covered in bundles of white chalk tally marks in groups of five, rising in rows, the newest ones small and low",
+          "the iron spiral staircase rail coming up through a round floor hatch"
+        ],
+        "background": [
+          "curved windows of small square panes, one cracked pane patched with a crossed strip of fabric plaster",
+          "thick blue fog pressing on the glass",
+          "a small oval portrait of an older owl in a keeper's cap by the stairs",
+          "a string of drying woollen mittens pegged along a line under the window",
+          "a bundle of spare wicks and a coil of fat rope hanging on a peg"
+        ]
+      },
+      "lighthouse": {
+        "foreground": [
+          "jagged black rocks slick with spray, crusted with white barnacles and a few orange sea stars",
+          "a tangle of old rope and a cork float wedged in a crack",
+          "long strands of dark kelp draped over the rocks"
+        ],
+        "midground": [
+          "the white tower with a sky-blue band and a small red door with a round porthole at its base",
+          "a rope pulley line with a small basket running from the gallery down to a wooden jetty",
+          "an upturned red rowing boat on the jetty",
+          "a fish-shaped weathervane on the lantern roof",
+          "a lean-to woodshed with a stack of split logs"
+        ],
+        "background": [
+          "a bell buoy tilting in the swell",
+          "the far-off harbour lights of the mainland as tiny warm dots",
+          "a silver moon smudged behind the fog bank",
+          "gulls asleep in a row on a rock"
+        ]
+      }
+    },
+    "personal_props": {
+      "mabel": [
+        "tiny round wire spectacles mended at the bridge with a twist of copper wire",
+        "a hand-knitted sky-blue scarf with one dropped stitch that has become a little hole",
+        "a stub of white chalk worn down to a nub",
+        "a small brass whistle on a string",
+        "the knitted blanket she has been mending for three winters"
+      ],
+      "teo": [
+        "a battered navy captain's cap with white salt stains and no badge",
+        "a yellow oilskin coat with one mismatched brown button",
+        "a dented green thermos with a chipped lid",
+        "a small brass compass on a leather cord round his neck"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "lens",
+        "name": "The Point Hollow lens",
+        "prop_prompt": "Stylized 3D animated feature film prop reference sheet on a plain mid-grey background: a giant beehive-shaped lighthouse lens made of stacked rings of thick faceted glass in chunky rounded brass frames, standing on a round brass turntable with a big hand crank that has a pale worn wooden handle; the brass is polished bright on the lower half and dull and dusty on the upper half. Front and three-quarter views. No letters, no numbers, no logos. Soft studio light, hand-painted textures. No captions, no labels, no annotation text anywhere on the sheet."
+      },
+      {
+        "id": "ferry",
+        "name": "The Marigold night ferry",
+        "prop_prompt": "Stylized 3D animated feature film prop reference sheet on a plain mid-grey background: a small stubby night ferry with a round cream hull and a sky-blue stripe, rows of round portholes with warm glowing windows, one short funnel with a sky-blue band and a simple orange eight-petal flower shape on it, black rubber tyre fenders hanging along the side, a plain orange life ring with four white bands and nothing written on it on the rail; side view and three-quarter view. No name, no letters, no numbers on the hull. Soft studio light, hand-painted textures. No captions, no labels, no annotation text anywhere on the sheet."
+      },
+      {
+        "id": "radio",
+        "name": "Mabel's radio set",
+        "prop_prompt": "Stylized 3D animated feature film prop reference sheet on a plain mid-grey background: an old rounded wooden radio set with two big cream dials, a small round speaker grille of woven cloth, a chunky black handset on a coiled cord resting on a brass hook, a crack in the wood mended with a brass staple. Front and three-quarter views. No letters, no numbers, no markings on the dials, no logos. Soft studio light, hand-painted textures. No captions, no labels, no annotation text anywhere on the sheet."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Point Hollow Light",
+        "mark": "a white tower shape with one sky-blue band",
+        "colors": "white and sky blue",
+        "appears_on": "the tower itself, the side of the ice crate, Mabel's enamel teacup",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Marigold (the ferry)",
+        "mark": "a simple orange eight-petal flower",
+        "colors": "cream, sky blue and marigold orange",
+        "appears_on": "the funnel and the life rings",
+        "text_in_post": "none; the name is spoken only"
+      }
+    ],
+    "wear_and_time": "A late October night, just before midnight to sunrise at 6:40. The thickest fog in forty years. The tea went cold hours ago, the ice in the crate is half melted, the brass is only polished where Mabel can reach, one window pane is patched, and the blanket has fallen off the stool.",
+    "sound_world": [
+      "the lens turntable's slow rumble and steady click",
+      "the crank ratchet clacking as it spins up",
+      "the Marigold's low fog horn",
+      "a bell buoy clanging in the swell",
+      "radio static and a crackling voice",
+      "ice chips clinking in the wooden crate",
+      "a big puff of ruffling feathers",
+      "the can crack echoing round the round room"
+    ],
+    "product_adjacent_props": "The ice crate and the rope-pulley grocery basket are product-agnostic delivery points: for non-drink products the crate becomes a plain wooden box of supplies from the same Sunday pulley."
   }
 }

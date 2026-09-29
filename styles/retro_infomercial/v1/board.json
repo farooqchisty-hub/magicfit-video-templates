@@ -1,0 +1,563 @@
+{
+  "id": "retro_infomercial-01-slump-buster",
+  "style": "retro_infomercial",
+  "title": "The Slump Buster",
+  "logline": "Found on a 1997 tape: the host of a late-night home shopping show has a solution for the afternoon slump, and he cannot contain himself. Black-and-white misery, full-colour miracle, a studio audience that goes 'ooooh', and it is {product}.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "The fictional late-night home shopping show 'The Dale Dazzle Hour' on the fictional channel WonderVision 38, taped in 1997 on a pastel studio set with a small studio audience; the problem segment is a beige 1990s office.",
+    "palette": "Teal, magenta and butter-yellow 1990s set with glass blocks and a fake palm; the can's sky blue and silver is the hero accent; the problem segment is fully black and white.",
+    "fictional_brands": [
+      "The Dale Dazzle Hour (the show, only in post-rendered graphics)",
+      "WonderVision 38 (fictional channel bug, post only)",
+      "Dazzle Desk (the unbranded demo table, never shown as text)"
+    ],
+    "rules": "No model-generated text anywhere. The show logo, channel bug, starbursts, the 'available where you shop' card and the end card are all rendered in post. No prices, no phone numbers, no real products on set."
+  },
+  "cast": [
+    {
+      "id": "dale",
+      "name": "Dale Dazzle",
+      "role": "the over-eager infomercial host",
+      "look": "man, 55, white American, deep salon tan, huge perfect white smile, sprayed swept-back silver-blond hair, bushy eyebrows, double-breasted butter-yellow blazer with big shoulders over a teal open-collar shirt, a gold pinky ring",
+      "voice": "booming, relentlessly upbeat, slightly too loud, a classic 1990s announcer lilt, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Dale Dazzle: 55, white American, deep salon tan, huge perfect white smile, sprayed swept-back silver-blond hair, bushy eyebrows, double-breasted butter-yellow 1990s blazer with big shoulder pads over a teal open-collar shirt, a gold pinky ring, over-eager game-show-host expression. Flat bright studio light, photoreal, consistent identity across all three views. No text, no logos."
+    },
+    {
+      "id": "gloria",
+      "name": "Gloria Tran",
+      "role": "the everyday victim of the slump, then the testimonial",
+      "look": "woman, 38, Vietnamese American, shoulder-length black hair in a big 1990s blowout with a claw clip, large round wire-frame glasses, oversized teal blazer with shoulder pads over a cream blouse",
+      "voice": "expressive, a bit theatrical, sitcom timing, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Gloria Tran: 38, Vietnamese American, shoulder-length black hair in a big 1990s blowout held with a claw clip, large round wire-frame glasses, oversized teal blazer with shoulder pads over a cream blouse, expressive exasperated expression. Flat bright light, photoreal, consistent identity across all three views. No text, no logos."
+    }
+  ],
+  "locations": [
+    {
+      "id": "set",
+      "name": "The Dale Dazzle Hour set, 1997",
+      "plate_prompt": "Full-bleed tall vertical 9:16 photograph filling the entire frame edge to edge, no letterbox, no borders, no blurred bands: an empty 1990s pastel home-shopping TV studio set seen head-on, a tall curved glass-block wall glowing teal and magenta rising from the floor to the top of the frame, butter-yellow and teal geometric panels, a fake potted palm, a white demo table in the lower middle with a small round mirrored rotating pedestal on it, teal carpet filling the bottom of the frame, flat bright high-key studio lighting, standard-definition video look. Upright vertical composition, level horizon. No people, no text, no numbers, no logos, no screens."
+    },
+    {
+      "id": "office",
+      "name": "Beige 1990s office",
+      "plate_prompt": "Still frame from a 1990s TV infomercial problem segment, vertical 9:16, upright vertical composition, level horizon: an empty beige 1990s office cubicle with a chunky CRT computer monitor showing only a blank grey glow, a beige keyboard, a tall wobbly stack of paper files, a desk phone with blank buttons, a rolling chair, fluorescent ceiling light, fabric cubicle walls. Standard-definition video look. No people, no readable text, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "the host holds it up by his face, then the testimonial sips it",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "the host demonstrates it on his own hand or face at the demo table while the testimonial shows the result",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "the host models it with a spin on the set, the testimonial wears it at her desk",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "the host demonstrates it at the demo table as the gadget that fixes the black and white problem",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "the host unzips it on the demo table and pulls out item after item ('but wait, there's more')",
+      "scale": "hand to table"
+    },
+    "home": {
+      "moment": "the set becomes a fake living room and the host unveils it from under a sheet",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "the host stacks the packs on the rotating pedestal and pours one out",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-4.5",
+      "summary": "Tape noise, then Dale bursts into a crash zoom: does this happen to you? Black and white: Gloria's face slides down her paperwork at 3pm and she throws up her hands."
+    },
+    {
+      "id": "product",
+      "t": "4.5-10",
+      "summary": "Full colour: Dale holds the can by his grinning face and names it, then the beauty shot on the rotating pedestal with the one benefit."
+    },
+    {
+      "id": "proof",
+      "t": "10-13",
+      "summary": "Gloria, now in colour and wide awake at the same desk, gives her testimonial."
+    },
+    {
+      "id": "more",
+      "t": "13-22.5",
+      "summary": "But wait, there's more: Dale sweeps a giant novelty sugar cube off the demo table, the studio audience goes 'ooooh'."
+    },
+    {
+      "id": "cta",
+      "t": "22.5-30",
+      "summary": "Dale at a desk of silent phones: operators are not standing by, just grab one. The can on the pedestal with the 'available where you shop' card and the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-1.8",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "Hook: the host accuses the viewer of having the problem.",
+      "line": "Does THIS happen to you?",
+      "delivery": "booming, pointing straight down the lens, hitting 'THIS'",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "2.6-4.3",
+      "speaker": "gloria",
+      "on_camera": true,
+      "line_intent": "The victim of the everyday problem begs for a solution in the format's stock phrase.",
+      "line": "There's gotta be a better way!",
+      "delivery": "theatrical despair, arms flung up, sitcom timing",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "4.8-6.8",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "Product line: the host introduces the product by name with too much enthusiasm.",
+      "line": "Introducing Red Bull Sugarfree!",
+      "delivery": "triumphant, a dramatic pause before the name, then each word punched",
+      "phonetic": "RED BULL SHUG-er-free, three clear punched words",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "7.3-9.8",
+      "speaker": "dale",
+      "on_camera": false,
+      "line_intent": "The main benefit, read like a feature list, using an allowed claim only.",
+      "line": "Helps you stay alert and focused, with no sugar!",
+      "delivery": "voiceover over the beauty shot, rapid and thrilled",
+      "claim": "Caffeine helps to improve concentration and increase alertness; without sugar",
+      "shot": "S04"
+    },
+    {
+      "id": "L5",
+      "t": "10.3-12.6",
+      "speaker": "gloria",
+      "on_camera": true,
+      "line_intent": "Testimonial: the former victim confirms the benefit, over the top.",
+      "line": "Wow! I'm alert! I'm focused!",
+      "delivery": "delighted and a little too surprised, big thumbs up",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S05"
+    },
+    {
+      "id": "L6",
+      "t": "13.3-15.0",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "The format's signature escalation.",
+      "line": "But wait, there's more!",
+      "delivery": "leaning into the lens, finger up, conspiratorial then loud",
+      "shot": "S06"
+    },
+    {
+      "id": "L7",
+      "t": "15.8-19.2",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "The second selling point, demonstrated with a silly prop.",
+      "line": "Same great benefits as the original. Without the sugar!",
+      "delivery": "slow and grand on the first sentence, then a flourish as he sweeps the cube away",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S07"
+    },
+    {
+      "id": "L8",
+      "t": "22.8-26.2",
+      "speaker": "dale",
+      "on_camera": true,
+      "line_intent": "CTA that flips the format's cliche: no ordering, just go get it where you shop.",
+      "line": "Operators are NOT standing by. Just grab one!",
+      "delivery": "deadpan on the first sentence, then back to full enthusiasm",
+      "shot": "S09"
+    },
+    {
+      "id": "L9",
+      "t": "27.2-29.2",
+      "speaker": "dale",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar!",
+      "delivery": "announcer voice, stretched and sung slightly, as if it were a jingle",
+      "phonetic": "WINGS, stretch the vowel",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2,
+      "beat": "hook",
+      "framing": "wide-angle close-up, direct to lens",
+      "camera": "crash zoom in",
+      "action": "Tape noise clears; Dale bursts into frame on the pastel set, pointing straight at the viewer, enormous grin.",
+      "product_state": "absent",
+      "audio": "tape warble, jingle sting, dialogue",
+      "caption": "Does THIS happen to you?",
+      "refs": [
+        "dale",
+        "set"
+      ],
+      "keyframe_prompt": "Wide-angle close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, leaning toward the lens and pointing one finger straight at the viewer, huge white grin, eyebrows raised, butter-yellow double-breasted blazer and teal shirt, teal and magenta glass-block wall behind him. His face and pointing hand fill the middle of the frame; plain set wall and his blazer fill the top and bottom, full-bleed. No text, no numbers, no logos."
+    },
+    {
+      "id": "S02",
+      "t0": 2,
+      "t1": 4.5,
+      "beat": "hook",
+      "framing": "static medium wide",
+      "camera": "locked off",
+      "action": "Black and white: Gloria's face has slid down onto a pile of paperwork at her desk; she jolts up, papers slipping, and flings her arms up in despair.",
+      "product_state": "absent",
+      "audio": "papers sliding, a comic sad trombone in post, dialogue",
+      "caption": "There's gotta be a better way!",
+      "refs": [
+        "gloria",
+        "office"
+      ],
+      "keyframe_prompt": "Fully black and white, no colour at all: a static medium wide shot of Gloria, the woman from the character sheet, in the beige 1990s office cubicle from the location plate, slumped at her desk with sleepy eyes and her glasses askew, flinging both arms up in exaggerated despair, a stack of paper files starting to slide off the desk, a chunky CRT monitor with a blank grey glow beside her. Comic 1990s infomercial problem segment, overacted. No product in this shot. No readable text."
+    },
+    {
+      "id": "S03",
+      "t0": 4.5,
+      "t1": 7,
+      "beat": "product",
+      "framing": "medium close-up, direct to lens",
+      "camera": "locked off, slow zoom in",
+      "action": "Full colour snaps back. Dale holds the can up beside his grinning face, label to camera, a star glint on the rim.",
+      "product_state": "hero, held upright beside his face, label facing camera",
+      "audio": "whoosh, a ding on the star glint, dialogue",
+      "caption": "Introducing Red Bull Sugarfree!",
+      "refs": [
+        "dale",
+        "product",
+        "set"
+      ],
+      "keyframe_prompt": "Medium close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, looking straight into the lens with a huge white grin, holding the exact can from the product reference gently upright at its base with his fingertips right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on the can's rim, butter-yellow blazer, teal and magenta glass blocks behind, flat bright light, over-saturated colour. One can only. No text or logos except the can's own label."
+    },
+    {
+      "id": "S04",
+      "t0": 7,
+      "t1": 10,
+      "beat": "product",
+      "framing": "centred insert",
+      "camera": "locked off, the pedestal turns",
+      "action": "Beauty shot: the can on the small mirrored rotating pedestal, glittering; plain wall space on both sides for post-rendered starbursts.",
+      "product_state": "hero, upright on the turntable, label facing camera at the start",
+      "audio": "sparkle chimes, voiceover",
+      "caption": "Helps you stay alert and focused, with no sugar!",
+      "refs": [
+        "product",
+        "set"
+      ],
+      "keyframe_prompt": "Centred insert: the exact can from the product reference standing upright on a small round mirrored rotating pedestal on a white demo table, label facing camera, straight and undistorted, cold droplets, star-filter sparkles glinting off the rim, a teal and magenta glass-block wall softly behind, flat bright 1990s studio light. Plain glass-block and teal wall fills the rest of the frame edge to edge, with a clean plain area in the lower third for graphics. One can only. No text, numbers or logos except the can's own label."
+    },
+    {
+      "id": "S05",
+      "t0": 10,
+      "t1": 13,
+      "beat": "proof",
+      "framing": "medium, direct to lens",
+      "camera": "locked off",
+      "action": "Full colour: Gloria at the same desk, now tidy, sitting bolt upright and beaming, can in one hand, big thumbs up with the other.",
+      "product_state": "in hand, label to camera",
+      "audio": "a cheesy harp gliss, dialogue",
+      "caption": "Wow! I'm alert! I'm focused!",
+      "refs": [
+        "gloria",
+        "product",
+        "office"
+      ],
+      "keyframe_prompt": "Over-saturated colour, medium shot of Gloria, the woman from the character sheet, in the 1990s office cubicle from the location plate, now tidy with the papers in a neat stack, sitting bolt upright and beaming wide-eyed at the lens, holding the exact can from the product reference upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand, teal blazer with shoulder pads, round glasses, flat bright light. One can only. No readable text."
+    },
+    {
+      "id": "S06",
+      "t0": 13,
+      "t1": 15.5,
+      "beat": "more",
+      "framing": "wide-angle extreme close-up",
+      "camera": "crash zoom in",
+      "action": "Dale leans right into the lens, one finger raised, eyebrows up, conspiratorial.",
+      "product_state": "absent",
+      "audio": "record scratch into the zoom, dialogue",
+      "caption": "But wait, there's more!",
+      "refs": [
+        "dale",
+        "set"
+      ],
+      "keyframe_prompt": "Wide-angle extreme close-up of Dale, the man from the character sheet, leaning right into the lens with a slightly bulging wide-angle look, one index finger raised beside his face, eyebrows high, mouth open mid-word, tan face shiny under flat bright studio light, a blurred teal and magenta set behind. Over-saturated 1990s video look. No text."
+    },
+    {
+      "id": "S07",
+      "t0": 15.5,
+      "t1": 19.5,
+      "beat": "more",
+      "framing": "medium wide at the demo table",
+      "camera": "locked off",
+      "action": "At the demo table, Dale sweeps a giant foam novelty sugar cube off the table with a flourish; the can stands upright on the pedestal beside him.",
+      "product_state": "upright on the pedestal, label to camera, untouched",
+      "audio": "cartoon boing, audience laugh, dialogue",
+      "caption": "Same great benefits as the original. Without the sugar!",
+      "refs": [
+        "dale",
+        "product",
+        "set"
+      ],
+      "keyframe_prompt": "Medium wide shot of Dale, the man from the character sheet, standing behind the white demo table on the pastel infomercial set from the location plate, sweeping a giant white foam novelty sugar cube the size of a hatbox off the edge of the table with a grand flourish of his arm, grinning at the lens; the exact can from the product reference stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted. One can only. Plain set wall above him. No text or numbers."
+    },
+    {
+      "id": "S08",
+      "t0": 19.5,
+      "t1": 22.5,
+      "beat": "more",
+      "framing": "wide reverse angle over Dale's shoulder",
+      "camera": "locked off, slow zoom out",
+      "action": "The studio audience on small risers goes 'ooooh', hands to cheeks; Dale takes a bow in the foreground.",
+      "product_state": "absent",
+      "audio": "audience 'ooooh' and applause",
+      "caption": "",
+      "refs": [
+        "dale"
+      ],
+      "keyframe_prompt": "Wide reverse-angle shot from behind Dale, the man from the character sheet (seen from behind in his butter-yellow blazer, taking a small bow in the foreground), looking out at a small 1990s TV studio audience of about twenty adults of varied ages and ethnicities on low carpeted risers, in 1990s clothes (windbreakers, denim jackets, big hair), all going 'ooooh' with hands on their cheeks and mouths in O shapes, bright flat studio light, teal and magenta wash on the back wall. No text, no signs, no logos, no children. Tall vertical framing filling the whole frame edge to edge: the stacked audience risers climb from the middle to the very top of the frame and Dale's back and shoulders fill the bottom edge, no letterbox bars, no blurred bands, no borders."
+    },
+    {
+      "id": "S09",
+      "t0": 22.5,
+      "t1": 26.5,
+      "beat": "cta",
+      "framing": "medium, direct to lens",
+      "camera": "locked off",
+      "action": "Dale sits at a long desk of six silent beige telephones, taps one, shrugs at the lens, then points off camera: go get one.",
+      "product_state": "absent",
+      "audio": "silence where ringing should be, a cricket chirp in post, dialogue",
+      "caption": "Operators are NOT standing by. Just grab one!",
+      "refs": [
+        "dale",
+        "set"
+      ],
+      "keyframe_prompt": "Medium shot of Dale, the man from the character sheet, sitting behind a long white desk on the pastel set from the location plate, a row of six plain beige 1990s telephones with blank buttons in front of him, none ringing, one receiver in his hand held away from his ear, shrugging at the lens with a comic deadpan look, butter-yellow blazer. Empty plain teal wall above him and a clean plain area across the lower third of the frame for a graphic card. No text, numbers or logos anywhere."
+    },
+    {
+      "id": "S10",
+      "t0": 26.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "centred pack shot",
+      "camera": "locked off, the pedestal turns slowly",
+      "action": "The can glitters on the pedestal, Dale's thumbs-up hand enters frame beside it. Post adds the 'available where you shop' card, the tagline and the tape end.",
+      "product_state": "hero, upright on the pedestal, label facing camera",
+      "audio": "jingle button, a final ding, tape stop",
+      "caption": "Wiiings without sugar!",
+      "refs": [
+        "product",
+        "set"
+      ],
+      "keyframe_prompt": "Centred 1990s infomercial pack shot: the exact can from the product reference upright on a small round mirrored pedestal on a white demo table, label facing camera, straight and undistorted, star-filter sparkles on the rim, a man's tanned hand with a gold pinky ring giving a thumbs up at the right edge of the frame beside the can, teal and magenta glass-block wall behind. The upper quarter and lower third of the frame are clean plain wall for graphics. One can only. No text, numbers or logos except the can's own label."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 4.5,
+      "shots": [
+        "S01",
+        "S02"
+      ],
+      "len_s": 5,
+      "exact_risk": false,
+      "refs": [
+        "dale card",
+        "gloria card",
+        "set plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, footage from a 1990s TV infomercial, standard-definition video look, flat bright studio light, everything in focus. Shot 1 (0 to 2 s): crash zoom into @Image1 (Dale, tanned, butter-yellow double-breasted blazer) on a teal and magenta pastel set, he points straight down the lens and booms: \"Does THIS happen to you?\" Shot 2 (2 to 5 s): fully black and white, static wide of @Image2 (Gloria, big 1990s hair, round glasses, shoulder-pad blazer) slumped at a beige office desk, she jolts up, a stack of papers slides off, she flings her arms up and wails: \"There's gotta be a better way!\" Comic overacting. Native sound: boxy studio voice, papers sliding. No music, no text on screen, no numbers, no logos."
+    },
+    {
+      "id": "U2",
+      "t0": 4.5,
+      "t1": 10,
+      "shots": [
+        "S03",
+        "S04"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "dale card",
+        "S03 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, 1990s TV infomercial, over-saturated colour, flat bright studio light. Shot 1 (0 to 2.5 s): medium close-up, @Image2 (Dale) holds the exact can from @Image1 gently upright at its base beside his grinning face, label to camera, a star glint on the rim, and announces with a pause before the name: \"Introducing Red Bull Sugarfree!\" (said RED BULL SHUG-er-free, three punched words). Shot 2 (2.5 to 6 s): locked-off beauty shot, the same can alone on a small mirrored pedestal that turns slowly, sparkles on the rim, plain wall on both sides; Dale's voice, rapid and thrilled: \"Helps you stay alert and focused, with no sugar!\" Keep the can's shape, colours, wordmark and two bulls exactly as @Image1; it never bends. Native sound: studio voice, a ding. No music, no text on screen."
+    },
+    {
+      "id": "U3",
+      "t0": 10,
+      "t1": 22.5,
+      "shots": [
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "len_s": 13,
+      "exact_risk": false,
+      "refs": [
+        "gloria card",
+        "dale card",
+        "set plate",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, 1990s TV infomercial, over-saturated colour, flat bright light, locked-off studio cameras. Shot 1 (0 to 3 s): @Image1 (Gloria) at a tidy beige office desk, bolt upright and beaming, one can like the product in one hand with the label to camera, thumbs up with the other: \"Wow! I'm alert! I'm focused!\" Shot 2 (3 to 5.5 s): crash zoom to a wide-angle extreme close-up of @Image2 (Dale) leaning into the lens, finger raised: \"But wait, there's more!\" Shot 3 (5.5 to 9.5 s): Dale behind a white demo table on the pastel set sweeps a giant white foam novelty sugar cube off the table with a flourish; the can stays upright and untouched on a mirrored pedestal: \"Same great benefits as the original. Without the sugar!\" Shot 4 (9.5 to 13 s): reverse wide from behind Dale taking a bow, a small studio audience of varied adults in 1990s clothes on low risers goes \"ooooh\" with hands on their cheeks. Native sound: studio voices, audience ooooh and applause. No music, no text, no numbers, no logos."
+    },
+    {
+      "id": "U4",
+      "t0": 22.5,
+      "t1": 30,
+      "shots": [
+        "S09",
+        "S10"
+      ],
+      "len_s": 8,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "dale card",
+        "S09 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16, 1990s TV infomercial, flat bright light. Shot 1 (0 to 4 s): @Image2 (Dale) at a long white desk with six plain beige telephones with blank buttons, none ringing; he lifts one receiver, shrugs at the lens deadpan: \"Operators are NOT standing by.\" then brightens and points off camera: \"Just grab one!\" Clean plain area across the lower third. Shot 2 (4 to 8 s): locked-off pack shot, the exact can from @Image1 upright on a slowly turning mirrored pedestal, label to camera, sparkles, Dale's tanned hand with a gold pinky ring gives a thumbs up beside it; his announcer voice sings: \"Wiiings without sugar!\" The can does not bend or change. Keep the upper quarter and lower third as plain wall. Native sound: studio voice, a ding. No music, no text, no numbers."
+    }
+  ],
+  "music": [
+    {
+      "section": "sting and problem",
+      "t0": 0,
+      "t1": 4.5,
+      "brief": "A 1-second bright synth-brass sting with a cymbal swell on the crash zoom (0 to 1 s), then the music drops to a droopy detuned tuba and muted trumpet 'wah wah' for the black and white problem, ending on a sad trombone slide at 4.3 s."
+    },
+    {
+      "section": "jingle",
+      "t0": 4.5,
+      "t1": 22.5,
+      "brief": "The show's cheesy 1990s jingle bed at 112 bpm in E major: slap bass, gated-reverb snare, bright FM electric piano and a saxophone lick on each selling point; ducks 8 dB under every line; a harp gliss into the testimonial at 10 s and a record scratch stop at 13 s, restarting on 'more' at 15.5 s."
+    },
+    {
+      "section": "button",
+      "t0": 22.5,
+      "t1": 30,
+      "brief": "The jingle thins to bass and hi-hat under the phone gag, then a full final chorus hit on the pack shot at 26.5 s, a sung 'wiiings' style synth-choir swell under the tagline, and a tape-stop pitch-down at 29.6 s."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0.0,
+      "sound": "VHS tape warble and tracking noise clearing",
+      "why": "establishes the found-tape conceit in the first frame; post only"
+    },
+    {
+      "t": 5.6,
+      "sound": "sparkle ding on the can's star glint",
+      "why": "marks the product reveal"
+    },
+    {
+      "t": 17.6,
+      "sound": "cartoon boing as the sugar cube falls",
+      "why": "the comic button on the 'without the sugar' point"
+    },
+    {
+      "t": 19.8,
+      "sound": "studio audience 'ooooh' and applause",
+      "why": "the format's signature; generated audiences are thin, so layer a clean one"
+    },
+    {
+      "t": 23.4,
+      "sound": "a single cricket chirp over the silent phones",
+      "why": "sells the 'operators are NOT standing by' joke"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "dale",
+      "plan": "native voice from U1, then his U1 vocal stem as voice reference for U2, U3 and U4; a light boxy studio EQ in post"
+    },
+    {
+      "speaker": "gloria",
+      "plan": "native in U1 (black and white) and U3 (testimonial), U1 stem as reference for U3"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 1.2,
+      "text": "PLAY",
+      "sub": "",
+      "style": "VCR on-screen display, blocky white monospace with black edge, top left, flickering"
+    },
+    {
+      "t0": 0,
+      "t1": 30,
+      "text": "WonderVision 38",
+      "sub": "",
+      "style": "fictional channel bug, small semi-transparent white rounded wordmark, top right, 1990s bevel"
+    },
+    {
+      "t0": 7.3,
+      "t1": 9.9,
+      "text": "ALERT!",
+      "sub": "FOCUSED!",
+      "style": "two spinning yellow starbursts with magenta Cooper Black lettering, left and right of the can, popping in one after the other"
+    },
+    {
+      "t0": 15.8,
+      "t1": 19.4,
+      "text": "NO SUGAR!",
+      "sub": "",
+      "style": "a yellow starburst with a boing scale bounce, upper left over the plain wall"
+    },
+    {
+      "t0": 23.0,
+      "t1": 30,
+      "text": "AVAILABLE WHERE YOU SHOP",
+      "sub": "Look for the blue and silver can",
+      "style": "1990s offer card in the lower third: magenta bar with a bevelled yellow border, white bold italic text sliding in from the right with a shine sweep; in the style of a phone-number card but with no number and no price"
+    },
+    {
+      "t0": 27.0,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "chrome-gradient 1990s bevel type in the upper quarter above the can, lens flare sweep, then tape-stop wobble and blue screen on the last 6 frames"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

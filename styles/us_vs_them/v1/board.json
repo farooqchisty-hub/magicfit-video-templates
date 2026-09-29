@@ -1,0 +1,508 @@
+{
+  "id": "us_vs_them-01-two-cans",
+  "style": "us_vs_them",
+  "title": "Two Cans",
+  "logline": "Same architect, same Monday, stacked in split screen: on top she runs on a sticky sugary can, below she runs on {product}. By 3pm only one of them is still sharp, and the other one knows it.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "The fictional Brooks Studio, a small architecture practice in a converted warehouse in Chicago, one Monday from 9am to 6pm. The same woman lives the day twice: the sugar way (top pane) and the sugarfree way (bottom pane).",
+    "palette": "Bottom pane built from the can: cool daylight, sky blue, brushed silver, white foam models. Top pane: warm tungsten, dull beige and candy pink, crumbs and clutter.",
+    "fictional_brands": [
+      "Brooks Studio (her practice, never shown as text)",
+      "the rival: a plain candy-pink can with no label, no text and no logo, standing for any generic sugary drink"
+    ],
+    "rules": "No real competitor, no rival branding at all. Walls, screens, drawings and clocks are blank; every time stamp, pane label and divider is added in post."
+  },
+  "cast": [
+    {
+      "id": "nia",
+      "name": "Nia Brooks",
+      "role": "the architect, playing both versions of herself",
+      "look": "woman, 34, Black American, short natural curls, small gold hoop earrings, thin gold-rim glasses, white linen shirt with sleeves rolled, dark grey trousers, a slim silver watch",
+      "voice": "warm, quick, wry, American, a little deadpan on the jokes",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Nia Brooks: 34, Black American, short natural curls, small gold hoop earrings, thin gold-rim glasses, white linen shirt with sleeves rolled, a slim silver watch, warm confident half-smile. Photoreal, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "desk",
+      "name": "Nia's desk at Brooks Studio",
+      "plate_prompt": "Clean commercial photo, vertical 9:16, upright vertical composition, level horizon, eye-level locked-off 35mm view: a pale oak architect's desk in a converted warehouse studio, facing camera, with a closed silver laptop, a large blank drafting pad, a pencil cup, a small white foam architectural model of a house, a tall window with soft daylight to one side, exposed brick behind. The desk sits around the vertical centre of one seamless photograph with brick wall above and floor below; no borders or panels. No people, no readable text, no logos."
+    },
+    {
+      "id": "meeting",
+      "name": "Studio meeting table",
+      "plate_prompt": "Clean commercial photo, vertical 9:16, upright vertical composition, level horizon, eye-level locked-off 35mm view: the meeting corner of a converted warehouse architecture studio, a long pale oak table seen end-on, a large white foam architectural model of a small apartment building in the middle of it, two empty chairs at the near end, a blank whiteboard on the brick wall behind. One seamless photograph, no borders or panels. No people, no readable text, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "both versions open their drink at 9am; only one is the product",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "both versions apply their morning product at the studio mirror (sunscreen, balm, hair product); one is the old greasy kind",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "both versions put on their shoes or glasses at 9am; one pair is the product, the other pinches by 3pm",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "both versions pick up their tool or gadget (earbuds, bottle, pen); the old one dies or leaks mid-day",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "both versions arrive with a bag; the old one spills its contents at the meeting table",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "the same beats happen in two versions of her home office: old chair and lamp against the product",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "both versions refill from their pack at 9am; the old pack is empty or messy by 3pm",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.5",
+      "summary": "Split screen, both panes in sync: the same woman cracks a can at 9am. Top: sticky pink spray. Bottom: a clean crack, she looks at us."
+    },
+    {
+      "id": "contrast",
+      "t": "2.5-11.5",
+      "summary": "Ping-pong: 11am top, fingers stuck to the keyboard; 11am bottom, fast clean sketching; 3pm top, a giant yawn at the meeting table."
+    },
+    {
+      "id": "win",
+      "t": "11.5-16",
+      "summary": "3pm bottom: she presents the model, sharp and fast."
+    },
+    {
+      "id": "product",
+      "t": "16-21",
+      "summary": "The split collapses, the sugarfree side takes the frame: the can at chest height, the brand line."
+    },
+    {
+      "id": "payoff",
+      "t": "21-24",
+      "summary": "The sugar-way Nia looks straight at her other self, concedes, and bins the pink can."
+    },
+    {
+      "id": "cta",
+      "t": "24-30",
+      "summary": "The can standing on the finished model at golden hour, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.4-2.3",
+      "speaker": "nia",
+      "on_camera": true,
+      "line_intent": "Hook: state the controlled experiment, same person, one difference.",
+      "line": "Same Monday. Two cans.",
+      "delivery": "bottom-pane Nia, straight to lens, dry, a tiny smile",
+      "shot": "S02"
+    },
+    {
+      "id": "L2",
+      "t": "3.0-5.0",
+      "speaker": "nia",
+      "on_camera": true,
+      "line_intent": "Old way, cost one: a small everyday annoyance the rival causes, no health claim.",
+      "line": "Why is everything sticky?",
+      "delivery": "top-pane Nia, muttering, peeling her fingers off the keys",
+      "shot": "S03"
+    },
+    {
+      "id": "L3",
+      "t": "6.0-8.2",
+      "speaker": "nia",
+      "on_camera": true,
+      "line_intent": "Product way, win one: the matching moment with the product's benefit, allowed claim only.",
+      "line": "Mine helps me focus.",
+      "delivery": "bottom-pane Nia, a quick glance up at the lens mid-sketch, then straight back to work",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S04"
+    },
+    {
+      "id": "L4",
+      "t": "9.3-11.2",
+      "speaker": "nia",
+      "on_camera": true,
+      "line_intent": "Old way, cost two: the afternoon drags.",
+      "line": "Is it three already?",
+      "delivery": "top-pane Nia, through a yawn, chin on her hand",
+      "shot": "S05"
+    },
+    {
+      "id": "L5",
+      "t": "12.2-15.6",
+      "speaker": "nia",
+      "on_camera": true,
+      "line_intent": "Product way, win two: the same hour, visibly winning at the thing that matters.",
+      "line": "And that's the whole building. Questions?",
+      "delivery": "bottom-pane Nia, standing, crisp and confident, to colleagues off camera",
+      "shot": "S06"
+    },
+    {
+      "id": "L6",
+      "t": "16.6-20.4",
+      "speaker": "nia",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and the one difference that made the whole day, allowed claim only.",
+      "line": "Red Bull Sugarfree. Same benefits, without the sugar.",
+      "delivery": "to lens, warm, unhurried, can at chest height",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S07"
+    },
+    {
+      "id": "L7",
+      "t": "22.0-23.4",
+      "speaker": "nia",
+      "on_camera": true,
+      "line_intent": "Payoff: the old-way self concedes.",
+      "line": "Okay. Fine.",
+      "delivery": "top-world Nia, flat, looking straight at the lens, dropping the pink can in the bin",
+      "shot": "S08"
+    },
+    {
+      "id": "L8",
+      "t": "27.0-29.4",
+      "speaker": "nia",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm voiceover, smiling",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S09"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.5,
+      "beat": "hook",
+      "framing": "top pane, medium at desk",
+      "camera": "locked off, matched to S02",
+      "action": "The sugar way, 9am: Nia at her desk cracks a plain candy-pink can and a spurt of sticky pink foam hits her shirt cuff and the drafting pad; she flinches.",
+      "product_state": "absent (rival can only)",
+      "audio": "fizzy spurt, a sharp intake of breath",
+      "caption": "",
+      "refs": [
+        "nia",
+        "desk"
+      ],
+      "keyframe_prompt": "Waist-up medium shot, camera about one metre away so she fills the width of the frame: Nia, the woman from the character sheet, sitting at the pale oak desk from the location reference, in her white linen shirt with sleeves rolled and gold-rim glasses, warm yellowish tungsten light, the desk cluttered with crumpled plain snack wrappers and a half-eaten glazed pastry. She has just opened a plain candy-pink drink can with no label, no text and no logo, and a small spurt of sticky pink foam has splashed onto her shirt cuff and the drafting pad; she flinches back, annoyed. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame."
+    },
+    {
+      "id": "S02",
+      "t0": 0,
+      "t1": 2.5,
+      "beat": "hook",
+      "framing": "bottom pane, medium at desk",
+      "camera": "locked off, matched to S01",
+      "action": "The sugarfree way, 9am: same desk, same framing, tidy and in cool daylight; Nia cracks the product cleanly and looks up into the lens.",
+      "product_state": "in hand, just opened, label to camera",
+      "audio": "clean can crack, dialogue",
+      "caption": "Same Monday. Two cans.",
+      "refs": [
+        "nia",
+        "desk",
+        "product"
+      ],
+      "keyframe_prompt": "Waist-up medium shot, framed exactly like a matching shot of the same desk, camera about one metre away so she fills the width of the frame: Nia, the woman from the character sheet, sitting at a pale oak desk like the one in the location reference, seen close: the desk top runs along the bottom of the frame and the desk legs are not visible,, in her white linen shirt with sleeves rolled and gold-rim glasses, in cool clean window daylight, the desk tidy with the drafting pad, pencil cup and white foam model neatly arranged. She holds the exact can from the product reference, just opened, at chest height with the label facing camera and undistorted, and looks straight into the lens with a small dry smile. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame."
+    },
+    {
+      "id": "S03",
+      "t0": 2.5,
+      "t1": 5.5,
+      "beat": "contrast",
+      "framing": "top pane, medium close-up",
+      "camera": "locked off",
+      "action": "The sugar way, 11am: she tries to lift her hand from the laptop keyboard and her fingertips stick; she peels them off, mid-mutter; a pink sticky ring stains the drafting pad.",
+      "product_state": "absent (rival can standing on the desk)",
+      "audio": "tacky peeling sound, dialogue",
+      "caption": "Why is everything sticky?",
+      "refs": [
+        "nia",
+        "desk"
+      ],
+      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, at the cluttered pale oak desk from the location reference in warm yellowish tungsten light, a faint pink stain on her white shirt cuff, grimacing as she peels the fingertips of one hand off the keys of an open silver laptop that has a sticky pink film on it, her other hand holding a crumpled paper napkin. The plain candy-pink can with no label stands beside a sticky pink ring on the drafting pad, pastry crumbs everywhere. The laptop screen faces away from camera. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines."
+    },
+    {
+      "id": "S04",
+      "t0": 5.5,
+      "t1": 8.5,
+      "beat": "contrast",
+      "framing": "bottom pane, medium close-up",
+      "camera": "locked off",
+      "action": "The sugarfree way, 11am: clean hands sketching fast and sure on the drafting pad, the product on the desk corner; she flicks a glance at the lens.",
+      "product_state": "standing on the desk corner, upright, label to camera",
+      "audio": "pencil scratching fast, dialogue",
+      "caption": "Mine helps me focus.",
+      "refs": [
+        "nia",
+        "desk",
+        "product"
+      ],
+      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, at the tidy pale oak desk from the location reference in cool clean daylight, clean white linen shirt, sketching quickly and confidently with a pencil on the large drafting pad, clean loose architectural lines with no words or numbers, flicking her eyes up to the lens with a small smile. The exact can from the product reference stands upright on the desk corner, label facing camera and undistorted, the brightest object in frame. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines."
+    },
+    {
+      "id": "S05",
+      "t0": 8.5,
+      "t1": 11.5,
+      "beat": "contrast",
+      "framing": "top pane, medium at meeting table",
+      "camera": "locked off, matched to S06",
+      "action": "The sugar way, 3pm: slumped at the meeting table, chin in her hand, an enormous yawn, the pink can and a plate of crumbs in front of her.",
+      "product_state": "absent (rival can on the table)",
+      "audio": "a long yawn, the room ticking quiet, dialogue",
+      "caption": "Is it three already?",
+      "refs": [
+        "nia",
+        "meeting"
+      ],
+      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, sitting slumped at the near end of the long pale oak meeting table from the location reference in dull warm tungsten light, faint pink stain on her white shirt cuff, chin propped on one hand, mid-yawn with eyes half closed, ordinary afternoon tiredness, a plain candy-pink can with no label and a small plate of pastry crumbs in front of her, the white foam building model behind, the blank whiteboard on the brick wall. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines. Only one can in frame."
+    },
+    {
+      "id": "S06",
+      "t0": 11.5,
+      "t1": 16,
+      "beat": "win",
+      "framing": "bottom pane, medium at meeting table",
+      "camera": "locked off, matched to S05",
+      "action": "The sugarfree way, 3pm: standing at the head of the table, crisp and bright, presenting the foam model to two colleagues seen from behind.",
+      "product_state": "on the table beside the model, upright, label to camera",
+      "audio": "confident dialogue, a colleague's impressed murmur",
+      "caption": "And that's the whole building.",
+      "refs": [
+        "nia",
+        "meeting",
+        "product"
+      ],
+      "keyframe_prompt": "Medium shot at the long pale oak meeting table from the location reference in cool clean daylight: Nia, the woman from the character sheet, in her clean white linen shirt and gold-rim glasses, stands at the head of the table presenting the white foam architectural model with one open hand, energetic and sharp, mid-sentence. Two colleagues sit at the near end seen from behind, the backs of their heads soft. The exact can from the product reference stands upright on the table beside the model, label facing camera and undistorted. Blank whiteboard behind. Her head and hands sit around the vertical centre of one seamless photograph, with ordinary brick wall headroom above and desk and floor below; no borders, panels, bars or split lines."
+    },
+    {
+      "id": "S07",
+      "t0": 16,
+      "t1": 21,
+      "beat": "product",
+      "framing": "full frame, medium close-up",
+      "camera": "locked off, slight push-in",
+      "action": "The divider slides up and the sugarfree side takes the whole screen: Nia by the tall studio window holds the can at chest height and says the product line to the lens.",
+      "product_state": "hero in hand at chest height, label readable, held 3 s",
+      "audio": "split collapse whoosh (post), room tone, dialogue",
+      "caption": "Red Bull Sugarfree. Same benefits, without the sugar.",
+      "refs": [
+        "nia",
+        "product",
+        "desk"
+      ],
+      "keyframe_prompt": "Medium close-up of Nia, the woman from the character sheet, standing by the tall studio window in cool clean daylight, clean white linen shirt and gold-rim glasses, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, talking warmly to the lens with a confident smile, the tidy oak desk and white foam model softly out of focus behind her. The can is the brightest object in frame."
+    },
+    {
+      "id": "S08",
+      "t0": 21,
+      "t1": 24,
+      "beat": "payoff",
+      "framing": "full frame, medium",
+      "camera": "locked off",
+      "action": "Cut back to the sugar world full frame: stained, rumpled Nia at her cluttered desk stares flatly into the lens as if at her other self, concedes, and drops the pink can into the bin.",
+      "product_state": "absent (rival can going into the bin)",
+      "audio": "can clanks into the bin, dialogue",
+      "caption": "Okay. Fine.",
+      "refs": [
+        "nia",
+        "desk"
+      ],
+      "keyframe_prompt": "Medium shot of Nia, the woman from the character sheet, at the cluttered pale oak desk from the location reference in warm yellowish tungsten light, pink stain on her white shirt cuff, glasses slightly askew, staring flatly and straight into the lens with a resigned deadpan look, holding a plain candy-pink can with no label out over a small wire waste bin beside the desk, about to drop it in. Snack wrappers and crumbs on the desk. Comedic, deadpan, ordinary."
+    },
+    {
+      "id": "S09",
+      "t0": 24,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "full frame, medium insert",
+      "camera": "slow push-in",
+      "action": "Golden hour on the tidy desk: the can stands beside the finished foam model; tagline and pack shot.",
+      "product_state": "hero, upright on the desk, label to camera",
+      "audio": "soft evening room tone, score resolves",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "desk"
+      ],
+      "keyframe_prompt": "Close premium pack shot, camera about 40 centimetres from the can at desk height: the exact can from the product reference stands upright on a pale oak desk, filling about 40% of the frame height, label facing camera and undistorted, fine condensation drops, warm low golden-hour sun from a window on the left rim-lighting it, the corner of a finished white foam architectural model beside it, softly blurred brick wall behind with empty space above the can for a title. The desk legs and floor are not visible. No people, no hands, no faces. No text anywhere except the can's own label."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 24,
+      "shots": [
+        "S01",
+        "S03",
+        "S05",
+        "S08"
+      ],
+      "len_s": 12,
+      "exact_risk": false,
+      "placement": "top pane (sugar world). Unit clock 0 to 2.5 plays at edit 0 to 2.5; 2.5 to 5.5 at edit 2.5 to 5.5; 5.5 to 8.5 at edit 8.5 to 11.5; 8.5 to 12 goes full frame at edit 21 to 24. Between its segments the pane holds its last frame at 60% brightness, muted.",
+      "refs": [
+        "nia card",
+        "desk plate",
+        "meeting plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial comparison footage, warm yellowish tungsten light, cluttered and a bit sticky, locked-off 35mm eye-level shots, faces and hands kept around the vertical centre of the frame. @Image1 (Nia, white linen shirt, gold-rim glasses) in the studio from @Image2 and @Image3. Only a plain candy-pink can with no label, no text and no logo appears. Shot 1 (0 to 2.5 s): at her cluttered desk she cracks the pink can and a small spurt of sticky pink foam hits her shirt cuff; she flinches. Shot 2 (2.5 to 5.5 s): medium close-up, she peels her sticky fingertips off a laptop keyboard and mutters: \"Why is everything sticky?\" Shot 3 (5.5 to 8.5 s): at the meeting table, chin on her hand, a long ordinary afternoon yawn: \"Is it three already?\" Shot 4 (8.5 to 12 s): back at the desk she stares flatly into the lens, says: \"Okay. Fine.\" and drops the pink can into a wire bin. Native sound: fizz, tacky peeling, yawn, the can clanking in the bin. No music. No text, no clocks, no split screen."
+    },
+    {
+      "id": "U2",
+      "t0": 0,
+      "t1": 16,
+      "shots": [
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "len_s": 10,
+      "exact_risk": false,
+      "placement": "bottom pane (sugarfree world). Unit clock 0 to 2.5 plays at edit 0 to 2.5; 2.5 to 5.5 at edit 5.5 to 8.5; 5.5 to 10 at edit 11.5 to 16. Between its segments the pane holds its last frame at 60% brightness, muted.",
+      "refs": [
+        "product can official",
+        "nia card",
+        "desk plate",
+        "meeting plate",
+        "S02 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial comparison footage, cool clean daylight, tidy and ordered, locked-off 35mm eye-level shots matched to the other world, faces and hands kept around the vertical centre of the frame. @Image2 (Nia, white linen shirt, gold-rim glasses) in the studio from @Image3 and @Image4, with the exact can from @Image1. Shot 1 (0 to 2.5 s): at her tidy desk she cracks the can cleanly, holds it at chest height, label to camera, and says dryly to the lens: \"Same Monday. Two cans.\" Shot 2 (2.5 to 5.5 s): medium close-up, sketching fast and sure on a drafting pad, the can upright on the desk corner, she glances up: \"Mine helps me focus.\" Shot 3 (5.5 to 10 s): standing at the head of the meeting table presenting a white foam building model to two colleagues seen from behind, crisp: \"And that's the whole building. Questions?\" Keep the can's shape, colours, wordmark and bulls exactly as @Image1. Native sound: can crack, pencil, confident voice. No music. No text, no clocks, no split screen."
+    },
+    {
+      "id": "U3",
+      "t0": 16,
+      "t1": 21,
+      "shots": [
+        "S07"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "placement": "full frame; the post split collapse reveals it",
+      "refs": [
+        "product can official",
+        "nia card",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial, cool clean daylight by a tall studio window. Medium close-up of @Image2 (Nia) holding the exact can from @Image1 at chest height, label to camera and readable, very slight push-in, she says warmly to the lens: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Same benefits, without the sugar.\" The can stays still in her hand for the whole line. Keep the can's shape, colours, wordmark and bulls exactly as @Image1. Native sound: room tone, her voice. No music, no text."
+    },
+    {
+      "id": "U4",
+      "t0": 24,
+      "t1": 30,
+      "shots": [
+        "S09"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "placement": "full frame",
+      "refs": [
+        "product can official",
+        "S09 keyframe as first frame"
+      ],
+      "prompt": "9:16 premium pack shot at golden hour. Slow push-in onto the exact can from @Image1 standing upright on a tidy pale oak desk beside a finished white foam architectural model, label to camera, condensation drops, warm low sun from a window rim-lighting it. The can does not move or change. Keep the brick wall above the can empty. Native sound: quiet evening studio room tone. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "split",
+      "t0": 0,
+      "t1": 16,
+      "brief": "One motif in two versions, 100 bpm: a detuned, wobbly, slightly flat Rhodes and lazy kick for the sugar pane; the same motif bright and tight on plucked synth and clean claps for the sugarfree pane; the edit switches versions on each ping-pong cut."
+    },
+    {
+      "section": "take the frame",
+      "t0": 16,
+      "t1": 24,
+      "brief": "Bright version only, filtered down under the product line, a comic one-beat dropout for Okay. Fine."
+    },
+    {
+      "section": "resolve",
+      "t0": 24,
+      "t1": 30,
+      "brief": "Bright version opens up with a warm pad and resolves on the tonic under the tagline."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 0,
+      "sound": "soft whoosh as the divider draws across the frame",
+      "why": "announces the split screen format in the first frame"
+    },
+    {
+      "t": 16,
+      "sound": "whoosh up as the top pane slides away",
+      "why": "marks the winning side taking the screen"
+    },
+    {
+      "t": 2.5,
+      "sound": "small clock tick on each time-stamp change (also at 5.5, 8.5, 11.5)",
+      "why": "keeps the day moving across ping-pong cuts"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "nia",
+      "plan": "native in U2 (sugarfree world, first generation); her U2 stem is the voice reference for U1, U3 and the tagline so both versions share one voice"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 16,
+      "text": "Split screen: two 9:8 panes, 3px white divider at 50% height",
+      "sub": "",
+      "style": "divider draws left to right over 6 frames at 0 s; inactive pane holds its last frame at 60% brightness, muted"
+    },
+    {
+      "t0": 0,
+      "t1": 16,
+      "text": "THE SUGAR WAY (top) / THE SUGARFREE WAY (bottom)",
+      "sub": "",
+      "style": "pane labels, Manrope ExtraBold small caps 2.6% of frame height, top-left of each pane; beige #CDBBA0 on top, sky blue #6EC1E4 on bottom"
+    },
+    {
+      "t0": 0,
+      "t1": 16,
+      "text": "9:02 AM (0 to 2.5 s), 11:40 AM (2.5 to 8.5 s), 3:15 PM (8.5 to 16 s)",
+      "sub": "",
+      "style": "time stamps top-right of each pane, JetBrains Mono white 80%, digits roll over in 5 frames with the tick"
+    },
+    {
+      "t0": 25.4,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Manrope ExtraBold white, centred in the empty wall above the can, fade and rise 12px over 8 frames"
+    }
+  ],
+  "claims_used": [
+    "Same benefits of the original Energy Drink, without sugar",
+    "Caffeine helps to improve concentration and increase alertness"
+  ],
+  "cost_estimate": {
+    "seconds": 33,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.91,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "key": "lifestyle_montage",
+  "name": "Lifestyle montage",
+  "definition": "A music-driven 30 second montage of real-feeling people using the product across one day or one world. The edit is the story: a repeated visual idea (here, everyone hitting their own wall) is set up, turned by the product, and paid off, with every cut landing on the beat and a short voiceover threading the idea together.",
+  "why_it_sells": "The number 2 format by Meta ad volume because it shows the product fitting many lives at once, so more viewers see themselves in it. Rhythm holds attention without a plot, and repetition (same framing, different person) makes the product the constant. It fails when it becomes pretty stock footage: the recurring visual motif and the beat-locked product moment are what make it an ad.",
+  "visual_grammar": "Rhyming frames: each person is introduced in the same framing and the same frame position (centred, mid-chest, eyes on the upper third line) so the cuts read as one idea repeated. Natural, lived-in locations, real textures (flour, chalk, foam board, sweat). Colour grades warm to cool through the day: blue dawn, white midday, amber evening, dusk. The product appears as the one crisp, cold, saturated object in every world it enters.",
+  "camera": "Mostly handheld with a steady, human operator feel; gimbal floats for the payoff; locked-off macro for the product crack. 24 to 35mm for people in their places, 50mm for faces, 100mm macro for the can. One whip or match cut per movement (the hand slamming the bench matches the hand slapping the climbing hold). Frames are composed so a cut on a downbeat lands on motion, never on a still.",
+  "light": "Motivated natural light only: window light at dawn, overhead fluorescents softened by daylight at midday, gym LEDs mixed with sunset through high windows, blue hour for the close. Bright, airy exposure, faces never in silhouette.",
+  "texture": "Clean digital with a light 16mm-style grain added in post, gentle highlight bloom, real skin texture, dust and flour and chalk particles caught in backlight.",
+  "palette_rule": "Each location gets one dominant temperature tied to its hour; the product's sky blue and silver is echoed once per location (a blue apron, a silver lamp, a blue climbing hold) so the can always feels at home, with warm gold as the shared accent.",
+  "pacing": "Built on a fixed tempo grid (120 bpm, one bar is 2 s). Setup cuts every bar, the product moment holds for two bars, the build after the drop cuts every bar with a half-bar stutter at the peak, and the CTA holds three bars with the music thinning out. No cut ever falls between beats.",
+  "sound": "Music leads: one licensed-feel track generated as a single piece with a clear drop at the product turn. Voiceover is a single narrator, dry and close, sitting in the gaps the music leaves (the arrangement drops out for each line). Native sound from the generations is kept low under the music, lifted only for the textures the viewer should feel (flour slap, can crack, chalk clap).",
+  "caption_look": {
+    "font": "Archivo Black",
+    "size": "7% of frame height for one or two word lines, 5% for full sentences",
+    "color": "#FFFFFF",
+    "active_word": "the key word turns #7CC6F0 (can sky blue) on the beat it is spoken",
+    "shadow": "hard 0 3px 0 rgba(0,0,0,.35) plus soft 0 4px 14px rgba(0,0,0,.45)",
+    "position": "centre, 60% down the frame, above the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "box": false,
+    "animation": "each caption pops in on the downbeat with a 4 frame scale from 92% to 100%, cuts out with the picture cut",
+    "case": "uppercase for the one-word wall labels, sentence case for the product line"
+  },
+  "model_vocab": [
+    "candid lifestyle photography",
+    "documentary handheld",
+    "natural window light",
+    "real skin texture",
+    "backlit particles in the air",
+    "motivated practical light",
+    "authentic lived-in location",
+    "16mm grain"
+  ],
+  "failure_modes": [
+    "stock-photo smiles: ask for mid-action, unposed, not looking at camera",
+    "people across shots drift in face and wardrobe: pass the cast card every time and repeat hair and clothing words",
+    "a montage of three people in one generation unit merges their faces: name each person with their own @Image reference and one shot each",
+    "flour, chalk and dust read as noise or snow at 720p: keep it backlit and mid-ground, one burst per shot",
+    "the model adds a second can or a generic bottle beside the hero can: say one can only, and what else is on the surface",
+    "climbing wall shots come back rotated or with the climber horizontal: say upright vertical composition, the wall is vertical, the climber hangs by her hands with normal gravity",
+    "foam architecture models pick up readable labels: say plain white foam board with no writing",
+    "the rooftop skyline gets real landmarks and billboards: say a generic skyline of plain towers with dark windows and no signs",
+    "the model draws the bakery and gym as empty stock sets: keep the cast card and a mid-action verb in every people shot",
+    "pack shots on a surface sprout a hand holding the can: say the can stands on its own, no hands, no arms, no people in frame",
+    "an unspecified hand opening the can comes back large and masculine: describe the owner's hand (small, slender, short nails, flour on the knuckles)"
+  ],
+  "negatives": [
+    "no real brands, logos or signage except the product",
+    "no readable text anywhere except the product label",
+    "no posed stock-photo grins at the camera",
+    "no extra fingers or merged hands",
+    "no second can in the same person's scene",
+    "no children"
+  ],
+  "prompt_prefix": "Candid lifestyle film still, vertical 9:16 frame, documentary handheld feel, natural motivated light, real skin texture, light 16mm grain, subject mid-action and not posing.",
+  "asset_style": "Photoreal casting reference, natural skin texture, no retouching."
+}

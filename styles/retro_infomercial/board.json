@@ -74,6 +74,10 @@
     "consumable": {
       "moment": "the host stacks the packs on the rotating pedestal and pours one out",
       "scale": "hand"
+    },
+    "swap_props": {
+      "moment": "The giant foam sugar cube is the product-specific villain: swap it per product for a giant novelty version of what the product does without. The pedestal, the phone bank, the set and the office stay.",
+      "scale": "props only"
     }
   },
   "beats": [
@@ -216,7 +220,13 @@
         "dale",
         "set"
       ],
-      "keyframe_prompt": "Wide-angle close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, leaning toward the lens and pointing one finger straight at the viewer, huge white grin, eyebrows raised, butter-yellow double-breasted blazer and teal shirt, teal and magenta glass-block wall behind him. His face and pointing hand fill the middle of the frame; plain set wall and his blazer fill the top and bottom, full-bleed. No text, no numbers, no logos."
+      "keyframe_prompt": "Wide-angle close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, leaning toward the lens and pointing one finger straight at the viewer, huge white grin, eyebrows raised, butter-yellow double-breasted blazer and teal shirt, teal and magenta glass-block wall behind him. His face and pointing hand fill the middle of the frame; plain set wall and his blazer fill the top and bottom, full-bleed. No text, no numbers, no logos.",
+      "dressing": [
+        "the gold pinky ring on his pointing hand",
+        "a white pocket square folded in three points",
+        "the magenta neon squiggle tube behind his shoulder",
+        "the teal and magenta glass-block wall"
+      ]
     },
     {
       "id": "S02",
@@ -233,7 +243,14 @@
         "gloria",
         "office"
       ],
-      "keyframe_prompt": "Fully black and white, no colour at all: a static medium wide shot of Gloria, the woman from the character sheet, in the beige 1990s office cubicle from the location plate, slumped at her desk with sleepy eyes and her glasses askew, flinging both arms up in exaggerated despair, a stack of paper files starting to slide off the desk, a chunky CRT monitor with a blank grey glow beside her. Comic 1990s infomercial problem segment, overacted. No product in this shot. No readable text."
+      "keyframe_prompt": "Fully black and white, no colour at all: a static medium wide shot of Gloria, the woman from the character sheet, in the beige 1990s office cubicle from the location plate, slumped at her desk with sleepy eyes and her glasses askew, flinging both arms up in exaggerated despair, a stack of paper files starting to slide off the desk, a chunky CRT monitor with a blank grey glow beside her. Comic 1990s infomercial problem segment, overacted. No product in this shot. No readable text.",
+      "dressing": [
+        "the chunky tube monitor with blank sticky notes around its bezel",
+        "the styrofoam cup with a lipstick mark",
+        "the plush toy with neon hair on the monitor",
+        "a fold of striped tractor-feed paper spilling off the side cabinet",
+        "the black pager at the desk edge"
+      ]
     },
     {
       "id": "S03",
@@ -251,7 +268,13 @@
         "product",
         "set"
       ],
-      "keyframe_prompt": "Medium close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, looking straight into the lens with a huge white grin, holding the exact can from the product reference gently upright at its base with his fingertips right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on the can's rim, butter-yellow blazer, teal and magenta glass blocks behind, flat bright light, over-saturated colour. One can only. No text or logos except the can's own label."
+      "keyframe_prompt": "Medium close-up of Dale, the man from the character sheet, on the pastel infomercial set from the location plate, looking straight into the lens with a huge white grin, holding the exact can from the product reference gently upright at its base with his fingertips right beside his cheek, label facing camera, straight and undistorted, a star-filter glint on the can's rim, butter-yellow blazer, teal and magenta glass blocks behind, flat bright light, over-saturated colour. One can only. No text or logos except the can's own label.",
+      "dressing": [
+        "his chunky gold wristwatch",
+        "the gold pinky ring",
+        "the fake palm in its gold urn behind him",
+        "hairspray shine at his temples"
+      ]
     },
     {
       "id": "S04",
@@ -266,9 +289,16 @@
       "caption": "Helps you stay alert and focused, with no sugar!",
       "refs": [
         "product",
-        "set"
+        "set",
+        "pedestal"
       ],
-      "keyframe_prompt": "Centred insert: the exact can from the product reference standing upright on a small round mirrored rotating pedestal on a white demo table, label facing camera, straight and undistorted, cold droplets, star-filter sparkles glinting off the rim, a teal and magenta glass-block wall softly behind, flat bright 1990s studio light. Plain glass-block and teal wall fills the rest of the frame edge to edge, with a clean plain area in the lower third for graphics. One can only. No text, numbers or logos except the can's own label."
+      "keyframe_prompt": "Centred insert: the exact can from the product reference standing upright on a small round mirrored rotating pedestal on a white demo table, label facing camera, straight and undistorted, cold droplets, star-filter sparkles glinting off the rim, a teal and magenta glass-block wall softly behind, flat bright 1990s studio light. Plain glass-block and teal wall fills the rest of the frame edge to edge, with a clean plain area in the lower third for graphics. One can only. No text, numbers or logos except the can's own label.",
+      "dressing": [
+        "the mirror mosaic tiles on the pedestal top catching light",
+        "the chipped edge and brass trim of the white demo table",
+        "the crystal bowl of wax lemons soft at the edge of frame",
+        "the magenta neon squiggle soft in the background"
+      ]
     },
     {
       "id": "S05",
@@ -286,7 +316,14 @@
         "product",
         "office"
       ],
-      "keyframe_prompt": "Over-saturated colour, medium shot of Gloria, the woman from the character sheet, in the 1990s office cubicle from the location plate, now tidy with the papers in a neat stack, sitting bolt upright and beaming wide-eyed at the lens, holding the exact can from the product reference upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand, teal blazer with shoulder pads, round glasses, flat bright light. One can only. No readable text."
+      "keyframe_prompt": "Over-saturated colour, medium shot of Gloria, the woman from the character sheet, in the 1990s office cubicle from the location plate, now tidy with the papers in a neat stack, sitting bolt upright and beaming wide-eyed at the lens, holding the exact can from the product reference upright in one hand with the label facing camera and undistorted, giving a big thumbs up with the other hand, teal blazer with shoulder pads, round glasses, flat bright light. One can only. No readable text. Only office things on the desk: no fruit, no crystal bowls, nothing from the studio set.",
+      "dressing": [
+        "the manila files now in one neat stack with coloured tabs",
+        "the pager clipped to her waistband",
+        "her teal scrunchie on her wrist",
+        "the spider plant on the desk",
+        "the tube monitor with its blank grey glow"
+      ]
     },
     {
       "id": "S06",
@@ -303,7 +340,12 @@
         "dale",
         "set"
       ],
-      "keyframe_prompt": "Wide-angle extreme close-up of Dale, the man from the character sheet, leaning right into the lens with a slightly bulging wide-angle look, one index finger raised beside his face, eyebrows high, mouth open mid-word, tan face shiny under flat bright studio light, a blurred teal and magenta set behind. Over-saturated 1990s video look. No text."
+      "keyframe_prompt": "Wide-angle extreme close-up of Dale, the man from the character sheet, leaning right into the lens with a slightly bulging wide-angle look, one index finger raised beside his face, eyebrows high, mouth open mid-word, tan face shiny under flat bright studio light, a blurred teal and magenta set behind. Over-saturated 1990s video look. No text.",
+      "dressing": [
+        "the gold pinky ring on his raised finger",
+        "hairspray failing at his temples",
+        "a blurred magenta neon squiggle behind"
+      ]
     },
     {
       "id": "S07",
@@ -321,7 +363,14 @@
         "product",
         "set"
       ],
-      "keyframe_prompt": "Medium wide shot of Dale, the man from the character sheet, standing behind the white demo table on the pastel infomercial set from the location plate, sweeping a giant white foam novelty sugar cube the size of a hatbox off the edge of the table with a grand flourish of his arm, grinning at the lens; the exact can from the product reference stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted. One can only. Plain set wall above him. No text or numbers."
+      "keyframe_prompt": "Medium wide shot of Dale, the man from the character sheet, standing behind the white demo table on the pastel infomercial set from the location plate, sweeping a giant white foam novelty sugar cube the size of a hatbox off the edge of the table with a grand flourish of his arm, grinning at the lens; the exact can from the product reference stands upright and untouched on the small mirrored pedestal on the table, label facing camera and undistorted. One can only. Plain set wall above him. No text or numbers.",
+      "dressing": [
+        "the giant foam sugar cube with a dented corner and paint flecks missing",
+        "the mirror-tiled pedestal holding the can",
+        "the butter-yellow starburst shape on the table front",
+        "the pyramid of plain white boxes on a side riser",
+        "the cross of gaffer tape on the carpet at his feet"
+      ]
     },
     {
       "id": "S08",
@@ -337,7 +386,13 @@
       "refs": [
         "dale"
       ],
-      "keyframe_prompt": "Wide reverse-angle shot from behind Dale, the man from the character sheet (seen from behind in his butter-yellow blazer, taking a small bow in the foreground), looking out at a small 1990s TV studio audience of about twenty adults of varied ages and ethnicities on low carpeted risers, in 1990s clothes (windbreakers, denim jackets, big hair), all going 'ooooh' with hands on their cheeks and mouths in O shapes, bright flat studio light, teal and magenta wash on the back wall. No text, no signs, no logos, no children. Tall vertical framing filling the whole frame edge to edge: the stacked audience risers climb from the middle to the very top of the frame and Dale's back and shoulders fill the bottom edge, no letterbox bars, no blurred bands, no borders."
+      "keyframe_prompt": "Wide reverse-angle shot from behind Dale, the man from the character sheet (seen from behind in his butter-yellow blazer, taking a small bow in the foreground), looking out at a small 1990s TV studio audience of about twenty adults of varied ages and ethnicities on low carpeted risers, in 1990s clothes (windbreakers, denim jackets, big hair), all going 'ooooh' with hands on their cheeks and mouths in O shapes, bright flat studio light, teal and magenta wash on the back wall. No text, no signs, no logos, no children. Tall vertical framing filling the whole frame edge to edge: the stacked audience risers climb from the middle to the very top of the frame and Dale's back and shoulders fill the bottom edge, no letterbox bars, no blurred bands, no borders.",
+      "dressing": [
+        "burgundy carpeted risers",
+        "windbreakers, denim jackets, shoulder pads and big permed hair",
+        "a pair of oversized plastic-framed glasses in the second row",
+        "the black stage curtain edge with a sandbag on a light stand"
+      ]
     },
     {
       "id": "S09",
@@ -352,9 +407,16 @@
       "caption": "Operators are NOT standing by. Just grab one!",
       "refs": [
         "dale",
-        "set"
+        "set",
+        "phones"
       ],
-      "keyframe_prompt": "Medium shot of Dale, the man from the character sheet, sitting behind a long white desk on the pastel set from the location plate, a row of six plain beige 1990s telephones with blank buttons in front of him, none ringing, one receiver in his hand held away from his ear, shrugging at the lens with a comic deadpan look, butter-yellow blazer. Empty plain teal wall above him and a clean plain area across the lower third of the frame for a graphic card. No text, numbers or logos anywhere."
+      "keyframe_prompt": "Medium shot of Dale, the man from the character sheet, sitting behind a long white desk on the pastel set from the location plate, a row of six plain beige 1990s telephones with blank buttons in front of him, none ringing, one receiver in his hand held away from his ear, shrugging at the lens with a comic deadpan look, butter-yellow blazer. Empty plain teal wall above him and a clean plain area across the lower third of the frame for a graphic card. No text, numbers or logos anywhere.",
+      "dressing": [
+        "six beige phones with blank buttons, one with a cracked case",
+        "the coiled cords tangled together",
+        "the butter-yellow starburst shape on the desk front",
+        "the gold pinky ring on the hand holding the receiver"
+      ]
     },
     {
       "id": "S10",
@@ -369,9 +431,16 @@
       "caption": "Wiiings without sugar!",
       "refs": [
         "product",
-        "set"
+        "set",
+        "pedestal"
       ],
-      "keyframe_prompt": "Centred 1990s infomercial pack shot: the exact can from the product reference upright on a small round mirrored pedestal on a white demo table, label facing camera, straight and undistorted, star-filter sparkles on the rim, a man's tanned hand with a gold pinky ring giving a thumbs up at the right edge of the frame beside the can, teal and magenta glass-block wall behind. The upper quarter and lower third of the frame are clean plain wall for graphics. One can only. No text, numbers or logos except the can's own label."
+      "keyframe_prompt": "Centred 1990s infomercial pack shot: the exact can from the product reference upright on a small round mirrored pedestal on a white demo table, label facing camera, straight and undistorted, star-filter sparkles on the rim, a man's tanned hand with a gold pinky ring giving a thumbs up at the right edge of the frame beside the can, teal and magenta glass-block wall behind. The upper quarter and lower third of the frame are clean plain wall for graphics. One can only. No text, numbers or logos except the can's own label. One single continuous camera image: no inset picture, no picture-in-picture, no second frame layered over the first. The image fills the full 9:16 frame edge to edge: the glowing glass-block wall runs all the way to the very top edge and the white demo table front runs all the way to the very bottom edge, with no plain coloured bands, no letterbox and no borders.",
+      "dressing": [
+        "the mirror mosaic pedestal",
+        "the gold pinky ring on the thumbs up",
+        "the chipped laminate edge of the demo table",
+        "the glass-block wall glowing behind"
+      ]
     }
   ],
   "units": [
@@ -559,5 +628,130 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "The Dale Dazzle Hour tapes on Tuesday nights in Studio B of WonderVision 38 in Tampa, Florida, and airs at 2am. This is episode 412, taped on 14 October 1997.",
+      "Dale Dazzle was born Dale Pruitt and sold above-ground pools door to door before he got the show in 1991. The gold pinky ring was bought with his first commission cheque in 1984 and he taps it on the table when he wants a cut.",
+      "Gloria Tran is a claims processor at a Tampa insurance office, not an actor. Her sister-in-law works in the station's front office, and this is her third segment; she was paid in a gift basket.",
+      "The studio audience is bussed in from a retirement community and a Thursday bowling league, paid in a free lunch, and the ooooh is rehearsed twice before tape rolls.",
+      "The station manager has warned that if episode 412 does not move product, the 2am slot goes to a psychic hotline. The six desk phones were bought used from a closed travel agency in 1993 and only two of them ever connected."
+    ],
+    "materials_rule": "Everything is 1997 television production stock and must be period accurate to 1997: painted wooden set flats with visible seams, glass blocks, white laminate, brass-tone and chrome trim, pastel carpet, acrylic, neon glass tubes, wax fruit, plastic plants. Office props are beige injection-moulded plastic, grey-blue fabric cubicle panels, manila paper and styrofoam. Nothing invented after 1997 appears anywhere: no flat screens, no mobile phones, no laptops, no earbuds, no light strips, no modern logos, no plastic water bottles. Everything is seen through soft standard-definition video with slight colour bleed.",
+    "locations": {
+      "set": {
+        "foreground": [
+          "teal carpet with a faint coffee stain and a cross of silver gaffer tape marking the host's spot",
+          "the white laminate demo table with a chipped front edge and a brass-tone trim strip",
+          "the small round mirrored rotating pedestal with a thin grey cord running off the back of the table",
+          "a cut crystal bowl of dusty wax lemons at the end of the table"
+        ],
+        "midground": [
+          "a fake potted palm with dusty plastic fronds in a gold-painted urn",
+          "a pastel pink faux-marble column with a chip showing white plaster",
+          "a magenta neon squiggle tube mounted on the wall",
+          "a neat pyramid of plain white cardboard boxes on a side riser",
+          "a chrome bar stool with a teal vinyl seat, split and taped",
+          "a small four-point starburst shape painted in butter yellow on the front panel of the table"
+        ],
+        "background": [
+          "a tall curved glass-block wall lit teal and magenta from behind",
+          "butter-yellow and teal geometric set flats with visible seams between them",
+          "a row of black ceiling track-light cans with coloured gels",
+          "a painted pink and orange sunset backdrop behind a fake window frame with white vertical blinds",
+          "the edge of a black stage curtain with a sandbag on a light stand"
+        ]
+      },
+      "office": {
+        "foreground": [
+          "a beige keyboard with yellowed keys and a coiled cord",
+          "a beige ball mouse on a mouse pad printed with a palm tree sunset",
+          "a styrofoam coffee cup with a pink lipstick mark and a skin on the coffee",
+          "a heavy beige stapler and a paper desk blotter with an empty grid"
+        ],
+        "midground": [
+          "a chunky beige tube monitor with a blank grey glow and blank yellow sticky notes around its bezel",
+          "a tall wobbly stack of manila files with coloured tab stickers",
+          "a beige desk phone with a coiled cord and blank buttons",
+          "a small plush troll-like toy with neon pink hair sitting on top of the monitor",
+          "a black pager lying at the edge of the desk",
+          "a spider plant in a white plastic pot with a few brown tips"
+        ],
+        "background": [
+          "grey-blue fabric cubicle walls with coloured push pins and a pinned poster of abstract colour noise",
+          "a beige tower computer under the desk with a floppy disk slot",
+          "a fluorescent ceiling panel with one flickering tube",
+          "a tractor-feed printer on a side cabinet with a long fold of striped paper spilling to the floor",
+          "a rotary card index file with blank cards"
+        ]
+      }
+    },
+    "personal_props": {
+      "dale": [
+        "the gold pinky ring from his first commission cheque in 1984, a little loose, turned with his thumb",
+        "a white pocket square folded into three sharp points",
+        "a chunky gold wristwatch with a scratched crystal",
+        "a tortoiseshell pocket comb in his inside breast pocket",
+        "a shine of hairspray failing at his temples under the hot lights"
+      ],
+      "gloria": [
+        "large round wire-frame glasses, bent slightly on the left",
+        "a tortoiseshell claw clip holding the blowout",
+        "a black pager clipped to her skirt waistband",
+        "a teal scrunchie on her wrist",
+        "her styrofoam coffee cup with a pink lipstick mark"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "pedestal",
+        "name": "The Dazzle Desk pedestal",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a small round 1990s motorised display turntable pedestal for a television shopping show, the top covered in a mosaic of small square mirror tiles, a chrome base with a brass-tone trim ring, a thin grey power cord with a beige plug, a small scuff on the chrome. Empty on top. No letters, numbers or logos. Flat bright 1990s studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      },
+      {
+        "id": "sugarcube",
+        "name": "The giant foam sugar cube",
+        "prop_prompt": "Full-frame studio photograph on a plain mid-grey background, three-quarter angle, filling the frame edge to edge with no borders: one giant novelty sugar cube, a true cube with equal height, width and depth, the size of a hatbox, carved from white foam and painted with a sparkling granular texture, slightly uneven hand-cut edges, one corner dented where it has been dropped before, a few flecks of paint missing showing yellowish foam. No face, no letters or marks. Flat bright 1990s studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind. No paper tags, no tape labels, no handwriting."
+      },
+      {
+        "id": "phones",
+        "name": "The six phone bank",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a row of six identical 1990s beige office desk telephones with coiled cords, each with a grid of plain blank square buttons and no numbers or letters, one with a yellowed receiver and one with a small crack in its case. No text, numbers or logos anywhere. Flat bright 1990s studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "The Dale Dazzle Hour",
+        "mark": "a fat four-point starburst sparkle",
+        "colors": "butter yellow, teal and magenta",
+        "appears_on": "the front panel of the demo table (the starburst shape only), the phone desk front",
+        "text_in_post": "the show logo and all starbursts with words are added in post"
+      },
+      {
+        "name": "WonderVision 38",
+        "mark": "a rounded tube television outline with a small lightning zigzag inside",
+        "colors": "magenta and chrome",
+        "appears_on": "nothing in camera",
+        "text_in_post": "the channel bug in the bottom corner, post only"
+      },
+      {
+        "name": "Dazzle Desk",
+        "mark": "none",
+        "colors": "white laminate and brass",
+        "appears_on": "the demo table itself",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "Tuesday 14 October 1997, 11:40pm, the second take of the night. The hot studio lights have been on for three hours: Dale's forehead shines, his hairspray is giving up at the temples, the wax lemons are dusty and one strip of gaffer tape has lifted off the carpet. The office segment was taped the afternoon before under a flickering fluorescent tube, the coffee has a skin on it and the files are three weeks behind. Out of place: a stagehand's styrofoam cup left behind the palm urn.",
+    "sound_world": [
+      "the hum and tick of hot studio lights",
+      "the whirr of the pedestal motor",
+      "the live audience's rehearsed ooooh",
+      "a fluorescent tube buzzing in the office",
+      "the screech of a tractor-feed printer",
+      "a pager chirping on the desk",
+      "the crack and hiss of the can",
+      "a dial tone from a receiver that nobody called"
+    ]
   }
 }

@@ -231,7 +231,13 @@
         "grant",
         "newsdesk"
       ],
-      "keyframe_prompt": "Symmetrical medium close-up of Grant, the man from the character sheet, seated at the glossy navy and silver anchor desk in the news studio from the location plate, hands folded on blank papers, looking straight into the lens with a grave serious expression, mid-sentence, charcoal suit and navy tie, rimless glasses, bright even broadcast key light, glowing abstract sky-blue screens behind him. His face sits in the upper half of the frame; the lower part of the frame is his chest and the desk, clean and empty for graphics. No on-screen graphics, text or logos. Tight framing from mid-chest up: his head and shoulders fill the width of the frame in the upper half, the desk edge crosses the lower middle, the studio set is only a soft background."
+      "keyframe_prompt": "Symmetrical medium close-up of Grant, the man from the character sheet, seated at the glossy navy and silver anchor desk in the news studio from the location plate, hands folded on blank papers, looking straight into the lens with a grave serious expression, mid-sentence, charcoal suit and navy tie, rimless glasses, bright even broadcast key light, glowing abstract sky-blue screens behind him. His face sits in the upper half of the frame; the lower part of the frame is his chest and the desk, clean and empty for graphics. No on-screen graphics, text or logos. Tight framing from mid-chest up: his head and shoulders fill the width of the frame in the upper half, the desk edge crosses the lower middle, the studio set is only a soft background.",
+      "dressing": [
+        "the navy mug with the silver three-wave mark and a coffee ring",
+        "blank script pages with one folded corner",
+        "his small silver three-wave lapel pin",
+        "the clear earpiece coil behind his left ear"
+      ]
     },
     {
       "id": "S02",
@@ -245,9 +251,17 @@
       "audio": "wind on the mic, street ambience, dialogue",
       "caption": "Grant, the fourteenth floor is wide awake. At three p.m.",
       "refs": [
-        "jolene"
+        "jolene",
+        "tower",
+        "mic"
       ],
-      "keyframe_prompt": "Medium shot of Jolene, the woman from the character sheet, standing on a downtown sidewalk outside a mid-rise glass office tower with a plain revolving door and concrete planters on the left third of the frame, speaking urgently into a hand microphone with a plain navy mic flag with no letters, her free hand gesturing up at the glass office tower behind her, copper-red hair blowing slightly, navy windbreaker, flat afternoon daylight, shoulder-mounted news camera look. Upright vertical composition, level horizon, vertical building lines. The sidewalk and her body continue naturally to the bottom edge of the frame. No text, no signs, no logos. She is photographed in the scene with natural matching daylight and shadows, standing on the pavement with her full upper body in frame, not pasted in; the sidewalk and tower fill the frame edge to edge."
+      "keyframe_prompt": "Medium shot of Jolene, the woman from the character sheet, standing on a downtown sidewalk outside a mid-rise glass office tower with a plain revolving door and concrete planters on the left third of the frame, speaking urgently into a hand microphone with a plain navy mic flag with no letters, her free hand gesturing up at the glass office tower behind her, copper-red hair blowing slightly, navy windbreaker, flat afternoon daylight, shoulder-mounted news camera look. Upright vertical composition, level horizon, vertical building lines. The sidewalk and her body continue naturally to the bottom edge of the frame. No text, no signs, no logos. She is photographed in the scene with natural matching daylight and shadows, standing on the pavement with her full upper body in frame, not pasted in; the sidewalk and tower fill the frame edge to edge.",
+      "dressing": [
+        "the green bronze leaping pike statue by the entrance, nose rubbed gold",
+        "the brass revolving door with the notched rectangle etched above it",
+        "the hot dog cart with a blank striped umbrella",
+        "yellow maple leaves on the sidewalk"
+      ]
     },
     {
       "id": "S03",
@@ -263,7 +277,13 @@
       "refs": [
         "office"
       ],
-      "keyframe_prompt": "Telephoto news b-roll through a glass office window into the open-plan office from the location plate at 3pm: two office workers in business casual mid high-five, a third jogging past carrying a neat stack of folders, a whiteboard behind them covered in abstract doodled arrows and boxes with no letters or words, monitors glowing with soft abstract colour, energetic mood, slight reflections on the glass, news camera compression. Adults only. Upright vertical composition, level horizon. No readable text, no logos."
+      "keyframe_prompt": "Telephoto news b-roll through a glass office window into the open-plan office from the location plate at 3pm: two office workers in business casual mid high-five, a third jogging past carrying a neat stack of folders, a whiteboard behind them covered in abstract doodled arrows and boxes with no letters or words, monitors glowing with soft abstract colour, energetic mood, slight reflections on the glass, news camera compression. Adults only. Upright vertical composition, level horizon. No readable text, no logos. The high-fiving workers are large and fill the middle of the frame, seen through the glass; there is no desk, bell or paper stack in the near foreground. The camera stands outside on a ledge across the street looking in: the window glass with faint sky reflections fills the whole frame and the office desks start well behind it, so nothing from Hector's desk is visible.",
+      "dressing": [
+        "the whiteboard with doodled arrows and one big hand-drawn star",
+        "a half-deflated silver birthday balloon on a chair",
+        "the water cooler with a sky-blue bottle",
+        "reflections of the grey lake on the glass"
+      ]
     },
     {
       "id": "S04",
@@ -281,7 +301,14 @@
         "product",
         "office"
       ],
-      "keyframe_prompt": "Medium close-up at a slightly low interview angle of Hector, the man from the character sheet, standing in the bright open-plan office from the location plate, earnest and awed, holding the exact can from the product reference upright in front of him at chest height, a hand's width away from his shirt, holding it with ONE hand only, fingertips around the bottom rim so the whole label shows, his other arm relaxed at his side, with the label facing camera, straight and undistorted, while a woman's hand holds a hand microphone with a plain navy mic flag with no letters toward him from the left edge of frame, his blank lanyard card, rolled-up sleeves, whiteboard of unreadable scribbles behind. One can only. The lower part of the frame below his chest is clean for graphics. No readable text, no logos except the can's label."
+      "keyframe_prompt": "Medium close-up at a slightly low interview angle of Hector, the man from the character sheet, standing in the bright open-plan office from the location plate, earnest and awed, holding the exact can from the product reference upright in front of him at chest height, a hand's width away from his shirt, holding it with ONE hand only, fingertips around the bottom rim so the whole label shows, his other arm relaxed at his side, with the label facing camera, straight and undistorted, while a woman's hand holds a hand microphone with a plain navy mic flag with no letters toward him from the left edge of frame, his blank lanyard card, rolled-up sleeves, whiteboard of unreadable scribbles behind. One can only. The lower part of the frame below his chest is clean for graphics. No readable text, no logos except the can's label.",
+      "dressing": [
+        "his blank lanyard card on a frayed navy strap",
+        "reading glasses on a beaded chain",
+        "the loosened tie with a coffee stain at the tip",
+        "the navy mic flag with only a small silver three-wave mark",
+        "the whiteboard with the big hand-drawn star behind"
+      ]
     },
     {
       "id": "S05",
@@ -296,9 +323,16 @@
       "caption": "Sources confirm it helps concentration and alertness. No sugar.",
       "refs": [
         "product",
-        "office"
+        "office",
+        "bell"
       ],
-      "keyframe_prompt": "News camera evidence close-up: the exact can from the product reference standing upright on a tidy office desk, label facing camera, straight and undistorted, cold droplets on it, beside a neat stack of blank finished reports and a pen, the bright office from the location plate softly blurred behind with afternoon window light. One can only, the can is the brightest and sharpest object. Clean empty area in the lower part of the frame. No readable text, no logos except the can's label."
+      "keyframe_prompt": "News camera evidence close-up: the exact can from the product reference standing upright on a tidy office desk, label facing camera, straight and undistorted, cold droplets on it, beside a neat stack of blank finished reports and a pen, the bright office from the location plate softly blurred behind with afternoon window light. One can only, the can is the brightest and sharpest object. Clean empty area in the lower part of the frame. No readable text, no logos except the can's label.",
+      "dressing": [
+        "the brass counter bell with sky-blue tape beside the can",
+        "the stack of blank reports with a black binder clip",
+        "the mug of pens",
+        "the small framed family photo out of focus"
+      ]
     },
     {
       "id": "S06",
@@ -315,7 +349,13 @@
         "grant",
         "newsdesk"
       ],
-      "keyframe_prompt": "Medium close-up of Grant, the man from the character sheet, at the glossy anchor desk in the news studio from the location plate, leaning slightly forward with a concerned furrowed brow, one hand raised mid-question, rimless glasses, charcoal suit, glowing abstract sky-blue screens behind. His face in the upper half of the frame, the lower half clean. No on-screen graphics, text or logos."
+      "keyframe_prompt": "Medium close-up of Grant, the man from the character sheet, at the glossy anchor desk in the news studio from the location plate, leaning slightly forward with a concerned furrowed brow, one hand raised mid-question, rimless glasses, charcoal suit, glowing abstract sky-blue screens behind. His face in the upper half of the frame, the lower half clean. No on-screen graphics, text or logos.",
+      "dressing": [
+        "the navy mug with the three-wave mark",
+        "the silver ballpoint pen",
+        "the clear earpiece coil",
+        "the lighting grid soft behind the screens"
+      ]
     },
     {
       "id": "S07",
@@ -330,9 +370,16 @@
       "caption": "Not today, Grant. Not today.",
       "refs": [
         "jolene",
-        "tower"
+        "tower",
+        "mic"
       ],
-      "keyframe_prompt": "Medium shot of Jolene, the woman from the character sheet, centred on the sidewalk outside the glass office tower from the location plate, speaking into a hand mic with a plain navy flag with no letters, steely confident look with the hint of a smile, while behind her an office worker in a shirt and tie jogs past happily carrying a tall stack of plain binders, flat afternoon daylight, news camera look. Upright vertical composition, level horizon. The sidewalk and her body continue naturally to the bottom edge of the frame. No text, no signs, no logos."
+      "keyframe_prompt": "Medium shot of Jolene, the woman from the character sheet, centred on the sidewalk outside the glass office tower from the location plate, speaking into a hand mic with a plain navy flag with no letters, steely confident look with the hint of a smile, while behind her an office worker in a shirt and tie jogs past happily carrying a tall stack of plain binders, flat afternoon daylight, news camera look. Upright vertical composition, level horizon. The sidewalk and her body continue naturally to the bottom edge of the frame. No text, no signs, no logos.",
+      "dressing": [
+        "the green bronze pike statue by the revolving door",
+        "the band of brighter windows high on the tower",
+        "the hot dog cart with the striped umbrella",
+        "the concrete planter of geraniums"
+      ]
     },
     {
       "id": "S08",
@@ -347,9 +394,16 @@
       "caption": "Inbox zero!",
       "refs": [
         "hector",
-        "office"
+        "office",
+        "bell"
       ],
-      "keyframe_prompt": "Medium wide shot in the open-plan office from the location plate: Hector, the man from the character sheet, sitting at his desk with both arms thrown up in triumph, mouth open in a joyful shout, his monitor glowing with only soft abstract colour, three coworkers of varied ages and ethnicities standing around applauding, afternoon window light, news camera look. Adults only. Upright vertical composition, level horizon. No readable text, no logos."
+      "keyframe_prompt": "Medium wide shot in the open-plan office from the location plate: Hector, the man from the character sheet, sitting at his desk with both arms thrown up in triumph, mouth open in a joyful shout, his monitor glowing with only soft abstract colour, three coworkers of varied ages and ethnicities standing around applauding, afternoon window light, news camera look. Adults only. Upright vertical composition, level horizon. No readable text, no logos.",
+      "dressing": [
+        "the brass counter bell on his desk mid ring",
+        "the half-deflated silver balloon",
+        "the whiteboard with the big hand-drawn star",
+        "navy box files on the wall behind"
+      ]
     },
     {
       "id": "S09",
@@ -367,7 +421,13 @@
         "product",
         "newsdesk"
       ],
-      "keyframe_prompt": "Symmetrical medium close-up of Grant, the man from the character sheet, at the glossy anchor desk in the news studio from the location plate, the can already lowered from his lips and held still in one hand at chest height just after a sip (not drinking in this frame), the exact can from the product reference, label facing camera, straight and undistorted, looking straight into the lens with one eyebrow raised in a dry deadpan, glowing abstract sky-blue screens behind him, bright even broadcast light. One can only. The lower part of the frame is clean. No on-screen graphics, text or logos except the can's label. Tight framing from mid-chest up: his head and shoulders fill the width of the frame in the upper half, the desk edge crosses the lower middle, the studio set is only a soft background. The can is large and clearly readable in his hand."
+      "keyframe_prompt": "Symmetrical medium close-up of Grant, the man from the character sheet, at the glossy anchor desk in the news studio from the location plate, the can already lowered from his lips and held still in one hand at chest height just after a sip (not drinking in this frame), the exact can from the product reference, label facing camera, straight and undistorted, looking straight into the lens with one eyebrow raised in a dry deadpan, glowing abstract sky-blue screens behind him, bright even broadcast light. One can only. The lower part of the frame is clean. No on-screen graphics, text or logos except the can's label. Tight framing from mid-chest up: his head and shoulders fill the width of the frame in the upper half, the desk edge crosses the lower middle, the studio set is only a soft background. The can is large and clearly readable in his hand.",
+      "dressing": [
+        "the navy mug pushed aside",
+        "blank script pages with a folded corner",
+        "his three-wave lapel pin",
+        "the silver trim edge of the desk"
+      ]
     },
     {
       "id": "S10",
@@ -384,7 +444,13 @@
         "product",
         "newsdesk"
       ],
-      "keyframe_prompt": "Pack shot: the exact can from the product reference standing upright on the glossy navy and silver anchor desk in the news studio from the location plate, label facing camera, straight and undistorted, cold droplets, reflected in the glossy desk surface, the glowing abstract sky-blue screens and silver trim softly blurred behind. The can is the brightest and sharpest object. Clean empty space above the can for a title. One can only. No on-screen graphics, text or logos except the can's label."
+      "keyframe_prompt": "Pack shot: the exact can from the product reference standing upright on the glossy navy and silver anchor desk in the news studio from the location plate, label facing camera, straight and undistorted, cold droplets, reflected in the glossy desk surface, the glowing abstract sky-blue screens and silver trim softly blurred behind. The can is the brightest and sharpest object. Clean empty space above the can for a title. One can only. No on-screen graphics, text or logos except the can's label.",
+      "dressing": [
+        "the silver three-wave mark inlaid on the desk front",
+        "blank script pages softly out of focus",
+        "the lemon water glass blurred at the edge",
+        "the lighting grid bokeh"
+      ]
     }
   ],
   "units": [
@@ -569,5 +635,149 @@
     "first_pass_usd": 8.37,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Lakeport is a Great Lakes city of 640 thousand people. Lakeport Nine News has been the number two local station since 1978, and its 3pm update normally covers traffic on the Causeway Bridge and lake-effect snow.",
+      "Grant Okimoto has anchored the desk for 26 years and has never once smiled on air. The newsroom runs a betting pool on when he will; it stands at 410 dollars.",
+      "Pembrook Tower is a 22-storey glass office block from 1986 on Harbor Street, with a green bronze leaping pike statue by its revolving door that locals rub for luck. The fourteenth floor is Fenwick Hale Accounting, 38 staff, three days from the quarterly filing deadline.",
+      "Hector Alvarado has worked on fourteen for 17 years. On his desk is the brass counter bell his first manager gave him, rung only when a filing goes out; nobody remembers it ringing at 3pm.",
+      "Jolene Barrett is six months into the job and got the story because the traffic reporter was stuck on the Causeway Bridge."
+    ],
+    "locations": {
+      "newsdesk": {
+        "foreground": [
+          "the glossy curved navy anchor desk with a brushed silver trim edge and faint fingerprint smudges by the anchor's seat",
+          "a neat stack of blank white script pages with one corner folded down",
+          "a navy ceramic mug with a small silver three-wave mark and a coffee ring beside it",
+          "a silver ballpoint pen lying square to the pages"
+        ],
+        "midground": [
+          "a small silver three-wave mark inlaid on the front face of the desk",
+          "a clear glass of water with a lemon slice",
+          "a low recessed desk monitor showing only soft blue glow",
+          "silver trim lines curving across the glossy set floor"
+        ],
+        "background": [
+          "large glowing screens with only abstract sky-blue light shapes and blurred city bokeh",
+          "a tall frosted acrylic panel etched with a wave pattern",
+          "a lighting grid of black studio lamps overhead",
+          "a soft navy gradient wall fading into shadow at the edges"
+        ]
+      },
+      "tower": {
+        "foreground": [
+          "a concrete sidewalk with one crack patched in darker asphalt",
+          "a cast iron tree grate around a young maple with yellow autumn leaves on the ground",
+          "a concrete planter of red geraniums with a paper coffee cup tucked in the soil",
+          "a few wet leaves stuck to the pavement"
+        ],
+        "midground": [
+          "the plain brass-framed revolving door with a tall notched rectangle shape etched into the glass above it",
+          "a green bronze statue of a leaping pike on a granite plinth beside the entrance, its nose rubbed shiny gold",
+          "a hot dog cart with a blank striped blue and white umbrella",
+          "a bike rack with one blue bicycle missing its front wheel",
+          "a bronze fire standpipe by the wall"
+        ],
+        "background": [
+          "the 22-storey smoked glass facade rising out of frame",
+          "one band of windows about two-thirds up lit noticeably brighter than the rest",
+          "blurred passers-by in autumn coats",
+          "a flat grey lake sky with a few gulls",
+          "a street light pole with a blank navy banner"
+        ]
+      },
+      "office": {
+        "foreground": [
+          "Hector's desk with a brass counter bell, a strip of sky-blue tape on its black base",
+          "a neat stack of blank finished reports held by a black binder clip",
+          "a ceramic mug stuffed with pens and one ruler",
+          "a small framed family photo, faces tiny and blurred"
+        ],
+        "midground": [
+          "rows of desks with monitors showing only soft abstract colour",
+          "the big whiteboard covered in doodled arrows, boxes and one large hand-drawn star, no letters",
+          "a half-deflated silver birthday balloon tied to a desk chair",
+          "a wall of navy box files with coloured dot stickers",
+          "a water cooler with a sky-blue bottle"
+        ],
+        "background": [
+          "tall windows with afternoon light over a grey lake and the city",
+          "a potted fiddle-leaf fig by the window with one brown leaf",
+          "fluorescent ceiling panels, one missing its cover",
+          "a glass-walled meeting room with its blinds half down"
+        ]
+      }
+    },
+    "personal_props": {
+      "grant": [
+        "rimless glasses he polishes before every segment",
+        "a small silver lapel pin shaped like three waves, no letters",
+        "a clear earpiece with a coiled cable tucked behind his left ear",
+        "a silver ballpoint pen he squares to the page"
+      ],
+      "jolene": [
+        "the station hand mic with its square navy flag and silver three-wave mark",
+        "a navy windbreaker with the small silver three-wave mark on the chest and a salt stain on one cuff",
+        "a black hair tie on her wrist",
+        "a battered leather reporter's notebook sticking out of her back pocket"
+      ],
+      "hector": [
+        "a lanyard with a blank white card on a frayed navy strap",
+        "reading glasses hanging on a beaded chain",
+        "a loosened navy tie with a small coffee stain at the tip",
+        "his brass counter bell with sky-blue tape on the base"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "mic",
+        "name": "Lakeport Nine hand mic",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a black handheld television news microphone with a square navy mic flag near the top, the flag carrying only a small silver mark of three stacked wave lines, one corner of the flag scuffed pale, a coil of black cable. No letters, numbers or logos besides the wave mark. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      },
+      {
+        "id": "pike",
+        "name": "The Pembrook pike statue",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a life-size green bronze statue of a leaping pike fish arching upward on a rough granite plinth, weathered green patina with darker streaks, the nose and lower jaw rubbed shiny gold by passing hands. No letters, plaques or numbers. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      },
+      {
+        "id": "bell",
+        "name": "Hector's desk bell",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a brass push-button counter bell with a domed polished brass top slightly dented on one side, a round black base with worn edges and a strip of sky-blue tape wrapped around it. No letters or logos. Photoreal studio light. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Lakeport Nine News",
+        "mark": "three stacked silver wave lines",
+        "colors": "navy, sky blue and silver with a warm gold accent for breaking graphics",
+        "appears_on": "the mic flag, the front of the anchor desk, the anchor's mug, Jolene's windbreaker chest, Grant's lapel pin (mark only)",
+        "text_in_post": "station bug, BREAKING NEWS slam, straps, LIVE bug, clock, ticker and end card, all in post"
+      },
+      {
+        "name": "Pembrook Tower",
+        "mark": "a tall slim rectangle with a notched top",
+        "colors": "bronze and smoked glass",
+        "appears_on": "etched in the glass above the revolving door",
+        "text_in_post": "Pembrook Tower in the lower third strap only"
+      },
+      {
+        "name": "Fenwick Hale Accounting",
+        "mark": "a navy square with one folded corner",
+        "colors": "navy and white",
+        "appears_on": "the lanyard strap colour only, never on the card",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "A Thursday in late October, 3:04pm, flat grey lake-effect light with a cold wind off the water. The anchor's coffee is on its third refill, the mic flag is scuffed from years of pack-ups, yellow maple leaves are blowing along Harbor Street. On fourteen: three days to the filing deadline, a leftover birthday balloon going soft, a fluorescent panel missing its cover. Out of place: a paper coffee cup stuck in the geranium planter outside the tower.",
+    "sound_world": [
+      "the soft hum of the studio and a distant newsroom murmur",
+      "wind buffeting the hand mic",
+      "the whump of the revolving door and gulls over Harbor Street",
+      "a clatter of keyboards on the fourteenth floor",
+      "the ding of the brass counter bell",
+      "a sharp high-five slap",
+      "the crack and hiss of the can"
+    ]
   }
 }

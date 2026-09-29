@@ -190,7 +190,13 @@
       "refs": [
         "apartment"
       ],
-      "keyframe_prompt": "Top-down close-up of a plain black smartphone with no logo lying face-up on a white stone kitchen counter, the screen dark and completely blank with only a faint soft glow, no interface, no icons, no text, the whole screen and its four corners clearly visible, a set of house keys and a folded work lanyard with a blank card beside it, late afternoon window light. The phone fills the middle of the frame with clean counter around it."
+      "keyframe_prompt": "Top-down close-up of a plain black smartphone with no logo lying face-up on a white stone kitchen counter, the screen dark and completely blank with only a faint soft glow, no interface, no icons, no text, the whole screen and its four corners clearly visible, a set of house keys and a folded work lanyard with a blank card beside it, late afternoon window light. The phone fills the middle of the frame with clean counter around it.",
+      "dressing": [
+        "house keys on a carabiner with a small brass bike bell",
+        "the frayed navy lanyard with a blank grey card",
+        "a faint coffee ring on the stone counter",
+        "the edge of the chipped enamel fruit bowl with a lime"
+      ]
     },
     {
       "id": "S02",
@@ -207,7 +213,14 @@
         "leah",
         "apartment"
       ],
-      "keyframe_prompt": "Medium shot of Leah, the woman from the character sheet, standing at the white kitchen counter in the apartment from the location reference, still in her charcoal blazer with a canvas tote bag on her shoulder, holding a plain black phone at chest height with the screen tilted away from camera, reading it and deflating with a half laugh. On the counter in front of her: an unopened clear bag of plain sky-blue and silver balloons and a plain white box of cake mix with no printing. Late afternoon window light, soft screen glow on her face."
+      "keyframe_prompt": "Medium shot of Leah, the woman from the character sheet, standing at the white kitchen counter in the apartment from the location reference, still in her charcoal blazer with a canvas tote bag on her shoulder, holding a plain black phone at chest height with the screen tilted away from camera, reading it and deflating with a half laugh. On the counter in front of her: an unopened clear bag of plain sky-blue and silver balloons and a plain white box of cake mix with no printing. Late afternoon window light, soft screen glow on her face. She looks down at the phone held flat at chest height in front of her, not at her ear; her shoulders drop and her mouth is a tired half laugh, not a smile. Nothing blurred in the extreme foreground; no hands or body parts at the frame edges.",
+      "dressing": [
+        "her canvas tote with a coffee stain and a small enamel cactus pin",
+        "the untouched clear bag of plain balloons by the fruit bowl",
+        "the sky-blue enamel stand mixer against the backsplash",
+        "mismatched mugs on brass hooks behind her",
+        "the sash window and brick rooftops in gold light far behind"
+      ]
     },
     {
       "id": "S03",
@@ -223,7 +236,13 @@
       "refs": [
         "omar"
       ],
-      "keyframe_prompt": "Medium close-up of Omar, the man from the character sheet, sitting in the driver's seat of a parked car in a parking lot at golden hour, olive bomber jacket, holding a plain black phone flat just below his mouth recording a voice note, the screen facing up and away from camera and dark, a paper bag of party supplies with no printing on the passenger seat, mock-panicked expression. Upright vertical composition, level horizon, car is stationary. No logos on the steering wheel or dashboard. The sun visor is folded up flat with no stickers or labels; no warning labels anywhere in the car."
+      "keyframe_prompt": "Medium close-up of Omar, the man from the character sheet, sitting in the driver's seat of a parked car in a parking lot at golden hour, olive bomber jacket, holding a plain black phone flat just below his mouth recording a voice note, the screen facing up and away from camera and dark, a paper bag of party supplies with no printing on the passenger seat, mock-panicked expression. Upright vertical composition, level horizon, car is stationary. No logos on the steering wheel or dashboard. The sun visor is folded up flat with no stickers or labels; no warning labels anywhere in the car.",
+      "dressing": [
+        "a grey felt-ball charm swinging from the rear-view mirror",
+        "a steel travel mug with a dented base in the cup holder",
+        "the paper bag of party supplies with a roll of silver streamers poking out on the passenger seat",
+        "a parking lot with a lone shopping cart corral blurred through the windshield"
+      ]
     },
     {
       "id": "S04",
@@ -240,7 +259,13 @@
         "leah",
         "apartment"
       ],
-      "keyframe_prompt": "Medium shot of Leah, the woman from the character sheet, in her charcoal blazer, pulling open the door of the silver fridge in the apartment kitchen from the location reference, cool white fridge light on her face, a determined look, a plain black phone face-down in her other hand. The inside of the fridge is mostly out of view, just white shelves and cool light."
+      "keyframe_prompt": "Medium shot of Leah, the woman from the character sheet, in her charcoal blazer, pulling open the door of the silver fridge in the apartment kitchen from the location reference, cool white fridge light on her face, a determined look, a plain black phone face-down in her other hand. The inside of the fridge is mostly out of view, just white shelves and cool light.",
+      "dressing": [
+        "the strip of photo-booth pictures held by a ceramic fox magnet on the fridge door",
+        "her silver thumb ring",
+        "the striped tea towel on the oven handle",
+        "the pothos trailing over the upper cabinet"
+      ]
     },
     {
       "id": "S05",
@@ -256,7 +281,12 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Macro insert inside a fridge door: a woman's hand with short natural nails taking the exact can from the product reference off a white fridge door shelf, label facing camera, upright and undistorted, cold condensation drops, lit by the cool fridge light as the brightest object in frame, a carton of eggs and a plain glass bottle of water blurred beside it. No other cans. One single continuous photograph: no inset images, no picture-in-picture, no phone in frame."
+      "keyframe_prompt": "Macro insert inside a fridge door: a woman's hand with short natural nails taking the exact can from the product reference off a white fridge door shelf, label facing camera, upright and undistorted, cold condensation drops, lit by the cool fridge light as the brightest object in frame, a carton of eggs and a plain glass bottle of water blurred beside it. No other cans. One single continuous photograph: no inset images, no picture-in-picture, no phone in frame.",
+      "dressing": [
+        "a carton of eggs and a plain glass bottle of water on the door shelf",
+        "a jar of plain unlabelled jam",
+        "cold condensation beads"
+      ]
     },
     {
       "id": "S06",
@@ -274,7 +304,13 @@
         "product",
         "apartment"
       ],
-      "keyframe_prompt": "Medium close-up of Leah, the woman from the character sheet, at the white kitchen counter in the apartment, blazer off and sleeves of her white T-shirt pushed up, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, just lowered from a sip, a small rallying grin, late afternoon window light, an unopened plain clear plastic bag of sky-blue and silver balloons with no printing and no label blurred on the counter behind."
+      "keyframe_prompt": "Medium close-up of Leah, the woman from the character sheet, at the white kitchen counter in the apartment, blazer off and sleeves of her white T-shirt pushed up, holding the exact can from the product reference at chest height with the label facing camera, readable and undistorted, just lowered from a sip, a small rallying grin, late afternoon window light, an unopened plain clear plastic bag of sky-blue and silver balloons with no printing and no label blurred on the counter behind. The can is lowered well below her chin to chest height, turned so the full front label faces the camera; it is not at her mouth. Framing is a tight medium close-up from mid-chest up: the can is held in front of her sternum with both the can and her face large in frame, the red wordmark and the two bulls fully readable. She is alone in the frame: no other people, no other hands, no phone visible anywhere.",
+      "dressing": [
+        "her blazer tossed over the step stool behind her",
+        "the black hair tie on her wrist",
+        "the untouched bag of plain balloons blurred behind",
+        "the chipped enamel fruit bowl"
+      ]
     },
     {
       "id": "S07",
@@ -289,9 +325,17 @@
       "caption": "",
       "refs": [
         "leah",
-        "apartment"
+        "apartment",
+        "garland"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon. Medium wide shot of Leah, the woman from the character sheet, in her white T-shirt and black jeans, standing on a small step stool in the living room from the location reference, taping up a plain white paper garland with no writing along the wall, a cluster of plain sky-blue and silver balloons tied to the sofa beside her, focused and fast, early evening light."
+      "keyframe_prompt": "Upright vertical composition, level horizon. Medium wide shot of Leah, the woman from the character sheet, in her white T-shirt and black jeans, standing on a small step stool in the living room from the location reference, taping up a plain white paper garland with no writing along the wall, a cluster of plain sky-blue and silver balloons tied to the sofa beside her, focused and fast, early evening light.",
+      "dressing": [
+        "the hand-cut garland of sky-blue triangles and silver circles",
+        "blue painter's tape tabs",
+        "the mustard throw bunched on the grey sofa",
+        "the radiator under the sash window",
+        "the balloon bunch tied to the sofa arm"
+      ]
     },
     {
       "id": "S08",
@@ -306,9 +350,16 @@
       "caption": "",
       "refs": [
         "leah",
-        "apartment"
+        "apartment",
+        "cake"
       ],
-      "keyframe_prompt": "Close-up from a high three-quarter angle: Leah's hands, the woman from the character sheet, smoothing white frosting on a round layer cake with an offset spatula on the white kitchen counter, a scatter of sky-blue and silver sprinkles, the cake has no writing and no candles yet, warm string lights just switched on and blurred in the background."
+      "keyframe_prompt": "Close-up from a high three-quarter angle: Leah's hands, the woman from the character sheet, smoothing white frosting on a round layer cake with an offset spatula on the white kitchen counter, a scatter of sky-blue and silver sprinkles, the cake has no writing and no candles yet, warm string lights just switched on and blurred in the background. No phone anywhere in this frame; her curls may frame the right edge.",
+      "dressing": [
+        "the old white milk-glass cake stand with a chipped rim",
+        "the scratched steel bowl of the stand mixer with frosting in it",
+        "a scatter of sky-blue sprinkles on the counter",
+        "warm globe string lights blurred behind"
+      ]
     },
     {
       "id": "S09",
@@ -327,7 +378,14 @@
         "omar",
         "apartment"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon. Wide shot in the decorated living room from the location reference at night, warm string lights, plain sky-blue and silver balloons and a blank white paper garland: Jules, the man from the third character sheet, has just stepped through the front door on the right, hand on his head, laughing in disbelief. Leah, the woman from the first character sheet, Omar, the man from the second character sheet, and a young woman friend jump up from behind the grey sofa with arms raised and party poppers bursting confetti. Nobody holds a drink. Joyful, candid."
+      "keyframe_prompt": "Upright vertical composition, level horizon. Wide shot in the decorated living room from the location reference at night, warm string lights, plain sky-blue and silver balloons and a blank white paper garland: Jules, the man from the third character sheet, has just stepped through the front door on the right, hand on his head, laughing in disbelief. Leah, the woman from the first character sheet, Omar, the man from the second character sheet, and a young woman friend jump up from behind the grey sofa with arms raised and party poppers bursting confetti. Nobody holds a drink. Joyful, candid.",
+      "dressing": [
+        "warm globe string lights along the window frame",
+        "the hand-cut paper garland on the wall",
+        "the balloon bunch tied to the sofa",
+        "the bike helmet on the brass hook rack by the door",
+        "Jules's white sneakers scuffed at the toes"
+      ]
     },
     {
       "id": "S10",
@@ -342,9 +400,16 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "apartment"
+        "apartment",
+        "cake"
       ],
-      "keyframe_prompt": "Candid photo, as if taken on a phone, of the exact can from the product reference standing upright on the white stone kitchen counter, label facing camera and undistorted, condensation drops, beside the finished round white frosted cake with sky-blue sprinkles and no writing, a few pieces of silver confetti on the counter, behind it only warm string-light bokeh on a plain wall and two plain sky-blue balloons with no print; no garland, no banner, no bunting in view. The can is the brightest and sharpest object in frame. Clean empty counter and soft background in the upper third for a chat bubble. No phone, hands or people in the frame."
+      "keyframe_prompt": "Candid photo, as if taken on a phone, of the exact can from the product reference standing upright on the white stone kitchen counter, label facing camera and undistorted, condensation drops, beside the finished round white frosted cake with sky-blue sprinkles and no writing, a few pieces of silver confetti on the counter, behind it only warm string-light bokeh on a plain wall and two plain sky-blue balloons with no print; no garland, no banner, no bunting in view. The can is the brightest and sharpest object in frame. Clean empty counter and soft background in the upper third for a chat bubble. No phone, hands or people in the frame.",
+      "dressing": [
+        "the cake on the milk-glass stand with a chipped rim",
+        "a few pieces of silver confetti on the counter",
+        "a plain white paper plate with a cake server",
+        "warm string-light bokeh"
+      ]
     }
   ],
   "units": [
@@ -550,5 +615,105 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Leah Marsh rents a fourth-floor one-bedroom above a bakery on a Toronto side street; the radiator knocks twice every time the heat comes on and the building smells of bread by 5am.",
+      "Leah, Omar and Jules met eleven years ago in the same first-year residence hall; a strip of four photo-booth pictures from that first week is still on her fridge.",
+      "Omar started the group thread three weeks ago with eight friends in it. Leah volunteered in the first hour: decor and the cake, the same two-layer vanilla cake she has made for every birthday in the group since university, on her grandmother's milk-glass cake stand.",
+      "Jules finishes his shift at 6:40. The cover story is that Omar is driving him over to pick up a cordless drill he lent Leah in the spring. Maya, the fourth friend, is the one who sees Jules leave early.",
+      "The balloons and the paper for the garland were bought on Tuesday and have sat untouched in their bag by the fruit bowl all week."
+    ],
+    "locations": {
+      "apartment": {
+        "foreground": [
+          "a white stone counter with a faint brown ring where the morning coffee mug stood",
+          "a chipped white enamel fruit bowl holding two freckled bananas and a single lime",
+          "a wooden knife block with one empty slot",
+          "a sky-blue and white striped tea towel folded over the oven door handle, one corner singed",
+          "a small sky-blue enamel stand mixer with a scratched steel bowl pushed against the backsplash"
+        ],
+        "midground": [
+          "a silver fridge with a strip of four photo-booth pictures of three friends pulling faces held by a ceramic fox magnet",
+          "a row of mismatched mugs hanging on brass hooks under the upper cabinet, one with a chipped handle",
+          "a trailing pothos plant spilling over the top of the upper cabinets",
+          "a grey sofa with a mustard knitted throw bunched on one arm and a cat-scratched corner",
+          "a white metal step stool folded against the end of the counter",
+          "a front door on the right with a brass hook rack holding a bike helmet and a rain jacket"
+        ],
+        "background": [
+          "a tall old sash window with a white-painted radiator under it, the paint chipped along the top",
+          "a view of red-brick rooftops and a round wooden water tower in low gold light",
+          "a small framed photo print of a grey lake at dawn on the otherwise bare wall, with two empty nail holes beside it",
+          "a stack of paperbacks with plain unprinted spines on the windowsill beside a thirsty snake plant",
+          "a coiled strand of warm globe string lights waiting in an open plain cardboard box on the bookshelf"
+        ]
+      }
+    },
+    "personal_props": {
+      "leah": [
+        "a canvas tote bag with a coffee stain near the strap and a small enamel cactus pin",
+        "a silver thumb ring she spins when she is stressed",
+        "a work lanyard with a frayed navy strap and a blank grey card",
+        "house keys on a carabiner with a small brass bike bell",
+        "a black hair tie that lives on her left wrist until the frosting starts"
+      ],
+      "omar": [
+        "a paper grocery bag of party supplies with the top folded over twice and a roll of silver streamers poking out",
+        "a steel travel mug with a dented base in the cup holder",
+        "a small grey felt-ball charm swinging from the rear-view mirror",
+        "a car key on a worn leather loop"
+      ],
+      "jules": [
+        "a navy overshirt with a dried fleck of white paint on the left cuff",
+        "white sneakers scuffed grey at the toes",
+        "a canvas messenger bag with a broken buckle held by a safety pin"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "cake",
+        "name": "The birthday cake on the milk-glass stand",
+        "prop_prompt": "Photoreal product photography prop reference sheet on a plain mid-grey background: a round homemade two-layer cake with hand-smoothed white buttercream, slightly uneven sides and a scatter of sky-blue and silver sprinkles, sitting on an old white milk-glass cake stand with a small chip on the rim; shown from the front and from a three-quarter top view. No writing, no candles, no letters, no logos. Soft window light. No captions, no labels, no annotation text anywhere on the sheet."
+      },
+      {
+        "id": "garland",
+        "name": "The hand-cut paper garland",
+        "prop_prompt": "Photoreal prop reference sheet on a plain mid-grey background: a hand-cut paper garland of alternating sky-blue paper triangles and small silver foil circles strung on white cotton baker's twine, visible slightly uneven scissor edges, a strip of blue painter's tape folded over each end; laid flat and shown hanging in a gentle curve. No writing, no letters, no logos. Soft window light. No captions, no labels, no annotation text anywhere on the sheet."
+      },
+      {
+        "id": "balloons",
+        "name": "The balloon bunch",
+        "prop_prompt": "Photoreal prop reference sheet on a plain mid-grey background: a bunch of seven plain matte latex balloons in sky blue, silver and white, tied together with curled silver ribbon, the ribbons weighted by a small white ceramic mug; one balloon slightly smaller than the rest. No print on any balloon, no letters, no logos. Soft window light. No captions, no labels, no annotation text anywhere on the sheet."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "the group chat (generic, unnamed app)",
+        "mark": "none; a clean neutral chat UI built in code",
+        "colors": "outgoing bubbles sky blue #6EC1E4, incoming light grey, white background",
+        "appears_on": "every phone screen and notification, all in post",
+        "text_in_post": "all bubbles, names, avatars, notifications and the thread name"
+      },
+      {
+        "name": "Northline Transit (Leah's employer)",
+        "mark": "a small sky-blue circle crossed by one white line",
+        "colors": "navy and sky blue",
+        "appears_on": "the lanyard strap only; the card itself stays blank grey",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "A Friday in late October, 5:02pm to 7:10pm: low gold sun through the window, turning blue hour by the montage, warm string light for the payoff. It rained at lunch, so her tote and rain jacket are damp. The breakfast mug and one plate are still in the dish rack, the balloon bag has not been opened since Tuesday, and the step stool is out because the bulb in the hallway went last week.",
+    "sound_world": [
+      "the phone buzzing and rattling against the stone counter",
+      "the fridge seal unsticking and the compressor hum",
+      "the can crack and fizz close to the mic",
+      "painter's tape tearing off the roll",
+      "an offset spatula scraping the frosting bowl",
+      "balloon rubber squeaking as they are tied",
+      "the old radiator knocking twice",
+      "the front door latch, then party poppers"
+    ],
+    "product_adjacent_props": "The fridge door shelf, the counter and the photo-booth fridge magnet are product-agnostic; for non-drink products swap the fridge for the bathroom shelf or the hallway shoe rack named in each adaptation type."
   }
 }

@@ -43,7 +43,12 @@
     "cast looks like teenagers: state adult ages and say adults in their early twenties",
     "reaction close-ups can come back as a giant disembodied head with the can floating on a table below: ask for head and chest with shoulders in natural proportion and the can in his own named hand, and push the coffee table out of frame",
     "RGB living rooms fill with stray extra cans on the coffee table: say exactly one can in the whole frame for single-person shots",
-    "jersey colour drifts to black on close-ups: restate the plain sky-blue jersey in every shot prompt"
+    "jersey colour drifts to black on close-ups: restate the plain sky-blue jersey in every shot prompt",
+    "prop sheets with 'two views' come back captioned with view names (closed, open): say unlabelled views and no captions on the sheet",
+    "a 'simple white bird silhouette' on a sky-blue banner renders as a real social network's logo: the team mark is an angular geometric falcon head, never a round songbird",
+    "a cluttered gamer room pulls in real merchandise: a sportswear swoosh on sneakers, a boxed vinyl figure, worded anime stickers on the fridge. Name every clutter item as unbranded and make stickers simple drawn shapes",
+    "a sky-blue jersey under an open hoodie turns into a basketball jersey with a team name across the chest: say plain jersey, no lettering or numbers, only the small falcon-head mark",
+    "'just lowered from his first sip' still renders the can at his lips: say held at chin height away from the lips, mouth clearly visible"
   ],
   "negatives": [
     "no real brands, logos or signage except the product",
@@ -52,7 +57,9 @@
     "no game interface or logos on screens",
     "no extra fingers",
     "no more than one can per person",
-    "no teenagers or children"
+    "no teenagers or children",
+    "no round white songbird logo on blue",
+    "no sportswear logos or stripes on shoes, no boxed collectible figures, no character merchandise, no worded stickers"
   ],
   "asset_style": "Natural phone-photo realism, real skin texture, adults in their early twenties, not a studio headshot.",
   "prompt_prefix": "Candid smartphone video frame, vertical 9:16, filmed handheld by a friend in the room, 24mm phone lens, phone sensor noise, real available light, real skin, genuine unposed moment, not cinematic."

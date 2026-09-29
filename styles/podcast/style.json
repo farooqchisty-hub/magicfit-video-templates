@@ -40,7 +40,11 @@
     "both hosts get cans or the mug becomes a second can: say the woman drinks from a plain cream ceramic mug and only the man has the can",
     "headphones float or merge into hair: say headphones resting on the ears with the band over the head",
     "the set reads as a news desk or TV studio: say small cosy creator studio, walnut desk, acoustic foam panels, plants",
-    "climbing gear on the shelves picks up brand prints: say plain coloured ropes and unbranded helmets"
+    "climbing gear on the shelves picks up brand prints: say plain coloured ropes and unbranded helmets",
+    "dense desk dressing brings back real-brand habits: a closed laptop gets a fruit logo on its lid; describe it as a dark grey laptop with a completely plain matte lid",
+    "a richly dressed studio plate pulls every single back to the plate's wide desk framing with the same foreground cable, rock and ring: for singles and inserts say the camera is close, the desk is a thin strip at the bottom edge, and do not copy the reference's framing",
+    "a clean band for captions is drawn as a literal white rectangle: ask for a plain uncluttered lower third with nothing drawn there",
+    "asking for a red recording light makes the model add a readable on-air sign: describe a small round red glass lamp with nothing written on or near it, or leave it out of close singles"
   ],
   "negatives": [
     "no real brands, logos or sponsor names except the product",

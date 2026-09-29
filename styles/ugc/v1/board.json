@@ -1,0 +1,484 @@
+{
+  "id": "ugc-01-finals-week",
+  "style": "ugc",
+  "title": "Finals Week",
+  "logline": "2am in the university library, seven hours before her final. A grad student films herself explaining why she swapped her sugary study drink for {product}, then proves it by the time the window goes blue.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "A study carrel on the quiet floor of the fictional Harlow Hall library at the fictional Eastbrook University, 2am to dawn during finals week. Fluorescent tubes, carpet, rows of plain shelves, a tall window behind her going from black to blue.",
+    "palette": "No designed palette: greenish fluorescent white, laptop-screen blue on her face, oatmeal hoodie and faded navy. The silver and sky-blue can is the only saturated thing in the frame.",
+    "fictional_brands": [
+      "Eastbrook University (only on her hoodie as a plain crest shape with no readable letters)",
+      "Harlow Hall (library, never shown as text)"
+    ],
+    "rules": "Laptop screens are seen from behind or as a plain glow. Book spines are plain colours with no lettering. Index cards are blank with faint pencil lines. Every sign is blank. Her hoodie has no readable print. The rival sugary drink is never shown or named."
+  },
+  "cast": [
+    {
+      "id": "dani",
+      "name": "Dani Ortiz",
+      "role": "creator, second-year chemistry grad student filming her own video",
+      "look": "woman, 25, Mexican American, Latina, warm tan-brown skin, dark brown eyes, full dark brows, dark brown hair piled in a messy claw clip with flyaways, thin gold-rimmed round glasses, light under-eye shadows, no makeup, small gold hoop earrings, oversized oatmeal hoodie over a grey tee",
+      "voice": "warm, fast, conspiratorial library half-whisper, dry humour, American West Coast",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Dani Ortiz: 25, Mexican American Latina woman with clearly warm tan-brown skin (not pale), dark brown eyes, full dark brows, soft round face, dark brown hair piled in a messy claw clip with flyaways, thin gold-rimmed round glasses, light under-eye shadows, no makeup, small gold hoop earrings, oversized plain oatmeal hoodie with no print over a grey tee. Tired but amused expression, a real person, not a model. Consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "carrel",
+      "name": "Library study carrel at 2am",
+      "plate_prompt": "Unedited smartphone photo, vertical 9:16, upright composition, level horizon: an empty wooden study carrel on the quiet floor of a university library at 2am, seen from where the student sits. An open laptop from behind on the desk, a closed thermos-free desk with yellow highlighters, a stack of blank index cards with faint pencil lines, a textbook with a plain cover, a small desk lamp. Behind: rows of shelves with plain coloured book spines and no lettering, greenish overhead fluorescent tubes, a tall dark window. Carpet, a bit messy, lived in. Phone sensor noise, flat light, no people, no readable text, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "she cracks it and sips it at the carrel, then it sits in shot while she works",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "she applies it on camera at the carrel (lip balm, under-eye patch, hand cream) and says what it fixes",
+      "scale": "face or hand"
+    },
+    "worn": {
+      "moment": "she pulls it on or points to it in the selfie (blue-light glasses, hoodie, compression socks, headphones)",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "she holds it up to the lens and then uses it at the desk (earbuds, pen, timer, phone stand)",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "she unzips it on the carrel to show what is inside (backpack, pencil case, laptop sleeve)",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "it is set up on the carrel or in her dorm desk corner (lamp, cushion, desk organiser, white-noise speaker)",
+      "scale": "desk"
+    },
+    "consumable": {
+      "moment": "the pack she pulls from her bag every study night and uses on camera (snack, gum, supplement, refill)",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.4",
+      "summary": "Selfie at 2am with a text hook box; she whispers the stakes: exam at nine, and she is weirdly fine."
+    },
+    {
+      "id": "problem",
+      "t": "2.4-4.6",
+      "summary": "Jump cut: the old way, sugary drinks last semester, never again."
+    },
+    {
+      "id": "product",
+      "t": "4.6-11.4",
+      "summary": "She lifts the can to the lens, flips to the rear camera to crack it on the desk, sips, and names it with the one benefit."
+    },
+    {
+      "id": "proof",
+      "t": "11.4-21.5",
+      "summary": "She says what it does for her, then a propped time-lapse from 2am to blue dawn shows her working through the cards."
+    },
+    {
+      "id": "payoff",
+      "t": "21.5-25.5",
+      "summary": "Dawn selfie, cards fanned: chapter ten done, she feels ready."
+    },
+    {
+      "id": "cta",
+      "t": "25.5-30",
+      "summary": "Can up beside her face to the lens: grab the silver can, and the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.3",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Hook: the creator names the high-stakes moment and a surprising state she is in, so the viewer asks why.",
+      "line": "It's 2am, my exam's at nine, and I'm weirdly fine.",
+      "delivery": "half-whisper, quick, a little smug, leaning into the lens",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "2.6-4.4",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Name the old habit the product replaces, without naming any rival.",
+      "line": "Last semester I lived on the sugary stuff. Never again.",
+      "delivery": "eye-roll, deadpan, faster",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "4.7-5.8",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "The swap: product enters the frame.",
+      "line": "So I swapped to this.",
+      "delivery": "bright, holding it up, like showing a friend",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "8.2-11.2",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Product line: say the product name clearly and the one allowed benefit that answers the old habit.",
+      "line": "Red Bull Sugarfree. Same benefits as the original, just no sugar.",
+      "delivery": "right after a sip, clear and a touch slower on the name, a small nod",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Same benefits of the original Energy Drink, without sugar",
+      "shot": "S05"
+    },
+    {
+      "id": "L5",
+      "t": "11.7-14.1",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "The specific benefit, in her own words, tied to the task in front of her.",
+      "line": "It keeps me alert, and I'm actually focused.",
+      "delivery": "sincere, tapping the textbook, quieter",
+      "claim": "Caffeine helps to improve concentration and increase alertness",
+      "shot": "S06"
+    },
+    {
+      "id": "L6",
+      "t": "21.9-24.9",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "Payoff: proof the promise came true, in the creator's words.",
+      "line": "Chapter ten, done. And I actually feel ready.",
+      "delivery": "tired, proud, a soft laugh, dawn light on her face",
+      "shot": "S09"
+    },
+    {
+      "id": "L7",
+      "t": "26.0-29.6",
+      "speaker": "dani",
+      "on_camera": true,
+      "line_intent": "In-world CTA to the viewer in the same situation, then the tagline.",
+      "line": "Finals week? Grab the silver can. Wiiings without sugar.",
+      "delivery": "direct to lens, pointing the can at camera, grin on the tagline",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.4,
+      "beat": "hook",
+      "framing": "selfie close-up, top of head cropped",
+      "camera": "front camera, handheld at arm's length, small wobble",
+      "action": "Dani leans into the lens at the carrel at 2am, laptop glow on her face, fluorescent tubes and dark shelves behind, and whispers the hook.",
+      "product_state": "absent",
+      "audio": "library room tone, fluorescent hum, her whisper",
+      "caption": "It's 2am, my exam's at nine, and I'm weirdly fine",
+      "refs": [
+        "dani",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, filming herself at arm's length at a library study carrel at 2am: her face fills the upper half of the frame, top of her messy claw-clip hair slightly cut off, gold-rimmed glasses catching the cold blue glow of a laptop screen below frame, leaning in toward the lens mid-whisper with a small smug smile, eyes looking straight into the lens. Behind her: greenish overhead fluorescent tubes and dim rows of shelves with plain unlettered spines, matching the carrel location reference. The phone is not visible because we are seeing through its front camera. Empty clean area at the top of the frame for a text box added later. Phone sensor noise, flat unflattering light, real skin texture, not cinematic."
+    },
+    {
+      "id": "S02",
+      "t0": 2.4,
+      "t1": 4.6,
+      "beat": "problem",
+      "framing": "selfie medium close-up, jump cut slightly wider",
+      "camera": "front camera, handheld, reframed",
+      "action": "Jump cut: she rolls her eyes and makes a flat 'never again' hand chop beside her face.",
+      "product_state": "absent",
+      "audio": "room tone, dialogue",
+      "caption": "Last semester I lived on the sugary stuff. Never again",
+      "refs": [
+        "dani",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the same library carrel at 2am, slightly wider than a close-up: head and shoulders plus one hand raised beside her face doing a flat chopping 'never again' gesture, eyes rolled up in mock disgust, oatmeal hoodie, glasses, claw-clip hair. Fluorescent tubes and plain dark shelves behind. No drink or bottle anywhere in frame. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, amateur framing, not cinematic."
+    },
+    {
+      "id": "S03",
+      "t0": 4.6,
+      "t1": 6.0,
+      "beat": "product",
+      "framing": "selfie medium close-up with the can held toward the lens",
+      "camera": "front camera, handheld",
+      "action": "She lifts the unopened can up into frame beside her face, label turned to the lens.",
+      "product_state": "entering, unopened, upright, label to lens beside her cheek",
+      "audio": "room tone, dialogue",
+      "caption": "So I swapped to this",
+      "refs": [
+        "dani",
+        "carrel",
+        "product"
+      ],
+      "keyframe_prompt": "Front-camera selfie of Dani, the woman from the character sheet, at the library carrel at 2am, holding the exact can from the product reference up beside her cheek about 35 cm from the lens, unopened, upright and undistorted, label flat to camera, cold condensation on it, one hand with four fingers wrapped behind the can and her thumb in front on the silver side. Bright, showing-a-friend smile, eyebrows up. Fluorescent tubes and plain shelves behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, not cinematic."
+    },
+    {
+      "id": "S04",
+      "t0": 6.0,
+      "t1": 8.0,
+      "beat": "product",
+      "framing": "rear-camera handheld insert, top-down at 45 degrees",
+      "camera": "rear camera, handheld, close",
+      "action": "Flip to the rear camera: on the cluttered desk, her hand cracks the can open between the highlighters and index cards.",
+      "product_state": "hero, upright on the desk, tab being pulled, label to camera",
+      "audio": "can crack and fizz (registers the moment), keyboard in the distance",
+      "caption": "",
+      "refs": [
+        "carrel",
+        "product"
+      ],
+      "keyframe_prompt": "Handheld rear-camera phone shot looking down at 45 degrees onto a cluttered library carrel desk at 2am: the exact can from the product reference stands upright in the centre, label facing camera and undistorted, condensation beads on it, a woman's hand with short unpainted nails pulling the ring tab open with a tiny spray of fizz. Around it: yellow highlighters, a stack of blank index cards with faint pencil lines and no readable writing, the edge of a laptop, a textbook with a plain cover. Laptop glow and fluorescent light, slightly underexposed, phone noise. Exactly one can. No readable text anywhere except the can's own label."
+    },
+    {
+      "id": "S05",
+      "t0": 8.0,
+      "t1": 11.4,
+      "beat": "product",
+      "framing": "selfie close-up, can at chin height",
+      "camera": "front camera, handheld, slight punch-in",
+      "action": "Back on the front camera: she lowers the can from a sip and names it, label to the lens at chin height.",
+      "product_state": "in hand, opened, label readable at chin height, held still for 2.5 s",
+      "audio": "room tone, dialogue",
+      "caption": "Red Bull Sugarfree. Same benefits as the original, just no sugar",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie close-up, face straight on to the lens, of Dani, the exact woman from the character sheet (Latina, warm tan-brown skin, soft round face, messy dark top bun, round gold wire glasses, oatmeal hoodie over a grey tee), at the library carrel at 2am, having just lowered the exact can from the product reference from a sip: she holds the opened can steady at chin height about 35 cm from the lens, upright, label flat to camera and undistorted, lips just parted mid-word, a small satisfied nod. Glasses, claw-clip hair, oatmeal hoodie, laptop glow on her face, fluorescent tubes behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone sensor noise, flat light, real skin, not cinematic."
+    },
+    {
+      "id": "S06",
+      "t0": 11.4,
+      "t1": 14.4,
+      "beat": "proof",
+      "framing": "selfie medium shot, can on the desk in frame",
+      "camera": "front camera, handheld, jump cut wider",
+      "action": "She taps the open textbook with a highlighter, can standing on the desk in the corner of frame, sincere.",
+      "product_state": "on the desk, lower corner of frame, label to lens",
+      "audio": "highlighter tap, room tone, dialogue",
+      "caption": "It keeps me alert, and I'm actually focused",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie medium shot of Dani, the woman from the character sheet, at the library carrel at 2am, phone held a little lower and wider: head, shoulders and the desk visible, she taps an open textbook with plain grey blocks of text and no readable words with a yellow highlighter, sincere calm expression looking into the lens. The exact can from the product reference stands upright on the desk in the lower right corner, opened, label toward the lens and undistorted. Fluorescent tubes and plain shelves behind. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone noise, flat light, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow."
+    },
+    {
+      "id": "S07",
+      "t0": 14.4,
+      "t1": 18.0,
+      "beat": "proof",
+      "framing": "wide, phone propped on the shelf of the carrel",
+      "camera": "locked off, propped phone, time-lapse",
+      "action": "Propped phone time-lapse: she works through the index cards, flipping and stacking, the can beside her.",
+      "product_state": "on the desk beside her elbow, small in frame",
+      "audio": "sped-up page flips and highlighter squeaks",
+      "caption": "",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: a phone propped on the carrel shelf films Dani, the woman from the character sheet, from the front and slightly above at her library study carrel at 2am: she is bent over the desk writing on a blank index card, a growing stack of cards on one side, laptop open, the exact can from the product reference standing upright beside her elbow, small in frame but with its silver and sky-blue label still recognisable. Empty study carrels and plain shelves stretch behind her under fluorescent tubes, a tall black window in the background. Slight motion blur on her hand like a time-lapse frame. Exactly one can. Phone noise, flat light, no readable text, not cinematic. It is 2am: every window in view is pitch black, the only light is the greenish overhead fluorescents and the laptop glow."
+    },
+    {
+      "id": "S08",
+      "t0": 18.0,
+      "t1": 21.5,
+      "beat": "proof",
+      "framing": "wide, same propped angle",
+      "camera": "locked off, propped phone, time-lapse continues",
+      "action": "Same angle, hours later: the window behind her has gone blue with dawn, the card stack is tall, she stretches her arms up.",
+      "product_state": "on the desk, same place, empty",
+      "audio": "time-lapse whoosh settling into birdsong through the window",
+      "caption": "",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Upright vertical composition, level horizon: the same propped-phone angle of Dani, the woman from the character sheet, at her library study carrel, but hours later at dawn: the tall window behind her is now pale blue with first light, the fluorescent tubes look weaker, she leans back stretching both arms above her head, a tall neat stack of blank index cards beside the laptop, the exact can from the product reference standing upright in the same spot by her elbow, label recognisable. Empty carrels and plain shelves behind. Exactly one can. Phone noise, no readable text, not cinematic."
+    },
+    {
+      "id": "S09",
+      "t0": 21.5,
+      "t1": 25.5,
+      "beat": "payoff",
+      "framing": "selfie close-up",
+      "camera": "front camera, handheld",
+      "action": "Dawn selfie: blue window light on her face, she fans the stack of finished index cards next to her cheek and laughs softly.",
+      "product_state": "absent",
+      "audio": "birds outside, room tone, dialogue",
+      "caption": "Chapter ten, done. And I actually feel ready",
+      "refs": [
+        "dani",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie close-up of Dani, the woman from the character sheet, at the library carrel at dawn: cool pale-blue window light now on one side of her face, glasses pushed up, a few more flyaways, tired but proud soft laugh, fanning a thick stack of blank index cards beside her cheek (cards have faint pencil lines only, no readable writing). A pale blue dawn window and plain shelves behind. The phone is not visible because we are seeing through its front camera. Phone sensor noise, real skin, not cinematic."
+    },
+    {
+      "id": "S10",
+      "t0": 25.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "selfie medium close-up, can pointed at the lens",
+      "camera": "front camera, handheld, can pushed toward lens then held",
+      "action": "She holds the can out toward the lens beside her grin and delivers the CTA and tagline. End card sticker added in post.",
+      "product_state": "hero, upright, label to lens, held still for the tagline",
+      "audio": "room tone, dialogue",
+      "caption": "Finals week? Grab the silver can. Wiiings without sugar",
+      "refs": [
+        "dani",
+        "product",
+        "carrel"
+      ],
+      "keyframe_prompt": "Front-camera selfie medium close-up of Dani, the woman from the character sheet, at the library carrel at dawn, grinning straight into the lens and holding the exact can from the product reference out toward the camera beside her face, about 35 cm from the lens, upright, label flat to camera and undistorted, one hand with four fingers behind the can and thumb in front. Pale blue dawn window light, plain shelves behind. Clean uncluttered area in the lower third of the frame for a sticker added later. Exactly one can. The phone is not visible because we are seeing through its front camera. Phone noise, real skin, not cinematic."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 6.0,
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "len_s": 6,
+      "exact_risk": false,
+      "refs": [
+        "dani card",
+        "carrel plate",
+        "product can official",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone front-camera selfie video, filmed by @Image1 (Dani) herself at arm's length at a university library study carrel at 2am, greenish fluorescent light and laptop glow on her face, plain shelves behind as in @Image2, phone sensor noise, small handheld wobble, not cinematic. Shot 1 (0 to 2.4 s): close-up, she leans into the lens and half-whispers, a little smug: \"It's 2am, my exam's at nine, and I'm weirdly fine.\" Hard jump cut. Shot 2 (2.4 to 4.6 s): slightly wider, she rolls her eyes and does a flat chopping hand gesture, deadpan: \"Last semester I lived on the sugary stuff. Never again.\" Hard jump cut. Shot 3 (4.6 to 6 s): she lifts the exact unopened can from @Image3 up beside her cheek, label flat to the lens, bright: \"So I swapped to this.\" The phone is never visible. Native sound: library room tone, fluorescent hum, her voice slightly roomy on a phone mic. No music. No text on screen. No logos except the can."
+    },
+    {
+      "id": "U2",
+      "t0": 6.0,
+      "t1": 11.4,
+      "shots": [
+        "S04",
+        "S05"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "dani card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone video in a library at 2am, phone noise, not cinematic. Shot 1 (0 to 2 s): handheld rear-camera view looking down at 45 degrees onto a cluttered study desk, the exact can from @Image1 stands upright, a hand pulls the ring tab: a crisp crack and fizz. Hard cut. Shot 2 (2 to 5.4 s): front-camera selfie close-up of @Image2 (Dani), she lowers the can from a sip and holds it steady at chin height, label flat to the lens, and says clearly, a touch slower on the name: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Same benefits as the original, just no sugar.\" Small nod. Keep the can's shape, colours, wordmark, two red bulls and gold sun exactly as @Image1, unmirrored. One can only. Native sound: the can crack, room tone, her voice. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 11.4,
+      "t1": 25.5,
+      "shots": [
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 14,
+      "exact_risk": false,
+      "refs": [
+        "dani card",
+        "carrel plate",
+        "product can official",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone video at a university library study carrel, phone noise, flat light, not cinematic. Shot 1 (0 to 3 s): front-camera selfie medium shot of @Image1 (Dani), she taps an open textbook with a highlighter, the opened can from @Image3 standing on the desk in the lower corner, sincere: \"It keeps me alert, and I'm actually focused.\" Hard cut. Shot 2 (3 to 6.6 s): the phone is now propped on the carrel shelf, locked off, sped-up time-lapse: she writes and stacks index cards quickly, the can stays in the same spot by her elbow, the window behind her is black. Shot 3 (6.6 to 10 s): same locked angle, the time-lapse slows to real time as the window goes pale blue with dawn; she leans back and stretches both arms up; the card stack is tall. Hard cut. Shot 4 (10 to 14 s): front-camera selfie close-up in blue dawn light, she fans the stack of cards beside her cheek, tired and proud, soft laugh: \"Chapter ten, done. And I actually feel ready.\" Cards have no readable writing. Location as @Image2. Native sound: highlighter tap, fast page flips, birds outside at dawn, her voice. No music."
+    },
+    {
+      "id": "U4",
+      "t0": 25.5,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "dani card",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 unedited smartphone front-camera selfie at a library carrel at dawn, pale blue window light, phone noise, not cinematic. @Image2 (Dani) grins into the lens, pushes the exact can from @Image1 toward the camera and holds it still beside her face, label flat to the lens, and says directly: \"Finals week? Grab the silver can.\" then, with a grin: \"Wiiings without sugar (WINGS, vowel stretched slightly).\" The can does not bend, warp or change; keep its shape, colours, wordmark, two red bulls and gold sun exactly as @Image1. Keep the lower third clean. Native sound: room tone, birds, her voice. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "creator bed",
+      "t0": 0,
+      "t1": 30,
+      "brief": "No composed score. Optional: a quiet lo-fi hip hop loop (dusty keys, soft kick, 82 bpm) sat very low under the voice, as a creator would add from a sound library; drop it out entirely for the brand line at 8.2 to 11.2 s so the name is clean."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 6.6,
+      "sound": "can crack and fizz, close phone-mic character",
+      "why": "the product moment must register; only added if the native crack is weak"
+    },
+    {
+      "t": 14.4,
+      "sound": "short time-lapse whoosh",
+      "why": "tells the viewer hours have passed, the proof of the claim"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "dani",
+      "plan": "native voice from U1; her U1 vocal stem as voice reference for U2, U3 and U4 so the whisper register stays the same"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 3.0,
+      "text": "finals week survival (2am edition)",
+      "style": "native TikTok-style hook box: white rounded rectangle, black Montserrat Bold, lower case, top 18% of frame, pops on at frame 1"
+    },
+    {
+      "t0": 14.4,
+      "t1": 21.5,
+      "text": "2:14 am, then counts up fast to 6:02 am",
+      "style": "timestamp sticker in platform style, white text on a translucent dark pill, upper right, digits roll with the time-lapse"
+    },
+    {
+      "t0": 27.6,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "creator-style end sticker, white rounded card in the lower third, Montserrat ExtraBold, slight tilt, pops on 6 frames"
+    }
+  ],
+  "claims_used": [
+    "Same benefits of the original Energy Drink, without sugar",
+    "Caffeine helps to improve concentration and increase alertness",
+    "Wiiings without sugar (tagline)"
+  ],
+  "cost_estimate": {
+    "seconds": 31,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.37,
+    "with_retakes_usd": "18 to 26",
+    "music_usd": 0
+  }
+}

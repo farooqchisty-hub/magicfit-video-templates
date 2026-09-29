@@ -44,7 +44,13 @@
     "packaged props like balloon bags get printed brand words ('Balloons'): say plain clear bag with no printing and no label",
     "'phone photo of' puts a phone in the photo: say 'as if taken on a phone' and no phone or hands in frame",
     "car interiors bring sun-visor warning stickers with garbled text: say the visor is folded flat with no stickers or labels",
-    "garlands and foil balloons in the background pick up garbled letters: keep them out of product shots or say plain with no print"
+    "garlands and foil balloons in the background pick up garbled letters: keep them out of product shots or say plain with no print",
+    "depth pass: dense set dressing in the counter foreground can crowd the phone or the can at phone size: keep the hero object on a clean patch of counter and push the dressing to the frame edges and background",
+    "named kitchen appliances (stand mixer, fridge) can pick up real maker badges: say plain enamel, no badge or logo",
+    "prop reference sheets come back with printed caption labels (front view, prop details, a title): say no captions, no labels, no annotation text anywhere on the sheet",
+    "with more set dressing the model drifts to easier poses (phone held to the ear, a happy smile): restate the exact hand position and the emotion in plain physical terms",
+    "a stray black phone slab appeared standing on the counter in a hands-and-cake close-up: in inserts with no phone in the action say no phone anywhere in this frame",
+    "a second person's hand holding a phone crept into the right edge of a solo shot: say she is alone, no other hands, no phone visible"
   ],
   "negatives": [
     "no user interface, icons, emoji or text on any phone screen",

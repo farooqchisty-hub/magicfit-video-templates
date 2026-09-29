@@ -43,7 +43,11 @@
     "crowd banners pick up readable real words: say banners are blank solid colour",
     "aura effects swallow the product: keep the can outside the glow or state it stays sharp and fully visible",
     "the model lightens darker-skinned characters toward pale anime defaults: state the skin tone explicitly (deep brown skin) in the card and in every shot of that character",
-    "an unowned hand in a product insert gets random gloves: say whose hand it is, bare, with the character's sleeve"
+    "an unowned hand in a product insert gets random gloves: say whose hand it is, bare, with the character's sleeve",
+    "depth pass: dense harbour background art can swallow the small figures in wides: keep the sky and bowl floor around the hero clean and the density in the rails, cranes and containers",
+    "sticker-covered railings pick up letters: say solid colour sticker shapes, stars, circles and bolts, no writing",
+    "prop reference sheets come back with printed caption labels (front view, prop details, a title): say no captions, no labels, no annotation text anywhere on the sheet",
+    "dramatic-still shots can come back as a bordered manga panel with a white frame: say full-bleed to all four edges, no panel border"
   ],
   "negatives": [
     "no real brands, logos or sponsor names except the product",

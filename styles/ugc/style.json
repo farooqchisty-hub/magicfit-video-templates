@@ -45,7 +45,11 @@
     "hands hold the can with too many or fused fingers at close range: say one hand, four fingers wrapped behind the can, thumb in front on the silver side",
     "casting drifts pale: 'Mexican American' alone came back reading as a light-skinned European woman; state skin tone plainly ('clearly warm tan-brown skin, not pale') on the card, and everything downstream follows the card",
     "night scenes drift to daylight once a window is in frame: say every window is pitch black and name the only light sources",
-    "when the can shares the frame with the face, the model spends its attention on the can and swaps the face for a generic one or turns her to profile: restate the card's key identity traits inline and say face straight on to the lens"
+    "when the can shares the frame with the face, the model spends its attention on the can and swaps the face for a generic one or turns her to profile: restate the card's key identity traits inline and say face straight on to the lens",
+    "dense desk clutter invites real-brand leaks: laptops get a fruit logo, highlighters and snack wrappers get pseudo-print, cookie tins get printed labels. Say blank lid with no logo, unprinted barrels, embossed pattern only, plain foil. Saying no logo is not enough for a laptop lid: cover the centre of the lid with a big sticker",
+    "a propped-phone wide can come back with the phone's status bar and a readable time drawn across the top: say clean camera frame, no status bar, no clock, no icons",
+    "a cookie tin not given its prop reference comes back as a printed store tin with cookie photos and a barcode: restate plain tin with only an embossed flower pattern",
+    "library book carts come back with a small readable return sign: say the cart has no sign, card or label"
   ],
   "negatives": [
     "no real brands, logos or signage except the product",
@@ -53,7 +57,8 @@
     "no visible phone in hand when the frame is the phone's own view",
     "no studio lighting, no cinematic bokeh, no colour grade",
     "no extra fingers",
-    "no more than one can in the scene"
+    "no more than one can in the scene",
+    "no fruit logo or any maker's logo on laptops, and no printed words on highlighters, tins or wrappers"
   ],
   "asset_style": "Casual phone-photo realism: natural room light, slight sensor noise, real skin texture with pores, no retouching, not a studio headshot.",
   "prompt_prefix": "Unedited smartphone video frame, vertical 9:16, filmed by the creator herself on her own phone, slight wide-angle phone lens, phone sensor noise, flat available light, real skin texture, amateur candid framing, not cinematic, no colour grade."

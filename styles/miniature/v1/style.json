@@ -1,0 +1,56 @@
+{
+  "key": "miniature",
+  "name": "Miniature / diorama / tilt-shift world",
+  "definition": "A tiny handmade world at model-railway scale, shot with macro lenses and tilt-shift blur, where painted figurines live, work and talk. The real product is life-size, so inside the tiny world it becomes a monument, a machine or an event, and a final pull-back reveals how the tiny world sits in the real one.",
+  "why_it_sells": "Scale contrast makes the product the biggest, most important object on screen without any hard sell, and the handmade detail rewards a second watch. Miniature and tilt-shift AI video is reported as one of the fastest-growing formats on Instagram in 2026, and polished diorama spots have had viewers debating whether they were real. The reveal gives a built-in twist at the midpoint that holds viewers past 15 seconds.",
+  "visual_grammar": "Everything in the tiny world is visibly handmade: hand-painted 1:87 scale figurines with slight paint imperfections and glossy eyes, balsa and card buildings, flocked foam grass, cotton-wool steam, resin water, grain-of-wheat bulbs in the windows. Tilt-shift optics: a thin band of focus and heavy blur above and below, so real scenes look toy-like and toy scenes look real. The real product is always photographically exact and life-size relative to the world, never shrunk. Human-scale objects (a hand, a pencil, a glue bottle) appear at the edges as giant landmarks. Figurines stay in fixed painted poses between moves, like stop-motion.",
+  "camera": "Macro probe lens at figurine eye level for dialogue, high-angle tilt-shift wides for the world, slow motion-control slides and cranes that feel mechanical, a single continuous pull-back from tiny to human scale for the reveal. Figurine motion is stepped at 12 fps like stop-motion; the camera itself moves smoothly at 24 fps. Product inserts are locked.",
+  "light": "Practical miniature lighting: warm tiny bulbs inside windows and streetlamps, a desk lamp as the moon at night, a big soft window as the morning sun. Night scenes are blue with warm pinpoints; the product catches the strongest light in each frame.",
+  "texture": "Macro detail: paint brush marks, card edges, glue sheen, dust motes in the light, shallow macro depth of field, slight chromatic fringing at the blur edges. Real surfaces (wood desk, cutting mat) have true photographic grain.",
+  "palette_rule": "The tiny world is built in chalky sky blue, silver-grey card and white (echoing the can), with warm amber windows and one accent colour for the figurines' safety gear (orange). At night the world is cool; when the product arrives the warm lights come on.",
+  "pacing": "Hook in under 2 seconds with a tiny character speaking straight into the macro lens. Cut every 2 to 3 seconds inside the tiny world. The product arrival is a held beat of at least 1.5 s with the tiny figures looking up. The reveal pull-back is one unbroken move of about 3 seconds. End on a still, sunlit diorama pack shot.",
+  "sound": "Native sound from the generations, recorded as if close to the model: tiny footsteps on card, a toy crane whirring, the can crack as thunder at their scale, then at human scale as a normal crack. Tiny voices are natural adult voices, slightly close-miked, never chipmunked. Score is plucked and hand-played (pizzicato strings, celesta, glockenspiel, a brushed snare), generated per movement and stitched at picture cuts.",
+  "caption_look": {
+    "font": "Recoleta SemiBold",
+    "size": "4.8% of frame height",
+    "color": "#1E2A3A on a cream #FFF6E6 rounded label with a hairline #1E2A3A border",
+    "active_word": "the spoken word underlined in sky blue #6CB8E6",
+    "shadow": "soft 0 3px 6px rgba(0,0,0,.25) under the label, as if it is a paper tag in the model",
+    "position": "centre, 70% down the frame, inside the tilt-shift blur band so it never covers the in-focus figurine",
+    "max_words_on_screen": 5,
+    "box": true,
+    "scale_labels": "in post, a small handwritten-style tag (like a model-shop label) names the scale on the reveal: 1:87, then 1:1"
+  },
+  "model_vocab": [
+    "tilt-shift miniature photography",
+    "1:87 scale hand-painted model railway figurines",
+    "handmade architectural diorama",
+    "balsa wood and card buildings",
+    "flocked foam grass",
+    "macro probe lens at figurine eye level",
+    "shallow macro depth of field",
+    "tiny warm grain-of-wheat bulbs",
+    "stop-motion"
+  ],
+  "failure_modes": [
+    "'thin band of focus with strong blur above and below' is read as a layout and returns three stacked strips like a triptych: describe tilt-shift as one continuous photograph whose blur gradually softens toward the edges, and say not a collage, not split into panels",
+    "the model shrinks the can to match the tiny world: state that the can is a real full-size can and towers over the tiny buildings like a skyscraper",
+    "figurines come out as real people at a distance: say hand-painted plastic figurines 2 cm tall with visible paint texture, standing on a card base",
+    "the pull-back reveal is two different worlds: the model on the desk must match the diorama plate, same buildings and same square",
+    "tiny shop signs and street names get fake lettering: say all building fronts are blank, no signs",
+    "the real human's hand gets miniaturised too: say the hand is a normal adult hand, enormous next to the figurines",
+    "the tilt-shift blur eats the product label: keep the can inside the focus band",
+    "two cans appear (one in the tiny world, one on the desk): say there is only one can in the whole scene",
+    "the real-human card drifts in shots where she is small or out of focus (came back as a different woman): restate her ethnicity, hair and glasses in every shot and keep her face at least medium size"
+  ],
+  "negatives": [
+    "no real brands, logos or sponsor names except the product",
+    "no readable signage or model-generated text",
+    "no extra fingers",
+    "no second can in the scene",
+    "no CGI plastic sheen on the real product",
+    "no children"
+  ],
+  "prompt_prefix": "A single continuous tilt-shift macro photograph of a handmade miniature world, one uninterrupted vertical 9:16 frame (not a collage, not split into panels or strips), 1:87 scale hand-painted figurines and card and balsa buildings, a tilt-shift lens blur that gradually softens toward the top and bottom edges, shallow macro depth of field, visible paint and paper texture, photoreal.",
+  "asset_style": "No text, no labels, no watermark."
+}

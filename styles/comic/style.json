@@ -46,7 +46,10 @@
     "clock hands come back at the wrong time (asked for five past three, got five o'clock): only show a clock when the time is a simple hour, otherwise leave the clock out and give the time in a caption box",
     "a product held at arm's length in a medium panel shrinks and its label turns to mush: on the brand-line panel, bring the can into the foreground at about a third of the frame height",
     "character cards pick up a name label (THE SLUMP): say no name label; crop it off before the card is used as a video reference",
-    "'sunny city skyline' drifts to recognisable real towers: say an invented art-deco skyline with no recognisable real landmarks"
+    "'sunny city skyline' drifts to recognisable real towers: say an invented art-deco skyline with no recognisable real landmarks",
+    "asking for action to break the panel border makes the model split the frame into two or three sub-panels: never ask for border breaks in the keyframe; say one single panel filling the frame, no sub-panels, no inset boxes, and add border breaks in post",
+    "a silver badge or prop reference in the scene turns a plain forearm into a metal gauntlet: describe the bare forearm and rolled shirt cuff and say no armour",
+    "world-depth dressing: detail lives in the office and rooftop plates (binder clips, lightning-bolt mug, water towers, gargoyles); keep the area around the hero and the can clean so both still read at phone size"
   ],
   "negatives": [
     "no real brands, logos or sponsor names except the product",

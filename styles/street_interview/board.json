@@ -57,7 +57,7 @@
   ],
   "adaptation": {
     "ingested": {
-      "moment": "blind sip from a plain sample cup poured from the sleeved can, then the sleeve comes off",
+      "moment": "blind sip from a plain sample cup poured from the sleeved can, then the sleeve comes off (the kraft sleeve and sample cups are generic: any product can hide under a plain paper cover)",
       "scale": "hand"
     },
     "applied": {
@@ -240,7 +240,13 @@
         "bea",
         "quad"
       ],
-      "keyframe_prompt": "Candid medium close-up of Bea, the woman from the character sheet, on the autumn college quad from the location plate, talking straight into the lens with eyebrows raised and a playful grin. In one hand she holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text. In her other hand she holds a slim drink can completely wrapped in a plain brown kraft paper sleeve, only its silver top rim showing, and a small stack of plain white unmarked paper sample cups. Orange maples and brick buildings out of focus behind her, a few adult students walking. Bright natural daylight. Clean area at the top of the frame for a question card."
+      "keyframe_prompt": "Candid medium close-up of Bea, the woman from the character sheet, on the autumn college quad from the location plate, talking straight into the lens with eyebrows raised and a playful grin. In one hand she holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with a thin silver band and no text. In her other hand she holds a slim drink can completely wrapped in a plain brown kraft paper sleeve, only its silver top rim showing, and a small stack of plain white unmarked paper sample cups. Orange maples and brick buildings out of focus behind her, a few adult students walking. Bright natural daylight. Keep plain open sky at the top of the frame for a question card added later (no boxes or shapes drawn there). Her face exactly matches the character sheet: Filipino American, long straight black hair in a high ponytail, small nose stud.",
+      "dressing": [
+        "a small wooden A-frame chalkboard beside her covered in chalk tick marks",
+        "her card table with the gingham cloth and the leaning stack of white cups",
+        "the washi tape on the kraft sleeve",
+        "homecoming pennants blurred behind"
+      ]
     },
     {
       "id": "S02",
@@ -255,9 +261,16 @@
       "caption": "Sugar. A hundred percent.",
       "refs": [
         "tyler",
-        "quad"
+        "quad",
+        "mic"
       ],
-      "keyframe_prompt": "Candid handheld street interview frame: Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, framed chest-up on the right third, lowering a small plain white paper sample cup from his lips and answering with cocky certainty, one finger raised. From the left edge of the frame, a woman's hand in a cream corduroy sleeve holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text toward him. Orange maples, brick and passers-by out of focus behind. Natural daylight."
+      "keyframe_prompt": "Candid handheld street interview frame: Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, framed chest-up on the right third, lowering a small plain white paper sample cup from his lips and answering with cocky certainty, one finger raised. From the left edge of the frame, a woman's hand in a cream corduroy sleeve holds a handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text toward him. Orange maples, brick and passers-by out of focus behind. Natural daylight.",
+      "dressing": [
+        "the carabiner of keys on his backpack strap",
+        "the chewed hoodie drawstring",
+        "the cast-iron lamp post with blank flyer scraps behind",
+        "students on a red plaid blanket in the distance"
+      ]
     },
     {
       "id": "S03",
@@ -272,9 +285,16 @@
       "caption": "Oh, that's loaded. Sugar.",
       "refs": [
         "mei",
-        "quad"
+        "quad",
+        "mic"
       ],
-      "keyframe_prompt": "Candid handheld street interview frame: Mei, the young woman from the character sheet, on a stone path on the autumn college quad, framed chest-up on the left third, eyes wide behind her gold glasses, pointing at the small plain white paper sample cup in her other hand, mouth open mid-word. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text enters from the right edge. A bench and orange leaves out of focus behind. Natural daylight, slight lens flare."
+      "keyframe_prompt": "Candid handheld street interview frame: Mei, the young woman from the character sheet, on a stone path on the autumn college quad, framed chest-up on the left third, eyes wide behind her gold glasses, pointing at the small plain white paper sample cup in her other hand, mouth open mid-word. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text enters from the right edge. A bench and orange leaves out of focus behind. Natural daylight, slight lens flare.",
+      "dressing": [
+        "the lavender sprig in her tote handle",
+        "the pencil in her bob",
+        "the teak bench with the carved heart behind her",
+        "a squirrel on the bench back"
+      ]
     },
     {
       "id": "S04",
@@ -289,9 +309,16 @@
       "caption": "Sugar, obviously. I teach chemistry.",
       "refs": [
         "hal",
-        "quad"
+        "quad",
+        "mic"
       ],
-      "keyframe_prompt": "Candid handheld street interview frame: Dr. Harold Greene, the man from the character sheet, standing in front of a red brick building on the autumn college quad, framed chest-up, a leather satchel on his shoulder, holding a small plain white paper sample cup, peering over his half-moon glasses with amused total authority, mid-sentence. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text held toward him from the left edge. Natural afternoon daylight, real skin texture."
+      "keyframe_prompt": "Candid handheld street interview frame: Dr. Harold Greene, the man from the character sheet, standing in front of a red brick building on the autumn college quad, framed chest-up, a leather satchel on his shoulder, holding a small plain white paper sample cup, peering over his half-moon glasses with amused total authority, mid-sentence. A handheld microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text held toward him from the left edge. Natural afternoon daylight, real skin texture.",
+      "dressing": [
+        "his half-moon glasses on the beaded cord",
+        "the chalk smudge on his tweed sleeve",
+        "ivy turning crimson on the brick behind",
+        "the white clock tower in the distance"
+      ]
     },
     {
       "id": "S05",
@@ -308,7 +335,12 @@
         "product",
         "bea"
       ],
-      "keyframe_prompt": "Handheld close-up insert on the autumn college quad: a woman's hand in a cream corduroy sleeve holds the exact can from the product reference upright to camera, the whole can fully uncovered from top to bottom with its complete label facing camera and undistorted: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls and a gold sun, SUGARFREE in red below. The brown kraft paper sleeve has been completely removed and is crumpled in her other hand at the bottom edge of frame, not touching the can. Beside the can, slightly out of focus, a handheld microphone with a plain sky-blue cube mic flag with no text. Orange leaves and green lawn bokeh behind. Exactly one can in the frame. Natural daylight, the can is the sharpest object."
+      "keyframe_prompt": "Handheld close-up insert on the autumn college quad: a woman's hand in a cream corduroy sleeve holds the exact can from the product reference upright to camera, the whole can fully uncovered from top to bottom with its complete label facing camera and undistorted: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls and a gold sun, SUGARFREE in red below. The brown kraft paper sleeve has been completely removed and is crumpled in her other hand at the bottom edge of frame, not touching the can. Beside the can, slightly out of focus, a handheld microphone with a plain sky-blue cube mic flag with no text. Orange leaves and green lawn bokeh behind. Exactly one can in the frame. Natural daylight, the can is the sharpest object.",
+      "dressing": [
+        "the crumpled kraft sleeve with its sky-blue washi tape",
+        "the chipped corner of the sky-blue mic flag",
+        "fallen leaves on the lawn behind"
+      ]
     },
     {
       "id": "S06",
@@ -325,7 +357,12 @@
         "tyler",
         "quad"
       ],
-      "keyframe_prompt": "Candid handheld close-up of Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, jaw dropped in genuine surprise, both hands on top of his messy hair, starting to laugh, eyes on something just off camera. Slight motion blur from a snap zoom. Orange maples out of focus. Natural daylight, real skin texture."
+      "keyframe_prompt": "Candid handheld close-up of Tyler, the young man from the character sheet (sandy-brown messy hair, light stubble, freckles, olive green hoodie with no print, black backpack strap), on the autumn college quad, jaw dropped in genuine surprise, both hands on top of his messy hair, starting to laugh, eyes on something just off camera. Slight motion blur from a snap zoom. Orange maples out of focus. Natural daylight, real skin texture.",
+      "dressing": [
+        "the rocket sticker drawing on his backpack",
+        "the graphing calculator in the side pocket",
+        "the green groundskeeper's cart with a heap of leaves behind"
+      ]
     },
     {
       "id": "S07",
@@ -344,7 +381,12 @@
         "product",
         "quad"
       ],
-      "keyframe_prompt": "Candid handheld two-shot on the autumn college quad: Mei, the young woman from her character sheet, on the right with narrowed sceptical eyes behind gold glasses and a half laugh, and Bea, the host from her character sheet, on the left holding a handheld microphone with a plain sky-blue cube mic flag with no text and holding the exact can from the product reference upright in her other hand, label turned toward camera and undistorted, winking. Brick and orange leaves behind. Natural daylight. Exactly one can in the frame."
+      "keyframe_prompt": "Candid handheld two-shot on the autumn college quad: Mei, the young woman from her character sheet, on the right with narrowed sceptical eyes behind gold glasses and a half laugh, and Bea, the host from her character sheet, on the left holding a handheld microphone with a plain sky-blue cube mic flag with no text and holding the exact can from the product reference upright in her other hand, label turned toward camera and undistorted, winking. Brick and orange leaves behind. Natural daylight. Exactly one can in the frame.",
+      "dressing": [
+        "Mei's hand-painted cloud travel mug",
+        "the speech bubble pin on Bea's lapel",
+        "the bronze statue with a pumpkin in its lap behind them"
+      ]
     },
     {
       "id": "S08",
@@ -362,7 +404,12 @@
         "product",
         "quad"
       ],
-      "keyframe_prompt": "Candid handheld medium shot on the autumn college quad: Dr. Harold Greene, the man from the character sheet, in his brown tweed jacket, mock-serious, tucking the exact can from the product reference into the inside pocket of his jacket, the can's label still visible and undistorted as it goes in, a wry smile over his half-moon glasses. A handheld microphone with a plain sky-blue cube mic flag with no text enters from the left edge. Brick building behind. Natural daylight. Exactly one can in the frame."
+      "keyframe_prompt": "Candid handheld medium shot on the autumn college quad: Dr. Harold Greene, the man from the character sheet, in his brown tweed jacket, mock-serious, tucking the exact can from the product reference into the inside pocket of his jacket, the can's label still visible and undistorted as it goes in, a wry smile over his half-moon glasses. A handheld microphone with a plain sky-blue cube mic flag with no text enters from the left edge. Brick building behind. Natural daylight. Exactly one can in the frame.",
+      "dressing": [
+        "the tiny silver molecule-model pin on his lapel",
+        "the brass buckle of his leather satchel",
+        "a small wooden A-frame chalkboard of chalk tick marks at the edge of frame"
+      ]
     },
     {
       "id": "S09",
@@ -377,9 +424,17 @@
       "caption": "",
       "refs": [
         "bea",
-        "quad"
+        "quad",
+        "tally"
       ],
-      "keyframe_prompt": "Candid handheld wide shot on the autumn college quad, upright vertical composition, level horizon: Bea, the host from the character sheet, in the foreground turning to look back with a delighted laugh, holding her microphone with a plain sky-blue cube mic flag with no text, and behind her on the stone path a line of eight or nine adults (students in their twenties and a couple of staff) of mixed genders and ethnicities, waving and grinning to be next, plain clothes with no prints or logos, nobody holding cans. Orange maples and brick buildings, bright afternoon sun."
+      "keyframe_prompt": "Candid handheld wide shot on the autumn college quad, upright vertical composition, level horizon: Bea, the host from the character sheet, in the foreground turning to look back with a delighted laugh, holding her microphone with a plain sky-blue cube mic flag with no text, and behind her on the stone path a line of eight or nine adults (students in their twenties and a couple of staff) of mixed genders and ethnicities, waving and grinning to be next, plain clothes with no prints or logos, nobody holding cans. Orange maples and brick buildings, bright afternoon sun.",
+      "dressing": [
+        "the card table with the gingham cloth beside her",
+        "a small wooden A-frame chalkboard of chalk tick marks",
+        "maroon and gold pennants between the lamp posts",
+        "the half-raked leaf piles",
+        "a mint-green bike with a wicker basket at the rack"
+      ]
     },
     {
       "id": "S10",
@@ -397,7 +452,13 @@
         "product",
         "quad"
       ],
-      "keyframe_prompt": "Candid medium close-up of Bea, the host from the character sheet, on the autumn college quad, talking straight into the lens with a big grin, holding the exact can from the product reference upright beside her face with the label facing camera and undistorted, and in her other hand a microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text right next to the can. The blurred line of people behind her. Bright natural daylight. Exactly one can in the frame. Clean area in the upper third for the channel card."
+      "keyframe_prompt": "Candid medium close-up of Bea, the host from the character sheet, on the autumn college quad, talking straight into the lens with a big grin, holding the exact can from the product reference upright beside her face with the label facing camera and undistorted, and in her other hand a microphone with a black foam windscreen and a plain sky-blue cube mic flag with no text right next to the can. The blurred line of people behind her. Bright natural daylight. Exactly one can in the frame. Clean area in the upper third for the channel card.",
+      "dressing": [
+        "the speech bubble pin on her lapel",
+        "the washi tape on the mic handle",
+        "the A-frame chalkboard blurred behind her",
+        "pennants and orange maples in bokeh"
+      ]
     }
   ],
   "units": [
@@ -568,5 +629,110 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "The quad is the old heart of a fictional East Coast college: the chemistry hall on the north side went up in 1911, the maples along the path were planted by the class of 1962, and the path is worn smooth down the middle by a century of short cuts.",
+      "Bea has run Quad Talk for three years and 212 episodes, filmed on one phone by her roommate Dani. Her record is 41 interviews in a single afternoon.",
+      "Today's blind test: 30 plain sample cups, one can hidden in a sleeve Bea folded from a grocery bag and taped shut with sky-blue washi tape. The chalk tally board says every taster so far has guessed sugar.",
+      "Dr. Harold Greene has taught intro chemistry here for 34 years and has a standing bet with his students that he can name any sweetener by taste. He has never lost it.",
+      "It is the Thursday of midterm week: half the quad is running on no sleep, and homecoming pennants are already up for Saturday."
+    ],
+    "locations": {
+      "quad": {
+        "foreground": [
+          "drifts of fallen maple leaves in red, orange and butter yellow along the edge of the stone path",
+          "Bea's folding card table with a blue gingham cloth, a leaning stack of plain white sample cups and a brown paper bag of used ones",
+          "a small wooden A-frame chalkboard with two columns of chalk tally marks, a drawn sugar cube above the long column and a drawn crossed-out sugar cube above the empty one",
+          "a weathered teak bench with a blank brass plaque and a carved heart on the backrest",
+          "a mint-green commuter bike with a wicker front basket locked to a black steel rack"
+        ],
+        "midground": [
+          "the flagstone path worn smooth and pale down its centre",
+          "a black cast-iron lamp post with ragged scraps of old blank flyers and rusty staples on it",
+          "students on a faded red plaid blanket on the lawn with a pile of textbooks and a thermos",
+          "a green groundskeeper's utility cart with a rake and a tarp heaped with leaves",
+          "a green-patinated bronze statue of a seated scholar on a stone plinth, a small pumpkin left in its lap",
+          "a squirrel on the back of the bench holding an acorn"
+        ],
+        "background": [
+          "red brick halls with white window trim and ivy turning crimson up the walls",
+          "a white clock tower with a plain face and black hands",
+          "maroon and gold triangular homecoming pennants strung between lamp posts, each with a small white acorn shape",
+          "big maples in full orange, low sun coming through them",
+          "a half-raked lawn: neat leaf piles on one side, piles kicked apart on the other"
+        ]
+      }
+    },
+    "personal_props": {
+      "bea": [
+        "the Quad Talk mic: black foam windscreen, sky-blue cube flag with a thin silver band and a chipped corner, a wrap of sky-blue washi tape on the handle",
+        "the hand-folded kraft paper can sleeve taped with sky-blue washi tape, creased from being slid on and off all afternoon",
+        "a small enamel pin shaped like a speech bubble on her corduroy lapel",
+        "a tan canvas crossbody bag with a sleeve of spare cups poking out",
+        "a faint coffee drip stain on the left cuff of the cream corduroy jacket"
+      ],
+      "tyler": [
+        "a black laptop backpack with a carabiner of keys and a sticker drawing of a rocket (shape only)",
+        "a graphing calculator poking out of the side pocket",
+        "a hoodie drawstring chewed flat at one end",
+        "a white earbud case clipped to the backpack strap"
+      ],
+      "mei": [
+        "a canvas tote heavy with library books, a sprig of dried lavender tucked in the handle",
+        "a ceramic travel mug hand-painted with a small blue cloud",
+        "a pencil pushed through her bob above one ear",
+        "a pulled loop of yarn at the cuff of the mustard knit"
+      ],
+      "hal": [
+        "a 40-year-old tan leather satchel with scuffed corners and a brass buckle",
+        "half-moon glasses on a thin beaded cord",
+        "a pale smudge of chalk dust on his right tweed sleeve",
+        "a small silver lapel pin shaped like a ball-and-stick molecule model: three tiny balls joined by two sticks"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "mic",
+        "name": "The Quad Talk mic",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: one handheld interview microphone with a black foam windscreen, a matte sky-blue cube mic flag with a thin brushed silver band around its middle and one slightly chipped corner, a wrap of sky-blue washi tape around the black handle, shown front view and three-quarter view. No letters, numbers or logos anywhere. Soft even studio light."
+      },
+      {
+        "id": "tally",
+        "name": "The sugar tally board",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a small wooden A-frame sidewalk chalkboard, weathered pine frame, the black board divided by a chalk line into two columns: the left column topped by a hand-drawn chalk sugar cube and filled with many chalk tally marks in groups of five, the right column topped by a hand-drawn chalk sugar cube with a cross through it and completely empty. No letters, words or numbers anywhere. Soft even studio light."
+      },
+      {
+        "id": "kit",
+        "name": "Bea's blind test table",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, photoreal: a small folding card table with a blue and white gingham cloth, a leaning stack of plain white paper sample cups, a brown paper bag of used cups, and an empty hand-folded brown kraft paper tube sleeve sealed with sky-blue washi tape lying on its side with nothing inside it. No cans, no letters, no logos. Soft even studio light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Quad Talk",
+        "mark": "a rounded speech bubble outline",
+        "colors": "sky blue and silver",
+        "appears_on": "the cube mic flag (plain in camera), Bea's enamel pin, the end card",
+        "text_in_post": "channel name on the mic flag close-ups and the end card"
+      },
+      {
+        "name": "the college (never named)",
+        "mark": "a small white acorn shape",
+        "colors": "maroon and gold",
+        "appears_on": "homecoming pennants between the lamp posts",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "3:40pm on a Thursday in late October, low gold sun, a light breeze lifting leaves across the path. Eleven of the 30 cups are already used and in the paper bag; the tally board's sugar column is nearly full; the leaves are raked into piles on one side and kicked apart on the other; someone's red umbrella is forgotten on a bench.",
+    "sound_world": [
+      "dry maple leaves crunching under sneakers",
+      "the crisp crinkle of the kraft paper sleeve sliding off the can",
+      "the squeak of a paper cup being squeezed",
+      "a bike bell and distant frisbee thwacks and laughter",
+      "the clock tower chiming the three-quarter hour",
+      "wind hissing through the maples",
+      "chalk squeaking on the tally board"
+    ]
   }
 }

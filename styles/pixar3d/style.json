@@ -45,7 +45,15 @@
     "wide exteriors in 9:16 come back rotated: say 'upright vertical composition, level horizon'",
     "night scenes go muddy and dark: keep the character rim lit and the key practical warm so the silhouette reads",
     "a human character next to a small animal becomes photoreal: say 'stylized animated human in the same feature film style'",
-    "when the character peeks from behind the product, the model loses her identity (face turned brown, markings changed): keep the character fully visible beside the product and restate her key markings"
+    "when the character peeks from behind the product, the model loses her identity (face turned brown, markings changed): keep the character fully visible beside the product and restate her key markings",
+    "depth pass: a busy lamp room can bury the small owl: keep the tally wall and props in the background and midground, and a clean darker patch of wall around her head",
+    "tally marks on walls can turn into numbers or letters: say bundles of five short chalk strokes, no numbers, no letters",
+    "prop reference sheets come back with printed caption labels (front view, prop details, a title): say no captions, no labels, no annotation text anywhere on the sheet",
+    "life rings and hull sides on boats grow painted names (a ferry sheet printed a ship name on the life ring): say plain life ring with white bands and nothing written on it",
+    "a set-dressed ferry bridge grew a red drink can with a readable word on it: in any shot without the product say no cans, bottles or drink packaging anywhere",
+    "busy sea wides duplicated the ferry and dropped a stray can on the rocks: say only one ferry in the frame, no cans or litter",
+    "a close-up background turned the tally wall into a chalkboard with readable numbers and a word: say plaster wall with short chalk strokes in bundles of five, no chalkboard, no numbers, no words",
+    "with a richer set the model stages the owl on a step or stool beside the can so the can outgrows her: anchor the owl, the crate and the can on the same floor plane and say where the can bottom is"
   ],
   "negatives": [
     "no real brands, logos or signage except the product",

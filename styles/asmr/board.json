@@ -154,7 +154,13 @@
         "imani",
         "product"
       ],
-      "keyframe_prompt": "Extreme macro side view of the exact can from the product reference, closed and upright on dark slate, its sky blue and brushed silver diagonal split clearly visible with the sky blue half as strong saturated blue, covered in a light even mist of condensation beads (not thick frost, the colours stay vivid); one fingertip of the woman from the character sheet, deep brown skin, short natural nail, drags slowly down through the beads on the silver half leaving a clean glossy line; the red Red Bull wordmark, the two red bulls and gold sun crisp under the droplets. One hand, one fingertip. Dark background with warm bokeh."
+      "keyframe_prompt": "Extreme macro side view of the exact can from the product reference, closed and upright on dark slate, its sky blue and brushed silver diagonal split clearly visible with the sky blue half as strong saturated blue, covered in a light even mist of condensation beads (not thick frost, the colours stay vivid); one fingertip of the woman from the character sheet, deep brown skin, short natural nail, drags slowly down through the beads on the silver half leaving a clean glossy line; the red Red Bull wordmark, the two red bulls and gold sun crisp under the droplets. One hand, one fingertip. Dark background with warm bokeh.",
+      "dressing": [
+        "the individual condensation beads, some merging and running",
+        "the fine brushed grain of the silver aluminium",
+        "a faint graphite smudge on the fingertip",
+        "warm brass bokeh behind"
+      ]
     },
     {
       "id": "S02",
@@ -168,9 +174,16 @@
       "audio": "crisp crunch of the scoop biting ice, glassy tinkle of crystals falling back",
       "caption": "",
       "refs": [
-        "counter"
+        "counter",
+        "icebowl"
       ],
-      "keyframe_prompt": "Macro top-down of the small black stone bowl of crushed ice from the location plate, a small polished steel scoop lifting a heap of glittering crushed ice, crystals tumbling off its edge in mid air, backlit so every crystal sparkles, dark slate around the bowl. No hands visible except the scoop handle at the frame edge."
+      "keyframe_prompt": "Macro top-down of the small black stone bowl of crushed ice from the location plate, a small polished steel scoop lifting a heap of glittering crushed ice, crystals tumbling off its edge in mid air, backlit so every crystal sparkles, dark slate around the bowl. No hands visible except the scoop handle at the frame edge.",
+      "dressing": [
+        "the rough pitted outside and polished inside of the basalt bowl",
+        "the worn satin handle of the steel scoop",
+        "loose ice crystals melting into beads on the slate",
+        "hairline scratches on the slate"
+      ]
     },
     {
       "id": "S03",
@@ -186,9 +199,16 @@
       "refs": [
         "imani",
         "product",
-        "counter"
+        "counter",
+        "icebowl"
       ],
-      "keyframe_prompt": "Macro side-on shot of the exact can from the product reference nested upright in the black stone bowl of crushed ice from the location plate, the full label facing camera and crisp: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls with the gold sun, SUGARFREE in spaced red capitals, red WITHOUT SUGAR band at the top, all under beads of condensation. One fingertip of the woman from the character sheet about to tap the blue half. Dark background, warm bokeh, cool blue side light."
+      "keyframe_prompt": "Macro side-on shot of the exact can from the product reference nested upright in the black stone bowl of crushed ice from the location plate, the full label facing camera and crisp: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls with the gold sun, SUGARFREE in spaced red capitals, red WITHOUT SUGAR band at the top, all under beads of condensation. One fingertip of the woman from the character sheet about to tap the blue half. Dark background, warm bokeh, cool blue side light.",
+      "dressing": [
+        "the rough pitted basalt rim",
+        "crushed ice crystals packed around the base of the can",
+        "a folded oatmeal linen tea towel with a frayed corner at the edge",
+        "the cool blue wavy-glass window light"
+      ]
     },
     {
       "id": "S04",
@@ -205,7 +225,11 @@
         "imani",
         "product"
       ],
-      "keyframe_prompt": "Camera directly overhead looking straight down at the exact can from the product reference standing upright on dark black slate, so only its round silver lid is seen as a circle filling most of the frame: beaded condensation on the lid, the red ring pull tab in the centre, a sliver of the red rim band around the edge. A fingertip of the woman from the character sheet with a short natural nail is slid under the red tab, about to lift it. One finger. Dark slate all around the lid, crisp glittering droplets."
+      "keyframe_prompt": "Camera directly overhead looking straight down at the exact can from the product reference standing upright on dark black slate, so only its round silver lid is seen as a perfect circle filling most of the frame, the can body hidden directly beneath it, not tilted and not lying on its side. The can is still sealed: the opening is a closed flat scored panel, the red tab lies flat and unopened. beaded condensation on the lid, the red ring pull tab in the centre, a sliver of the red rim band around the edge. A fingertip of the woman from the character sheet with a short natural nail is slid under the red tab, about to lift it. One finger. Dark slate all around the lid, crisp glittering droplets.",
+      "dressing": [
+        "beaded condensation on the lid",
+        "a loose melting ice crystal on the slate beside the lid"
+      ]
     },
     {
       "id": "S05",
@@ -221,7 +245,12 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Extreme macro side-on at the top of the exact can from the product reference at the instant it opens: the red ring pull lifted, a small puff of white cold mist escaping from the opening, tiny droplets leaping off the silver lid in slow motion, the red WITHOUT SUGAR band and the top of the blue and silver label crisp below. Backlit mist, dark background."
+      "keyframe_prompt": "Extreme macro side-on at the top of the exact can from the product reference at the instant it opens: the red ring pull lifted, a small puff of white cold mist escaping from the opening, tiny droplets leaping off the silver lid in slow motion, the red WITHOUT SUGAR band and the top of the blue and silver label crisp below. Backlit mist, dark background.",
+      "dressing": [
+        "backlit cold mist curling",
+        "droplets leaping off the lid rim",
+        "the brass under-cabinet glow as bokeh"
+      ]
     },
     {
       "id": "S06",
@@ -237,7 +266,12 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Extreme macro looking down into the opening of the exact can from the product reference: the silver lid edge and lifted red tab in soft focus, and in sharp focus inside the opening the surface of a pale golden sparkling liquid covered in fine fizzing bubbles popping, droplets on the lid. Dark, glittering, intimate."
+      "keyframe_prompt": "Extreme macro looking down into the opening of the exact can from the product reference: the silver lid edge and lifted red tab in soft focus, and in sharp focus inside the opening the surface of a pale golden sparkling liquid covered in fine fizzing bubbles popping, droplets on the lid. Dark, glittering, intimate.",
+      "dressing": [
+        "fine fizzing bubbles popping",
+        "droplets on the silver lid edge",
+        "the lifted red tab in soft focus"
+      ]
     },
     {
       "id": "S07",
@@ -253,9 +287,16 @@
       "refs": [
         "imani",
         "product",
-        "counter"
+        "counter",
+        "glass"
       ],
-      "keyframe_prompt": "Macro side-on: the hand of the woman from the character sheet tilts the exact can from the product reference at 45 degrees from the top of frame, label facing camera and undistorted, pouring a pale golden sparkling stream into the tall clear glass from the location plate, which is full of clear ice cubes; bubbles and splashes frozen in slow motion, backlit. One hand, one can, one glass. Dark slate and warm bokeh."
+      "keyframe_prompt": "Macro side-on: the hand of the woman from the character sheet tilts the exact can from the product reference at 45 degrees from the top of frame, label facing camera and undistorted, pouring a pale golden sparkling stream into the tall clear glass from the location plate, which is full of clear ice cubes; bubbles and splashes frozen in slow motion, backlit. One hand, one can, one glass. Dark slate and warm bokeh.",
+      "dressing": [
+        "the pulled thread at the sweater cuff",
+        "the thin-walled glass with a fingerprint near the rim",
+        "clear ice cubes cracking",
+        "the oiled walnut counter edge with its old knife nick"
+      ]
     },
     {
       "id": "S08",
@@ -269,9 +310,15 @@
       "audio": "the thermal crack of ice, bubbles rising and ticking against the glass",
       "caption": "",
       "refs": [
-        "counter"
+        "counter",
+        "glass"
       ],
-      "keyframe_prompt": "Extreme macro through the side of the tall clear glass: streams of tiny bubbles rising through pale golden sparkling liquid past crystal clear ice cubes, a fine white crack running through one cube, condensation on the outside of the glass, backlit warm glow, dark background."
+      "keyframe_prompt": "Extreme macro through the side of the tall clear glass: streams of tiny bubbles rising through pale golden sparkling liquid past crystal clear ice cubes, a fine white crack running through one cube, condensation on the outside of the glass, backlit warm glow, dark background.",
+      "dressing": [
+        "a fine white crack running through one ice cube",
+        "condensation beads on the outside of the glass",
+        "the subway-tile backsplash as soft bokeh behind"
+      ]
     },
     {
       "id": "S09",
@@ -289,7 +336,13 @@
         "product",
         "counter"
       ],
-      "keyframe_prompt": "Close-up cropped from the nose down of the woman from the character sheet, deep brown skin, small gold stud earring, oversized oatmeal knit sweater, lowering the tall glass of pale golden drink and ice from her lips after a small sip, a calm soft expression; on the dark slate counter in front of her, in sharp focus, the exact can from the product reference stands upright and open, label facing camera and undistorted. Cool pre-dawn window light and a warm under-cabinet glow."
+      "keyframe_prompt": "Close-up cropped from the nose down of the woman from the character sheet, deep brown skin, small gold stud earring, oversized oatmeal knit sweater, lowering the tall glass of pale golden drink and ice from her lips after a small sip, a calm soft expression; on the dark slate counter in front of her, in sharp focus, the exact can from the product reference stands upright and open, label facing camera and undistorted. Cool pre-dawn window light and a warm under-cabinet glow.",
+      "dressing": [
+        "the small gold stud earring",
+        "the pulled thread at the sweater cuff",
+        "the sprig of rosemary in a small jar behind",
+        "the pre-dawn window with a fire escape silhouette"
+      ]
     },
     {
       "id": "S10",
@@ -304,9 +357,17 @@
       "caption": "stay sharp. no sugar.",
       "refs": [
         "imani",
-        "counter"
+        "counter",
+        "notebook"
       ],
-      "keyframe_prompt": "Macro top-down of an open notebook on the dark walnut counter: the hand of the woman from the character sheet writing with a pencil, the page covered in soft grey unreadable pencil scribble shapes (no real letters or words), graphite dust, the base of the sweating glass of pale golden drink at the edge of frame. Warm light."
+      "keyframe_prompt": "Macro top-down of an open notebook on the dark walnut counter: the hand of the woman from the character sheet writing with a pencil, the page covered in soft grey unreadable pencil scribble shapes (no real letters or words), graphite dust, the base of the sweating glass of pale golden drink at the edge of frame. Warm light.",
+      "dressing": [
+        "graphite dust on the page",
+        "the half-length pencil with tooth marks",
+        "the black elastic band of the notebook lying loose",
+        "exactly one black hair tie beside the notebook",
+        "the base of the sweating glass at the edge"
+      ]
     },
     {
       "id": "S11",
@@ -323,7 +384,12 @@
         "product",
         "counter"
       ],
-      "keyframe_prompt": "Pack shot: the exact can from the product reference standing alone and upright on the black slate counter, full label facing camera and undistorted, beaded with condensation, one large drop rolling down the silver half, a soft low side light and thin backlight, cool pre-dawn blue and warm bokeh behind. Large empty dark space in the upper third for a title. Nothing else on the counter."
+      "keyframe_prompt": "Pack shot: the exact can from the product reference standing alone and upright on the black slate counter, full label facing camera and undistorted, beaded with condensation, one large drop rolling down the silver half, a soft low side light and thin backlight, cool pre-dawn blue and warm bokeh behind. Large empty dark space in the upper third for a title. Nothing else on the counter.",
+      "dressing": [
+        "the faint pale water ring on the slate",
+        "warm brass bokeh",
+        "the fire escape silhouette softly in the window behind"
+      ]
     }
   ],
   "units": [
@@ -454,5 +520,85 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "18 to 26",
     "music_usd": 0.3
+  },
+  "world_bible": {
+    "lore": [
+      "Imani Brooks is a second-year public health grad student renting the top floor of a 1920s brick row house in West Philadelphia. Her qualifying exam is in six days.",
+      "The counter is a salvaged walnut slab from a closed neighbourhood bakery, topped with a honed black slate board; she oils the walnut every Sunday and the slate still carries a pale water ring from the first week.",
+      "She has kept the same ritual for 41 mornings in a row: 5am, one can over crushed ice, one page of pencil notes before the sun comes up. The notebook is the fifth Aldercroft notebook this semester.",
+      "The basalt ice bowl was her grandmother's; it is rough and pitted outside and polished smooth inside from decades of use.",
+      "The radiator knocks twice at 5:03 every morning; that is her cue to open the can."
+    ],
+    "locations": {
+      "counter": {
+        "foreground": [
+          "honed black slate with fine hairline scratches and a faint pale water ring",
+          "the small black basalt bowl of crushed ice, rough and pitted outside, polished inside",
+          "a polished steel ice scoop with a worn satin handle",
+          "a folded oatmeal linen tea towel with one frayed corner",
+          "a few loose glittering ice crystals melting into tiny beads on the slate"
+        ],
+        "midground": [
+          "an empty tall thin-walled clear glass with a faint fingerprint near the rim",
+          "a closed notebook with a blank kraft cover and a black elastic band, a half-length pencil with tooth marks lying on it",
+          "a small handmade stoneware cup holding more worn pencils",
+          "the oiled walnut edge of the counter with warm straight grain and one old knife nick",
+          "a sprig of rosemary in a small glass jar of water"
+        ],
+        "background": [
+          "a tall window with old wavy glass and cool blue pre-dawn light, the dark silhouette of a fire escape outside",
+          "a warm brass under-cabinet light strip glowing at the back",
+          "a white subway-tile backsplash with grey grout lines",
+          "open walnut shelves with stacked matte stoneware bowls",
+          "a black cast-iron pan hanging from a hook, softly out of focus"
+        ]
+      }
+    },
+    "personal_props": {
+      "imani": [
+        "small plain gold stud earrings",
+        "an oversized oatmeal knit sweater with a pulled thread at the right cuff",
+        "a black hair tie on her left wrist",
+        "a half-length pencil with tooth marks near the end",
+        "short natural unpainted nails with a faint graphite smudge on her little finger"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "icebowl",
+        "name": "Grandmother's basalt ice bowl",
+        "prop_prompt": "Photoreal macro prop reference on a plain mid-grey background, two views: a small round black basalt stone bowl, rough and pitted on the outside, polished glossy smooth on the inside, filled with glittering crushed ice, a polished steel ice scoop with a worn satin handle resting against it. No letters, no logos. Soft low side light and a thin backlight, ultra-crisp stone texture."
+      },
+      {
+        "id": "glass",
+        "name": "The tall thin glass",
+        "prop_prompt": "Photoreal macro prop reference on a plain mid-grey background: a tall thin-walled clear drinking glass with a slightly thickened base, filled with crystal clear ice cubes, fine condensation beads on the outside, one faint fingerprint near the rim. No letters, no logos, no pattern. Soft low side light and a thin backlight."
+      },
+      {
+        "id": "notebook",
+        "name": "The Aldercroft notebook",
+        "prop_prompt": "Photoreal prop reference on a plain mid-grey background, two views: a closed notebook with a plain blank kraft brown cover, rounded corners, a black elastic closure band and a worn spine; and the same notebook open with pages of soft grey pencil scribble shapes that are not real letters, a half-length yellow pencil with tooth marks. No readable text, no logos. Soft warm light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Aldercroft",
+        "mark": "a small embossed leaf shape blind-debossed in the kraft cover",
+        "colors": "kraft brown and black",
+        "appears_on": "the notebook cover only",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "5:02am on a Wednesday in February, dark outside with the first pre-dawn blue, frost at the window edges. Used: the notebook is half full, the pencil worn to half length, a faint water ring on the slate. Out of place: a single loose ice crystal melting on the slate, a hair tie left by the notebook.",
+    "sound_world": [
+      "a fingertip squeaking through condensation on aluminium",
+      "crushed ice shifting and tinkling in a stone bowl",
+      "the steel scoop scraping stone",
+      "a nail flick on the ring pull, then the crack and hiss",
+      "fizz popping at the opening",
+      "ice cracking as the pour hits it",
+      "the radiator knocking twice far away",
+      "pencil graphite scratching on paper"
+    ]
   }
 }

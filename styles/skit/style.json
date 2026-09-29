@@ -43,7 +43,10 @@
     "a mid-air dive rendered from a side angle can come back rotated: frame dives from the front at three-quarter angle, level horizon, normal gravity",
     "the hook shot came back with the absurd character tiny in the far background: say she stands large in the centre, knees up, about two metres from camera, and dominates the frame",
     "background extras in product inserts and pack shots stare at camera and pull focus (and can drift off-brief in casting): say empty blurred background with no people",
-    "even with 'large in the centre' the model kept her tiny when the prompt also said 'wide' and 'down the aisle': describe the framing by body coverage ('fills the frame from knees to cap') and never mention the depth of the room"
+    "even with 'large in the centre' the model kept her tiny when the prompt also said 'wide' and 'down the aisle': describe the framing by body coverage ('fills the frame from knees to cap') and never mention the depth of the room",
+    "a long cartoonish dressing list (fruit magnets, ribbons, balloons) tips the location plate into a flat illustration: open the plate prompt with photoreal live-action, a real photograph, not an illustration",
+    "prop reference sheets come back with small view labels and rulers printed on them: say no view labels, captions, rulers or scale bars",
+    "a location plate with a dressed desk in the foreground is copied into every keyframe, the same fan and pens blocking each shot: keep the plate foreground an open aisle and put the desk clutter in the midground"
   ],
   "negatives": [
     "no real brands, logos or sponsor names except the product",

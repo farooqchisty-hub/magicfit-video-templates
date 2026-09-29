@@ -43,7 +43,12 @@
     "scale drifts between shots (can is 3 storeys in one shot and 12 in the next): state the height in storeys in every prompt (six storeys)",
     "water and debris physics read as noise: one splash per shot, mid-ground, with direction stated",
     "the giant can floats above the fountain like a sticker: say its base sits in the fountain basin with water lapping the rim and a contact shadow",
-    "a two-location shot (avenue plus waterfront) comes back as a collage with an inset panel: say one single seamless photograph, no inset panels, and drop the avenue plate ref for that shot"
+    "a two-location shot (avenue plus waterfront) comes back as a collage with an inset panel: say one single seamless photograph, no inset panels, and drop the avenue plate ref for that shot",
+    "a fountain or plaza prop reference pulls the giant can down to fountain scale (it came back about 3 metres tall): leave the fountain reference off the landing shots and anchor scale against named neighbours (lid level with the sixth-floor windows, dwarfing lamp posts, trees and the cafe awning)",
+    "a creature reference sheet with a dark red hide turns the bulls brown: ask for bright saturated crimson like the bulls on the can, glossy with white highlights",
+    "world-depth dressing (benches, pigeons, dolphin spouts, cafe awning) sits in the foreground and edges; keep a clear column of sky and paving around the can so it stays the hero",
+    "a detailed plaza plate locks every plaza shot to the plate's own camera (the low hero angle came back as the same wide): for a shot whose angle differs sharply from the plate, drop the plate reference and describe the surroundings in text",
+    "a fountain with a tall centrepiece statue competes with the can and pushes it behind the fountain: the plate uses a wide, low, open basin with nothing in the middle"
   ],
   "negatives": [
     "no real brands, logos or signage except the product",

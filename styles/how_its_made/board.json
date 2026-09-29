@@ -34,7 +34,7 @@
     {
       "id": "void",
       "name": "Inside the can: explainer void",
-      "plate_prompt": "Stylized 3D animation render, vertical 9:16: a seamless pale grey-blue studio void with a soft gradient floor and gentle three-point light, a single softly glowing circular platform in the centre, lots of empty space. Clean, calm, premium explainer look. No objects, no text."
+      "plate_prompt": "Stylized 3D animation render, vertical 9:16: a seamless pale grey-blue studio void with a soft gradient floor and gentle three-point light, a single softly glowing circular platform in the centre, lots of empty space. Clean, calm, premium explainer look. No objects, no text. The glowing platform is completely empty: no can, no product, no container, nothing standing on it."
     }
   ],
   "adaptation": {
@@ -65,6 +65,10 @@
     "consumable": {
       "moment": "the refill is sliced open and its contents are explained piece by piece",
       "scale": "cutaway, hand scale"
+    },
+    "swap_props": {
+      "moment": "The molecule set and the rejected sugar cube are product-specific: swap them per product for its real ingredients and the one thing it leaves out. Rosa, the truck stop, the cab and the void stay.",
+      "scale": "props only"
     }
   },
   "beats": [
@@ -202,9 +206,16 @@
       "caption": "This tastes sweet. But there's no sugar in it.",
       "refs": [
         "product",
-        "void"
+        "void",
+        "sugarcube"
       ],
-      "keyframe_prompt": "In the pale grey-blue void from the location plate, the exact can from the product reference stands upright on the glowing platform, rendered realistic with its full label facing camera and undistorted, with a clean vertical cutaway slice removed from its right side so glowing pale golden liquid shows behind a clear glass-like wall. To the upper right, clearly separated from the can by empty space, a large stylized white sugar cube is caught mid bounce, flying away from the can, with a small curved motion arc and a soft ripple on the glass where it hit. The cube does not touch or enter the can. No letters or numbers anywhere except the can's own label."
+      "keyframe_prompt": "In the pale grey-blue void from the location plate, the exact can from the product reference stands upright on the glowing platform, rendered realistic with its full label facing camera and undistorted, with a clean vertical cutaway slice removed from its right side so glowing pale golden liquid shows behind a clear glass-like wall. High in the upper right corner of the frame, far from the can with a wide gap of empty space between them, a large stylized white sugar cube is caught mid bounce, flying away from the can, with a short motion arc trailing to the upper right, away from the can, never crossing or overlapping the can and a soft ripple on the glass where it hit. The cube does not touch or enter the can. No letters or numbers anywhere except the can's own label.",
+      "dressing": [
+        "the chipped corner of the flying sugar cube",
+        "faint concentric light rings on the floor around the platform",
+        "tiny bubbles rising in the glowing liquid behind the cutaway",
+        "the far arc of five small ingredient-coloured pedestals, soft and out of focus"
+      ]
     },
     {
       "id": "S02",
@@ -222,7 +233,14 @@
         "product",
         "truckstop"
       ],
-      "keyframe_prompt": "Stylized 3D animation render: inside the cab of a big rig at night, Rosa, the woman from the character sheet, in her plain navy cap and red and navy flannel, sitting in the driver's seat and cracking open the exact can from the product reference at chest height, a small puff of mist from the opening, label facing camera and undistorted; warm sodium light from the truck stop canopy through the windshield, navy night outside. Dashboard screens blank. The can is realistic and exact inside the stylized world."
+      "keyframe_prompt": "Stylized 3D animation render: inside the cab of a big rig at night, Rosa, the woman from the character sheet, in her plain navy cap and red and navy flannel, sitting in the driver's seat and cracking open the exact can from the product reference at chest height, a small puff of mist from the opening, label facing camera and undistorted; warm sodium light from the truck stop canopy through the windshield, navy night outside. Dashboard screens blank. The can is realistic and exact inside the stylized world.",
+      "dressing": [
+        "the small brass saint medal swinging from the rear-view mirror",
+        "the dented steel travel mug with red tape on its handle in the cup holder",
+        "reading glasses in her flannel pocket with one taped arm",
+        "a bug-spattered windshield glowing with orange canopy light",
+        "her turquoise ring on the hand holding the can"
+      ]
     },
     {
       "id": "S03",
@@ -238,7 +256,12 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Stylized 3D animation render: extreme close-up top-down on the top of the exact can from the product reference, the red ring pull lifted, the opening large in the centre of frame, and the silver walls of the can turning translucent like frosted glass so a glowing pale golden liquid full of bubbles is visible inside, a sense of the camera about to fly in. Red rim band visible at the edge. No letters generated except the can's own printing."
+      "keyframe_prompt": "Stylized 3D animation render: extreme close-up top-down on the top of the exact can from the product reference, the red ring pull lifted, the opening large in the centre of frame, and the silver walls of the can turning translucent like frosted glass so a glowing pale golden liquid full of bubbles is visible inside, a sense of the camera about to fly in. Red rim band visible at the edge. No letters generated except the can's own printing.",
+      "dressing": [
+        "a thin frost ring around the opening",
+        "tiny bubbles climbing the frosted inner walls",
+        "cold droplets on the silver lid"
+      ]
     },
     {
       "id": "S04",
@@ -252,9 +275,15 @@
       "audio": "soft blip as it arrives, low hum, bubbles",
       "caption": "First, caffeine. It helps improve concentration and alertness.",
       "refs": [
-        "void"
+        "void",
+        "molecules"
       ],
-      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden sparkling liquid with soft bubbles drifting, a single glossy amber ball-and-stick molecule model, two joined rings with small spheres attached, floating centred in the frame and glowing warmly, with lots of empty space above and below it. Clean soft light. No letters, numbers or formulas anywhere."
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden sparkling liquid with soft bubbles drifting, a single glossy amber ball-and-stick molecule model, two joined rings with small spheres attached, floating centred in the frame and glowing warmly, with lots of empty space above and below it. Clean soft light. No letters, numbers or formulas anywhere.",
+      "dressing": [
+        "tiny bubbles drifting past the molecule",
+        "the amber pedestal in the far arc now glowing",
+        "soft concentric floor rings far below"
+      ]
     },
     {
       "id": "S05",
@@ -268,9 +297,15 @@
       "audio": "four rising blips, one per vitamin, a soft chime",
       "caption": "Then B vitamins: niacin, B2, B6, B12. They help reduce tiredness.",
       "refs": [
-        "void"
+        "void",
+        "molecules"
       ],
-      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden sparkling liquid, four small glossy ball-and-stick molecule models, one coral, one lime green, one violet, one cyan, arranged in an evenly spaced ring orbiting the centre of the frame, each with a soft matching glow, empty space around each for labels. No letters, numbers or formulas anywhere."
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden sparkling liquid, four small glossy ball-and-stick molecule models, one coral, one lime green, one violet, one cyan, arranged in an evenly spaced ring orbiting the centre of the frame, each with a soft matching glow, empty space around each for labels. No letters, numbers or formulas anywhere.",
+      "dressing": [
+        "tiny bubbles in the golden liquid",
+        "four of the far pedestals glowing coral, lime, violet and cyan",
+        "a soft ring light reflection overhead"
+      ]
     },
     {
       "id": "S06",
@@ -284,9 +319,15 @@
       "audio": "crystalline tinkle, fizzing dissolve",
       "caption": "Plus a thousand milligrams of taurine.",
       "refs": [
-        "void"
+        "void",
+        "molecules"
       ],
-      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden liquid, a small cluster of pearl white faceted crystals in the centre of frame dissolving into spiralling sparkling white swirls and tiny bubbles, soft light, empty space around it. No letters, numbers or formulas anywhere."
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden liquid, a small cluster of pearl white faceted crystals in the centre of frame dissolving into spiralling sparkling white swirls and tiny bubbles, soft light, empty space around it. No letters, numbers or formulas anywhere.",
+      "dressing": [
+        "sparkling white spiral trails",
+        "tiny bubbles",
+        "a faint pearl glow on the liquid around the crystals"
+      ]
     },
     {
       "id": "S07",
@@ -300,9 +341,17 @@
       "audio": "two sweet chimes, a muffled knock of the cube on the glass",
       "caption": "And the sweet? Sucralose and acesulfame K. Not sugar.",
       "refs": [
-        "void"
+        "void",
+        "molecules",
+        "sugarcube"
       ],
-      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden liquid, two glossy ball-and-stick molecule models side by side in the centre, one soft pink and one mint green, glowing; to the right the curved clear glass-like wall of the can interior, and on the other side of that wall outside in the pale grey-blue void a large stylized white sugar cube pressed against the glass, shut out. No faces on the cube, no letters, numbers or formulas anywhere."
+      "keyframe_prompt": "Stylized 3D animation render: inside a glowing pale golden liquid, two glossy ball-and-stick molecule models side by side in the centre, one soft pink and one mint green, glowing; to the right the curved clear glass-like wall of the can interior, and on the other side of that wall outside in the pale grey-blue void a large stylized white sugar cube pressed against the glass, shut out. No faces on the cube, no letters, numbers or formulas anywhere.",
+      "dressing": [
+        "the sugar cube's chipped corner pressed against the glass",
+        "loose sugar grains sliding down the outside of the wall",
+        "a smudge on the glass where the cube hit",
+        "bubbles on the inside of the wall"
+      ]
     },
     {
       "id": "S08",
@@ -319,7 +368,13 @@
         "product",
         "void"
       ],
-      "keyframe_prompt": "The exact can from the product reference, rendered realistic and complete, standing upright on the softly glowing circular platform in the pale grey-blue void from the location plate, label square to camera and perfectly undistorted: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls with the gold sun, SUGARFREE in spaced red capitals, the red WITHOUT SUGAR band. Faint fading x-ray glow lines around its edges as if it just reassembled. Condensation droplets. Premium, centred, empty space above."
+      "keyframe_prompt": "The exact can from the product reference, rendered realistic and complete, standing upright on the softly glowing circular platform in the pale grey-blue void from the location plate, label square to camera and perfectly undistorted: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls with the gold sun, SUGARFREE in spaced red capitals, the red WITHOUT SUGAR band. Faint fading x-ray glow lines around its edges as if it just reassembled. Condensation droplets. Premium, centred, empty space above.",
+      "dressing": [
+        "faint fading x-ray glow lines around the can",
+        "condensation droplets",
+        "the far arc of five pedestals now all lit",
+        "soft concentric floor rings"
+      ]
     },
     {
       "id": "S09",
@@ -334,9 +389,17 @@
       "caption": "",
       "refs": [
         "rosa",
-        "truckstop"
+        "truckstop",
+        "rig"
       ],
-      "keyframe_prompt": "Stylized 3D animation render, from low behind a big rig with a plain red cab and blank trailer driving away down an empty straight highway at night toward a thin orange line of dawn on the horizon, all wheels on the road, the side mirror showing Rosa, the woman from the character sheet, smiling and alert in her navy cap. Upright vertical composition, level horizon, the road runs from bottom to the centre of the frame. All signs blank."
+      "keyframe_prompt": "Stylized 3D animation render, from low behind a big rig with a plain red cab and blank trailer driving away down an empty straight highway at night toward a thin orange line of dawn on the horizon, all wheels on the road, the side mirror showing Rosa, the woman from the character sheet, smiling and alert in her navy cap. Upright vertical composition, level horizon, the road runs from bottom to the centre of the frame. All signs blank.",
+      "dressing": [
+        "black mud flaps with small silver crescent moon shapes",
+        "five amber clearance lights on the cab roof, one unlit",
+        "the glowing truck stop canopy shrinking far behind",
+        "wooden telephone poles along the road",
+        "mesa silhouettes against the thin orange dawn"
+      ]
     },
     {
       "id": "S10",
@@ -351,9 +414,16 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "void"
+        "void",
+        "molecules"
       ],
-      "keyframe_prompt": "The exact can from the product reference, realistic, upright on the glowing platform in the pale grey-blue void, label facing camera and undistorted across its front, only the far right edge of the can cut away to show a sliver of glowing pale golden liquid, and small glossy molecule models (one amber, one coral, one lime, one violet, one cyan) orbiting around the can in a loose ring. Large empty space in the upper third for a title. No letters or numbers anywhere except the can's own label."
+      "keyframe_prompt": "The exact can from the product reference, realistic, upright on the glowing platform in the pale grey-blue void, label facing camera and undistorted across its front, only the far right edge of the can cut away to show a sliver of glowing pale golden liquid, and small glossy molecule models (one amber, one coral, one lime, one violet, one cyan) orbiting around the can in a loose ring. Large empty space in the upper third for a title. No letters or numbers anywhere except the can's own label.",
+      "dressing": [
+        "the molecule models orbiting in a loose ring",
+        "the far arc of pedestals all lit",
+        "faint floor rings",
+        "a few rising bubbles"
+      ]
     }
   ],
   "units": [
@@ -523,5 +593,115 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "16 to 24",
     "music_usd": 1.0
+  },
+  "world_bible": {
+    "lore": [
+      "Rosa Delgado has driven for 22 years. Since her husband Manny died in 2021 she runs Delgado Freight alone, one truck out of El Paso, and the red cab is the same 2009 rig he bought used.",
+      "Tonight she is hauling a reefer trailer of avocados from Laredo to Kansas City, 940 miles, due on the dock at 7am. At Mile 212 she is nine hours into an eleven hour driving limit.",
+      "Mile 212 Stop is a 1968 fuel island with a six stool diner. The owner, Walt, has not turned the canopy lights off since the night of the 1996 blizzard, so drivers call it the lighthouse.",
+      "The inside of the can is imagined as a calm lab: one glowing platform for the can, and a far arc of five small pedestals, one per ingredient colour, waiting to be lit as each ingredient is shown.",
+      "The sugar cube is the only thing in this world that never gets a pedestal."
+    ],
+    "materials_rule": "Every object in the world is a soft stylized 3D model: rounded bevels on every edge, matte painted plastic and satin painted metal, simplified shapes with specific wear painted on as scuffs, chips, stickers-as-shapes and bug spatter; liquids glow softly from inside; nothing photoreal and no readable text anywhere. The can alone is photoreal and exact.",
+    "locations": {
+      "truckstop": {
+        "foreground": [
+          "oil-stained concrete with a painted yellow parking stripe worn down to patches",
+          "a rounded red fuel pump with a blank glowing display and a green diesel nozzle hanging in its holster, one drip at the tip",
+          "a squeegee standing in a dented blue washer-fluid bucket clipped to the pump island",
+          "a shallow puddle reflecting the orange canopy lights",
+          "a dry tumbleweed caught against the base of the pump island"
+        ],
+        "midground": [
+          "the plain red big rig cab, front three-quarter, with a chrome grille and a small chrome crescent moon hood ornament",
+          "a row of five amber clearance lights along the cab roof, one of them out",
+          "a bug-spattered windshield with a wiper parked half way",
+          "black mud flaps with a small painted silver crescent moon shape",
+          "the diner's long lit window with a single round red stool visible through it",
+          "a dented white ice chest by the diner door with a brick on its lid"
+        ],
+        "background": [
+          "a tall pole sign glowing plain warm white with no markings",
+          "the empty two-lane highway running straight to a dark horizon",
+          "a single amber traffic light blinking over the junction",
+          "a line of wooden telephone poles sagging with wire",
+          "flat-topped mesa silhouettes against a navy sky full of stars and a thin crescent moon"
+        ]
+      },
+      "void": {
+        "foreground": [
+          "faint concentric light rings on the pale floor around the platform",
+          "a slim brushed aluminium rim around the base of the glowing platform",
+          "a soft glossy reflection of the platform glow on the floor",
+          "a low thin haze lying just above the floor"
+        ],
+        "midground": [
+          "tiny soft bubbles drifting upward through the empty air",
+          "a thin ring light hanging high above, reflected as a soft ellipse on the floor",
+          "a few small clear glass-like droplets hovering far to either side",
+          "faint drifting specks of light like dust in a beam"
+        ],
+        "background": [
+          "a far arc of five small softly glowing pedestals, one amber, one coral, one lime, one violet, one cyan, small and out of focus",
+          "a faint floor grid fading into the gradient",
+          "a gentle curve where the floor meets the wall, like an infinity cove",
+          "a thin brushed aluminium rail curving along the far wall",
+          "a second, dimmer ring light far behind, reflected in the floor"
+        ]
+      }
+    },
+    "personal_props": {
+      "rosa": [
+        "a small brass saint medal on a bead chain hanging from the rear-view mirror, Manny's, worn smooth by thumbs",
+        "a dented stainless travel mug with a strip of red tape around the handle so nobody at the depot takes it",
+        "reading glasses tucked in her flannel shirt pocket, one arm bent and taped",
+        "a hand-knitted navy seat cushion gone flat in the middle",
+        "a turquoise ring on her right hand that clicks against the steering wheel"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "molecules",
+        "name": "The ingredient molecule set",
+        "prop_prompt": "Stylized 3D prop reference sheet on a plain mid-grey background: a lineup of glossy ball-and-stick molecule models in soft rounded Pixar-lite style, left to right: one larger amber model made of two joined rings with small spheres, four smaller models in coral, lime green, violet and cyan, a small cluster of pearl white faceted crystals, and two models in soft pink and mint green. Each glows gently in its own colour. Clean studio light, soft shadows. No letters, numbers, formulas or labels anywhere. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      },
+      {
+        "id": "sugarcube",
+        "name": "The rejected sugar cube",
+        "prop_prompt": "Stylized 3D prop reference sheet on a plain mid-grey background, three views of one large white sugar cube in soft rounded Pixar-lite style: slightly rounded edges, a sparkling granular faceted surface, one small chip missing from a top corner, a few loose sugar grains around its base. No face, no letters or marks. Clean studio light, soft shadow. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      },
+      {
+        "id": "rig",
+        "name": "Delgado Freight cab",
+        "prop_prompt": "Stylized 3D prop reference sheet on a plain mid-grey background: a big rig truck cab in soft rounded Pixar-lite style, shown front and rear three-quarter, glossy red paint with a few chips on the bumper, a chrome grille, a small chrome crescent moon hood ornament, five amber clearance lights on the roof with one unlit, bug spatter on the windshield, black mud flaps each with a small silver crescent moon shape. Upright, all wheels on the ground. No letters, numbers or logos anywhere. The object is isolated on a seamless plain mid-grey paper backdrop with nothing else in frame: no room, no set, no furniture, no product cans, no captions, no view labels, no text of any kind."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Delgado Freight",
+        "mark": "a silver crescent moon over a single straight road line",
+        "colors": "red and silver",
+        "appears_on": "the cab doors, mud flaps and hood ornament (the crescent alone)",
+        "text_in_post": "the words DELGADO FREIGHT on the cab door in S02 and S09 only, added in post"
+      },
+      {
+        "name": "Mile 212 Stop",
+        "mark": "a warm white circle with a single road chevron",
+        "colors": "sodium orange and warm white",
+        "appears_on": "the pole sign and pump tops, always blank in the model",
+        "text_in_post": "optional MILE 212 on the pole sign in S09"
+      }
+    ],
+    "wear_and_time": "2:07am on a dry, cold desert night after a windy evening. The rig has 600 miles of bugs on the windshield, the diesel nozzle is still dripping from her fill-up, the diner is on its fourth pot of coffee and one roof clearance light has blown. Out of place: a tumbleweed jammed against the pump island. Inside the can everything is spotless until the ingredients arrive.",
+    "sound_world": [
+      "the buzz of the canopy lights",
+      "a diesel engine idling with a low clatter",
+      "the clunk of the fuel nozzle shutting off",
+      "wind hissing across the empty lot",
+      "the crack and hiss of the can opening",
+      "soft fizz and bubble pops inside the void",
+      "a glassy ping as the sugar cube bounces off the can wall",
+      "air brakes sighing as the rig pulls away"
+    ]
   }
 }

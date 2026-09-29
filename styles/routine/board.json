@@ -29,7 +29,7 @@
     {
       "id": "apartment",
       "name": "Small apartment kitchen and entry at 4:58am",
-      "plate_prompt": "Creator video frame, vertical 9:16, upright composition, level horizon: a small tidy one-bedroom apartment kitchen at 4:58am, oak open shelves, cream walls, black matte handles, warm amber under-cabinet lights on, a compact white fridge, a window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, a short entry hall with a hook holding a plain black running vest and a plain black headlamp, a small round mirror by the door. Clean crisp creator-video grade, no people, no readable text, no logos."
+      "plate_prompt": "Creator video frame, vertical 9:16, upright composition, level horizon: a small lived-in one-bedroom apartment kitchen, a runner's home with gear and dishes everywhere at 4:58am, oak open shelves, cream walls, black matte handles, warm amber under-cabinet lights on, a compact white fridge, a window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, a short entry hall with a hook holding a plain black running vest and a plain black headlamp, a small round mirror by the door. Detail is densest on the shelves, walls and entry, and the counter space in front of the window stays clear. Crisp creator-video grade, no people, no readable text, no logos."
     },
     {
       "id": "ridge",
@@ -65,6 +65,10 @@
     "consumable": {
       "moment": "step four: the refill or pack from the cupboard (gel, electrolyte tab, bar), torn and used at the counter",
       "scale": "hand"
+    },
+    "product_adjacent_props": {
+      "moment": "the fridge door around the product (jars, carton, blueberries) and the counter spot where step four happens are generic and swap per product; the shoes, headlamp, stone jar and map are his and stay",
+      "scale": "swap per product"
     }
   },
   "beats": [
@@ -220,7 +224,13 @@
       "refs": [
         "wes"
       ],
-      "keyframe_prompt": "Medium close-up from a small tripod on a nightstand of Wes, the man from the character sheet, in bed in a dark bedroom at 4:58am, propped up on one elbow under a cream duvet, hair messy from sleep, looking into the camera with a sleepy half smile mid-whisper. The only light: a warm bedside lamp just switched on and deep blue pre-dawn light through a window behind him showing dark pine silhouettes and a mountain ridge, no city. The nightstand holds only the lamp and a glass of water: no clock, no screens with numbers, no tripod visible (we are seeing through the tripod camera). A phone lies face down on the sheets with a faint glow around its edge. Clean uncluttered dark area in the upper left of the frame for a step sticker added later. No readable text, no logos."
+      "keyframe_prompt": "Medium close-up from a camera at nightstand height of Wes, the man from the character sheet, in bed in a dark bedroom at 4:58am, propped up on one elbow under a cream duvet, hair messy from sleep, looking into the camera with a sleepy half smile mid-whisper. The only light: a warm bedside lamp just switched on and deep blue pre-dawn light through a window behind him showing dark pine silhouettes and a mountain ridge, no city. The nightstand holds the lamp, a glass of water and a paperback with a plain cover, no clock, no screens with numbers, no stand or camera gear anywhere in the frame. A phone lies face down on the sheets with a faint glow around its edge. Clean uncluttered dark area in the upper left of the frame for a step sticker added later. No readable text, no logos.",
+      "dressing": [
+        "a glass of water with a ring on the nightstand and a paperback with a plain cover lying face down",
+        "a grey tabby cat curled asleep at the foot of the cream duvet",
+        "a pair of wool running socks on the floorboards",
+        "the orange neck gaiter hanging on the bedpost"
+      ]
     },
     {
       "id": "S02",
@@ -236,7 +246,12 @@
       "refs": [
         "apartment"
       ],
-      "keyframe_prompt": "Floor-level close-up, camera on the oak floorboards beside a bed: a man's two bare feet just landing flat on the floor, ankles and the hem of black shorts visible, the edge of a cream duvet hanging above, warm lamp light from one side and blue window light on the floorboards. Upright vertical composition, level floor line. Crisp focus on the feet. No text, no logos."
+      "keyframe_prompt": "Floor-level close-up, camera on the oak floorboards beside a bed: a man's two bare feet just landing flat on the floor, ankles and the hem of black shorts visible, the edge of a cream duvet hanging above, warm lamp light from one side and blue window light on the floorboards. Upright vertical composition, level floor line. Crisp focus on the feet. No text, no logos.",
+      "dressing": [
+        "a strip of blue kinesiology tape down his left shin",
+        "a foam roller and a lacrosse ball on the worn wool rug",
+        "a pair of wool running socks tossed by the bed"
+      ]
     },
     {
       "id": "S03",
@@ -253,7 +268,13 @@
         "wes",
         "apartment"
       ],
-      "keyframe_prompt": "Medium close-up at counter height of Wes, the man from the character sheet, in a faded charcoal long-sleeve top, filling a tall clear glass of water at the kitchen tap from the apartment location reference, the window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, warm amber under-cabinet light on his face and hands. Calm, sleepy. No other drinks, bottles or cans in frame. No text, no logos."
+      "keyframe_prompt": "Medium close-up at counter height of Wes, the man from the character sheet, in a faded charcoal long-sleeve top, filling a tall clear glass of water at the kitchen tap from the apartment location reference, the window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, warm amber under-cabinet light on his face and hands. Calm, sleepy. No other drinks, bottles or cans in frame. No text, no logos.",
+      "dressing": [
+        "the mason jar of grey ridge stones on the counter",
+        "three unwashed mugs by the sink, one with a chipped handle",
+        "a sprig of golden larch in a jam jar on the windowsill",
+        "a film of condensation at the bottom of the window glass"
+      ]
     },
     {
       "id": "S04",
@@ -267,9 +288,17 @@
       "audio": "lace pulled tight, a snap",
       "caption": "Three: double knot. Always",
       "refs": [
-        "apartment"
+        "apartment",
+        "shoes",
+        "headlamp"
       ],
-      "keyframe_prompt": "Straight top-down overhead view onto an oak floor: a man's two hands pulling a double knot tight on the laces of a plain grey trail running shoe with no logos or text, his knee in black shorts at the edge of frame, warm lamp light, crisp detail on the laces. The floorboards run parallel to the sides of the frame. No text, no logos."
+      "keyframe_prompt": "Straight top-down overhead view onto an oak floor: his right foot is inside the shoe, flat on the floor, and a man's two hands pull a double knot tight on the laces of a mud-caked plain grey trail running shoe with no logos or text, exactly the shoe from the prop reference, his knee in black shorts at the edge of frame, warm lamp light, crisp detail on the laces. The floorboards run parallel to the sides of the frame. No text, no logos. The shoe is visibly caked with dried brown mud on the toe and sides.",
+      "dressing": [
+        "dried brown mud caked on the grey shoe and frayed mesh at the toe",
+        "the shoe resting on a flattened brown paper grocery bag",
+        "the duct-taped black headlamp lying beside the shoe on the oak floor",
+        "the blue kinesiology tape on his shin"
+      ]
     },
     {
       "id": "S05",
@@ -287,7 +316,13 @@
         "wes",
         "apartment"
       ],
-      "keyframe_prompt": "Locked-off shot from inside a compact white fridge looking out at the open door: the exact can from the product reference stands upright alone in the door shelf, label facing camera and undistorted, cold condensation beads on it, lit bright white by the fridge light so it is the brightest object in frame. Beyond the open door, Wes, the man from the character sheet, in his charcoal top, reaches one hand toward the can, his face soft in the background in warm kitchen light. The only other things in the door are two glass jars of homemade food and a plain white carton with no text. Exactly one can. No readable text except the can's own label, no other logos."
+      "keyframe_prompt": "Locked-off shot from inside a compact white fridge looking out at the open door: the exact can from the product reference stands upright alone in the door shelf, label facing camera and undistorted, cold condensation beads on it, lit bright white by the fridge light so it is the brightest object in frame. Beyond the open door, Wes, the man from the character sheet, in his charcoal top, reaches one hand toward the can, his face soft in the background in warm kitchen light. The only other things in the door are two glass jars of homemade food and a plain white carton with no text. Exactly one can. No readable text except the can's own label, no other logos.",
+      "dressing": [
+        "two glass jars of homemade food and a plain white carton in the door",
+        "a plain glass tub of blueberries on the top shelf",
+        "a butter dish and an egg tray with six brown eggs",
+        "the kitchen behind him with oak shelves and mismatched mugs"
+      ]
     },
     {
       "id": "S06",
@@ -305,7 +340,13 @@
         "product",
         "apartment"
       ],
-      "keyframe_prompt": "Medium close-up at counter height of Wes, the man from the character sheet, standing at the oak kitchen counter at 5am, holding the exact can from the product reference at chest height just after a sip, opened, upright, label facing camera and undistorted, condensation on it, a small satisfied breath. Warm amber under-cabinet light on the can and his face, the deep blue pre-dawn window behind him. His grey trail shoes are on. Exactly one can. No text, no other logos."
+      "keyframe_prompt": "Medium close-up at counter height of Wes, the man from the character sheet, standing at the oak kitchen counter at 5am, holding the exact can from the product reference at chest height just after a sip, opened, upright, label facing camera and undistorted, condensation on it, a small satisfied breath. Warm amber under-cabinet light on the can and his face, the deep blue pre-dawn window behind him. His grey trail shoes are on. Exactly one can. No text, no other logos.",
+      "dressing": [
+        "the paper training grid taped to the fridge behind him, rows of boxes crossed out in black marker",
+        "the pour-over cone on its glass carafe",
+        "the mason jar of ridge stones at the edge of the counter",
+        "mismatched hand-thrown mugs on the oak shelves"
+      ]
     },
     {
       "id": "S07",
@@ -322,7 +363,13 @@
         "wes",
         "apartment"
       ],
-      "keyframe_prompt": "Medium close-up of Wes, the man from the character sheet, in the apartment entry hall at 5am, now wearing a plain black running vest with no logos over his charcoal top, pressing the button on a plain black headlamp strapped over his forehead, the white beam just switched on and flaring softly toward the camera, eyes bright and alert. Warm hall light, a dark doorway behind. No mirror in frame. No text, no logos."
+      "keyframe_prompt": "Medium close-up of Wes, the man from the character sheet, in the apartment entry hall at 5am, now wearing a plain black running vest with no logos over his charcoal top, pressing the button on a plain black headlamp strapped over his forehead, the white beam just switched on and flaring softly toward the camera, eyes bright and alert. Warm hall light, a dark doorway behind. No mirror in frame. No text, no logos.",
+      "dressing": [
+        "a strip of silver duct tape on the headlamp battery case",
+        "a faded rain shell and a second black vest on the entry hooks",
+        "the hand-drawn topographic map pinned by the door with an orange route line",
+        "the orange neck gaiter around his neck"
+      ]
     },
     {
       "id": "S08",
@@ -339,7 +386,13 @@
         "wes",
         "apartment"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon: wide shot from inside a small apartment entry looking out through an open front door: Wes, the man from the character sheet, seen from behind in a plain black running vest and black shorts, stepping out onto a gravel path into deep blue pre-dawn darkness with pine silhouettes and low mist, the white beam of his headlamp cutting ahead of him, warm hall light spilling out around him onto the gravel. No text, no logos."
+      "keyframe_prompt": "Upright vertical composition, level horizon: wide shot from inside a small apartment entry looking out through an open front door: Wes, the man from the character sheet, seen from behind in a plain black running vest and black shorts, stepping out onto a gravel path into deep blue pre-dawn darkness with pine silhouettes and low mist, the white beam of his headlamp cutting ahead of him, warm hall light spilling out around him onto the gravel. No text, no logos.",
+      "dressing": [
+        "a bicycle wheel leaning on the hall wall with a small tyre-patch tin",
+        "the rain shell left on the hook",
+        "a doormat worn through at the centre",
+        "the warm hall light on the gravel and low mist beyond"
+      ]
     },
     {
       "id": "S09",
@@ -353,9 +406,16 @@
       "audio": "fast footsteps on rock, hard breathing",
       "caption": "Seven: the climb",
       "refs": [
-        "ridge"
+        "ridge",
+        "shoes"
       ],
-      "keyframe_prompt": "One continuous full-bleed photo, uniformly sharp, no motion blur at all, no borders, no side panels. Upright vertical composition, level horizon: first-person chest-height view looking up a steep rocky mountain switchback trail in the last of the blue pre-dawn light, a white headlamp beam lighting rocks and roots just ahead, the tips of two plain grey trail shoes at the bottom of the frame, larch trees on either side, the sky at the top of the trail beginning to glow pale orange. A small plain orange diamond marker on a post, no text. No logos."
+      "keyframe_prompt": "One continuous full-bleed photo, uniformly sharp, no motion blur at all, no borders, no side panels. Upright vertical composition, level horizon: first-person chest-height view looking up a steep rocky mountain switchback trail in the last of the blue pre-dawn light, a white headlamp beam lighting rocks and roots just ahead, the muddy tips of the two plain grey trail shoes from the prop reference at the bottom of the frame, larch trees on either side, the sky at the top of the trail beginning to glow pale orange. A small plain orange diamond marker on a post, no text. No logos.",
+      "dressing": [
+        "a thin crust of frost on shaded rocks",
+        "rust-orange lichen on the granite",
+        "exposed roots across the trail",
+        "the plain orange diamond marker on a weathered silver post"
+      ]
     },
     {
       "id": "S10",
@@ -372,7 +432,13 @@
         "wes",
         "ridge"
       ],
-      "keyframe_prompt": "Upright vertical composition, level horizon: wide shot from a tripod on a rock of Wes, the man from the character sheet, standing small in the lower third on a silver-grey granite ridge top, seen from behind and slightly to the side, hands on hips, plain black running vest, headlamp now off and pushed up on his forehead, catching his breath. The sun is just breaking over layered blue mountains ahead, a valley full of golden low cloud below, golden larch trees at the frame edge, warm rim light on his shoulders. Standing on the ground, normal gravity. No text, no logos."
+      "keyframe_prompt": "Upright vertical composition, level horizon: wide shot from a tripod on a rock of Wes, the man from the character sheet, standing small in the lower third on a silver-grey granite ridge top, seen from behind and slightly to the side, hands on hips, plain black running vest, headlamp now off and pushed up on his forehead, catching his breath. The sun is just breaking over layered blue mountains ahead, a valley full of golden low cloud below, golden larch trees at the frame edge, warm rim light on his shoulders. Standing on the ground, normal gravity. No text, no logos.",
+      "dressing": [
+        "the knee-high summit cairn of grey stones beside him",
+        "a bleached dead pine snag with a raven perched on it",
+        "a tiny wooden fire lookout on a far peak",
+        "the orange neck gaiter around his neck"
+      ]
     },
     {
       "id": "S11",
@@ -387,9 +453,16 @@
       "caption": "Put step four in your fridge. Wiiings without sugar",
       "refs": [
         "product",
-        "apartment"
+        "apartment",
+        "stone_jar"
       ],
-      "keyframe_prompt": "Locked-off shot from inside a compact white fridge looking out at the open door: the exact can from the product reference stands upright alone in the door shelf, centred, label facing camera and undistorted, condensation beads on it, lit bright white by the fridge light. Beyond the open door, the empty warm-lit apartment kitchen in soft focus with golden morning light now coming through the window. Two glass jars and a plain white carton with no text beside the can. Clean area above the can for a title added later. Exactly one can. No person, no readable text except the can's own label."
+      "keyframe_prompt": "Locked-off shot from inside a compact white fridge looking out at the open door: the exact can from the product reference stands upright alone in the door shelf, centred, label facing camera and undistorted, condensation beads on it, lit bright white by the fridge light. Beyond the open door, the empty warm-lit apartment kitchen in soft focus with golden morning light now coming through the window. Two glass jars and a plain white carton with no text beside the can. Clean area above the can for a title added later. Exactly one can. No person, no readable text except the can's own label.",
+      "dressing": [
+        "two glass jars of homemade food and a plain white carton beside the can",
+        "a plain glass tub of blueberries on the shelf above",
+        "the mason jar of ridge stones on the counter beyond, catching the gold light",
+        "the three unwashed mugs still by the sink beyond, rim-lit gold"
+      ]
     }
   ],
   "units": [
@@ -535,5 +608,112 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "18 to 26",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Wes Tanaka works the repair counter at the only bike shop in Pinecrest Valley, which opens at 9. If the ridge is going to happen, it happens before work.",
+      "He is in week 12 of a 16-week plan for his first 50k, the Larch Ridge Ultra on the second Saturday of October. The plan is a hand-drawn grid taped to the fridge, eleven rows crossed out in black marker.",
+      "He has topped Larch Ridge 147 times and brings one small grey stone down from the summit cairn each time. The jar by the sink is nearly full.",
+      "He has rented the one-bedroom above a closed hardware store for six years. The radiator clanks for the first time each autumn, and it started this week.",
+      "Miso, a 14-year-old grey tabby, sleeps on the arm of the couch and does not get up for anyone before 7."
+    ],
+    "locations": {
+      "apartment": {
+        "foreground": [
+          "a pair of mud-caked grey trail shoes on a flattened brown paper grocery bag by the door, laces still knotted",
+          "a glass mason jar almost full of small grey ridge stones on the counter by the sink",
+          "a foam roller and a lacrosse ball on a worn wool rug",
+          "three unwashed ceramic mugs by the sink, one with a chipped handle"
+        ],
+        "midground": [
+          "a paper training grid taped to the white fridge with small round magnets, rows of hand-drawn boxes, most crossed out in black marker, no words",
+          "oak open shelves with mismatched hand-thrown mugs, a jar of oats and a jar of honey with a wooden dipper",
+          "a pour-over coffee cone on a glass carafe with yesterday's grounds still in the filter",
+          "two plain black running vests and a faded rain shell on the entry hooks",
+          "a hand-drawn topographic map of the valley pinned by the door, one route traced in orange highlighter",
+          "a bicycle wheel leaning against the hall wall with a small tyre-patch tin on the floor",
+          "wool running socks drying over the radiator"
+        ],
+        "background": [
+          "the window over the sink showing deep blue pre-dawn sky and dark pine silhouettes, a film of condensation at the bottom of the glass",
+          "a small cast-iron radiator under the window with chipped cream paint",
+          "a grey tabby cat asleep on the arm of a worn corduroy couch in the dim living area",
+          "a sprig of golden larch in a jam jar on the windowsill",
+          "the doorway to the bedroom with the bedside lamp still glowing"
+        ]
+      },
+      "ridge": {
+        "foreground": [
+          "silver-grey granite slabs with rust-orange and pale green lichen",
+          "a narrow dirt trail with exposed roots and a thin crust of first frost in the shade",
+          "a knee-high cairn of stacked grey stones at the summit",
+          "a few fallen golden larch needles caught in the rock cracks"
+        ],
+        "midground": [
+          "the plain orange diamond trail marker nailed to a weathered silver post",
+          "golden larch trees bent by the wind",
+          "a bleached dead whitebark pine snag with a raven perched on it",
+          "a patch of old snow in a north-facing gully"
+        ],
+        "background": [
+          "a valley full of low golden cloud",
+          "layered blue mountain ridges fading into the distance",
+          "a tiny wooden fire lookout on a far peak",
+          "the last few warm lights of the small town far below, no city"
+        ]
+      }
+    },
+    "personal_props": {
+      "wes": [
+        "a thin black sports watch with a cracked bezel and a blank face",
+        "a faded orange neck gaiter worn thin at the fold",
+        "a plain black headlamp with a strip of silver duct tape holding the battery door shut",
+        "a strip of blue kinesiology tape down his left shin from an old trail fall",
+        "one small grey stone in the chest pocket of his vest"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "shoes",
+        "name": "Wes's trail shoes",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, three views of the same pair (side, top and sole) with no labels or captions: a pair of plain grey trail running shoes with no logos or text, caked with dried brown mud along the sole and toe, frayed mesh at the left toe, aggressive lugged soles packed with dirt and a pine needle, grey laces double knotted. Photoreal, clean creator-video light. No view labels, captions or words on the sheet."
+      },
+      {
+        "id": "headlamp",
+        "name": "The duct-taped headlamp",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: a plain black running headlamp on a black elastic strap, the strap faded and fuzzy, a strip of silver duct tape wrapped around the battery case holding its door shut, a scratched lens, a small round button on top. No logos, letters or text anywhere. Photoreal, clean creator-video light."
+      },
+      {
+        "id": "stone_jar",
+        "name": "The summit stone jar",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a tall glass mason jar with a plain metal screw ring and no lid, almost full to the top with small rounded grey granite pebbles, some flecked with orange lichen, one pebble resting on the grey surface beside the jar. No labels, letters or text anywhere. Photoreal, clean creator-video light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Larch Ridge Trail",
+        "mark": "a plain orange diamond",
+        "colors": "safety orange on weathered silver wood",
+        "appears_on": "trail marker posts, the orange route line on his hand-drawn map",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Pinecrest Valley Bike Co",
+        "mark": "a single pine tree inside a gear circle",
+        "colors": "forest green and cream",
+        "appears_on": "one faded mug on the open shelf",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "The last week of September, 4:58am to sunrise at 6:52am, about 3 degrees outside with the first frost of the season. Last night's mugs are still by the sink, the shoes are still muddy from Sunday's long run, the socks drying on the radiator are only half dry, week 12 on the fridge grid is half crossed out, and the cat has not moved. On the ridge the frost has not burned off the shaded rocks yet.",
+    "sound_world": [
+      "the radiator clanking and hissing as it warms up",
+      "the fridge compressor humming and the door seal unsticking",
+      "laces zipping through the eyelets and a double knot pulled tight",
+      "the headlamp button clicking",
+      "gravel crunching under the shoes outside the door",
+      "wind moving through the larches",
+      "a single raven croak on the ridge"
+    ]
   }
 }

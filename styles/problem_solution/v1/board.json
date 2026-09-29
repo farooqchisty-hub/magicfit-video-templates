@@ -1,0 +1,506 @@
+{
+  "id": "problem_solution-01-the-3pm-wall",
+  "style": "problem_solution",
+  "title": "The 3pm Wall",
+  "logline": "At 3pm a designer's whole afternoon turns grey and slow motion, ten minutes before the client call. One can of {product} and the colour and speed come back.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "Fieldnote Studio, a fictional small design studio in a converted brick loft in a North American city, a weekday afternoon. Long shared desks, big windows, plants, pinned-up paper mockups.",
+    "palette": "Problem: everything desaturated to cool grey. Solution: sky blue and brushed silver from the can, warm window light, a red accent in Carmen's scarf and the pinned mockups.",
+    "fictional_brands": [
+      "Fieldnote Studio (the design studio, a small line-drawn leaf mark on the glass door, added in post if legible)",
+      "Harbor and Pine (the client, shown only as abstract colour blocks on screen)"
+    ],
+    "rules": "Screens show only abstract colour blocks and blank placeholder bars. Clocks have hands and tick marks, no numerals. Every other sign, mug and notebook is blank."
+  },
+  "cast": [
+    {
+      "id": "carmen",
+      "name": "Carmen Reyes",
+      "role": "senior designer, the lead",
+      "look": "woman, 33, Mexican American, shoulder-length wavy dark brown hair half up with a clip, warm brown eyes, thick straight brows, small gold hoop earrings, oversized oatmeal knit sweater, thin red silk scarf knotted at the neck",
+      "voice": "warm, wry, a little husky, American, talks to camera like a friend",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Carmen Reyes: 33, Mexican American, shoulder-length wavy dark brown hair half up with a clip, warm brown eyes, thick straight brows, small gold hoop earrings, oversized oatmeal knit sweater, thin red silk scarf knotted at the neck. Wry, friendly expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos."
+    },
+    {
+      "id": "walt",
+      "name": "Walt Brennan",
+      "role": "creative director",
+      "look": "man, 58, white American, tall and lean, short silver hair, trimmed white stubble, round tortoiseshell glasses, navy chore jacket over a white t-shirt",
+      "voice": "dry, deadpan, New England, few words",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Walt Brennan: 58, white American, tall and lean, short silver hair, trimmed white stubble, round tortoiseshell glasses, navy chore jacket over a plain white t-shirt. Dry, deadpan expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text, no logos."
+    }
+  ],
+  "locations": [
+    {
+      "id": "studio",
+      "name": "Fieldnote Studio loft",
+      "plate_prompt": "Photoreal film still, vertical 9:16, upright vertical composition, level horizon: an empty small design studio in a converted brick loft on a weekday afternoon, long shared wooden desks with large monitors showing only abstract colour blocks, big steel-framed windows, potted plants, paper mockups pinned to a cork wall as blank colour swatches, a plain round wall clock with hands and tick marks but no numbers, a small stainless office fridge in the corner. No people, no readable text, no real brands, no logos."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "she takes the can from the studio fridge, cracks it and drinks; colour floods out from the can",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "she applies it at the studio bathroom mirror (face mist, balm, eye cream) and colour spreads out from her fingertips",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "she puts it on at her desk (glasses, headphones, a jacket, shoes) and the colour starts from where it touches her",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "she picks it up from her desk drawer (a stylus, a mouse, earbuds, a tool) and the first click brings the colour back",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "she unzips it from under her desk (a bag, a case, an organiser) and colour pours out of it",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "it sits in her corner of the studio (a chair, a lamp, a desk riser, a plant light) and switching it on turns the corner back to colour",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "she tears open the refill or pack from the studio kitchen and colour spreads from the pack",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-2.6",
+      "summary": "Carmen at her desk, the whole studio drained to grey, the clock at three. She names the pain to camera."
+    },
+    {
+      "id": "agitate",
+      "t": "2.6-7.6",
+      "summary": "Slow motion: her cursor crawls, a sheet of paper hangs mid-fall, a coworker yawns forever. Walt reminds her the client call is in ten minutes."
+    },
+    {
+      "id": "hinge",
+      "t": "7.6-12.4",
+      "summary": "She opens the grey studio fridge; the can is the only thing in full colour. She cracks it and colour spreads from the can up her arm."
+    },
+    {
+      "id": "solution",
+      "t": "12.4-19",
+      "summary": "Colour and normal speed are back. She says the product line, then works fast: mockups snap together on screen."
+    },
+    {
+      "id": "payoff",
+      "t": "19-26",
+      "summary": "Walt watches her present and approves in two words. A top and bottom split shows 3pm Carmen against 3:10pm Carmen."
+    },
+    {
+      "id": "cta",
+      "t": "26-30",
+      "summary": "The can on her desk in warm afternoon light, tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.4-2.5",
+      "speaker": "carmen",
+      "on_camera": true,
+      "line_intent": "Hook: name the exact everyday pain, in the viewer's own words.",
+      "line": "Three p.m. My brain just left the building.",
+      "delivery": "flat, deadpan, to camera, one slow blink after",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "3.2-5.0",
+      "speaker": "carmen",
+      "on_camera": false,
+      "line_intent": "Agitate: show how the pain makes a simple task feel impossible.",
+      "line": "Every click takes a year.",
+      "delivery": "voiceover, slow and heavy, dragging the last word",
+      "shot": "S02"
+    },
+    {
+      "id": "L3",
+      "t": "5.6-7.2",
+      "speaker": "walt",
+      "on_camera": true,
+      "line_intent": "Raise the stakes: a deadline arrives while the pain is at its worst.",
+      "line": "Client call in ten, Carmen.",
+      "delivery": "deadpan, leaning over the desk divider, in slow motion but the words at normal speed",
+      "shot": "S03"
+    },
+    {
+      "id": "L4",
+      "t": "12.8-15.2",
+      "speaker": "carmen",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and the single benefit that ends this pain, using an allowed claim only.",
+      "line": "Red Bull Sugarfree. Sharp again, no sugar.",
+      "delivery": "bright, quick, a small grin, the can at chest height",
+      "phonetic": "RED BULL SHUG-er-free, three clear words",
+      "claim": "Caffeine helps to improve concentration and increase alertness; without sugar",
+      "shot": "S06"
+    },
+    {
+      "id": "L5",
+      "t": "20.0-21.4",
+      "speaker": "walt",
+      "on_camera": true,
+      "line_intent": "Payoff: someone else confirms the result, in as few words as possible.",
+      "line": "Okay. That's the one.",
+      "delivery": "dry, the smallest nod, genuinely impressed",
+      "shot": "S08"
+    },
+    {
+      "id": "L6",
+      "t": "21.6-23.0",
+      "speaker": "carmen",
+      "on_camera": true,
+      "line_intent": "Callback to the hook, the pain now defeated.",
+      "line": "Not bad for three p.m.",
+      "delivery": "quiet, pleased, side glance to camera",
+      "shot": "S08"
+    },
+    {
+      "id": "L7",
+      "t": "27.0-29.4",
+      "speaker": "carmen",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm voiceover, unhurried, smiling",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.6,
+      "beat": "hook",
+      "framing": "medium close-up, centred",
+      "camera": "locked off, 85mm",
+      "action": "Carmen slumped at her desk, chin on her fist, the whole studio drained to grey, the wall clock behind her at three o'clock. She tells the camera.",
+      "product_state": "absent",
+      "audio": "muffled room tone, a slow ticking clock, dialogue",
+      "caption": "Three p.m. My brain just left the building.",
+      "refs": [
+        "carmen",
+        "studio"
+      ],
+      "keyframe_prompt": "Black and white greyscale photograph, fully desaturated, no colour anywhere. Tight medium close-up portrait from a camera at eye level just across the desk, nothing between the camera and her: Carmen, the woman from the character sheet, fills the frame from the top of her head to mid-chest, slumped with her chin resting on her fist, heavy eyelids, talking to camera with a deadpan expression. Directly behind her head on the brick wall, a plain round clock with no numbers, its hands pointing to three o'clock. Flat overcast fluorescent light, lifted blacks, no highlights in her eyes. Her scarf, sweater, skin and the bricks are all shades of grey. No monitor in the foreground."
+    },
+    {
+      "id": "S02",
+      "t0": 2.6,
+      "t1": 5.0,
+      "beat": "agitate",
+      "framing": "insert over the shoulder",
+      "camera": "glacial push-in, speed ramp to 30%",
+      "action": "Her hand drags a stylus across a drawing tablet in slow motion; on the monitor the cursor crawls between grey colour blocks; beside the keyboard a cold coffee has a skin on it.",
+      "product_state": "absent",
+      "audio": "stylus scrape slowed and pitched down, voiceover",
+      "caption": "Every click takes a year.",
+      "refs": [
+        "carmen",
+        "studio"
+      ],
+      "keyframe_prompt": "Over-the-shoulder insert at the desk of Carmen, the woman from the character sheet, her oatmeal knit sleeve and hand dragging a stylus across a plain black drawing tablet in slow motion, motion-blurred. On the large monitor, only abstract grey rectangles and blank placeholder bars, no readable text, no interface words. Beside the keyboard, a plain white mug of cold coffee with a skin on the surface, a drooping plant. The whole image is desaturated greyscale, flat fluorescent light, heavy and airless."
+    },
+    {
+      "id": "S03",
+      "t0": 5.0,
+      "t1": 7.6,
+      "beat": "agitate",
+      "framing": "medium wide",
+      "camera": "locked off, visual slow motion",
+      "action": "The grey studio in slow motion: a sheet of paper hangs mid-fall, a coworker in the background yawns endlessly, Walt leans over the desk divider and delivers the deadline.",
+      "product_state": "absent",
+      "audio": "stretched yawn, low drone, dialogue",
+      "caption": "Client call in ten, Carmen.",
+      "refs": [
+        "walt",
+        "carmen",
+        "studio"
+      ],
+      "keyframe_prompt": "Medium wide shot in the design studio from the location plate, upright vertical composition, level horizon. Walt, the man from the character sheet, leans over a low desk divider toward Carmen, the woman from her character sheet, who sits slumped in the foreground. A single sheet of blank paper is frozen in mid-air falling from the desk. In the background a coworker in a grey hoodie is caught mid-yawn, arms stretched. Everything is suspended as if in slow motion. The entire image is desaturated black and white greyscale, flat overcast light."
+    },
+    {
+      "id": "S04",
+      "t0": 7.6,
+      "t1": 9.8,
+      "beat": "hinge",
+      "framing": "medium, from inside the fridge",
+      "camera": "locked off, 35mm",
+      "action": "Carmen opens the small studio fridge. Everything inside is grey except one can, glowing in full colour on the middle shelf.",
+      "product_state": "hero reveal, upright on the shelf, label to camera",
+      "audio": "fridge seal pops, hum",
+      "caption": "",
+      "refs": [
+        "carmen",
+        "product"
+      ],
+      "keyframe_prompt": "View from inside a small office fridge looking out as Carmen, the woman from the character sheet, opens the door, her tired face lit by the fridge light. On the middle shelf, standing upright with its label facing camera, is the exact can from the product reference in its full true colours: sky blue and brushed silver diagonal split, red Red Bull wordmark, two red bulls and a gold sun, SUGARFREE in red. Everything else, the woman, the fridge, plain unlabelled grey food boxes on the other shelves, is black and white greyscale. The can is the only coloured object in the entire frame."
+    },
+    {
+      "id": "S05",
+      "t0": 9.8,
+      "t1": 12.4,
+      "beat": "hinge",
+      "framing": "macro insert",
+      "camera": "locked off, slight rack focus",
+      "action": "Her thumb cracks the tab; colour spreads out of the can in a soft wave across her fingers and up her sweater sleeve.",
+      "product_state": "hero, in hand, label to camera, upright, just opened",
+      "audio": "crisp can crack (first full-bandwidth sound), room tone snaps back to normal speed",
+      "caption": "",
+      "refs": [
+        "product",
+        "carmen"
+      ],
+      "keyframe_prompt": "Macro insert: a woman's hand in an oatmeal knit sleeve holding the exact can from the product reference upright, label facing camera and undistorted, thumb just cracking the tab with a tiny burst of fine mist. The can is in full true colours, sky blue and brushed silver, red wordmark, gold sun. A soft gradient wave of colour is spreading outward from the can: her fingers and wrist near the can are warm natural skin tone, and further up her sleeve and the desk behind still fade into black and white greyscale. The can is the brightest object in frame."
+    },
+    {
+      "id": "S06",
+      "t0": 12.4,
+      "t1": 15.4,
+      "beat": "solution",
+      "framing": "close-up",
+      "camera": "handheld, slight push-in",
+      "action": "Full colour, warm window light. Carmen lowers the can from a sip, sits up straight and says the line.",
+      "product_state": "in hand at chest height, label readable",
+      "audio": "full-range room tone, dialogue, the bright track kicks in",
+      "caption": "Red Bull Sugarfree. Sharp again, no sugar.",
+      "refs": [
+        "carmen",
+        "product",
+        "studio"
+      ],
+      "keyframe_prompt": "Close-up, head and chest filling the frame: Carmen, the woman from the character sheet, sitting upright at her desk in the design studio, in full rich colour: warm golden window light from the side, catchlights in her bright eyes, her red scarf vivid, looking straight into the camera with a quick grin, mouth open mid-word. She holds the exact can from the product reference in her fingertips at chest height, large in the frame, label facing camera fully visible and undistorted, fingers only at the top and bottom edges of the can, not covering the wordmark or the bulls. Behind her, softly out of focus, the brick wall, plants and sky-blue and silver paper mockups on the cork board. Saturated, crisp, true blacks."
+    },
+    {
+      "id": "S07",
+      "t0": 15.4,
+      "t1": 19.0,
+      "beat": "solution",
+      "framing": "low wide",
+      "camera": "whip pan into a speed ramp, 28mm",
+      "action": "She slides her chair to the monitor and works fast: stylus flying, colour blocks snapping into a finished layout; the paper that was frozen mid-air lands on the desk.",
+      "product_state": "open can standing on the desk beside the tablet",
+      "audio": "fast stylus taps, a chair roll, whoosh on the whip",
+      "caption": "",
+      "refs": [
+        "carmen",
+        "studio",
+        "product"
+      ],
+      "keyframe_prompt": "Low-angle wide shot, upright vertical composition, level horizon: Carmen, the woman from the character sheet, leans into her large monitor in the sunlit design studio, stylus moving fast with slight motion blur, energetic upright posture. The monitor shows bright abstract sky-blue, silver and red colour blocks snapping into a clean layout, no readable text. The exact can from the product reference stands upright on the desk beside her drawing tablet, label facing camera. Full saturated colour, warm directional window light, dynamic diagonal frame."
+    },
+    {
+      "id": "S08",
+      "t0": 19.0,
+      "t1": 23.2,
+      "beat": "payoff",
+      "framing": "medium two-shot",
+      "camera": "slow arc around them",
+      "action": "Carmen presents on the big screen to the client call; Walt stands behind her chair, arms folded, and approves. She glances to camera.",
+      "product_state": "open can on the desk in the background, label out of focus",
+      "audio": "dialogue, the track dips under",
+      "caption": "Okay. That's the one. Not bad for three p.m.",
+      "refs": [
+        "carmen",
+        "walt",
+        "studio"
+      ],
+      "keyframe_prompt": "Medium two-shot in the sunlit design studio: Carmen, the woman from her character sheet, sits upright and confident facing a large wall screen showing a finished abstract layout of sky-blue, silver and red colour blocks and a grid of small blank video-call tiles with soft silhouettes, no readable text. Walt, the man from his character sheet, stands behind her chair with arms folded, giving the smallest approving nod over his tortoiseshell glasses. Warm golden window light, full saturated colour."
+    },
+    {
+      "id": "S09",
+      "t0": 23.2,
+      "t1": 26.2,
+      "beat": "payoff",
+      "framing": "top and bottom split frame",
+      "camera": "locked off, both halves matched",
+      "action": "Before and after in one frame: top half, grey slumped Carmen at 3:00; bottom half, full-colour upright Carmen at 3:10 with the can.",
+      "product_state": "bottom half only, can in her hand, label to camera",
+      "audio": "a single bright chime on the split",
+      "caption": "",
+      "refs": [
+        "carmen",
+        "studio",
+        "product"
+      ],
+      "keyframe_prompt": "A vertical 9:16 frame divided horizontally into two equal halves by a thin clean white line. Top half: Carmen, the woman from the character sheet, slumped at her desk with her chin on her fist, heavy-lidded, the whole top half in desaturated black and white greyscale with flat fluorescent light. Bottom half: the same woman, same oatmeal sweater and red scarf, same desk, same camera angle, sitting upright and smiling, in full warm saturated colour, holding the exact can from the product reference upright with its label facing camera. Both halves perfectly matched in framing. No text."
+    },
+    {
+      "id": "S10",
+      "t0": 26.2,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert",
+      "camera": "slow push-in",
+      "action": "The can stands on her desk in warm afternoon light next to finished mockups and the clock, now past three. Tagline and pack shot.",
+      "product_state": "hero, upright on the desk, label to camera",
+      "audio": "the track resolves, soft studio ambience",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "studio"
+      ],
+      "keyframe_prompt": "Premium pack shot: the exact can from the product reference standing upright on a light wooden desk in the sunlit design studio, label facing camera and undistorted, cold droplets on the can, warm golden window light rim-lighting it, the can is the brightest object in frame. Behind it, softly out of focus, a drawing tablet, sky-blue and silver paper mockups as blank colour swatches, a green plant, and a plain round wall clock with no numbers. Full saturated colour. Clean empty space above the can for a title. No text."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 9.8,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 10,
+      "exact_risk": false,
+      "refs": [
+        "carmen card",
+        "walt card",
+        "studio plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial, the entire scene in desaturated black and white greyscale, flat overcast fluorescent light, visual slow motion on everything except speech. Shot 1 (0 to 2.6 s): locked medium close-up of @Image1 (Carmen) slumped at her desk, chin on her fist, a plain numberless wall clock at three behind her; flat and deadpan to camera: \"Three p.m. My brain just left the building.\" Shot 2 (2.6 to 5 s): over-the-shoulder insert, her hand drags a stylus in slow motion, the monitor shows only grey blocks, a cold coffee with a skin; her voiceover, slow and heavy: \"Every click takes a year.\" Shot 3 (5 to 7.6 s): medium wide, a sheet of paper drifting down in extreme slow motion, a coworker yawning endlessly, @Image2 (Walt) leans over the divider, deadpan: \"Client call in ten, Carmen.\" Shot 4 (7.6 to 10 s): from inside a small fridge as Carmen opens it; everything is grey except one upright can in full sky-blue and silver colour on the middle shelf. Native sound: muffled room tone, slowed and pitched-down office sounds, a ticking clock, the fridge seal. No music. No text on screen, no numerals on the clock, no logos."
+    },
+    {
+      "id": "U2",
+      "t0": 9.8,
+      "t1": 15.4,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "carmen card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial. Shot 1 (0 to 2.6 s): locked macro insert, a woman's hand holds the exact can from @Image1 upright, label to camera; her thumb cracks the tab and a soft wave of colour spreads outward from the can across her fingers and up her sleeve, turning the grey world back to full colour; the can itself never changes. Shot 2 (2.6 to 6 s): close-up of @Image2 (Carmen) at her desk, now in full warm colour with golden window light, she lowers the can from a sip to chest height with the label readable, sits up straight and says quickly with a grin: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Sharp again, no sugar.\" Keep the can's shape, colours, wordmark and bulls exactly as @Image1. Native sound: a crisp can crack as the first full-bandwidth sound, then the room tone snaps to normal speed. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 15.4,
+      "t1": 26.2,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 11,
+      "exact_risk": false,
+      "refs": [
+        "carmen card",
+        "walt card",
+        "studio plate",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 commercial in full saturated colour, warm directional window light, energetic. Shot 1 (0 to 3.6 s): whip pan into a low wide, @Image1 (Carmen) rolls her chair to the monitor and works fast, stylus flying, abstract sky-blue, silver and red colour blocks snapping into a layout on screen, a sheet of paper lands on the desk, an open can stands beside the tablet. Shot 2 (3.6 to 7.8 s): slow arc, medium two-shot, she presents on a large wall screen with blank video-call tiles; @Image2 (Walt) stands behind her, arms folded, dry: \"Okay. That's the one.\" Carmen, quiet, with a side glance to camera: \"Not bad for three p.m.\" Shot 3 (7.8 to 10.8 s): a locked top and bottom split frame of the same woman at the same desk, top half grey and slumped, bottom half full colour and upright; hold still. Native sound: fast stylus taps, chair roll, a whoosh on the whip, dialogue. No music. No readable text on any screen."
+    },
+    {
+      "id": "U4",
+      "t0": 26.2,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 premium pack shot. Slow push-in on the exact can from @Image1 standing upright on a light wooden desk in a sunlit design studio, label to camera, cold droplets, warm golden rim light; behind it, out of focus, a drawing tablet, sky-blue and silver paper swatches, a plant and a numberless wall clock. The can does not move or change. Keep empty space above the can. Native sound: soft studio ambience. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "problem",
+      "t0": 0,
+      "t1": 10.4,
+      "brief": "A heavy, detuned drone with a slowed tape-warble and a ticking clock, 60 bpm, low-passed, almost oppressive; leaves room for dialogue."
+    },
+    {
+      "section": "solution",
+      "t0": 10.4,
+      "t1": 26.2,
+      "brief": "Starts exactly on the can crack: bright up-tempo indie pop groove, clean electric guitar and handclaps, 124 bpm, in A major, ducks under dialogue, a small lift on the split frame."
+    },
+    {
+      "section": "cta",
+      "t0": 26.2,
+      "t1": 30,
+      "brief": "Same groove resolves on a warm held chord and a single glockenspiel note on the title."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 10.3,
+      "sound": "crisp can crack and fizz, full bandwidth",
+      "why": "the hinge of the whole format; it must sound like the world switching back on"
+    },
+    {
+      "t": 23.2,
+      "sound": "single bright chime",
+      "why": "marks the before and after split so it reads as a comparison"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "carmen",
+      "plan": "native voice in U1 (on-camera line and voiceover), then her U1 vocal stem as voice reference for U2, U3 and the U4 tagline voiceover"
+    },
+    {
+      "speaker": "walt",
+      "plan": "native in U1; his U1 stem as reference for his U3 line"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 2.6,
+      "text": "3:00 PM",
+      "sub": "",
+      "style": "Archivo Black, grey #6E6E6E chip, top left safe zone, types on letter by letter; replaces any clock numerals"
+    },
+    {
+      "t0": 23.2,
+      "t1": 26.2,
+      "text": "3:00 PM / 3:10 PM",
+      "sub": "",
+      "style": "two labels on the split frame: '3:00 PM' on a grey chip in the top half, '3:10 PM' on a sky-blue #3BA4DC chip in the bottom half, Archivo Black"
+    },
+    {
+      "t0": 27.0,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Archivo Black white with the sub in Archivo SemiBold, centred in the empty space above the can, pops on per word"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (tagline form)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

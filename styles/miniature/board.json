@@ -189,7 +189,13 @@
         "sal",
         "town"
       ],
-      "keyframe_prompt": "Macro close-up at figurine eye level: Sal, the 2 cm hand-painted foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, tiny red megaphone), standing on the edge of a white card rooftop of the miniature town from the location reference, megaphone raised to his mouth, the dark sleeping town behind him out of focus with a few warm window lights, cool blue night light. Visible paint texture on the figurine. No signs, no text."
+      "keyframe_prompt": "Macro close-up at figurine eye level: Sal, the 2 cm hand-painted foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, tiny red megaphone), standing on the edge of a white card rooftop of the miniature town from the location reference, megaphone raised to his mouth, the dark sleeping town behind him out of focus with a few warm window lights, cool blue night light. Visible paint texture on the figurine. No signs, no text.",
+      "dressing": [
+        "the paint chip on the megaphone rim",
+        "the scuffed white hard hat",
+        "a pin-head street lamp glowing beside him",
+        "the crooked civic hall roof far behind"
+      ]
     },
     {
       "id": "S02",
@@ -203,9 +209,17 @@
       "audio": "tiny snores, a creak of card",
       "caption": "",
       "refs": [
-        "town"
+        "town",
+        "crane"
       ],
-      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference at night: several 2 cm hand-painted figurines in orange hi-vis vests and white hard hats asleep on the job, one slumped on balsa scaffolding against a half-built card house, two asleep on a bench, one curled up in a tiny wheelbarrow, bare unfinished card walls, windows dark, the empty paved square in the centre. Cool blue night light, tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Upright vertical composition, level horizon. No signs, no text."
+      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference at night: several 2 cm hand-painted figurines in orange hi-vis vests and white hard hats asleep on the job, one slumped on balsa scaffolding against a half-built card house, two asleep on a bench, one curled up in a tiny wheelbarrow, bare unfinished card walls, windows dark, the empty paved square in the centre. Cool blue night light, tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Upright vertical composition, level horizon. No signs, no text.",
+      "dressing": [
+        "a figurine asleep in the wheelbarrow of balsa offcuts",
+        "balsa scaffolding tied with glue strings",
+        "pencil guide lines on the bare card walls",
+        "the snapped knife blade lying across the paving",
+        "the balsa crane parked idle with its thread cable hanging"
+      ]
     },
     {
       "id": "S03",
@@ -222,7 +236,13 @@
         "sal",
         "town"
       ],
-      "keyframe_prompt": "Low-angle macro shot from ground level in the paved square of the miniature town from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), shouting up at the sky through his tiny red megaphone, a huge soft shadow falling across him and the square from above as something enormous descends out of frame, blurred card buildings around him. No signs, no text."
+      "keyframe_prompt": "Low-angle macro shot from ground level in the paved square of the miniature town from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), shouting up at the sky through his tiny red megaphone, a huge soft shadow falling across him and the square from above as something enormous descends out of frame, blurred card buildings around him. No signs, no text.",
+      "dressing": [
+        "the dried glue drip on the paving",
+        "blue painter's tape on a loose card roof",
+        "the toothpick footbridge over the resin river",
+        "flocked foam trees on wire trunks"
+      ]
     },
     {
       "id": "S04",
@@ -239,7 +259,13 @@
         "product",
         "town"
       ],
-      "keyframe_prompt": "Low-angle tilt-shift macro photograph in the miniature town square from the location reference: the exact can from the product reference, a real full-size can, standing upright and closed in the centre of the square and towering over the tiny white and sky-blue card houses like a skyscraper, label facing the viewer and undistorted, a normal-size adult hand with dark brown skin just letting go of the top of the can, several 2 cm hand-painted figurines in orange hi-vis vests around its base staring up in awe. Warm desk-lamp light catching the can, condensation drops. The whole can is in sharp focus and fully visible from base to lid in one continuous photograph. Only one can in the scene. Upright vertical composition, level horizon. No signs, no other text."
+      "keyframe_prompt": "Low-angle tilt-shift macro photograph in the miniature town square from the location reference: the exact can from the product reference, a real full-size can, standing upright and closed in the centre of the square and towering over the tiny white and sky-blue card houses like a skyscraper, label facing the viewer and undistorted, a normal-size adult hand with dark brown skin just letting go of the top of the can, several 2 cm hand-painted figurines in orange hi-vis vests around its base staring up in awe. Warm desk-lamp light catching the can, condensation drops. The whole can is in sharp focus and fully visible from base to lid in one continuous photograph. Only one can in the scene. Upright vertical composition, level horizon. No signs, no other text.",
+      "dressing": [
+        "the snapped knife blade on the paving beside the can",
+        "a stack of card wall panels on a coffee-stirrer pallet",
+        "the pin-head street lamps",
+        "the green cutting mat grid at the edge"
+      ]
     },
     {
       "id": "S05",
@@ -254,9 +280,16 @@
       "caption": "",
       "refs": [
         "product",
-        "sal"
+        "sal",
+        "rig"
       ],
-      "keyframe_prompt": "Macro photograph of the silver top of the exact can from the product reference, a real full-size can: three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid, leaning back and heaving on a thin rope tied to the red ring pull, which is lifting open, a burst of cold white mist rising from the opening like a geyser, the red band and the top of the red Red Bull wordmark visible on the side of the can and undistorted, the dark blurred miniature town far below. Only one can. No other text."
+      "keyframe_prompt": "Macro photograph of the silver top of the exact can from the product reference, a real full-size can: three 2 cm hand-painted figurines in orange hi-vis vests and white hard hats standing on the lid, leaning back and heaving on a thin rope tied to the red ring pull, which is lifting open, a burst of cold white mist rising from the opening like a geyser, the red band and the top of the red Red Bull wordmark visible on the side of the can and undistorted, the dark blurred miniature town far below. Only one can. No other text.",
+      "dressing": [
+        "the white thread rope with a loop knot around the red tab",
+        "the bead pulley on a bent pin at the lid edge",
+        "a toothpick lever braced on the rim",
+        "condensation drops as big as the figurines"
+      ]
     },
     {
       "id": "S06",
@@ -274,7 +307,13 @@
         "product",
         "town"
       ],
-      "keyframe_prompt": "Low-angle macro shot at figurine eye level in the miniature town square from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, red megaphone lowered), standing proudly at the base of the exact can from the product reference with one tiny hand resting on it, the real full-size can open and upright, rising above him like a monument with its label facing the viewer and undistorted: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Warm light, cold droplets on the can, blurred card houses. Only one can. No other text."
+      "keyframe_prompt": "Low-angle macro shot at figurine eye level in the miniature town square from the location reference: Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest, red megaphone lowered), standing proudly at the base of the exact can from the product reference with one tiny hand resting on it, the real full-size can open and upright, rising above him like a monument with its label facing the viewer and undistorted: sky blue and silver diagonal split, red Red Bull wordmark, two red bulls with a gold sun, SUGARFREE. Warm light, cold droplets on the can, blurred card houses. Only one can. No other text.",
+      "dressing": [
+        "the chipped red megaphone lowered at his side",
+        "the pencil-lead crowbar over his shoulder",
+        "a figurine climbing a toothpick ladder behind",
+        "warm pin-head lamps"
+      ]
     },
     {
       "id": "S07",
@@ -289,9 +328,17 @@
       "caption": "",
       "refs": [
         "town",
-        "product"
+        "product",
+        "crane"
       ],
-      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference, now busy: every tiny window glowing warm amber, 2 cm hand-painted figurines in orange hi-vis vests awake and working, carrying white card walls, hammering, a small toy crane swinging a sky-blue card roof into place, and the exact can from the product reference, a real full-size can, standing open in the centre of the square towering over it all with its label facing the viewer. Tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Only one can. Upright vertical composition, level horizon. No signs, no text."
+      "keyframe_prompt": "High-angle tilt-shift wide of the miniature town square from the location reference, now busy: every tiny window glowing warm amber, 2 cm hand-painted figurines in orange hi-vis vests awake and working, carrying white card walls, hammering, a small toy crane swinging a sky-blue card roof into place, and the exact can from the product reference, a real full-size can, standing open in the centre of the square towering over it all with its label facing the viewer. Tilt-shift blur gradually softening toward the top and bottom edges of one continuous photograph. Only one can. Upright vertical composition, level horizon. No signs, no text.",
+      "dressing": [
+        "the balsa crane swinging a sky-blue card roof on its thread cable",
+        "the resin river with trapped bubbles",
+        "the civic hall roof now straight",
+        "figurines carrying white card panels",
+        "every tiny window glowing amber"
+      ]
     },
     {
       "id": "S08",
@@ -309,7 +356,14 @@
         "desk",
         "product"
       ],
-      "keyframe_prompt": "Photoreal medium shot at a studio desk at 2am from the location reference: Amara, the woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), leaning over a large handmade white and sky-blue card model of a town square with tiny glowing windows and tiny figurines in orange vests, holding the exact can from the product reference open at chin height just after a sip, label facing the viewer and undistorted, warm desk lamp light on her face and the can, amused tired smile. The empty paved square in the model where the can stood. Only one can in the scene. Upright vertical composition, level horizon. No text."
+      "keyframe_prompt": "Photoreal medium shot at a studio desk at 2am from the location reference: Amara, the woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), leaning over a large handmade white and sky-blue card model of a town square with tiny glowing windows and tiny figurines in orange vests, holding the exact can from the product reference open at chin height just after a sip, label facing the viewer and undistorted, warm desk lamp light on her face and the can, amused tired smile. The empty paved square in the model where the can stood. Only one can in the scene. Upright vertical composition, level horizon. No text.",
+      "dressing": [
+        "the chewed pencil in her hair",
+        "blue tape on her glasses arm",
+        "glue flecks on her sweater cuff",
+        "the craft knife and cork-backed ruler on the mat",
+        "the cold coffee mug with a spoon in it"
+      ]
     },
     {
       "id": "S09",
@@ -327,7 +381,13 @@
         "amara",
         "town"
       ],
-      "keyframe_prompt": "Macro photograph in a bright morning review room: in sharp focus in the foreground, Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), standing on the edge of the finished miniature town model from the location reference and giving a thumbs up to the lens, the model finished with every building complete and trees in place; behind him, slightly soft but clearly recognisable, Amara, the Black American woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), presenting with a proud smile to a few blurred jurors who are applauding, big bright windows. No can in this shot. No text."
+      "keyframe_prompt": "Macro photograph in a bright morning review room: in sharp focus in the foreground, Sal, the 2 cm foreman figurine from the character sheet (grey walrus mustache, white hard hat, orange hi-vis vest), standing on the edge of the finished miniature town model from the location reference and giving a thumbs up to the lens, the model finished with every building complete and trees in place; behind him, slightly soft but clearly recognisable, Amara, the Black American woman from the character sheet (short natural hair with a pencil tucked in, round tortoiseshell glasses, oversized olive sweater, gold hoops), presenting with a proud smile to a few blurred jurors who are applauding, big bright windows. No can in this shot. No text.",
+      "dressing": [
+        "the paint-chipped megaphone tucked under his arm",
+        "finished flocked trees all standing",
+        "the civic hall with its straight roof",
+        "big bright morning windows"
+      ]
     },
     {
       "id": "S10",
@@ -342,9 +402,16 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "town"
+        "town",
+        "crane"
       ],
-      "keyframe_prompt": "Tilt-shift macro pack shot in soft golden morning window light: the exact can from the product reference, a real full-size can, standing upright and open in the centre of the finished miniature town square from the location reference, label facing the viewer and undistorted with condensation drops, towering over completed white and sky-blue card houses and flocked trees, 2 cm hand-painted figurines in orange hi-vis vests resting around its base, one lying back on the paving, two sharing a tiny picnic. The can is the brightest object in the frame and sits in the band of sharp focus. Large softly blurred empty area in the top third for a title. Only one can. Upright vertical composition, level horizon. No signs, no other text."
+      "keyframe_prompt": "Tilt-shift macro pack shot in soft golden morning window light: the exact can from the product reference, a real full-size can, standing upright and open in the centre of the finished miniature town square from the location reference, label facing the viewer and undistorted with condensation drops, towering over completed white and sky-blue card houses and flocked trees, 2 cm hand-painted figurines in orange hi-vis vests resting around its base, one lying back on the paving, two sharing a tiny picnic. The can is the brightest object in the frame and sits in the band of sharp focus. Large softly blurred empty area in the top third for a title. Only one can. Upright vertical composition, level horizon. No signs, no other text.",
+      "dressing": [
+        "two figurines sharing a picnic on a card crumb",
+        "the balsa crane parked with its hook hanging",
+        "the resin river glinting",
+        "the pin-head lamps now off in the morning light"
+      ]
     }
   ],
   "units": [
@@ -516,5 +583,123 @@
     "first_pass_usd": 8.37,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Riverside Commons is Amara Cole's final thesis model at the Kellerman School of Architecture: 46 hand-cut buildings at 1:87 scale on a 90 by 120 cm board. Her jury review is at 9am in Room 3B with three visiting critics.",
+      "It is 2:10am. She has been awake for 20 hours, the resin river was poured on Tuesday and still smells faintly sweet, and the civic hall roof has fallen off twice tonight.",
+      "Sal is one of 72 figurines from a box of Oakbridge Model Supply workers she bought in first year. He is the only one she repainted by hand, and his grey walrus mustache is a single dab of paint from a size 000 brush.",
+      "The tiny crew builds whatever she forgets. Their rule: nothing gets finished after midnight without the foreman's say so.",
+      "The paved square in the middle is left empty on purpose: it is the one space in the plan she has never been able to design."
+    ],
+    "materials_rule": "Everything in the tiny world is real model-making material seen at macro: white museum board and foam core with slightly fuzzy knife-cut edges, basswood and balsa strips, chalky sky-blue card, flocked foam trees on twisted wire trunks, two-part clear resin water with trapped bubbles, 2 cm hand-painted plastic figurines on small card bases with visible brush strokes, thin glue strings at the joins, faint pencil guide lines, pins and blue painter's tape holding pieces that are still drying. Everything from the real world (the can, her hands, her tools) is full-size and photoreal, enormous next to the model.",
+    "locations": {
+      "town": {
+        "foreground": [
+          "a dropped snapped-off craft-knife blade lying across the paving like a giant steel beam",
+          "a tiny wheelbarrow heaped with balsa offcuts and sawdust",
+          "a pin-head street lamp glowing from a grain-of-rice warm light",
+          "a strip of blue painter's tape holding a loose card roof down",
+          "a dried clear glue drip on the paving like a frozen puddle"
+        ],
+        "midground": [
+          "balsa-strip scaffolding tied with glue strings against a half-built card house",
+          "faint pencil guide lines still visible on the bare white card walls",
+          "flocked foam trees in two greens on twisted wire trunks",
+          "the clear resin river with trapped air bubbles and a toothpick footbridge",
+          "two figurines asleep on a basswood bench, one with his hard hat tipped over his eyes",
+          "a stack of tiny white card wall panels waiting on a pallet made of coffee stirrers"
+        ],
+        "background": [
+          "the civic hall with its plain round window and a roof that sits slightly crooked",
+          "a row of finished white card terraces with dark punched windows",
+          "the edge of the green cutting mat with its faint grid lines",
+          "the huge soft glow of the angled desk lamp far above",
+          "an enormous out-of-focus steel ruler lying beyond the board like a distant highway"
+        ]
+      },
+      "desk": {
+        "foreground": [
+          "a craft knife with a blue grip and a snapped blade",
+          "a cork-backed steel ruler with worn edge marks",
+          "a squeeze bottle of white glue with a blank label and a dried drip down the side",
+          "curls of pencil shavings and hole-punched card dots on the mat"
+        ],
+        "midground": [
+          "the handmade white and sky-blue card model of the town square on a green cutting mat",
+          "a clear plastic figurine box with a blank label and a few spare painted figurines",
+          "an open plastic tray of tiny paint pots with dried rings on the lids",
+          "an angled black desk lamp with a dented shade",
+          "a cold coffee in a chunky grey mug with a spoon left in it"
+        ],
+        "background": [
+          "loose line sketches and elevation drawings pinned to the wall with pushpins",
+          "a corkboard of blank sticky notes in yellow and pink",
+          "a dark window with blurred city lights",
+          "a grey hoodie hanging off the back of a stool",
+          "other empty studio desks in the dark behind"
+        ]
+      }
+    },
+    "personal_props": {
+      "sal": [
+        "a tiny red megaphone with a paint chip on the rim showing white plastic",
+        "a white hard hat with a grey scuff where he was dropped on the floor",
+        "a clipboard made from a square of card smaller than a grain of rice",
+        "a pencil-lead crowbar he carries over his shoulder"
+      ],
+      "amara": [
+        "a yellow pencil tucked into her hair, its end chewed",
+        "round tortoiseshell glasses with a strip of blue tape on one arm",
+        "an olive sweater with dried white glue flecks on one cuff",
+        "a small plaster cut on her left thumb from the craft knife"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "crane",
+        "name": "The crew's balsa crane",
+        "prop_prompt": "Macro product photograph of one model-making prop standing alone on a seamless plain mid-grey background, nothing else in frame: no hands, no people, no figurines, no tools, no tape, no ruler: a tiny handmade construction crane about 12 cm tall built from balsa strips and a bent paperclip jib, a white sewing-thread cable with a bent pin hook, a thread-spool counterweight, a small card cab painted orange, glue strings at the joins, sitting on a little card base. No letters, no numbers, no logos. Soft studio light, visible wood grain and paint texture."
+      },
+      {
+        "id": "rig",
+        "name": "The ring-pull rope rig",
+        "prop_prompt": "Macro product photograph of one model-making prop standing alone on a seamless plain mid-grey background, nothing else in frame: no hands, no people, no figurines, no tools, no tape, no ruler: a tiny pulley and rope rig for 2 cm figurines, a white cotton thread rope with a small loop knot, a bead pulley on a bent pin, a toothpick lever, and a tiny coil of spare thread, laid out neatly. No letters, no numbers, no logos. Soft studio light, visible fibres and wood grain."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Riverside Commons",
+        "mark": "a sky-blue wavy line under a simple house outline",
+        "colors": "sky blue and white",
+        "appears_on": "the corner of the model board, the jury title card",
+        "text_in_post": "project name on the end card only"
+      },
+      {
+        "name": "Kellerman School of Architecture",
+        "mark": "a plain black square with a white arch",
+        "colors": "black and white",
+        "appears_on": "a sticker shape on the cutting mat corner",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Oakbridge Model Supply",
+        "mark": "a small oak leaf",
+        "colors": "forest green on cream",
+        "appears_on": "the figurine box and glue bottle (labels blank in frame)",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "2:10am on the night before the review, then the bright 9am review room. Cool blue night light with one warm lamp pool. Used: a snapped knife blade, a cold coffee, half the glue bottle. Out of place: the civic hall roof sits crooked, one tree has fallen into the river, a figurine is asleep in the wheelbarrow.",
+    "sound_world": [
+      "the tinny squeak of Sal's megaphone",
+      "tiny figurine snores",
+      "the creak of balsa scaffolding",
+      "the deep boom of a full-size can landing on card",
+      "a thread rope straining, then the crack of the ring pull",
+      "tiny hammer taps and card sliding into slots",
+      "the hum of the desk lamp",
+      "a real sip and a tired laugh"
+    ]
   }
 }

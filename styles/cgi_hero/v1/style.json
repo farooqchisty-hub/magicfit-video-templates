@@ -1,0 +1,59 @@
+{
+  "key": "cgi_hero",
+  "name": "CGI product hero / FOOH (fake out of home)",
+  "definition": "A photoreal CGI spectacle in which the product itself is the event: a giant pack in a real looking city, impossible physics, splashes and drops the size of buses. The world reacts to the product, not the other way round. Few or no speaking characters; a short voiceover carries the idea.",
+  "why_it_sells": "Pure thumb stop: the brain reads a real street and an impossible object at once and has to look twice (Maybelline FOOH ran to 12M views in hours). Every frame is a pack shot, so brand recall is near total. The risk is spectacle with no reason: the stunt must dramatise the one benefit (here, the city waking up) or it is just a screensaver.",
+  "visual_grammar": "Real city first, CGI second: shoot it like handheld street footage or a drone plate with believable lens flaws, then the giant product obeys real scale cues (shadow length, atmospheric haze, pigeons, tiny people at its base). The product is always the largest, brightest and sharpest object, label square to camera in every hero frame. One impossible event per shot, never two.",
+  "camera": "Street level 24mm looking up for scale, drone top-downs and slow orbits for the reveal, one locked-off hero orbit on the product (never a whip around the label). Camera shake only on impacts, 3 to 6 frames. Match-move feel: slight handheld drift on wides sells that it was 'filmed'.",
+  "light": "Golden hour or blue hour so the product catches a single hard key and a long shadow. Rim light on the pack edges to separate it from the sky. Wet ground and glass towers to double the product in reflections.",
+  "texture": "Photoreal plate texture: slight atmospheric haze with distance, mild chromatic aberration at frame edges, clean highlights on the product with physically correct condensation, no plastic CG sheen on the city.",
+  "palette_rule": "Grade the city in cool desaturated dawn blue and silver so it is the product's second colour, and let the product's accent colour (here red and gold) be the only saturated thing in frame.",
+  "pacing": "Impact inside 2 seconds (the product arrives), a reveal orbit held at least 2 s, then one escalation per shot that grows in scale (fountain, street, whole avenue, whole skyline). Cuts every 2 to 4 s, fastest during the chase, a held wide at the end so the product sits in its new home for the CTA.",
+  "sound": "Big physical sound design carried natively by the generations: sub impact, glass rattle, water, hooves, car alarms, pigeons. Short deep voiceover recorded as one TTS track in post. Music is a trailer style build stitched at picture cuts. Added sfx only for events the viewer must register (the landing boom, the can crack if used).",
+  "caption_look": {
+    "font": "Archivo Black",
+    "size": "5.6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFD23F (the can's sun gold) on the word being spoken",
+    "shadow": "hard 0 3px 0 rgba(0,0,0,.45) plus soft 0 4px 14px rgba(0,0,0,.5)",
+    "position": "centre, 74% down the frame, clear of the product and above platform UI",
+    "max_words_on_screen": 3,
+    "box": false,
+    "case": "uppercase",
+    "motion": "each word punches in at 115% and settles to 100% over 4 frames, timed to the VO"
+  },
+  "model_vocab": [
+    "photoreal CGI integrated into a real city plate",
+    "fake out of home, FOOH",
+    "giant product towering over the street",
+    "practical scale cues: tiny pedestrians, pigeons, cars at the base",
+    "drone establishing shot",
+    "low angle street level 24mm",
+    "volumetric dawn haze",
+    "physically correct condensation droplets",
+    "motion blur on debris, product itself sharp",
+    "long golden hour shadow"
+  ],
+  "failure_modes": [
+    "the giant can loses its label or turns into a generic blue can at building scale: always pass the product reference and say 'the exact can from the product reference, scaled up', label square to camera",
+    "the model adds a second giant can or a crushed can: say 'one single can, intact, upright, not dented'",
+    "CG bulls leaving the can wipe the logo off the label: say the printed label keeps its two small bulls intact and the giant bulls are separate 3D animals made of glossy red",
+    "wide city shots come back rotated 90 degrees or with a tilted horizon: say upright vertical composition, level horizon, towers vertical",
+    "shop signs and billboards fill with fake words: say blank storefront signs, blank billboards",
+    "scale drifts between shots (can is 3 storeys in one shot and 12 in the next): state the height in storeys in every prompt (six storeys)",
+    "water and debris physics read as noise: one splash per shot, mid-ground, with direction stated",
+    "the giant can floats above the fountain like a sticker: say its base sits in the fountain basin with water lapping the rim and a contact shadow",
+    "a two-location shot (avenue plus waterfront) comes back as a collage with an inset panel: say one single seamless photograph, no inset panels, and drop the avenue plate ref for that shot"
+  ],
+  "negatives": [
+    "no real brands, logos or signage except the product",
+    "no readable text in the city, all signs and billboards blank",
+    "no second giant can, no dented or crushed can",
+    "no distorted, melted or blank product label",
+    "no tilted horizon, no rotated frame",
+    "no cartoon or toy look on the city, photoreal only",
+    "no people harmed or panicking, the tone is wonder"
+  ],
+  "prompt_prefix": "Photoreal CGI fake out of home shot, vertical 9:16 frame, upright composition with level horizon, real city plate with believable lens, dawn light, cool blue and silver grade with the product as the brightest object.",
+  "asset_style": "Photoreal."
+}
