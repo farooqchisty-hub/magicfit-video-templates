@@ -6,19 +6,21 @@ def _call(args,timeout=180):
     r=subprocess.run(["treg","call",*args],capture_output=True,text=True,timeout=timeout)
     try: return json.loads(r.stdout)
     except Exception: raise RuntimeError(f"treg: {r.stdout[:400]} {r.stderr[:400]}")
-def gen(prompt,refs=(),out="out.png",size="9:16",res="2K",tries=2,tag=""):
+def gen(prompt,refs=(),out="out.png",size="9:16",res="2K",tries=4,tag=""):
     body={"model":"gemini-3-pro-image-preview","prompt":prompt,"size":size,"resolution":res}
     if refs: body["image_urls"]=list(refs)
     last=None
     for t in range(tries):
-        j=_call(["reapi.image-gen.gemini-3-pro-image","--method","POST","--data",json.dumps(body)])
+        try: j=_call(["reapi.image-gen.gemini-3-pro-image","--method","POST","--data",json.dumps(body)])
+        except Exception as e: last={"err":str(e)}; time.sleep(15); continue
         tid=j.get("id")
-        if not tid: last=j; continue
-        for _ in range(60):
+        if not tid: last=j; time.sleep(15); continue
+        for _ in range(90):
             time.sleep(5)
-            s=_call(["reapi.tasks.get","--query",f"id={tid}"])
+            try: s=_call(["reapi.tasks.get","--query",f"id={tid}"])
+            except Exception: continue
             st=s.get("status")
-            if st is None: raise RuntimeError(f"poll: {json.dumps(s)[:300]}")
+            if st is None: time.sleep(5); continue
             if st=="completed":
                 url=s["output"]["image_urls"][0]
                 req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})

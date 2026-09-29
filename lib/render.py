@@ -13,8 +13,15 @@ def run(key,only=None,force=False):
         except Exception as e: return name,"ERR "+str(e)[:200]
     urls={}
     assets=[(c["card_prompt"]+" "+st.get("asset_style",""),[],c["id"],"16:9",True) for c in b.get("cast",[])]
-    assets+=[(l["plate_prompt"],[],l["id"],"9:16",True) for l in b.get("locations",[])]
-    with cf.ThreadPoolExecutor(8) as ex:
+    wb=b.get("world_bible",{})
+    def dress(loc):
+        L=wb.get("locations",{}).get(loc)
+        if not L: return ""
+        return " Set dressing, foreground: "+"; ".join(L.get("foreground",[]))+". Midground: "+"; ".join(L.get("midground",[]))+". Background: "+"; ".join(L.get("background",[]))+"."
+    mat=(" "+wb["materials_rule"]) if wb.get("materials_rule") else ""
+    assets+=[(l["plate_prompt"]+dress(l["id"])+mat,[],l["id"],"9:16",True) for l in b.get("locations",[])]
+    assets+=[(o["prop_prompt"]+mat,[],o["id"],"16:9",True) for o in wb.get("signature_objects",[])]
+    with cf.ThreadPoolExecutor(4) as ex:
         for n,u in ex.map(lambda a:g(*a),assets): urls[n]=u; print(n,u[:60])
     neg="Avoid: "+"; ".join(st.get("negatives",[]))
     def kf(s):
@@ -22,12 +29,14 @@ def run(key,only=None,force=False):
         for r in s.get("refs",[]):
             if r=="product": refs.append(CAN); roles.append(f"Image {len(refs)} is the product: reproduce this exact product, its shape, colours, label and logo, undistorted.")
             elif r in urls and not urls[r].startswith("ERR"):
-                refs.append(urls[r]); kind="character sheet" if any(c["id"]==r for c in b.get("cast",[])) else "location or prop reference"
+                refs.append(urls[r]); kind="character sheet" if any(c["id"]==r for c in b.get("cast",[])) else ("prop reference" if any(o["id"]==r for o in wb.get("signature_objects",[])) else "location reference")
                 roles.append(f"Image {len(refs)} is the {kind} for {r}: keep identity and design consistent.")
-        p=f"{st['prompt_prefix']} {s['keyframe_prompt']} {' '.join(roles)} {neg}"
+        det=""
+        if s.get("dressing"): det=" Specific details in this shot, spread across foreground, midground and background so the world feels lived in: "+"; ".join(s["dressing"])+"."
+        p=f"{st['prompt_prefix']} {s['keyframe_prompt']}{det}{mat} {' '.join(roles)} {neg}"
         return g(p,refs,s["id"])
     shots=[s for s in b["shots"] if not only or s["id"] in only]
-    with cf.ThreadPoolExecutor(10) as ex:
+    with cf.ThreadPoolExecutor(5) as ex:
         for n,u in ex.map(kf,shots): print(n,u[:60])
 if __name__=="__main__":
     only=None;force="--force" in sys.argv

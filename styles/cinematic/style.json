@@ -36,7 +36,9 @@
     "rain and sparks read as noise at 720p: keep them mid-ground",
     "wide side-on vehicle shots in 9:16 come back rotated or with the car standing on its nose: frame vehicles head-on or from behind, say four wheels on the ground and normal gravity",
     "helmets and suits pick up random text: say plain with no text",
-    "props near the product get swapped for generic bottles: say what the container holds"
+    "props near the product get swapped for generic bottles: say what the container holds",
+    "face shots with 4 or more references drift off the cast card: keep face shots to cast card, product and one location; describe props in text instead",
+    "capitalised emphasis words in a prompt (ANALOG, START) get printed onto objects: never write words in capitals, describe the look instead"
   ],
   "negatives": [
     "no real brands, logos or sponsor names except the product",

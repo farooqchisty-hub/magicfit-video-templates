@@ -1,0 +1,485 @@
+{
+  "id": "cinematic-01-night-stint",
+  "style": "cinematic",
+  "title": "Night Stint",
+  "logline": "Hour 19 of a 24 hour endurance race, 3am and raining. A driver has four minutes before her car comes in; the one ritual she never skips is {product}.",
+  "runtime_s": 30,
+  "aspect": "9:16",
+  "product_ref": "product/red-bull-sugarfree.json",
+  "world": {
+    "setting": "The fictional Vallon 24 Hours endurance race at the fictional Col de Vallon circuit, night, heavy rain, team garage of the fictional Halcyon Racing team.",
+    "palette": "Built from the can: sky blue and brushed silver, with warm sodium-orange pit lights as the accent.",
+    "fictional_brands": [
+      "Halcyon Racing (team, silver and sky-blue livery, car number 27)",
+      "Vallon 24 (race)",
+      "Marrow Tyres (tyre brand on the tyre stacks)"
+    ],
+    "rules": "Every other sign, screen and sponsor patch is blank or uses the fictional brands only."
+  },
+  "cast": [
+    {
+      "id": "jess",
+      "name": "Jess Calder",
+      "role": "lead driver",
+      "look": "woman, 29, North American, short dark-blonde hair tied back, sharp green eyes, light freckles, silver and sky-blue Halcyon race suit unzipped to the waist over a grey fireproof top",
+      "voice": "low, calm, dry, a little hoarse from the night, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same woman. Jess Calder: 29, North American, short dark-blonde hair tied back, sharp green eyes, light freckles, focused tired expression, silver and sky-blue race suit unzipped to the waist over a grey fireproof top, no logos on the suit. Neutral soft studio light, photoreal, consistent identity across all three views. No text."
+    },
+    {
+      "id": "ray",
+      "name": "Ray Okafor",
+      "role": "crew chief on the radio and in the garage",
+      "look": "man, 54, Black American, close grey beard, reading glasses pushed up on his head, team headset, silver team rain jacket",
+      "voice": "warm, gravelly, unhurried, American",
+      "card_prompt": "Character identity sheet on a plain mid-grey background, three views side by side at the same scale: front, three-quarter and profile head-and-shoulders portraits of the same man. Ray Okafor: 54, Black American, close grey beard, reading glasses pushed up on his head, wearing a team radio headset and a silver rain jacket with no logos. Calm, experienced expression. Neutral soft studio light, photoreal, consistent identity across all three views. No text."
+    }
+  ],
+  "locations": [
+    {
+      "id": "garage",
+      "name": "Halcyon garage at night",
+      "plate_prompt": "Cinematic film still, vertical 9:16, an empty endurance-racing team garage at 3am in heavy rain: open shutter to a wet pit lane with sodium-orange lights and rain streaks, stacks of tyres with blank sidewalls, tool carts, a silver and sky-blue colour scheme on the walls, monitors showing only abstract lap graphs, crew chairs, haze. No people, no readable text, no real brands."
+    },
+    {
+      "id": "car",
+      "name": "Halcyon #27 car",
+      "plate_prompt": "Studio reference of a fictional Le Mans style prototype race car in silver and sky-blue livery with a large number 27 and the word HALCYON on the side, no other sponsors or logos, three-quarter front view on a dark wet track at night with headlights on. Photoreal, no people."
+    }
+  ],
+  "adaptation": {
+    "ingested": {
+      "moment": "she drinks it in the garage before the stint",
+      "scale": "hand"
+    },
+    "applied": {
+      "moment": "she applies it at the garage mirror before the helmet goes on (skincare, balm, sunscreen, hair)",
+      "scale": "hand"
+    },
+    "worn": {
+      "moment": "the one thing she puts on under the suit or with the kit (socks, base layer, watch, glasses)",
+      "scale": "body"
+    },
+    "handheld": {
+      "moment": "the tool or gadget in her hands while she waits (earbuds, bottle, tracker, phone accessory)",
+      "scale": "hand"
+    },
+    "carried": {
+      "moment": "the bag or case she opens at her garage chair",
+      "scale": "hand to lap"
+    },
+    "home": {
+      "moment": "the one thing from home set up in the drivers' room behind the garage (pillow, lamp, blanket, chair)",
+      "scale": "room"
+    },
+    "consumable": {
+      "moment": "the refill or pack on her tool cart that she reaches for every stint",
+      "scale": "hand"
+    }
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "t": "0-3",
+      "summary": "Eyes in the helmet opening, rain on the pit wall, a timing screen reads hour 19. She names where races are lost."
+    },
+    {
+      "id": "setup",
+      "t": "3-8",
+      "summary": "The crew is asleep on tyre stacks; Ray tells her the car is four minutes out."
+    },
+    {
+      "id": "product",
+      "t": "8-14",
+      "summary": "Her ritual: the can from the ice bucket, the crack, the sip. The brand line."
+    },
+    {
+      "id": "build",
+      "t": "14-22",
+      "summary": "The car screams in, the crew leaps up, she drops in and leaves into the rain."
+    },
+    {
+      "id": "payoff",
+      "t": "22-27",
+      "summary": "Onboard at the hairpin as dawn breaks, she passes the rival car."
+    },
+    {
+      "id": "cta",
+      "t": "27-30",
+      "summary": "The can on the pit wall at sunrise with the tagline."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.6-2.8",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "Hook: name the moment in this world where the product matters most.",
+      "line": "Hour nineteen. This is where races are lost.",
+      "delivery": "quiet, certain, almost to herself",
+      "shot": "S01"
+    },
+    {
+      "id": "L2",
+      "t": "4.6-6.4",
+      "speaker": "ray",
+      "on_camera": true,
+      "line_intent": "Raise the stakes with a countdown.",
+      "line": "Car's in four minutes. You good?",
+      "delivery": "gentle, gravelly, checking on her",
+      "shot": "S03"
+    },
+    {
+      "id": "L3",
+      "t": "7.0-7.9",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "She asks for the ritual moment.",
+      "line": "Give me one minute.",
+      "delivery": "calm, already reaching for something",
+      "shot": "S04"
+    },
+    {
+      "id": "L4",
+      "t": "10.8-13.6",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "Product line: name the product and the one benefit this world needs, using an allowed claim only.",
+      "line": "Red Bull Sugarfree. Keeps me sharp, no sugar.",
+      "delivery": "low and satisfied after the sip, a small smile",
+      "phonetic": "RED BULL SHUG-er-free, said as three clear words",
+      "claim": "Caffeine helps to improve concentration and increase alertness; without sugar",
+      "shot": "S06"
+    },
+    {
+      "id": "L5",
+      "t": "18.0-19.6",
+      "speaker": "ray",
+      "on_camera": false,
+      "line_intent": "Radio push: the race needs everything now.",
+      "line": "Gap's two seconds. Go get him.",
+      "delivery": "radio crackle, urgent but steady",
+      "shot": "S08"
+    },
+    {
+      "id": "L6",
+      "t": "24.6-25.4",
+      "speaker": "jess",
+      "on_camera": true,
+      "line_intent": "Payoff: the win in two words.",
+      "line": "Got him.",
+      "delivery": "breathless, under her breath, inside the helmet",
+      "shot": "S09"
+    },
+    {
+      "id": "L7",
+      "t": "27.6-29.6",
+      "speaker": "jess",
+      "on_camera": false,
+      "line_intent": "Tagline in the brand's own words.",
+      "line": "Wiiings without sugar.",
+      "delivery": "warm voiceover, unhurried",
+      "phonetic": "WINGS, stretch the vowel slightly",
+      "shot": "S10"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 2.9,
+      "beat": "hook",
+      "framing": "extreme close-up",
+      "camera": "slow push-in",
+      "action": "Jess's green eyes in the open helmet visor, rain-light reflections sliding across the visor, the orange glow of the pit lane behind.",
+      "product_state": "absent",
+      "audio": "rain on the garage roof, distant engine",
+      "caption": "Hour nineteen. This is where races are lost.",
+      "refs": [
+        "jess"
+      ],
+      "keyframe_prompt": "Extreme close-up of Jess, the woman from the character sheet, wearing an open-face race helmet with the visor lifted, only her green eyes and freckled nose bridge visible through the opening, rain-light reflections sliding across the raised visor, orange pit-lane glow behind her, cool blue ambient light on one side of her face. Focused, tired, certain. The helmet is plain silver and sky-blue with no text, letters or logos anywhere."
+    },
+    {
+      "id": "S02",
+      "t0": 2.9,
+      "t1": 4.4,
+      "beat": "setup",
+      "framing": "wide",
+      "camera": "locked off",
+      "action": "The garage at 3am: two crew members asleep on stacked tyres, rain sheeting past the open shutter, a timing screen glowing with abstract graphs.",
+      "product_state": "absent",
+      "audio": "rain, a monitor hum",
+      "caption": "",
+      "refs": [
+        "garage"
+      ],
+      "keyframe_prompt": "Wide shot of the garage from the location plate: two crew members in silver team jackets asleep on stacked tyres with blank sidewalls, rain sheeting past the open shutter, orange pit lights outside, a timing monitor glowing with an abstract lap graph. Quiet, exhausted, beautiful."
+    },
+    {
+      "id": "S03",
+      "t0": 4.4,
+      "t1": 6.6,
+      "beat": "setup",
+      "framing": "medium",
+      "camera": "slow dolly left",
+      "action": "Ray leans in the doorway of the drivers' corner, headset on, glasses on his head, and checks on her.",
+      "product_state": "absent",
+      "audio": "rain, dialogue",
+      "caption": "Car's in four minutes. You good?",
+      "refs": [
+        "ray",
+        "garage"
+      ],
+      "keyframe_prompt": "Medium shot of Ray, the man from the character sheet, leaning in a garage doorway at night, team radio headset on, reading glasses pushed up on his head, silver rain jacket wet at the shoulders, warm practical light on his face, rain and orange pit lights blurred behind him. He is mid-sentence, kind, checking on someone off camera."
+    },
+    {
+      "id": "S04",
+      "t0": 6.6,
+      "t1": 8.2,
+      "beat": "setup",
+      "framing": "medium close-up",
+      "camera": "locked off",
+      "action": "Jess on a folding chair, helmet on her knee, answers without looking up and reaches toward an ice bucket.",
+      "product_state": "about to enter",
+      "audio": "ice shifting",
+      "caption": "Give me one minute.",
+      "refs": [
+        "jess",
+        "garage",
+        "product"
+      ],
+      "keyframe_prompt": "Medium close-up of Jess, the woman from the character sheet, sitting on a folding chair in the garage, race suit unzipped to the waist over a grey top, helmet resting on her knee, reaching with one hand toward a steel ice bucket beside her, calm expression, cool blue light from one side and warm orange from the pit lane. The steel ice bucket holds only crushed ice and silver-blue cans like the product, no bottles."
+    },
+    {
+      "id": "S05",
+      "t0": 8.2,
+      "t1": 10.4,
+      "beat": "product",
+      "framing": "macro insert",
+      "camera": "locked off, slight rack focus",
+      "action": "Her hand lifts the can out of crushed ice; water runs off the label.",
+      "product_state": "hero, label facing camera, upright",
+      "audio": "ice, water",
+      "caption": "",
+      "refs": [
+        "product"
+      ],
+      "keyframe_prompt": "Macro insert: a woman's hand with short nails lifting the exact can from the product reference out of a steel bucket of crushed ice, label facing camera, upright and undistorted, cold water droplets running down the can, the can is the brightest object in frame, dark garage background with orange bokeh."
+    },
+    {
+      "id": "S06",
+      "t0": 10.4,
+      "t1": 13.8,
+      "beat": "product",
+      "framing": "close-up",
+      "camera": "slow push-in",
+      "action": "She cracks the can, takes one sip, lowers it and says the line with a small smile.",
+      "product_state": "in hand, label readable at chest height after the sip",
+      "audio": "can crack (registers the moment), dialogue",
+      "caption": "Red Bull Sugarfree. Keeps me sharp, no sugar.",
+      "refs": [
+        "jess",
+        "product",
+        "garage"
+      ],
+      "keyframe_prompt": "Close-up of Jess, the woman from the character sheet, in the garage at night, holding the exact can from the product reference at chest height with the label readable and undistorted, just lowered from a sip, a small satisfied smile, rain and orange pit lights blurred behind her."
+    },
+    {
+      "id": "S07",
+      "t0": 13.8,
+      "t1": 16.6,
+      "beat": "build",
+      "framing": "low head-on",
+      "camera": "handheld, low",
+      "action": "The #27 car brakes head-on toward camera into the pit box in the rain, headlights flaring; crew rush in from both sides.",
+      "product_state": "absent",
+      "audio": "engine scream, air guns",
+      "caption": "",
+      "refs": [
+        "car",
+        "garage"
+      ],
+      "keyframe_prompt": "Low head-on shot at ground level in a wet pit lane at night: the fictional silver and sky-blue number 27 HALCYON prototype race car from the reference drives straight toward the camera and brakes into its pit box, its four wheels on the ground, nose low, headlights flaring, spray off the front tyres, two crew members in silver jackets rushing in from left and right with wheel guns, orange pit lights overhead. Normal gravity: the car sits flat on the tarmac, horizon level, camera upright."
+    },
+    {
+      "id": "S08",
+      "t0": 16.6,
+      "t1": 19.8,
+      "beat": "build",
+      "framing": "medium",
+      "camera": "tracking with the car",
+      "action": "Jess drops into the cockpit, belts snap, visor down; the car leaves the pit lane into the dark.",
+      "product_state": "absent",
+      "audio": "belts, engine, radio",
+      "caption": "Gap's two seconds. Go get him.",
+      "refs": [
+        "jess",
+        "car"
+      ],
+      "keyframe_prompt": "Medium shot over the cockpit edge of the silver and sky-blue number 27 car: Jess, the woman from the character sheet, now in her closed helmet with visor down, gloved hands pulling her harness tight, a crew member's arm helping, rain beading on the bodywork, pit lane lights streaking behind."
+    },
+    {
+      "id": "S09",
+      "t0": 19.8,
+      "t1": 25.6,
+      "beat": "payoff",
+      "framing": "onboard wide",
+      "camera": "car-mounted, behind driver",
+      "action": "Onboard into a hairpin as dawn breaks, the #27 dives inside a dark rival car and passes it.",
+      "product_state": "absent",
+      "audio": "engine, downshifts, dialogue",
+      "caption": "Got him.",
+      "refs": [
+        "car"
+      ],
+      "keyframe_prompt": "Onboard camera from behind the driver's helmet inside the number 27 car braking into a tight hairpin on a wet track at first light, a dark grey rival prototype car with no logos just ahead on the outside, the pink and blue dawn sky over mountains, spray off the tyres, dashboard lights."
+    },
+    {
+      "id": "S10",
+      "t0": 25.6,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "medium insert",
+      "camera": "slow crane down",
+      "action": "Sunrise over the empty pit wall; the half-finished can stands on the wall as the #27 passes in the background. Tagline and pack shot.",
+      "product_state": "hero, upright on the pit wall, label to camera",
+      "audio": "car passing, score resolves",
+      "caption": "Wiiings without sugar.",
+      "refs": [
+        "product",
+        "car"
+      ],
+      "keyframe_prompt": "The exact can from the product reference standing upright on a wet concrete pit wall at sunrise, label facing camera and undistorted, droplets on the can, golden sunrise light rim-lighting it, a blurred silver and sky-blue race car passing on the track behind, mountains and a pink dawn sky. Premium pack shot, the can is the brightest object in the frame. Empty space above the can for a title. The car passing behind is the fictional silver and sky-blue number 27 prototype race car from the reference, not a road car."
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 8.2,
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "len_s": 9,
+      "exact_risk": false,
+      "refs": [
+        "jess card",
+        "ray card",
+        "garage plate",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "9:16 cinematic night scene in a racing team garage during a 24 hour race, heavy rain, orange pit lights, cool blue ambient light, 35mm grain. Shot 1 (0 to 3 s): extreme close-up of @Image1 (Jess) in an open helmet, visor lifted, she says quietly to herself: \"Hour nineteen. This is where races are lost.\" Shot 2 (3 to 4.5 s): wide shot of the garage, two crew asleep on tyre stacks, rain past the open shutter. Shot 3 (4.5 to 6.6 s): @Image2 (Ray) leans in the doorway with a headset, gently: \"Car's in four minutes. You good?\" Shot 4 (6.6 to 9 s): Jess on a folding chair, helmet on her knee, calm, reaching toward an ice bucket: \"Give me one minute.\" Native sound: rain on the roof, monitor hum, ice shifting. No music. No text on screen. No logos except the fictional HALCYON."
+    },
+    {
+      "id": "U2",
+      "t0": 8.2,
+      "t1": 13.8,
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "len_s": 6,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "jess card",
+        "S05 keyframe as first frame"
+      ],
+      "prompt": "9:16 cinematic. Shot 1 (0 to 2.2 s): locked macro insert, a woman's hand lifts the exact can from @Image1 out of crushed ice, label to camera, upright and undistorted. Shot 2 (2.2 to 6 s): close-up of @Image2 (Jess) in the garage at night, she cracks the can, takes one sip, lowers it to chest height with the label readable, small smile, and says low and satisfied: \"Red Bull Sugarfree (said RED BULL SHUG-er-free, three clear words). Keeps me sharp, no sugar.\" Keep the can's shape, colours, wordmark and bulls exactly as @Image1. Native sound: ice, the can crack, rain. No music."
+    },
+    {
+      "id": "U3",
+      "t0": 13.8,
+      "t1": 25.6,
+      "shots": [
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "len_s": 12,
+      "exact_risk": false,
+      "refs": [
+        "car plate",
+        "jess card",
+        "S07 keyframe as first frame"
+      ],
+      "prompt": "9:16 cinematic racing sequence, rain turning to first light. Shot 1 (0 to 3 s): low handheld wide, the silver and sky-blue number 27 prototype from @Image1 slides into its pit box from left to right, spray and sparks, crew rush in with wheel guns. Shot 2 (3 to 6 s): over the cockpit edge, @Image2 (Jess) in a closed helmet pulls her harness tight; a radio voice, crackly and steady: \"Gap's two seconds. Go get him.\" The car pulls away down the pit lane. Shot 3 (6 to 12 s): onboard from behind the driver braking into a wet hairpin at dawn, the car dives inside a dark grey rival prototype with no logos and passes it; Jess, breathless inside the helmet: \"Got him.\" Cars move forward in their direction of travel, no spins, no sliding sideways. Native sound: engines, downshifts, air guns, radio. No music."
+    },
+    {
+      "id": "U4",
+      "t0": 25.6,
+      "t1": 30,
+      "shots": [
+        "S10"
+      ],
+      "len_s": 5,
+      "exact_risk": true,
+      "refs": [
+        "product can official",
+        "S10 keyframe as first frame"
+      ],
+      "prompt": "9:16 premium pack shot at sunrise. Slow crane down onto the exact can from @Image1 standing upright on a wet concrete pit wall, label to camera, droplets, golden rim light; a blurred silver and sky-blue race car passes on the track behind, mountains and pink dawn sky. The can does not move or change. Keep empty space above the can. Native sound: the car passing, morning birds. No music, no text."
+    }
+  ],
+  "music": [
+    {
+      "section": "tension",
+      "t0": 0,
+      "t1": 13.8,
+      "brief": "Low pulsing synth bass and soft taiko ticks like a clock, sparse, in D minor, 96 bpm; leaves room for dialogue."
+    },
+    {
+      "section": "drive",
+      "t0": 13.8,
+      "t1": 25.6,
+      "brief": "Same motif, the pulse doubles, driving drums and distorted synth, big lift on the pit exit, peak at the pass."
+    },
+    {
+      "section": "release",
+      "t0": 25.6,
+      "t1": 30,
+      "brief": "The motif resolves to D major, warm pads and a single held chord that rings out past the last frame."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 10.6,
+      "sound": "can crack and fizz",
+      "why": "the product moment must register; only added if the native crack is weak"
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "jess",
+      "plan": "native voice from U1, then her U1 vocal stem as voice reference for U2 and U3"
+    },
+    {
+      "speaker": "ray",
+      "plan": "native in U1; radio line in U3 uses his U1 stem as reference with a radio filter"
+    }
+  ],
+  "post_text": [
+    {
+      "t0": 27.4,
+      "t1": 30,
+      "text": "Red Bull Sugarfree",
+      "sub": "Wiiings without sugar",
+      "style": "Inter Tight Bold, white, centred in the empty space above the can, fade up 8 frames"
+    }
+  ],
+  "claims_used": [
+    "Caffeine helps to improve concentration and increase alertness",
+    "Same benefits of the original Energy Drink, without sugar (tagline form)"
+  ],
+  "cost_estimate": {
+    "seconds": 32,
+    "usd_per_s": 0.27,
+    "first_pass_usd": 8.64,
+    "with_retakes_usd": "20 to 30",
+    "music_usd": 1.5
+  }
+}

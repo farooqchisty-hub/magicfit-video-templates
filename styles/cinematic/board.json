@@ -196,9 +196,14 @@
       "audio": "rain on the garage roof, distant engine",
       "caption": "Hour nineteen. This is where races are lost.",
       "refs": [
-        "jess"
+        "jess",
+        "helmet"
       ],
-      "keyframe_prompt": "Extreme close-up of Jess, the woman from the character sheet, wearing an open-face race helmet with the visor lifted, only her green eyes and freckled nose bridge visible through the opening, rain-light reflections sliding across the raised visor, orange pit-lane glow behind her, cool blue ambient light on one side of her face. Focused, tired, certain. The helmet is plain silver and sky-blue with no text, letters or logos anywhere."
+      "keyframe_prompt": "Extreme close-up of Jess, the woman from the character sheet, wearing an open-face race helmet with the visor lifted, only her green eyes and freckled nose bridge visible through the opening, rain-light reflections sliding across the raised visor, orange pit-lane glow behind her, cool blue ambient light on one side of her face. Focused, tired, certain. The helmet is plain silver and sky-blue with no text, letters or logos anywhere.",
+      "dressing": [
+        "the dark visor lifted open with rain droplets on it",
+        "the orange shutter light reflected in the visor"
+      ]
     },
     {
       "id": "S02",
@@ -214,7 +219,14 @@
       "refs": [
         "garage"
       ],
-      "keyframe_prompt": "Wide shot of the garage from the location plate: two crew members in silver team jackets asleep on stacked tyres with blank sidewalls, rain sheeting past the open shutter, orange pit lights outside, a timing monitor glowing with an abstract lap graph. Quiet, exhausted, beautiful."
+      "keyframe_prompt": "Wide shot of the garage from the location plate: two crew members in silver team jackets asleep on stacked tyres with blank sidewalls, rain sheeting past the open shutter, orange pit lights outside, a timing monitor glowing with an abstract lap graph. Quiet, exhausted, beautiful.",
+      "dressing": [
+        "tyre blankets with chalk tally marks",
+        "a crew member asleep with a silver jacket over his face",
+        "an open pizza box with two slices on the tyres",
+        "the half-wiped whiteboard stint chart",
+        "race gloves drying on a string line"
+      ]
     },
     {
       "id": "S03",
@@ -231,7 +243,14 @@
         "ray",
         "garage"
       ],
-      "keyframe_prompt": "Medium shot of Ray, the man from the character sheet, leaning in a garage doorway at night, team radio headset on, reading glasses pushed up on his head, silver rain jacket wet at the shoulders, warm practical light on his face, rain and orange pit lights blurred behind him. He is mid-sentence, kind, checking on someone off camera."
+      "keyframe_prompt": "Medium shot of Ray, the man from the character sheet, leaning in a garage doorway at night, team radio headset on, reading glasses pushed up on his head, silver rain jacket wet at the shoulders, warm practical light on his face, rain and orange pit lights blurred behind him. He is mid-sentence, kind, checking on someone off camera.",
+      "dressing": [
+        "a pencil behind Ray's ear",
+        "his clipboard of pencil ticks under one arm",
+        "the dented thermos in his hand",
+        "rain beading on his shoulders",
+        "cable trays overhead"
+      ]
     },
     {
       "id": "S04",
@@ -247,9 +266,18 @@
       "refs": [
         "jess",
         "garage",
-        "product"
+        "product",
+        "helmet",
+        "stopwatch"
       ],
-      "keyframe_prompt": "Medium close-up of Jess, the woman from the character sheet, sitting on a folding chair in the garage, race suit unzipped to the waist over a grey top, helmet resting on her knee, reaching with one hand toward a steel ice bucket beside her, calm expression, cool blue light from one side and warm orange from the pit lane. The steel ice bucket holds only crushed ice and silver-blue cans like the product, no bottles."
+      "keyframe_prompt": "Medium close-up of Jess, the woman from the character sheet, sitting on a folding chair in the garage, race suit unzipped to the waist over a grey top, helmet resting on her knee, reaching with one hand toward a steel ice bucket beside her, calm expression, cool blue light from one side and warm orange from the pit lane. The steel ice bucket holds only crushed ice and silver-blue cans like the product, no bottles.",
+      "dressing": [
+        "her father's stopwatch on its red lanyard around her neck",
+        "the helmet with the faded go-kart sticker on her knee",
+        "a paper cup of cold coffee on the floor",
+        "three cans in the crushed ice",
+        "the dented sky-blue tool chest behind her"
+      ]
     },
     {
       "id": "S05",
@@ -265,7 +293,12 @@
       "refs": [
         "product"
       ],
-      "keyframe_prompt": "Macro insert: a woman's hand with short nails lifting the exact can from the product reference out of a steel bucket of crushed ice, label facing camera, upright and undistorted, cold water droplets running down the can, the can is the brightest object in frame, dark garage background with orange bokeh."
+      "keyframe_prompt": "Macro insert: a woman's hand with short nails lifting the exact can from the product reference out of a steel bucket of crushed ice, label facing camera, upright and undistorted, cold water droplets running down the can, the can is the brightest object in frame, dark garage background with orange bokeh.",
+      "dressing": [
+        "a frayed friendship bracelet on the wrist",
+        "a second can still in the ice",
+        "a rolled towel on the chair edge"
+      ]
     },
     {
       "id": "S06",
@@ -283,7 +316,11 @@
         "product",
         "garage"
       ],
-      "keyframe_prompt": "Close-up of Jess, the woman from the character sheet, in the garage at night, holding the exact can from the product reference at chest height with the label readable and undistorted, just lowered from a sip, a small satisfied smile, rain and orange pit lights blurred behind her."
+      "keyframe_prompt": "Close-up of Jess, the woman from the character sheet, in the garage at night, holding the exact can from the product reference at chest height with the label readable and undistorted, just lowered from a sip, a small satisfied smile, rain and orange pit lights blurred behind her. Her face must match the character sheet exactly: dark-blonde hair tied back, green eyes, light freckles, same bone structure. She holds the can low at chest height, well below her chin, the whole label facing camera and fully visible. Around her neck hangs an old chrome wind-up mechanical stopwatch with a blank white dial showing only tick marks and one hand on a faded red lanyard.",
+      "dressing": [
+        "the whiteboard stint chart blurred behind her",
+        "tyre blanket bokeh"
+      ]
     },
     {
       "id": "S07",
@@ -300,7 +337,13 @@
         "car",
         "garage"
       ],
-      "keyframe_prompt": "Low head-on shot at ground level in a wet pit lane at night: the fictional silver and sky-blue number 27 HALCYON prototype race car from the reference drives straight toward the camera and brakes into its pit box, its four wheels on the ground, nose low, headlights flaring, spray off the front tyres, two crew members in silver jackets rushing in from left and right with wheel guns, orange pit lights overhead. Normal gravity: the car sits flat on the tarmac, horizon level, camera upright."
+      "keyframe_prompt": "Low head-on shot at ground level in a wet pit lane at night: the fictional silver and sky-blue number 27 HALCYON prototype race car from the reference drives straight toward the camera and brakes into its pit box, its four wheels on the ground, nose low, headlights flaring, spray off the front tyres, two crew members in silver jackets rushing in from left and right with wheel guns, orange pit lights overhead. Normal gravity: the car sits flat on the tarmac, horizon level, camera upright.",
+      "dressing": [
+        "silver tape over a crack in the splitter",
+        "mud streaks along the sidepods",
+        "the yellow air-gun hose",
+        "rubber marbles on the wet tarmac"
+      ]
     },
     {
       "id": "S08",
@@ -315,9 +358,15 @@
       "caption": "Gap's two seconds. Go get him.",
       "refs": [
         "jess",
-        "car"
+        "car",
+        "pitboard"
       ],
-      "keyframe_prompt": "Medium shot over the cockpit edge of the silver and sky-blue number 27 car: Jess, the woman from the character sheet, now in her closed helmet with visor down, gloved hands pulling her harness tight, a crew member's arm helping, rain beading on the bodywork, pit lane lights streaking behind."
+      "keyframe_prompt": "Medium shot over the cockpit edge of the silver and sky-blue number 27 car: Jess, the woman from the character sheet, now in her closed helmet with visor down, gloved hands pulling her harness tight, a crew member's arm helping, rain beading on the bodywork, pit lane lights streaking behind.",
+      "dressing": [
+        "clear tear-off strips on the windscreen",
+        "a crew arm holding the sky-blue number 27 pit board in the background",
+        "Ray at the pit wall under rain"
+      ]
     },
     {
       "id": "S09",
@@ -333,7 +382,13 @@
       "refs": [
         "car"
       ],
-      "keyframe_prompt": "Onboard camera from behind the driver's helmet inside the number 27 car braking into a tight hairpin on a wet track at first light, a dark grey rival prototype car with no logos just ahead on the outside, the pink and blue dawn sky over mountains, spray off the tyres, dashboard lights."
+      "keyframe_prompt": "Onboard camera from behind the driver's helmet inside the number 27 car braking into a tight hairpin on a wet track at first light, a dark grey rival prototype car with no logos just ahead on the outside, the pink and blue dawn sky over mountains, spray off the tyres, dashboard lights.",
+      "dressing": [
+        "coloured buttons on the steering wheel",
+        "red and white kerbs with rubber marks",
+        "a marshal post with an orange flag",
+        "a stacked tyre wall with a sky-blue belt"
+      ]
     },
     {
       "id": "S10",
@@ -348,9 +403,15 @@
       "caption": "Wiiings without sugar.",
       "refs": [
         "product",
-        "car"
+        "car",
+        "stopwatch"
       ],
-      "keyframe_prompt": "The exact can from the product reference standing upright on a wet concrete pit wall at sunrise, label facing camera and undistorted, droplets on the can, golden sunrise light rim-lighting it, a blurred silver and sky-blue race car passing on the track behind, mountains and a pink dawn sky. Premium pack shot, the can is the brightest object in the frame. Empty space above the can for a title. The car passing behind is the fictional silver and sky-blue number 27 prototype race car from the reference, not a road car."
+      "keyframe_prompt": "The exact can from the product reference standing upright on a wet concrete pit wall at sunrise, label facing camera and undistorted, droplets on the can, golden sunrise light rim-lighting it, a blurred silver and sky-blue race car passing on the track behind, mountains and a pink dawn sky. Premium pack shot, the can is the brightest object in the frame. Empty space above the can for a title. The car passing behind is the fictional silver and sky-blue number 27 prototype race car from the reference, not a road car.",
+      "dressing": [
+        "her father's stopwatch lying on the pit wall beside the can",
+        "Ray's dented thermos further along the wall",
+        "painted team stripes on the concrete"
+      ]
     }
   ],
   "units": [
@@ -481,5 +542,120 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Halcyon Racing is an 11-person privateer team running a two-year-old car against factory teams. They have never finished on the podium at Vallon.",
+      "Jess is the team's third driver and its rookie, so she gets the night stints nobody wants. She drives with her late father's old analog stopwatch on a lanyard; he ran a small kart track in Ohio.",
+      "Ray has run pit walls for 30 years. He carries a dented steel thermos he never seems to drink from and keeps a pencil behind his ear.",
+      "It has rained since hour 14. The crew sleep in 20 minute shifts on the tyre stacks."
+    ],
+    "locations": {
+      "garage": {
+        "foreground": [
+          "wet rain tyres in black heated tyre blankets with white chalk tally marks on the sidewalls",
+          "a yellow air-gun hose coiled on a steel reel",
+          "a steel ice bucket of crushed ice holding three silver-blue cans",
+          "a paper cup of cold coffee with a brown ring inside"
+        ],
+        "midground": [
+          "a dented sky-blue roll-cab tool chest with coloured tape strips on the drawers",
+          "a whiteboard stint chart of hand-drawn boxes, half wiped, with round magnets",
+          "a crew member asleep on a tyre stack with a silver jacket over his face",
+          "an open pizza box on the tyres with two slices left",
+          "a spare steering wheel in a foam-lined flight case",
+          "race gloves drying on a string line"
+        ],
+        "background": [
+          "the open shutter with a curtain of rain and orange sodium light",
+          "timing monitors on a gantry showing coloured lap graphs",
+          "a silver and sky-blue team flag with a half-sun arc mark",
+          "cable trays, a red fire extinguisher, puddles reflecting the lights"
+        ]
+      },
+      "car": {
+        "foreground": [
+          "a strip of silver tape over a crack in the front splitter",
+          "mud and rubber streaks along the sidepods",
+          "clear tear-off strips on the windscreen"
+        ],
+        "midground": [
+          "the half-sun arc mark on the nose",
+          "a blinking red rain light at the rear"
+        ],
+        "background": [
+          "wet tarmac with orange reflections"
+        ]
+      },
+      "track": {
+        "foreground": [
+          "white and red kerbs with rubber marks",
+          "a gravel trap with tyre tracks through it"
+        ],
+        "midground": [
+          "a stacked tyre wall with a sky-blue belt",
+          "a marshal post with an orange flag on a pole"
+        ],
+        "background": [
+          "pine forest and snowy mountains under a pink dawn"
+        ]
+      }
+    },
+    "personal_props": {
+      "jess": [
+        "her father's scuffed analog stopwatch on a faded red lanyard",
+        "a frayed woven friendship bracelet on her left wrist",
+        "a silver and sky-blue helmet with a faded cartoon go-kart sticker on the back (shape only, no text)"
+      ],
+      "ray": [
+        "a pencil behind his right ear",
+        "a clipboard with a dog-eared paper stint sheet of pencil ticks",
+        "a dented steel thermos",
+        "reading glasses pushed up on his head"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "helmet",
+        "name": "Jess's helmet",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, three views: a closed-face racing helmet, silver with a sky-blue diagonal stripe, a dark tinted visor lifted open, scuffs and chips along the chin guard, rain droplets, and on the back a small faded cartoon sticker of a go-kart (drawing only, no letters). No text or logos anywhere. Photoreal studio light."
+      },
+      {
+        "id": "stopwatch",
+        "name": "Her father's stopwatch",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background, two views: an old chrome analog mechanical stopwatch with a scratched crystal, a worn crown button and a faded red woven lanyard, a small dent on the case. Plain dial with tick marks and no brand name or words. Photoreal macro studio light."
+      },
+      {
+        "id": "pitboard",
+        "name": "Halcyon pit board",
+        "prop_prompt": "Prop reference sheet on a plain mid-grey background: a hand-held racing pit board on a long aluminium pole, sky-blue board with a silver border, the large painted digits 27 at the top and a white half-sun arc mark below, rain-spotted and chipped at the edges. Only the digits 27, no other text. Photoreal studio light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Halcyon Racing",
+        "mark": "a white half-sun rising over a horizon line",
+        "colors": "silver and sky blue",
+        "appears_on": "car nose and flanks, crew jackets (chest), team flag, pit board, tool chest",
+        "text_in_post": "the word HALCYON only on the car flank; everywhere else the mark alone"
+      },
+      {
+        "name": "Marrow Tyres",
+        "mark": "a single yellow band around the sidewall",
+        "colors": "black and yellow",
+        "appears_on": "every tyre and tyre blanket",
+        "text_in_post": "none"
+      }
+    ],
+    "wear_and_time": "Hour 19, 3:07am, five hours of rain. Everything is wet; the car carries mud, rubber marbles and tape; the crew are exhausted, food is half eaten, tape is everywhere. First light arrives at the hairpin.",
+    "sound_world": [
+      "rain drumming on the garage roof",
+      "the hum of tyre-blanket heaters",
+      "a distant, unintelligible circuit PA",
+      "generator drone",
+      "ice shifting in the bucket",
+      "radio squelch",
+      "air-gun bursts"
+    ]
   }
 }

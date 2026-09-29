@@ -204,9 +204,16 @@
       "caption": "And in lane four... a snail? Seriously?",
       "refs": [
         "pip",
-        "street"
+        "street",
+        "booth"
       ],
-      "keyframe_prompt": "Medium close-up, camera right at the booth: Pip, the clay pigeon from the character sheet, fills the upper two thirds of the frame, big and close to the lens, sitting in a tiny matchbox commentary booth on top of a lamp post, oversized headphones on, holding her silver clay microphone, leaning out over the booth's edge and staring down in comic disbelief, eyes bulging, beak wide open. Far below and out of focus, the handmade clay street from the location reference with blank clay-red and gold bunting and cotton-wool clouds. Visible thumbprints, matte plasticine, warm tabletop key, macro lens shallow depth of field."
+      "keyframe_prompt": "Medium close-up, camera right at the booth: Pip, the clay pigeon from the character sheet, fills the upper two thirds of the frame, big and close to the lens, sitting in a tiny matchbox commentary booth on top of a lamp post, oversized headphones on, holding her silver clay microphone, leaning out over the booth's edge and staring down in comic disbelief, eyes bulging, beak wide open. Far below and out of focus, the handmade clay street from the location reference with blank clay-red and gold bunting and cotton-wool clouds. Visible thumbprints, matte plasticine, warm tabletop key, macro lens shallow depth of field.",
+      "dressing": [
+        "the matchbox booth with its felt awning and bead lights",
+        "Pip's button headphones",
+        "the stamp-sized clipboard",
+        "bunting behind"
+      ]
     },
     {
       "id": "S02",
@@ -224,7 +231,14 @@
         "blaze",
         "street"
       ],
-      "keyframe_prompt": "Low wide shot at character height on the chalk start line of the handmade clay street from the location reference: Blaze, the clay jackrabbit from his character sheet, crouched on white roller skates with red wheels, cocky grin; a small clay beetle on a bicycle with bottle-cap wheels; and in the next lane Gus, the tiny clay snail from his character sheet, with his clay-red cap and green and cream satchel, calm half smile. All wheels on the ground, normal gravity. Blank bunting overhead. Upright vertical composition, level horizon. Visible thumbprints, matte plasticine."
+      "keyframe_prompt": "Low wide shot at character height on the chalk start line of the handmade clay street from the location reference: Blaze, the clay jackrabbit from his character sheet, crouched on white roller skates with red wheels, cocky grin; a small clay beetle on a bicycle with bottle-cap wheels; and in the next lane Gus, the tiny clay snail from his character sheet, with his clay-red cap and green and cream satchel, calm half smile. All wheels on the ground, normal gravity. Blank bunting overhead. Upright vertical composition, level horizon. Visible thumbprints, matte plasticine.",
+      "dressing": [
+        "poster-paint lane stripes",
+        "Blaze's bottle-cap medals",
+        "a clay beetle on a bottle-cap bicycle",
+        "Gus's cap with the repair stitch",
+        "the matchbox grandstand of cheering beetles"
+      ]
     },
     {
       "id": "S03",
@@ -241,7 +255,12 @@
         "gus",
         "street"
       ],
-      "keyframe_prompt": "Wide shot of the chalk start line on the handmade clay street from the location reference just after the start: the other racers are gone down the road as long streaky clay smears of tan, orange and blue with puffs of cotton-wool dust hanging in the air, and Gus, the tiny clay snail from the character sheet, is left almost exactly on the start line, cap slightly blown back. A chunky clay checkered starter's flag on a lollipop-stick pole has just swung down in the foreground. No guns or weapons anywhere. Upright vertical composition, level horizon. Stop-motion smear motion, matte plasticine, thumbprints."
+      "keyframe_prompt": "Wide shot of the chalk start line on the handmade clay street from the location reference just after the start: the other racers are gone down the road as long streaky clay smears of tan, orange and blue with puffs of cotton-wool dust hanging in the air, and Gus, the tiny clay snail from the character sheet, is left almost exactly on the start line, cap slightly blown back. A chunky clay checkered starter's flag on a lollipop-stick pole has just swung down in the foreground. No guns or weapons anywhere. Upright vertical composition, level horizon. Stop-motion smear motion, matte plasticine, thumbprints.",
+      "dressing": [
+        "cotton-reel bollards",
+        "hole-punch confetti in the air",
+        "the toothpick fence with wool rope"
+      ]
     },
     {
       "id": "S04",
@@ -257,7 +276,13 @@
       "refs": [
         "gus"
       ],
-      "keyframe_prompt": "Macro close-up of Gus, the clay snail from the character sheet, at the chalk start line as cotton-wool dust settles around him, completely unbothered, one eyestalk raised higher than the other, a slow knowing half smile, clay-red courier cap, green and cream satchel with a plain cream envelope. Visible thumbprints and tool marks on the clay, shallow depth of field, blurred sky-blue cardboard houses behind, warm tabletop key light."
+      "keyframe_prompt": "Macro close-up of Gus, the clay snail from the character sheet, at the chalk start line as cotton-wool dust settles around him, completely unbothered, one eyestalk raised higher than the other, a slow knowing half smile, clay-red courier cap, green and cream satchel with a plain cream envelope. Visible thumbprints and tool marks on the clay, shallow depth of field, blurred sky-blue cardboard houses behind, warm tabletop key light.",
+      "dressing": [
+        "the red wax seal on his envelope",
+        "the watch-battery pocket watch on its thread chain",
+        "the repair stitch on his cap",
+        "crumpled tissue leaves in the gutter"
+      ]
     },
     {
       "id": "S05",
@@ -275,7 +300,12 @@
         "gus",
         "street"
       ],
-      "keyframe_prompt": "Low angle shot on the handmade clay street from the location reference: the exact real can from the product reference stands upright beside a tiny cardboard refreshment stand, a real printed aluminium can with condensation, not made of clay, label facing camera and undistorted, towering over the tiny scene like a water tower, lit by the same warm tabletop key with a soft contact shadow on the paper road. A long bendy clay straw in red and white stripes hangs from the can's opened top down to Gus, the tiny clay snail from the character sheet, who looks up at the can in awe. The straw does not cover the front label. Matte plasticine characters, visible thumbprints."
+      "keyframe_prompt": "Low angle shot on the handmade clay street from the location reference: the exact real can from the product reference stands upright beside a tiny cardboard refreshment stand, a real printed aluminium can with condensation, not made of clay, label facing camera and undistorted, towering over the tiny scene like a water tower, lit by the same warm tabletop key with a soft contact shadow on the paper road. A long bendy clay straw in red and white stripes hangs from the can's opened top down to Gus, the tiny clay snail from the character sheet, who looks up at the can in awe. The straw does not cover the front label. Matte plasticine characters, visible thumbprints.",
+      "dressing": [
+        "a cardboard refreshment stand with a felt awning",
+        "a paper straw bent down to Gus",
+        "a thimble planter of pipe-cleaner flowers"
+      ]
     },
     {
       "id": "S06",
@@ -292,7 +322,12 @@
         "gus",
         "product"
       ],
-      "keyframe_prompt": "Medium shot: Gus, the tiny clay snail from the character sheet, beside the base of the exact real can from the product reference, a real printed aluminium can with condensation standing upright, label facing camera and undistorted, towering above him. He has just let go of a red and white striped clay straw, his eyestalks now standing perfectly straight and alert, his black bead eyes sharp and focused, a satisfied grin, cap pushed back. Blurred sky-blue cardboard houses behind. Matte plasticine with thumbprints, warm tabletop key light. The can is real, not clay."
+      "keyframe_prompt": "Medium shot: Gus, the tiny clay snail from the character sheet, beside the base of the exact real can from the product reference, a real printed aluminium can with condensation standing upright, label facing camera and undistorted, towering above him. He has just let go of a red and white striped clay straw, his eyestalks now standing perfectly straight and alert, his black bead eyes sharp and focused, a satisfied grin, cap pushed back. Blurred sky-blue cardboard houses behind. Matte plasticine with thumbprints, warm tabletop key light. The can is real, not clay.",
+      "dressing": [
+        "the brass-button clasp on his satchel",
+        "the button manhole cover",
+        "the sponge tree behind"
+      ]
     },
     {
       "id": "S07",
@@ -309,7 +344,12 @@
         "gus",
         "street"
       ],
-      "keyframe_prompt": "Over-the-shoulder shot from behind the two eyestalks of Gus, the clay snail from the character sheet, looking down the long winding hill road of the handmade clay town from the location reference: far below, the other clay racers are tangled in a funny pile-up at a hairpin bend, and right beside Gus the corrugated silver drainpipe runs straight down the hill to a small plain red mailbox. Upright vertical composition, level horizon. Matte plasticine, felt hedges, cotton-wool clouds."
+      "keyframe_prompt": "Over-the-shoulder shot from behind the two eyestalks of Gus, the clay snail from the character sheet, looking down the long winding hill road of the handmade clay town from the location reference: far below, the other clay racers are tangled in a funny pile-up at a hairpin bend, and right beside Gus the corrugated silver drainpipe runs straight down the hill to a small plain red mailbox. Upright vertical composition, level horizon. Matte plasticine, felt hedges, cotton-wool clouds.",
+      "dressing": [
+        "the washing line of knitted socks",
+        "the pencil-stub chimneys",
+        "racers tangled at the hairpin with a tipped bottle-cap bicycle"
+      ]
     },
     {
       "id": "S08",
@@ -326,7 +366,12 @@
         "gus",
         "drainpipe"
       ],
-      "keyframe_prompt": "Inside the corrugated silver drainpipe from the location reference: Gus's brown and cream spiral shell, the clay snail from the character sheet tucked inside with just his clay-red cap poking out, rolls fast toward the bright circular exit, a streaky clay smear of brown and cream trailing behind him as stop-motion motion blur, the envelope satchel strapped tight. Crinkled foil and card textures, warm light from the far end. Matte plasticine, thumbprints."
+      "keyframe_prompt": "Inside the corrugated silver drainpipe from the location reference: Gus's brown and cream spiral shell, the clay snail from the character sheet tucked inside with just his clay-red cap poking out, rolls fast toward the bright circular exit, a streaky clay smear of brown and cream trailing behind him as stop-motion motion blur, the envelope satchel strapped tight. Crinkled foil and card textures, warm light from the far end. Matte plasticine, thumbprints.",
+      "dressing": [
+        "sequin rivets along the foil",
+        "a lost button on the pipe floor",
+        "the glue slime trail behind him"
+      ]
     },
     {
       "id": "S09",
@@ -344,7 +389,13 @@
         "blaze",
         "street"
       ],
-      "keyframe_prompt": "Low wide shot at the bottom of the hill on the handmade clay street from the location reference: Gus, the small clay snail from his character sheet (soft grey-green body, brown and cream spiral shell, clay-red cap, green and cream satchel, no arms, a snail's body only), stretched up at the foot of a plain red clay mailbox with no letters on it, nudging a plain cream envelope into the low slot with his head, one eyestalk winking. Behind him Blaze, the lanky tan clay jackrabbit from his character sheet, three times taller than the snail, skids in on white roller skates with red wheels, panting, long ears drooping in shock, wheels on the ground. Punched paper confetti falling, the drainpipe exit beside them. Upright vertical composition, level horizon. Matte plasticine, thumbprints."
+      "keyframe_prompt": "Low wide shot at the bottom of the hill on the handmade clay street from the location reference: Gus, the small clay snail from his character sheet (soft grey-green body, brown and cream spiral shell, clay-red cap, green and cream satchel, no arms, a snail's body only), stretched up at the foot of a plain red clay mailbox with no letters on it, nudging a plain cream envelope into the low slot with his head, one eyestalk winking. Behind him Blaze, the lanky tan clay jackrabbit from his character sheet, three times taller than the snail, skids in on white roller skates with red wheels, panting, long ears drooping in shock, wheels on the ground. Punched paper confetti falling, the drainpipe exit beside them. Upright vertical composition, level horizon. Matte plasticine, thumbprints.",
+      "dressing": [
+        "the red mailbox with the envelope mark",
+        "hole-punch confetti",
+        "Blaze's bead-wheel skates skidding",
+        "the mouse family waving felt flags"
+      ]
     },
     {
       "id": "S10",
@@ -360,9 +411,16 @@
       "refs": [
         "product",
         "gus",
-        "street"
+        "street",
+        "podium",
+        "medal"
       ],
-      "keyframe_prompt": "Medium wide shot on the handmade clay street: a winners' podium made of three stacked plain bottle caps, Gus, the clay snail from the character sheet, proudly on the top step wearing a gold clay medal and his clay-red cap, and right beside the podium the exact real can from the product reference standing upright, a real printed aluminium can with condensation, not made of clay, label facing camera and undistorted, towering over the podium, lit by the warm tabletop key with a soft contact shadow. Punched paper confetti drifting, blank bunting, cotton-wool clouds and clean pale blue painted sky above for a title. Upright vertical composition, level horizon. Matte plasticine, thumbprints."
+      "keyframe_prompt": "Medium wide shot on the handmade clay street: a winners' podium made of three stacked plain bottle caps, Gus, the clay snail from the character sheet, proudly on the top step wearing a gold clay medal and his clay-red cap, and right beside the podium the exact real can from the product reference standing upright, a real printed aluminium can with condensation, not made of clay, label facing camera and undistorted, towering over the podium, lit by the warm tabletop key with a soft contact shadow. Punched paper confetti drifting, blank bunting, cotton-wool clouds and clean pale blue painted sky above for a title. Upright vertical composition, level horizon. Matte plasticine, thumbprints.",
+      "dressing": [
+        "the gold foil button medal on embroidery thread",
+        "the bottle-cap podium on its felt mat",
+        "confetti on the mat"
+      ]
     }
   ],
   "units": [
@@ -508,5 +566,112 @@
     "first_pass_usd": 8.64,
     "with_retakes_usd": "20 to 30",
     "music_usd": 1.5
+  },
+  "world_bible": {
+    "lore": [
+      "Puddleton is a clay town that sits on the far end of a craft table. Everything in it was made from something else: matchboxes, bottle caps, buttons, spools, felt and foil.",
+      "The Parcel Dash runs once a year from the top of Crumb Hill to the old post-office mailbox at the bottom. The prize is a gold foil medal on embroidery thread.",
+      "Gus has delivered Puddleton's post for 40 years and has never won the Dash. His cap has a repair stitch where it tore in last year's race.",
+      "Blaze has won three years running on bead-wheel skates and wears the three bottle-cap medals round his neck.",
+      "Pip calls every race from a matchbox booth bolted to a paper-clip lamp post."
+    ],
+    "materials_rule": "Every object is a recognisable craft material in miniature: matchboxes, bottle caps, buttons, thimbles, cotton reels, corrugated card, felt, pipe cleaners, toothpicks, sequins, wool, sponge, paper straws, foil, hole-punch confetti. Visible fingerprints, glue shine and tool marks.",
+    "locations": {
+      "street": {
+        "foreground": [
+          "cotton-reel bollards along the kerb",
+          "a button manhole cover in the road",
+          "a toothpick fence strung with wool rope",
+          "a thimble planter of pipe-cleaner flowers",
+          "crumpled tissue-paper leaves in the gutter"
+        ],
+        "midground": [
+          "poster-paint lane stripes on the paper road, one lane per racer",
+          "a matchbox grandstand of clay beetles and a mouse family waving tiny felt flags",
+          "a bottle-cap bicycle leaning on a sponge tree",
+          "a stamp-sized strand of fabric bunting"
+        ],
+        "background": [
+          "cardboard houses with painted windows and scrap-fabric curtains",
+          "a washing line of tiny knitted socks between two chimneys made of pencil stubs",
+          "cotton-wool clouds on visible wires",
+          "a brush-stroked painted sky",
+          "the corrugated foil drainpipe running down Crumb Hill"
+        ]
+      },
+      "drainpipe": {
+        "foreground": [
+          "crinkled kitchen foil walls",
+          "sequin rivets along the seams",
+          "a lost button on the floor of the pipe"
+        ],
+        "midground": [
+          "a clear glue slime trail left by Gus"
+        ],
+        "background": [
+          "the bright round exit onto the paper road and the red mailbox"
+        ]
+      }
+    },
+    "personal_props": {
+      "gus": [
+        "a green felt satchel with a brass-button clasp",
+        "a cream envelope sealed with a red wax blob",
+        "a clay-red courier cap with a visible white repair stitch",
+        "a pocket watch made from a watch battery on a thread chain"
+      ],
+      "pip": [
+        "headphones made of two buttons and a pipe-cleaner band",
+        "a silver bead microphone on a wire",
+        "a clipboard made from a postage-stamp-sized card with pencil scribbles"
+      ],
+      "blaze": [
+        "white clay roller skates with red bead wheels",
+        "an orange terry-towel sweatband",
+        "three bottle-cap medals on string round his neck"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "medal",
+        "name": "The Parcel Dash medal",
+        "prop_prompt": "Claymation prop reference sheet on a plain mid-grey background: a tiny handmade race medal made from a gold foil-wrapped button with a thumbprint dent, hung on a loop of red and cream embroidery thread, shown front and back at macro scale. No letters or numbers. Visible craft textures, warm softbox light."
+      },
+      {
+        "id": "booth",
+        "name": "Pip's matchbox commentary booth",
+        "prop_prompt": "Claymation prop reference sheet on a plain mid-grey background: a commentary booth made from a half-open matchbox bolted to a bent paper-clip lamp post, a tiny felt awning, a strip of washi-tape trim, a string of three bead lights, a toothpick ladder leaning against the post. No letters or logos. Visible craft textures, warm softbox light."
+      },
+      {
+        "id": "podium",
+        "name": "The bottle-cap podium",
+        "prop_prompt": "Claymation prop reference sheet on a plain mid-grey background: a three-step winners' podium made from stacked metal bottle caps (three caps high, two, one), crinkle edges, painted white and gold, on a round felt mat scattered with hole-punch paper confetti. No letters or logos. Visible craft textures, warm softbox light."
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Puddleton Post",
+        "mark": "a cream envelope shape with a red wax dot",
+        "colors": "green and cream",
+        "appears_on": "Gus's satchel, the mailbox door, the post-office flag",
+        "text_in_post": "none"
+      },
+      {
+        "name": "Parcel Dash",
+        "mark": "a red and gold chequered pennant",
+        "colors": "clay red and gold",
+        "appears_on": "bunting, the start banner, the medal ribbon",
+        "text_in_post": "race title card only"
+      }
+    ],
+    "wear_and_time": "Race morning, bright table-lamp sun. The set is well used: fingerprints on every surface, a little dust, glue shine at joins, a pencil line where the road was measured out.",
+    "sound_world": [
+      "soft clay squelch footsteps",
+      "paper and card rustles",
+      "foil crinkle inside the drainpipe",
+      "button clicks and bead rattles",
+      "a crowd of tiny squeaks and cheers",
+      "the pop of the can in a tiny world"
+    ]
   }
 }

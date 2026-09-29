@@ -37,12 +37,25 @@ def build(key):
         ok=jpg(f"{d}/img/{s['id']}.png",f"{out}/{s['id']}.jpg",540)
         cap=f'<div class="cap">{E(s.get("caption",""))}</div>' if s.get("caption") else ""
         img=f'<img loading="lazy" src="{s["id"]}.jpg" alt="">' if ok else '<div style="color:#999;padding:40% 10px;text-align:center">not rendered</div>'
-        panels.append(f'<div class="panel"><div class="frame">{img}{cap}</div><div class="pm"><b>{s["id"]}</b> · {s["t0"]:.1f} to {s["t1"]:.1f}s · {E(s.get("beat",""))}<div class="m">{E(s.get("framing",""))}, {E(s.get("camera",""))}</div><div class="l">{E(s.get("action",""))}</div><div class="m">Product: {E(s.get("product_state",""))} · Sound: {E(s.get("audio",""))}</div></div></div>')
+        panels.append(f'<div class="panel"><div class="frame">{img}{cap}</div><div class="pm"><b>{s["id"]}</b> · {s["t0"]:.1f} to {s["t1"]:.1f}s · {E(s.get("beat",""))}<div class="m">{E(s.get("framing",""))}, {E(s.get("camera",""))}</div><div class="l">{E(s.get("action",""))}</div>{('<div class="m">Details: '+E("; ".join(s["dressing"]))+'</div>') if s.get("dressing") else ""}<div class="m">Product: {E(s.get("product_state",""))} · Sound: {E(s.get("audio",""))}</div></div></div>')
     assets=[]
     for c in b.get("cast",[]):
         if jpg(f"{d}/img/{c['id']}.png",f"{out}/{c['id']}.jpg",900): assets.append(f'<figure><img src="{c["id"]}.jpg" alt=""><figcaption><b>{E(c["name"])}</b>, {E(c["role"])}<br><span class="sub">Voice: {E(c.get("voice",""))}</span></figcaption></figure>')
     for l in b.get("locations",[]):
         if jpg(f"{d}/img/{l['id']}.png",f"{out}/{l['id']}.jpg",500): assets.append(f'<figure><img src="{l["id"]}.jpg" alt=""><figcaption><b>{E(l["name"])}</b></figcaption></figure>')
+    wb=b.get("world_bible",{}); wbh=""
+    if wb:
+        props=[]
+        for o in wb.get("signature_objects",[]):
+            if jpg(f"{d}/img/{o['id']}.png",f"{out}/{o['id']}.jpg",900): props.append(f'<figure><img src="{o["id"]}.jpg" alt=""><figcaption><b>{E(o["name"])}</b></figcaption></figure>')
+        locs="".join(f'<div class="box"><b>{E(k)}</b><p><span class="sub">Foreground</span><br>{E("; ".join(v.get("foreground",[])))}</p><p><span class="sub">Midground</span><br>{E("; ".join(v.get("midground",[])))}</p><p><span class="sub">Background</span><br>{E("; ".join(v.get("background",[])))}</p></div>' for k,v in wb.get("locations",{}).items())
+        pp="".join(f'<li><b>{E(spk.get(k,k))}</b>: {E("; ".join(v))}</li>' for k,v in wb.get("personal_props",{}).items())
+        bs="".join(f'<li><b>{E(x["name"])}</b>: {E(x["mark"])}, {E(x["colors"])}. On: {E(x["appears_on"])}. Text in post: {E(x["text_in_post"])}</li>' for x in wb.get("brand_system",[]))
+        wbh=f'''<h2>World bible</h2><p class="sub">Fixed with the concept: the lore, the objects and the textures that make this world specific. Only product-adjacent props change per product.</p>
+<div class="box"><b>Lore</b><ul>{"".join(f"<li>{E(x)}</li>" for x in wb.get("lore",[]))}</ul>{("<p><b>Materials.</b> "+E(wb["materials_rule"])+"</p>") if wb.get("materials_rule") else ""}<p><b>Wear and time.</b> {E(wb.get("wear_and_time",""))}</p></div>
+<h3>Signature objects</h3><div class="assets">{"".join(props)}</div>
+<h3>Set dressing by location</h3><div class="two">{locs}</div>
+<div class="two" style="margin-top:14px"><div class="box"><b>Personal props</b><ul>{pp}</ul></div><div class="box"><b>Fictional brand system</b><ul>{bs}</ul><b>Sound world</b><p>{E("; ".join(wb.get("sound_world",[])))}</p></div></div>'''
     words=sum(len(L["line"].split()) for L in b.get("script",[]))
     script="".join(f'<tr><td>{E(L["t"])}</td><td><b>{E(spk.get(L["speaker"],L["speaker"]))}</b>{"" if L.get("on_camera") else " (off camera)"}</td><td>{E(L["line"])}<div class="sub">{E(L.get("delivery",""))}{(" · Say: "+E(L["phonetic"])) if L.get("phonetic") else ""}</div></td><td class="sub">{E(L.get("line_intent",""))}</td></tr>' for L in b.get("script",[]))
     beats="".join(f'<tr><td>{E(x["t"])}</td><td><b>{E(x["id"])}</b></td><td>{E(x["summary"])}</td></tr>' for x in b["beats"])
@@ -60,7 +73,7 @@ def build(key):
 <h2>Contact sheet</h2><p class="sub">One keyframe per shot, with the caption as it will appear.</p><div class="grid">{"".join(panels)}</div>
 <h2>Cast and world</h2><div class="assets">{"".join(assets)}</div>
 <p><b>World.</b> {E(world.get("setting",""))} <b>Palette.</b> {E(world.get("palette",""))}<br><b>Fictional brands.</b> {E("; ".join(world.get("fictional_brands",[])))}</p>
-<h2>Beats</h2><div class="wrap"><table><tr><th>Time</th><th>Beat</th><th>What happens</th></tr>{beats}</table></div>
+{wbh}<h2>Beats</h2><div class="wrap"><table><tr><th>Time</th><th>Beat</th><th>What happens</th></tr>{beats}</table></div>
 <h2>Screenplay</h2><p class="sub">{words} spoken words in {b["runtime_s"]} s. Each line keeps its intent (fixed in the template) and its wording (written for this product).</p><div class="wrap"><table><tr><th>Time</th><th>Speaker</th><th>Line</th><th>Intent (template)</th></tr>{script}</table></div>
 <h2>Generation plan</h2>{units}
 <h2>Sound, music, voice, captions</h2><div class="two"><div class="box"><b>Score</b> (one continuous piece, sections stitched at picture cuts)<table>{music}</table><p><b>Added sound</b></p><ul>{sfx}</ul></div>

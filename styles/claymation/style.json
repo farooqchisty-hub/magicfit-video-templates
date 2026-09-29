@@ -52,7 +52,8 @@
     "in busy multi-character shots the hero's clay colours drift (Gus came back bright green): restate body and shell colours and add 'not bright green' style exclusions",
     "the real can's pull tab comes back blue or silver instead of red: minor, fix in the video unit by referencing the official can",
     "the model gives the snail arms and inflates him to rabbit size when he has to do something with his hands: say 'no arms, a snail's body only', have him act with his head or eyestalks, and state the relative heights of the cast",
-    "race starts drift to starter pistols, which read as a gun in feed: use a starter's flag and say no guns or weapons"
+    "race starts drift to starter pistols, which read as a gun in feed: use a starter's flag and say no guns or weapons",
+    "capitalised emphasis words in a prompt (ANALOG, START) get printed onto objects: never write words in capitals, describe the look instead"
   ],
   "negatives": [
     "no real brands, logos or signage except the product",
