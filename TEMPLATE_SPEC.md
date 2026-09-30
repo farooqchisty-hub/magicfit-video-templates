@@ -37,3 +37,29 @@ Reference implementation: `bundle/templates/cinematic-01-night-stint/template.js
 3. Write template.json from styles/<key>/board.json following this spec and the reference template exactly (study how the reference turned the board's product shots, units, lines and world bible into slots, and how it wrote all 7 product_action entries per product shot). Human-readable fields (action, product_state, audio, beats) must also be product-agnostic.
 4. `python3 lib/lint_template.py bundle/templates/<id>` until PASS.
 5. Self-review: read every product_action for every archetype and ask "would this be physically plausible and good-looking in this world for a sofa, a serum, a hoodie, a phone case, a backpack, a snack bar?" Rewrite weak ones. Set honest fit ratings.
+
+# Spec v2 additions (30 Sep 2026): duration-adaptive templates and the voice standard
+
+## Duration is an input
+The buyer (or an app) picks a length: 15, 30, 45 or 60 seconds. The template stores a story spine that the runner assembles for that length. The writing standard never changes with length; only the number of story ideas does. Never compress sentences to fit: drop a beat instead.
+
+## New and changed fields
+- `durations_supported`: e.g. [15, 30, 45, 60].
+- `narrator`: {`persona`, `voice` (age, accent, timbre), `register`, `pace_wps` (default 2.4)} or null for styles where the on-screen people carry everything (UGC, podcast, street interview). Narration is off camera, generated as a separate voiceover track, so brand pronunciation is controlled and never depends on the video model.
+- `beats[]` gains: `tier` (core | standard | extended), `min_s`, `max_s`, `shots` (ids that can carry the beat, first = preferred). Each tier alone must form a complete arc:
+  - core (every length): hook, product moment, payoff with CTA
+  - standard (30 s and up): setup, turn
+  - extended (45 s and up): complication, second proof, character or world beat, emotional button
+- `script[]` gains: `tier`, `sentences` [min, max], `beat` (the beat it belongs to). Lines may span shot cuts. Narrator lines have `speaker: "narrator"`.
+- `units` are no longer fixed: the runner plans units per duration (15 s: 2, 30 s: 3 to 4, 60 s: 5 to 7; each 4 to 15 s; one world per unit; never put narration inside a unit prompt).
+
+## Word budget (lint enforces)
+words = (duration - end_hold - 0.4 x speaker_changes) x pace_wps, with end_hold 1.5 s. Roughly 30 words at 15 s, 65 to 68 at 30 s, 130 to 140 at 60 s. A script over budget loses its lowest-tier beat, never words inside sentences.
+
+## Voice standard (all lines, all lengths)
+1. Full sentences: a subject, a verb and the connecting words (because, so, which means, that is why). No noun-phrase lines. At most one short reaction line (under 5 words) per 30 s.
+2. The listen-only test: with the screen off, the listener knows who this is, what is happening, why it matters and how the product helps.
+3. The product line is a real sentence naming the product, why this character uses it, and a page claim woven in ("she reaches for her X, because the cold air dries her out, and it gives her instant moisture"). Never "Brand. Claim. Claim."
+4. Characters talk like people: contractions, names, questions and answers, small reactions. Slogans only from the narrator or the end card.
+5. The narrator sounds like a warm, articulate teacher telling a story: clear, curious, unhurried, plain words (reading grade 6 to 8).
+6. Brand words are spoken only by the narrator (voiceover) or in short dedicated units.

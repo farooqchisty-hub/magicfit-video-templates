@@ -1,0 +1,19 @@
+{
+  "name": "Ember Mug 2",
+  "brand": "Ember",
+  "phonetic": "EM-ber",
+  "short_name": "my mug",
+  "visual": "a matte black Ember Mug 2 smart mug with a curved handle, a small grey ember wordmark and a softly glowing white LED at its base",
+  "archetype": "handheld",
+  "scale": "hand",
+  "image": "https://cdn.shopify.com/s/files/1/1080/6594/files/ember_CM1910_00-black.jpg?v=1762439501",
+  "benefits": [
+    "set an exact drinking temperature, so your coffee is never too hot, or too cold",
+    "maintains your chosen temperature for up to 1.5 hours (10 oz)",
+    "designed for home or office"
+  ],
+  "tagline": "",
+  "forbidden": [
+    "claims that it stays hot all night or for the whole race (page says up to 1.5 hours or 80 minutes)"
+  ]
+}

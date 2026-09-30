@@ -1,0 +1,80 @@
+{
+ "text": " Point Hollow, I can't see a thing. Are you there? I'm here, Tio! Hold on!",
+ "words": [
+  {
+   "word": "Point",
+   "start": 6.26,
+   "end": 6.64
+  },
+  {
+   "word": "Hollow,",
+   "start": 6.64,
+   "end": 7.18
+  },
+  {
+   "word": "I",
+   "start": 7.18,
+   "end": 7.44
+  },
+  {
+   "word": "can't",
+   "start": 7.44,
+   "end": 7.66
+  },
+  {
+   "word": "see",
+   "start": 7.66,
+   "end": 7.82
+  },
+  {
+   "word": "a",
+   "start": 7.82,
+   "end": 7.92
+  },
+  {
+   "word": "thing.",
+   "start": 7.92,
+   "end": 8.28
+  },
+  {
+   "word": "Are",
+   "start": 8.28,
+   "end": 8.68
+  },
+  {
+   "word": "you",
+   "start": 8.68,
+   "end": 8.8
+  },
+  {
+   "word": "there?",
+   "start": 8.8,
+   "end": 9.28
+  },
+  {
+   "word": "I'm",
+   "start": 9.28,
+   "end": 10.62
+  },
+  {
+   "word": "here,",
+   "start": 10.62,
+   "end": 10.88
+  },
+  {
+   "word": "Tio!",
+   "start": 10.88,
+   "end": 11.24
+  },
+  {
+   "word": "Hold",
+   "start": 11.24,
+   "end": 11.62
+  },
+  {
+   "word": "on!",
+   "start": 11.62,
+   "end": 12.06
+  }
+ ]
+}

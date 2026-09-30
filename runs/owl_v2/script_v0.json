@@ -1,0 +1,31 @@
+{
+ "duration": 30,
+ "pace_wps": 2.4,
+ "context": "30 second ad in a stylized 3D animated style. A tiny old owl, Mabel, keeps a lighthouse. On the coldest, foggiest night a ferry captain, Teo, radios her. She keeps her tea in an Ember Mug 2 (page claims: set an exact drinking temperature, so your coffee is never too hot or too cold; maintains your chosen temperature for up to 1.5 hours), cranks the lamp to full and guides the ferry home.",
+ "lines": [
+  {
+   "speaker": "narrator",
+   "text": "On the coldest, foggiest night of the year, Mabel the lighthouse owl keeps watch alone."
+  },
+  {
+   "speaker": "teo",
+   "text": "Point Hollow, I can't see a thing. Are you there?"
+  },
+  {
+   "speaker": "mabel",
+   "text": "I'm here, Teo! Hold on."
+  },
+  {
+   "speaker": "narrator",
+   "text": "She wraps her wings around her Ember Mug, and her tea is still at the exact temperature she set."
+  },
+  {
+   "speaker": "teo",
+   "text": "I see your light! Thank you, Mabel."
+  },
+  {
+   "speaker": "narrator",
+   "text": "Ember Mug 2, for the nights that run long."
+  }
+ ]
+}

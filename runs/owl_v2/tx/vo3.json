@@ -1,0 +1,35 @@
+{
+ "text": " ember mug too for long nights",
+ "words": [
+  {
+   "word": "ember",
+   "start": 0,
+   "end": 0.32
+  },
+  {
+   "word": "mug",
+   "start": 0.32,
+   "end": 0.62
+  },
+  {
+   "word": "too",
+   "start": 0.62,
+   "end": 0.8
+  },
+  {
+   "word": "for",
+   "start": 0.8,
+   "end": 1.26
+  },
+  {
+   "word": "long",
+   "start": 1.26,
+   "end": 1.54
+  },
+  {
+   "word": "nights",
+   "start": 1.54,
+   "end": 1.94
+  }
+ ]
+}

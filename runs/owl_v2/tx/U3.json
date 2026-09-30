@@ -1,0 +1,40 @@
+{
+ "text": " I see your light. Thank you, Mabel.",
+ "words": [
+  {
+   "word": "I",
+   "start": 4.66,
+   "end": 4.66
+  },
+  {
+   "word": "see",
+   "start": 4.66,
+   "end": 5.12
+  },
+  {
+   "word": "your",
+   "start": 5.12,
+   "end": 5.28
+  },
+  {
+   "word": "light.",
+   "start": 5.28,
+   "end": 5.7
+  },
+  {
+   "word": "Thank",
+   "start": 5.7,
+   "end": 6.18
+  },
+  {
+   "word": "you,",
+   "start": 6.18,
+   "end": 6.44
+  },
+  {
+   "word": "Mabel.",
+   "start": 6.44,
+   "end": 6.84
+  }
+ ]
+}

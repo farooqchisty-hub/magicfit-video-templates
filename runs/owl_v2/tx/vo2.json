@@ -1,0 +1,110 @@
+{
+ "text": " Long nights call for warm tea, so Mabel keeps hers in an ember mug, set to the exact temperature she likes.",
+ "words": [
+  {
+   "word": "Long",
+   "start": 0,
+   "end": 0.16
+  },
+  {
+   "word": "nights",
+   "start": 0.16,
+   "end": 0.54
+  },
+  {
+   "word": "call",
+   "start": 0.54,
+   "end": 0.8
+  },
+  {
+   "word": "for",
+   "start": 0.8,
+   "end": 1.1
+  },
+  {
+   "word": "warm",
+   "start": 1.1,
+   "end": 1.44
+  },
+  {
+   "word": "tea,",
+   "start": 1.44,
+   "end": 1.86
+  },
+  {
+   "word": "so",
+   "start": 1.86,
+   "end": 2.06
+  },
+  {
+   "word": "Mabel",
+   "start": 2.06,
+   "end": 2.42
+  },
+  {
+   "word": "keeps",
+   "start": 2.42,
+   "end": 2.68
+  },
+  {
+   "word": "hers",
+   "start": 2.68,
+   "end": 3.06
+  },
+  {
+   "word": "in",
+   "start": 3.06,
+   "end": 3.26
+  },
+  {
+   "word": "an",
+   "start": 3.26,
+   "end": 3.38
+  },
+  {
+   "word": "ember",
+   "start": 3.38,
+   "end": 3.72
+  },
+  {
+   "word": "mug,",
+   "start": 3.72,
+   "end": 4.14
+  },
+  {
+   "word": "set",
+   "start": 4.14,
+   "end": 4.66
+  },
+  {
+   "word": "to",
+   "start": 4.66,
+   "end": 4.92
+  },
+  {
+   "word": "the",
+   "start": 4.92,
+   "end": 5.04
+  },
+  {
+   "word": "exact",
+   "start": 5.04,
+   "end": 5.44
+  },
+  {
+   "word": "temperature",
+   "start": 5.44,
+   "end": 6.18
+  },
+  {
+   "word": "she",
+   "start": 6.18,
+   "end": 6.52
+  },
+  {
+   "word": "likes.",
+   "start": 6.52,
+   "end": 7.16
+  }
+ ]
+}

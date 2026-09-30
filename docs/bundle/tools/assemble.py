@@ -5,6 +5,7 @@ edit.json: {"fps":30,"w":1080,"h":1920,"out":"run/final.mp4",
  "music":[{"file":"run/music/tension.mp3","start":0.0}, ...],   (sections laid on the timeline, 0.4 s crossfades)
  "music_gain":0.55, "duck":true,
  "sfx":[{"file":"x.wav","start":10.6,"gain":0.8}],
+ "voiceover":[{"file":"run/vo/n1.mp3","start":0.3}],   (narration; ducks the music like dialogue)
  "captions_concat":"run/captions/captions.ffconcat"}   (from captions.py)"""
 import json,sys,subprocess,os,tempfile
 def run(c): r=subprocess.run(c,capture_output=True,text=True); (r.returncode and sys.exit(r.stderr[-2000:]))
@@ -25,16 +26,22 @@ total=dur(joined)
 inputs=["-i",joined]; fl=[]; n=1; mus=[]
 for m in e.get("music",[]):
     inputs+=["-i",m["file"]]; fl.append(f"[{n}:a]adelay={int(m['start']*1000)}|{int(m['start']*1000)},afade=t=in:st={m['start']}:d=0.4,volume={e.get('music_gain',0.55)}[m{n}]"); mus.append(f"[m{n}]"); n+=1
+vos=[]
+for v in e.get("voiceover",[]):
+    inputs+=["-i",v["file"]]; fl.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,adelay={int(v['start']*1000)}|{int(v['start']*1000)},volume={v.get('gain',1.0)}[vo{n}]"); vos.append(f"[vo{n}]"); n+=1
+if vos:
+    fl.append(f"[0:a]{''.join(vos)}amix=inputs={1+len(vos)}:normalize=0:duration=first[dbus]"); DIA="[dbus]"
+else: DIA="[0:a]"
 sfx=[]
 for s in e.get("sfx",[]):
     inputs+=["-i",s["file"]]; fl.append(f"[{n}:a]adelay={int(s['start']*1000)}|{int(s['start']*1000)},volume={s.get('gain',0.8)}[s{n}]"); sfx.append(f"[s{n}]"); n+=1
 if mus:
     fl.append(f"{''.join(mus)}amix=inputs={len(mus)}:normalize=0,apad,atrim=0:{total:.3f},afade=t=out:st={max(total-1.2,0):.3f}:d=1.2[mus]")
-    if e.get("duck",True): fl.append("[0:a]asplit=2[dia][key];[mus][key]sidechaincompress=threshold=0.04:ratio=6:attack=40:release=400[mduck]"); base="[dia][mduck]"
-    else: base="[0:a][mus]"
+    if e.get("duck",True): fl.append(f"{DIA}asplit=2[dia][key];[mus][key]sidechaincompress=threshold=0.04:ratio=6:attack=40:release=400[mduck]"); base="[dia][mduck]"
+    else: base=f"{DIA}[mus]"
     fl.append(f"{base}{''.join(sfx)}amix=inputs={2+len(sfx)}:normalize=0[mix]")
 else:
-    fl.append(f"[0:a]{''.join(sfx)}amix=inputs={1+len(sfx)}:normalize=0[mix]")
+    fl.append(f"{DIA}{''.join(sfx)}amix=inputs={1+len(sfx)}:normalize=0[mix]")
 fl.append("[mix]loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
 if e.get("captions_concat"):
     capmov=f"{tmp}/captions.mov"

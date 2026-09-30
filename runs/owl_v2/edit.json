@@ -1,0 +1,56 @@
+{
+ "fps": 30,
+ "out": "final.mp4",
+ "clips": [
+  {
+   "file": "units/U1.mp4",
+   "in": 0,
+   "out": 12.064,
+   "gain": 1.0
+  },
+  {
+   "file": "units/U2.mp4",
+   "in": 0,
+   "out": 8.064,
+   "gain": 1.0
+  },
+  {
+   "file": "units/U3.mp4",
+   "in": 0,
+   "out": 7.072,
+   "gain": 1.0
+  },
+  {
+   "file": "units/U4.mp4",
+   "in": 0,
+   "out": 4.064,
+   "gain": 0.0
+  }
+ ],
+ "music": [
+  {
+   "file": "music/score.mp3",
+   "start": 0
+  }
+ ],
+ "music_gain": 0.5,
+ "duck": true,
+ "voiceover": [
+  {
+   "file": "vo/n1.mp3",
+   "start": 0.3,
+   "gain": 1.1
+  },
+  {
+   "file": "vo/n2.mp3",
+   "start": 12.36,
+   "gain": 1.1
+  },
+  {
+   "file": "vo/n3.mp3",
+   "start": 27.6,
+   "gain": 1.1
+  }
+ ],
+ "captions_concat": "captions/captions.ffconcat"
+}

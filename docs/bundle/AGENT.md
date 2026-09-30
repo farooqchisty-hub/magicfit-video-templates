@@ -14,6 +14,14 @@ You are turning ONE template plus ONE product URL into a finished 30 second, 9:1
 - `assets/`: cast cards, location plates and signature objects. Reuse them as references; never redraw the cast. `template.asset_urls` maps each asset id to a public URL for models that need URLs.
 - `manifest.json` (bundle root): every template with its fit ratings, for suggesting alternatives.
 
+## Stage 0: Duration plan
+Ask for (or take from the app) the length: 15, 30, 45 or 60 s (must be in `template.durations_supported`). Then:
+1. Include beats by tier: 15 s core only; 30 s core + standard; 45 and 60 s all tiers. Allocate seconds to each included beat within its `min_s` and `max_s`, keeping the template's order.
+2. Word budget = (duration - 1.5 - 0.4 x speaker_changes) x narrator.pace_wps (2.4 by default). Write lines only for included beats, within each line's `sentences` range, and stop adding sentences when the budget is reached. If a script is over budget, drop the lowest-tier beat; never shorten sentences.
+3. Plan units: one world per unit, 4 to 15 s each, 2 units at 15 s, 3 to 4 at 30 s, 5 to 7 at 60 s. The narrator is never inside a unit prompt; say in every unit "no narration; the only spoken lines in this clip are: ...".
+4. Plan music sections: one per included story movement.
+Save `run/plan.json` and show the user the beat list, word budget and cost estimate.
+
 ## Stage 1: Product card
 Fetch the product page. Shopify stores expose `https://<store>/products/<handle>.json`; otherwise read the page's JSON-LD `Product` block, then the visible text. Build:
 ```json
@@ -33,7 +41,7 @@ Read `template.fit.archetypes[product.archetype]` and `template.fit.avoid`. If t
 ## Stage 3: Fill the template
 1. Actions: for every shot with `product_action`, take the entry for `product.archetype` and substitute `{{product.visual}}` and `{{product.short_name}}`. Read it back against the world: is it physically plausible at this scale? If not, rewrite it inside the same beat and world, keeping the camera and timing.
 1b. Rival shots: if a shot has `"action_subject": "rival"`, its action describes the template's generic, unbranded rival (never a real brand). Generate the rival prop from the template's rival prompt for this archetype and use it as that shot's reference instead of the product image.
-2. Lines: write each product line from its `line_intent`, `rules` and `max_words`. Keep every `fixed_line` exactly. Total spoken words must stay under about 70 (2.5 words per second). The brand goes in speech as written, and in video prompts with `product.phonetic` after it.
+2. Lines: write each line from its `line_intent`, `rules` and `sentences` range, following the voice standard below (full sentences, listen-only test, product line as a real sentence). Keep every `fixed_line` exactly. Keep every `fixed_line` exactly. Total spoken words must stay under about 70 (2.5 words per second). The brand goes in speech as written, and in video prompts with `product.phonetic` after it.
 3. Product-adjacent props: use `world_bible.product_adjacent[archetype]` in the shots near the product.
 3b. `{{product.tagline_or_line.<line id>}}` means: product.tagline if the page has one, otherwise the filled text of that line. `sub_fallback` on a post_text entry names the line to use when there is no tagline.
 4. Fill every `{{...}}` in `shots[].keyframe_prompt`, `units[].prompt`, `shots[].caption` and `post_text`. No braces may remain.
@@ -52,17 +60,27 @@ Check every clip: transcript against the filled lines (the brand pronounced corr
 1. Plan the edit: each unit trimmed to its planned duration, in order, 30 fps throughout.
 2. Music: one continuous score across all units, built from `template.music` sections (generate each section with a text-to-music model and cross-fade at the section boundaries). Duck it under dialogue. It must not restart at a cut and must carry into the end.
 3. Added sounds: only those in `template.sfx`.
-4. Captions (mandatory wherever there is speech) and post text: transcribe the joined vocal track for word timings (or use the planned line timings if no transcriber). Write `run/timing.json` as `{"words":[{"word","start","end"}...]}` or `{"lines":[{"text","start","end"}...]}`, plus `"post"` from `template.post_text` (filled product name and tagline, rendered in code, never by a model) and `"duration"`. Run `python3 tools/captions.py run/timing.json templates/<id>/template.json run/captions`. It renders the style's caption look (font, colour, position, max words on screen, active word highlight) and writes `run/captions/captions.srt`. Put `"captions_concat":"run/captions/captions.ffconcat"` in `run/edit.json`.
+4. Captions (mandatory wherever there is speech) and post text: caption WORDS always come from the filled script (brand spelling, numbers as written); the transcript only supplies the timing, word by word. transcribe the joined vocal track for word timings (or use the planned line timings if no transcriber). Write `run/timing.json` as `{"words":[{"word","start","end"}...]}` or `{"lines":[{"text","start","end"}...]}`, plus `"post"` from `template.post_text` (filled product name and tagline, rendered in code, never by a model) and `"duration"`. Run `python3 tools/captions.py run/timing.json templates/<id>/template.json run/captions`. It renders the style's caption look (font, colour, position, max words on screen, active word highlight) and writes `run/captions/captions.srt`. Put `"captions_concat":"run/captions/captions.ffconcat"` in `run/edit.json`.
 5. Run `python3 tools/assemble.py run/edit.json` (see the docstring for the edit.json shape: clips with in and out points, music sections, sfx, captions).
 6. assemble.py normalises loudness to -14 LUFS and exports `run/final.mp4` (1080x1920, H.264, AAC). Copy `run/captions/captions.srt` to `run/final.srt`.
 
 ## Stage 7: Final check and delivery
 Watch the final at full length. Report to the user: what was made, the product card used, every line as spoken, what you checked and what you could not check, and the cost. List any compromises honestly.
 
+## Voice standard (every line, every length)
+- Full sentences with subject, verb and connecting words (because, so, which means). No noun-phrase lines, at most one short reaction line per 30 s.
+- Listen-only test: with the screen off, the listener understands who, what, why, and how the product helps.
+- The product line is a natural sentence: the product's name, why this character uses it, and a page claim woven in. Never "Brand. Claim. Claim."
+- Characters talk like people; slogans only from the narrator or on the end card.
+- The narrator is a warm, articulate teacher telling a story: clear, curious, unhurried, plain words.
+- Run `python3 tools/check_script.py run/fill.json` before any generation: it checks the word budget, fragments and reading level, and asks a model to score clarity. Do not generate below 8 out of 10.
+- Narration is a separate voiceover track made with a text-to-speech model in the template's narrator voice. Lay it over the edit, duck the score under it, and caption it like dialogue.
+
 ## Model notes (from real runs)
 - Seedance on Replicate (2.5 and 2.0) rejects photoreal human faces in reference images and first frames (error E005). Stylized characters (3D, anime, clay, comic) pass. For photoreal templates either use a Seedance provider that accepts face references, or generate the whole ad as ONE native 30 second take (Seedance 2.5 supports it) with only the product and people-free references, describing the cast in text so the same people stay on screen.
 - Reference syntax differs by provider: Replicate Seedance uses [Image1], [Image2]; convert the template's @Image tokens. Replicate cannot combine a first-frame image with reference images, so pass the storyboard keyframe as an extra reference ("[Image3] is the storyboard frame: match its composition").
 - Uncommon brand words are often mispronounced in long takes. Always transcribe the brand line with two transcribers. If it is wrong and the line cannot be re-rolled cheaply, clone the speaker's voice from their own clean lines in the same take (e.g. Chatterbox with an audio prompt), generate only the brand words, splice them over the wrong words with a rain or room-tone bed, and re-check. Say the brand in the prompt plainly ("ember, like a glowing coal, then mug, like a coffee mug"); a parenthetical spelling can be read aloud.
+- ElevenLabs v3 on Replicate reads bracketed audio tags aloud ("[warmly]"). Send plain text and steer delivery with the voice choice, style and speed; pass previous_text and next_text so lines flow.
 - Video models improvise extra lines. Say "Only the scripted lines are spoken; no extra dialogue." Mute unscripted off-camera lines in the edit.
 - A shot marked product-absent can still need the product: once a worn product is put on, it stays on the character in every later shot. Add it to those keyframes and units.
 - Phrases like "one hand touching it" make image models put a second product in the hand. Describe empty hands instead.

@@ -1,0 +1,65 @@
+{
+ "text": " On the coldest, foggiest night of the year, Mabel keeps watch alone.",
+ "words": [
+  {
+   "word": "On",
+   "start": 0,
+   "end": 0.12
+  },
+  {
+   "word": "the",
+   "start": 0.12,
+   "end": 0.24
+  },
+  {
+   "word": "coldest,",
+   "start": 0.24,
+   "end": 0.9
+  },
+  {
+   "word": "foggiest",
+   "start": 0.9,
+   "end": 1.42
+  },
+  {
+   "word": "night",
+   "start": 1.42,
+   "end": 1.74
+  },
+  {
+   "word": "of",
+   "start": 1.74,
+   "end": 1.94
+  },
+  {
+   "word": "the",
+   "start": 1.94,
+   "end": 2.06
+  },
+  {
+   "word": "year,",
+   "start": 2.06,
+   "end": 2.48
+  },
+  {
+   "word": "Mabel",
+   "start": 2.48,
+   "end": 2.74
+  },
+  {
+   "word": "keeps",
+   "start": 2.74,
+   "end": 2.98
+  },
+  {
+   "word": "watch",
+   "start": 2.98,
+   "end": 3.32
+  },
+  {
+   "word": "alone.",
+   "start": 3.32,
+   "end": 4
+  }
+ ]
+}

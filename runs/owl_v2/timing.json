@@ -1,0 +1,319 @@
+{
+ "words": [
+  {
+   "word": "On",
+   "start": 0.3,
+   "end": 0.42
+  },
+  {
+   "word": "the",
+   "start": 0.42,
+   "end": 0.54
+  },
+  {
+   "word": "coldest,",
+   "start": 0.54,
+   "end": 1.2
+  },
+  {
+   "word": "foggiest",
+   "start": 1.2,
+   "end": 1.72
+  },
+  {
+   "word": "night",
+   "start": 1.72,
+   "end": 2.04
+  },
+  {
+   "word": "of",
+   "start": 2.04,
+   "end": 2.24
+  },
+  {
+   "word": "the",
+   "start": 2.24,
+   "end": 2.36
+  },
+  {
+   "word": "year,",
+   "start": 2.36,
+   "end": 2.78
+  },
+  {
+   "word": "Mabel",
+   "start": 2.78,
+   "end": 3.04
+  },
+  {
+   "word": "keeps",
+   "start": 3.04,
+   "end": 3.28
+  },
+  {
+   "word": "watch",
+   "start": 3.28,
+   "end": 3.62
+  },
+  {
+   "word": "alone.",
+   "start": 3.62,
+   "end": 4.3
+  },
+  {
+   "word": "Point",
+   "start": 6.26,
+   "end": 6.64
+  },
+  {
+   "word": "Hollow,",
+   "start": 6.64,
+   "end": 7.18
+  },
+  {
+   "word": "I",
+   "start": 7.18,
+   "end": 7.44
+  },
+  {
+   "word": "can't",
+   "start": 7.44,
+   "end": 7.66
+  },
+  {
+   "word": "see",
+   "start": 7.66,
+   "end": 7.82
+  },
+  {
+   "word": "a",
+   "start": 7.82,
+   "end": 7.92
+  },
+  {
+   "word": "thing.",
+   "start": 7.92,
+   "end": 8.28
+  },
+  {
+   "word": "Are",
+   "start": 8.28,
+   "end": 8.68
+  },
+  {
+   "word": "you",
+   "start": 8.68,
+   "end": 8.8
+  },
+  {
+   "word": "there?",
+   "start": 8.8,
+   "end": 9.28
+  },
+  {
+   "word": "I'm",
+   "start": 10.17,
+   "end": 10.62
+  },
+  {
+   "word": "here,",
+   "start": 10.62,
+   "end": 10.88
+  },
+  {
+   "word": "Teo!",
+   "start": 10.88,
+   "end": 11.24
+  },
+  {
+   "word": "Hold",
+   "start": 11.24,
+   "end": 11.62
+  },
+  {
+   "word": "on.",
+   "start": 11.62,
+   "end": 12.06
+  },
+  {
+   "word": "Long",
+   "start": 12.36,
+   "end": 12.52
+  },
+  {
+   "word": "nights",
+   "start": 12.52,
+   "end": 12.9
+  },
+  {
+   "word": "call",
+   "start": 12.9,
+   "end": 13.16
+  },
+  {
+   "word": "for",
+   "start": 13.16,
+   "end": 13.46
+  },
+  {
+   "word": "warm",
+   "start": 13.46,
+   "end": 13.8
+  },
+  {
+   "word": "tea,",
+   "start": 13.8,
+   "end": 14.22
+  },
+  {
+   "word": "so",
+   "start": 14.22,
+   "end": 14.42
+  },
+  {
+   "word": "Mabel",
+   "start": 14.42,
+   "end": 14.78
+  },
+  {
+   "word": "keeps",
+   "start": 14.78,
+   "end": 15.04
+  },
+  {
+   "word": "hers",
+   "start": 15.04,
+   "end": 15.42
+  },
+  {
+   "word": "in",
+   "start": 15.42,
+   "end": 15.62
+  },
+  {
+   "word": "an",
+   "start": 15.62,
+   "end": 15.74
+  },
+  {
+   "word": "Ember",
+   "start": 15.74,
+   "end": 16.08
+  },
+  {
+   "word": "Mug,",
+   "start": 16.08,
+   "end": 16.5
+  },
+  {
+   "word": "set",
+   "start": 16.5,
+   "end": 17.02
+  },
+  {
+   "word": "to",
+   "start": 17.02,
+   "end": 17.28
+  },
+  {
+   "word": "the",
+   "start": 17.28,
+   "end": 17.4
+  },
+  {
+   "word": "exact",
+   "start": 17.4,
+   "end": 17.8
+  },
+  {
+   "word": "temperature",
+   "start": 17.8,
+   "end": 18.54
+  },
+  {
+   "word": "she",
+   "start": 18.54,
+   "end": 18.88
+  },
+  {
+   "word": "likes.",
+   "start": 18.88,
+   "end": 19.52
+  },
+  {
+   "word": "I",
+   "start": 24.788,
+   "end": 24.788
+  },
+  {
+   "word": "see",
+   "start": 24.788,
+   "end": 25.248
+  },
+  {
+   "word": "your",
+   "start": 25.248,
+   "end": 25.408
+  },
+  {
+   "word": "light!",
+   "start": 25.408,
+   "end": 25.828
+  },
+  {
+   "word": "Thank",
+   "start": 25.828,
+   "end": 26.308
+  },
+  {
+   "word": "you,",
+   "start": 26.308,
+   "end": 26.568
+  },
+  {
+   "word": "Mabel.",
+   "start": 26.568,
+   "end": 26.968
+  },
+  {
+   "word": "Ember",
+   "start": 27.6,
+   "end": 27.92
+  },
+  {
+   "word": "Mug",
+   "start": 27.92,
+   "end": 28.22
+  },
+  {
+   "word": "2,",
+   "start": 28.22,
+   "end": 28.4
+  },
+  {
+   "word": "for",
+   "start": 28.4,
+   "end": 28.86
+  },
+  {
+   "word": "long",
+   "start": 28.86,
+   "end": 29.14
+  },
+  {
+   "word": "nights.",
+   "start": 29.14,
+   "end": 29.54
+  }
+ ],
+ "post": [
+  {
+   "text": "Ember Mug 2",
+   "sub": "For long nights.",
+   "start": 27.4,
+   "end": 31.26,
+   "y": 0.06
+  }
+ ],
+ "duration": 31.26
+}
