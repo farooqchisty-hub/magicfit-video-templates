@@ -3,8 +3,8 @@ python3 videogen.py --out U1.mp4 --duration 9 --prompt "..." [--ref URL ...] [--
 Refuses if ledger total + this call's cost would exceed CAP. Ledger: testkit/ledger.jsonl"""
 import argparse,json,os,sys,time,urllib.request
 HERE=os.path.dirname(os.path.abspath(__file__)); LEDGER=f"{HERE}/ledger.jsonl"; CAP=float(os.environ.get("VIDEO_CAP","50"))
-PRICE={("2.5","480p"):0.1028,("2.5","720p"):0.2312,("2.0","480p"):0.08,("2.0","720p"):0.18}
-MODEL={"2.5":"bytedance/seedance-2.5","2.0":"bytedance/seedance-2.0"}
+PRICE={("2.5","480p"):0.1028,("2.5","720p"):0.2312,("2.0","480p"):0.08,("2.0","720p"):0.18,("2.0-mini","480p"):0.05,("2.0-mini","720p"):0.11,("2.0-fast","480p"):0.08,("2.0-fast","720p"):0.17}
+MODEL={"2.5":"bytedance/seedance-2.5","2.0":"bytedance/seedance-2.0","2.0-mini":"bytedance/seedance-2.0-mini","2.0-fast":"bytedance/seedance-2.0-fast"}
 KEY=open(os.path.expanduser("~/.replicate_key")).read().strip()
 def spent(): return sum(json.loads(l)["usd"] for l in open(LEDGER)) if os.path.exists(LEDGER) else 0.0
 def req(url,data=None):
@@ -15,7 +15,7 @@ def run(prompt,out,duration,refs=(),first=None,model="2.5",res="720p",audio=True
     if spent()+est>CAP: sys.exit(f"REFUSED: spent ${spent():.2f} + ${est:.2f} would exceed cap ${CAP}")
     inp={"prompt":prompt,"duration":duration,"resolution":res,"aspect_ratio":aspect,"generate_audio":audio}
     if refs: inp["reference_images"]=list(refs)
-    if first: inp["image"]=first; inp["aspect_ratio"]="adaptive" if model=="2.5" else aspect
+    if first: inp["image"]=first; inp["aspect_ratio"]="adaptive" if model.startswith("2.5") else aspect
     p=req(f"https://api.replicate.com/v1/models/{MODEL[model]}/predictions",{"input":inp})
     pid=p["id"]; t0=time.time()
     while p["status"] not in ("succeeded","failed","canceled"):

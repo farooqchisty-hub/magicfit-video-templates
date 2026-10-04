@@ -1,0 +1,733 @@
+{
+  "id": "ugc-02-fix-it-saturday",
+  "style": "ugc",
+  "title": "Fix-It Saturday",
+  "version": "1.0",
+  "runtime_s": 30,
+  "durations_supported": [15, 30, 45, 60],
+  "aspect": "9:16",
+  "narrator": null,
+  "logline": "Before the doors open at a neighborhood repair cafe, a hands-on coordinator films a quick, candid check-in about why {{product.name}} has earned a place in her setup routine.",
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "great",
+        "A personal workday routine fits naturally into setup before the neighborhood event opens."
+      ],
+      "applied": [
+        "good",
+        "A practical item used during a hands-on shift fits the repair studio, provided its use is safe and appropriate there."
+      ],
+      "worn": [
+        "great",
+        "Workwear, footwear, accessories, and comfort items make sense in an active community workshop."
+      ],
+      "handheld": [
+        "great",
+        "Small tools and personal devices can be shown naturally in a coordinator's setup routine."
+      ],
+      "carried": [
+        "good",
+        "Bags, cases, and portable organizers fit the arrival and setup ritual."
+      ],
+      "home": [
+        "stretch",
+        "A small home item can live in the studio's break nook, but products that require a domestic setting should be refused."
+      ],
+      "consumable": [
+        "good",
+        "A personal supply used during setup can sit beside the check-in station without changing the story."
+      ]
+    },
+    "avoid": [
+      "products intended for children",
+      "products that require professional medical claims or treatment demonstrations",
+      "products unsafe around hand tools, workshop activity, or public events",
+      "large furniture or appliances that would make the shared studio feel staged",
+      "products whose benefits cannot be described using claims from product.benefits"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "The Lantern Room Repair Cafe is a volunteer-run monthly gathering in a converted neighborhood firehouse. People bring ordinary belongings and learn how to mend or maintain them alongside patient volunteers.",
+      "Mara Bennett coordinates the check-in table and makes small repairs between greeting people. She started the cafe with a few neighbors after realizing that many useful things were being discarded for want of a simple fix.",
+      "The cafe runs on a paper queue, shared tools, clear explanations, and the rule that visitors do as much of the repair as they safely can themselves.",
+      "This story takes place on a busy Saturday morning just before the doors open. Mara is filming a quick personal update in the same room where the check-in table is being prepared."
+    ],
+    "locations": {
+      "repair_studio": {
+        "foreground": [
+          "a scarred pine check-in table with a blank kraft-paper sign holder",
+          "a shallow wooden tray of unmarked paper queue tags",
+          "a steel stool with chipped grey paint",
+          "a folded oatmeal-colored canvas apron"
+        ],
+        "midground": [
+          "two sturdy workbenches with plain hand tools arranged on cotton cloths",
+          "a wall-mounted pegboard with unbranded tools and empty spaces",
+          "a stack of repaired objects waiting for pickup, including a small lamp with no maker mark",
+          "a faded blue-grey bulletin board with blank paper pinned in uneven rows",
+          "a small break nook with a wooden chair and a plain side table"
+        ],
+        "background": [
+          "tall firehouse windows with soft, overcast morning light",
+          "a wide open doorway to the quiet entry hall",
+          "a faded brick wall with a simple painted lantern symbol and no lettering",
+          "a radiator, exposed pipes, and an old ceiling fan"
+        ]
+      }
+    },
+    "personal_props": {
+      "mara": [
+        "a soft measuring tape looped around her wrist",
+        "a faded cotton apron with a hand-stitched patch shaped like a small star",
+        "a small notebook with blank pages and faint pencil marks",
+        "a pair of clear safety glasses pushed up on her head"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "queue_tokens",
+        "name": "The repair cafe queue tokens",
+        "prop_prompt": "Casual object reference sheet on a plain mid-grey background, three views of a small stack of handmade rectangular queue tokens cut from pale maple, each with one simple stamped dot and no numbers, words, logos, or readable marks. Slightly rounded corners, visible workshop wear, honest phone-photo realism, natural room light, no studio gloss.",
+        "asset": "assets/queue_tokens.jpg"
+      },
+      {
+        "id": "repair_bell",
+        "name": "The check-in bell",
+        "prop_prompt": "Casual object reference sheet on a plain mid-grey background, three views of a small old brass service bell with a dark wooden base, scratches and fingerprints from years of use, no lettering, brand, or logo. Natural room light, realistic tarnish, casual phone-photo realism, no studio gloss.",
+        "asset": "assets/repair_bell.jpg"
+      },
+      {
+        "id": "lantern_patch",
+        "name": "Mara's lantern patch",
+        "prop_prompt": "Casual object reference sheet on a plain mid-grey background, front and close detail views of a hand-sewn oatmeal cotton patch shaped like a simple lantern, muted rust and dark blue thread, uneven friendly stitching, no letters or words. Natural room light, visible fabric texture, casual phone-photo realism.",
+        "asset": "assets/lantern_patch.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "The Lantern Room Repair Cafe",
+        "mark": "a simple outlined lantern with a small four-point spark",
+        "colors": "muted rust, faded blue-grey, oatmeal, and natural wood",
+        "appears_on": "the painted wall symbol and Mara's hand-stitched apron patch",
+        "text_in_post": "no organization name is rendered in the image; use the lantern symbol only"
+      }
+    ],
+    "wear_and_time": "A cloudy Saturday morning just before opening. The room has been used for years and is tidy enough to work in, but never pristine. The check-in table has shallow scratches, tools show ordinary wear, paper tags are slightly uneven, and morning light shifts softly across the brick wall as the session begins.",
+    "sound_world": [
+      "soft room tone in a large old community room",
+      "a ceiling fan ticking once each turn",
+      "a chair leg scraping lightly on the floor",
+      "paper tags sliding across the check-in table",
+      "distant footsteps in the entry hall",
+      "a small metal bell ringing once",
+      "unamplified creator voice recorded by the phone microphone"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "A single portion of the product rests on the break-nook side table beside Mara's notebook, separate from the shared repair tools."
+      ],
+      "applied": [
+        "The product rests on a clean corner of the check-in table beside Mara's apron, away from shared tools and visitor repairs."
+      ],
+      "worn": [
+        "The product is laid on the check-in table beside Mara's apron before she puts it on or adjusts it."
+      ],
+      "handheld": [
+        "The product rests on the check-in table beside the plain queue tags, ready for Mara to pick up."
+      ],
+      "carried": [
+        "The product rests in or beside Mara's personal work bag beneath the check-in table."
+      ],
+      "home": [
+        "The product is placed in the small break nook within the repair studio, where a room-scale or home-use item belongs without changing locations."
+      ],
+      "consumable": [
+        "One personal supply pack rests on the check-in table beside Mara's notebook, apart from the shared repair materials."
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "mara",
+      "name": "Mara Bennett",
+      "role": "repair cafe coordinator and on-camera creator",
+      "look": "Black American woman, 32, clearly deep brown skin, short natural curls with a few flyaways, warm dark eyes, faint smile lines, faded navy work shirt under an oatmeal canvas apron with a small hand-stitched lantern patch, no visible makeup retouching",
+      "voice": "conversational, bright, grounded, slightly husky, North American English with a subtle Midwestern accent",
+      "card_prompt": "Casual phone-photo character identity sheet, three views side by side at the same scale: front, three-quarter, and profile head-and-shoulders portraits of the same woman. Mara Bennett, 32, Black American, clearly deep brown skin, not pale, short natural curls with a few flyaways, warm dark eyes, faint smile lines, relaxed and capable expression, faded navy work shirt under an oatmeal canvas apron with a small hand-stitched lantern patch, no logos and no text. Natural room light, real skin texture and pores, slight phone sensor noise, no retouching, not a studio headshot, consistent identity across all views.",
+      "asset": "assets/mara.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "repair_studio",
+      "name": "The Lantern Room repair studio",
+      "plate_prompt": "Unedited smartphone video frame, vertical 9:16, filmed by a creator in a lived-in community repair studio inside a converted neighborhood firehouse. One scarred pine check-in table in the foreground, paper queue tags and a small old bell, workbenches and an unbranded tool pegboard in the midground, faded brick wall with one simple lantern symbol and tall windows with cloudy morning light in the background. A small break nook stays visible at the edge of the same room. Lived-in and mildly untidy, flat available light, slight phone sensor noise, realistic phone HDR, no cinematic bokeh, no color grade, no people, no readable text, no real brands or logos.",
+      "asset": "assets/repair_studio.jpg"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "tier": "core",
+      "min_s": 1.5,
+      "max_s": 3,
+      "shots": ["S01"],
+      "summary": "Mara opens with a spoken, specific observation about the rush just before the repair cafe opens."
+    },
+    {
+      "id": "product_moment",
+      "tier": "core",
+      "min_s": 5,
+      "max_s": 9,
+      "shots": ["S03", "S04"],
+      "summary": "Mara brings the product into view and explains in a full sentence why she uses it, with one supported claim from the product page."
+    },
+    {
+      "id": "payoff_cta",
+      "tier": "core",
+      "min_s": 3,
+      "max_s": 5,
+      "shots": ["S09"],
+      "summary": "Mara shows the ready-to-open check-in setup, then gives a direct, friendly invitation to learn more."
+    },
+    {
+      "id": "setup",
+      "tier": "standard",
+      "min_s": 3,
+      "max_s": 5,
+      "shots": ["S02"],
+      "summary": "She explains what she is setting up and why the first hour matters to visitors."
+    },
+    {
+      "id": "turn",
+      "tier": "standard",
+      "min_s": 3,
+      "max_s": 5,
+      "shots": ["S05"],
+      "summary": "A small snag in the setup gives Mara a natural reason to show how the product fits into her real routine."
+    },
+    {
+      "id": "complication",
+      "tier": "extended",
+      "min_s": 3,
+      "max_s": 5,
+      "shots": ["S06"],
+      "summary": "A late change or extra task puts a little pressure on the morning without turning the story into a crisis."
+    },
+    {
+      "id": "second_proof",
+      "tier": "extended",
+      "min_s": 3,
+      "max_s": 5,
+      "shots": ["S07"],
+      "summary": "Mara shows a practical, observable part of her routine that supports the product moment without adding a new product claim."
+    },
+    {
+      "id": "world_beat",
+      "tier": "extended",
+      "min_s": 3,
+      "max_s": 5,
+      "shots": ["S08"],
+      "summary": "A brief, warm detail shows the community purpose behind the repair cafe."
+    },
+    {
+      "id": "emotional_button",
+      "tier": "extended",
+      "min_s": 2,
+      "max_s": 4,
+      "shots": ["S08", "S09"],
+      "summary": "Mara lands on a grounded feeling of readiness and connection before her CTA."
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.3-2.8",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S01",
+      "beat": "hook",
+      "tier": "core",
+      "sentences": [1, 1],
+      "delivery": "straight to the front camera, friendly and a little amused",
+      "line_intent": "Open with a specific, relatable observation about the last few minutes before the repair cafe opens. Make the setting and the moment clear to a listener who cannot see the video.",
+      "max_words": 15,
+      "rules": "Use a complete natural sentence with a subject and verb. Do not name the product or make a product claim."
+    },
+    {
+      "id": "L2",
+      "t": "3.0-5.7",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S02",
+      "beat": "setup",
+      "tier": "standard",
+      "sentences": [1, 2],
+      "delivery": "quick, conversational, speaking as she lays out the queue tags",
+      "line_intent": "Explain what she is preparing and why a clear welcome matters to visitors arriving for repairs.",
+      "max_words": 21,
+      "rules": "Use full sentences and ordinary spoken language. Do not imply a product benefit."
+    },
+    {
+      "id": "L3",
+      "t": "6.0-12.5",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S04",
+      "beat": "product_moment",
+      "tier": "core",
+      "sentences": [1, 2],
+      "delivery": "matter-of-fact and personal, with the product visible and her face still square to the lens",
+      "line_intent": "Product line: name {{product.name}} or its natural spoken form, say why Mara uses it during this setup routine, and weave in exactly one relevant claim from product.benefits as a real sentence.",
+      "max_words": 24,
+      "rules": "The line must have a subject, verb, and connecting words. The selected benefit must come only from product.benefits and must not be strengthened or embellished. Keep the product name legible and unmirrored. This line is delivered only in the dedicated product unit."
+    },
+    {
+      "id": "L4",
+      "t": "13.0-16.0",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S02",
+      "beat": "setup",
+      "tier": "standard",
+      "sentences": [1, 2],
+      "delivery": "casual, as if answering a friend's question",
+      "line_intent": "Explain the simple check-in routine and how it keeps the morning moving for the people who arrive.",
+      "max_words": 22,
+      "rules": "Full natural sentences. Keep the focus on the event routine, not an unsupported product effect."
+    },
+    {
+      "id": "L5",
+      "t": "16.2-19.0",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S05",
+      "beat": "turn",
+      "tier": "standard",
+      "sentences": [1, 2],
+      "delivery": "lightly self-deprecating, as she corrects a small setup snag",
+      "line_intent": "Describe a minor, believable setup snag and show that Mara has a calm, repeatable way through it.",
+      "max_words": 19,
+      "rules": "Do not claim the product solves the snag. Do not add a new product benefit."
+    },
+    {
+      "id": "L6",
+      "t": "19.2-22.0",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S06",
+      "beat": "complication",
+      "tier": "extended",
+      "sentences": [1, 2],
+      "delivery": "brisk but relaxed, with a small laugh at the extra task",
+      "line_intent": "Name a small late change, such as an extra repair request or a missing queue tag, and say what she does next.",
+      "max_words": 19,
+      "rules": "Keep the situation safe and ordinary. Do not make product claims."
+    },
+    {
+      "id": "L7",
+      "t": "22.2-25.0",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S07",
+      "beat": "second_proof",
+      "tier": "extended",
+      "sentences": [1, 2],
+      "delivery": "practical, direct, and still talking to the lens",
+      "line_intent": "Show one concrete detail of how Mara organizes the work area so visitors can start safely and confidently.",
+      "max_words": 20,
+      "rules": "This is proof of the routine, not proof of a product claim. Do not invent results or statistics."
+    },
+    {
+      "id": "L8",
+      "t": "25.2-28.0",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S08",
+      "beat": "world_beat",
+      "tier": "extended",
+      "sentences": [1, 2],
+      "delivery": "warm, sincere, with a small smile",
+      "line_intent": "Connect the repair cafe to its neighbors and land a brief emotional note about helping people keep useful belongings in use.",
+      "max_words": 20,
+      "rules": "Do not add claims about the product or environmental impact beyond any claims explicitly present in product.benefits."
+    },
+    {
+      "id": "L9",
+      "t": "26.0-29.4",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S09",
+      "beat": "payoff_cta",
+      "tier": "core",
+      "sentences": [1, 2],
+      "delivery": "direct to lens, warm, unhurried, like a recommendation to a friend",
+      "line_intent": "Show that she is ready to open the repair cafe, then give a clear, low-pressure invitation to learn more about the product.",
+      "max_words": 18,
+      "rules": "Use a complete sentence. Do not speak the brand name here; brand speech belongs only in the dedicated product unit."
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 3,
+      "beat": "hook",
+      "framing": "front-camera close selfie",
+      "camera": "handheld at arm's length, slight natural wobble, one small reframe",
+      "action": "Mara faces her phone's front camera in the repair studio, starts speaking immediately, and gestures toward the half-prepared check-in table behind her.",
+      "product_state": "absent",
+      "audio": "phone microphone room tone, Mara's natural voice, faint ceiling fan",
+      "caption": "{{line.L1}}",
+      "refs": ["mara", "repair_studio"],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie video frame, vertical 9:16, filmed by Mara herself in the repair studio, no phone visible because the viewer sees through its front camera. Mara Bennett from the character sheet is straight on to the lens, clearly deep brown skin, short natural curls, warm dark eyes, faded navy work shirt and oatmeal apron, head slightly cropped at the top, face in the upper half of frame, the check-in table visible behind her. Natural room light, realistic phone sensor noise and HDR tone mapping, slight wide-angle edge distortion, flat available light, no bokeh, no color grade, no readable text.",
+      "dressing": [
+        "a shallow tray of blank queue tags",
+        "a small brass service bell",
+        "the check-in table with ordinary scratches"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 3,
+      "t1": 7,
+      "beat": "setup",
+      "framing": "front-camera medium selfie",
+      "camera": "handheld, natural wobble, a quick 10 percent punch-in jump cut",
+      "action": "Mara shifts the frame just enough to show the queue tags and the nearby workbenches, then lays out the next blank tag.",
+      "product_state": "absent",
+      "audio": "paper sliding on wood, light room tone, Mara speaking",
+      "caption": "{{line.L2}}",
+      "refs": ["mara", "repair_studio", "queue_tokens"],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie frame in the exact same repair studio and morning light as the reference plate. Mara Bennett is still face forward to the lens, with her face clearly visible and identity unchanged, one hand placing a plain blank queue tag on the scarred pine table. Show workbenches and a tool pegboard in the background with tools that have no lettering. Amateur framing, tight headroom, natural skin texture, slight sensor noise, realistic phone HDR, no cinematic lighting, no readable text, no visible phone.",
+      "dressing": [
+        "the blank queue tags in a slightly uneven stack",
+        "plain cotton cloths on the workbench",
+        "the faded brick wall and simple lantern symbol"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 7,
+      "t1": 9,
+      "beat": "product_moment",
+      "framing": "rear-camera close insert",
+      "camera": "handheld rear camera, close but steady enough to keep the product undistorted",
+      "action": "A quick rear-camera insert shows Mara's hand bringing the product into the same available morning light.",
+      "product_state": "reveal, label or identifying surface toward camera",
+      "audio": "natural handling sound and quiet room tone",
+      "caption": "",
+      "refs": ["product", "repair_studio"],
+      "keyframe_prompt": "Unedited smartphone rear-camera insert, vertical 9:16, handheld in the same repair studio. {{action}}. Keep {{product.visual}} true to the supplied product reference, straight and undistorted, with no invented lettering. Flat cloudy window light, phone sensor noise, ordinary table surface, no cinematic bokeh, no color grade, no readable background text.",
+      "dressing": [
+        "the same scarred pine check-in table",
+        "one blank queue tag at the edge of frame",
+        "no additional units of the product"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "Mara's hand places {{product.visual}} on the clean break-nook side table, upright and with its identifying surface toward the camera",
+        "applied": "Mara's hand places {{product.visual}} on the clean corner of the check-in table, ready for its intended use",
+        "worn": "Mara's hand lifts {{product.visual}} from beside her folded apron, with its shape and useful details visible",
+        "handheld": "Mara's hand lifts {{product.visual}} from beside the blank queue tags, keeping it upright and recognizable",
+        "carried": "Mara's hand takes {{product.visual}} from her personal work bag beneath the check-in table",
+        "home": "Mara's hand indicates {{product.visual}} in the break nook, where it rests in its natural room-scale position",
+        "consumable": "Mara's hand places one personal supply pack of {{product.visual}} on the clean check-in table beside her notebook"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 9,
+      "t1": 15,
+      "beat": "product_moment",
+      "framing": "front-camera close selfie with product in frame",
+      "camera": "handheld front camera, face straight to lens, small natural wobble",
+      "action": "Mara holds or uses the product in a way suited to its form, keeps her face fully visible, and delivers the dedicated product sentence.",
+      "product_state": "held or in use, label or identifying surface unmirrored and visible",
+      "audio": "Mara's direct-to-camera voice, low room tone, natural handling sound",
+      "caption": "{{line.L3}}",
+      "refs": ["mara", "product", "repair_studio"],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie frame in the same repair studio. Mara Bennett from the character sheet is straight on to the lens, clearly deep brown skin, short natural curls, warm dark eyes, and the same navy work shirt and oatmeal apron. Her face remains fully visible and consistent while {{action}}. Keep {{product.visual}} recognizable and unmirrored, held at least 30 cm from the wide lens if held. Real skin texture, flat window light, slight phone sensor noise, amateur framing, no bokeh, no color grade, no readable background text, no visible phone.",
+      "dressing": [
+        "the scarred check-in table",
+        "a few blank queue tags",
+        "one small service bell"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "Mara holds {{product.visual}} at chest height after using it as directed, its identifying surface facing the lens, with no exaggerated reaction",
+        "applied": "Mara uses {{product.visual}} as directed on its intended surface or area, then shows it beside her face without covering her mouth",
+        "worn": "Mara wears {{product.visual}} naturally and makes one small adjustment while looking straight into the lens",
+        "handheld": "Mara uses {{product.visual}} for its intended purpose, then holds it at chest height with its useful details visible",
+        "carried": "Mara places {{product.visual}} into or takes it from her work bag in one practiced motion, then faces the lens",
+        "home": "Mara uses or settles beside {{product.visual}} in the break nook, keeping her face visible and the room-scale item in its natural place",
+        "consumable": "Mara uses one portion from {{product.visual}} as directed, then holds its pack at chest height without covering her face"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 15,
+      "t1": 19,
+      "beat": "turn",
+      "framing": "front-camera close selfie",
+      "camera": "handheld, one quick punch-in jump cut",
+      "action": "Mara notices that the queue tags are out of order, smiles at herself, and resets the small stack.",
+      "product_state": "absent",
+      "audio": "paper tags sliding, Mara speaking, soft room tone",
+      "caption": "{{line.L5}}",
+      "refs": ["mara", "repair_studio", "queue_tokens"],
+      "keyframe_prompt": "Unedited front-camera smartphone frame in the same repair studio. Mara Bennett is face forward to the lens with the same clearly deep brown skin, short natural curls, and oatmeal apron. She gives a small self-aware smile while straightening a few plain blank queue tags on the table. Flat available window light, real skin, slight phone noise, mild HDR, amateur framing, no readable text, no visible phone, not cinematic.",
+      "dressing": [
+        "queue tags slightly out of order",
+        "the brass service bell",
+        "a plain notebook with faint pencil marks"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S06",
+      "t0": 19,
+      "t1": 22,
+      "beat": "complication",
+      "framing": "front-camera medium selfie",
+      "camera": "handheld, small reframe to include the workbench",
+      "action": "Mara shows a small extra task on the workbench while explaining what she will do next.",
+      "product_state": "absent",
+      "audio": "quiet room tone, a light tool touch on cotton cloth, Mara speaking",
+      "caption": "{{line.L6}}",
+      "refs": ["mara", "repair_studio"],
+      "keyframe_prompt": "Unedited smartphone selfie frame in the same repair studio and cloudy morning light. Mara Bennett stays facing the lens while gesturing toward one ordinary item awaiting safe inspection on a cotton cloth. Her face is clearly visible and matches the character sheet. Tools in the background are unbranded and have no readable labels. Casual handheld framing, flat available light, realistic phone sensor noise, no bokeh, no color grade, no visible phone.",
+      "dressing": [
+        "one unmarked object awaiting repair",
+        "a plain cotton cloth",
+        "the blank bulletin board in the background"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S07",
+      "t0": 22,
+      "t1": 25,
+      "beat": "second_proof",
+      "framing": "rear-camera handheld insert",
+      "camera": "rear camera, quick close view of the setup, held in Mara's hand",
+      "action": "Mara films the orderly check-in table, showing the blank queue tags and the clear path to the workbenches.",
+      "product_state": "absent",
+      "audio": "light footsteps from the entry hall, paper on wood, room tone",
+      "caption": "{{line.L7}}",
+      "refs": ["repair_studio", "queue_tokens", "repair_bell"],
+      "keyframe_prompt": "Unedited smartphone rear-camera video frame in the exact same repair studio. Handheld view across the check-in table, plain queue tags in a shallow wood tray, old brass bell, and clear walking space to unbranded workbenches. Keep the room recognizable and naturally messy, cloudy window light, realistic phone HDR and slight sensor noise, no cinematic focus effects, no readable text, no people besides a partial sleeve at frame edge.",
+      "dressing": [
+        "blank queue tags in the shallow tray",
+        "a clear route from the table to the workbenches",
+        "the old brass bell"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 25,
+      "t1": 27,
+      "beat": "world_beat",
+      "framing": "front-camera close selfie",
+      "camera": "handheld, natural wobble, tiny reframing toward the entry hall",
+      "action": "Mara gives a warm look toward the doorway, then turns her attention back to the lens.",
+      "product_state": "absent",
+      "audio": "distant footsteps, room tone, Mara speaking",
+      "caption": "{{line.L8}}",
+      "refs": ["mara", "repair_studio"],
+      "keyframe_prompt": "Unedited front-camera smartphone selfie, same location and morning light. Mara Bennett faces the lens with a warm, modest smile, clearly deep brown skin, short natural curls, same faded navy shirt and oatmeal apron. The open entry hall sits softly behind her with no signs or readable text. Natural room light, realistic phone noise, real skin, tight amateur framing, no visible phone, no bokeh or color grade.",
+      "dressing": [
+        "the open entry hall",
+        "the simple lantern wall symbol",
+        "the check-in table at the edge of frame"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S09",
+      "t0": 27,
+      "t1": 30,
+      "beat": "payoff_cta",
+      "framing": "front-camera close selfie",
+      "camera": "handheld, direct to lens, a final natural reframe",
+      "action": "Mara faces the camera with the ready check-in table behind her and gives the CTA while the product stays visibly placed nearby.",
+      "product_state": "visible, stable, identifying surface toward camera where applicable",
+      "audio": "Mara's direct voice, light room tone, no music swell",
+      "caption": "{{line.L9}}",
+      "refs": ["mara", "repair_studio", "product"],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie in the same repair studio. Mara Bennett faces the lens, identity and clothing consistent with the character sheet, with the check-in table ready behind her. {{action}}. Keep her face fully visible and keep {{product.visual}} consistent with its reference and in its natural position. Flat cloudy window light, slight phone sensor noise, realistic skin texture, casual framing, no visible phone, no bokeh, no color grade, no readable background text.",
+      "dressing": [
+        "the orderly stack of blank queue tags",
+        "the brass service bell",
+        "no extra units of the product"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} rests upright on the break-nook side table beside Mara's notebook, its identifying surface toward the lens",
+        "applied": "{{product.visual}} rests on the clean corner of the check-in table beside Mara's apron, its identifying surface toward the lens",
+        "worn": "{{product.visual}} is laid neatly beside the apron on the check-in table, its useful details visible",
+        "handheld": "{{product.visual}} rests beside the blank queue tags on the check-in table, with its useful details toward the lens",
+        "carried": "{{product.visual}} rests in Mara's personal work bag beneath the check-in table, with enough of it visible to identify",
+        "home": "{{product.visual}} remains in its natural room-scale position in the break nook within the same studio",
+        "consumable": "one personal supply pack of {{product.visual}} rests on the clean check-in table beside Mara's notebook, identifying surface toward the lens"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7,
+      "len_s": 7,
+      "shots": ["S01", "S02"],
+      "exact_risk": false,
+      "refs": ["mara card", "repair studio plate", "queue token reference"],
+      "prompt": "Unedited smartphone front-camera video, vertical 9:16, filmed by Mara herself in the same lived-in repair studio. Use the creator's own phone view, so no phone appears in frame. Mara Bennett is the same clearly deep brown skinned woman from the character card, with short natural curls, dark eyes, navy work shirt, and oatmeal apron. Keep her face straight to the lens and in the upper half of frame. Shot S01: she starts with {{line.L1}} and gestures toward the check-in table. Jump cut with a small framing change. Shot S02: she lays out blank queue tags and says {{line.L2}}. Natural room light, slight hand wobble, phone sensor noise and HDR, real skin, no bokeh, no color grade, no readable text, no real brands. Native sound only: her voice, paper movement, light room tone."
+    },
+    {
+      "id": "U2",
+      "t0": 7,
+      "t1": 15,
+      "len_s": 8,
+      "shots": ["S03", "S04"],
+      "exact_risk": true,
+      "refs": ["product image", "mara card", "repair studio plate"],
+      "prompt": "Dedicated product unit, unedited smartphone footage in the same repair studio. First, rear-camera insert for {{action.S03}}. Then cut to Mara's front-camera selfie, with her face straight to the lens and fully visible, doing {{action.S04}} and saying exactly: {{line.L3}}. Speak the brand as {{product.phonetic}}. Keep {{product.visual}} consistent with the supplied product reference, unmirrored and undistorted. The voice line must be a full, natural sentence with a clear reason for use and one page-supported claim. Flat available light, slight phone sensor noise, real skin, no color grade, no readable background text. Native sound only: voice, room tone, and natural handling sound. Do not add voiceover."
+    },
+    {
+      "id": "U3",
+      "t0": 15,
+      "t1": 25,
+      "len_s": 10,
+      "shots": ["S05", "S06", "S07"],
+      "exact_risk": false,
+      "refs": ["mara card", "repair studio plate", "queue token reference"],
+      "prompt": "Unedited smartphone video in the same repair studio, with available cloudy morning light and consistent phone exposure. Shot S05: Mara faces the front camera, straightens the slightly jumbled blank queue tags, and says {{line.L5}}. Use a small jump-cut reframing. Shot S06: she gestures toward one ordinary item awaiting safe inspection and says {{line.L6}}. Shot S07: quick rear-camera insert of the ready check-in table and clear work area while she says {{line.L7}}. Keep Mara's identity, clothing, and location consistent. Amateur handheld movement, slight phone noise and HDR, no bokeh, no color grade, no readable text, no logos. Native sound: Mara's voice, paper movement, light footsteps, and room tone. Do not add voiceover."
+    },
+    {
+      "id": "U4",
+      "t0": 25,
+      "t1": 30,
+      "len_s": 5,
+      "shots": ["S08", "S09"],
+      "exact_risk": false,
+      "refs": ["mara card", "repair studio plate", "product image"],
+      "prompt": "Unedited smartphone front-camera video in the same repair studio. Shot S08: Mara gives a warm look toward the entry hall and says {{line.L8}}. Shot S09: she turns back to the lens, with the check-in area ready, does {{action.S09}}, and says {{line.L9}}. Keep her face clear and consistent with the character card, with the product stable and matching its reference. Casual phone framing, flat available light, natural skin texture, slight sensor noise, no visible phone, no cinematic finish, no readable background text. Native sound only: Mara's voice, room tone, and faint movement in the hall. Do not add voiceover."
+    }
+  ],
+  "music": [
+    {
+      "section": "whole_video",
+      "t0": 0,
+      "t1": 30,
+      "brief": "No score by default. If the buyer requests a music bed, use a very quiet, simple lo-fi loop that feels native to a creator post and stays well below the phone-recorded voice. Do not add a polished brand sting."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 7,
+      "sound": "natural handling sound from the product, only if it is genuinely present during use",
+      "why": "Let the real product moment register without inventing a sound or making it feel like a commercial."
+    },
+    {
+      "t": 22,
+      "sound": "a single light paper shuffle or quiet footstep from the studio",
+      "why": "Keep the room present during the practical proof beat without drawing attention away from Mara."
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "mara",
+      "plan": "Use Mara's natural North American voice from the front-camera performance throughout. Keep the product line in its dedicated product unit. Do not add narration, a second speaker, or a polished voice replacement."
+    }
+  ],
+  "captions": {
+    "font": "Montserrat ExtraBold",
+    "size": "6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFE24A, the word currently spoken, with no scaling pop",
+    "shadow": "hard 5px black stroke plus 0 3px 0 rgba(0,0,0,.5)",
+    "position": "centre, 60% down the frame, clear of the chin and platform UI safe zone",
+    "max_words_on_screen": 3,
+    "box": false,
+    "case": "sentence case, no end punctuation",
+    "hook_text": "Native TikTok-style white rounded box with black text at the top 18% of frame, from 0 to 3 seconds only. Write a short lowercase post title that names the busy pre-opening moment without making a product claim.",
+    "stickers": "One timestamp sticker in the platform's own style during the propped time-passage beat. Render in post, keep it legible, and do not show a fabricated phone status bar."
+  },
+  "post_text": [
+    {
+      "t0": 27,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline_or_line.L9}}",
+      "style": "Montserrat ExtraBold, white, centred in a clear area above the check-in table, fade up over 6 frames. Keep all rendered text crisp and legible."
+    }
+  ],
+  "qa": [
+    "The video stays in one repair studio location with no cinematic lighting, camera moves, or color grade.",
+    "Mara matches her character card in every frame, with clearly deep brown skin, short natural curls, and consistent clothing.",
+    "Mara's face stays toward the front camera during selfie shots and remains visible when the product is shown.",
+    "The product matches the supplied reference in shape, color, label, and orientation, and is never mirrored.",
+    "There is only one product unit in the scene unless product.scale or product.use_moments explicitly requires otherwise.",
+    "The product action is physically plausible for the selected archetype and product scale.",
+    "The spoken product line names the product, gives a real reason Mara uses it, and uses exactly one claim from product.benefits without strengthening it.",
+    "The product name is spoken only in the dedicated product unit.",
+    "Every spoken line is a complete, natural sentence, except at most one short reaction line under five words per 30 seconds.",
+    "With the screen off, the core script makes clear who Mara is, what she is preparing, why the product fits her routine, and what the viewer can do next.",
+    "No generated text, pseudo-branding, logos, signs, readable notebook writing, or readable tool markings appear in the scene.",
+    "Captions follow the UGC style, show no more than three words at once, and remain inside safe areas.",
+    "The CTA is spoken by Mara and does not add an unsupported product benefit."
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "phonetic": "RED BULL SHUG-er-free",
+      "short_name": "the can",
+      "visual": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls",
+      "archetype": "ingested",
+      "scale": "hand",
+      "benefits": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "tagline": "Wiiings without sugar",
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ]
+    },
+    "lines": {
+      "L1": "The last few minutes before our repair cafe opens are always a little chaotic.",
+      "L2": "I set out the queue tags first, so everyone knows where to start when they walk in.",
+      "L3": "I use Red Bull Sugarfree during setup because caffeine helps to improve concentration and increase alertness.",
+      "L4": "I keep the tags here and leave the path to the workbenches clear.",
+      "L5": "I somehow mixed up my own queue, so I am fixing that before anyone notices.",
+      "L6": "We just got one more repair request, so I am making room on the bench.",
+      "L7": "I check that every visitor has a clear place to begin and room to work safely.",
+      "L8": "It feels good when neighbors can learn a small fix and keep something useful in use.",
+      "L9": "The table is ready, and if you want to learn more about Red Bull Sugarfree, take a look."
+    },
+    "actions": {
+      "S03": "Mara's hand places a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls on the clean break-nook side table, upright and with its identifying surface toward the camera",
+      "S04": "Mara holds a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls at chest height after using it as directed, its identifying surface facing the lens, with no exaggerated reaction",
+      "S09": "a slim silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls rests upright on the break-nook side table beside Mara's notebook, its identifying surface toward the lens"
+    }
+  },
+  "asset_urls": {
+    "mara": "assets/mara.jpg",
+    "repair_studio": "assets/repair_studio.jpg",
+    "queue_tokens": "assets/queue_tokens.jpg",
+    "repair_bell": "assets/repair_bell.jpg",
+    "lantern_patch": "assets/lantern_patch.jpg"
+  }
+}

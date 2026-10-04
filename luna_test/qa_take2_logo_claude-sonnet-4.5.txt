@@ -1,0 +1,9 @@
+```json
+{
+  "defects": [
+    "Readable text 'ember' visible on the mug/cup product, which is not the allowed text (only HALCYON and 27 permitted)",
+    "Brand name or logo text present on product"
+  ],
+  "pass": false
+}
+```

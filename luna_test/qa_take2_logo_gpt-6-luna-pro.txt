@@ -1,0 +1,1 @@
+{"defects":["A glowing oval ring appears detached beneath the mug’s base, with no visible support or charging coaster."],"pass":false}

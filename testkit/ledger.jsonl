@@ -36,3 +36,8 @@
 {"t": 1790762843.504684, "tag": "owl2/m1", "model": "elevenlabs-music", "secs": 13.0, "usd": 0.1079, "out": "music/s1.mp3"}
 {"t": 1790762844.455241, "tag": "owl2/m4", "model": "elevenlabs-music", "secs": 6.0, "usd": 0.0498, "out": "music/s4.mp3"}
 {"t": 1790762847.0367591, "tag": "owl2/m2", "model": "elevenlabs-music", "secs": 9.0, "usd": 0.0747, "out": "music/s2.mp3"}
+{"t": 1790763478.1735392, "tag": "bake/mini-lip", "model": "2.0-mini", "res": "720p", "duration": 6, "usd": 0.66, "id": "5gjbt5c17srmr0d0y78a0ezd6c", "out": "bake/lip_mini.mp4", "secs": 105}
+{"t": 1790763500.5062542, "tag": "bake/mini", "model": "2.0-mini", "res": "720p", "duration": 8, "usd": 0.88, "id": "bzbvntvyqxrmw0d0y78b057pw4", "out": "bake/U2_mini.mp4", "secs": 127}
+{"t": 1790763518.875442, "tag": "bake/fast", "model": "2.0-fast", "res": "720p", "duration": 8, "usd": 1.36, "id": "nwe9y241dsrmy0d0y78bbkgg1c", "out": "bake/U2_fast.mp4", "secs": 145}
+{"t": 1790763737.817888, "tag": "bake/kling", "usd": 1.344, "out": "bake/U2_kling.mp4"}
+{"t": 1790763755.052866, "tag": "bake/wan", "usd": 0.8, "out": "bake/U2_wan.mp4"}

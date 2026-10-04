@@ -1,0 +1,989 @@
+{
+  "id": "ugc-02-repair-cafe",
+  "style": "ugc",
+  "title": "One More Wobble",
+  "version": "1.0",
+  "runtime_s": 30,
+  "durations_supported": [
+    15,
+    30,
+    45,
+    60
+  ],
+  "aspect": "9:16",
+  "logline": "At a volunteer repair cafe just before the doors open, a practical, funny creator documents the last wobble in a community chair and explains why {{product.name}} belongs in her long project days.",
+  "narrator": null,
+  "fit": {
+    "archetypes": {
+      "ingested": [
+        "good",
+        "A hand-sized product fits naturally into a volunteer's long workday, with a safe, ordinary use moment at the bench."
+      ],
+      "applied": [
+        "good",
+        "Personal-care products can sit with the creator's workday essentials and be used during a quick pause."
+      ],
+      "worn": [
+        "good",
+        "Wearables and clothing suit a hands-on volunteer setting and can be shown in a natural adjustment."
+      ],
+      "handheld": [
+        "great",
+        "Small tools, devices, and accessories make sense at a repair bench and have clear handheld demonstration moments."
+      ],
+      "carried": [
+        "great",
+        "Bags and portable cases naturally belong beside the volunteer's station and can be picked up or worn."
+      ],
+      "home": [
+        "stretch",
+        "Small household items can be shown in a community workshop, but large furniture or fixtures do not fit the quick testimonial."
+      ],
+      "consumable": [
+        "good",
+        "Refills and packaged supplies fit a volunteer workbench, provided their use is safe and clear."
+      ]
+    },
+    "avoid": [
+      "products for children",
+      "alcohol or products that would impair safe tool use",
+      "products whose use requires a clinical setting or specialist supervision",
+      "large furniture, built-in fixtures, or products that cannot be shown convincingly in a small workshop"
+    ]
+  },
+  "world_bible": {
+    "lore": [
+      "The fictional Harborlight Repair Cafe borrows the back room of a neighborhood arts center once a month. Residents bring in ordinary objects, and volunteers help them decide whether a repair is possible.",
+      "Mara is a regular volunteer who likes giving useful things another try. Today she is tightening the legs on a donated wooden chair before the doors open.",
+      "Her friend Devon is setting out paper intake tags just beyond the selfie frame. They keep the mood easy, even when a repair takes longer than expected.",
+      "The creator records herself on her own phone between tasks. The room stays the same from start to finish, with no crew, no staged lighting, and no polished commercial coverage."
+    ],
+    "locations": {
+      "workshop": {
+        "foreground": [
+          "a scuffed wooden workbench with a shallow vise and a few pale sanding marks",
+          "a folded oatmeal-colored rag beside a plain metal tray",
+          "the wooden chair leg Mara is repairing, with one small clamp and no readable labels"
+        ],
+        "midground": [
+          "a muted grey tool chest with plain unmarked drawers",
+          "a stack of blank paper intake tags with faint pencil lines and no readable writing",
+          "a chipped enamel mug holding plain pencils with unprinted barrels",
+          "a folding table with two repaired household objects waiting for their owners"
+        ],
+        "background": [
+          "a faded community notice board with blank cards and no readable writing",
+          "a high workshop window showing a soft, overcast morning",
+          "an open doorway toward a multipurpose room with folded tables and mismatched chairs",
+          "a plain wall clock with no legible numerals or brand marks"
+        ]
+      }
+    },
+    "personal_props": {
+      "mara": [
+        "a soft grey work apron with a small patched pocket and no logo",
+        "a plain elastic hair tie around her wrist",
+        "a short carpenter pencil with no printed words",
+        "a faint stripe of sanding dust on one sleeve"
+      ],
+      "devon": [
+        "a faded navy overshirt with rolled cuffs and no logo",
+        "a plain stack of blank intake tags",
+        "a small ring of unmarked keys clipped at the waist"
+      ]
+    },
+    "signature_objects": [
+      {
+        "id": "repair_chair",
+        "name": "The community chair",
+        "prop_prompt": "Prop reference sheet on a plain warm-grey background, three views of the same modest wooden dining chair: front, side, and three-quarter. Honey-brown wood with worn rounded edges, one slightly loose rear leg, a simple flat seat, small scuffs from years of use, no upholstery, no labels, no logos, no text. Casual workshop object, photoreal, soft available-light appearance.",
+        "asset": "assets/repair_chair.jpg"
+      },
+      {
+        "id": "bench_vise",
+        "name": "The old bench vise",
+        "prop_prompt": "Prop reference sheet on a plain warm-grey background, three views of a compact old steel bench vise with chipped dull-blue paint, dark screw handle, light rust near the jaws, and no maker name, serial number, text, or logo. Practical used workshop tool, photoreal, flat available-light appearance.",
+        "asset": "assets/bench_vise.jpg"
+      },
+      {
+        "id": "intake_tags",
+        "name": "Blank intake tags",
+        "prop_prompt": "Prop reference sheet on a plain warm-grey background showing a small neat stack of blank cream paper repair intake tags, simple rectangular shape with one punched corner hole and faint pencil guide lines only. No legible writing, numbers, symbols, barcode, or logo. Photoreal, casual community-workshop object.",
+        "asset": "assets/intake_tags.jpg"
+      }
+    ],
+    "brand_system": [
+      {
+        "name": "Harborlight Repair Cafe",
+        "mark": "a simple outlined lantern beside a small open hand",
+        "colors": "faded navy and warm cream",
+        "appears_on": "a small cloth patch on a volunteer apron and an optional fabric banner in the multipurpose room",
+        "text_in_post": "the fictional name may appear only on the cloth patch if it is naturally visible; do not add readable signs or title cards"
+      }
+    ],
+    "wear_and_time": "A cool, overcast morning shortly before the monthly doors-open time. The workshop is in use but not staged: light sanding dust on the bench, a few tools out, a rumpled rag, and a chair that looks handled rather than freshly made. Over the time-passage insert, the chair goes from a slight wobble to sitting steady on the same worn floor.",
+    "sound_world": [
+      "room tone from a modest community workshop",
+      "soft scrape of sandpaper on wood",
+      "a clamp handle turning once",
+      "distant footsteps in the next room",
+      "paper tags rustling on a folding table",
+      "Mara's close, slightly roomy phone-mic voice",
+      "a small tap of the repaired chair leg against the floor"
+    ],
+    "product_adjacent": {
+      "ingested": [
+        "a small insulated lunch cooler beneath the workbench, with the product nestled beside reusable cold packs"
+      ],
+      "applied": [
+        "the product placed beside Mara's folded rag and personal workday essentials on the end of the bench"
+      ],
+      "worn": [
+        "the product laid beside Mara's apron on the clear end of the bench before she puts it on or adjusts it"
+      ],
+      "handheld": [
+        "the product placed within reach beside the bench vise, with no other branded objects nearby"
+      ],
+      "carried": [
+        "the product resting in the open side pocket of Mara's plain work bag beside the workbench"
+      ],
+      "home": [
+        "the product set up on the clear side table by the workshop doorway, where a small household item naturally belongs"
+      ],
+      "consumable": [
+        "the product's sealed package placed beside the plain metal parts tray on the workbench"
+      ]
+    }
+  },
+  "cast": [
+    {
+      "id": "mara",
+      "name": "Mara Ellis",
+      "role": "lead volunteer and creator",
+      "look": "woman, 32, North American, clearly warm medium-brown skin, dark curly hair gathered loosely back with flyaways, brown eyes, natural under-eye shadows, grey work apron over a faded navy cotton shirt, no visible makeup retouching",
+      "voice": "friendly, quick, wry, conversational, North American English",
+      "card_prompt": "Casual phone-photo identity reference on a plain workshop-grey wall, not a studio headshot. Mara Ellis, a 32-year-old North American woman with clearly warm medium-brown skin, not pale, dark curly hair loosely gathered back with flyaways, brown eyes, natural skin texture and slight under-eye shadows. She wears a grey work apron over a faded navy cotton shirt, with no logo or text. Three consistent views at the same scale: front, three-quarter, and profile. Available room light, slight phone sensor noise, ordinary candid expression, no retouching, no bokeh, no cinematic lighting, no text.",
+      "asset": "assets/mara.jpg"
+    },
+    {
+      "id": "devon",
+      "name": "Devon Price",
+      "role": "fellow volunteer, usually heard or seen briefly in the background",
+      "look": "man, 35, North American, Black, deep brown skin, close-cropped hair, short beard, faded navy overshirt with rolled cuffs, no logo",
+      "voice": "easygoing, lightly amused, North American English",
+      "card_prompt": "Casual phone-photo identity reference on a plain workshop-grey wall, not a studio headshot. Devon Price, a 35-year-old North American Black man with deep brown skin, close-cropped hair, and a short beard. He wears a faded navy overshirt with rolled cuffs and no logo. Three consistent views at the same scale: front, three-quarter, and profile. Available room light, slight phone sensor noise, ordinary candid expression, no retouching, no bokeh, no cinematic lighting, no text.",
+      "asset": "assets/devon.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": "workshop",
+      "name": "Harborlight Repair Cafe workshop",
+      "plate_prompt": "Unedited smartphone video frame, vertical 9:16, an empty neighborhood community repair workshop on an overcast morning before opening. A scuffed wooden workbench and compact tool chest, a simple wooden chair with one slightly loose rear leg, a folding table with a few household objects, a high window with soft grey daylight, a doorway toward a multipurpose room. Lived-in and a little messy, muted real-world colors, flat available light, phone sensor noise, phone HDR, no bokeh, no cinematic lighting, no colour grade. Blank tags and blank walls, no readable text, no real brands, no people.",
+      "asset": "assets/workshop.jpg"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "tier": "core",
+      "t": "0 to 3",
+      "min_s": 2,
+      "max_s": 3,
+      "summary": "Mara names the small repair problem she is working on, with an immediate visual of the chair moving on the floor.",
+      "shots": [
+        "S01"
+      ]
+    },
+    {
+      "id": "setup",
+      "tier": "standard",
+      "t": "3 to 6",
+      "min_s": 2,
+      "max_s": 4,
+      "summary": "She explains that the workshop is about to open and gives the chair a quick practical check.",
+      "shots": [
+        "S02"
+      ]
+    },
+    {
+      "id": "product_moment",
+      "tier": "core",
+      "t": "5 to 12",
+      "min_s": 4,
+      "max_s": 7,
+      "summary": "The product enters the phone frame, gets a clear held beat, and Mara gives a natural first-person product line with a page-listed benefit.",
+      "shots": [
+        "S03",
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "id": "turn",
+      "tier": "standard",
+      "t": "12 to 17",
+      "min_s": 3,
+      "max_s": 5,
+      "summary": "Mara notices the chair still needs one small adjustment and makes it without losing her conversational tone.",
+      "shots": [
+        "S06"
+      ]
+    },
+    {
+      "id": "complication",
+      "tier": "extended",
+      "t": "17 to 21",
+      "min_s": 3,
+      "max_s": 5,
+      "summary": "A quick test reveals a remaining little wobble, prompting a small laugh and one last adjustment.",
+      "shots": [
+        "S07"
+      ]
+    },
+    {
+      "id": "second_proof",
+      "tier": "extended",
+      "t": "21 to 26",
+      "min_s": 3,
+      "max_s": 5,
+      "summary": "A propped-phone time passage shows the repair progressing while Mara continues her project-day routine.",
+      "shots": [
+        "S08"
+      ]
+    },
+    {
+      "id": "payoff",
+      "tier": "core",
+      "t": "22 to 27",
+      "min_s": 3,
+      "max_s": 5,
+      "summary": "Mara checks the finished repair and tells the viewer what changed for her.",
+      "shots": [
+        "S09"
+      ]
+    },
+    {
+      "id": "character_world",
+      "tier": "extended",
+      "t": "25 to 28",
+      "min_s": 2,
+      "max_s": 4,
+      "summary": "Devon crosses the background with blank intake tags, giving the space a brief, lived-in community moment.",
+      "shots": [
+        "S10"
+      ]
+    },
+    {
+      "id": "cta",
+      "tier": "core",
+      "t": "27 to 30",
+      "min_s": 2,
+      "max_s": 3,
+      "summary": "Mara looks straight at the lens and offers a simple, unforced invitation to consider the product.",
+      "shots": [
+        "S11"
+      ]
+    },
+    {
+      "id": "emotional_button",
+      "tier": "extended",
+      "t": "28 to 30",
+      "min_s": 1,
+      "max_s": 2,
+      "summary": "The chair sits steady as the room gets ready to welcome its next owner.",
+      "shots": [
+        "S11"
+      ]
+    }
+  ],
+  "script": [
+    {
+      "id": "L1",
+      "t": "0.5 to 2.6",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S01",
+      "tier": "core",
+      "beat": "hook",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Hook the viewer with the specific repair problem Mara is facing in this workshop.",
+      "delivery": "direct to lens, brisk and lightly amused",
+      "max_words": 8,
+      "rules": "Use one complete natural sentence. Keep the problem specific to the chair and do not mention product benefits."
+    },
+    {
+      "id": "L2",
+      "t": "3.3 to 5.2",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S02",
+      "tier": "standard",
+      "beat": "setup",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Explain that Mara is finishing a repair before the community workshop opens.",
+      "delivery": "casual, as if updating a friend",
+      "max_words": 12,
+      "rules": "Use one complete natural sentence. Do not invent a product claim."
+    },
+    {
+      "id": "L3",
+      "t": "7.0 to 10.8",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S05",
+      "tier": "core",
+      "beat": "product_moment",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Name {{product.name}} or its natural spoken short form, explain why Mara uses it during long repair projects, and weave in one verbatim page claim.",
+      "delivery": "warm, matter-of-fact, speaking to the front camera",
+      "max_words": 28,
+      "rules": "Use one complete sentence. Use one exact claim from product.benefits and do not add an outcome, health promise, or performance claim. This is the dedicated product line unit, so the creator may speak the brand name here. Keep the product visibly held for at least two seconds."
+    },
+    {
+      "id": "L4",
+      "t": "12.7 to 15.2",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S06",
+      "tier": "standard",
+      "beat": "turn",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Acknowledge the repair still needs one small adjustment, keeping the testimonial grounded and unpolished.",
+      "delivery": "small amused reaction, then practical",
+      "max_words": 10,
+      "rules": "Use one complete natural sentence. Do not imply that the product repaired the chair."
+    },
+    {
+      "id": "L5",
+      "t": "17.2 to 19.4",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S07",
+      "tier": "extended",
+      "beat": "complication",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Give the viewer a brief human reaction when the chair still wobbles.",
+      "delivery": "light, candid, smiling at herself",
+      "max_words": 7,
+      "rules": "Use one complete sentence, not a fragment. Keep the reaction under five words when practical."
+    },
+    {
+      "id": "L6",
+      "t": "22.2 to 24.8",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S09",
+      "tier": "core",
+      "beat": "payoff",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "State the visible repair payoff and connect it to Mara finishing the task before opening.",
+      "delivery": "pleased but restrained, direct to lens",
+      "max_words": 10,
+      "rules": "Use one complete natural sentence. The payoff must come from the visible repair, not from an unsupported product claim."
+    },
+    {
+      "id": "L7",
+      "t": "23.0 to 25.7",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S09",
+      "tier": "extended",
+      "beat": "second_proof",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Give one additional product-related reason drawn from a separate product.benefits claim, or explain a routine use moment without adding a claim.",
+      "delivery": "conversational, still doing the task",
+      "max_words": 16,
+      "rules": "Use one complete natural sentence. If a benefit is stated, it must be verbatim from product.benefits. Do not repeat the claim from L3."
+    },
+    {
+      "id": "L8",
+      "t": "25.2 to 27.2",
+      "speaker": "devon",
+      "on_camera": false,
+      "shot": "S10",
+      "tier": "extended",
+      "beat": "character_world",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Add a short, friendly background observation that makes the repair cafe feel lived in.",
+      "delivery": "offhand, slightly amused",
+      "max_words": 8,
+      "fixed_line": "Someone's going to be happy to get this back."
+    },
+    {
+      "id": "L9",
+      "t": "27.4 to 29.7",
+      "speaker": "mara",
+      "on_camera": true,
+      "shot": "S11",
+      "tier": "core",
+      "beat": "cta",
+      "sentences": [
+        1,
+        1
+      ],
+      "line_intent": "Offer a direct, friendly invitation to consider the product in the viewer's own routine.",
+      "delivery": "simple, low-pressure, looking into the lens",
+      "max_words": 9,
+      "fixed_line": "If it fits your routine, give it a try."
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "t0": 0,
+      "t1": 3,
+      "beat": "hook",
+      "framing": "front-camera selfie close-up",
+      "camera": "phone held at arm's length with small natural wobble",
+      "action": "Mara looks straight into her own phone lens while the wooden chair shifts slightly on the floor behind her.",
+      "product_state": "absent",
+      "audio": "Mara's close phone-mic voice, light workshop room tone",
+      "caption": "{{line.L1}}",
+      "refs": [
+        "mara",
+        "workshop",
+        "repair_chair"
+      ],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie video frame, vertical 9:16, filmed by Mara herself in the Harborlight Repair Cafe workshop. Mara is the same woman from the character sheet: 32, clearly warm medium-brown skin, dark curly hair loosely gathered back with flyaways, brown eyes, grey work apron over a faded navy cotton shirt. Her face is straight on to the lens, upper half of frame, headroom slightly tight, natural skin texture and phone HDR. The wooden chair shifts slightly in the background. Flat overcast window light and ordinary room light, mild phone sensor noise, amateur candid framing, not cinematic, no bokeh, no colour grade, no readable text, no logos.",
+      "dressing": [
+        "scuffed wooden workbench",
+        "plain pencil barrels in an enamel mug",
+        "blank paper intake tags"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S02",
+      "t0": 3,
+      "t1": 5.5,
+      "beat": "setup",
+      "framing": "front-camera selfie medium close-up",
+      "camera": "handheld reframe with a small change in crop",
+      "action": "Mara turns the selfie frame a little to show the chair and workbench, then looks back to the lens.",
+      "product_state": "absent",
+      "audio": "Mara speaking, soft paper rustle from the next table",
+      "caption": "{{line.L2}}",
+      "refs": [
+        "mara",
+        "workshop",
+        "repair_chair"
+      ],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie video frame, vertical 9:16, same workshop and same overcast morning light as the previous shot. Mara's face remains straight on to the lens, clearly warm medium-brown skin, dark curly hair loosely tied back with flyaways, brown eyes, grey apron and faded navy shirt. She has reframed slightly to include the wooden chair and scuffed bench behind her. Natural skin texture, slight phone sensor noise, flat available light, ordinary messy workshop, not cinematic, no bokeh, no colour grade, blank tags, no readable text, no logos.",
+      "dressing": [
+        "a folded oatmeal rag",
+        "the wooden chair leg near the bench",
+        "a plain metal tray"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S03",
+      "t0": 5.5,
+      "t1": 7,
+      "beat": "product_moment",
+      "framing": "front-camera selfie with product entering frame",
+      "camera": "one-handed handheld lift, no digital zoom",
+      "action": "Mara brings the product into the selfie frame at a comfortable arm's length and keeps her face visible beside it.",
+      "product_state": "reveal",
+      "audio": "room tone and natural handling sound if present",
+      "caption": "",
+      "refs": [
+        "mara",
+        "product",
+        "workshop"
+      ],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie frame in the same repair workshop. Mara's face stays straight on to the lens and clearly matches the character card: warm medium-brown skin, dark curly hair loosely tied back, brown eyes, grey apron over faded navy. {{action}}. Keep the product at least 30 cm from the wide phone lens so it does not bend or bulge. Keep its reference appearance accurate and its label unmirrored. Available workshop light, ordinary phone HDR and mild sensor noise, no bokeh, no colour grade, no extra fingers, no readable background text.",
+      "dressing": [
+        "scuffed workbench",
+        "plain metal tray",
+        "blank intake tags"
+      ],
+      "product_role": "reveal",
+      "product_action": {
+        "ingested": "Mara brings {{product.visual}} into the selfie frame upright at arm's length, keeping her face visible beside it and the front design unmirrored",
+        "applied": "Mara brings {{product.visual}} into the selfie frame upright at arm's length, keeping her face visible beside it and the front design unmirrored",
+        "worn": "Mara brings {{product.visual}} into the selfie frame while wearing or holding it naturally, keeping her face visible beside it and the front design unmirrored",
+        "handheld": "Mara brings {{product.visual}} into the selfie frame upright at arm's length, keeping her face visible beside it and its front design unmirrored",
+        "carried": "Mara lifts {{product.visual}} from the plain work bag beside her and brings it into the selfie frame, keeping her face visible beside it",
+        "home": "Mara turns the selfie view toward {{product.visual}} set up on the small side table by the workshop doorway, then brings her face back into frame",
+        "consumable": "Mara brings the sealed package of {{product.visual}} into the selfie frame upright at arm's length, keeping her face visible beside it and the front design unmirrored"
+      }
+    },
+    {
+      "id": "S04",
+      "t0": 7,
+      "t1": 9,
+      "beat": "product_moment",
+      "framing": "close front-camera product hold",
+      "camera": "handheld, product held steady at least 30 cm from lens",
+      "action": "Mara holds the product beside her face for a clear two-second look, then makes a small natural adjustment to the framing.",
+      "product_state": "hero, front design visible",
+      "audio": "Mara continues speaking, with only a quiet native handling sound",
+      "caption": "",
+      "refs": [
+        "mara",
+        "product"
+      ],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie video frame, vertical 9:16. Mara's face is straight on to the lens and clearly matches the character card: warm medium-brown skin, dark curly hair loosely tied back with flyaways, brown eyes, grey apron and faded navy shirt. {{action}}. Product stays upright, at least 30 cm from the lens, with its front design unmirrored and accurate to the product reference. Face and product both remain clearly visible. Flat workshop light, phone sensor noise, mild HDR, no cinematic lighting, no bokeh, no colour grade, no extra fingers.",
+      "dressing": [
+        "plain grey work apron",
+        "softly visible workbench",
+        "no extra branded objects"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "Mara holds {{product.visual}} upright beside her face for a clear two-second product view, four fingers wrapped behind it and thumb resting naturally on the side",
+        "applied": "Mara holds {{product.visual}} beside her face for a clear two-second product view, then opens or prepares it only as its normal use allows",
+        "worn": "Mara holds a clear view of {{product.visual}} while wearing it naturally, then makes one small comfortable adjustment",
+        "handheld": "Mara holds {{product.visual}} upright beside her face for a clear two-second product view, four fingers wrapped behind it and thumb resting naturally on the side",
+        "carried": "Mara holds {{product.visual}} beside her face for a clear two-second product view, with its strap or handle resting naturally in her hand",
+        "home": "Mara keeps her face in the selfie frame beside {{product.visual}} in its natural setup on the small side table",
+        "consumable": "Mara holds the sealed package of {{product.visual}} upright beside her face for a clear two-second product view, keeping its front design unmirrored"
+      }
+    },
+    {
+      "id": "S05",
+      "t0": 9,
+      "t1": 12,
+      "beat": "product_moment",
+      "framing": "front-camera selfie close-up",
+      "camera": "handheld with a slight natural wobble",
+      "action": "Mara gives the product line to the lens while keeping the product in view, then lowers it toward the clear end of the workbench.",
+      "product_state": "in use or held naturally, front design visible",
+      "audio": "dialogue and quiet workshop room tone",
+      "caption": "{{line.L3}}",
+      "refs": [
+        "mara",
+        "product",
+        "workshop"
+      ],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie frame, vertical 9:16. Mara looks straight at the lens, face fully visible and matching the character card: clearly warm medium-brown skin, dark curly hair gathered loosely back, brown eyes, grey work apron over a faded navy shirt. {{action}}. Keep her face and the product both legible, with the product held at least 30 cm from the phone lens and its front design unmirrored. Flat available workshop light, real skin texture, slight phone sensor noise, no bokeh, no colour grade, no readable text in the room.",
+      "dressing": [
+        "scuffed bench",
+        "plain metal tray",
+        "folded rag"
+      ],
+      "product_role": "in_use",
+      "product_action": {
+        "ingested": "Mara holds {{product.visual}} naturally at chest height while speaking, then lowers it toward the clear end of the bench without showing an exaggerated reaction",
+        "applied": "Mara uses {{product.visual}} on herself only as directed by its ordinary intended use, then holds it at chest height while speaking",
+        "worn": "Mara wears {{product.visual}} naturally and makes one small adjustment while explaining her routine",
+        "handheld": "Mara demonstrates {{product.visual}} in one simple, ordinary task-related motion, then keeps it visible at chest height",
+        "carried": "Mara slips {{product.visual}} into or takes it from her plain work bag in one natural motion, keeping its front design visible",
+        "home": "Mara shows {{product.visual}} in its normal setup on the small side table while explaining how it fits her routine",
+        "consumable": "Mara opens or uses one unit of {{product.visual}} only as its package directs, then holds the remaining package naturally at chest height"
+      }
+    },
+    {
+      "id": "S06",
+      "t0": 12,
+      "t1": 16,
+      "beat": "turn",
+      "framing": "rear-camera handheld insert",
+      "camera": "quick flip to rear camera, hand held at bench height",
+      "action": "A close handheld insert shows Mara checking the chair leg and turning the small clamp one more time.",
+      "product_state": "background",
+      "audio": "a quiet clamp turn, sandpaper scrape, and Mara speaking off camera",
+      "caption": "{{line.L4}}",
+      "refs": [
+        "workshop",
+        "repair_chair",
+        "bench_vise"
+      ],
+      "keyframe_prompt": "Unedited smartphone rear-camera video frame, vertical 9:16, close handheld view of Mara's hands checking the wooden chair leg on the scuffed workshop bench and turning a small clamp once. Real phone focus and ordinary phone HDR, slightly imperfect framing, flat available light, no cinematic depth of field, no bokeh, no colour grade, no readable text, no logos, hands anatomically natural.",
+      "dressing": [
+        "the chair's worn rounded edge",
+        "light sanding marks on the bench",
+        "a folded rag"
+      ],
+      "product_role": "background"
+    },
+    {
+      "id": "S07",
+      "t0": 16,
+      "t1": 20,
+      "beat": "complication",
+      "framing": "propped front-camera view",
+      "camera": "phone propped on the bench, fixed view",
+      "action": "Mara gives the chair a brief test; it shifts slightly, and she looks at the lens with a small self-aware smile.",
+      "product_state": "absent",
+      "audio": "chair leg taps the floor, Mara reacts naturally",
+      "caption": "{{line.L5}}",
+      "refs": [
+        "mara",
+        "workshop",
+        "repair_chair"
+      ],
+      "keyframe_prompt": "Unedited smartphone camera frame, vertical 9:16, phone propped on the workshop bench at ordinary eye level. Mara, matching the character card with clearly warm medium-brown skin, dark curly hair loosely tied back, brown eyes, grey apron and faded navy shirt, tests the wooden chair. The chair shifts a little on the worn floor. Mara gives a small candid smile toward the phone. Flat available workshop light, natural skin texture, phone HDR and mild sensor noise, no status bar, no clock, no icons, no bokeh, no colour grade, no readable text.",
+      "dressing": [
+        "scuffed workshop floor",
+        "plain tool chest",
+        "blank intake tags"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S08",
+      "t0": 20,
+      "t1": 22.5,
+      "beat": "second_proof",
+      "framing": "propped-phone time-passage view",
+      "camera": "phone propped on the bench, same fixed position",
+      "action": "A short, believable time-passage insert shows Mara working at the chair and moving around the same bench.",
+      "product_state": "background",
+      "audio": "native room tone with a few light workshop sounds",
+      "caption": "",
+      "refs": [
+        "mara",
+        "workshop",
+        "repair_chair",
+        "product"
+      ],
+      "keyframe_prompt": "Unedited smartphone camera frame, vertical 9:16, a brief realistic time-passage insert from the same propped phone position in the same repair workshop. Mara remains the same person from the character card as she works at the wooden chair. {{action}}. Keep one consistent workshop, same overcast light, ordinary phone sensor texture, no status bar, no clock, no icons, no bokeh, no colour grade, no readable text, no logos.",
+      "dressing": [
+        "the same scuffed workbench",
+        "the same chair and plain clamp",
+        "no newly appearing printed packaging"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} stays in one place on the clear end of the bench while Mara works in the same frame",
+        "applied": "{{product.visual}} stays in one place beside Mara's personal workday essentials while she works in the same frame",
+        "worn": "Mara wears {{product.visual}} naturally as she works in the same frame",
+        "handheld": "{{product.visual}} rests in one place beside the bench vise while Mara works in the same frame",
+        "carried": "{{product.visual}} stays in the open side pocket of Mara's plain work bag beside the bench while she works",
+        "home": "{{product.visual}} remains set up on the small side table by the doorway while Mara works in the same frame",
+        "consumable": "the package of {{product.visual}} stays in one place beside the plain metal tray while Mara works in the same frame"
+      }
+    },
+    {
+      "id": "S09",
+      "t0": 22.5,
+      "t1": 25.5,
+      "beat": "payoff",
+      "framing": "front-camera selfie medium close-up",
+      "camera": "handheld reframe back to Mara",
+      "action": "Mara looks directly into the front camera, then gives the repaired chair a small steadying tap.",
+      "product_state": "background",
+      "audio": "dialogue and a soft tap of wood against the floor",
+      "caption": "{{line.L6}} {{line.L7}}",
+      "refs": [
+        "mara",
+        "workshop",
+        "repair_chair",
+        "product"
+      ],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie frame, vertical 9:16, Mara's face straight on to the lens and clearly matching the character card: warm medium-brown skin, dark curly hair loosely tied back with flyaways, brown eyes, grey apron over faded navy shirt. The repaired wooden chair sits steady behind her, and {{action}}. Keep the same workshop and overcast available light, phone sensor noise, natural skin texture, no bokeh, no colour grade, no readable text, no logos.",
+      "dressing": [
+        "the repaired chair standing level",
+        "a folded rag on the bench",
+        "blank tags in the background"
+      ],
+      "product_role": "background",
+      "product_action": {
+        "ingested": "{{product.visual}} rests upright on the clear end of the workbench behind Mara, front design visible without dominating her face",
+        "applied": "{{product.visual}} rests beside Mara's workday essentials on the clear end of the workbench behind her",
+        "worn": "Mara wears {{product.visual}} naturally as she checks the steady chair",
+        "handheld": "{{product.visual}} rests beside the bench vise in the background while Mara checks the chair",
+        "carried": "{{product.visual}} rests in the open side pocket of Mara's plain work bag behind her",
+        "home": "{{product.visual}} remains set up on the small side table by the doorway behind Mara",
+        "consumable": "the package of {{product.visual}} rests beside the plain metal tray behind Mara"
+      }
+    },
+    {
+      "id": "S10",
+      "t0": 25.5,
+      "t1": 27.5,
+      "beat": "character_world",
+      "framing": "rear-camera handheld insert",
+      "camera": "quick turn toward the doorway",
+      "action": "Devon crosses the background with a stack of blank intake tags while the repaired chair stays in view.",
+      "product_state": "absent",
+      "audio": "Devon's line from just off camera, a soft shuffle of paper",
+      "caption": "{{line.L8}}",
+      "refs": [
+        "devon",
+        "workshop",
+        "repair_chair",
+        "intake_tags"
+      ],
+      "keyframe_prompt": "Unedited smartphone rear-camera video frame, vertical 9:16, a quick handheld view toward the workshop doorway. Devon, matching the character card as a 35-year-old Black North American man with deep brown skin, close-cropped hair, short beard, and faded navy overshirt, crosses the background carrying blank cream paper tags. The repaired wooden chair remains in the foreground. Flat room light, slight phone sensor noise, ordinary casual framing, no cinematic look, no bokeh, no colour grade, tags have no readable writing, no logos.",
+      "dressing": [
+        "the doorway to the multipurpose room",
+        "folded tables in the background",
+        "the repaired chair in the foreground"
+      ],
+      "product_role": "absent"
+    },
+    {
+      "id": "S11",
+      "t0": 27.5,
+      "t1": 30,
+      "beat": "cta",
+      "framing": "front-camera selfie close-up",
+      "camera": "handheld, steady enough to keep eye contact",
+      "action": "Mara looks straight at the lens for a simple CTA, with the repaired chair steady behind her.",
+      "product_state": "background or naturally held",
+      "audio": "Mara's phone-mic voice and workshop room tone",
+      "caption": "{{line.L9}}",
+      "refs": [
+        "mara",
+        "workshop",
+        "repair_chair",
+        "product"
+      ],
+      "keyframe_prompt": "Unedited smartphone front-camera selfie frame, vertical 9:16, Mara looks straight into the phone lens, face fully visible and matching the character card: clearly warm medium-brown skin, dark curly hair loosely tied back with flyaways, brown eyes, grey apron over faded navy shirt. The chair sits steady in the workshop behind her. {{action}}. Natural available light, ordinary phone HDR and sensor noise, casual imperfect framing, no bokeh, no cinematic lighting, no colour grade, no readable text, no logos.",
+      "dressing": [
+        "the repaired chair",
+        "the scuffed workbench",
+        "blank tags in the background"
+      ],
+      "product_role": "hero",
+      "product_action": {
+        "ingested": "{{product.visual}} rests upright on the clear end of the workbench behind Mara, with its front design facing the phone",
+        "applied": "{{product.visual}} rests beside Mara's workday essentials on the clear end of the workbench behind her",
+        "worn": "Mara wears {{product.visual}} naturally in the selfie frame",
+        "handheld": "Mara holds {{product.visual}} naturally at chest height beside her face, at least 30 cm from the phone lens",
+        "carried": "{{product.visual}} rests in the open side pocket of Mara's plain work bag beside the bench",
+        "home": "{{product.visual}} remains in its natural setup on the small side table by the workshop doorway",
+        "consumable": "the sealed package of {{product.visual}} rests beside the plain metal tray on the workbench behind Mara"
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "U1",
+      "t0": 0,
+      "t1": 7,
+      "len_s": 7,
+      "duration_use": "Use in 15, 30, 45, or 60 second edits as the opening unit.",
+      "shots": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "exact_risk": false,
+      "refs": [
+        "mara card",
+        "workshop plate",
+        "repair chair prop",
+        "S01 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16 unedited smartphone front-camera selfie video, filmed by Mara herself in one lived-in community repair workshop on an overcast morning. Flat available light, slight phone sensor noise and HDR, real skin texture, a little imperfect framing, no music, no crew, no cinematic look, no bokeh, no colour grade. Shot 1: Mara, matching @Image1, looks straight at the lens and says, \"{{line.L1}}\". The wooden chair shifts slightly behind her. Shot 2: she makes a small handheld reframe to include the chair and says, \"{{line.L2}}\". Shot 3: she brings {{action.S03}} into frame while keeping her face visible and says no new line. The product remains at least 30 cm from the wide phone lens, with its front design unmirrored. Native sound only. Clean camera frame, no status bar, no clock, no icons, no readable background text, no logos except the product."
+    },
+    {
+      "id": "U2",
+      "t0": 7,
+      "t1": 12,
+      "len_s": 5,
+      "duration_use": "Keep this short dedicated product unit in all edits. Extend with a held product view, not faster speech.",
+      "shots": [
+        "S04",
+        "S05"
+      ],
+      "exact_risk": true,
+      "refs": [
+        "product image",
+        "mara card",
+        "S04 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16 unedited smartphone front-camera selfie video in the same workshop. Mara's face stays straight on to the lens and matches @Image1. Shot 1: she holds {{action.S04}} for at least two seconds. Shot 2: she keeps her face and product visible and says, \"{{line.L3}}\". Speak the brand only in this dedicated unit, with pronunciation guided by {{product.phonetic}}. Keep the product accurate to the product reference, at least 30 cm from the phone lens, front design unmirrored, and never covering Mara's mouth. Natural phone wobble, available light, native voice and room tone only, no music, no bokeh, no colour grade, no readable background text."
+    },
+    {
+      "id": "U3",
+      "t0": 12,
+      "t1": 22.5,
+      "len_s": 10.5,
+      "duration_use": "Use the turn and repair test in 30 second and longer edits. In 15 second edits, retain only the clearest short visual from this unit if time permits.",
+      "shots": [
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "exact_risk": false,
+      "refs": [
+        "workshop plate",
+        "repair chair prop",
+        "bench vise prop",
+        "S06 keyframe as first frame"
+      ],
+      "prompt": "Vertical 9:16 unedited phone video, same workshop and same available morning light. Flip briefly to the rear camera for a handheld insert of Mara checking the chair and turning the clamp, with her line, \"{{line.L4}}\". Cut to a propped-phone view as the chair gives a small wobble and Mara reacts with, \"{{line.L5}}\". Include a short realistic time-passage view of Mara continuing her ordinary task. If the product is visible, use {{action.S08}} and keep it in the same place without changing its appearance. Native workshop sounds and creator voice only. No dramatic lighting, no bokeh, no colour grade, no status bar, no clock, no icons, no readable text, no logos except the product."
+    },
+    {
+      "id": "U4",
+      "t0": 22.5,
+      "t1": 30,
+      "len_s": 7.5,
+      "duration_use": "Use the payoff and direct CTA in every edit. The Devon background moment is optional and may be dropped before any core beat.",
+      "shots": [
+        "S09",
+        "S10",
+        "S11"
+      ],
+      "exact_risk": false,
+      "refs": [
+        "mara card",
+        "devon card",
+        "workshop plate",
+        "repair chair prop"
+      ],
+      "prompt": "Vertical 9:16 unedited smartphone video, same single workshop. Return to the front camera for Mara's face, straight to lens and matching @Image1, with the repaired chair steady behind her. She says, \"{{line.L6}}\" and, when duration permits, \"{{line.L7}}\". Flip briefly to the rear camera for Devon, matching @Image2, crossing the doorway with blank tags and saying, \"{{line.L8}}\". Return to Mara for a direct-to-lens CTA, \"{{line.L9}}\". Keep {{action.S11}} natural and physically plausible for the product archetype. Phone mic voice, room tone, and small workshop sounds only. No music, no visible phone, no cinematic lighting, no bokeh, no colour grade, no readable text, no status bar, no logos except the product."
+    }
+  ],
+  "music": [
+    {
+      "section": "full_video",
+      "t0": 0,
+      "t1": 30,
+      "brief": "No score by default. If the placement requires a faint lo-fi bed, keep it barely audible beneath dialogue and room tone, with no strong beat, dramatic build, or branded sound."
+    }
+  ],
+  "sfx": [
+    {
+      "t": 8,
+      "sound": "Use only the product's natural handling or use sound if it is clearly present in the recorded scene.",
+      "why": "A real small handling detail helps the held product moment feel like a creator's post rather than a polished advertisement."
+    },
+    {
+      "t": 21,
+      "sound": "A soft chair-leg tap against the workshop floor.",
+      "why": "The small sound makes the visible repair test feel immediate and believable."
+    }
+  ],
+  "voices": [
+    {
+      "speaker": "mara",
+      "plan": "Use Mara's natural front-camera voice throughout. Keep the phone-mic room tone and light breath sounds. In the dedicated product unit, pronounce the brand using product.phonetic."
+    },
+    {
+      "speaker": "devon",
+      "plan": "Use a brief off-camera native voice in the workshop. If the video model cannot deliver a stable voice, retain only the visual crossing and omit the line."
+    }
+  ],
+  "captions": {
+    "font": "Montserrat ExtraBold",
+    "size": "6% of frame height",
+    "color": "#FFFFFF",
+    "active_word": "#FFE24A, the word currently spoken, no scaling pop",
+    "shadow": "hard 5px black stroke plus 0 3px 0 rgba(0,0,0,.5)",
+    "box": false,
+    "position": "centre, 60% down the frame, clear of the chin and the platform UI safe zone",
+    "max_words_on_screen": 3,
+    "case": "sentence case, no end punctuation",
+    "hook_text": "native TikTok-style white rounded box with black text, top 18% of frame, 0 to 3 seconds only, written like a post title in lower case",
+    "stickers": "one timestamp sticker in the platform's own style for time passage, rendered in post"
+  },
+  "post_text": [
+    {
+      "t0": 0,
+      "t1": 3,
+      "text": "this chair had one last wobble",
+      "sub": "",
+      "style": "Native creator-style white rounded box with black text, positioned at the top 18% of frame, lower case, no end punctuation."
+    },
+    {
+      "t0": 20,
+      "t1": 22.5,
+      "text": "a little later",
+      "sub": "",
+      "style": "One small native platform-style timestamp sticker, rendered in post, with no other legible interface elements."
+    },
+    {
+      "t0": 27.5,
+      "t1": 30,
+      "text": "{{product.name}}",
+      "sub": "{{product.tagline_or_line.L3}}",
+      "style": "Small creator-style post text in clear space, Montserrat ExtraBold, white, with the same hard black stroke as captions. Do not add fabricated claims or a new slogan."
+    }
+  ],
+  "qa": [
+    "Every spoken line is a complete natural sentence, except that the optional Devon line may be omitted.",
+    "The core hook, product moment, payoff, and CTA remain in every duration version; shorten by dropping lower-tier beats, not by rushing or cutting words from a sentence.",
+    "The product line names the product or its natural spoken short form, says why Mara uses it, and includes one claim copied verbatim from product.benefits.",
+    "The brand is spoken only in the dedicated product unit, with pronunciation guided by product.phonetic.",
+    "The product held near the phone remains at least 30 cm from the lens, accurately shaped, and unmirrored.",
+    "Mara's face stays straight on to the lens during selfie shots and matches her character card, including clearly warm medium-brown skin.",
+    "All shots stay in the same repair workshop, with ordinary available light and casual phone-camera texture.",
+    "The propped-phone view has no status bar, clock, icons, readable generated text, or changing interface graphics.",
+    "No real-world logos, brands, or readable signs appear in the workshop.",
+    "No extra fingers or fused hands appear in product or repair close-ups.",
+    "The chair repair payoff is shown as a repair task and is never attributed to the product.",
+    "All product actions match the selected archetype and product scale."
+  ],
+  "example_fill": {
+    "product": {
+      "url": "https://www.redbull.com/in-en/energydrink/products/red-bull-sugarfree",
+      "name": "Red Bull Sugarfree",
+      "brand": "Red Bull",
+      "phonetic": "RED BULL SHUG-er-free",
+      "short_name": "the can",
+      "visual": "a slim 250 ml silver and sky-blue Red Bull Sugarfree can with the red wordmark and two red bulls, with the front design matching the product image",
+      "archetype": "ingested",
+      "scale": "hand",
+      "benefits": [
+        "Same benefits of the original Energy Drink, without sugar",
+        "Caffeine helps to improve concentration and increase alertness",
+        "B-group vitamins contribute to the reduction of tiredness and fatigue"
+      ],
+      "tagline": "Wiiings without sugar",
+      "use_moments": [
+        "before training or a race",
+        "long study or work session",
+        "late drive",
+        "pre-game or pre-event"
+      ]
+    },
+    "lines": {
+      "L1": "This chair still wobbles.",
+      "L2": "I'm trying to get this chair steady before the repair cafe opens.",
+      "L3": "I use Red Bull Sugarfree on long project days because caffeine helps to improve concentration and increase alertness.",
+      "L4": "I still need to turn this clamp once more.",
+      "L5": "Well, that still moved.",
+      "L6": "Now the chair sits steady, and I can open the workshop on time.",
+      "L7": "I also like that B-group vitamins contribute to the reduction of tiredness and fatigue.",
+      "L8": "Someone's going to be happy to get this back.",
+      "L9": "If it fits your routine, give it a try."
+    },
+    "actions": {
+      "S03": "Mara brings the slim 250 ml silver and sky-blue Red Bull Sugarfree can into the selfie frame upright at arm's length, keeping her face visible beside it and the front design unmirrored",
+      "S04": "Mara holds the slim 250 ml silver and sky-blue Red Bull Sugarfree can upright beside her face for a clear two-second product view, four fingers wrapped behind it and thumb resting naturally on the side",
+      "S05": "Mara holds the slim 250 ml silver and sky-blue Red Bull Sugarfree can naturally at chest height while speaking, then lowers it toward the clear end of the bench without showing an exaggerated reaction",
+      "S08": "the slim 250 ml silver and sky-blue Red Bull Sugarfree can stays in one place on the clear end of the bench while Mara works in the same frame",
+      "S09": "the slim 250 ml silver and sky-blue Red Bull Sugarfree can rests upright on the clear end of the workbench behind Mara, front design visible without dominating her face",
+      "S11": "the slim 250 ml silver and sky-blue Red Bull Sugarfree can rests upright on the clear end of the workbench behind Mara, with its front design facing the phone"
+    }
+  },
+  "asset_urls": {
+    "mara": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-02-repair-cafe/assets/mara.jpg",
+    "devon": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-02-repair-cafe/assets/devon.jpg",
+    "workshop": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-02-repair-cafe/assets/workshop.jpg",
+    "repair_chair": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-02-repair-cafe/assets/repair_chair.jpg",
+    "bench_vise": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-02-repair-cafe/assets/bench_vise.jpg",
+    "intake_tags": "https://farooqchisty-hub.github.io/magicfit-video-templates/bundle/templates/ugc-02-repair-cafe/assets/intake_tags.jpg"
+  }
+}

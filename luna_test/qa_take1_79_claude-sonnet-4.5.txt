@@ -1,0 +1,9 @@
+```json
+{
+  "defects": [
+    "Left hand anatomy error - thumb appears to have an extra segment or abnormal joint structure",
+    "Right hand finger count unclear - fingers appear merged or incorrectly rendered around the steering wheel"
+  ],
+  "pass": false
+}
+```
